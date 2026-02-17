@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const stats = [
   { value: "32%", label: "Avg. Property Value Increase" },
@@ -52,12 +53,12 @@ const steps = [
 ];
 
 const marketsList = [
-  { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties" },
-  { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils" },
-  { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces" },
-  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties" },
-  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences" },
-  { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing" },
+  { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties", image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
+  { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
+  { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
+  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties", image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=600&q=80" },
+  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences", image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" },
+  { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing", image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80" },
 ];
 
 const testimonials = [
@@ -106,6 +107,13 @@ export default function Home() {
     <>
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+          alt="Modern apartment building at dusk with warm lighting"
+          fill
+          className="object-cover opacity-20"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
           <div className="max-w-3xl">
@@ -152,16 +160,26 @@ export default function Home() {
       {/* Problem / Solution */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Utility Costs Are Eating Your Returns
-            </h2>
-            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-              If you&apos;re still paying bulk utility bills for your tenants, you&apos;re leaving money on the table.
-              Submetering lets each unit pay for what they actually use — cutting your operating costs,
-              increasing property value, and promoting conservation. It&apos;s not a nice-to-have anymore.
-              In many jurisdictions, it&apos;s the law.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative h-[400px] rounded-xl overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=800&q=80"
+                alt="High-rise apartment building representing utility cost challenges"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+                Utility Costs Are Eating Your Returns
+              </h2>
+              <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+                If you&apos;re still paying bulk utility bills for your tenants, you&apos;re leaving money on the table.
+                Submetering lets each unit pay for what they actually use — cutting your operating costs,
+                increasing property value, and promoting conservation. It&apos;s not a nice-to-have anymore.
+                In many jurisdictions, it&apos;s the law.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -226,13 +244,22 @@ export default function Home() {
               <Link
                 key={m.href}
                 href={m.href}
-                className="group bg-gray-50 hover:bg-navy rounded-xl p-8 transition-all duration-300"
+                className="group bg-gray-50 hover:bg-navy rounded-xl overflow-hidden transition-all duration-300"
               >
-                <div className="text-4xl mb-4">{m.icon}</div>
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-white mb-2 transition-colors">
-                  {m.name}
-                </h3>
-                <p className="text-gray-600 group-hover:text-gray-300 text-sm transition-colors">{m.description}</p>
+                <div className="relative h-40 overflow-hidden">
+                  <Image
+                    src={m.image}
+                    alt={m.name}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 group-hover:text-white mb-2 transition-colors">
+                    {m.name}
+                  </h3>
+                  <p className="text-gray-600 group-hover:text-gray-300 text-sm transition-colors">{m.description}</p>
+                </div>
               </Link>
             ))}
           </div>

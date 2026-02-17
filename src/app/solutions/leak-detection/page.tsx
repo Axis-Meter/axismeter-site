@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -33,6 +34,13 @@ export default function LeakDetectionPage() {
     <>
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&q=80"
+          alt="Water damage prevention with leak detection sensors"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
@@ -74,6 +82,14 @@ export default function LeakDetectionPage() {
       {/* The Problem */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative h-[300px] rounded-xl overflow-hidden mb-10">
+            <Image
+              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80"
+              alt="Water damage that could be prevented with leak detection"
+              fill
+              className="object-cover"
+            />
+          </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">
             Water Damage Is the #1 Property Insurance Claim
           </h2>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -35,6 +36,13 @@ export default function SolutionsPage() {
   return (
     <>
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          alt="Smart electrical meter panel and utility management"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
@@ -58,7 +66,14 @@ export default function SolutionsPage() {
                 key={s.href}
                 className={`rounded-xl p-8 flex flex-col ${s.highlight ? "bg-navy text-white ring-2 ring-accent" : "bg-gray-50"}`}
               >
-                <div className="text-5xl mb-6">{s.icon}</div>
+                <div className="relative h-48 -mx-8 -mt-8 mb-6 overflow-hidden rounded-t-xl">
+                  <Image
+                    src={s.icon === "⚡" ? "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" : s.icon === "💧" ? "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80" : "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80"}
+                    alt={s.title}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
                 {s.highlight && (
                   <span className="inline-block bg-accent text-navy text-xs font-bold px-3 py-1 rounded-full mb-4 w-fit">
                     FREE WITH EVERY INSTALL

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,6 +20,13 @@ export default function CondosPage() {
   return (
     <>
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"
+          alt="Modern condominium tower with glass facade"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">

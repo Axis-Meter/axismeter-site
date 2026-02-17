@@ -74,7 +74,15 @@ export function Navbar() {
             <Dropdown label="Resources" items={resources} />
           </div>
 
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex items-center gap-4">
+            <a
+              href="https://myaccount.axismeter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white transition-colors"
+            >
+              Log In
+            </a>
             <Link
               href="/contact"
               className="bg-accent hover:bg-accent-dark text-navy font-semibold px-6 py-2.5 rounded-lg transition-colors"
@@ -132,6 +140,15 @@ export function Navbar() {
             <Link href="/how-it-works" className="block py-2 text-gray-300 hover:text-white" onClick={() => setMobileOpen(false)}>How It Works</Link>
             <Link href="/about" className="block py-2 text-gray-300 hover:text-white" onClick={() => setMobileOpen(false)}>About</Link>
 
+            <a
+              href="https://myaccount.axismeter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block py-2 text-gray-300 hover:text-white"
+              onClick={() => setMobileOpen(false)}
+            >
+              Log In → My Account
+            </a>
             <Link
               href="/contact"
               className="block text-center bg-accent hover:bg-accent-dark text-navy font-semibold px-6 py-2.5 rounded-lg mt-4"

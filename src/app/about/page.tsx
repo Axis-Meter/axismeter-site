@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,6 +21,13 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+          alt="Modern professional office environment"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
@@ -39,6 +47,14 @@ export default function AboutPage() {
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto">
+            <div className="relative h-[300px] rounded-xl overflow-hidden mb-10">
+              <Image
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+                alt="Real estate investment and property management"
+                fill
+                className="object-cover"
+              />
+            </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">The Story Behind Axis Meter</h2>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
               <p>

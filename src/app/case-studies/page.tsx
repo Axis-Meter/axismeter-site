@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -11,6 +12,7 @@ const caseStudies = [
     title: "20-Unit Apartment Building in Toronto",
     type: "Residential Retrofit",
     icon: "🏠",
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
     challenge: "A 20-unit apartment building in Toronto's east end was spending $4,200/month on bulk electricity and water. The owner had been absorbing the cost for years, watching it climb annually while tenants had no incentive to conserve. Two water damage incidents in the previous year had cost an additional $35,000 in repairs.",
     solution: "Axis installed per-unit electricity and water meters across all 20 units, with leak and flood detection sensors in every bathroom, kitchen, and mechanical room. The entire process took 9 weeks from agreement to live billing.",
     results: [
@@ -27,6 +29,7 @@ const caseStudies = [
     title: "New Construction Condo — 45 Units",
     type: "Condo New Construction",
     icon: "🏙️",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
     challenge: "A developer building a 45-unit condominium in the GTA wanted to minimize maintenance fees to make units more competitive in presale. Similar projects in the area had maintenance fees of $0.65-0.75/sq ft — the developer wanted to come in significantly lower.",
     solution: "Axis was brought in during the design phase to integrate electricity and water submetering into the building plans. Meters were installed during construction, before drywall, with leak detection sensors placed throughout. The condo corporation launched with per-unit billing from day one.",
     results: [
@@ -43,6 +46,7 @@ const caseStudies = [
     title: "Mixed-Use Commercial Property",
     type: "Commercial Mixed-Use",
     icon: "🏢",
+    image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
     challenge: "A mixed-use property with 8 retail units on the ground floor and 12 residential apartments above was allocating utility costs using square footage estimates. Commercial tenants were subsidizing residential usage, leading to lease disputes. The owner was absorbing roughly $2,800/month in unrecovered costs.",
     solution: "Axis installed separate electricity and water meters for all 20 units — 8 commercial and 12 residential — with different billing rates for each tenant type. Leak detection sensors were placed throughout the building, with extra coverage in the ground-floor retail spaces.",
     results: [
@@ -61,6 +65,13 @@ export default function CaseStudiesPage() {
   return (
     <>
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=1920&q=80"
+          alt="Urban buildings representing real case study properties"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
@@ -80,11 +91,17 @@ export default function CaseStudiesPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
           {caseStudies.map((cs, i) => (
             <div key={i} className="border-b border-gray-200 pb-20 last:border-0">
-              <div className="flex items-center gap-4 mb-6">
-                <span className="text-5xl">{cs.icon}</span>
-                <div>
+              <div className="relative h-[280px] rounded-xl overflow-hidden mb-8">
+                <Image
+                  src={cs.image}
+                  alt={cs.title}
+                  fill
+                  className="object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute bottom-6 left-6">
                   <span className="text-sm font-semibold text-accent uppercase">{cs.type}</span>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">{cs.title}</h2>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-white">{cs.title}</h2>
                 </div>
               </div>
 

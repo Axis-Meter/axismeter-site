@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -61,6 +62,13 @@ export default function HowItWorksPage() {
   return (
     <>
       <section className="bg-navy relative overflow-hidden">
+        <Image
+          src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&q=80"
+          alt="Professional consultation and installation process"
+          fill
+          className="object-cover opacity-15"
+          priority
+        />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
@@ -83,6 +91,14 @@ export default function HowItWorksPage() {
             <div className="inline-block bg-accent/10 text-accent font-semibold px-4 py-2 rounded-full text-sm mb-4">
               TOTAL TIMELINE: 8-10 WEEKS
             </div>
+          </div>
+          <div className="relative h-[300px] rounded-xl overflow-hidden mb-16">
+            <Image
+              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&q=80"
+              alt="Professional meter installation and consultation process"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="space-y-16">
             {steps.map((s) => (
