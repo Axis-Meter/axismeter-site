@@ -1,0 +1,300 @@
+import Link from "next/link";
+
+const stats = [
+  { value: "32%", label: "Avg. Property Value Increase" },
+  { value: "18%", label: "Lower Operating Costs" },
+  { value: "100%", label: "Regulatory Compliant" },
+];
+
+const differentiators = [
+  {
+    icon: "💧",
+    title: "Free Leak & Flood Detection",
+    description:
+      "Every install comes with leak and flood detection at no extra cost. Catch water damage before it costs you thousands.",
+  },
+  {
+    icon: "💰",
+    title: "$0 Upfront Cost",
+    description:
+      "We own and maintain all equipment during the 20-year term. You pay nothing to get started — zero capital expenditure.",
+  },
+  {
+    icon: "🏢",
+    title: "Built by an Investor",
+    description:
+      "Founded by a real estate investor who saw the same problems you face. We understand your bottom line because it's our bottom line too.",
+  },
+  {
+    icon: "⚡",
+    title: "Live in 8–10 Weeks",
+    description:
+      "From signed agreement to live meters in 8–10 weeks. No drawn-out timelines, no surprises. We move fast because your time matters.",
+  },
+];
+
+const steps = [
+  {
+    step: "1",
+    title: "Share Your Property Details",
+    description: "Fill out a quick form or book a call. Tell us about your building — size, units, current utility setup.",
+  },
+  {
+    step: "2",
+    title: "Talk to a Real Expert",
+    description: "Not a call center. You'll speak with someone who actually understands real estate and submetering.",
+  },
+  {
+    step: "3",
+    title: "Go Live in 8–10 Weeks",
+    description: "We handle everything — equipment, installation, regulatory compliance. You start saving from day one.",
+  },
+];
+
+const marketsList = [
+  { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties" },
+  { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils" },
+  { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces" },
+  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties" },
+  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences" },
+  { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing" },
+];
+
+const testimonials = [
+  {
+    quote: "Axis Meter made the entire process seamless. From the initial consultation to installation, everything was handled professionally. Our operating costs dropped significantly.",
+    name: "Property Manager",
+    role: "Multi-Family Portfolio, Ontario",
+  },
+  {
+    quote: "What sold me was the free leak detection. We had a water leak last year that cost us $40,000 in damage. With Axis Meter, we would have caught it in minutes.",
+    name: "Building Owner",
+    role: "Commercial Property, Toronto",
+  },
+  {
+    quote: "Finally, a submetering company that actually understands real estate investors. No sales pitch, no runaround — just straight answers and fast execution.",
+    name: "Real Estate Investor",
+    role: "Residential Portfolio, Canada",
+  },
+];
+
+const faqs = [
+  {
+    q: "What does submetering actually cost me?",
+    a: "$0 upfront. Axis Meter owns all equipment during the 20-year agreement. We handle installation, maintenance, and billing. You get the savings without the capital outlay.",
+  },
+  {
+    q: "How long does installation take?",
+    a: "From signed agreement to live meters, you're looking at 8–10 weeks. We manage the entire process including permits, installation, and regulatory approval.",
+  },
+  {
+    q: "Do you serve both the US and Canada?",
+    a: "Yes. We're fully operational in both countries with Measurement Canada approved meters and all required certifications for US markets.",
+  },
+  {
+    q: "Is leak detection really free?",
+    a: "Yes. Every Axis Meter installation includes leak and flood detection sensors at no additional cost. It's not an upsell — it's standard.",
+  },
+  {
+    q: "What happens after the 20-year term?",
+    a: "You have options: renew, purchase the equipment at fair market value, or we remove it. No lock-in surprises.",
+  },
+];
+
+export default function Home() {
+  return (
+    <>
+      {/* Hero */}
+      <section className="bg-navy relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
+          <div className="max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+              Stop Overpaying for Utilities.{" "}
+              <span className="text-accent">Start Building Equity.</span>
+            </h1>
+            <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
+              Submetering built by a real estate investor who got tired of the same problems you face.
+              $0 upfront. Free leak detection. Live in 8–10 weeks.
+            </p>
+            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/contact"
+                className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+              >
+                Book a Free Call
+              </Link>
+              <Link
+                href="/how-it-works"
+                className="border border-gray-500 hover:border-accent text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+              >
+                See How It Works
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Bar */}
+      <section className="bg-navy-light border-y border-navy-lighter">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <div className="text-4xl font-bold text-accent">{stat.value}</div>
+                <div className="mt-1 text-gray-400 text-sm">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Problem / Solution */}
+      <section className="bg-white py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              Utility Costs Are Eating Your Returns
+            </h2>
+            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+              If you&apos;re still paying bulk utility bills for your tenants, you&apos;re leaving money on the table.
+              Submetering lets each unit pay for what they actually use — cutting your operating costs,
+              increasing property value, and promoting conservation. It&apos;s not a nice-to-have anymore.
+              In many jurisdictions, it&apos;s the law.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Differentiators */}
+      <section className="bg-gray-50 py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Why Property Owners Choose Axis Meter</h2>
+            <p className="mt-4 text-lg text-gray-600">We do things differently. Here&apos;s what that looks like.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {differentiators.map((d) => (
+              <div key={d.title} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                <div className="text-4xl mb-4">{d.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{d.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{d.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="bg-navy py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white">Three Steps. That&apos;s It.</h2>
+            <p className="mt-4 text-lg text-gray-400">No red tape. No drawn-out process. Just results.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {steps.map((s) => (
+              <div key={s.step} className="text-center">
+                <div className="w-16 h-16 bg-accent text-navy font-bold text-2xl rounded-full flex items-center justify-center mx-auto mb-6">
+                  {s.step}
+                </div>
+                <h3 className="text-xl font-semibold text-white mb-3">{s.title}</h3>
+                <p className="text-gray-400 leading-relaxed">{s.description}</p>
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-12">
+            <Link
+              href="/contact"
+              className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block"
+            >
+              Get Started Today
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Markets We Serve */}
+      <section className="bg-white py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Markets We Serve</h2>
+            <p className="mt-4 text-lg text-gray-600">Purpose-built solutions for every property type.</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {marketsList.map((m) => (
+              <Link
+                key={m.href}
+                href={m.href}
+                className="group bg-gray-50 hover:bg-navy rounded-xl p-8 transition-all duration-300"
+              >
+                <div className="text-4xl mb-4">{m.icon}</div>
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-white mb-2 transition-colors">
+                  {m.name}
+                </h3>
+                <p className="text-gray-600 group-hover:text-gray-300 text-sm transition-colors">{m.description}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="bg-gray-50 py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">What Our Clients Say</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {testimonials.map((t, i) => (
+              <div key={i} className="bg-white rounded-xl p-8 shadow-sm">
+                <div className="text-accent text-3xl mb-4">&ldquo;</div>
+                <p className="text-gray-600 leading-relaxed mb-6">{t.quote}</p>
+                <div>
+                  <div className="font-semibold text-gray-900">{t.name}</div>
+                  <div className="text-sm text-gray-500">{t.role}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="bg-white py-20 sm:py-28">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+          </div>
+          <div className="space-y-6">
+            {faqs.map((faq, i) => (
+              <div key={i} className="border-b border-gray-200 pb-6">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.q}</h3>
+                <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="bg-navy py-20 sm:py-28">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">Talk to an Expert Today</h2>
+          <p className="mt-6 text-lg text-gray-300">
+            No pressure, no sales pitch. Just a real conversation about whether submetering makes sense for your property.
+          </p>
+          <div className="mt-10">
+            <Link
+              href="/contact"
+              className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+            >
+              Book a Free Call
+            </Link>
+          </div>
+          <p className="mt-4 text-gray-500 text-sm">US & Canada · Measurement Canada Approved · Fully Certified</p>
+        </div>
+      </section>
+    </>
+  );
+}

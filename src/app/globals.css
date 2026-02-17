@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-navy: #0A1628;
+  --color-navy-light: #121F33;
+  --color-navy-lighter: #1A2A42;
+  --color-accent: #4ADE80;
+  --color-accent-dark: #22C55E;
+  --color-gray-50: #F9FAFB;
+  --color-gray-100: #F3F4F6;
+  --color-gray-200: #E5E7EB;
+  --color-gray-300: #D1D5DB;
+  --color-gray-400: #9CA3AF;
+  --color-gray-500: #6B7280;
+  --color-gray-600: #4B5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1F2937;
+  --color-gray-900: #111827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
