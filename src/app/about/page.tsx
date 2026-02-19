@@ -20,8 +20,9 @@ const values = [
 const partners = [
   { name: "Next Century", description: "Smart Metering", logo: "/images/partners/nextcentury.svg" },
   { name: "GWF", description: "Water Meters", logo: "/images/partners/gwf.svg" },
-  { name: "Accuenergy", description: "Power Meters", logo: "/images/partners/accuenergy.svg" },
+  { name: "Accuenergy", description: "Power Meters", logo: "/images/partners/accuenergy.png" },
   { name: "Triacta", description: "Energy Metering", logo: "/images/partners/triacta.svg" },
+  { name: "Elvaco", description: "Metering Solutions", logo: "/images/partners/elvaco.jpg" },
 ];
 
 const stats = [
@@ -153,7 +154,7 @@ export default function AboutPage() {
               We deploy industry-leading metering technology from trusted manufacturers.
             </p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
             {partners.map((p) => (
               <div key={p.name} className="bg-white rounded-xl p-6 shadow-sm text-center flex flex-col items-center justify-center min-h-[140px]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
