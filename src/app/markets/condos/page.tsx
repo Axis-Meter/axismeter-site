@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Submetering for Condominiums — Axis Meter Solutions",
+  title: "Condominium Submetering — Lower Condo Fees — Axis Meter Solutions",
   description: "Lower condo maintenance fees with per-unit submetering. New construction and retrofit options with $0 upfront and free leak detection.",
 };
 
@@ -19,6 +20,7 @@ const benefits = [
 export default function CondosPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Condominiums", url: "https://axismeter-site.vercel.app/markets/condos" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"

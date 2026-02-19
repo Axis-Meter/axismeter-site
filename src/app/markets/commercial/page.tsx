@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Commercial Submetering — Axis Meter Solutions",
+  title: "Commercial Property Submetering — Office & Retail — Axis Meter Solutions",
   description: "Recover tenant utility costs in office, retail, and commercial properties. Per-tenant billing with $0 upfront and free leak detection.",
 };
 
@@ -19,6 +20,7 @@ const benefits = [
 export default function CommercialPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Commercial", url: "https://axismeter-site.vercel.app/markets/commercial" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"

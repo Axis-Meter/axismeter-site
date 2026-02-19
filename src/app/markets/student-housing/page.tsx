@@ -1,15 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Student Housing Submetering — Axis Meter Solutions",
+  title: "Student Housing Submetering — University & College Residences — Axis Meter Solutions",
   description: "Reduce energy waste in student residences with per-unit submetering. Promote conservation awareness while lowering operating costs.",
 };
 
 export default function StudentHousingPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Student Housing", url: "https://axismeter-site.vercel.app/markets/student-housing" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80"

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "About Us — Axis Meter Solutions",
@@ -19,6 +20,7 @@ const values = [
 export default function AboutPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "About", url: "https://axismeter-site.vercel.app/about" }]} />
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image

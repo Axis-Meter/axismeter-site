@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { FAQSchema, BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Submetering 101: Everything You Need to Know — Axis Meter Solutions",
@@ -10,6 +11,14 @@ export const metadata: Metadata = {
 export default function Submetering101Page() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Resources", url: "https://axismeter-site.vercel.app/resources" }, { name: "Submetering 101", url: "https://axismeter-site.vercel.app/resources/submetering-101" }]} />
+      <FAQSchema faqs={[
+        { question: "How much does submetering cost?", answer: "With Axis Meter, $0 upfront. We own all equipment during the agreement term. Some providers sell meters outright, which can cost $200-500 per meter plus installation." },
+        { question: "How long does installation take?", answer: "With Axis Meter, 8-10 weeks from agreement to live meters. Equipment ordering takes about 6 weeks, and installation is typically 1-2 days of building access." },
+        { question: "Can you submeter an older building?", answer: "Yes. Retrofit submetering is common and can be done in most buildings regardless of age." },
+        { question: "Do tenants have to agree to submetering?", answer: "In most jurisdictions, the property owner can implement submetering as part of building operations. Specific rules vary by location — we handle compliance for you." },
+        { question: "What happens if a meter malfunctions?", answer: "With Axis Meter, we own and maintain all equipment. If a meter needs repair or replacement, we handle it at no cost to you." },
+      ]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1920&q=80"

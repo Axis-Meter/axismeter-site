@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FAQSchema } from "@/components/JsonLd";
 
 const stats = [
   { value: "32%", label: "Avg. Property Value Increase" },
@@ -22,15 +23,27 @@ const differentiators = [
   },
   {
     icon: "🏢",
-    title: "Built by an Investor",
+    title: "Deep Real Estate Expertise",
     description:
-      "Founded by a real estate investor who saw the same problems you face. We understand your bottom line because it's our bottom line too.",
+      "Our team brings decades of combined experience in property management and real estate investment. We understand NOI, cap rates, and your bottom line — because we've sat in your chair.",
   },
   {
     icon: "⚡",
     title: "Live in 8–10 Weeks",
     description:
       "From signed agreement to live meters in 8–10 weeks. No drawn-out timelines, no surprises. We move fast because your time matters.",
+  },
+  {
+    icon: "✅",
+    title: "Industry Certification and Compliance",
+    description:
+      "All meters are Measurement Canada approved and fully certified. We maintain 100% regulatory compliance across the US and Canada so you never have to worry.",
+  },
+  {
+    icon: "🤝",
+    title: "Collaborative Cost-Saving Strategies",
+    description:
+      "We work directly with your engineering team and property managers to design the optimal metering layout. Our approach is collaborative, not cookie-cutter.",
   },
 ];
 
@@ -43,7 +56,7 @@ const steps = [
   {
     step: "2",
     title: "Talk to a Real Expert",
-    description: "Not a call center. You'll speak with someone who actually understands real estate and submetering.",
+    description: "No call centers, no junior reps. You'll speak directly with a submetering specialist who understands property operations inside and out.",
   },
   {
     step: "3",
@@ -56,8 +69,8 @@ const marketsList = [
   { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties", image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
   { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
   { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties", image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=600&q=80" },
-  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences", image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" },
+  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
+  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences", image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600&q=80" },
   { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing", image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80" },
 ];
 
@@ -73,7 +86,7 @@ const testimonials = [
     role: "Commercial Property, Toronto",
   },
   {
-    quote: "Finally, a submetering company that actually understands real estate investors. No sales pitch, no runaround — just straight answers and fast execution.",
+    quote: "What sets Axis apart is their deep understanding of property operations. No sales pitch, no runaround — just straight answers and fast execution.",
     name: "Real Estate Investor",
     role: "Residential Portfolio, Canada",
   },
@@ -122,7 +135,7 @@ export default function Home() {
               <span className="text-accent">Start Building Equity.</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
-              Submetering built by a real estate investor who got tired of the same problems you face.
+              North America&apos;s trusted submetering partner for multi-family and commercial properties.
               $0 upfront. Free leak detection. Live in 8–10 weeks.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -153,6 +166,51 @@ export default function Home() {
                 <div className="mt-1 text-gray-400 text-sm">{stat.label}</div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Why Submetering? */}
+      <section className="bg-navy py-20 sm:py-28">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="text-accent font-semibold text-sm uppercase tracking-wide">Why submetering?</span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-white mt-3">
+                Submetering: Greater Utility Control and ROI
+              </h2>
+              <p className="mt-6 text-lg text-gray-300 leading-relaxed">
+                Submetering utilities is pivotal for real estate investors, developers, and builders looking to increase
+                their property&apos;s net operating income. By offering precise utility usage data, submetering allows
+                property owners to charge tenants accurately and encourages energy conservation. This transparency not
+                only elevates property value but also ensures predictable monthly costs, leading to higher tenant
+                satisfaction and retention.
+              </p>
+            </div>
+            <div className="relative h-[400px] rounded-xl overflow-hidden">
+              <Image
+                src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+                alt="Modern apartment building representing submetered properties"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div className="bg-navy-light border border-navy-lighter rounded-xl p-8">
+              <h3 className="text-xl font-semibold text-white mb-3">Accurate Billing and Fair Charges</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Submetering provides precise data on individual tenant utility usage, ensuring billing is fair and
+                accurate, which helps in maintaining transparent tenant relationships and minimizing disputes over charges.
+              </p>
+            </div>
+            <div className="bg-navy-light border border-navy-lighter rounded-xl p-8">
+              <h3 className="text-xl font-semibold text-white mb-3">Predictable Operating Expenses</h3>
+              <p className="text-gray-300 leading-relaxed">
+                Submetering stabilizes your property&apos;s operating costs by eliminating the variability of utility
+                expenses, giving you and your tenants predictable monthly bills that are easier to manage and budget for.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -191,7 +249,7 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Why Property Owners Choose Axis Meter</h2>
             <p className="mt-4 text-lg text-gray-600">We do things differently. Here&apos;s what that looks like.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {differentiators.map((d) => (
               <div key={d.title} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-4xl mb-4">{d.icon}</div>
@@ -289,6 +347,7 @@ export default function Home() {
 
       {/* FAQ */}
       <section className="bg-white py-20 sm:py-28">
+        <FAQSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>

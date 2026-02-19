@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { blogPosts } from "@/data/blogPosts";
 import type { Metadata } from "next";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
 
 // Dynamic import for blog content
 async function getContent(slug: string): Promise<string> {
@@ -50,6 +52,18 @@ export default async function BlogPost({
 
   return (
     <div className="bg-navy min-h-screen">
+      <ArticleSchema
+        title={post.title}
+        description={post.excerpt}
+        datePublished={post.date}
+        url={`https://axismeter-site.vercel.app/blog/${slug}`}
+        image={post.featuredImage ?? undefined}
+      />
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://axismeter-site.vercel.app" },
+        { name: "Blog", url: "https://axismeter-site.vercel.app/blog" },
+        { name: post.title, url: `https://axismeter-site.vercel.app/blog/${slug}` },
+      ]} />
       {/* Back navigation */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <Link
@@ -85,6 +99,17 @@ export default async function BlogPost({
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
             {post.title}
           </h1>
+          {post.featuredImage && (
+            <div className="relative w-full h-64 sm:h-80 lg:h-96 mt-8 rounded-xl overflow-hidden">
+              <Image
+                src={post.featuredImage}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          )}
         </header>
 
         {/* Article content */}

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Submetering for Residential Rentals — Axis Meter Solutions",
+  title: "Residential Rental Submetering — Apartments & Multi-Family — Axis Meter Solutions",
   description: "Stop paying your tenants' utility bills. Per-unit submetering for apartment buildings with $0 upfront, free leak detection, and immediate cost recovery.",
 };
 
@@ -19,6 +20,7 @@ const benefits = [
 export default function ResidentialRentalsPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Residential Rentals", url: "https://axismeter-site.vercel.app/markets/residential-rentals" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&q=80"

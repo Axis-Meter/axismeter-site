@@ -1,15 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Affordable Housing Submetering — Axis Meter Solutions",
+  title: "Affordable Housing Submetering — Fair Billing for Community Housing — Axis Meter Solutions",
   description: "Support affordability goals with fair, accurate utility billing. Submetering for subsidized and community housing with $0 upfront cost.",
 };
 
 export default function AffordableHousingPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Affordable Housing", url: "https://axismeter-site.vercel.app/markets/affordable-housing" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1920&q=80"
@@ -40,20 +42,43 @@ export default function AffordableHousingPage() {
 
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">Fairness and Conservation</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">Fairness, Conservation, and Sustainability</h2>
           <div className="text-lg text-gray-600 leading-relaxed space-y-6">
             <p>
               Affordable housing operators work with tight budgets. Every dollar matters — and rising utility
               costs can threaten the financial sustainability of housing programs that communities depend on.
+              Whether you manage public housing, non-profit developments, or rent-geared-to-income properties,
+              submetering provides a proven path to reducing operating costs while maintaining fairness for residents.
             </p>
             <p>
               Submetering brings fairness and transparency to utility billing. Residents who conserve pay less.
               Residents who use more pay for their actual consumption. It&apos;s not about penalizing anyone — it&apos;s
-              about creating a system that&apos;s fair to everyone and sustainable for the long term.
+              about creating a system that&apos;s fair to everyone and sustainable for the long term. In affordable
+              housing, where cross-subsidization between units can disproportionately burden careful consumers,
+              this fairness is especially important.
             </p>
             <p>
               The result: lower building-wide utility costs, more accurate budgeting, and a conservation incentive
-              that benefits the entire community.
+              that benefits the entire community. Buildings typically see a 30-40% reduction in overall utility
+              consumption after submetering is installed, freeing up critical budget for maintenance, improvements,
+              and resident services.
+            </p>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8">Regulatory Compliance and Government Programs</h3>
+            <p>
+              Many government housing programs and regulatory frameworks now encourage or require submetering in
+              affordable housing developments. Submetering helps housing authorities demonstrate responsible resource
+              management and environmental stewardship — key factors in securing and maintaining government funding
+              and tax credits. Axis Meter ensures full compliance with Measurement Canada standards and all applicable
+              US and Canadian regulations, so your properties always meet program requirements.
+            </p>
+            <h3 className="text-2xl font-bold text-gray-900 mt-8">Supporting Resident Empowerment</h3>
+            <p>
+              Submetering gives residents visibility into their utility consumption and control over their costs.
+              When residents can see how much energy and water they use, they make smarter decisions — shorter
+              showers, turning off lights, reporting leaks promptly. This empowerment leads to lower bills for
+              residents and a more sustainable building for operators. Combined with free leak detection on every
+              Axis Meter install, affordable housing properties get comprehensive utility management and water
+              damage protection at $0 upfront cost.
             </p>
           </div>
         </div>

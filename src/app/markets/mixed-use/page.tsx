@@ -1,15 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Mixed-Use Property Submetering — Axis Meter Solutions",
+  title: "Mixed-Use Property Submetering — Residential & Commercial — Axis Meter Solutions",
   description: "Unified submetering for properties with residential and commercial tenants. One system, one provider, all billing handled.",
 };
 
 export default function MixedUsePage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Mixed-Use", url: "https://axismeter-site.vercel.app/markets/mixed-use" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1920&q=80"

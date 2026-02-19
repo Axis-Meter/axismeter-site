@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Water Submetering — Axis Meter Solutions",
+  title: "Water Submetering Services with Free Leak Detection — Axis Meter Solutions",
   description: "Per-unit water metering with free leak detection included. Drive conservation, enable fair billing, and catch leaks before they become disasters.",
 };
 
@@ -19,6 +20,7 @@ const benefits = [
 export default function WaterSubmeteringPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Water Submetering", url: "https://axismeter-site.vercel.app/solutions/water-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80"

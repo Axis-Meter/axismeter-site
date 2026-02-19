@@ -15,7 +15,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're wondering why your utility bills are so high, the first step is to understand how they are calculated.",
     "category": "Utility Management",
     "date": "2024-11-25",
-    "featuredImage": null
+    "featuredImage": "/images/blog/why-are-my-utility-bills-so-high.png"
   },
   {
     "slug": "who-pays-utilities-when-renting-a-house",
@@ -23,7 +23,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're a landlord, it's important to have a clear understanding of which utilities you are responsible for paying and which ones your tenants are responsible for.",
     "category": "Utility Management",
     "date": "2024-11-24",
-    "featuredImage": null
+    "featuredImage": "/images/blog/who-pays-utilities-when-renting-a-house.png"
   },
   {
     "slug": "who-is-responsible-for-unpaid-utility-bills",
@@ -31,7 +31,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Conducting regular inspections of rental properties can help identify potential issues before they become major problems.",
     "category": "Utility Management",
     "date": "2024-11-23",
-    "featuredImage": null
+    "featuredImage": "/images/blog/who-is-responsible-for-unpaid-utility-bills.png"
   },
   {
     "slug": "when-renting-a-house-who-pays-utilities",
@@ -39,7 +39,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When renting a house, it is possible to negotiate utility costs with your landlord.",
     "category": "Utility Management",
     "date": "2024-10-22",
-    "featuredImage": null
+    "featuredImage": "/images/blog/when-renting-a-house-who-pays-utilities.png"
   },
   {
     "slug": "what-utilities-do-you-need-for-a-house",
@@ -47,7 +47,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Setting up utilities can be a time-consuming and complicated process, but it's essential to ensure that your home is functioning properly.",
     "category": "Utility Management",
     "date": "2024-10-21",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-utilities-do-you-need-for-a-house.png"
   },
   {
     "slug": "what-is-utility-computing",
@@ -55,7 +55,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Utility computing is a service provisioning model that allows computing resources such as data storage space, computing capabilities, and virtual servers to be made available to customers on a pay-per-use basis.",
     "category": "Utility Management",
     "date": "2024-10-20",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-is-utility-computing.png"
   },
   {
     "slug": "what-is-submetering",
@@ -63,15 +63,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "The purpose of submetering is to allocate the cost of utilities to individual tenants or residents based on their actual usage",
     "category": "Utility Management",
     "date": "2024-10-19",
-    "featuredImage": null
-  },
-  {
-    "slug": "what-is-submetered",
-    "title": "What is Submetered? Understanding Submetering with Axis Meter Solutions",
-    "excerpt": "Submetering can be used to measure individual water, gas, or electricity usage, and can be retrofitted into existing properties or included in new construction projects.",
-    "category": "Utility Management",
-    "date": "2024-10-18",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-is-submetering.png"
   },
   {
     "slug": "what-is-a-water-submeter",
@@ -79,7 +71,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "A water submeter is a device that measures the amount of water used by a single unit in a multi-unit building.",
     "category": "Utility Management",
     "date": "2024-09-17",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-is-a-water-submeter.png"
   },
   {
     "slug": "what-is-a-utility-bill",
@@ -87,7 +79,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Utility bill management has significantly evolved over the years, thanks to technology.",
     "category": "Utility Management",
     "date": "2024-09-16",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-is-a-utility-bill.png"
   },
   {
     "slug": "what-is-a-submeter-and-how-does-it-work",
@@ -95,15 +87,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Submetering is the process of installing individual meters to measure the consumption of water, gas, or electricity for a particular multifamily or commercial unit.",
     "category": "Utility Management",
     "date": "2024-09-15",
-    "featuredImage": null
-  },
-  {
-    "slug": "what-is-a-sub-meter",
-    "title": "What is a Sub Meter? An Introduction to Axis Meter Solutions",
-    "excerpt": "Submetering is the process of installing additional meters to measure utility usage beyond the main utility meter.",
-    "category": "Utility Management",
-    "date": "2024-09-14",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-is-a-submeter-and-how-does-it-work.png"
   },
   {
     "slug": "what-includes-utilities",
@@ -111,7 +95,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "As a tenant, it is important to understand the types of utilities that are included in your monthly rent and what you can expect in terms of average costs.",
     "category": "Utility Management",
     "date": "2024-09-13",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-includes-utilities.png"
   },
   {
     "slug": "what-if-tenant-does-not-pay-electricity-bill",
@@ -119,7 +103,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to unpaid utility bills, it's important to communicate with your tenant and take appropriate legal action if necessary.",
     "category": "Utility Management",
     "date": "2024-08-12",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-if-tenant-does-not-pay-electricity-bill.png"
   },
   {
     "slug": "what-happens-if-a-tenant-leaves-without-paying-utility-bills",
@@ -127,15 +111,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When a tenant moves out, it's important to communicate with them about the utility account closure process.",
     "category": "Utility Management",
     "date": "2024-08-11",
-    "featuredImage": null
-  },
-  {
-    "slug": "what-does-submetered-mean",
-    "title": "What Does Submetered Mean? - A Clear Explanation by Axis Meter Solutions",
-    "excerpt": "Submetering is a method of measuring and monitoring energy consumption within a building or complex.",
-    "category": "Utility Management",
-    "date": "2024-08-10",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-happens-if-a-tenant-leaves-without-paying-utility-bills.png"
   },
   {
     "slug": "what-does-all-utilities-included-mean",
@@ -143,7 +119,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're looking for a new apartment, you may come across the term \"all utilities included\" in rental listings.",
     "category": "Utility Management",
     "date": "2024-08-09",
-    "featuredImage": null
+    "featuredImage": "/images/blog/what-does-all-utilities-included-mean.png"
   },
   {
     "slug": "water-submeter-solutions",
@@ -151,7 +127,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you own or manage a multi-unit property, you may be wondering how you can accurately track water consumption for each unit.",
     "category": "Utility Management",
     "date": "2024-08-08",
-    "featuredImage": null
+    "featuredImage": "/images/blog/water-submeter-solutions.png"
   },
   {
     "slug": "water-sub-meters",
@@ -159,7 +135,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This promotes fairness and transparency in billing practices and can help reduce disputes between tenants and property owners.",
     "category": "Utility Management",
     "date": "2024-07-07",
-    "featuredImage": null
+    "featuredImage": "/images/blog/water-sub-meters.png"
   },
   {
     "slug": "utility-submetering",
@@ -167,7 +143,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Submetering software solutions are designed to simplify the process of managing utility consumption data.",
     "category": "Utility Management",
     "date": "2024-07-06",
-    "featuredImage": null
+    "featuredImage": "/images/blog/utility-submetering.png"
   },
   {
     "slug": "utility-in-real-estate",
@@ -175,7 +151,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Real estate properties require various types of utilities to function properly. These utilities are essential for ensuring that the property is habitable and meets the needs of the occupants.",
     "category": "Utility Management",
     "date": "2024-07-05",
-    "featuredImage": null
+    "featuredImage": "/images/blog/utility-in-real-estate.png"
   },
   {
     "slug": "utility-and-value-of-axis-meter-solutions-in-modern-industries",
@@ -183,7 +159,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "As specialists in sub-metering for a diverse range of real estate investments, we can help you manage your utility costs and improve your bottom line.",
     "category": "Utility Management",
     "date": "2024-07-04",
-    "featuredImage": null
+    "featuredImage": "/images/blog/utility-and-value-of-axis-meter-solutions-in-modern-industries.png"
   },
   {
     "slug": "usage-based-billing-with-axis-meter-solutions",
@@ -191,7 +167,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "One of the main benefits of usage-based pricing is that it aligns the cost of the product or service with the value that the customer receives.",
     "category": "Utility Management",
     "date": "2024-07-03",
-    "featuredImage": null
+    "featuredImage": "/images/blog/usage-based-billing-with-axis-meter-solutions.png"
   },
   {
     "slug": "tenant-responsibilities-list",
@@ -199,7 +175,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When you sign a lease agreement, you are entering into a legally binding contract with your landlord",
     "category": "Utility Management",
     "date": "2024-06-28",
-    "featuredImage": null
+    "featuredImage": "/images/blog/tenant-responsibilities-list.png"
   },
   {
     "slug": "tenant-responsibilities",
@@ -207,7 +183,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Different states and cities have their own laws and regulations regarding tenant rights and responsibilities.",
     "category": "Utility Management",
     "date": "2024-06-27",
-    "featuredImage": null
+    "featuredImage": "/images/blog/tenant-responsibilities.png"
   },
   {
     "slug": "submetering-gas",
@@ -215,7 +191,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Sub-metering has been proven to be a successful strategy for reducing utility costs and increasing property value in multi-unit properties and apartment complexes.",
     "category": "Utility Management",
     "date": "2024-06-26",
-    "featuredImage": null
+    "featuredImage": "/images/blog/submetering-gas.png"
   },
   {
     "slug": "tenants-rights-regarding-electricity",
@@ -223,7 +199,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "One of the most important things to know is that your landlord cannot shut off your utilities as a way to force you to leave.",
     "category": "Utility Management",
     "date": "2024-06-02",
-    "featuredImage": null
+    "featuredImage": "/images/blog/tenants-rights-regarding-electricity.png"
   },
   {
     "slug": "tenant-submetering",
@@ -231,7 +207,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Tenant submetering can help promote energy conservation by giving tenants more control over their energy usage.",
     "category": "Utility Management",
     "date": "2024-06-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/tenant-submetering.png"
   },
   {
     "slug": "submetering-electricity",
@@ -239,7 +215,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Electrical submeters are the most common type of submeter and are used to measure the electricity consumed by individual units or departments.",
     "category": "Utility Management",
     "date": "2024-05-25",
-    "featuredImage": null
+    "featuredImage": "/images/blog/submetering-electricity.png"
   },
   {
     "slug": "submeter-water-with-axis-meter-solutions",
@@ -247,7 +223,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "As the demand for innovative metering solutions continues to grow, the submetering industry is constantly evolving to meet the needs of property owners and managers.",
     "category": "Utility Management",
     "date": "2024-05-24",
-    "featuredImage": null
+    "featuredImage": "/images/blog/submeter-water-with-axis-meter-solutions.png"
   },
   {
     "slug": "sub-utility-solutions",
@@ -255,7 +231,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Whether you're looking to manage your electricity, gas, or water consumption, Axis Meter Solutions has the expertise and experience to help.",
     "category": "Utility Management",
     "date": "2024-05-23",
-    "featuredImage": null
+    "featuredImage": "/images/blog/sub-utility-solutions.png"
   },
   {
     "slug": "sub-metered-water",
@@ -263,7 +239,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Submetering is a system that measures the consumption of utilities, such as water, gas, and electricity, within a property or premises.",
     "category": "Utility Management",
     "date": "2024-05-22",
-    "featuredImage": null
+    "featuredImage": "/images/blog/sub-metered-water.png"
   },
   {
     "slug": "sub-meter",
@@ -271,7 +247,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're looking to better understand and optimize your energy consumption, sub-metering is the way to go.",
     "category": "Utility Management",
     "date": "2024-05-21",
-    "featuredImage": null
+    "featuredImage": "/images/blog/sub-meter.png"
   },
   {
     "slug": "rental-agreement-with-utilities-included",
@@ -279,7 +255,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to renting a property, a rental agreement is a legally binding contract that outlines the terms and conditions of the rental.",
     "category": "Utility Management",
     "date": "2024-04-20",
-    "featuredImage": null
+    "featuredImage": "/images/blog/rental-agreement-with-utilities-included.png"
   },
   {
     "slug": "rent-and-utilities",
@@ -287,7 +263,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're renting an apartment, it's important to understand the components of rental costs and the common utilities included in your monthly rent.",
     "category": "Utility Management",
     "date": "2024-04-19",
-    "featuredImage": null
+    "featuredImage": "/images/blog/rent-and-utilities.png"
   },
   {
     "slug": "lease-agreement-with-utilities-included",
@@ -295,7 +271,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "A lease agreement with utilities included means that the landlord is responsible for paying for certain utilities, such as electricity, gas, or water.",
     "category": "Utility Management",
     "date": "2024-04-18",
-    "featuredImage": null
+    "featuredImage": "/images/blog/lease-agreement-with-utilities-included.png"
   },
   {
     "slug": "landlord-tenant-utility-agreement-with-axis-meter-solutions",
@@ -303,7 +279,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "The landlord-tenant utility agreement is a contract that outlines the responsibilities of each party regarding the payment of utility bills.",
     "category": "Utility Management",
     "date": "2024-04-17",
-    "featuredImage": null
+    "featuredImage": "/images/blog/landlord-tenant-utility-agreement-with-axis-meter-solutions.png"
   },
   {
     "slug": "is-rent-considered-a-utility",
@@ -311,7 +287,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Rent and utilities are two separate but related concepts in the world of renting an apartment or property.",
     "category": "Utility Management",
     "date": "2024-04-16",
-    "featuredImage": null
+    "featuredImage": "/images/blog/is-rent-considered-a-utility.png"
   },
   {
     "slug": "investing-in-real-estate-notes",
@@ -319,7 +295,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Real estate notes, also known as mortgage notes, are written agreements between a borrower and a lender to finance a real estate purchase.",
     "category": "Utility Management",
     "date": "2024-03-15",
-    "featuredImage": null
+    "featuredImage": "/images/blog/investing-in-real-estate-notes.png"
   },
   {
     "slug": "infinity-water-billing",
@@ -327,7 +303,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to water billing, having a software solution that can be tailored to your specific property is crucial.",
     "category": "Utility Management",
     "date": "2024-03-14",
-    "featuredImage": null
+    "featuredImage": "/images/blog/infinity-water-billing.png"
   },
   {
     "slug": "including-utilities-in-rental-agreement",
@@ -335,7 +311,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to renting a property, one of the most important considerations is understanding what utilities are included in the rental agreement.",
     "category": "Utility Management",
     "date": "2024-03-13",
-    "featuredImage": null
+    "featuredImage": "/images/blog/including-utilities-in-rental-agreement.png"
   },
   {
     "slug": "how-to-set-up-utilities-when-renting",
@@ -343,7 +319,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Other utilities such as internet, heat, cable, trash, and sewage may also be necessary depending on your needs and the location of the property",
     "category": "Utility Management",
     "date": "2024-03-12",
-    "featuredImage": null
+    "featuredImage": "/images/blog/how-to-set-up-utilities-when-renting.png"
   },
   {
     "slug": "how-to-save-on-utilities-in-an-apartment",
@@ -351,7 +327,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to saving money on utilities in your apartment, choosing the right appliances and using electronics smartly can make a big difference.",
     "category": "Utility Management",
     "date": "2024-03-11",
-    "featuredImage": null
+    "featuredImage": "/images/blog/how-to-save-on-utilities-in-an-apartment.png"
   },
   {
     "slug": "how-to-save-money-on-utilities-in-an-apartment",
@@ -359,7 +335,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Another way to save money on utilities is by making small changes to your daily routine.",
     "category": "Utility Management",
     "date": "2024-02-10",
-    "featuredImage": null
+    "featuredImage": "/images/blog/how-to-save-money-on-utilities-in-an-apartment.png"
   },
   {
     "slug": "how-to-apply-a-second-electricity-meter",
@@ -367,7 +343,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you own or manage a residential property with multiple tenants, you may have considered installing a second electricity meter",
     "category": "Utility Management",
     "date": "2024-02-09",
-    "featuredImage": null
+    "featuredImage": "/images/blog/how-to-apply-a-second-electricity-meter.png"
   },
   {
     "slug": "gas-sub-meter-solutions",
@@ -375,7 +351,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "A gas sub-meter is a device that measures the consumption of natural gas for a particular unit in a building.",
     "category": "Utility Management",
     "date": "2024-02-08",
-    "featuredImage": null
+    "featuredImage": "/images/blog/gas-sub-meter-solutions.png"
   },
   {
     "slug": "electricity-sub-meter",
@@ -383,7 +359,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you're looking to improve your building's energy efficiency, reduce costs, and gain more control over your utility management, sub metering is the way to go",
     "category": "Utility Management",
     "date": "2024-02-07",
-    "featuredImage": null
+    "featuredImage": "/images/blog/electricity-sub-meter.png"
   },
   {
     "slug": "electricity-bill-from-previous-tenant",
@@ -391,7 +367,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If you are a tenant or a homeowner, understanding your electricity bill is essential to ensure that you are not overpaying for your energy usage.",
     "category": "Utility Management",
     "date": "2024-02-06",
-    "featuredImage": null
+    "featuredImage": "/images/blog/electricity-bill-from-previous-tenant.png"
   },
   {
     "slug": "can-a-landlord-request-utility-bills",
@@ -399,7 +375,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "Utility services are an essential part of our daily lives, and it is important to understand the regulations governing them.",
     "category": "Utility Management",
     "date": "2024-01-05",
-    "featuredImage": null
+    "featuredImage": "/images/blog/can-a-landlord-request-utility-bills.png"
   },
   {
     "slug": "best-hvac-meter",
@@ -407,7 +383,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When choosing an HVAC multimeter, there are several essential features that you should consider.",
     "category": "Utility Management",
     "date": "2024-01-04",
-    "featuredImage": null
+    "featuredImage": "/images/blog/best-hvac-meter.png"
   },
   {
     "slug": "axis-meter-solutions",
@@ -415,7 +391,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "If conflicts do arise, it's important to have a plan in place for resolving them. Consider using a mediator to help facilitate discussions between tenants.",
     "category": "Utility Management",
     "date": "2024-01-03",
-    "featuredImage": null
+    "featuredImage": "/images/blog/axis-meter-solutions.png"
   },
   {
     "slug": "are-landlords-responsible-for-unpaid-utility-bills",
@@ -423,7 +399,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "As a landlord, it is important to understand your responsibilities when it comes to unpaid utility bills.",
     "category": "Utility Management",
     "date": "2024-01-02",
-    "featuredImage": null
+    "featuredImage": "/images/blog/are-landlords-responsible-for-unpaid-utility-bills.png"
   },
   {
     "slug": "are-landlords-required-to-pay-for-water-and-garbage",
@@ -431,7 +407,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "When it comes to water and garbage services, landlords are typically responsible for providing these services to their tenants.",
     "category": "Utility Management",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/are-landlords-required-to-pay-for-water-and-garbage.png"
   },
   {
     "slug": "10-ways-to-increase-traction-on-your-launch-campaign",
@@ -439,7 +415,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on 10 ways to increase traction on your launch campaign.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/10-ways-to-increase-traction-on-your-launch-campaign.jpg"
   },
   {
     "slug": "brand-optics-and-what-it-means-for-your-business",
@@ -447,7 +423,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on brand optics and what it means for your business.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/brand-optics-and-what-it-means-for-your-business.jpg"
   },
   {
     "slug": "developing-your-product-teams-communication-skills",
@@ -455,7 +431,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on developing your product team's communication skills.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/developing-your-product-teams-communication-skills.jpg"
   },
   {
     "slug": "getting-out-into-nature-has-never-been-more-important",
@@ -463,7 +439,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on getting out into nature has never been more important.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/getting-out-into-nature-has-never-been-more-important.jpg"
   },
   {
     "slug": "how-can-ai-deliver-better-at-home-care",
@@ -471,7 +447,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on how can ai deliver better at-home health care.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/how-can-ai-deliver-better-at-home-care.jpg"
   },
   {
     "slug": "instituting-a-culture-of-positive-psychology",
@@ -479,7 +455,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on instituting a culture of positive psychology.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/instituting-a-culture-of-positive-psychology.jpg"
   },
   {
     "slug": "motivational-podcasts-to-help-with-mental-health-and-productivity",
@@ -487,7 +463,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on motivational podcasts to help with mental health and productivity.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/motivational-podcasts-to-help-with-mental-health-and-productivity.jpg"
   },
   {
     "slug": "perfecting-your-outdoor-workout-routine",
@@ -495,7 +471,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on perfecting your outdoor workout routine.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/perfecting-your-outdoor-workout-routine.jpg"
   },
   {
     "slug": "presenting-your-product-in-the-era-of-unboxing",
@@ -503,7 +479,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on presenting your product in the era of unboxing.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/presenting-your-product-in-the-era-of-unboxing.jpg"
   },
   {
     "slug": "supercharge-your-brainstorming-sessions-outdoors",
@@ -511,7 +487,7 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on supercharge your brainstorming sessions outdoors.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/supercharge-your-brainstorming-sessions-outdoors.jpg"
   },
   {
     "slug": "working-from-home-tips-and-tricks",
@@ -519,6 +495,6 @@ export const blogPosts: BlogPostMeta[] = [
     "excerpt": "This article is coming soon. Check back for updates on working from home tips and tricks.",
     "category": "General",
     "date": "2024-01-01",
-    "featuredImage": null
+    "featuredImage": "/images/blog/working-from-home-tips-and-tricks.jpg"
   }
 ];

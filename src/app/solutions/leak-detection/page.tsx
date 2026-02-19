@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Free Leak & Flood Detection — Axis Meter Solutions",
+  title: "Free Leak & Flood Detection with Every Submeter Install — Axis Meter Solutions",
   description: "Every Axis Meter install includes free leak and flood detection. Real-time monitoring, instant alerts, and protection against $50K+ water damage.",
 };
 
@@ -32,6 +33,7 @@ const reasons = [
 export default function LeakDetectionPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Leak Detection", url: "https://axismeter-site.vercel.app/solutions/leak-detection" }]} />
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image

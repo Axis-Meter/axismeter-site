@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Electricity Submetering — Axis Meter Solutions",
+  title: "Electricity Submetering Services for US & Canada — Axis Meter Solutions",
   description: "Measure and bill each unit for actual electricity use. Measurement Canada approved meters, 30-40% consumption reduction, $0 upfront.",
 };
 
@@ -25,6 +26,7 @@ const steps = [
 export default function ElectricitySubmeteringPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Electricity Submetering", url: "https://axismeter-site.vercel.app/solutions/electricity-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"

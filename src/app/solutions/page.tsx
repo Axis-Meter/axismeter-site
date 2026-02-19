@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Solutions — Axis Meter Solutions",
+  title: "Utility Submetering Solutions for Property Owners — Axis Meter Solutions",
   description: "Electricity submetering, water submetering, and free leak detection. Explore our full suite of utility management solutions.",
 };
 
@@ -35,6 +36,7 @@ const solutions = [
 export default function SolutionsPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
