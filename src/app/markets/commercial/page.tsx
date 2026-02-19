@@ -20,7 +20,7 @@ const benefits = [
 export default function CommercialPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Commercial", url: "https://axismeter-site.vercel.app/markets/commercial" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Commercial", url: "https://axismeter.com/markets/commercial" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"

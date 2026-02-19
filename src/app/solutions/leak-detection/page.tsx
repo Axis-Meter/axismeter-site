@@ -33,7 +33,7 @@ const reasons = [
 export default function LeakDetectionPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Leak Detection", url: "https://axismeter-site.vercel.app/solutions/leak-detection" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Leak Detection", url: "https://axismeter.com/solutions/leak-detection" }]} />
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image

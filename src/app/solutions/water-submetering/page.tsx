@@ -20,7 +20,7 @@ const benefits = [
 export default function WaterSubmeteringPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Water Submetering", url: "https://axismeter-site.vercel.app/solutions/water-submetering" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Water Submetering", url: "https://axismeter.com/solutions/water-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80"

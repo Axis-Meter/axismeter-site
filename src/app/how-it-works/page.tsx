@@ -129,7 +129,7 @@ export default function HowItWorksPage() {
       {/* FAQ */}
       <section className="bg-gray-50 py-20 sm:py-28">
         <FAQSchema faqs={faqs.map(f => ({ question: f.q, answer: f.a }))} />
-        <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "How It Works", url: "https://axismeter-site.vercel.app/how-it-works" }]} />
+        <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "How It Works", url: "https://axismeter.com/how-it-works" }]} />
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-16">Frequently Asked Questions</h2>
           <div className="space-y-6">

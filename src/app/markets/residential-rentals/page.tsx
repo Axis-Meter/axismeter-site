@@ -20,7 +20,7 @@ const benefits = [
 export default function ResidentialRentalsPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Residential Rentals", url: "https://axismeter-site.vercel.app/markets/residential-rentals" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Residential Rentals", url: "https://axismeter.com/markets/residential-rentals" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&q=80"

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function MixedUsePage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Markets", url: "https://axismeter-site.vercel.app/markets" }, { name: "Mixed-Use", url: "https://axismeter-site.vercel.app/markets/mixed-use" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Mixed-Use", url: "https://axismeter.com/markets/mixed-use" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1920&q=80"

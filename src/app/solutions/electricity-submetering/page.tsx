@@ -26,7 +26,7 @@ const steps = [
 export default function ElectricitySubmeteringPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "Solutions", url: "https://axismeter-site.vercel.app/solutions" }, { name: "Electricity Submetering", url: "https://axismeter-site.vercel.app/solutions/electricity-submetering" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Electricity Submetering", url: "https://axismeter.com/solutions/electricity-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"

@@ -56,13 +56,13 @@ export default async function BlogPost({
         title={post.title}
         description={post.excerpt}
         datePublished={post.date}
-        url={`https://axismeter-site.vercel.app/blog/${slug}`}
+        url={`https://axismeter.com/blog/${slug}`}
         image={post.featuredImage ?? undefined}
       />
       <BreadcrumbSchema items={[
-        { name: "Home", url: "https://axismeter-site.vercel.app" },
-        { name: "Blog", url: "https://axismeter-site.vercel.app/blog" },
-        { name: post.title, url: `https://axismeter-site.vercel.app/blog/${slug}` },
+        { name: "Home", url: "https://axismeter.com" },
+        { name: "Blog", url: "https://axismeter.com/blog" },
+        { name: post.title, url: `https://axismeter.com/blog/${slug}` },
       ]} />
       {/* Back navigation */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
