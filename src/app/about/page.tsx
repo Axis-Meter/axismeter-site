@@ -5,22 +5,37 @@ import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "About Us — Axis Meter Solutions",
-  description: "Built by a real estate investor who got tired of overpaying for utilities. Meet the team behind Axis Meter Solutions.",
+  description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. Measurement Canada approved. $0 upfront. Free leak detection included.",
 };
 
 const values = [
-  { icon: "🤝", title: "Personal Service", description: "You talk to real people — not a call center. We're a founder-led company, and we treat every building like it's our own." },
-  { icon: "💧", title: "Leak Detection Included", description: "Every single install includes free leak and flood detection. No upsell, no add-on. It's just how we do business." },
-  { icon: "💰", title: "$0 Upfront", description: "We own and maintain all equipment. You pay nothing to get started — because we know the ROI speaks for itself." },
-  { icon: "📏", title: "Measurement Canada Approved", description: "All our meters are certified and regularly inspected. 100% compliant with every regulation that applies to your building." },
-  { icon: "🇺🇸", title: "US & Canada Coverage", description: "We serve property owners across both countries. Most competitors are Canada-only — we go where you need us." },
-  { icon: "⚡", title: "Fast Execution", description: "8–10 weeks from agreement to live meters. We don't drag things out because we know every month without submetering costs you money." },
+  { icon: "📏", title: "Measurement Canada Approved", description: "All meters are certified, inspected, and fully compliant with regulatory standards across the US and Canada." },
+  { icon: "💧", title: "Leak & Flood Detection Included", description: "Every installation includes leak and flood detection sensors at no extra cost — protecting properties from costly water damage." },
+  { icon: "💰", title: "$0 Capital Expenditure", description: "Axis Meter owns and maintains all equipment during the agreement term. Property owners pay nothing upfront to get started." },
+  { icon: "⚡", title: "8–10 Week Implementation", description: "From signed agreement to live meters in 8–10 weeks. A streamlined process designed to minimize disruption to your operations." },
+  { icon: "🤝", title: "Collaborative Approach", description: "We work directly with your engineering teams, property managers, and electricians to design optimal metering configurations." },
+  { icon: "🇺🇸", title: "US & Canada Coverage", description: "Full-service submetering across both countries — residential, commercial, and mixed-use properties of all sizes." },
+];
+
+const partners = [
+  { name: "Next Century", description: "Smart Metering" },
+  { name: "GWF", description: "Water Meters" },
+  { name: "Accuenergy", description: "Power Meters" },
+  { name: "Triacta", description: "Energy Metering" },
+];
+
+const stats = [
+  { value: "20yr", label: "Standard Agreement Term" },
+  { value: "100%", label: "Regulatory Compliance" },
+  { value: "8–10 wk", label: "Implementation Timeline" },
+  { value: "$0", label: "Upfront Cost" },
 ];
 
 export default function AboutPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter-site.vercel.app" }, { name: "About", url: "https://axismeter-site.vercel.app/about" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "About", url: "https://axismeter.com/about" }]} />
+
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image
@@ -34,51 +49,65 @@ export default function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-              Built by an Investor,{" "}
-              <span className="text-accent">for Investors</span>
+              Full-Service Submetering,{" "}
+              <span className="text-accent">Built for Property Owners</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
-              Axis Meter wasn&apos;t started by a utility company. It was started by a real estate investor
-              who got tired of watching utility costs eat into his returns — and decided to fix it.
+              Axis Meter Solutions delivers end-to-end utility submetering across the US and Canada —
+              from equipment and installation to billing and compliance. We handle everything so you can
+              focus on managing your portfolio.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Founder Story */}
+      {/* Stats Bar */}
+      <section className="bg-navy-light border-y border-navy-lighter">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            {stats.map((stat) => (
+              <div key={stat.label}>
+                <div className="text-3xl sm:text-4xl font-bold text-accent">{stat.value}</div>
+                <div className="mt-1 text-gray-400 text-sm">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Approach */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <div className="relative h-[300px] rounded-xl overflow-hidden mb-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
-                alt="Real estate investment and property management"
+                alt="Property management and utility infrastructure"
                 fill
                 className="object-cover"
               />
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">The Story Behind Axis Meter</h2>
-            <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
-              <p>
-                Karthik Vasan is a real estate investor. He owns rental properties. And for years, he dealt with the same
-                frustration every property owner knows: bulk utility bills that keep climbing while tenants have zero
-                incentive to conserve.
-              </p>
-              <p>
-                When he looked into submetering, the options were frustrating. The big companies only wanted to talk if you
-                had 200+ units. The process was slow and opaque. And nobody seemed to actually understand the real estate
-                business — they were utility companies trying to sell hardware, not partners who understood NOI and cap rates.
-              </p>
-              <p>
-                So Karthik built Axis Meter Solutions. A submetering company designed from the ground up for property owners
-                like himself — people who care about the numbers, want straight answers, and don&apos;t have time for corporate
-                runaround.
-              </p>
-              <p>
-                The result is a company that does things differently: $0 upfront cost, free leak detection with every install,
-                personal service from people who actually understand your business, and a timeline that respects the fact that
-                every month without submetering is money left on the table.
-              </p>
+            <div>
+              <span className="text-accent font-semibold text-sm uppercase tracking-wide">Our Approach</span>
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-6">
+                Submetering That Understands Real Estate
+              </h2>
+              <div className="space-y-4 text-lg text-gray-600 leading-relaxed">
+                <p>
+                  Axis Meter Solutions was founded with a single focus: deliver submetering services designed
+                  around the needs of property owners — not utility companies.
+                </p>
+                <p>
+                  Our team combines deep real estate expertise with utility infrastructure knowledge. We understand
+                  NOI, cap rates, and operating budgets because our approach was shaped by the same challenges
+                  property owners face every day.
+                </p>
+                <p>
+                  From multi-family residential to commercial and mixed-use properties, we provide turnkey
+                  submetering — equipment, installation, billing, maintenance, and full regulatory compliance —
+                  with zero upfront cost to the property owner.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -89,18 +118,19 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Help property owners stop overpaying for utilities. It&apos;s that simple. We believe every building
-            deserves accurate metering, fair billing, and protection against water damage — regardless of size.
+            To make accurate, fair utility billing accessible to every property — regardless of size.
+            We believe submetering should reduce costs, promote conservation, and protect buildings
+            from water damage, all without requiring capital investment from property owners.
           </p>
         </div>
       </section>
 
-      {/* Why Axis Is Different */}
+      {/* Why Axis */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Why Axis Is Different</h2>
-            <p className="mt-4 text-lg text-gray-600">We&apos;re not a big utility company. And that&apos;s the point.</p>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Why Axis Meter</h2>
+            <p className="mt-4 text-lg text-gray-600">A different approach to submetering — designed around your needs.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {values.map((v) => (
@@ -114,24 +144,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Technology Partners */}
       <section className="bg-gray-50 py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Leadership</h2>
-            <p className="mt-4 text-lg text-gray-600">A founder-led company with hands-on leadership.</p>
-          </div>
-          <div className="max-w-md mx-auto bg-white rounded-xl p-8 shadow-sm text-center">
-            <div className="w-24 h-24 bg-navy rounded-full flex items-center justify-center mx-auto mb-6">
-              <span className="text-3xl text-accent font-bold">KV</span>
-            </div>
-            <h3 className="text-xl font-semibold text-gray-900">Karthik Vasan</h3>
-            <p className="text-accent font-medium mb-4">Founder & CEO</p>
-            <p className="text-gray-600 leading-relaxed">
-              Real estate investor turned submetering entrepreneur. Karthik built Axis Meter because he
-              couldn&apos;t find a submetering partner that understood the property owner&apos;s perspective.
-              He brings firsthand experience managing rental properties to every client relationship.
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Technology Partners</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              We deploy industry-leading metering technology from trusted manufacturers.
             </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-3xl mx-auto">
+            {partners.map((p) => (
+              <div key={p.name} className="bg-white rounded-xl p-6 shadow-sm text-center flex flex-col items-center justify-center min-h-[120px]">
+                <span className="text-xl font-bold text-gray-800">{p.name}</span>
+                <span className="text-xs text-gray-500 mt-1">{p.description}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -163,18 +191,19 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="bg-navy py-20 sm:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">Let&apos;s Talk About Your Property</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">Ready to Reduce Your Utility Costs?</h2>
           <p className="mt-6 text-lg text-gray-300">
-            No pressure, no sales pitch. Just a real conversation with someone who understands what you&apos;re dealing with.
+            Speak with a submetering specialist about your property. No obligation, no pressure.
           </p>
           <div className="mt-10">
             <Link
-              href="/property-owners"
+              href="/contact"
               className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
             >
-              Book a Free Call
+              Book a Free Consultation
             </Link>
           </div>
+          <p className="mt-4 text-gray-500 text-sm">US & Canada · Measurement Canada Approved · Fully Certified</p>
         </div>
       </section>
     </>
