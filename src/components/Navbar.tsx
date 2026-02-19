@@ -7,6 +7,9 @@ import { useState } from "react";
 const solutions = [
   { name: "Electricity Submetering", href: "/solutions/electricity-submetering" },
   { name: "Water Submetering", href: "/solutions/water-submetering" },
+  { name: "Thermal Submetering", href: "/solutions/thermal-submetering" },
+  { name: "Gas Submetering", href: "/solutions/gas-submetering" },
+  { name: "Common Area Metering", href: "/solutions/common-area-metering" },
   { name: "Leak & Flood Detection", href: "/solutions/leak-detection" },
 ];
 

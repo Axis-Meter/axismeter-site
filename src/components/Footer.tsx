@@ -13,6 +13,9 @@ const quickLinks = [
 const solutionLinks = [
   { name: "Electricity Submetering", href: "/solutions/electricity-submetering" },
   { name: "Water Submetering", href: "/solutions/water-submetering" },
+  { name: "Thermal Submetering", href: "/solutions/thermal-submetering" },
+  { name: "Gas Submetering", href: "/solutions/gas-submetering" },
+  { name: "Common Area Metering", href: "/solutions/common-area-metering" },
   { name: "Leak & Flood Detection", href: "/solutions/leak-detection" },
 ];
 
@@ -33,7 +36,7 @@ export function Footer() {
           <div>
             <Image src="/images/logo-green.png" alt="Axis Meter Solutions" width={180} height={45} />
             <p className="mt-4 text-sm leading-relaxed">
-              Submetering built by real estate investors, for real estate investors. Serving the US and Canada.
+              Full-service utility submetering for property owners across the US and Canada.
             </p>
             <div className="flex gap-4 mt-6">
               <a href="https://www.instagram.com/axismeter" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors" aria-label="Instagram">
