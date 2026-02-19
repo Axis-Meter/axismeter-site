@@ -21,8 +21,8 @@ export default function Submetering101Page() {
       ]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=1920&q=80"
-          alt="Educational guide to utility submetering"
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          alt="Utility submetering equipment and meters"
           fill
           className="object-cover opacity-15"
           priority
