@@ -1,73 +1,74 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Case Studies — Axis Meter Solutions",
-  description: "Real results from real properties. See how submetering transformed utility management for apartment buildings, condos, and commercial properties.",
+  title: "Case Studies — Submetering Projects | Axis Meter Solutions",
+  description: "See how Axis Meter delivered full-service submetering for multi-unit properties across Ontario. 118-unit building in Niagara Falls, 107-unit retrofit in Kingston, and more.",
 };
 
 const caseStudies = [
   {
-    title: "20-Unit Apartment Building in Toronto",
-    type: "Residential Retrofit",
-    icon: "🏠",
+    title: "118-Unit Residential Building",
+    location: "Niagara Falls, Ontario",
+    type: "Residential — Electricity Submetering",
     image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
-    challenge: "A 20-unit apartment building in Toronto's east end was spending $4,200/month on bulk electricity and water. The owner had been absorbing the cost for years, watching it climb annually while tenants had no incentive to conserve. Two water damage incidents in the previous year had cost an additional $35,000 in repairs.",
-    solution: "Axis installed per-unit electricity and water meters across all 20 units, with leak and flood detection sensors in every bathroom, kitchen, and mechanical room. The entire process took 9 weeks from agreement to live billing.",
-    results: [
-      { metric: "$3,100/mo", label: "In recovered utility costs" },
-      { metric: "34%", label: "Reduction in water consumption" },
-      { metric: "28%", label: "Reduction in electricity consumption" },
-      { metric: "$0", label: "Water damage since installation" },
+    stats: [
+      { metric: "118", label: "Residential Units" },
+      { metric: "242", label: "Meters Installed" },
+      { metric: "$0", label: "Upfront Cost to Owner" },
+      { metric: "8 wk", label: "Project Timeline" },
     ],
-    quote: "I was losing over $3,000 a month and didn't even realize how much until Axis showed me the numbers. The leak detection alone has paid for itself — we caught a slow leak in unit 12 within the first month that would have been another $15,000 repair.",
-    quoteName: "Michael R.",
-    quoteRole: "Building Owner, Toronto",
+    overview: "A 118-unit residential building in Niagara Falls was operating on bulk electricity billing, with the property owner absorbing rising utility costs across the entire building. With no per-unit measurement in place, tenants had no visibility into their consumption and no incentive to conserve — driving costs higher year over year.",
+    challenge: "The building required a comprehensive electricity submetering solution that could handle 242 individual meter points across 118 units without major disruption to existing tenants. The owner needed a turnkey solution with zero capital outlay and a provider who could manage the full process — from design and permitting through installation, commissioning, and ongoing billing.",
+    solution: "Axis Meter designed and deployed a full electricity submetering system across all 118 units, installing 242 Measurement Canada approved meters. The project was executed in coordination with the building's electrical contractor, with Axis managing all regulatory approvals, meter procurement, installation oversight, and system commissioning. Once live, Axis took over automated meter reading, monthly tenant billing, account management, and customer support — a fully managed, end-to-end solution.",
+    approach: [
+      "Conducted a detailed site assessment of the building's electrical infrastructure",
+      "Designed a metering plan covering all 118 units with 242 individual meter points",
+      "Coordinated meter installation with the building's electrical contractor",
+      "Managed all Measurement Canada approvals and regulatory compliance",
+      "Commissioned the system and validated all meter readings",
+      "Launched automated monthly billing to all 118 tenants",
+      "Provided ongoing account management, customer support, and maintenance",
+    ],
   },
   {
-    title: "New Construction Condo — 45 Units",
-    type: "Condo New Construction",
-    icon: "🏙️",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
-    challenge: "A developer building a 45-unit condominium in the GTA wanted to minimize maintenance fees to make units more competitive in presale. Similar projects in the area had maintenance fees of $0.65-0.75/sq ft — the developer wanted to come in significantly lower.",
-    solution: "Axis was brought in during the design phase to integrate electricity and water submetering into the building plans. Meters were installed during construction, before drywall, with leak detection sensors placed throughout. The condo corporation launched with per-unit billing from day one.",
-    results: [
-      { metric: "$0.48/sq ft", label: "Maintenance fees at launch" },
-      { metric: "26%", label: "Lower fees than comparable buildings" },
-      { metric: "100%", label: "Of presale units sold before occupancy" },
-      { metric: "$0", label: "Upfront cost to the developer" },
+    title: "107-Unit Retrofit During Renovation",
+    location: "Kingston, Ontario",
+    type: "Residential — Retrofit Submetering",
+    image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800&q=80",
+    stats: [
+      { metric: "107", label: "Residential Units" },
+      { metric: "294", label: "Meters Installed" },
+      { metric: "$0", label: "Upfront Cost to Owner" },
+      { metric: "Retrofit", label: "During Renovation" },
     ],
-    quote: "The lower maintenance fees were a genuine selling point. Buyers could see the difference immediately compared to other projects. And having leak detection built in from day one gave the condo board real peace of mind.",
-    quoteName: "Sarah L.",
-    quoteRole: "Development Manager, GTA",
-  },
-  {
-    title: "Mixed-Use Commercial Property",
-    type: "Commercial Mixed-Use",
-    icon: "🏢",
-    image: "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&q=80",
-    challenge: "A mixed-use property with 8 retail units on the ground floor and 12 residential apartments above was allocating utility costs using square footage estimates. Commercial tenants were subsidizing residential usage, leading to lease disputes. The owner was absorbing roughly $2,800/month in unrecovered costs.",
-    solution: "Axis installed separate electricity and water meters for all 20 units — 8 commercial and 12 residential — with different billing rates for each tenant type. Leak detection sensors were placed throughout the building, with extra coverage in the ground-floor retail spaces.",
-    results: [
-      { metric: "$2,800/mo", label: "In recovered utility costs" },
-      { metric: "Zero", label: "Billing disputes since installation" },
-      { metric: "2", label: "Leaks caught in the first 6 months" },
-      { metric: "100%", label: "Tenant retention after transition" },
+    overview: "A 107-unit residential building in Kingston was undergoing a phased renovation program. The property owner saw an opportunity to implement utility submetering during the renovation process — taking advantage of open walls and active construction to install meters with minimal additional disruption.",
+    challenge: "Retrofitting submetering into an occupied building during active renovations required careful coordination. The metering installation needed to align with the renovation schedule, unit by unit, without delaying the construction timeline or causing additional disruption to tenants in non-renovated units. The scope was significant: 294 meters across 107 units, covering multiple utility types.",
+    solution: "Axis Meter integrated the submetering installation into the client's existing renovation workflow. As each unit was opened up for renovation, Axis coordinated meter installation alongside the construction crew — installing 294 meters across all 107 units as the renovation progressed. This phased approach meant meters were installed behind fresh walls during the renovation, not as a separate disruptive project.",
+    approach: [
+      "Aligned the metering rollout with the client's renovation schedule",
+      "Designed a phased installation plan coordinated with the construction team",
+      "Installed 294 meters across 107 units during suite turnover renovations",
+      "Took advantage of open walls for optimal meter placement with minimal disruption",
+      "Managed all regulatory approvals and Measurement Canada compliance",
+      "Commissioned meters in phases as renovated units were completed",
+      "Launched billing progressively as each batch of meters came online",
+      "Provided full ongoing billing, account management, and tenant support",
     ],
-    quote: "Axis transformed our commercial property management with their submetering technology. We've seen significant cost reductions and greater tenant accountability. The billing disputes vanished overnight.",
-    quoteName: "Darren K.",
-    quoteRole: "Commercial Landlord, Toronto",
   },
 ];
 
 export default function CaseStudiesPage() {
   return (
     <>
+      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Case Studies", url: "https://axismeter.com/case-studies" }]} />
+
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=1920&q=80"
-          alt="Urban buildings representing real case study properties"
+          alt="Multi-unit residential buildings"
           fill
           className="object-cover opacity-15"
           priority
@@ -76,60 +77,94 @@ export default function CaseStudiesPage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-              Real Properties.{" "}
-              <span className="text-accent">Real Results.</span>
+              Project Case Studies
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
-              See how property owners across Canada are recovering utility costs, preventing water damage,
-              and increasing property value with Axis Meter.
+              Real submetering projects delivered by Axis Meter. From initial assessment through
+              installation, commissioning, and ongoing billing management.
             </p>
           </div>
         </div>
       </section>
 
+      {/* Summary Stats */}
+      <section className="bg-navy-light border-y border-navy-lighter">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
+            <div>
+              <div className="text-3xl sm:text-4xl font-bold text-accent">225+</div>
+              <div className="mt-1 text-gray-400 text-sm">Units Submetered</div>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-bold text-accent">536+</div>
+              <div className="mt-1 text-gray-400 text-sm">Meters Installed</div>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-bold text-accent">100%</div>
+              <div className="mt-1 text-gray-400 text-sm">Regulatory Compliant</div>
+            </div>
+            <div>
+              <div className="text-3xl sm:text-4xl font-bold text-accent">$0</div>
+              <div className="mt-1 text-gray-400 text-sm">Upfront Cost to Owners</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-white py-20 sm:py-28">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
           {caseStudies.map((cs, i) => (
-            <div key={i} className="border-b border-gray-200 pb-20 last:border-0">
-              <div className="relative h-[280px] rounded-xl overflow-hidden mb-8">
+            <div key={i} className="border-b border-gray-200 pb-20 last:border-0 last:pb-0">
+              {/* Hero Image */}
+              <div className="relative h-[320px] rounded-xl overflow-hidden mb-8">
                 <Image
                   src={cs.image}
                   alt={cs.title}
                   fill
                   className="object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-6 left-6">
-                  <span className="text-sm font-semibold text-accent uppercase">{cs.type}</span>
+                  <span className="text-sm font-semibold text-accent uppercase tracking-wide">{cs.type}</span>
                   <h2 className="text-2xl sm:text-3xl font-bold text-white">{cs.title}</h2>
+                  <p className="text-gray-300 text-sm mt-1">{cs.location}</p>
                 </div>
               </div>
 
+              {/* Stats */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+                {cs.stats.map((s) => (
+                  <div key={s.label} className="bg-gray-50 rounded-lg p-5 text-center">
+                    <div className="text-2xl font-bold text-accent">{s.metric}</div>
+                    <div className="text-sm text-gray-600 mt-1">{s.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Content */}
               <div className="space-y-8">
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">The Challenge</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Overview</h3>
+                  <p className="text-gray-600 leading-relaxed">{cs.overview}</p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">The Challenge</h3>
                   <p className="text-gray-600 leading-relaxed">{cs.challenge}</p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">The Solution</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">The Solution</h3>
                   <p className="text-gray-600 leading-relaxed">{cs.solution}</p>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4">The Results</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {cs.results.map((r) => (
-                      <div key={r.label} className="bg-gray-50 rounded-lg p-4 text-center">
-                        <div className="text-2xl font-bold text-accent">{r.metric}</div>
-                        <div className="text-sm text-gray-600 mt-1">{r.label}</div>
-                      </div>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-3">Our Approach</h3>
+                  <ul className="space-y-3">
+                    {cs.approach.map((step, j) => (
+                      <li key={j} className="flex items-start gap-3 text-gray-600">
+                        <span className="text-accent font-bold mt-0.5">{j + 1}.</span>
+                        <span className="leading-relaxed">{step}</span>
+                      </li>
                     ))}
-                  </div>
-                </div>
-                <div className="bg-gray-50 rounded-xl p-8">
-                  <div className="text-accent text-2xl mb-3">&ldquo;</div>
-                  <p className="text-gray-700 leading-relaxed italic mb-4">{cs.quote}</p>
-                  <div className="font-semibold text-gray-900">{cs.quoteName}</div>
-                  <div className="text-sm text-gray-500">{cs.quoteRole}</div>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -137,16 +172,17 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
+      {/* CTA */}
       <section className="bg-navy py-20 sm:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white">Want Results Like These?</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">Ready to Start Your Project?</h2>
           <p className="mt-6 text-lg text-gray-300">
-            Book a free consultation and get a custom assessment for your property. We&apos;ll show you exactly
-            what submetering can do for your bottom line.
+            Whether it&apos;s a new construction build or a retrofit during renovation, Axis Meter
+            delivers turnkey submetering with zero upfront cost. Let&apos;s discuss your property.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Book a Free Consultation
             </Link>
           </div>
         </div>
