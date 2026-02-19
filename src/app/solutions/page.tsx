@@ -66,7 +66,7 @@ export default function SolutionsPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1920&q=80"
           alt="Smart utility metering and building management systems"
           fill
           className="object-cover opacity-15"
