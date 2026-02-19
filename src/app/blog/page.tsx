@@ -20,7 +20,7 @@ export default function BlogPage() {
               <span className="text-accent">Blog</span>
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
-              Insights on submetering, utility management, and property investment from people who actually own buildings.
+              Insights on submetering, utility management, and property investment from the Axis Meter team.
             </p>
           </div>
         </div>

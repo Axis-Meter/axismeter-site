@@ -189,8 +189,8 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
-                alt="Modern apartment building representing submetered properties"
+                src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+                alt="Smart utility meters and electrical infrastructure"
                 fill
                 className="object-cover"
               />
