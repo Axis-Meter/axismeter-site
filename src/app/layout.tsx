@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     images: [{ url: "/images/logo-blue.png", width: 1280, height: 400 }],
   },
   icons: { icon: "/images/favicon.png" },
+  verification: {
+    google: "tolBoyTfaEVk1WCadH9p2rn9QdwhDdQ3kWzupbvjQO8",
+  },
 };
 
 export default function RootLayout({
