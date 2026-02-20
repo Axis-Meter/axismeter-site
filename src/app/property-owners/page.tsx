@@ -28,7 +28,7 @@ export default function PropertyOwnersPage() {
           src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1920&q=80"
           alt="Impressive modern building representing property investment"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

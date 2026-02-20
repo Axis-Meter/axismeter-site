@@ -40,7 +40,7 @@ export default function LeakDetectionPage() {
           src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80"
           alt="Water damage prevention with leak detection sensors"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

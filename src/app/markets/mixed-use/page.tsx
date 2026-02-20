@@ -17,7 +17,7 @@ export default function MixedUsePage() {
           src="https://images.unsplash.com/photo-1577495508048-b635879837f1?w=1920&q=80"
           alt="Mixed-use development with retail and residential"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

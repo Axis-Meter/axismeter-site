@@ -46,7 +46,7 @@ export default function ContactPage() {
           src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80"
           alt="Professional communication and customer support"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

@@ -35,7 +35,7 @@ export default function ResidentsPage() {
           src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1920&q=80"
           alt="Modern apartment interior with comfortable living space"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

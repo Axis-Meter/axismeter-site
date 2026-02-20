@@ -32,7 +32,7 @@ export default function ThermalSubmeteringPage() {
           src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1920&q=80"
           alt="HVAC system and thermal energy infrastructure"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

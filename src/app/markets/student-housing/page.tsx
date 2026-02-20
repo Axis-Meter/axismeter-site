@@ -17,7 +17,7 @@ export default function StudentHousingPage() {
           src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80"
           alt="University campus and student housing buildings"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

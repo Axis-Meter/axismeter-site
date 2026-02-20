@@ -37,7 +37,7 @@ export default function CommonAreaMeteringPage() {
           src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
           alt="Modern building lobby and common area"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

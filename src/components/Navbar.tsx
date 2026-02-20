@@ -78,16 +78,16 @@ export function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center gap-4">
+            <a href="tel:+12267025500" className="text-gray-300 hover:text-white transition-colors text-sm">
+              📞 226-702-5500
+            </a>
             <a
               href="https://myaccount.axismeter.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white transition-colors"
+              className="border border-accent text-accent hover:bg-accent hover:text-navy font-semibold px-5 py-2 rounded-lg transition-colors"
             >
               Log In
-            </a>
-            <a href="tel:+12267025500" className="text-gray-300 hover:text-white transition-colors text-sm">
-              📞 226-702-5500
             </a>
             <Link
               href="/contact"

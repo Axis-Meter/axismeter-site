@@ -17,7 +17,7 @@ export default function AffordableHousingPage() {
           src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1920&q=80"
           alt="Community affordable housing development"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

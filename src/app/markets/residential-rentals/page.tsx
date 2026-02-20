@@ -26,7 +26,7 @@ export default function ResidentialRentalsPage() {
           src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&q=80"
           alt="Multi-family apartment building exterior"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

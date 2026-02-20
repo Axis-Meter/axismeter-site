@@ -32,7 +32,7 @@ export default function ElectricitySubmeteringPage() {
           src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
           alt="Electrical panel with smart meters for submetering"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />

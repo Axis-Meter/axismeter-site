@@ -67,7 +67,7 @@ export default function HowItWorksPage() {
           src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&q=80"
           alt="Professional consultation and installation process"
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-25"
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
