@@ -86,11 +86,14 @@ export function Navbar() {
             >
               Log In
             </a>
+            <a href="tel:+12267025500" className="text-gray-300 hover:text-white transition-colors text-sm">
+              📞 226-702-5500
+            </a>
             <Link
               href="/contact"
               className="bg-accent hover:bg-accent-dark text-navy font-semibold px-6 py-2.5 rounded-lg transition-colors"
             >
-              Book a Call
+              Get a Quote
             </Link>
           </div>
 
@@ -152,12 +155,15 @@ export function Navbar() {
             >
               Log In → My Account
             </a>
+            <a href="tel:+12267025500" className="block py-2 text-accent hover:text-white">
+              📞 226-702-5500
+            </a>
             <Link
               href="/contact"
               className="block text-center bg-accent hover:bg-accent-dark text-navy font-semibold px-6 py-2.5 rounded-lg mt-4"
               onClick={() => setMobileOpen(false)}
             >
-              Book a Call
+              Get a Quote
             </Link>
           </div>
         </div>

@@ -12,489 +12,401 @@ export const blogPosts: BlogPostMeta[] = [
   {
     "slug": "why-are-my-utility-bills-so-high",
     "title": "Why Are My Utility Bills So High? Understanding the Role of Axis Meter Solutions",
-    "excerpt": "If you're wondering why your utility bills are so high, the first step is to understand how they are calculated.",
-    "category": "Utility Management",
+    "excerpt": "Why are utility bills so high? Common causes in multi-unit buildings and how submetering identifies waste.",
+    "category": "Cost Savings",
     "date": "2024-11-25",
     "featuredImage": "/images/blog/why-are-my-utility-bills-so-high.png"
   },
   {
     "slug": "who-pays-utilities-when-renting-a-house",
     "title": "Who Pays Utilities When Renting a House? A Clear Guide with Axis Meter Solutions",
-    "excerpt": "If you're a landlord, it's important to have a clear understanding of which utilities you are responsible for paying and which ones your tenants are responsible for.",
-    "category": "Utility Management",
+    "excerpt": "Who pays utilities when renting? Guide to landlord vs. tenant responsibilities and how submetering makes it clear.",
+    "category": "Tenants & Renters",
     "date": "2024-11-24",
     "featuredImage": "/images/blog/who-pays-utilities-when-renting-a-house.png"
   },
   {
     "slug": "who-is-responsible-for-unpaid-utility-bills",
     "title": "Who is Responsible for Unpaid Utility Bills? Understanding the Role of Axis Meter Solutions",
-    "excerpt": "Conducting regular inspections of rental properties can help identify potential issues before they become major problems.",
-    "category": "Utility Management",
+    "excerpt": "Who pays when utility bills go unpaid in a rental? Landlord vs. tenant responsibility and how submetering helps.",
+    "category": "Submetering",
     "date": "2024-11-23",
     "featuredImage": "/images/blog/who-is-responsible-for-unpaid-utility-bills.png"
   },
   {
     "slug": "when-renting-a-house-who-pays-utilities",
     "title": "When Renting a House: Who Pays Utilities with Axis Meter Solutions",
-    "excerpt": "When renting a house, it is possible to negotiate utility costs with your landlord.",
-    "category": "Utility Management",
+    "excerpt": "Utility payment responsibilities when renting a house. Common arrangements, legal rules, and the submetering advantage.",
+    "category": "Tenants & Renters",
     "date": "2024-10-22",
     "featuredImage": "/images/blog/when-renting-a-house-who-pays-utilities.png"
   },
   {
     "slug": "what-utilities-do-you-need-for-a-house",
     "title": "What Utilities Do You Need for a House? A Guide from Axis Meter Solutions",
-    "excerpt": "Setting up utilities can be a time-consuming and complicated process, but it's essential to ensure that your home is functioning properly.",
-    "category": "Utility Management",
+    "excerpt": "Essential utilities for a house: electricity, water, gas, internet. Average costs and how submetering keeps them fair.",
+    "category": "Submetering",
     "date": "2024-10-21",
     "featuredImage": "/images/blog/what-utilities-do-you-need-for-a-house.png"
   },
   {
     "slug": "what-is-utility-computing",
     "title": "What is Utility Computing and How Can Axis Meter Solutions Benefit from it?",
-    "excerpt": "Utility computing is a service provisioning model that allows computing resources such as data storage space, computing capabilities, and virtual servers to be made available to customers on a pay-per-use basis.",
-    "category": "Utility Management",
+    "excerpt": "Understanding utility computing and its parallels to utility billing in real estate. Pay-per-use models explained.",
+    "category": "Submetering",
     "date": "2024-10-20",
     "featuredImage": "/images/blog/what-is-utility-computing.png"
   },
   {
     "slug": "what-is-submetering",
     "title": "What is Submetering? An Overview by Axis Meter Solutions",
-    "excerpt": "The purpose of submetering is to allocate the cost of utilities to individual tenants or residents based on their actual usage",
-    "category": "Utility Management",
+    "excerpt": "What is utility submetering? Learn how per-unit metering works, benefits for property owners, and why buildings see 30-40% consumption reduction.",
+    "category": "Submetering",
     "date": "2024-10-19",
     "featuredImage": "/images/blog/what-is-submetering.png"
   },
   {
     "slug": "what-is-a-water-submeter",
     "title": "What is a Water Submeter? A Clear Explanation from Axis Meter Solutions",
-    "excerpt": "A water submeter is a device that measures the amount of water used by a single unit in a multi-unit building.",
-    "category": "Utility Management",
+    "excerpt": "How water submeters work in multi-unit buildings. Per-unit water measurement, conservation benefits, and what property owners need to know.",
+    "category": "Water",
     "date": "2024-09-17",
     "featuredImage": "/images/blog/what-is-a-water-submeter.png"
   },
   {
     "slug": "what-is-a-utility-bill",
     "title": "What is a Utility Bill? Understanding the Basics with Axis Meter Solutions",
-    "excerpt": "Utility bill management has significantly evolved over the years, thanks to technology.",
-    "category": "Utility Management",
+    "excerpt": "Understanding utility bills in rental properties. What is included, how charges work, and how submetering makes billing fair and transparent.",
+    "category": "Submetering",
     "date": "2024-09-16",
     "featuredImage": "/images/blog/what-is-a-utility-bill.png"
   },
   {
     "slug": "what-is-a-submeter-and-how-does-it-work",
     "title": "What is a Submeter and How Does it Work? - A Guide by Axis Meter Solutions",
-    "excerpt": "Submetering is the process of installing individual meters to measure the consumption of water, gas, or electricity for a particular multifamily or commercial unit.",
-    "category": "Utility Management",
+    "excerpt": "Complete guide to submeters: how they measure per-unit utility consumption, installation process, and benefits for multi-unit properties.",
+    "category": "Submetering",
     "date": "2024-09-15",
     "featuredImage": "/images/blog/what-is-a-submeter-and-how-does-it-work.png"
   },
   {
     "slug": "what-includes-utilities",
     "title": "What Includes Utilities: A Clear Explanation from Axis Meter Solutions",
-    "excerpt": "As a tenant, it is important to understand the types of utilities that are included in your monthly rent and what you can expect in terms of average costs.",
-    "category": "Utility Management",
+    "excerpt": "What counts as utilities in a rental property? Electricity, water, gas, heating — and how submetering bills each separately.",
+    "category": "Submetering",
     "date": "2024-09-13",
     "featuredImage": "/images/blog/what-includes-utilities.png"
   },
   {
     "slug": "what-if-tenant-does-not-pay-electricity-bill",
     "title": "What if Tenant Does Not Pay Electricity Bill: Axis Meter Solutions' Expert Advice",
-    "excerpt": "When it comes to unpaid utility bills, it's important to communicate with your tenant and take appropriate legal action if necessary.",
-    "category": "Utility Management",
+    "excerpt": "What to do when a tenant does not pay their electricity bill. Legal options, prevention strategies, and submetering solutions.",
+    "category": "Electricity",
     "date": "2024-08-12",
     "featuredImage": "/images/blog/what-if-tenant-does-not-pay-electricity-bill.png"
   },
   {
     "slug": "what-happens-if-a-tenant-leaves-without-paying-utility-bills",
     "title": "Axis Meter Solutions: What Happens If a Tenant Leaves Without Paying Utility Bills",
-    "excerpt": "When a tenant moves out, it's important to communicate with them about the utility account closure process.",
-    "category": "Utility Management",
+    "excerpt": "Tenant left without paying utilities? Legal options, security deposit rules, and how submetering prevents this.",
+    "category": "Tenants & Renters",
     "date": "2024-08-11",
     "featuredImage": "/images/blog/what-happens-if-a-tenant-leaves-without-paying-utility-bills.png"
   },
   {
     "slug": "what-does-all-utilities-included-mean",
     "title": "What Does \"All Utilities Included\" Mean? | Axis Meter Solutions",
-    "excerpt": "If you're looking for a new apartment, you may come across the term \"all utilities included\" in rental listings.",
-    "category": "Utility Management",
+    "excerpt": "What all utilities included really means in a rental. Pros, cons, and why many landlords are switching to submetering.",
+    "category": "Submetering",
     "date": "2024-08-09",
     "featuredImage": "/images/blog/what-does-all-utilities-included-mean.png"
   },
   {
     "slug": "water-submeter-solutions",
     "title": "Water Submeter Solutions by Axis Meter Solutions: Efficient Water Management Made Easy",
-    "excerpt": "If you own or manage a multi-unit property, you may be wondering how you can accurately track water consumption for each unit.",
-    "category": "Utility Management",
+    "excerpt": "Water submeter solutions for multi-unit properties. Reduce consumption, enable fair billing, and detect leaks early.",
+    "category": "Water",
     "date": "2024-08-08",
     "featuredImage": "/images/blog/water-submeter-solutions.png"
   },
   {
     "slug": "water-sub-meters",
     "title": "Water Sub Meters: Axis Meter Solutions for Accurate and Efficient Water Measurement",
-    "excerpt": "This promotes fairness and transparency in billing practices and can help reduce disputes between tenants and property owners.",
-    "category": "Utility Management",
+    "excerpt": "Water sub meters for accurate per-unit measurement. Measurement Canada approved, wireless options, free leak detection included.",
+    "category": "Water",
     "date": "2024-07-07",
     "featuredImage": "/images/blog/water-sub-meters.png"
   },
   {
     "slug": "utility-submetering",
     "title": "Utility Submetering: How Axis Meter Solutions Can Help You Save Money",
-    "excerpt": "Submetering software solutions are designed to simplify the process of managing utility consumption data.",
-    "category": "Utility Management",
+    "excerpt": "How utility submetering saves property owners money. Per-unit billing, consumption reduction, and increased property value.",
+    "category": "Submetering",
     "date": "2024-07-06",
     "featuredImage": "/images/blog/utility-submetering.png"
   },
   {
     "slug": "utility-in-real-estate",
     "title": "Utility in Real Estate: Axis Meter Solutions for Efficient Energy Management",
-    "excerpt": "Real estate properties require various types of utilities to function properly. These utilities are essential for ensuring that the property is habitable and meets the needs of the occupants.",
-    "category": "Utility Management",
+    "excerpt": "The role of utility management in real estate investment. How submetering increases property value and lowers operating costs.",
+    "category": "Property Owners",
     "date": "2024-07-05",
     "featuredImage": "/images/blog/utility-in-real-estate.png"
   },
   {
     "slug": "utility-and-value-of-axis-meter-solutions-in-modern-industries",
     "title": "Utility and Value of Axis Meter Solutions in Modern Industries",
-    "excerpt": "As specialists in sub-metering for a diverse range of real estate investments, we can help you manage your utility costs and improve your bottom line.",
-    "category": "Utility Management",
+    "excerpt": "How modern submetering technology drives property value and operational efficiency across real estate.",
+    "category": "Property Owners",
     "date": "2024-07-04",
     "featuredImage": "/images/blog/utility-and-value-of-axis-meter-solutions-in-modern-industries.png"
   },
   {
     "slug": "usage-based-billing-with-axis-meter-solutions",
     "title": "Usage Based Billing with Axis Meter Solutions: An Overview",
-    "excerpt": "One of the main benefits of usage-based pricing is that it aligns the cost of the product or service with the value that the customer receives.",
-    "category": "Utility Management",
+    "excerpt": "Usage-based utility billing for rental properties. How per-unit metering enables accurate, fair billing.",
+    "category": "Cost Savings",
     "date": "2024-07-03",
     "featuredImage": "/images/blog/usage-based-billing-with-axis-meter-solutions.png"
   },
   {
     "slug": "tenant-responsibilities-list",
     "title": "Tenant Responsibilities List: A Comprehensive Guide by Axis Meter Solutions",
-    "excerpt": "When you sign a lease agreement, you are entering into a legally binding contract with your landlord",
-    "category": "Utility Management",
+    "excerpt": "Complete list of tenant responsibilities for utilities. From setup to payment, plus how submetering simplifies the process.",
+    "category": "Tenants & Renters",
     "date": "2024-06-28",
     "featuredImage": "/images/blog/tenant-responsibilities-list.png"
   },
   {
     "slug": "tenant-responsibilities",
     "title": "Tenant Responsibilities: Understanding Your Obligations with Axis Meter Solutions",
-    "excerpt": "Different states and cities have their own laws and regulations regarding tenant rights and responsibilities.",
-    "category": "Utility Management",
+    "excerpt": "Tenant utility responsibilities in rental properties. What tenants are expected to pay for and how submetering clarifies obligations.",
+    "category": "Tenants & Renters",
     "date": "2024-06-27",
     "featuredImage": "/images/blog/tenant-responsibilities.png"
   },
   {
     "slug": "submetering-gas",
     "title": "Submetering Gas with Axis Meter Solutions: A Clear and Knowledgeable Approach",
-    "excerpt": "Sub-metering has been proven to be a successful strategy for reducing utility costs and increasing property value in multi-unit properties and apartment complexes.",
-    "category": "Utility Management",
+    "excerpt": "Gas submetering for multi-unit properties. Per-unit natural gas measurement, fair billing, and regulatory compliance.",
+    "category": "Gas",
     "date": "2024-06-26",
     "featuredImage": "/images/blog/submetering-gas.png"
   },
   {
     "slug": "tenants-rights-regarding-electricity",
     "title": "Tenants' Rights Regarding Electricity: Understanding Your Options with Axis Meter Solutions",
-    "excerpt": "One of the most important things to know is that your landlord cannot shut off your utilities as a way to force you to leave.",
-    "category": "Utility Management",
+    "excerpt": "Tenant rights regarding electricity in rental properties. What landlords can and cannot do, and how submetering protects both parties.",
+    "category": "Electricity",
     "date": "2024-06-02",
     "featuredImage": "/images/blog/tenants-rights-regarding-electricity.png"
   },
   {
     "slug": "tenant-submetering",
     "title": "Tenant Submetering: Introducing Axis Meter Solutions for Accurate and Fair Billing",
-    "excerpt": "Tenant submetering can help promote energy conservation by giving tenants more control over their energy usage.",
-    "category": "Utility Management",
+    "excerpt": "How tenant submetering works: fair billing based on actual usage, transparent monthly invoices, and conservation incentives.",
+    "category": "Tenants & Renters",
     "date": "2024-06-01",
     "featuredImage": "/images/blog/tenant-submetering.png"
   },
   {
     "slug": "submetering-electricity",
     "title": "Submetering Electricity with Axis Meter Solutions: Benefits and Implementation",
-    "excerpt": "Electrical submeters are the most common type of submeter and are used to measure the electricity consumed by individual units or departments.",
-    "category": "Utility Management",
+    "excerpt": "Guide to electricity submetering: benefits, installation, costs, and how it increases property value while lowering operating costs.",
+    "category": "Electricity",
     "date": "2024-05-25",
     "featuredImage": "/images/blog/submetering-electricity.png"
   },
   {
     "slug": "submeter-water-with-axis-meter-solutions",
     "title": "Submeter Water with Axis Meter Solutions: The Best Way to Manage Your Water Usage",
-    "excerpt": "As the demand for innovative metering solutions continues to grow, the submetering industry is constantly evolving to meet the needs of property owners and managers.",
-    "category": "Utility Management",
+    "excerpt": "Water submetering services. Per-unit billing, free leak detection, Measurement Canada approved meters.",
+    "category": "Water",
     "date": "2024-05-24",
     "featuredImage": "/images/blog/submeter-water-with-axis-meter-solutions.png"
   },
   {
     "slug": "sub-utility-solutions",
     "title": "Sub Utility Solutions with Axis Meter Solutions",
-    "excerpt": "Whether you're looking to manage your electricity, gas, or water consumption, Axis Meter Solutions has the expertise and experience to help.",
-    "category": "Utility Management",
+    "excerpt": "Sub utility solutions for property owners. Full-service submetering for electricity, water, gas, and thermal.",
+    "category": "Submetering",
     "date": "2024-05-23",
     "featuredImage": "/images/blog/sub-utility-solutions.png"
   },
   {
     "slug": "sub-metered-water",
     "title": "Sub Metered Water: Understanding the Benefits of Axis Meter Solutions",
-    "excerpt": "Submetering is a system that measures the consumption of utilities, such as water, gas, and electricity, within a property or premises.",
-    "category": "Utility Management",
+    "excerpt": "Benefits of sub metered water in rental buildings. Fair per-unit billing, conservation incentives, and leak detection.",
+    "category": "Water",
     "date": "2024-05-22",
     "featuredImage": "/images/blog/sub-metered-water.png"
   },
   {
     "slug": "sub-meter",
     "title": "Sub Meter: Understanding Axis Meter Solutions' Sub Metering Services",
-    "excerpt": "If you're looking to better understand and optimize your energy consumption, sub-metering is the way to go.",
-    "category": "Utility Management",
+    "excerpt": "Complete guide to sub meters: types, installation, benefits, and how they enable fair billing in multi-unit properties.",
+    "category": "Submetering",
     "date": "2024-05-21",
     "featuredImage": "/images/blog/sub-meter.png"
   },
   {
     "slug": "rental-agreement-with-utilities-included",
     "title": "Rental Agreement with Utilities Included: How Axis Meter Solutions Can Help",
-    "excerpt": "When it comes to renting a property, a rental agreement is a legally binding contract that outlines the terms and conditions of the rental.",
-    "category": "Utility Management",
+    "excerpt": "Rental agreements with utilities included. Cost implications and how submetering provides a fairer alternative.",
+    "category": "Tenants & Renters",
     "date": "2024-04-20",
     "featuredImage": "/images/blog/rental-agreement-with-utilities-included.png"
   },
   {
     "slug": "rent-and-utilities",
     "title": "Rent and Utilities: Managing Costs with Axis Meter Solutions",
-    "excerpt": "If you're renting an apartment, it's important to understand the components of rental costs and the common utilities included in your monthly rent.",
-    "category": "Utility Management",
+    "excerpt": "Managing rent and utilities in rental properties. Cost structures, billing options, and how submetering simplifies everything.",
+    "category": "Tenants & Renters",
     "date": "2024-04-19",
     "featuredImage": "/images/blog/rent-and-utilities.png"
   },
   {
     "slug": "lease-agreement-with-utilities-included",
     "title": "Lease Agreement with Utilities Included: Axis Meter Solutions Explains the Benefits",
-    "excerpt": "A lease agreement with utilities included means that the landlord is responsible for paying for certain utilities, such as electricity, gas, or water.",
-    "category": "Utility Management",
+    "excerpt": "Utilities included in lease agreements: what it means, hidden costs, and why property owners switch to submetering.",
+    "category": "Tenants & Renters",
     "date": "2024-04-18",
     "featuredImage": "/images/blog/lease-agreement-with-utilities-included.png"
   },
   {
     "slug": "landlord-tenant-utility-agreement-with-axis-meter-solutions",
     "title": "Landlord-Tenant Utility Agreement with Axis Meter Solutions: Everything You Need to Know",
-    "excerpt": "The landlord-tenant utility agreement is a contract that outlines the responsibilities of each party regarding the payment of utility bills.",
-    "category": "Utility Management",
+    "excerpt": "How to structure a landlord-tenant utility agreement. Key clauses, legal requirements, and the role of submetering.",
+    "category": "Property Owners",
     "date": "2024-04-17",
     "featuredImage": "/images/blog/landlord-tenant-utility-agreement-with-axis-meter-solutions.png"
   },
   {
     "slug": "is-rent-considered-a-utility",
     "title": "Is Rent Considered a Utility? Exploring the Role of Axis Meter Solutions",
-    "excerpt": "Rent and utilities are two separate but related concepts in the world of renting an apartment or property.",
-    "category": "Utility Management",
+    "excerpt": "Is rent a utility? Understanding the difference and how utility billing works in rental properties with submetering.",
+    "category": "Submetering",
     "date": "2024-04-16",
     "featuredImage": "/images/blog/is-rent-considered-a-utility.png"
   },
   {
     "slug": "investing-in-real-estate-notes",
     "title": "Investing in Real Estate Notes with Axis Meter Solutions",
-    "excerpt": "Real estate notes, also known as mortgage notes, are written agreements between a borrower and a lender to finance a real estate purchase.",
-    "category": "Utility Management",
+    "excerpt": "Investing in real estate notes: strategies, risks, and how utility management impacts property investment returns.",
+    "category": "Property Owners",
     "date": "2024-03-15",
     "featuredImage": "/images/blog/investing-in-real-estate-notes.png"
   },
   {
     "slug": "infinity-water-billing",
     "title": "Infinity Water Billing: How Axis Meter Solutions Can Help You Manage Your Water Costs",
-    "excerpt": "When it comes to water billing, having a software solution that can be tailored to your specific property is crucial.",
-    "category": "Utility Management",
+    "excerpt": "Comparing water billing solutions for multi-unit properties. Per-unit metering vs. allocation methods.",
+    "category": "Water",
     "date": "2024-03-14",
     "featuredImage": "/images/blog/infinity-water-billing.png"
   },
   {
     "slug": "including-utilities-in-rental-agreement",
     "title": "Including Utilities in Rental Agreement: Axis Meter Solutions' Expertise",
-    "excerpt": "When it comes to renting a property, one of the most important considerations is understanding what utilities are included in the rental agreement.",
-    "category": "Utility Management",
+    "excerpt": "Should you include utilities in rent? Pros and cons for landlords, plus how submetering offers a better alternative.",
+    "category": "Tenants & Renters",
     "date": "2024-03-13",
     "featuredImage": "/images/blog/including-utilities-in-rental-agreement.png"
   },
   {
     "slug": "how-to-set-up-utilities-when-renting",
     "title": "How to Set Up Utilities When Renting with Axis Meter Solutions",
-    "excerpt": "Other utilities such as internet, heat, cable, trash, and sewage may also be necessary depending on your needs and the location of the property",
-    "category": "Utility Management",
+    "excerpt": "Step-by-step guide to setting up utilities when renting. What tenants need to know about submetered buildings.",
+    "category": "Tenants & Renters",
     "date": "2024-03-12",
     "featuredImage": "/images/blog/how-to-set-up-utilities-when-renting.png"
   },
   {
     "slug": "how-to-save-on-utilities-in-an-apartment",
     "title": "How to Save on Utilities in an Apartment with Axis Meter Solutions",
-    "excerpt": "When it comes to saving money on utilities in your apartment, choosing the right appliances and using electronics smartly can make a big difference.",
-    "category": "Utility Management",
+    "excerpt": "How to reduce apartment utility costs. Energy-saving tips and how submetering incentivizes conservation.",
+    "category": "Cost Savings",
     "date": "2024-03-11",
     "featuredImage": "/images/blog/how-to-save-on-utilities-in-an-apartment.png"
   },
   {
     "slug": "how-to-save-money-on-utilities-in-an-apartment",
     "title": "Axis Meter Solutions: How to Save Money on Utilities in an Apartment",
-    "excerpt": "Another way to save money on utilities is by making small changes to your daily routine.",
-    "category": "Utility Management",
+    "excerpt": "Practical tips to lower utility bills in an apartment. Conservation strategies for submetered and non-submetered buildings.",
+    "category": "Cost Savings",
     "date": "2024-02-10",
     "featuredImage": "/images/blog/how-to-save-money-on-utilities-in-an-apartment.png"
   },
   {
     "slug": "how-to-apply-a-second-electricity-meter",
     "title": "Axis Meter Solutions: How to Apply a Second Electricity Meter",
-    "excerpt": "If you own or manage a residential property with multiple tenants, you may have considered installing a second electricity meter",
-    "category": "Utility Management",
+    "excerpt": "How to add a second electricity meter to your property. Process, costs, and why submetering is often better.",
+    "category": "Electricity",
     "date": "2024-02-09",
     "featuredImage": "/images/blog/how-to-apply-a-second-electricity-meter.png"
   },
   {
     "slug": "gas-sub-meter-solutions",
     "title": "Gas Sub Meter Solutions by Axis Meter Solutions: The Ultimate Guide",
-    "excerpt": "A gas sub-meter is a device that measures the consumption of natural gas for a particular unit in a building.",
-    "category": "Utility Management",
+    "excerpt": "Gas sub meter solutions for residential and commercial properties. Measurement Canada approved, $0 upfront, full-service management.",
+    "category": "Gas",
     "date": "2024-02-08",
     "featuredImage": "/images/blog/gas-sub-meter-solutions.png"
   },
   {
     "slug": "electricity-sub-meter",
     "title": "Electricity Sub Meter: A Comprehensive Overview from Axis Meter Solutions",
-    "excerpt": "If you're looking to improve your building's energy efficiency, reduce costs, and gain more control over your utility management, sub metering is the way to go",
-    "category": "Utility Management",
+    "excerpt": "Electricity sub meters for multi-unit buildings. Per-unit power measurement, automated billing, Measurement Canada approved.",
+    "category": "Electricity",
     "date": "2024-02-07",
     "featuredImage": "/images/blog/electricity-sub-meter.png"
   },
   {
     "slug": "electricity-bill-from-previous-tenant",
     "title": "Electricity Bill from Previous Tenant: How Axis Meter Solutions Can Help You",
-    "excerpt": "If you are a tenant or a homeowner, understanding your electricity bill is essential to ensure that you are not overpaying for your energy usage.",
-    "category": "Utility Management",
+    "excerpt": "Who pays an electricity bill left by a previous tenant? Landlord obligations and how to prevent this with submetering.",
+    "category": "Electricity",
     "date": "2024-02-06",
     "featuredImage": "/images/blog/electricity-bill-from-previous-tenant.png"
   },
   {
     "slug": "can-a-landlord-request-utility-bills",
     "title": "Can a Landlord Request Utility Bills? Understanding Your Rights with Axis Meter Solutions",
-    "excerpt": "Utility services are an essential part of our daily lives, and it is important to understand the regulations governing them.",
-    "category": "Utility Management",
+    "excerpt": "Can landlords request tenant utility bills? Legal rights, privacy considerations, and better alternatives like submetering.",
+    "category": "Property Owners",
     "date": "2024-01-05",
     "featuredImage": "/images/blog/can-a-landlord-request-utility-bills.png"
   },
   {
     "slug": "best-hvac-meter",
     "title": "Best HVAC Meter: Axis Meter Solutions",
-    "excerpt": "When choosing an HVAC multimeter, there are several essential features that you should consider.",
-    "category": "Utility Management",
+    "excerpt": "Best HVAC meters for thermal submetering. Options for hydronic, VRF, and fan coil systems in multi-unit buildings.",
+    "category": "Thermal & HVAC",
     "date": "2024-01-04",
     "featuredImage": "/images/blog/best-hvac-meter.png"
   },
   {
     "slug": "axis-meter-solutions",
     "title": "Axis Meter Solutions: How to Split Utilities Between Tenants",
-    "excerpt": "If conflicts do arise, it's important to have a plan in place for resolving them. Consider using a mediator to help facilitate discussions between tenants.",
-    "category": "Utility Management",
+    "excerpt": "How to split utilities between tenants fairly. Submetering eliminates disputes by billing each unit for actual consumption.",
+    "category": "Submetering",
     "date": "2024-01-03",
     "featuredImage": "/images/blog/axis-meter-solutions.png"
   },
   {
     "slug": "are-landlords-responsible-for-unpaid-utility-bills",
     "title": "Are Landlords Responsible for Unpaid Utility Bills? Understanding the Role of Axis Meter Solutions",
-    "excerpt": "As a landlord, it is important to understand your responsibilities when it comes to unpaid utility bills.",
-    "category": "Utility Management",
+    "excerpt": "Landlord liability for unpaid tenant utility bills. Legal obligations, protections, and how submetering reduces risk.",
+    "category": "Property Owners",
     "date": "2024-01-02",
     "featuredImage": "/images/blog/are-landlords-responsible-for-unpaid-utility-bills.png"
   },
   {
     "slug": "are-landlords-required-to-pay-for-water-and-garbage",
     "title": "Are Landlords Required to Pay for Water and Garbage? Exploring the Legal Responsibilities of Axis Meter Solutions",
-    "excerpt": "When it comes to water and garbage services, landlords are typically responsible for providing these services to their tenants.",
-    "category": "Utility Management",
+    "excerpt": "Are landlords required to pay water and garbage bills? Legal responsibilities and how submetering changes the equation.",
+    "category": "Water",
     "date": "2024-01-01",
     "featuredImage": "/images/blog/are-landlords-required-to-pay-for-water-and-garbage.png"
   },
-  {
-    "slug": "10-ways-to-increase-traction-on-your-launch-campaign",
-    "title": "10 ways to increase traction on your launch campaign",
-    "excerpt": "This article is coming soon. Check back for updates on 10 ways to increase traction on your launch campaign.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/10-ways-to-increase-traction-on-your-launch-campaign.jpg"
-  },
-  {
-    "slug": "brand-optics-and-what-it-means-for-your-business",
-    "title": "Brand Optics and what it means for your business",
-    "excerpt": "This article is coming soon. Check back for updates on brand optics and what it means for your business.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/brand-optics-and-what-it-means-for-your-business.jpg"
-  },
-  {
-    "slug": "developing-your-product-teams-communication-skills",
-    "title": "Developing your product team's communication skills",
-    "excerpt": "This article is coming soon. Check back for updates on developing your product team's communication skills.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/developing-your-product-teams-communication-skills.jpg"
-  },
-  {
-    "slug": "getting-out-into-nature-has-never-been-more-important",
-    "title": "Getting out into nature has never been more important",
-    "excerpt": "This article is coming soon. Check back for updates on getting out into nature has never been more important.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/getting-out-into-nature-has-never-been-more-important.jpg"
-  },
-  {
-    "slug": "how-can-ai-deliver-better-at-home-care",
-    "title": "How can AI deliver better at-home health care",
-    "excerpt": "This article is coming soon. Check back for updates on how can ai deliver better at-home health care.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/how-can-ai-deliver-better-at-home-care.jpg"
-  },
-  {
-    "slug": "instituting-a-culture-of-positive-psychology",
-    "title": "Instituting a culture of positive psychology",
-    "excerpt": "This article is coming soon. Check back for updates on instituting a culture of positive psychology.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/instituting-a-culture-of-positive-psychology.jpg"
-  },
-  {
-    "slug": "motivational-podcasts-to-help-with-mental-health-and-productivity",
-    "title": "Motivational podcasts to help with mental health and productivity",
-    "excerpt": "This article is coming soon. Check back for updates on motivational podcasts to help with mental health and productivity.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/motivational-podcasts-to-help-with-mental-health-and-productivity.jpg"
-  },
-  {
-    "slug": "perfecting-your-outdoor-workout-routine",
-    "title": "Perfecting your outdoor workout routine",
-    "excerpt": "This article is coming soon. Check back for updates on perfecting your outdoor workout routine.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/perfecting-your-outdoor-workout-routine.jpg"
-  },
-  {
-    "slug": "presenting-your-product-in-the-era-of-unboxing",
-    "title": "Presenting your product in the era of unboxing",
-    "excerpt": "This article is coming soon. Check back for updates on presenting your product in the era of unboxing.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/presenting-your-product-in-the-era-of-unboxing.jpg"
-  },
-  {
-    "slug": "supercharge-your-brainstorming-sessions-outdoors",
-    "title": "Supercharge your brainstorming sessions outdoors",
-    "excerpt": "This article is coming soon. Check back for updates on supercharge your brainstorming sessions outdoors.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/supercharge-your-brainstorming-sessions-outdoors.jpg"
-  },
-  {
-    "slug": "working-from-home-tips-and-tricks",
-    "title": "Working from home tips and tricks",
-    "excerpt": "This article is coming soon. Check back for updates on working from home tips and tricks.",
-    "category": "General",
-    "date": "2024-01-01",
-    "featuredImage": "/images/blog/working-from-home-tips-and-tricks.jpg"
-  }
 ];

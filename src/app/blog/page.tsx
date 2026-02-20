@@ -1,14 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
+import { useState } from "react";
 import { blogPosts } from "@/data/blogPosts";
 
-export const metadata: Metadata = {
-  title: "Blog — Axis Meter Solutions",
-  description: "Insights on submetering, utility management, leak detection, and property investment from the Axis Meter team.",
-};
+const categories = ["All", ...Array.from(new Set(blogPosts.map(p => p.category))).sort()];
 
 export default function BlogPage() {
+  const [active, setActive] = useState("All");
+  const filtered = active === "All" ? blogPosts : blogPosts.filter(p => p.category === active);
+
   return (
     <>
       <section className="bg-navy relative overflow-hidden">
@@ -28,8 +30,30 @@ export default function BlogPage() {
 
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Category Filter */}
+          <div className="flex flex-wrap gap-3 mb-12 justify-center">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActive(cat)}
+                className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${
+                  active === cat
+                    ? "bg-accent text-navy"
+                    : "bg-gray-100 text-gray-600 hover:bg-gray-200"
+                }`}
+              >
+                {cat}
+                {cat !== "All" && (
+                  <span className="ml-1 text-xs opacity-70">
+                    ({blogPosts.filter(p => p.category === cat).length})
+                  </span>
+                )}
+              </button>
+            ))}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post) => (
+            {filtered.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
                 <article className="bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-shadow h-full flex flex-col">
                   <div className="relative h-48 bg-navy-lighter overflow-hidden">
@@ -61,6 +85,10 @@ export default function BlogPage() {
               </Link>
             ))}
           </div>
+
+          {filtered.length === 0 && (
+            <p className="text-center text-gray-500 mt-8">No posts in this category yet.</p>
+          )}
         </div>
       </section>
 
@@ -68,7 +96,7 @@ export default function BlogPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">Want to Learn More?</h2>
           <p className="mt-6 text-lg text-gray-300">
-            Skip the reading and talk to an expert. Book a free consultation and get answers to all your submetering questions.
+            Skip the reading and talk to an expert. Get a free consultation and answers to all your submetering questions.
           </p>
           <div className="mt-10">
             <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
