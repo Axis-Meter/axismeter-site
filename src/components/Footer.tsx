@@ -30,6 +30,7 @@ const legalLinks = [
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms of Use", href: "/terms" },
   { name: "Terms and Conditions", href: "/terms-and-conditions" },
+  { name: "Customer Services Agreement", href: "/customer-services-agreement" },
 ];
 
 export function Footer() {

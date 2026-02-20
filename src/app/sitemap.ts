@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/solutions/leak-detection',
     '/markets/residential-rentals', '/markets/condos', '/markets/commercial',
     '/markets/mixed-use', '/markets/student-housing', '/markets/affordable-housing',
-    '/blog', '/privacy-policy', '/terms', '/terms-and-conditions',
+    '/blog', '/privacy-policy', '/terms', '/terms-and-conditions', '/customer-services-agreement',
   ]
 
   const pages: MetadataRoute.Sitemap = staticPages.map((path) => ({
