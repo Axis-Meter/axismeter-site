@@ -29,6 +29,7 @@ const residentLinks = [
 const legalLinks = [
   { name: "Privacy Policy", href: "/privacy-policy" },
   { name: "Terms of Use", href: "/terms" },
+  { name: "Terms and Conditions", href: "/terms-and-conditions" },
 ];
 
 export function Footer() {
