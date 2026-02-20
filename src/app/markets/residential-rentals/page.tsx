@@ -41,7 +41,7 @@ export default function ResidentialRentalsPage() {
               Per-unit submetering fixes that — with $0 upfront and free leak detection included.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Assessment
               </Link>
             </div>
@@ -91,7 +91,7 @@ export default function ResidentialRentalsPage() {
             Book a free call and get a custom assessment for your rental property. No obligation, no pressure.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
               Book a Free Call
             </Link>
           </div>

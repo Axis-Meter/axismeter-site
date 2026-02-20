@@ -41,7 +41,7 @@ export default function CondosPage() {
               new or retrofitting, submetering transforms how your condo manages utilities.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Assessment
               </Link>
             </div>
@@ -106,7 +106,7 @@ export default function CondosPage() {
             Book a free consultation for your condo corporation. We&apos;ll assess your building and show you exactly how submetering can reduce costs.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
               Book a Free Call
             </Link>
           </div>

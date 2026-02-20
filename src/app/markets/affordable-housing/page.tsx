@@ -32,7 +32,7 @@ export default function AffordableHousingPage() {
               providers manage costs, promote conservation, and ensure tenants pay only for what they use.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Assessment
               </Link>
             </div>
@@ -113,7 +113,7 @@ export default function AffordableHousingPage() {
             Book a free consultation to learn how submetering can help your affordable housing properties manage costs fairly and sustainably.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
               Book a Free Call
             </Link>
           </div>

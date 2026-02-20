@@ -47,7 +47,7 @@ export default function ElectricitySubmeteringPage() {
               automated billing, and 30-40% average consumption reduction.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Quote
               </Link>
             </div>
@@ -114,8 +114,8 @@ export default function ElectricitySubmeteringPage() {
             Get a free assessment of your building and find out how much you could recover with per-unit electricity billing.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Get a Free Quote
             </Link>
           </div>
         </div>

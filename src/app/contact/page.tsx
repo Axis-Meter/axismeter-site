@@ -162,11 +162,8 @@ export default function ContactPage() {
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-8">
-                  <h3 className="font-semibold text-gray-900 mb-3">Prefer to Book a Call?</h3>
-                  <p className="text-gray-600 mb-4">Skip the form and schedule a free 15-30 minute consultation at a time that works for you.</p>
-                  <Link href="/property-owners" className="bg-navy hover:bg-navy-light text-white font-semibold px-6 py-3 rounded-lg transition-colors inline-block">
-                    Book a Free Call →
-                  </Link>
+                  <h3 className="font-semibold text-gray-900 mb-3">Not Sure Where to Start?</h3>
+                  <p className="text-gray-600 mb-4">Fill out the form with your building details and we&apos;ll come back with a custom assessment — no obligation.</p>
                 </div>
 
                 {/* Service Area */}

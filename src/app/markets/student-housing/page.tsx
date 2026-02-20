@@ -32,7 +32,7 @@ export default function StudentHousingPage() {
               drives conservation, and dramatically reduces operating costs for student residences.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Assessment
               </Link>
             </div>
@@ -99,7 +99,7 @@ export default function StudentHousingPage() {
             Book a free consultation and find out how submetering can lower costs and promote conservation in your student residences.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
               Book a Free Call
             </Link>
           </div>

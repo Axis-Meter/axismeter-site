@@ -71,8 +71,8 @@ export default function BlogPage() {
             Skip the reading and talk to an expert. Book a free consultation and get answers to all your submetering questions.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Get a Free Quote
             </Link>
           </div>
         </div>

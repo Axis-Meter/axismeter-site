@@ -32,7 +32,7 @@ export default function MixedUsePage() {
               one unified metering system that handles it all.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Assessment
               </Link>
             </div>
@@ -86,7 +86,7 @@ export default function MixedUsePage() {
             Book a free consultation and we&apos;ll show you how one submetering system can handle every tenant in your building.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
               Book a Free Call
             </Link>
           </div>

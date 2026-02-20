@@ -41,7 +41,7 @@ export default function WaterSubmeteringPage() {
               Your water bill goes down while your property stays protected.
             </p>
             <div className="mt-10">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
                 Get a Free Quote
               </Link>
             </div>
@@ -109,8 +109,8 @@ export default function WaterSubmeteringPage() {
             Get a free building assessment and find out how much you could save with per-unit water billing — plus free leak protection.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Get a Free Quote
             </Link>
           </div>
         </div>

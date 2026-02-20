@@ -151,8 +151,8 @@ export default function HowItWorksPage() {
             Book a free consultation. No pressure, no obligation — just a straight conversation about whether submetering makes sense for your property.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Get a Free Quote
             </Link>
           </div>
           <p className="mt-4 text-gray-500 text-sm">US & Canada · $0 Upfront · Free Leak Detection</p>

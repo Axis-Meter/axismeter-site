@@ -59,8 +59,8 @@ export default function LeakDetectionPage() {
               your building shouldn&apos;t be optional.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center">
-                Get Protected — Book a Call
+              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center">
+                Get Protected — Free Quote
               </Link>
             </div>
           </div>
@@ -188,8 +188,8 @@ export default function LeakDetectionPage() {
             Book a free consultation to learn how we can protect your property.
           </p>
           <div className="mt-10">
-            <Link href="/property-owners" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Book a Free Call
+            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+              Get a Free Quote
             </Link>
           </div>
           <p className="mt-4 text-gray-500 text-sm">No obligation · 15-30 minute call · US & Canada</p>
