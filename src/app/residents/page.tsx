@@ -32,7 +32,7 @@ export default function ResidentsPage() {
     <>
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1920&q=80"
+          src="/images/hero/photo-1522708323590-d24dbb6b0267.jpg"
           alt="Modern apartment interior with comfortable living space"
           fill
           className="object-cover opacity-25"
@@ -68,7 +68,7 @@ export default function ResidentsPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative h-[250px] rounded-xl overflow-hidden mb-10">
             <Image
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80"
+              src="/images/hero/photo-1556742049-0cfed4f6a45d.jpg"
               alt="Person using smartphone to manage their utility account"
               fill
               className="object-cover"

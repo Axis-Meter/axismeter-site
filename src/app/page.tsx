@@ -66,12 +66,12 @@ const steps = [
 ];
 
 const marketsList = [
-  { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties", image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=600&q=80" },
-  { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
-  { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces", image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80" },
-  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties", image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" },
-  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences", image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600&q=80" },
-  { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing", image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=600&q=80" },
+  { name: "Residential Rentals", href: "/markets/residential-rentals", icon: "🏠", description: "Multi-family apartments and rental properties", image: "/images/hero/photo-1545324418-cc1a3fa10c00.jpg" },
+  { name: "Condominiums", href: "/markets/condos", icon: "🏙️", description: "Condo corporations and strata councils", image: "/images/hero/photo-1486406146926-c627a92ad1ab.jpg" },
+  { name: "Commercial", href: "/markets/commercial", icon: "🏢", description: "Office buildings and retail spaces", image: "/images/hero/photo-1497366216548-37526070297c.jpg" },
+  { name: "Mixed-Use", href: "/markets/mixed-use", icon: "🏗️", description: "Combined residential and commercial properties", image: "/images/hero/photo-1486406146926-c627a92ad1ab.jpg" },
+  { name: "Student Housing", href: "/markets/student-housing", icon: "🎓", description: "University and college residences", image: "/images/hero/photo-1555854877-bab0e564b8d5.jpg" },
+  { name: "Affordable Housing", href: "/markets/affordable-housing", icon: "🤝", description: "Subsidized and community housing", image: "/images/hero/photo-1460317442991-0ec209397118.jpg" },
 ];
 
 const testimonials = [
@@ -121,7 +121,7 @@ export default function Home() {
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+          src="/images/hero/photo-1486325212027-8081e485255e.jpg"
           alt="Modern apartment building at dusk with warm lighting"
           fill
           className="object-cover opacity-20"
@@ -189,7 +189,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80"
+                src="/images/hero/photo-1621905252507-b35492cc74b4.jpg"
                 alt="Smart utility meters and electrical infrastructure"
                 fill
                 className="object-cover"
@@ -221,7 +221,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=800&q=80"
+                src="/images/hero/photo-1554469384-e58fac16e23a.jpg"
                 alt="High-rise apartment building representing utility cost challenges"
                 fill
                 className="object-cover"

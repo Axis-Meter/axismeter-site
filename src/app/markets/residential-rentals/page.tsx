@@ -23,7 +23,7 @@ export default function ResidentialRentalsPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Residential Rentals", url: "https://axismeter.com/markets/residential-rentals" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1920&q=80"
+          src="/images/hero/photo-1545324418-cc1a3fa10c00.jpg"
           alt="Multi-family apartment building exterior"
           fill
           className="object-cover opacity-25"

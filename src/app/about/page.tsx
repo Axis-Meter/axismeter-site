@@ -40,7 +40,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+          src="/images/hero/photo-1497366216548-37526070297c.jpg"
           alt="Modern professional office environment"
           fill
           className="object-cover opacity-25"
@@ -82,7 +82,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80"
+                src="/images/hero/photo-1560518883-ce09059eeffa.jpg"
                 alt="Property management and utility infrastructure"
                 fill
                 className="object-cover"

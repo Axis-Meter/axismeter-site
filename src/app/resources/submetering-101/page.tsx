@@ -21,7 +21,7 @@ export default function Submetering101Page() {
       ]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1920&q=80"
+          src="/images/hero/photo-1621905252507-b35492cc74b4.jpg"
           alt="Utility submetering equipment and meters"
           fill
           className="object-cover opacity-25"
@@ -50,7 +50,7 @@ export default function Submetering101Page() {
             {/* What Is Submetering */}
             <div className="relative h-[300px] rounded-xl overflow-hidden mb-10">
               <Image
-                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80"
+                src="/images/hero/photo-1621905252507-b35492cc74b4.jpg"
                 alt="Utility meters and submetering equipment overview"
                 fill
                 className="object-cover"

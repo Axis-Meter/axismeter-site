@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/property-owners', '/residents',
     '/case-studies', '/resources', '/resources/submetering-101',
-    '/solutions', '/solutions/electricity-submetering', '/solutions/water-submetering',
+    '/faq', '/solutions', '/solutions/electricity-submetering', '/solutions/water-submetering',
     '/solutions/thermal-submetering', '/solutions/gas-submetering', '/solutions/common-area-metering',
     '/solutions/leak-detection',
     '/markets/residential-rentals', '/markets/condos', '/markets/commercial',

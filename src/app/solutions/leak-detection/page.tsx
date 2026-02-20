@@ -37,7 +37,7 @@ export default function LeakDetectionPage() {
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=1920&q=80"
+          src="/images/hero/photo-1585704032915-c3400ca199e7.jpg"
           alt="Water damage prevention with leak detection sensors"
           fill
           className="object-cover opacity-25"
@@ -86,7 +86,7 @@ export default function LeakDetectionPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative h-[300px] rounded-xl overflow-hidden mb-10">
             <Image
-              src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&q=80"
+              src="/images/hero/photo-1585704032915-c3400ca199e7.jpg"
               alt="Water damage that could be prevented with leak detection"
               fill
               className="object-cover"

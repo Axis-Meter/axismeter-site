@@ -13,7 +13,7 @@ const caseStudies = [
     title: "118-Unit Residential Building",
     location: "Niagara Falls, Ontario",
     type: "Residential — Electricity Submetering",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+    image: "/images/hero/photo-1545324418-cc1a3fa10c00.jpg",
     stats: [
       { metric: "118", label: "Residential Units" },
       { metric: "242", label: "Meters Installed" },
@@ -37,7 +37,7 @@ const caseStudies = [
     title: "107-Unit Retrofit During Renovation",
     location: "Kingston, Ontario",
     type: "Residential — Retrofit Submetering",
-    image: "https://images.unsplash.com/photo-1460317442991-0ec209397118?w=800&q=80",
+    image: "/images/hero/photo-1460317442991-0ec209397118.jpg",
     stats: [
       { metric: "107", label: "Residential Units" },
       { metric: "294", label: "Meters Installed" },
@@ -67,7 +67,7 @@ export default function CaseStudiesPage() {
 
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?w=1920&q=80"
+          src="/images/hero/photo-1449157291145-7efd050a4d0e.jpg"
           alt="Multi-unit residential buildings"
           fill
           className="object-cover opacity-25"

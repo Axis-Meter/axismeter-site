@@ -23,7 +23,7 @@ export default function CommercialPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Commercial", url: "https://axismeter.com/markets/commercial" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+          src="/images/hero/photo-1497366216548-37526070297c.jpg"
           alt="Modern commercial office building"
           fill
           className="object-cover opacity-25"

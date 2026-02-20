@@ -34,7 +34,7 @@ export default function CommonAreaMeteringPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Common Area Metering", url: "https://axismeter.com/solutions/common-area-metering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80"
+          src="/images/hero/photo-1497366216548-37526070297c.jpg"
           alt="Modern building lobby and common area"
           fill
           className="object-cover opacity-25"
@@ -77,7 +77,7 @@ export default function CommonAreaMeteringPage() {
             </div>
             <div className="relative h-[400px] rounded-xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80"
+                src="/images/hero/photo-1545324418-cc1a3fa10c00.jpg"
                 alt="Modern building common areas"
                 fill
                 className="object-cover"

@@ -14,7 +14,7 @@ export default function StudentHousingPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Student Housing", url: "https://axismeter.com/markets/student-housing" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1920&q=80"
+          src="/images/hero/photo-1486406146926-c627a92ad1ab.jpg"
           alt="University campus and student housing buildings"
           fill
           className="object-cover opacity-25"

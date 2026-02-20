@@ -15,7 +15,7 @@ const solutions = [
     href: "/solutions/electricity-submetering",
     description: "Per-unit electricity metering with Measurement Canada approved equipment. Automated data collection and tenant billing.",
     benefits: ["30-40% consumption reduction", "Automated billing", "Real-time data"],
-    image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80",
+    image: "/images/hero/photo-1473341304170-971dccb5ac1e.jpg",
   },
   {
     icon: "💧",
@@ -23,7 +23,7 @@ const solutions = [
     href: "/solutions/water-submetering",
     description: "Wireless and ultrasonic water meters that drive conservation, enable fair billing, and identify leaks before they cause damage.",
     benefits: ["Conservation incentive", "Fair per-unit billing", "Leak identification"],
-    image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&q=80",
+    image: "/images/hero/photo-1585704032915-c3400ca199e7.jpg",
   },
   {
     icon: "🌡️",
@@ -31,7 +31,7 @@ const solutions = [
     href: "/solutions/thermal-submetering",
     description: "In-suite heating and cooling measurement for hydronic, fan coil, VRF, and district energy systems.",
     benefits: ["Heating & cooling metering", "VRF system support", "Fair cost allocation"],
-    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+    image: "/images/hero/photo-1585771724684-38269d6639fd.jpg",
   },
   {
     icon: "🔥",
@@ -39,7 +39,7 @@ const solutions = [
     href: "/solutions/gas-submetering",
     description: "Per-unit natural gas metering to control one of the most volatile utility costs. Measurement Canada approved.",
     benefits: ["Lower gas consumption", "Stabilize operating costs", "Certified meters"],
-    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
+    image: "/images/hero/photo-1585771724684-38269d6639fd.jpg",
   },
   {
     icon: "🏢",
@@ -47,7 +47,7 @@ const solutions = [
     href: "/solutions/common-area-metering",
     description: "Meter lobbies, hallways, parking, and amenity spaces for complete building visibility and cost optimization.",
     benefits: ["Full building visibility", "Identify waste", "Cost allocation"],
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+    image: "/images/hero/photo-1497366216548-37526070297c.jpg",
   },
   {
     icon: "🛡️",
@@ -55,7 +55,7 @@ const solutions = [
     href: "/solutions/leak-detection",
     description: "Real-time monitoring that catches leaks before they turn into costly disasters. Included FREE with every installation.",
     benefits: ["Free with every install", "Real-time alerts", "Prevent catastrophic damage"],
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=80",
+    image: "/images/hero/photo-1504328345606-18bbc8c9d7d1.jpg",
     highlight: true,
   },
 ];
@@ -66,7 +66,7 @@ export default function SolutionsPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=1920&q=80"
+          src="/images/hero/photo-1621905252507-b35492cc74b4.jpg"
           alt="Smart utility metering and building management systems"
           fill
           className="object-cover opacity-25"

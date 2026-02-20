@@ -29,7 +29,7 @@ export default function ElectricitySubmeteringPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Electricity Submetering", url: "https://axismeter.com/solutions/electricity-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1920&q=80"
+          src="/images/hero/photo-1473341304170-971dccb5ac1e.jpg"
           alt="Electrical panel with smart meters for submetering"
           fill
           className="object-cover opacity-25"

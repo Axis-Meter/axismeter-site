@@ -14,7 +14,7 @@ export default function AffordableHousingPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Markets", url: "https://axismeter.com/markets" }, { name: "Affordable Housing", url: "https://axismeter.com/markets/affordable-housing" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=1920&q=80"
+          src="/images/hero/photo-1460317442991-0ec209397118.jpg"
           alt="Community affordable housing development"
           fill
           className="object-cover opacity-25"

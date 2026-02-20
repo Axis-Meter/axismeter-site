@@ -43,7 +43,7 @@ export default function ContactPage() {
     <>
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80"
+          src="/images/hero/photo-1423666639041-f56000c27a9a.jpg"
           alt="Professional communication and customer support"
           fill
           className="object-cover opacity-25"
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 {/* Service Area */}
                 <div className="relative h-[200px] rounded-xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&q=80"
+                    src="/images/hero/photo-1526778548025-fa2f459cd5c1.jpg"
                     alt="Map representing US and Canada service coverage"
                     fill
                     className="object-cover"

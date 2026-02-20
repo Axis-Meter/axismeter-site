@@ -64,7 +64,7 @@ export default function HowItWorksPage() {
     <>
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1920&q=80"
+          src="/images/hero/photo-1581094794329-c8112a89af12.jpg"
           alt="Professional consultation and installation process"
           fill
           className="object-cover opacity-25"
@@ -95,7 +95,7 @@ export default function HowItWorksPage() {
           </div>
           <div className="relative h-[300px] rounded-xl overflow-hidden mb-16">
             <Image
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1200&q=80"
+              src="/images/hero/photo-1581094794329-c8112a89af12.jpg"
               alt="Professional meter installation and consultation process"
               fill
               className="object-cover"

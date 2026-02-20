@@ -24,6 +24,7 @@ const markets = [
 
 const resources = [
   { name: "Submetering 101", href: "/resources/submetering-101" },
+  { name: "FAQ", href: "/faq" },
   { name: "Blog", href: "/blog" },
   { name: "Case Studies", href: "/case-studies" },
 ];

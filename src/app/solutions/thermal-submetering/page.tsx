@@ -29,7 +29,7 @@ export default function ThermalSubmeteringPage() {
       <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Thermal Submetering", url: "https://axismeter.com/solutions/thermal-submetering" }]} />
       <section className="bg-navy relative overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1920&q=80"
+          src="/images/hero/photo-1585771724684-38269d6639fd.jpg"
           alt="HVAC system and thermal energy infrastructure"
           fill
           className="object-cover opacity-25"
