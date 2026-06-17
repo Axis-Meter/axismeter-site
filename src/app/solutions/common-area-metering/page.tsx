@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Common Area Metering — Lobby, Parking & Amenity Metering | Axis Meter Solutions",
+  title: "Common Area Metering Services | Axis Meter Solutions",
   description: "Measure and manage utility consumption in common areas — lobbies, hallways, parking garages, amenity spaces. Identify waste and optimize costs.",
+  alternates: {
+    canonical: "/solutions/common-area-metering",
+  },
 };
 
 const benefits = [

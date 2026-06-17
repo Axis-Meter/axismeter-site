@@ -6,6 +6,9 @@ import { BreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Case Studies — Submetering Projects | Axis Meter Solutions",
   description: "See how Axis Meter delivered full-service submetering for multi-unit properties across Ontario. 118-unit building in Niagara Falls, 107-unit retrofit in Kingston, and more.",
+  alternates: {
+    canonical: "/case-studies",
+  },
 };
 
 const caseStudies = [

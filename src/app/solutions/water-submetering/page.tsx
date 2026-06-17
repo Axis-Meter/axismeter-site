@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Water Submetering Services with Free Leak Detection — Axis Meter Solutions",
+  title: "Water Submetering Services and Leak Detection | Axis",
   description: "Per-unit water metering with free leak detection included. Drive conservation, enable fair billing, and catch leaks before they become disasters.",
+  alternates: {
+    canonical: "/solutions/water-submetering",
+  },
 };
 
 const benefits = [

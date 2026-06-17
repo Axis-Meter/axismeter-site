@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Gas Submetering Services — Natural Gas Metering | Axis Meter Solutions",
+  title: "Gas Submetering for Multifamily Buildings | Axis Meter",
   description: "Submeter natural gas consumption per unit. Measurement Canada approved meters, automated billing, $0 upfront. Serving US & Canada.",
+  alternates: {
+    canonical: "/solutions/gas-submetering",
+  },
 };
 
 const benefits = [

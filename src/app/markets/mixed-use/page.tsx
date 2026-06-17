@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Mixed-Use Property Submetering — Residential & Commercial — Axis Meter Solutions",
+  title: "Mixed-Use Property Submetering | Axis Meter Solutions",
   description: "Unified submetering for properties with residential and commercial tenants. One system, one provider, all billing handled.",
+  alternates: {
+    canonical: "/markets/mixed-use",
+  },
 };
 
 export default function MixedUsePage() {

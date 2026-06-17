@@ -6,6 +6,9 @@ import { BreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "About Us — Axis Meter Solutions",
   description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. Measurement Canada approved. $0 upfront. Free leak detection included.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const values = [

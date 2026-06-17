@@ -4,6 +4,9 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Use — Axis Meter Solutions",
   description: "Terms of Use governing access to and use of the Axis Meter Solutions website and online services.",
+  alternates: {
+    canonical: "/terms",
+  },
 };
 
 export default function TermsOfUsePage() {

@@ -5,6 +5,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "For Residents — Axis Meter Solutions",
   description: "Living in an Axis Meter building? Set up your account, understand your bill, get conservation tips, and find answers to common questions.",
+  alternates: {
+    canonical: "/residents",
+  },
 };
 
 const faqs = [

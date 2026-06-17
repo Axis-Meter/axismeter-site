@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import { FAQSchema } from "@/components/JsonLd";
+
+export const metadata: Metadata = {
+  title: "Utility Submetering Services | Axis Meter Solutions",
+  alternates: {
+    canonical: "/",
+  },
+};
 
 const stats = [
   { value: "32%", label: "Avg. Property Value Increase" },

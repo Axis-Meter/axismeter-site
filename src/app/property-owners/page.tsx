@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Property Owners — Book a Free Consultation | Axis Meter Solutions",
   description: "Find out how much you could save with submetering. Free consultation, $0 upfront, free leak detection. Book your call today.",
+  alternates: {
+    canonical: "/property-owners",
+  },
 };
 
 const benefits = [
@@ -50,7 +53,7 @@ export default function PropertyOwnersPage() {
                   <div key={b.title} className="flex gap-3">
                     <span className="text-2xl shrink-0">{b.icon}</span>
                     <div>
-                      <h3 className="font-semibold text-white text-sm">{b.title}</h3>
+                      <p className="font-semibold text-white text-sm">{b.title}</p>
                       <p className="text-gray-400 text-xs mt-1">{b.description}</p>
                     </div>
                   </div>

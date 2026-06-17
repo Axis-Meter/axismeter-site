@@ -6,6 +6,9 @@ import { BreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Condominium Submetering — Lower Condo Fees — Axis Meter Solutions",
   description: "Lower condo maintenance fees with per-unit submetering. New construction and retrofit options with $0 upfront and free leak detection.",
+  alternates: {
+    canonical: "/markets/condos",
+  },
 };
 
 const benefits = [

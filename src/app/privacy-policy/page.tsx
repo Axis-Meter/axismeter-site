@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy — Axis Meter Solutions",
   description: "Privacy Policy for Axis Meter Solutions. How we collect, handle, and protect your personal information in accordance with Canadian and US privacy laws.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {
@@ -32,7 +35,7 @@ export default function PrivacyPolicyPage() {
           </p>
 
           <nav className="bg-gray-50 rounded-xl p-6 my-8">
-            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">Contents</h3>
+            <h2 className="text-sm font-semibold text-gray-900 uppercase tracking-wide mb-3">Contents</h2>
             <ul className="space-y-1 text-sm">
               <li><a href="#acceptance" className="text-accent hover:underline">Acceptance of Privacy Policy, Revisions and Rights to Opt Out</a></li>
               <li><a href="#what-is-pi" className="text-accent hover:underline">What is Personal Information?</a></li>

@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms and Conditions — Service Terms | Axis Meter Solutions",
   description: "Terms and conditions governing all services performed and products supplied by Axis Meter Solutions, including submetering installation, billing, and maintenance.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
 };
 
 export default function TermsAndConditionsPage() {

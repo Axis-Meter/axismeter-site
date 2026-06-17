@@ -17,6 +17,9 @@ const faqItems = [
 export const metadata: Metadata = {
   title: "FAQ — Frequently Asked Questions | Axis Meter Solutions",
   description: "Common questions about utility submetering answered. Installation costs, agreement terms, tenant billing, meter types, and service areas. Property owners and tenants.",
+  alternates: {
+    canonical: "/faq",
+  },
 };
 
 export default function FaqLayout({ children }: { children: React.ReactNode }) {

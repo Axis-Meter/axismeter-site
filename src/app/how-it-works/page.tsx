@@ -6,6 +6,9 @@ import { FAQSchema, BreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "How It Works — Axis Meter Solutions",
   description: "From free consultation to live meters in 8-10 weeks. Learn exactly how Axis Meter's submetering process works, step by step.",
+  alternates: {
+    canonical: "/how-it-works",
+  },
 };
 
 const steps = [

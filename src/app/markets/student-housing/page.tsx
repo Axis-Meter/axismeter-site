@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Student Housing Submetering — University & College Residences — Axis Meter Solutions",
+  title: "Student Housing Submetering | Axis Meter Solutions",
   description: "Reduce energy waste in student residences with per-unit submetering. Promote conservation awareness while lowering operating costs.",
+  alternates: {
+    canonical: "/markets/student-housing",
+  },
 };
 
 export default function StudentHousingPage() {

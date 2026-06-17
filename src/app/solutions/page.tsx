@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Utility Submetering Solutions — Electricity, Water, Gas, Thermal | Axis Meter Solutions",
+  title: "Utility Submetering Solutions | Axis Meter Solutions",
   description: "Full-service submetering for electricity, water, gas, and thermal. Common area metering, leak detection, and all-in-one billing. $0 upfront. US & Canada.",
+  alternates: {
+    canonical: "/solutions",
+  },
 };
 
 const solutions = [

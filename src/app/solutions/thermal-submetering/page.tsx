@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Thermal Submetering — Heating & Cooling Metering | Axis Meter Solutions",
+  title: "Thermal Submetering for Heating & Cooling | Axis Meter",
   description: "Submeter in-suite heating and cooling consumption including complex systems like VRF. Measurement Canada approved. $0 upfront. Serving US & Canada.",
+  alternates: {
+    canonical: "/solutions/thermal-submetering",
+  },
 };
 
 const benefits = [

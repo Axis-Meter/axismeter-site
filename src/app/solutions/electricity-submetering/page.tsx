@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Electricity Submetering Services for US & Canada — Axis Meter Solutions",
+  title: "Electricity Submetering Services | Axis Meter Solutions",
   description: "Measure and bill each unit for actual electricity use. Measurement Canada approved meters, 30-40% consumption reduction, $0 upfront.",
+  alternates: {
+    canonical: "/solutions/electricity-submetering",
+  },
 };
 
 const benefits = [

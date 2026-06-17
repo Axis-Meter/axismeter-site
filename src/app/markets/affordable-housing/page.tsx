@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Affordable Housing Submetering — Fair Billing for Community Housing — Axis Meter Solutions",
+  title: "Affordable Housing Submetering | Axis Meter Solutions",
   description: "Support affordability goals with fair, accurate utility billing. Submetering for subsidized and community housing with $0 upfront cost.",
+  alternates: {
+    canonical: "/markets/affordable-housing",
+  },
 };
 
 export default function AffordableHousingPage() {

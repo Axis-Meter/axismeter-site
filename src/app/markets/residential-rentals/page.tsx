@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Residential Rental Submetering — Apartments & Multi-Family — Axis Meter Solutions",
+  title: "Residential Rental Submetering | Axis Meter Solutions",
   description: "Stop paying your tenants' utility bills. Per-unit submetering for apartment buildings with $0 upfront, free leak detection, and immediate cost recovery.",
+  alternates: {
+    canonical: "/markets/residential-rentals",
+  },
 };
 
 const benefits = [

@@ -6,6 +6,9 @@ import { FAQSchema, BreadcrumbSchema } from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Submetering 101: Everything You Need to Know — Axis Meter Solutions",
   description: "The complete guide to utility submetering. Learn what it is, how it works, benefits, types, and how it compares to bulk metering and RUBS.",
+  alternates: {
+    canonical: "/resources/submetering-101",
+  },
 };
 
 export default function Submetering101Page() {
