@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Blog — Axis Meter Solutions",
   description: "Insights on submetering, utility management, leak detection, and property investment from the Axis Meter team.",
-  alternates: {
-    canonical: "/blog",
-  },
-};
+  path: "/blog",
+});
 
 export default function BlogLayout({ children }: { children: React.ReactNode }) {
   return <>{children}</>;

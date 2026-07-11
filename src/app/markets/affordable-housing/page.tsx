@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Affordable Housing Submetering | Axis Meter Solutions",
   description: "Support affordability goals with fair, accurate utility billing. Submetering for subsidized and community housing with $0 upfront cost.",
-  alternates: {
-    canonical: "/markets/affordable-housing",
-  },
-};
+  path: "/markets/affordable-housing",
+});
 
 export default function AffordableHousingPage() {
   return (

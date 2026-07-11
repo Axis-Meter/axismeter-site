@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Leak Detection for Submetered Buildings | Axis Meter",
   description: "Every Axis Meter install includes free leak and flood detection. Real-time monitoring, instant alerts, and protection against $50K+ water damage.",
-  alternates: {
-    canonical: "/solutions/leak-detection",
-  },
-};
+  path: "/solutions/leak-detection",
+});
 
 const stats = [
   { value: "$50K+", label: "Average cost of a single undetected water leak" },

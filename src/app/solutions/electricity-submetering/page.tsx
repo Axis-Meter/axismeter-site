@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Electricity Submetering Services | Axis Meter Solutions",
   description: "Measure and bill each unit for actual electricity use. Measurement Canada approved meters, 30-40% consumption reduction, $0 upfront.",
-  alternates: {
-    canonical: "/solutions/electricity-submetering",
-  },
-};
+  path: "/solutions/electricity-submetering",
+});
 
 const benefits = [
   { icon: "📉", title: "30-40% Consumption Reduction", description: "When tenants pay for what they use, they use less. Industry data shows submetered buildings see 30-40% lower electricity consumption." },

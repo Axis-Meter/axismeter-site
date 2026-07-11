@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Thermal Submetering for Heating & Cooling | Axis Meter",
   description: "Submeter in-suite heating and cooling consumption including complex systems like VRF. Measurement Canada approved. $0 upfront. Serving US & Canada.",
-  alternates: {
-    canonical: "/solutions/thermal-submetering",
-  },
-};
+  path: "/solutions/thermal-submetering",
+});
 
 const benefits = [
   { icon: "🌡️", title: "Heating & Cooling Measurement", description: "Accurately measure in-suite thermal energy consumption for both heating and cooling systems, including hydronic, fan coil, and VRF configurations." },

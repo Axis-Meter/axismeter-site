@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
 import { FAQSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
 const faqItems = [
   { question: "What is utility submetering?", answer: "Submetering is the installation of individual meters on each unit in a multi-unit building, allowing each tenant to be billed based on their actual utility consumption rather than a flat rate or split." },
@@ -14,13 +14,11 @@ const faqItems = [
   { question: "Are your meters Measurement Canada approved?", answer: "Yes. All meters are Measurement Canada approved and regularly inspected to ensure full regulatory compliance." },
 ];
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "FAQ — Frequently Asked Questions | Axis Meter Solutions",
   description: "Common questions about utility submetering answered. Installation costs, agreement terms, tenant billing, meter types, and service areas. Property owners and tenants.",
-  alternates: {
-    canonical: "/faq",
-  },
-};
+  path: "/faq",
+});
 
 export default function FaqLayout({ children }: { children: React.ReactNode }) {
   return (

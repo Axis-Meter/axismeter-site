@@ -1,14 +1,12 @@
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Resources — Utility Submetering Guides | Axis Meter Solutions",
   description:
     "Utility submetering resources, guides, and insights for property owners, managers, and residents.",
-  alternates: {
-    canonical: "/resources",
-  },
-};
+  path: "/resources",
+});
 
 const featuredResources = [
   {

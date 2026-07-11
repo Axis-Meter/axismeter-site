@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Residential Rental Submetering | Axis Meter Solutions",
   description: "Stop paying your tenants' utility bills. Per-unit submetering for apartment buildings with $0 upfront, free leak detection, and immediate cost recovery.",
-  alternates: {
-    canonical: "/markets/residential-rentals",
-  },
-};
+  path: "/markets/residential-rentals",
+});
 
 const benefits = [
   { icon: "💰", title: "Recover $2,000-4,000/Month", description: "A 20-unit apartment building typically loses $2,000-4,000/month in unrecovered utility costs. Submetering puts that money back in your pocket." },

@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Common Area Metering Services | Axis Meter Solutions",
   description: "Measure and manage utility consumption in common areas — lobbies, hallways, parking garages, amenity spaces. Identify waste and optimize costs.",
-  alternates: {
-    canonical: "/solutions/common-area-metering",
-  },
-};
+  path: "/solutions/common-area-metering",
+});
 
 const benefits = [
   { icon: "🏢", title: "Full Building Visibility", description: "See exactly where common area energy is going — lobbies, hallways, parking garages, laundry rooms, fitness centers, and amenity spaces." },

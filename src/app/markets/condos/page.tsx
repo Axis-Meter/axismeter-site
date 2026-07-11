@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Condominium Submetering — Lower Condo Fees — Axis Meter Solutions",
   description: "Lower condo maintenance fees with per-unit submetering. New construction and retrofit options with $0 upfront and free leak detection.",
-  alternates: {
-    canonical: "/markets/condos",
-  },
-};
+  path: "/markets/condos",
+});
 
 const benefits = [
   { icon: "📉", title: "Lower Maintenance Fees", description: "When utility costs are billed per-unit instead of included in common expenses, maintenance fees drop — making units more attractive to buyers." },

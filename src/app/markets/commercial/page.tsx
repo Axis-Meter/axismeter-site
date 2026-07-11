@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Commercial Property Submetering | Axis Meter Solutions",
   description: "Recover tenant utility costs in office, retail, and commercial properties. Per-tenant billing with $0 upfront and free leak detection.",
-  alternates: {
-    canonical: "/markets/commercial",
-  },
-};
+  path: "/markets/commercial",
+});
 
 const benefits = [
   { icon: "💰", title: "Full Cost Recovery", description: "Bill each commercial tenant for their actual electricity and water usage. Stop absorbing utility costs that should be passed through." },

@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Student Housing Submetering | Axis Meter Solutions",
   description: "Reduce energy waste in student residences with per-unit submetering. Promote conservation awareness while lowering operating costs.",
-  alternates: {
-    canonical: "/markets/student-housing",
-  },
-};
+  path: "/markets/student-housing",
+});
 
 export default function StudentHousingPage() {
   return (

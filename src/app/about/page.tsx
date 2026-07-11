@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "About Us — Axis Meter Solutions",
   description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. Measurement Canada approved. $0 upfront. Free leak detection included.",
-  alternates: {
-    canonical: "/about",
-  },
-};
+  path: "/about",
+});
 
 const values = [
   { icon: "📏", title: "Measurement Canada Approved", description: "All meters are certified, inspected, and fully compliant with regulatory standards across the US and Canada." },

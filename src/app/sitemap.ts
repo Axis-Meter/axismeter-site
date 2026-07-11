@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/data/blogPosts'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://axismeter.com'
+  const base = 'https://www.axismeter.com'
 
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/property-owners', '/residents',
@@ -21,7 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const pages: MetadataRoute.Sitemap = staticPages.map((path) => ({
     url: `${base}${path}`,
-    lastModified: new Date(),
     changeFrequency: path === '' ? 'weekly' : 'monthly',
     priority: path === '' ? 1.0 : path.startsWith('/blog') ? 0.7 : 0.8,
   }))

@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Water Submetering Services and Leak Detection | Axis",
   description: "Per-unit water metering with free leak detection included. Drive conservation, enable fair billing, and catch leaks before they become disasters.",
-  alternates: {
-    canonical: "/solutions/water-submetering",
-  },
-};
+  path: "/solutions/water-submetering",
+});
 
 const benefits = [
   { icon: "🌊", title: "Drive Water Conservation", description: "When tenants see their actual water usage, they conserve. Buildings typically see 20-30% reduction in water consumption after submetering." },
