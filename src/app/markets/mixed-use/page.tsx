@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Mixed-Use Property Submetering | Axis Meter Solutions",
   description: "Unified submetering for properties with residential and commercial tenants. One system, one provider, all billing handled.",
-  alternates: {
-    canonical: "/markets/mixed-use",
-  },
-};
+  path: "/markets/mixed-use",
+});
 
 export default function MixedUsePage() {
   return (

@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Utility Submetering Solutions | Axis Meter Solutions",
   description: "Full-service submetering for electricity, water, gas, and thermal. Common area metering, leak detection, and all-in-one billing. $0 upfront. US & Canada.",
-  alternates: {
-    canonical: "/solutions",
-  },
-};
+  path: "/solutions",
+});
 
 const solutions = [
   {

@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { FAQSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Utility Submetering Services | Axis Meter Solutions",
-  alternates: {
-    canonical: "/",
-  },
-};
+  description:
+    "Transform your property's utility management with $0 upfront submetering. Free leak detection included. Serving the US and Canada.",
+  path: "/",
+});
 
 const stats = [
   { value: "32%", label: "Avg. Property Value Increase" },

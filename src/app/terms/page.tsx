@@ -1,13 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Terms of Use — Axis Meter Solutions",
   description: "Terms of Use governing access to and use of the Axis Meter Solutions website and online services.",
-  alternates: {
-    canonical: "/terms",
-  },
-};
+  path: "/terms",
+});
 
 export default function TermsOfUsePage() {
   return (

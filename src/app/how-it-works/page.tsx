@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { FAQSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "How It Works — Axis Meter Solutions",
   description: "From free consultation to live meters in 8-10 weeks. Learn exactly how Axis Meter's submetering process works, step by step.",
-  alternates: {
-    canonical: "/how-it-works",
-  },
-};
+  path: "/how-it-works",
+});
 
 const steps = [
   {

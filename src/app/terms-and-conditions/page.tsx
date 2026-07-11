@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Terms and Conditions — Service Terms | Axis Meter Solutions",
   description: "Terms and conditions governing all services performed and products supplied by Axis Meter Solutions, including submetering installation, billing, and maintenance.",
-  alternates: {
-    canonical: "/terms-and-conditions",
-  },
-};
+  path: "/terms-and-conditions",
+});
 
 export default function TermsAndConditionsPage() {
   return (

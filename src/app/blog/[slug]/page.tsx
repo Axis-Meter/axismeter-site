@@ -4,6 +4,7 @@ import Image from "next/image";
 import { blogPosts } from "@/data/blogPosts";
 import type { Metadata } from "next";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { absoluteUrl } from "@/lib/seo";
 
 // Dynamic import for blog content
 async function getContent(slug: string): Promise<string> {
@@ -36,17 +37,32 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return { title: "Post Not Found" };
+  const canonicalUrl = absoluteUrl(`/blog/${slug}`);
+  const imageUrl = post.featuredImage
+    ? absoluteUrl(post.featuredImage)
+    : absoluteUrl("/images/logo-blue.png");
+  const title = seoTitleOverrides[slug] ?? `${post.title} — Axis Meter Solutions`;
+
   return {
-    title: seoTitleOverrides[slug] ?? `${post.title} — Axis Meter Solutions`,
+    title,
     description: post.excerpt,
     alternates: {
-      canonical: `/blog/${slug}`,
+      canonical: canonicalUrl,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
       type: "article",
-      ...(post.featuredImage ? { images: [post.featuredImage] } : {}),
+      url: canonicalUrl,
+      siteName: "Axis Meter Solutions",
+      publishedTime: post.date,
+      images: [{ url: imageUrl, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: post.excerpt,
+      images: [imageUrl],
     },
   };
 }
@@ -68,13 +84,13 @@ export default async function BlogPost({
         title={post.title}
         description={post.excerpt}
         datePublished={post.date}
-        url={`https://axismeter.com/blog/${slug}`}
+        url={absoluteUrl(`/blog/${slug}`)}
         image={post.featuredImage ?? undefined}
       />
       <BreadcrumbSchema items={[
-        { name: "Home", url: "https://axismeter.com" },
-        { name: "Blog", url: "https://axismeter.com/blog" },
-        { name: post.title, url: `https://axismeter.com/blog/${slug}` },
+        { name: "Home", url: absoluteUrl("/") },
+        { name: "Blog", url: absoluteUrl("/blog") },
+        { name: post.title, url: absoluteUrl(`/blog/${slug}`) },
       ]} />
       {/* Back navigation */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">

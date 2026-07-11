@@ -1,14 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "For Residents — Axis Meter Solutions",
   description: "Living in an Axis Meter building? Set up your account, understand your bill, get conservation tips, and find answers to common questions.",
-  alternates: {
-    canonical: "/residents",
-  },
-};
+  path: "/residents",
+});
 
 const faqs = [
   { q: "Why am I being billed for utilities separately?", a: "Your building has been equipped with individual meters so each unit pays for their actual utility usage. This is fairer than splitting costs equally — you only pay for what you use." },

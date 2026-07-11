@@ -1,15 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Metadata } from "next";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Case Studies — Submetering Projects | Axis Meter Solutions",
   description: "See how Axis Meter delivered full-service submetering for multi-unit properties across Ontario. 118-unit building in Niagara Falls, 107-unit retrofit in Kingston, and more.",
-  alternates: {
-    canonical: "/case-studies",
-  },
-};
+  path: "/case-studies",
+});
 
 const caseStudies = [
   {

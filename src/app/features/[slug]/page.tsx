@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema } from "@/components/JsonLd";
+import { createPageMetadata } from "@/lib/seo";
 
 type FeaturePage = {
   slug: string;
@@ -524,20 +525,12 @@ export async function generateMetadata({
     };
   }
 
-  return {
+  return createPageMetadata({
     title: page.metaTitle,
     description: page.metaDescription,
-    alternates: {
-      canonical: `/features/${page.slug}`,
-    },
-    openGraph: {
-      title: page.metaTitle,
-      description: page.metaDescription,
-      type: "website",
-      url: `https://axismeter.com/features/${page.slug}`,
-      images: [{ url: page.hero.image }],
-    },
-  };
+    path: `/features/${page.slug}`,
+    image: page.hero.image,
+  });
 }
 
 export default async function FeaturePage({

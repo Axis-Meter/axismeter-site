@@ -1,13 +1,11 @@
 import Image from "next/image";
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Property Owners — Book a Free Consultation | Axis Meter Solutions",
   description: "Find out how much you could save with submetering. Free consultation, $0 upfront, free leak detection. Book your call today.",
-  alternates: {
-    canonical: "/property-owners",
-  },
-};
+  path: "/property-owners",
+});
 
 const benefits = [
   { icon: "💰", title: "Recover $2,000-4,000/Month", description: "Stop paying your tenants' utility bills. Per-unit metering puts that money back in your pocket — starting from day one." },

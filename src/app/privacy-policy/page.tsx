@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Privacy Policy — Axis Meter Solutions",
   description: "Privacy Policy for Axis Meter Solutions. How we collect, handle, and protect your personal information in accordance with Canadian and US privacy laws.",
-  alternates: {
-    canonical: "/privacy-policy",
-  },
-};
+  path: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (
@@ -30,7 +28,7 @@ export default function PrivacyPolicyPage() {
           <p className="text-gray-600 leading-relaxed">
             This Privacy Policy describes how we collect, handle, and protect Personal Information under our control and sets
             out the principles and laws on which our privacy practices are based. This policy applies to{" "}
-            <a href="https://axismeter.com" className="text-accent hover:underline">https://axismeter.com</a> and all
+            <a href="https://www.axismeter.com" className="text-accent hover:underline">https://www.axismeter.com</a> and all
             related services provided by Axis Meter Solutions.
           </p>
 
@@ -275,7 +273,7 @@ export default function PrivacyPolicyPage() {
               Phone: <a href="tel:+12267025500" className="text-accent hover:underline">226-702-5500</a>
             </p>
             <p className="text-gray-600">
-              Website: <a href="https://axismeter.com/contact" className="text-accent hover:underline">axismeter.com/contact</a>
+              Website: <a href="https://www.axismeter.com/contact" className="text-accent hover:underline">www.axismeter.com/contact</a>
             </p>
           </div>
         </div>

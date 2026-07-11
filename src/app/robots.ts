@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://axismeter.com/sitemap.xml',
+    sitemap: 'https://www.axismeter.com/sitemap.xml',
   }
 }

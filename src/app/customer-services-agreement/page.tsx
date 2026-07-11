@@ -1,10 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import { createPageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata = createPageMetadata({
   title: "Customer Services Agreement — Axis Meter Solutions",
   description: "Customer Services Agreement governing the use of utility submetering, billing, and account management services provided by Axis Meter Solutions.",
-};
+  path: "/customer-services-agreement",
+});
 
 export default function CustomerServicesAgreementPage() {
   return (
