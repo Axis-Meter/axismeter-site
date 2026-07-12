@@ -21,12 +21,35 @@ export async function generateStaticParams() {
 }
 
 const seoTitleOverrides: Record<string, string> = {
+  "what-is-a-water-submeter":
+    "What Is a Water Submeter? Complete Guide | Axis Meter",
   "who-pays-utilities-when-renting-a-house":
     "Who Pays Utilities When Renting a House? | Axis Meter",
   "what-utilities-do-you-need-for-a-house":
     "House Utilities Checklist for Owners | Axis Meter Guide",
   "who-is-responsible-for-unpaid-utility-bills":
     "Unpaid Utility Bills in Rentals | Axis Meter Guide",
+};
+
+const serviceCtaByCategory: Record<string, { href: string; title: string; description: string }> = {
+  Water: {
+    href: "/solutions/water-submetering",
+    title: "Planning a Water Submetering Project?",
+    description:
+      "Explore full-service water submetering for apartments, condominiums, mixed-use, and commercial properties.",
+  },
+  Electricity: {
+    href: "/solutions/electricity-submetering",
+    title: "Planning an Electricity Submetering Project?",
+    description:
+      "See how Axis supports electricity meter selection, installation, data collection, and billing workflows.",
+  },
+  Gas: {
+    href: "/solutions/gas-submetering",
+    title: "Planning a Gas Submetering Project?",
+    description:
+      "Review the design, installation, reading, and billing considerations for gas submetering.",
+  },
 };
 
 export async function generateMetadata({
@@ -77,6 +100,7 @@ export default async function BlogPost({
   if (!post) notFound();
 
   const content = await getContent(slug);
+  const serviceCta = serviceCtaByCategory[post.category];
 
   return (
     <div className="bg-navy min-h-screen">
@@ -155,14 +179,27 @@ export default async function BlogPost({
           dangerouslySetInnerHTML={{ __html: content }}
         />
 
+        {serviceCta ? (
+          <aside className="mt-12 rounded-2xl border border-accent/30 bg-navy-light p-8">
+            <h2 className="text-2xl font-bold text-white">{serviceCta.title}</h2>
+            <p className="mt-3 text-gray-300">{serviceCta.description}</p>
+            <Link
+              href={serviceCta.href}
+              className="mt-5 inline-block font-semibold text-accent hover:underline"
+            >
+              Explore the service →
+            </Link>
+          </aside>
+        ) : null}
+
         {/* CTA Section */}
         <div className="mt-16 bg-navy-light border border-navy-lighter rounded-2xl p-8 sm:p-12 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
             Ready to Optimize Your Utility Management?
           </h2>
           <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-            Join property owners who have seen a 32% average property value
-            increase and 18% lower operating costs with Axis Meter Solutions.
+            Tell us about the property, utility, number of units, and your billing or
+            monitoring goals. We&apos;ll help you identify the right next step.
           </p>
           <Link
             href="/contact"

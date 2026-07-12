@@ -1,21 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BreadcrumbSchema } from "@/components/JsonLd";
+import { OebLicenceTrust } from "@/components/OebLicenceTrust";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: "About Us — Axis Meter Solutions",
-  description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. Measurement Canada approved. $0 upfront. Free leak detection included.",
+  description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. OEB-licensed Ontario USMP. $0 upfront. Free leak detection included.",
   path: "/about",
 });
 
 const values = [
-  { icon: "📏", title: "Measurement Canada Approved", description: "All meters are certified, inspected, and fully compliant with regulatory standards across the US and Canada." },
+  { icon: "📏", title: "Application-Appropriate Equipment", description: "Meter and communications equipment is selected for the utility, intended billing use, and requirements that apply to each project." },
   { icon: "💧", title: "Leak & Flood Detection Included", description: "Every installation includes leak and flood detection sensors at no extra cost — protecting properties from costly water damage." },
   { icon: "💰", title: "$0 Capital Expenditure", description: "Axis Meter owns and maintains all equipment during the agreement term. Property owners pay nothing upfront to get started." },
   { icon: "⚡", title: "8–10 Week Implementation", description: "From signed agreement to live meters in 8–10 weeks. A streamlined process designed to minimize disruption to your operations." },
   { icon: "🤝", title: "Collaborative Approach", description: "We work directly with your engineering teams, property managers, and electricians to design optimal metering configurations." },
-  { icon: "🇺🇸", title: "US & Canada Coverage", description: "Full-service submetering across both countries — residential, commercial, and mixed-use properties of all sizes." },
+  { icon: "🇺🇸", title: "US & Canada Project Support", description: "We assess residential, commercial, and mixed-use opportunities in both countries, with availability confirmed for the jurisdiction and project scope." },
 ];
 
 const partners = [
@@ -28,7 +29,7 @@ const partners = [
 
 const stats = [
   { value: "20yr", label: "Standard Agreement Term" },
-  { value: "100%", label: "Regulatory Compliance" },
+  { value: "OEB", label: "Licensed Ontario USMP" },
   { value: "8–10 wk", label: "Implementation Timeline" },
   { value: "$0", label: "Upfront Cost" },
 ];
@@ -36,7 +37,7 @@ const stats = [
 export default function AboutPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "About", url: "https://axismeter.com/about" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "About", url: "/about" }]} />
 
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">
@@ -77,6 +78,8 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <OebLicenceTrust compact />
+
       {/* Our Approach */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -106,7 +109,7 @@ export default function AboutPage() {
                 </p>
                 <p>
                   From multi-family residential to commercial and mixed-use properties, we provide turnkey
-                  submetering — equipment, installation, billing, maintenance, and full regulatory compliance —
+                  submetering — equipment, installation, billing, maintenance, and project-specific compliance planning —
                   with zero upfront cost to the property owner.
                 </p>
               </div>
@@ -174,13 +177,13 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="p-6">
               <div className="text-4xl mb-3">✅</div>
-              <h3 className="font-semibold text-gray-900">Measurement Canada Approved</h3>
-              <p className="text-sm text-gray-600 mt-2">All meters certified and regularly inspected</p>
+              <h3 className="font-semibold text-gray-900">Meter Approval Requirements</h3>
+              <p className="text-sm text-gray-600 mt-2">Equipment selected for the utility, application, and jurisdiction</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-3">📋</div>
-              <h3 className="font-semibold text-gray-900">100% Regulatory Compliant</h3>
-              <p className="text-sm text-gray-600 mt-2">Full compliance with US and Canadian regulations</p>
+              <h3 className="font-semibold text-gray-900">OEB-Licensed Ontario USMP</h3>
+              <p className="text-sm text-gray-600 mt-2">Axis Meter Solutions Inc. · Licence ES-2022-0268</p>
             </div>
             <div className="p-6">
               <div className="text-4xl mb-3">🛡️</div>
@@ -206,7 +209,7 @@ export default function AboutPage() {
               Book a Free Consultation
             </Link>
           </div>
-          <p className="mt-4 text-gray-500 text-sm">US & Canada · Measurement Canada Approved · Fully Certified</p>
+          <p className="mt-4 text-gray-500 text-sm">Canada &amp; US project support · Ontario OEB licence ES-2022-0268</p>
         </div>
       </section>
     </>

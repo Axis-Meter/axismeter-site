@@ -1,31 +1,130 @@
-import Link from "next/link";
 import Image from "next/image";
-import { BreadcrumbSchema } from "@/components/JsonLd";
+import Link from "next/link";
+import { BreadcrumbSchema, FAQSchema } from "@/components/JsonLd";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
-  title: "Water Submetering Services and Leak Detection | Axis",
-  description: "Per-unit water metering with free leak detection included. Drive conservation, enable fair billing, and catch leaks before they become disasters.",
+  title: "Water Submetering Services for Multifamily Properties",
+  description:
+    "Water submetering systems for apartments, condos, and commercial properties. Per-unit measurement, remote readings, billing support, and leak detection.",
   path: "/solutions/water-submetering",
 });
 
 const benefits = [
-  { icon: "🌊", title: "Drive Water Conservation", description: "When tenants see their actual water usage, they conserve. Buildings typically see 20-30% reduction in water consumption after submetering." },
-  { icon: "⚖️", title: "Fair, Accurate Billing", description: "No more splitting water bills by square footage. Each unit pays for exactly what they use — eliminating disputes and promoting fairness." },
-  { icon: "💧", title: "Early Leak Identification", description: "Water meters can flag unusual consumption patterns that indicate running toilets, dripping faucets, or hidden leaks — saving you thousands." },
-  { icon: "🛡️", title: "Free Leak Detection Sensors", description: "Every water submetering install includes dedicated leak and flood detection sensors at no extra cost. Real-time alerts if water is detected where it shouldn't be." },
-  { icon: "📊", title: "Consumption Analytics", description: "Track water usage across your building in real time. Identify high-consumption units, spot anomalies, and make data-driven decisions." },
-  { icon: "💰", title: "$0 Upfront Investment", description: "Axis owns all equipment. You pay nothing to install water meters. The savings start immediately while we handle everything." },
+  {
+    icon: "⚖️",
+    title: "Usage-Based Cost Allocation",
+    description:
+      "Replace estimates and square-footage formulas with unit-level consumption data when local rules and lease terms permit usage-based billing.",
+  },
+  {
+    icon: "📡",
+    title: "Remote Meter Reading",
+    description:
+      "Collect consistent readings without entering every suite. Communications design is matched to the building, meter outputs, and reporting needs.",
+  },
+  {
+    icon: "💧",
+    title: "Consumption Anomaly Detection",
+    description:
+      "Review unexpected continuous flow or usage spikes that may point to running fixtures, leaks, incorrect assignments, or unusual consumption.",
+  },
+  {
+    icon: "🛡️",
+    title: "Leak and Flood Protection",
+    description:
+      "Pair consumption monitoring with dedicated leak sensors in mechanical rooms, suites, and other high-risk locations for faster alerts.",
+  },
+  {
+    icon: "📊",
+    title: "Property-Level Reporting",
+    description:
+      "Compare unit, common-area, and master-meter usage to investigate gaps, support maintenance, and improve billing review workflows.",
+  },
+  {
+    icon: "🧰",
+    title: "Design Through Ongoing Support",
+    description:
+      "Coordinate meter selection, installation, commissioning, unit assignments, data collection, billing setup, maintenance, and resident questions.",
+  },
+];
+
+const projectSteps = [
+  {
+    number: "1",
+    title: "Survey the property",
+    description:
+      "Document pipe sizes, branches, shared loads, unit count, access, existing meters, communications conditions, and the intended use of the data.",
+  },
+  {
+    number: "2",
+    title: "Design the system",
+    description:
+      "Select meters for the expected flow range and water conditions, then define reading, network, leak-detection, and billing components.",
+  },
+  {
+    number: "3",
+    title: "Install and commission",
+    description:
+      "Use qualified trades, verify flow direction and meter identity, test communications, and confirm every meter is assigned to the correct unit.",
+  },
+  {
+    number: "4",
+    title: "Read, validate, and support",
+    description:
+      "Collect readings on schedule, review exceptions, preserve an audit trail, maintain equipment, and apply the approved billing workflow.",
+  },
+];
+
+const faqs = [
+  {
+    question: "What is a water submetering system?",
+    answer:
+      "A water submetering system measures water consumption for individual units or defined areas downstream of a property's main water meter. It can include meters, pulse or digital outputs, communications devices, gateways, software, leak sensors, and a billing or reporting workflow.",
+  },
+  {
+    question: "Can water submeters be installed in an existing apartment building?",
+    answer:
+      "Often, yes. Retrofit feasibility depends on whether unit piping can be separated, pipe access, available installation space, shutoff coordination, expected flow, communications coverage, and local plumbing and billing requirements. A site survey is the appropriate first step.",
+  },
+  {
+    question: "Can a landlord bill tenants from water submeter readings?",
+    answer:
+      "The answer depends on the jurisdiction, property type, lease language, meter requirements, permitted charges, disclosures, and consumer-protection rules. Axis reviews the intended billing model and applicable requirements before implementation; property owners should obtain local legal advice where necessary.",
+  },
+  {
+    question: "Do you provide water submetering in Canada and the United States?",
+    answer:
+      "Axis supports Canadian and US project assessments. Equipment availability, installation coverage, approvals, and tenant-billing services are confirmed for the specific province, state, municipality, property type, and project scope.",
+  },
+  {
+    question: "How much does a water submetering project cost?",
+    answer:
+      "Cost depends on unit count, pipe configuration, meter size and type, installation access, communications, leak sensors, commissioning, and ongoing reading or billing services. Axis prepares a property-specific assessment rather than applying one generic price.",
+  },
+  {
+    question: "Does a water submeter detect every leak?",
+    answer:
+      "No single device detects every possible leak. Consumption data can reveal unusual usage patterns, while dedicated leak and flood sensors detect water at selected locations. A combined design provides broader protection than either approach alone.",
+  },
 ];
 
 export default function WaterSubmeteringPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: "https://axismeter.com" }, { name: "Solutions", url: "https://axismeter.com/solutions" }, { name: "Water Submetering", url: "https://axismeter.com/solutions/water-submetering" }]} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Solutions", url: "/solutions" },
+          { name: "Water Submetering", url: "/solutions/water-submetering" },
+        ]}
+      />
+      <FAQSchema faqs={faqs} />
+
       <section className="bg-navy relative overflow-hidden">
         <Image
           src="/images/hero/photo-1585704032915-c3400ca199e7.jpg"
-          alt="Water metering infrastructure and plumbing"
+          alt="Water meter and plumbing system for a multifamily property"
           fill
           className="object-cover opacity-25"
           priority
@@ -33,85 +132,159 @@ export default function WaterSubmeteringPage() {
         <div className="absolute inset-0 bg-gradient-to-br from-navy via-navy-light to-navy opacity-80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="max-w-3xl">
-            <h1 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
-              Water Submetering with{" "}
-              <span className="text-accent">Built-In Leak Protection</span>
+            <p className="font-semibold uppercase tracking-wide text-accent">
+              Water meters, remote reading, billing, and leak monitoring
+            </p>
+            <h1 className="mt-3 text-4xl sm:text-5xl font-bold text-white leading-tight">
+              Water Submetering Services for Multifamily Properties
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed">
-              Fair per-unit water billing, conservation incentives, and free leak detection in every install.
-              Your water bill goes down while your property stays protected.
+              Measure water consumption by unit, collect readings remotely, support transparent
+              billing, and identify abnormal usage across apartments, condominiums, mixed-use,
+              student housing, and commercial properties.
             </p>
-            <div className="mt-10">
-              <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
-                Get a Free Quote
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <Link
+                href="/contact"
+                className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+              >
+                Request a Property Assessment
+              </Link>
+              <Link
+                href="/blog/what-is-a-water-submeter"
+                className="border border-gray-500 hover:border-accent text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+              >
+                Read the Water Submeter Guide
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
       <section className="bg-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8">How Water Submetering Works</h2>
-          <div className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed space-y-6">
-            <p>
-              Water submeters are installed on each unit&apos;s water supply line to measure individual consumption.
-              The meters transmit usage data automatically to our billing platform, and each tenant receives a monthly
-              bill based on their actual water use.
-            </p>
-            <p>
-              Combined with our free leak and flood detection sensors, your water submetering system doesn&apos;t just
-              save money — it actively protects your building from water damage.
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              A Complete Water Submetering System, Not Just a Meter
+            </h2>
+            <p className="mt-6 text-lg text-gray-600 leading-relaxed">
+              The meter is one part of the system. A reliable project also needs correct sizing,
+              accessible installation, verified unit assignments, dependable communications,
+              reading validation, billing rules, maintenance, and resident support. Axis brings
+              those pieces together around the actual building and operating model.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* Benefits */}
-      <section className="bg-gray-50 py-20 sm:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-16">Why Water Submetering Matters</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {benefits.map((b) => (
-              <div key={b.title} className="bg-white rounded-xl p-8 shadow-sm">
-                <div className="text-4xl mb-4">{b.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{b.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{b.description}</p>
-              </div>
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {benefits.map((benefit) => (
+              <article key={benefit.title} className="rounded-xl bg-gray-50 p-8">
+                <div className="text-4xl mb-4" aria-hidden="true">{benefit.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-900">{benefit.title}</h3>
+                <p className="mt-3 text-gray-600 leading-relaxed">{benefit.description}</p>
+              </article>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Leak Detection Tie-In */}
-      <section className="bg-navy py-20 sm:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block bg-accent text-navy text-sm font-bold px-4 py-1 rounded-full mb-6">INCLUDED FREE</span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Leak & Flood Detection Comes Standard</h2>
-            <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              A single undetected water leak can cause over $50,000 in damage. That&apos;s why every Axis Meter water
-              submetering installation includes leak and flood detection sensors at no additional cost.
-              No other submetering company includes this as standard.
-            </p>
-            <Link href="/solutions/leak-detection" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-8 py-4 rounded-lg text-lg transition-colors inline-block">
-              Learn About Leak Detection →
-            </Link>
+      <section className="bg-gray-50 py-20 sm:py-28">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+            <div>
+              <p className="font-semibold uppercase tracking-wide text-accent-dark">Project workflow</p>
+              <h2 className="mt-3 text-3xl sm:text-4xl font-bold text-gray-900">
+                From Site Survey to Validated Readings
+              </h2>
+              <p className="mt-5 text-lg text-gray-600 leading-relaxed">
+                Good results depend on field verification and ongoing operations. Selecting equipment
+                before confirming the building&apos;s piping, flow conditions, communications, and billing
+                objective can create expensive rework.
+              </p>
+            </div>
+            <ol className="space-y-6">
+              {projectSteps.map((step) => (
+                <li key={step.number} className="flex gap-5 rounded-xl bg-white p-6 shadow-sm">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent font-bold text-navy">
+                    {step.number}
+                  </span>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-900">{step.title}</h3>
+                    <p className="mt-2 text-gray-600 leading-relaxed">{step.description}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="bg-white py-20 sm:py-28">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Start Billing Water Fairly</h2>
-          <p className="mt-6 text-lg text-gray-600">
-            Get a free building assessment and find out how much you could save with per-unit water billing — plus free leak protection.
+      <section className="bg-navy py-20 sm:py-28">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-10 md:grid-cols-2">
+            <div className="rounded-2xl border border-navy-lighter bg-navy-light p-8">
+              <p className="text-sm font-semibold uppercase tracking-wide text-accent">Canada</p>
+              <h2 className="mt-3 text-2xl font-bold text-white">Canadian Water Submetering</h2>
+              <p className="mt-4 text-gray-300 leading-relaxed">
+                Provincial, municipal, plumbing, meter, lease, privacy, and consumer-protection
+                requirements can affect project design and billing. Axis confirms the intended use of
+                readings and the requirements relevant to the property before implementation.
+              </p>
+            </div>
+            <div className="rounded-2xl border border-navy-lighter bg-navy-light p-8">
+              <p className="text-sm font-semibold uppercase tracking-wide text-accent">United States</p>
+              <h2 className="mt-3 text-2xl font-bold text-white">US Water Submetering</h2>
+              <p className="mt-4 text-gray-300 leading-relaxed">
+                State and local rules determine meter acceptance, installation, disclosures, billing,
+                fees, recordkeeping, and dispute procedures. US availability is reviewed by state,
+                municipality, property type, equipment, and service scope.
+              </p>
+            </div>
+          </div>
+          <p className="mx-auto mt-8 max-w-4xl text-center text-sm text-gray-400">
+            This overview is operational information, not legal advice. Local requirements should be
+            confirmed before meters are purchased, installed, or used for occupant billing.
           </p>
-          <div className="mt-10">
-            <Link href="/contact" className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
-              Get a Free Quote
+        </div>
+      </section>
+
+      <section className="bg-white py-20 sm:py-28">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+              Water Submetering Frequently Asked Questions
+            </h2>
+          </div>
+          <div className="mt-12 space-y-8">
+            {faqs.map((faq) => (
+              <article key={faq.question} className="border-b border-gray-200 pb-8">
+                <h3 className="text-xl font-semibold text-gray-900">{faq.question}</h3>
+                <p className="mt-3 text-gray-600 leading-relaxed">{faq.answer}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-50 py-20 sm:py-28">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
+            Assess Your Property&apos;s Water Metering Options
+          </h2>
+          <p className="mt-6 text-lg text-gray-600">
+            Share the property location, unit count, piping configuration, current billing method,
+            and whether you need remote readings, leak alerts, or resident billing.
+          </p>
+          <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/contact"
+              className="bg-accent hover:bg-accent-dark text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Request a Property Assessment
+            </Link>
+            <Link
+              href="/resources/submetering-101"
+              className="border border-gray-300 hover:border-navy text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Explore Submetering 101
             </Link>
           </div>
         </div>
