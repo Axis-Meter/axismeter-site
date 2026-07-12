@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 import { BreadcrumbSchema } from "@/components/JsonLd";
 import { OebLicenceTrust } from "@/components/OebLicenceTrust";
-import { absoluteUrl, createPageMetadata } from "@/lib/seo";
+import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: "About Us — Axis Meter Solutions",
-  description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. Measurement Canada approved. $0 upfront. Free leak detection included.",
+  description: "Axis Meter Solutions provides full-service utility submetering across the US and Canada. OEB-licensed Ontario USMP. $0 upfront. Free leak detection included.",
   path: "/about",
 });
 
@@ -37,7 +37,7 @@ const stats = [
 export default function AboutPage() {
   return (
     <>
-      <BreadcrumbSchema items={[{ name: "Home", url: absoluteUrl("/") }, { name: "About", url: absoluteUrl("/about") }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "About", url: "/about" }]} />
 
       {/* Hero */}
       <section className="bg-navy relative overflow-hidden">

@@ -26,6 +26,11 @@ The United States has roughly nine times Canada's impressions but fewer clicks. 
 
 The index snapshot predates the July 11 deployment and still references old non-`www` URLs. Production now redirects non-`www` and legacy `/post/*` routes to the preferred `www` `/blog/*` URLs with HTTP 308 responses. Recheck the report after Google processes the resubmitted sitemap.
 
+Redirect evidence verified July 11, 2026:
+
+- `https://axismeter.com/blog/what-is-a-water-submeter` returned HTTP 308 and resolved to `https://www.axismeter.com/blog/what-is-a-water-submeter`.
+- `https://www.axismeter.com/post/what-is-a-water-submeter` returned HTTP 308 and resolved to `https://www.axismeter.com/blog/what-is-a-water-submeter`.
+
 ## Historical URL consolidation
 
 The 16-month page report contains substantial historical performance under the old `/post/*` URLs:

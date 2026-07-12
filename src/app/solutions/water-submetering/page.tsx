@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema, FAQSchema } from "@/components/JsonLd";
-import { absoluteUrl, createPageMetadata } from "@/lib/seo";
+import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
   title: "Water Submetering Services for Multifamily Properties",
@@ -114,9 +114,9 @@ export default function WaterSubmeteringPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: absoluteUrl("/") },
-          { name: "Solutions", url: absoluteUrl("/solutions") },
-          { name: "Water Submetering", url: absoluteUrl("/solutions/water-submetering") },
+          { name: "Home", url: "/" },
+          { name: "Solutions", url: "/solutions" },
+          { name: "Water Submetering", url: "/solutions/water-submetering" },
         ]}
       />
       <FAQSchema faqs={faqs} />
