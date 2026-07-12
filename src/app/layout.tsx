@@ -7,6 +7,7 @@ import { OrganizationSchema } from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ReferralAttribution } from "@/components/ReferralAttribution";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <ReferralAttribution />
         <Analytics />
         <SpeedInsights />
       </body>

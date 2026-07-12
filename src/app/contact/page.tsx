@@ -3,6 +3,10 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import {
+  REFERRAL_STORAGE_KEY,
+  type ReferralAttributionData,
+} from "@/components/ReferralAttribution";
 
 export default function ContactPage() {
   const router = useRouter();
@@ -13,6 +17,10 @@ export default function ContactPage() {
     setStatus("sending");
 
     const form = e.currentTarget;
+    const attribution = {
+      ...getReferralAttribution(),
+      contactSource: new URLSearchParams(window.location.search).get("source") ?? "",
+    };
     const data = {
       name: (form.elements.namedItem("name") as HTMLInputElement).value,
       email: (form.elements.namedItem("email") as HTMLInputElement).value,
@@ -20,6 +28,7 @@ export default function ContactPage() {
       propertyType: (form.elements.namedItem("propertyType") as HTMLSelectElement).value,
       units: (form.elements.namedItem("units") as HTMLInputElement).value,
       message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      attribution,
     };
 
     try {
@@ -173,4 +182,13 @@ export default function ContactPage() {
       </section>
     </>
   );
+}
+
+function getReferralAttribution(): ReferralAttributionData | null {
+  try {
+    const value = sessionStorage.getItem(REFERRAL_STORAGE_KEY);
+    return value ? (JSON.parse(value) as ReferralAttributionData) : null;
+  } catch {
+    return null;
+  }
 }

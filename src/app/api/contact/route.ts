@@ -1,9 +1,54 @@
 import { NextRequest, NextResponse } from "next/server";
 
+type Attribution = {
+  utmSource?: unknown;
+  utmMedium?: unknown;
+  utmCampaign?: unknown;
+  utmContent?: unknown;
+  landingPage?: unknown;
+  referrer?: unknown;
+  isChatGptReferral?: unknown;
+  contactSource?: unknown;
+};
+
+function text(value: unknown, maxLength = 500) {
+  return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
+}
+
+function escapeHtml(value: string) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function tableRow(label: string, value: string) {
+  if (!value) return "";
+  return `<tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">${escapeHtml(label)}</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(value)}</td></tr>`;
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, phone, propertyType, units, message } = body;
+    const name = text(body.name, 120);
+    const email = text(body.email, 254);
+    const phone = text(body.phone, 50);
+    const propertyType = text(body.propertyType, 100);
+    const units = text(body.units, 20);
+    const message = text(body.message, 5000);
+    const rawAttribution = (body.attribution ?? {}) as Attribution;
+    const attribution = {
+      utmSource: text(rawAttribution.utmSource, 100),
+      utmMedium: text(rawAttribution.utmMedium, 100),
+      utmCampaign: text(rawAttribution.utmCampaign, 200),
+      utmContent: text(rawAttribution.utmContent, 200),
+      landingPage: text(rawAttribution.landingPage, 1000),
+      referrer: text(rawAttribution.referrer, 1000),
+      isChatGptReferral: rawAttribution.isChatGptReferral === true,
+      contactSource: text(rawAttribution.contactSource, 200),
+    };
 
     if (!name || !email) {
       return NextResponse.json({ error: "Name and email are required" }, { status: 400 });
@@ -23,17 +68,28 @@ export async function POST(request: NextRequest) {
           from: "Axis Meter Website <website@axismeter.com>",
           to: ["karthik@axismeter.com"],
           cc: ["info@axismeter.com"],
-          subject: `New Contact Form: ${name} — ${propertyType || "General Inquiry"}`,
+          subject: `${attribution.isChatGptReferral ? "[ChatGPT Lead] " : ""}New Contact Form: ${name} — ${propertyType || "General Inquiry"}`,
           html: `
             <h2>New Contact Form Submission</h2>
             <table style="border-collapse: collapse; width: 100%;">
-              <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Name</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${name}</td></tr>
-              <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Email</td><td style="padding: 8px; border-bottom: 1px solid #eee;"><a href="mailto:${email}">${email}</a></td></tr>
-              ${phone ? `<tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Phone</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${phone}</td></tr>` : ""}
-              ${propertyType ? `<tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Property Type</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${propertyType}</td></tr>` : ""}
-              ${units ? `<tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Units</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${units}</td></tr>` : ""}
+              ${tableRow("Name", name)}
+              ${tableRow("Email", email)}
+              ${tableRow("Phone", phone)}
+              ${tableRow("Property Type", propertyType)}
+              ${tableRow("Units", units)}
             </table>
-            ${message ? `<h3>Message</h3><p>${message.replace(/\n/g, "<br>")}</p>` : ""}
+            ${message ? `<h3>Message</h3><p>${escapeHtml(message).replace(/\n/g, "<br>")}</p>` : ""}
+            <h3>Lead Attribution</h3>
+            <table style="border-collapse: collapse; width: 100%;">
+              ${tableRow("ChatGPT Referral", attribution.isChatGptReferral ? "Yes" : "No")}
+              ${tableRow("Contact Page Source", attribution.contactSource)}
+              ${tableRow("UTM Source", attribution.utmSource)}
+              ${tableRow("UTM Medium", attribution.utmMedium)}
+              ${tableRow("UTM Campaign", attribution.utmCampaign)}
+              ${tableRow("UTM Content", attribution.utmContent)}
+              ${tableRow("Landing Page", attribution.landingPage)}
+              ${tableRow("Referrer", attribution.referrer)}
+            </table>
             <hr style="margin-top: 20px;">
             <p style="color: #999; font-size: 12px;">Sent from axismeter.com contact form</p>
           `,
@@ -48,7 +104,7 @@ export async function POST(request: NextRequest) {
       }
     } else {
       // No email service configured — log to console
-      console.log("CONTACT FORM SUBMISSION (no email service configured):", { name, email, phone, propertyType, units, message });
+      console.log("CONTACT FORM SUBMISSION (no email service configured):", { name, email, phone, propertyType, units, message, attribution });
     }
 
     return NextResponse.json({ success: true });

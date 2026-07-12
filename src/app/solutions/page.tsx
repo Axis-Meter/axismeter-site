@@ -145,6 +145,24 @@ export default function SolutionsPage() {
         </div>
       </section>
 
+      <section className="border-y border-gray-200 bg-gray-50 py-12">
+        <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+          <div>
+            <h2 className="text-2xl font-bold text-gray-900">Comparing submetering providers?</h2>
+            <p className="mt-2 text-gray-600">
+              Use our provider checklist to compare technical scope, compliance, billing operations,
+              resident support, equipment, and contract terms.
+            </p>
+          </div>
+          <Link
+            href="/submetering-company"
+            className="shrink-0 font-semibold text-accent-dark hover:underline"
+          >
+            How to choose a submetering company →
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-navy py-20 sm:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

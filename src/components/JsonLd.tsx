@@ -4,13 +4,31 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${SITE_URL}/#organization`,
     "name": "Axis Meter Solutions",
+    "legalName": "Axis Meter Solutions Inc.",
     "url": SITE_URL,
     "logo": absoluteUrl("/images/logo-green.png"),
-    "description": "Utility submetering services for property owners across the US and Canada. $0 upfront, free leak detection included.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": ["US", "CA"]
+    "description": "Utility submetering, meter data, billing, resident support, and system maintenance for multifamily and commercial properties in Canada and the United States.",
+    "telephone": "+1-226-702-5500",
+    "email": "info@axismeter.com",
+    "areaServed": [
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "United States" }
+    ],
+    "knowsAbout": [
+      "Water submetering",
+      "Electricity submetering",
+      "Natural gas submetering",
+      "Thermal energy metering",
+      "Multifamily utility billing",
+      "Meter installation and maintenance"
+    ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "Ontario Energy Board Unit Sub-Metering Licence",
+      "value": "ES-2022-0268",
+      "url": "https://www.oeb.ca/ontarios-energy-sector/list-licensed-companies"
     },
     "sameAs": [
       "https://www.facebook.com/axismeter",
@@ -19,9 +37,50 @@ export function OrganizationSchema() {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "sales",
+      "telephone": "+1-226-702-5500",
+      "email": "info@axismeter.com",
+      "areaServed": ["CA", "US"],
+      "availableLanguage": "English",
       "url": absoluteUrl("/contact")
     }
   };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
+}
+
+export function ServiceSchema({
+  name,
+  description,
+  path,
+  serviceTypes,
+}: {
+  name: string;
+  description: string;
+  path: string;
+  serviceTypes: string[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": name,
+    "description": description,
+    "url": absoluteUrl(path),
+    "provider": {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      "name": "Axis Meter Solutions",
+      "url": SITE_URL
+    },
+    "areaServed": [
+      { "@type": "Country", "name": "Canada" },
+      { "@type": "Country", "name": "United States" }
+    ],
+    "serviceType": serviceTypes,
+    "audience": {
+      "@type": "BusinessAudience",
+      "audienceType": "Multifamily and commercial property owners, operators, developers, and managers"
+    }
+  };
+
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 

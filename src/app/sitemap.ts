@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://www.axismeter.com'
 
   const staticPages = [
-    '', '/about', '/contact', '/how-it-works', '/property-owners', '/residents',
+    '', '/about', '/contact', '/how-it-works', '/submetering-company', '/property-owners', '/residents',
     '/case-studies', '/resources', '/resources/submetering-101',
     '/faq', '/solutions', '/solutions/electricity-submetering', '/solutions/water-submetering',
     '/solutions/thermal-submetering', '/solutions/gas-submetering', '/solutions/common-area-metering',
