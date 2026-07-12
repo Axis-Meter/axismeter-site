@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FAQSchema } from "@/components/JsonLd";
+import { OebLicenceTrust } from "@/components/OebLicenceTrust";
 import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata({
@@ -11,9 +12,9 @@ export const metadata = createPageMetadata({
 });
 
 const stats = [
-  { value: "32%", label: "Avg. Property Value Increase" },
-  { value: "18%", label: "Lower Operating Costs" },
-  { value: "100%", label: "Regulatory Compliant" },
+  { value: "$0", label: "Upfront Equipment Cost" },
+  { value: "8–10 wk", label: "Typical Implementation Target" },
+  { value: "OEB", label: "Licensed Ontario USMP" },
 ];
 
 const differentiators = [
@@ -43,9 +44,9 @@ const differentiators = [
   },
   {
     icon: "✅",
-    title: "Industry Certification and Compliance",
+    title: "Jurisdiction-Specific Compliance",
     description:
-      "All meters are Measurement Canada approved and fully certified. We maintain 100% regulatory compliance across the US and Canada so you never have to worry.",
+      "Axis is an OEB-licensed unit sub-meter provider in Ontario. We select equipment and project requirements for the applicable utility, meter, billing, and local rules.",
   },
   {
     icon: "🤝",
@@ -111,7 +112,7 @@ const faqs = [
   },
   {
     q: "Do you serve both the US and Canada?",
-    a: "Yes. We're fully operational in both countries with Measurement Canada approved meters and all required certifications for US markets.",
+    a: "Axis supports projects in Canada and the United States. Availability, equipment approvals, installation requirements, and tenant-billing rules are confirmed for each jurisdiction before a project proceeds.",
   },
   {
     q: "Is leak detection really free?",
@@ -177,6 +178,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <OebLicenceTrust compact />
 
       {/* Why Submetering? */}
       <section className="bg-navy py-20 sm:py-28">
@@ -386,7 +389,7 @@ export default function Home() {
               Book a Free Call
             </Link>
           </div>
-          <p className="mt-4 text-gray-500 text-sm">US & Canada · Measurement Canada Approved · Fully Certified</p>
+          <p className="mt-4 text-gray-500 text-sm">Canada &amp; US project support · Ontario OEB licence ES-2022-0268</p>
         </div>
       </section>
     </>
