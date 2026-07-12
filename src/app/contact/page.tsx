@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function ContactPage() {
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const router = useRouter();
+  const [status, setStatus] = useState<"idle" | "sending" | "error">("idle");
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -28,8 +30,8 @@ export default function ContactPage() {
       });
 
       if (res.ok) {
-        setStatus("sent");
         form.reset();
+        router.push("/contact/thank-you");
       } else {
         setStatus("error");
       }
@@ -70,20 +72,7 @@ export default function ContactPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-8">Send Us a Message</h2>
 
-              {status === "sent" ? (
-                <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
-                  <div className="text-4xl mb-4">✅</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">Message Sent</h3>
-                  <p className="text-gray-600">Thank you for reaching out. We&apos;ll get back to you within 1 business day.</p>
-                  <button
-                    onClick={() => setStatus("idle")}
-                    className="mt-6 text-accent font-semibold hover:underline"
-                  >
-                    Send another message
-                  </button>
-                </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Full Name *</label>
@@ -135,8 +124,7 @@ export default function ContactPage() {
                   >
                     {status === "sending" ? "Sending..." : "Send Message"}
                   </button>
-                </form>
-              )}
+              </form>
             </div>
 
             {/* Contact Info */}
