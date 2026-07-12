@@ -32,7 +32,8 @@ export function OrganizationSchema() {
     },
     "sameAs": [
       "https://www.facebook.com/axismeter",
-      "https://www.instagram.com/axismeter"
+      "https://www.instagram.com/axismeter",
+      "https://www.linkedin.com/company/axismeter"
     ],
     "contactPoint": {
       "@type": "ContactPoint",
