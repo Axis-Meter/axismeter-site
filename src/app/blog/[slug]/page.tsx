@@ -21,6 +21,8 @@ export async function generateStaticParams() {
 }
 
 const seoTitleOverrides: Record<string, string> = {
+  "what-is-a-submeter-and-how-does-it-work":
+    "What Is a Submeter and How Does It Work? | Axis Meter",
   "what-is-a-water-submeter":
     "What Is a Water Submeter? Complete Guide | Axis Meter",
   "who-pays-utilities-when-renting-a-house":
@@ -79,6 +81,7 @@ export async function generateMetadata({
       url: canonicalUrl,
       siteName: "Axis Meter Solutions",
       publishedTime: post.date,
+      modifiedTime: post.updated ?? post.date,
       images: [{ url: imageUrl, alt: post.title }],
     },
     twitter: {
@@ -108,6 +111,7 @@ export default async function BlogPost({
         title={post.title}
         description={post.excerpt}
         datePublished={post.date}
+        dateModified={post.updated}
         url={absoluteUrl(`/blog/${slug}`)}
         image={post.featuredImage ?? undefined}
       />
@@ -146,7 +150,10 @@ export default async function BlogPost({
             <span className="bg-accent/10 text-accent text-xs font-semibold px-3 py-1 rounded-full">
               {post.category}
             </span>
-            <time className="text-gray-500 text-sm">{post.date}</time>
+            <time className="text-gray-500 text-sm">Published {post.date}</time>
+            {post.updated ? (
+              <time className="text-gray-500 text-sm">Updated {post.updated}</time>
+            ) : null}
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
             {post.title}
@@ -162,6 +169,12 @@ export default async function BlogPost({
               />
             </div>
           )}
+          {post.updated ? (
+            <div className="mt-6 rounded-lg border border-navy-lighter bg-navy-light px-5 py-4 text-sm text-gray-300">
+              Reviewed by the Axis Meter Solutions team. Regulatory statements are
+              linked to primary sources and scoped by utility and jurisdiction.
+            </div>
+          ) : null}
         </header>
 
         {/* Article content */}

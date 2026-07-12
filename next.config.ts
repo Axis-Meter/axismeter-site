@@ -12,36 +12,81 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Blog post consolidation — redirect duplicates to main post
+      // Core submetering cluster — one authoritative pillar URL.
       {
         source: "/blog/what-is-submetered",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
       {
         source: "/blog/what-does-submetered-mean",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
       {
         source: "/blog/what-is-a-sub-meter",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
-      // Send legacy Webflow duplicates directly to the consolidated post
+      {
+        source: "/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/blog/sub-meter",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/blog/utility-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/blog/sub-utility-solutions",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/resources/submetering-101",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      // Send legacy Webflow URLs directly to the pillar to avoid redirect chains.
       {
         source: "/post/what-is-submetered",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
       {
         source: "/post/what-does-submetered-mean",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
       {
         source: "/post/what-is-a-sub-meter",
-        destination: "https://www.axismeter.com/blog/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/post/what-is-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/post/sub-meter",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/post/utility-submetering",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
+        permanent: true,
+      },
+      {
+        source: "/post/sub-utility-solutions",
+        destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
       // Preserve old Webflow URL structure

@@ -115,7 +115,21 @@ export function BreadcrumbSchema({ items }: { items: { name: string; url: string
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }
 
-export function ArticleSchema({ title, description, datePublished, url, image }: { title: string; description: string; datePublished: string; url: string; image?: string }) {
+export function ArticleSchema({
+  title,
+  description,
+  datePublished,
+  dateModified,
+  url,
+  image,
+}: {
+  title: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  url: string;
+  image?: string;
+}) {
   const articleUrl = absoluteUrl(url);
   const schema = {
     "@context": "https://schema.org",
@@ -123,6 +137,7 @@ export function ArticleSchema({ title, description, datePublished, url, image }:
     "headline": title,
     "description": description,
     "datePublished": datePublished,
+    "dateModified": dateModified ?? datePublished,
     "url": articleUrl,
     "mainEntityOfPage": {
       "@type": "WebPage",

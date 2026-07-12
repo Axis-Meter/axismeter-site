@@ -11,7 +11,7 @@ export const metadata = createPageMetadata({
 const featuredResources = [
   {
     title: "Submetering 101",
-    href: "/resources/submetering-101",
+    href: "/blog/what-is-a-submeter-and-how-does-it-work",
     description:
       "A complete guide to what utility submetering is, how it works, and why it matters for multi-unit properties.",
   },

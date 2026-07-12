@@ -281,7 +281,7 @@ export default function WaterSubmeteringPage() {
               Request a Property Assessment
             </Link>
             <Link
-              href="/resources/submetering-101"
+                href="/blog/what-is-a-submeter-and-how-does-it-work"
               className="border border-gray-300 hover:border-navy text-navy font-semibold px-10 py-4 rounded-lg text-lg transition-colors"
             >
               Explore Submetering 101

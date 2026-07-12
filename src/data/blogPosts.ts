@@ -5,6 +5,7 @@ export interface BlogPostMeta {
   excerpt: string;
   category: string;
   date: string;
+  updated?: string;
   featuredImage: string | null;
 }
 
@@ -58,14 +59,6 @@ export const blogPosts: BlogPostMeta[] = [
     "featuredImage": "/images/blog/what-is-utility-computing.png"
   },
   {
-    "slug": "what-is-submetering",
-    "title": "What is Submetering? An Overview by Axis Meter Solutions",
-    "excerpt": "What is utility submetering? Learn how per-unit metering works, benefits for property owners, and why buildings see 30-40% consumption reduction.",
-    "category": "Submetering",
-    "date": "2024-10-19",
-    "featuredImage": "/images/blog/what-is-submetering.png"
-  },
-  {
     "slug": "what-is-a-water-submeter",
     "title": "What is a Water Submeter? A Clear Explanation from Axis Meter Solutions",
     "excerpt": "How water submeters work in multi-unit buildings. Per-unit water measurement, conservation benefits, and what property owners need to know.",
@@ -83,10 +76,11 @@ export const blogPosts: BlogPostMeta[] = [
   },
   {
     "slug": "what-is-a-submeter-and-how-does-it-work",
-    "title": "What is a Submeter and How Does it Work? - A Guide by Axis Meter Solutions",
-    "excerpt": "Complete guide to submeters: how they measure per-unit utility consumption, installation process, and benefits for multi-unit properties.",
+    "title": "What Is a Submeter and How Does It Work?",
+    "excerpt": "A practical guide to utility submeters, including how they measure unit-level consumption, how readings become bills, installation steps, and the rules that may apply.",
     "category": "Submetering",
     "date": "2024-09-15",
+    "updated": "2026-07-12",
     "featuredImage": "/images/blog/what-is-a-submeter-and-how-does-it-work.png"
   },
   {
@@ -136,14 +130,6 @@ export const blogPosts: BlogPostMeta[] = [
     "category": "Water",
     "date": "2024-07-07",
     "featuredImage": "/images/blog/water-sub-meters.png"
-  },
-  {
-    "slug": "utility-submetering",
-    "title": "Utility Submetering: How Axis Meter Solutions Can Help You Save Money",
-    "excerpt": "How utility submetering saves property owners money. Per-unit billing, consumption reduction, and increased property value.",
-    "category": "Submetering",
-    "date": "2024-07-06",
-    "featuredImage": "/images/blog/utility-submetering.png"
   },
   {
     "slug": "utility-in-real-estate",
@@ -226,28 +212,12 @@ export const blogPosts: BlogPostMeta[] = [
     "featuredImage": "/images/blog/submeter-water-with-axis-meter-solutions.png"
   },
   {
-    "slug": "sub-utility-solutions",
-    "title": "Sub Utility Solutions with Axis Meter Solutions",
-    "excerpt": "Sub utility solutions for property owners. Full-service submetering for electricity, water, gas, and thermal.",
-    "category": "Submetering",
-    "date": "2024-05-23",
-    "featuredImage": "/images/blog/sub-utility-solutions.png"
-  },
-  {
     "slug": "sub-metered-water",
     "title": "Sub Metered Water: Understanding the Benefits of Axis Meter Solutions",
     "excerpt": "Benefits of sub metered water in rental buildings. Fair per-unit billing, conservation incentives, and leak detection.",
     "category": "Water",
     "date": "2024-05-22",
     "featuredImage": "/images/blog/sub-metered-water.png"
-  },
-  {
-    "slug": "sub-meter",
-    "title": "Sub Meter: Understanding Axis Meter Solutions' Sub Metering Services",
-    "excerpt": "Complete guide to sub meters: types, installation, benefits, and how they enable fair billing in multi-unit properties.",
-    "category": "Submetering",
-    "date": "2024-05-21",
-    "featuredImage": "/images/blog/sub-meter.png"
   },
   {
     "slug": "rental-agreement-with-utilities-included",

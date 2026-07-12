@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/submetering-company', '/property-owners', '/residents',
-    '/case-studies', '/resources', '/resources/submetering-101',
+    '/case-studies', '/resources',
     '/faq', '/solutions', '/solutions/electricity-submetering', '/solutions/water-submetering',
     '/solutions/thermal-submetering', '/solutions/gas-submetering', '/solutions/common-area-metering',
     '/solutions/leak-detection',
@@ -27,7 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
     url: `${base}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
+    lastModified: new Date(post.updated ?? post.date),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }))

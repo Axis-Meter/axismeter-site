@@ -5,7 +5,7 @@ const aboutLinks = [
   { name: "Company Overview", href: "/about" },
   { name: "How It Works", href: "/how-it-works" },
   { name: "Case Studies", href: "/case-studies" },
-  { name: "Submetering 101", href: "/resources/submetering-101" },
+  { name: "Submetering 101", href: "/blog/what-is-a-submeter-and-how-does-it-work" },
   { name: "Blog", href: "/blog" },
   { name: "Contact Us", href: "/contact" },
 ];
