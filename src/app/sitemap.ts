@@ -1,8 +1,11 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from '@/data/blogPosts'
+import { getBlogPostSummaries } from '@/lib/blog'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 86_400
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = 'https://www.axismeter.com'
+  const blogPosts = await getBlogPostSummaries()
 
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/submetering-company', '/property-owners', '/residents',

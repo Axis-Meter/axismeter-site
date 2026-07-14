@@ -1,23 +1,16 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
-import { blogPosts } from "@/data/blogPosts";
 import type { Metadata } from "next";
+import { BlogImage } from "@/components/BlogImage";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { getBlogArticle, getBlogPostSummaries } from "@/lib/blog";
 import { absoluteUrl } from "@/lib/seo";
 
-// Dynamic import for blog content
-async function getContent(slug: string): Promise<string> {
-  try {
-    const mod = await import(`@/data/blog-content/${slug}`);
-    return mod.content;
-  } catch {
-    return "";
-  }
-}
+export const revalidate = 86_400;
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  const posts = await getBlogPostSummaries();
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
 const seoTitleOverrides: Record<string, string> = {
@@ -60,13 +53,15 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = await getBlogArticle(slug);
   if (!post) return { title: "Post Not Found" };
   const canonicalUrl = absoluteUrl(`/blog/${slug}`);
   const imageUrl = post.featuredImage
     ? absoluteUrl(post.featuredImage)
     : absoluteUrl("/images/logo-blue.png");
-  const title = seoTitleOverrides[slug] ?? `${post.title} — Axis Meter Solutions`;
+  const title =
+    seoTitleOverrides[slug] ??
+    (post.source === "outrank" ? post.title : `${post.title} — Axis Meter Solutions`);
 
   return {
     title,
@@ -99,10 +94,9 @@ export default async function BlogPost({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const post = blogPosts.find((p) => p.slug === slug);
+  const post = await getBlogArticle(slug);
   if (!post) notFound();
 
-  const content = await getContent(slug);
   const serviceCta = serviceCtaByCategory[post.category];
 
   return (
@@ -160,16 +154,16 @@ export default async function BlogPost({
           </h1>
           {post.featuredImage && (
             <div className="relative w-full h-64 sm:h-80 lg:h-96 mt-8 rounded-xl overflow-hidden">
-              <Image
+              <BlogImage
                 src={post.featuredImage}
                 alt={post.title}
-                fill
+                sizes="(min-width: 1024px) 896px, 100vw"
                 className="object-cover"
                 priority
               />
             </div>
           )}
-          {post.updated ? (
+          {post.updated && post.source === "local" ? (
             <div className="mt-6 rounded-lg border border-navy-lighter bg-navy-light px-5 py-4 text-sm text-gray-300">
               Reviewed by the Axis Meter Solutions team. Regulatory statements are
               linked to primary sources and scoped by utility and jurisdiction.
@@ -189,7 +183,7 @@ export default async function BlogPost({
             prose-a:text-accent prose-a:no-underline hover:prose-a:underline
             prose-strong:text-white
             prose-ul:my-6 prose-ol:my-6"
-          dangerouslySetInnerHTML={{ __html: content }}
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
 
         {serviceCta ? (

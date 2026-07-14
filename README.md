@@ -20,6 +20,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Outrank blog integration
+
+The blog keeps the existing repository-managed articles and merges in newly
+published Outrank articles at runtime. Existing local slugs remain authoritative
+until they are explicitly migrated.
+
+Set this server-only environment variable locally and in Vercel:
+
+```bash
+OUTRANK_BLOG_API_KEY=your_rotated_key
+```
+
+Do not expose the key with a `NEXT_PUBLIC_` prefix. Outrank content is cached for
+one day in production, while a missing key or temporary Outrank failure leaves
+the existing local blog available.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
