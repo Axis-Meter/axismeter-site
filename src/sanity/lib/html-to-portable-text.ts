@@ -4,11 +4,58 @@ import { htmlToBlocks } from "@portabletext/block-tools";
 import { Schema } from "@sanity/schema";
 import { JSDOM } from "jsdom";
 import type { SanityBodyBlock } from "@/lib/blog-types";
-import { blockContent } from "@/sanity/schemaTypes/blockContent";
 
 const compiledSchema = Schema.compile({
   name: "axisBlogImport",
-  types: [blockContent],
+  types: [
+    {
+      name: "blockContent",
+      type: "array",
+      of: [
+        {
+          type: "block",
+          styles: [
+            { title: "Paragraph", value: "normal" },
+            { title: "Heading 2", value: "h2" },
+            { title: "Heading 3", value: "h3" },
+            { title: "Heading 4", value: "h4" },
+            { title: "Quote", value: "blockquote" },
+          ],
+          lists: [
+            { title: "Bulleted list", value: "bullet" },
+            { title: "Numbered list", value: "number" },
+          ],
+          marks: {
+            decorators: [
+              { title: "Strong", value: "strong" },
+              { title: "Emphasis", value: "em" },
+              { title: "Underline", value: "underline" },
+              { title: "Code", value: "code" },
+            ],
+            annotations: [
+              {
+                name: "link",
+                type: "object",
+                fields: [
+                  { name: "href", type: "string" },
+                  { name: "openInNewTab", type: "boolean" },
+                ],
+              },
+            ],
+          },
+        },
+        {
+          name: "externalImage",
+          type: "object",
+          fields: [
+            { name: "url", type: "string" },
+            { name: "alt", type: "string" },
+            { name: "caption", type: "string" },
+          ],
+        },
+      ],
+    },
+  ],
 });
 
 const blockContentType = compiledSchema.get("blockContent");
