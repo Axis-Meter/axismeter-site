@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { BlogImage } from "@/components/BlogImage";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/JsonLd";
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/JsonLd";
+import { getSanityFaqs, SanityArticleBody } from "@/components/SanityArticleBody";
 import { getBlogArticle, getBlogPostSummaries } from "@/lib/blog";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -61,6 +62,7 @@ export async function generateMetadata({
     : absoluteUrl("/images/logo-blue.png");
   const title =
     seoTitleOverrides[slug] ??
+    post.seoTitle ??
     (post.source === "outrank" ? post.title : `${post.title} — Axis Meter Solutions`);
 
   return {
@@ -85,6 +87,7 @@ export async function generateMetadata({
       description: post.excerpt,
       images: [imageUrl],
     },
+    robots: post.noIndex ? { index: false, follow: false } : undefined,
   };
 }
 
@@ -98,6 +101,7 @@ export default async function BlogPost({
   if (!post) notFound();
 
   const serviceCta = serviceCtaByCategory[post.category];
+  const faqs = post.body ? getSanityFaqs(post.body) : [];
 
   return (
     <div className="bg-navy min-h-screen">
@@ -114,6 +118,7 @@ export default async function BlogPost({
         { name: "Blog", url: absoluteUrl("/blog") },
         { name: post.title, url: absoluteUrl(`/blog/${slug}`) },
       ]} />
+      {faqs.length ? <FAQSchema faqs={faqs} /> : null}
       {/* Back navigation */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <Link
@@ -144,9 +149,18 @@ export default async function BlogPost({
             <span className="bg-accent/10 text-accent text-xs font-semibold px-3 py-1 rounded-full">
               {post.category}
             </span>
-            <time className="text-gray-500 text-sm">Published {post.date}</time>
+            <time dateTime={post.date} className="text-gray-500 text-sm">
+              Published {post.date}
+            </time>
             {post.updated ? (
-              <time className="text-gray-500 text-sm">Updated {post.updated}</time>
+              <time dateTime={post.updated} className="text-gray-500 text-sm">
+                Updated {post.updated}
+              </time>
+            ) : null}
+            {post.readingTimeMinutes ? (
+              <span className="text-gray-500 text-sm">
+                {post.readingTimeMinutes} min read
+              </span>
             ) : null}
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
@@ -173,7 +187,7 @@ export default async function BlogPost({
 
         {/* Article content */}
         <div
-          className="prose prose-invert prose-lg max-w-none
+          className="prose prose-invert prose-lg max-w-none scroll-mt-24
             prose-headings:text-white prose-headings:font-bold
             prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-6
             prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
@@ -183,8 +197,13 @@ export default async function BlogPost({
             prose-a:text-accent prose-a:no-underline hover:prose-a:underline
             prose-strong:text-white
             prose-ul:my-6 prose-ol:my-6"
-          dangerouslySetInnerHTML={{ __html: post.html }}
-        />
+        >
+          {post.body ? (
+            <SanityArticleBody body={post.body} />
+          ) : (
+            <div dangerouslySetInnerHTML={{ __html: post.html || "" }} />
+          )}
+        </div>
 
         {serviceCta ? (
           <aside className="mt-12 rounded-2xl border border-accent/30 bg-navy-light p-8">

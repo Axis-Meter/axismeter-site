@@ -82,6 +82,11 @@ export function BlogIndex({ posts }: { posts: BlogPostSummary[] }) {
                       <time dateTime={post.date} className="text-xs text-gray-500">
                         {post.date}
                       </time>
+                      {post.readingTimeMinutes ? (
+                        <span className="text-xs text-gray-500">
+                          {post.readingTimeMinutes} min
+                        </span>
+                      ) : null}
                     </div>
                     <h2 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-accent transition-colors line-clamp-2">
                       {post.title}

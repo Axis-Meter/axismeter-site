@@ -9,6 +9,7 @@ import {
 } from "outrank-next-js-blog";
 import { blogPosts, type BlogPostMeta } from "@/data/blogPosts";
 import type { BlogArticle, BlogPostSummary } from "@/lib/blog-types";
+import { getSanityBlogArticle, getSanityBlogPostSummaries } from "@/lib/sanity-blog";
 
 const OUTRANK_REVALIDATE_SECONDS = process.env.NODE_ENV === "development" ? 1 : 86_400;
 const OUTRANK_ARTICLE_PAGE_SIZE = 100;
@@ -117,12 +118,23 @@ const getOutrankArticle = unstable_cache(
 
 export const getBlogPostSummaries = cache(async (): Promise<BlogPostSummary[]> => {
   let outrankPosts: BlogPostSummary[] = [];
+  let sanityPosts: BlogPostSummary[] = [];
 
-  try {
-    outrankPosts = (await getOutrankArticleSummaries()).map(toOutrankSummary);
-  } catch (error) {
-    const message = error instanceof Error ? error.message : "Unknown error";
-    console.error(`Unable to load Outrank article summaries: ${message}`);
+  const [outrankResult, sanityResult] = await Promise.allSettled([
+    getOutrankArticleSummaries(),
+    getSanityBlogPostSummaries(),
+  ]);
+
+  if (outrankResult.status === "fulfilled") {
+    outrankPosts = outrankResult.value.map(toOutrankSummary);
+  } else {
+    console.error(`Unable to load Outrank article summaries: ${outrankResult.reason}`);
+  }
+
+  if (sanityResult.status === "fulfilled") {
+    sanityPosts = sanityResult.value;
+  } else {
+    console.error(`Unable to load Sanity article summaries: ${sanityResult.reason}`);
   }
 
   const postsBySlug = new Map(outrankPosts.map((post) => [post.slug, post]));
@@ -132,10 +144,23 @@ export const getBlogPostSummaries = cache(async (): Promise<BlogPostSummary[]> =
     postsBySlug.set(post.slug, toLocalSummary(post));
   }
 
+  // A published Sanity document is the editorial source of truth after migration.
+  for (const post of sanityPosts) {
+    postsBySlug.set(post.slug, post);
+  }
+
   return [...postsBySlug.values()].sort((a, b) => b.date.localeCompare(a.date));
 });
 
 export const getBlogArticle = cache(async (slug: string): Promise<BlogArticle | null> => {
+  try {
+    const sanityPost = await getSanityBlogArticle(slug);
+    if (sanityPost) return sanityPost;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : "Unknown error";
+    console.error(`Unable to load Sanity article ${slug}: ${message}`);
+  }
+
   const localPost = localPostsBySlug.get(slug);
   if (localPost) {
     try {

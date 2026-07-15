@@ -7,25 +7,34 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "sanity:validate": "sanity schema validate",
+    "sanity:build-import": "node scripts/build-sanity-blog-import.mjs",
+    "sanity:backup": "node scripts/export-sanity-blog.mjs"
   },
   "dependencies": {
+    "@portabletext/block-tools": "^5.1.11",
+    "@sanity/schema": "^4.22.0",
     "@tailwindcss/typography": "^0.5.19",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
+    "jsdom": "^28.1.0",
     "next": "15.5.20",
+    "next-sanity": "^11.6.13",
     "outrank-next-js-blog": "^0.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "sanity": "^4.22.0",
+    "styled-components": "^6.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
+    "@types/jsdom": "^28.0.3",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "eslint": "^9.39.5",
     "eslint-config-next": "15.5.20",
-    "jsdom": "^28.1.0",
     "postcss": "^8.5.17",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.0"
