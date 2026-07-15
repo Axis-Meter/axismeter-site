@@ -88,7 +88,11 @@ function isValidArticle(article: OutrankWebhookArticle) {
   );
 }
 
-function articleDocument(article: OutrankWebhookArticle, webhookTimestamp?: string) {
+function articleDocument(
+  article: OutrankWebhookArticle,
+  webhookTimestamp?: string,
+  existingDocumentId?: string,
+) {
   if (!isValidArticle(article)) throw new Error("Invalid Outrank article payload");
 
   const slug = article.slug!.trim();
@@ -98,7 +102,7 @@ function articleDocument(article: OutrankWebhookArticle, webhookTimestamp?: stri
   const now = new Date().toISOString();
 
   return {
-    _id: `outrank-${sourceId}`,
+    _id: existingDocumentId || `outrank-${sourceId}`,
     _type: "blogPost",
     title: article.title!.trim(),
     slug: { _type: "slug", current: slug },
@@ -141,9 +145,32 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "No supported articles in payload" }, { status: 400 });
   }
 
+  if (!articles.every(isValidArticle)) {
+    return NextResponse.json({ error: "Invalid article payload" }, { status: 400 });
+  }
+
   try {
-    const documents = articles.map((article) => articleDocument(article, payload.timestamp));
-    const transaction = getSanityWriteClient().transaction();
+    const writeClient = getSanityWriteClient();
+    const slugs = articles.map((article) => article.slug!.trim());
+    const existingDocuments = await writeClient.fetch<Array<{ _id: string; slug: string }>>(
+      `*[_type == "blogPost" && slug.current in $slugs] | order(_updatedAt desc) {
+        _id,
+        "slug": slug.current
+      }`,
+      { slugs },
+    );
+    const existingIdBySlug = new Map<string, string>();
+    for (const document of existingDocuments) {
+      if (!existingIdBySlug.has(document.slug)) {
+        existingIdBySlug.set(document.slug, document._id);
+      }
+    }
+
+    const documents = articles.map((article) => {
+      const slug = article.slug!.trim();
+      return articleDocument(article, payload.timestamp, existingIdBySlug.get(slug));
+    });
+    const transaction = writeClient.transaction();
     for (const document of documents) transaction.createOrReplace(document);
     await transaction.commit();
 
