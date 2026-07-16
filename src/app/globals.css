@@ -22,3 +22,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+body.pay-slips-mode {
+  margin: 0;
+  background: #f3f6fa;
+}
+
+body.pay-slips-mode > nav,
+body.pay-slips-mode > footer {
+  display: none;
+}
+
+@media print {
+  body.pay-slips-mode {
+    background: white;
+  }
+}
