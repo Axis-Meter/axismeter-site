@@ -1,0 +1,2747 @@
+{
+  "_createdAt": "2026-07-22T06:51:54Z",
+  "_id": "outrank-3ff857f7-2eca-4cf8-80f7-b02ec2b40484",
+  "_rev": "sdp72N6p3MsDpxU69RmNkH",
+  "_type": "blogPost",
+  "_updatedAt": "2026-07-22T06:51:54Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "a4a833cb5d4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d79fd4e1dc1e",
+          "_type": "span",
+          "marks": [],
+          "text": "You're staring at a utility file that keeps climbing, and the worst part is the timing. The building is occupied, the tenants expect stable charges, and your month-end numbers take the hit before you've had time to respond. A "
+        },
+        {
+          "_key": "b855755ab4eb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submeter for electricity"
+        },
+        {
+          "_key": "8302670b81a8",
+          "_type": "span",
+          "marks": [],
+          "text": " changes that conversation from “Why did the bill spike again?” to a cost allocation system you can defend, budget around, and use to protect "
+        },
+        {
+          "_key": "bedf5d1745ba",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NOI"
+        },
+        {
+          "_key": "57f39b1ba396",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f99c3c17a35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e69252c8f16b",
+          "_type": "span",
+          "marks": [],
+          "text": "The essential shift isn't the hardware. It's moving from a single bulk expense to a model where consumption is measured at the unit, suite, or zone level, then billed with much more transparency. In Ontario, that approach has already become a regulated service model, not a niche experiment, and the same idea is now being applied in California with tighter code and compliance requirements around measurement and billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a297fd27e3fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b184fdd8312c",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4e7bd25827ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "788f4bc84dbd",
+          "_type": "span",
+          "marks": [
+            "9616e2355a60"
+          ],
+          "text": "The End of Unpredictable Utility Bills"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9616e2355a60",
+          "_type": "link",
+          "href": "#the-end-of-unpredictable-utility-bills"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2400dafa8bd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67e7774a4ea8",
+          "_type": "span",
+          "marks": [
+            "449df57626a8"
+          ],
+          "text": "How an Electricity Submeter Works"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "449df57626a8",
+          "_type": "link",
+          "href": "#how-an-electricity-submeter-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "31cf8f763aa5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cc94ea28064",
+          "_type": "span",
+          "marks": [
+            "427b12ab9988"
+          ],
+          "text": "The Business Case for Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "427b12ab9988",
+          "_type": "link",
+          "href": "#the-business-case-for-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d0182089e6e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91d9a35beb3e",
+          "_type": "span",
+          "marks": [
+            "2368c3a07b73"
+          ],
+          "text": "Why owners care beyond billing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2368c3a07b73",
+          "_type": "link",
+          "href": "#why-owners-care-beyond-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0fc3d8bd70df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c10e60064541",
+          "_type": "span",
+          "marks": [
+            "61c755919425"
+          ],
+          "text": "Where the operational payoff shows up"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "61c755919425",
+          "_type": "link",
+          "href": "#where-the-operational-payoff-shows-up"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2fce3815b3ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c288bb47f377",
+          "_type": "span",
+          "marks": [
+            "c8130626f52c"
+          ],
+          "text": "Navigating Regulatory and Compliance Rules"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c8130626f52c",
+          "_type": "link",
+          "href": "#navigating-regulatory-and-compliance-rules"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "74caf2fb8df0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b9f34bc24fa9",
+          "_type": "span",
+          "marks": [
+            "0d964bbb9c9d"
+          ],
+          "text": "Why compliance matters in practice"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0d964bbb9c9d",
+          "_type": "link",
+          "href": "#why-compliance-matters-in-practice"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "778daace21e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0294a7b27d96",
+          "_type": "span",
+          "marks": [
+            "b96fe44cbab6"
+          ],
+          "text": "What a competent provider handles"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b96fe44cbab6",
+          "_type": "link",
+          "href": "#what-a-competent-provider-handles"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "257541573ee0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ce7c3d06a39",
+          "_type": "span",
+          "marks": [
+            "fd7974fe1470"
+          ],
+          "text": "Your Submetering Project Timeline"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fd7974fe1470",
+          "_type": "link",
+          "href": "#your-submetering-project-timeline"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ed3d814d2468",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc41e3ce4cc4",
+          "_type": "span",
+          "marks": [
+            "9202c7a0128a"
+          ],
+          "text": "Phase 1, assess and design"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9202c7a0128a",
+          "_type": "link",
+          "href": "#phase-1-assess-and-design"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9046355b633e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b0d9a6cb9c2",
+          "_type": "span",
+          "marks": [
+            "26d959ffccfa"
+          ],
+          "text": "Phase 2, procure and notify"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "26d959ffccfa",
+          "_type": "link",
+          "href": "#phase-2-procure-and-notify"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e0e1842e1743",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4e36e43e42b",
+          "_type": "span",
+          "marks": [
+            "5bb82e6e0b63"
+          ],
+          "text": "Phase 3, install and commission"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5bb82e6e0b63",
+          "_type": "link",
+          "href": "#phase-3-install-and-commission"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7613d5f01583",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5d58be6037c",
+          "_type": "span",
+          "marks": [
+            "4c150108991e"
+          ],
+          "text": "Phase 4, integrate and go live"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4c150108991e",
+          "_type": "link",
+          "href": "#phase-4-integrate-and-go-live"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "351594d4e0ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5efd0b6ee465",
+          "_type": "span",
+          "marks": [
+            "e899dd3f1a1d"
+          ],
+          "text": "Evaluating Providers and Cost Models"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e899dd3f1a1d",
+          "_type": "link",
+          "href": "#evaluating-providers-and-cost-models"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ea79d74e7618",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af198344e198",
+          "_type": "span",
+          "marks": [
+            "9612381bcfe0"
+          ],
+          "text": "How the models differ"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9612381bcfe0",
+          "_type": "link",
+          "href": "#how-the-models-differ"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d4de4785b40e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d21cbd554de7",
+          "_type": "span",
+          "marks": [
+            "e4c757bd8734"
+          ],
+          "text": "What to ask before signing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e4c757bd8734",
+          "_type": "link",
+          "href": "#what-to-ask-before-signing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "74ee312d191e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecf0c29ddd3f",
+          "_type": "span",
+          "marks": [
+            "faaf31064bb1"
+          ],
+          "text": "Common Submetering Questions Answered"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "faaf31064bb1",
+          "_type": "link",
+          "href": "#common-submetering-questions-answered"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ddb30ffbc3ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ade1b2d9748e",
+          "_type": "span",
+          "marks": [
+            "3f3dd2a44bb8"
+          ],
+          "text": "What about existing tenants"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3f3dd2a44bb8",
+          "_type": "link",
+          "href": "#what-about-existing-tenants"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c59520fbf8c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf126584975b",
+          "_type": "span",
+          "marks": [
+            "ed3d4b6519a1"
+          ],
+          "text": "What happens if a meter fails"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ed3d4b6519a1",
+          "_type": "link",
+          "href": "#what-happens-if-a-meter-fails"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cb6d97e15a0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92381182aaff",
+          "_type": "span",
+          "marks": [
+            "18f8d88eee37"
+          ],
+          "text": "How does this work for EV charging"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "18f8d88eee37",
+          "_type": "link",
+          "href": "#how-does-this-work-for-ev-charging"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2bb366bfe19e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef0fc9ec93a1",
+          "_type": "span",
+          "marks": [
+            "4d30801493b1"
+          ],
+          "text": "Is this only for new or large buildings"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4d30801493b1",
+          "_type": "link",
+          "href": "#is-this-only-for-new-or-large-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a1053e011425",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a2bd3958288",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c990c54de799",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6fb8bfcecf0",
+          "_type": "span",
+          "marks": [],
+          "text": "The End of Unpredictable Utility Bills"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8cbb26da7762",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ba319a8f316",
+          "_type": "span",
+          "marks": [],
+          "text": "The problem usually shows up in a familiar way. A property manager opens the latest electricity invoice, sees a jump that does not match occupancy or operations, and spends the next few days explaining it to ownership, the board, or the asset manager. Bulk billing gives one number, but it does not show where the consumption sits or which tenant activity drove it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a3a278c32ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a5a7f570a88",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "cbac6bc42ebd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submeter for electricity"
+        },
+        {
+          "_key": "ec9274616408",
+          "_type": "span",
+          "marks": [],
+          "text": " changes that conversation. Instead of treating the whole building like one anonymous customer, it measures usage by unit, zone, or tenant so charges can be recovered against actual consumption. In multi-unit properties, that means the owner is not subsidising tenant behaviour through a shared bill, and it gives operations a clearer view of where losses or unusual loads are coming from."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6eff8164f047",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f176cd04e886",
+          "_type": "span",
+          "marks": [],
+          "text": "I have seen this matter most in buildings where the bill looks stable for months, then one mechanical issue, one vacant suite with improper use, or one common-area load change distorts the total. Bulk billing hides those patterns until the invoice arrives. Submetering makes them visible earlier, which helps owners correct the cause instead of arguing over the total."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d48e63edf946",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41d4249b059c",
+          "_type": "span",
+          "marks": [],
+          "text": "The business case is stronger when the project is delivered with "
+        },
+        {
+          "_key": "a655c2a1d744",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront capital"
+        },
+        {
+          "_key": "3061f48c4f25",
+          "_type": "span",
+          "marks": [],
+          "text": " under a provider-owned model. That shifts the decision from “Can we afford the equipment?” to “Does the recovered utility spend justify the service structure?” For many owners, that is the difference between leaving the status quo in place and putting a metered recovery system into the building. It also reduces project risk, because the owner can focus on NOI, billing accuracy, and tenant accountability rather than tying up capital in hardware."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78c419322ec6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea5156cf2e56",
+          "_type": "span",
+          "marks": [],
+          "text": "In Ontario, this model is already mature. The Ontario Energy Board says there are "
+        },
+        {
+          "_key": "f78eddffb48f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "25 licensed Unit Sub-Meter Providers"
+        },
+        {
+          "_key": "78a2b6248f6e",
+          "_type": "span",
+          "marks": [],
+          "text": " serving "
+        },
+        {
+          "_key": "661ec0a08d5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "upwards of 470,000 consumers"
+        },
+        {
+          "_key": "56e53b5fe59f",
+          "_type": "span",
+          "marks": [],
+          "text": " across the province, and those providers work under the "
+        },
+        {
+          "_key": "6720fc58c641",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unit Sub-Metering Code"
+        },
+        {
+          "_key": "0cd5b9956fa1",
+          "_type": "span",
+          "marks": [],
+          "text": " that governs business practices and customer service rules. The province also publishes Ontario Energy Board guidance on the framework. That scale matters because it shows submetering is not a theory, it is an established utility-adjacent service with consumer-protection rules around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8dec1a77d77a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55d2c8d99471",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b95a41db63f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27b95d9c4bf4",
+          "_type": "span",
+          "marks": [],
+          "text": "How an Electricity Submeter Works"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e17e5d2f3436",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2549117874c",
+          "_type": "span",
+          "marks": [],
+          "text": "A good way to think about it is this. The main utility meter is like one bill for a large group dinner, and a "
+        },
+        {
+          "_key": "1acc3b5713e2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submeter for electricity"
+        },
+        {
+          "_key": "0d0a720fd54f",
+          "_type": "span",
+          "marks": [],
+          "text": " is like giving each diner their own check. The dinner still happens at the same table, but the cost is no longer guessed or split evenly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14e5380f0812",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea86c69ca32f",
+          "_type": "span",
+          "marks": [],
+          "text": "The system itself is usually straightforward once you strip away the jargon. First comes the "
+        },
+        {
+          "_key": "ca4ce35be083",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "metering device"
+        },
+        {
+          "_key": "182c0cc961ec",
+          "_type": "span",
+          "marks": [],
+          "text": ", which records the electricity used by a specific unit, suite, or load. Then a "
+        },
+        {
+          "_key": "2f4f224440ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "data collector"
+        },
+        {
+          "_key": "b1b337ae935a",
+          "_type": "span",
+          "marks": [],
+          "text": " moves those readings, often wirelessly, into a central system. Finally, a "
+        },
+        {
+          "_key": "0322ace8171d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "billing platform"
+        },
+        {
+          "_key": "a1272c9247a5",
+          "_type": "span",
+          "marks": [],
+          "text": " turns the usage data into invoices, customer statements, and owner reporting. In a managed building, those pieces need to work together cleanly, because bad data at any step creates billing disputes later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "517f3ed81c30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75568f5e2fee",
+          "_type": "span",
+          "marks": [],
+          "text": "Here's the simplest flow:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14a3445dc25b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f06eccf7e4d3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Main service enters the property."
+        },
+        {
+          "_key": "49c6be9221f9",
+          "_type": "span",
+          "marks": [],
+          "text": " The building still has a master utility feed and a bulk meter for the whole site."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "325ccb0bd9de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad4e0d456c9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submeters sit downstream."
+        },
+        {
+          "_key": "babf3660c61f",
+          "_type": "span",
+          "marks": [],
+          "text": " They capture the electricity used by the specific tenant, suite, or end use."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41d112dab739",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84c50e052320",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Readings are collected."
+        },
+        {
+          "_key": "ca8af4e1422e",
+          "_type": "span",
+          "marks": [],
+          "text": " The data is pulled into a billing platform for allocation and invoice generation."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f73cdf9daeb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f8fc2b53ef9",
+          "_type": "span",
+          "marks": [],
+          "text": "A submeter is only useful when the reading can be tied back to a tenant account or a defined load. Raw data without account mapping just creates more admin."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "a7b1ac3de3ad",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how an electricity submeter system works for a large building.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/442513c9-01a3-4666-95c1-c02495901ddf/submeter-for-electricity-metering-process.jpg"
+    },
+    {
+      "_key": "0a226b60247f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8504ada48834",
+          "_type": "span",
+          "marks": [],
+          "text": "In Canada, systems are typically specified around approved metering and commissioning requirements, because accuracy and traceability matter as much as the hardware itself. In practice, the right design also depends on whether you're metering whole suites, common-area loads, or dedicated equipment. If you want a clear technical overview of the workflow, this "
+        },
+        {
+          "_key": "936c3c349dce",
+          "_type": "span",
+          "marks": [
+            "2be993567512"
+          ],
+          "text": "how it works guide"
+        },
+        {
+          "_key": "f1a7a722c600",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful reference."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2be993567512",
+          "_type": "link",
+          "href": "https://www.axismeter.com/how-it-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "028ae5f6a479",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "850828db1b99",
+          "_type": "span",
+          "marks": [],
+          "text": "The primary value is not just measurement. It's that electricity consumption becomes billable, reviewable, and auditable instead of hidden inside one umbrella expense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c20abe7fc70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5fa27c8d18b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d6d895edef6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54434d12a8e1",
+          "_type": "span",
+          "marks": [],
+          "text": "The Business Case for Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "63179a139e37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f18a68b73598",
+          "_type": "span",
+          "marks": [],
+          "text": "A submetering project makes sense when it changes the owner's utility bill from a shared cost into a recoverable operating line. That shift can improve "
+        },
+        {
+          "_key": "c00689b012bf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NOI"
+        },
+        {
+          "_key": "140d043962a2",
+          "_type": "span",
+          "marks": [],
+          "text": " because bulk electricity is no longer sitting inside the landlord's expense bucket. In underwriting terms, it is a line-item change with direct impact on cash flow, and for an asset owner that is often more important than the hardware itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3137120a74e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c7121154e34",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's case material shows how that can work on the ground. A Navigant study cited in Ontario industry materials found that moving from bulk billing to sub-metering produced "
+        },
+        {
+          "_key": "be1a224bef08",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "approximately 40% annual electricity savings per unit"
+        },
+        {
+          "_key": "04fe0edf70f4",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the same Ontario summary reported an average drop of "
+        },
+        {
+          "_key": "82ab35f21412",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139 kWh per unit per month in the first year"
+        },
+        {
+          "_key": "a8807446f134",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "05c9247b8f7e",
+          "_type": "span",
+          "marks": [
+            "8faaa6b5cb9c"
+          ],
+          "text": "Ontario case study PDF"
+        },
+        {
+          "_key": "c5aa1b482180",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same analysis also described "
+        },
+        {
+          "_key": "2e41e6be6493",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$9.66 per month"
+        },
+        {
+          "_key": "a8e10833e898",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "4cc7239cf5a1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$117 per year"
+        },
+        {
+          "_key": "94d22aa5fdd3",
+          "_type": "span",
+          "marks": [],
+          "text": " in average residential customer savings versus individually metered service at the standard residential rate. Those figures are Ontario-specific, but they give owners a practical benchmark for how user-pay billing changes consumption and recovery."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "8faaa6b5cb9c",
+          "_type": "link",
+          "href": "https://www.enercare.ca/sites/default/files/assets/library/pdfs/navigant_case_study_march_2017.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "908e74802a81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6166c29491d2",
+          "_type": "span",
+          "marks": [],
+          "text": "For a pro forma, that recovery shows up as lower utility expense and stronger net operating income. If a building can recover even a portion of a shared electricity cost, the effect can flow straight into valuation through a higher stabilized NOI and, depending on the cap rate, a meaningful lift in asset value. That is why submetering is often reviewed alongside rent assumptions and vacancy, not as a standalone utility project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1e2e88dc98c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "febe22112865",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "139a13b8ca25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88c12aaf97bd",
+          "_type": "span",
+          "marks": [],
+          "text": "Why owners care beyond billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f59d6545fc4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8baf7af1985e",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenants usually watch their usage more closely when the bill is tied to their own consumption. That changes behaviour, but it also reduces friction around pooled charges and estimated allocations. In a building with clear unit-level billing, there is less room for disputes about whether the owner is absorbing the right costs or spreading them too broadly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c92eb716596f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5d540770e94",
+          "_type": "span",
+          "marks": [],
+          "text": "The operational value is just as important. Consumption data can show a suite, floor, or dedicated load drifting above normal before the issue becomes a service call or a tenant complaint. That matters in mixed-use properties, where the owner may be dealing with different load profiles, different occupancy patterns, and more moving parts than a standard residential building. It also gives asset managers a cleaner way to spot equipment issues, from HVAC faults to control problems, without waiting for a manual inspection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f20e7c5b0fcd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5232b81523d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owner rule:"
+        },
+        {
+          "_key": "f4ac81e4ef4c",
+          "_type": "span",
+          "marks": [],
+          "text": " if a utility problem shows up first on a bill, you have already lost time. If it shows up in interval data, you still have options."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "a60cf0a397cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bcb54a830478",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners who are already "
+        },
+        {
+          "_key": "c290864f5ec7",
+          "_type": "span",
+          "marks": [
+            "0b7ea41f5bd3"
+          ],
+          "text": "analyzing real estate investment properties"
+        },
+        {
+          "_key": "667efa05269e",
+          "_type": "span",
+          "marks": [],
+          "text": ", submetering belongs in the financial model before the deal closes. The question is not only whether utility recovery is possible, but how much variance it removes from the expense line and how that changes the purchase case, the hold strategy, and the exit assumptions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0b7ea41f5bd3",
+          "_type": "link",
+          "href": "https://edinhart.com/real-estate-investment-property-analysis/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c17167228f3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c762871e267",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd309598450f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fc603be24c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Where the operational payoff shows up"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e1fb052bcda9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9bdcaccd559",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Lower billing disputes:"
+        },
+        {
+          "_key": "8fea52841086",
+          "_type": "span",
+          "marks": [],
+          "text": " clear unit-level readings reduce arguments about estimated charges."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bad03cbd0a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec2224c098bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Better budget control:"
+        },
+        {
+          "_key": "6b3eff88e3ca",
+          "_type": "span",
+          "marks": [],
+          "text": " recovered electricity costs are easier to forecast than one shared site bill."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd0bb21b19a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf5cccec2d6c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sharper maintenance signals:"
+        },
+        {
+          "_key": "d2bc2ecaa228",
+          "_type": "span",
+          "marks": [],
+          "text": " unusual consumption can point to equipment problems."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "53de20c4dc95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d40a37002bc6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Stronger tenant fairness:"
+        },
+        {
+          "_key": "a5bb5f676c7c",
+          "_type": "span",
+          "marks": [],
+          "text": " each occupant pays for what they use."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1c767fdf2e4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "641c0e59477b",
+          "_type": "span",
+          "marks": [],
+          "text": "For Ontario-specific billing context, the average provincial utility spend is often discussed in terms of monthly household cost, and this "
+        },
+        {
+          "_key": "38cdb2314020",
+          "_type": "span",
+          "marks": [
+            "d92a11171886"
+          ],
+          "text": "Ontario electricity bill guide"
+        },
+        {
+          "_key": "0b4fd23a2f84",
+          "_type": "span",
+          "marks": [],
+          "text": " is a practical way to understand how local rates feed into recovery decisions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d92a11171886",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/average-electricity-bill-ontario"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "736a88a1cfd7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ee97651debb",
+          "_type": "span",
+          "marks": [],
+          "text": "The business case is straightforward. Submetering shifts consumption cost to the user, improves visibility into how a building operates, and gives the owner cleaner numbers for NOI planning and asset valuation. When the system is structured well, it replaces guesswork with recoverable expense and gives the property team a better basis for decisions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ffd08cb486ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "237376bf8d6d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "791513716671",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b5fe178ce19",
+          "_type": "span",
+          "marks": [],
+          "text": "Navigating Regulatory and Compliance Rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "446bad1969a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4299b47cefe",
+          "_type": "span",
+          "marks": [],
+          "text": "A submetering project can fail long before the first meter is installed if the billing model does not fit the jurisdiction. Owners should treat compliance as part of the operating plan, because the rules shape accuracy, tenant protection, and long-term billing stability. The first check is straightforward, the hardware, installation, and billing process all need to fit local requirements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5090fcee5b6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34df1bba006f",
+          "_type": "span",
+          "marks": [],
+          "text": "In Ontario, the "
+        },
+        {
+          "_key": "8c030789813c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ontario Energy Board"
+        },
+        {
+          "_key": "38d44d17a1db",
+          "_type": "span",
+          "marks": [],
+          "text": " licenses "
+        },
+        {
+          "_key": "e36c37e835dc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "25 Unit Sub-Meter Providers"
+        },
+        {
+          "_key": "5caf584e9354",
+          "_type": "span",
+          "marks": [],
+          "text": " serving "
+        },
+        {
+          "_key": "70bd8a13d10f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "upwards of 470,000 consumers"
+        },
+        {
+          "_key": "01a63406311f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and those providers operate under the "
+        },
+        {
+          "_key": "194a892acab4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unit Sub-Metering Code"
+        },
+        {
+          "_key": "ef19d1914988",
+          "_type": "span",
+          "marks": [],
+          "text": ". That signals a mature market with defined customer-service rules and a clear operating framework. For owners, that matters because it reduces guesswork around billing structure and puts submetering into a regulated utility-adjacent category rather than an improvised recovery method."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f8909c34d609",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51627822e3f8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cfdd20633933",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df68ac4a99ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Why compliance matters in practice"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a0a616a897e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0eafdf560956",
+          "_type": "span",
+          "marks": [],
+          "text": "California shows the same issue from a different angle. A new electric watthour submeter installation must obtain the necessary permits and conform to CPUC Decision D 05-05-026, including PG&E Greenbook Section 8 requirements, and the meter itself must be legal, suitable for the intended use, type-approved, calibrated, and sealed after testing "
+        },
+        {
+          "_key": "b0a77c5f9f09",
+          "_type": "span",
+          "marks": [
+            "bc72d73fe32b"
+          ],
+          "text": "California measurement standards guidance"
+        },
+        {
+          "_key": "1295ac9a552d",
+          "_type": "span",
+          "marks": [],
+          "text": ". The project is not only a metering job, it is a compliance job that affects whether the billing can stand up later."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bc72d73fe32b",
+          "_type": "link",
+          "href": "https://regulations.justia.com/states/california/title-4/division-9/chapter-1/article-2-2/section-4027-5/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "35b7f3a2d33c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15270914fffd",
+          "_type": "span",
+          "marks": [],
+          "text": "California's building-energy rules also require more detailed load visibility than a single whole-building number. New switchboards, panels, and motor control centres must permit downstream disaggregated measurement, and monitored loads can include total electrical energy, HVAC, lighting, and receptacle circuits "
+        },
+        {
+          "_key": "6f4c2bd32a35",
+          "_type": "span",
+          "marks": [
+            "dacc8565054b"
+          ],
+          "text": "California load disaggregation overview"
+        },
+        {
+          "_key": "e89c4685b2ea",
+          "_type": "span",
+          "marks": [],
+          "text": ". For owners, the design has to match that code intent, not just the monthly billing goal."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dacc8565054b",
+          "_type": "link",
+          "href": "https://leviton.com/products/commercial/submetering/verifeye-submetering-solutions/submetering-101"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b2b87b224a5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec3bbc60c37e",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant communication is part of the compliance work as well. Owners need a clear approach for disclosures, billing explanations, and access rules, especially in occupied buildings where surprise charges create friction fast. For a practical overview of those tenant-side issues, this "
+        },
+        {
+          "_key": "b3c9d96f8075",
+          "_type": "span",
+          "marks": [
+            "b1e359b48103"
+          ],
+          "text": "tenant rights guide"
+        },
+        {
+          "_key": "54db702aa876",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful reference before rollout."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b1e359b48103",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/tenants-rights-regarding-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "86448161ff4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46b982c35640",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f292f2be7fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "01594ea0edfd",
+          "_type": "span",
+          "marks": [],
+          "text": "What a competent provider handles"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "505a9c44513c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1248b1bed34",
+          "_type": "span",
+          "marks": [],
+          "text": "A proper provider should coordinate the meter specification, permit path, testing, customer notices, and billing setup. In a well-run project, the owner should not be chasing device approvals or trying to interpret tariff details on the fly. That is the advantage of working with a licensed operator instead of piecing together an installer and a billing vendor separately."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "076cd4d98e10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00a7610a492a",
+          "_type": "span",
+          "marks": [],
+          "text": "Compliance is not a drag on the project. It is the reason the billing holds up when tenants ask questions later."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "fa9d6ac9668f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f647be579800",
+          "_type": "span",
+          "marks": [],
+          "text": "In Ontario especially, a defined licensing model makes it easier to compare providers on process quality, service terms, and tenant support. Owners should expect that same discipline anywhere the service is regulated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0760b00157a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86bbbe284563",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6e851d40d89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92224d9f904d",
+          "_type": "span",
+          "marks": [],
+          "text": "Your Submetering Project Timeline"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5d814c03e545",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "152978b79983",
+          "_type": "span",
+          "marks": [],
+          "text": "Most owners want to know one thing first. How long does this take? A well-managed rollout is usually a structured sequence rather than a long open-ended construction event, and the cleanest projects are the ones where the provider, electrician, and property team all know their responsibilities early."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f377ba2e6d3",
+      "_type": "externalImage",
+      "alt": "A project timeline graphic showing the four phases of a submetering implementation process over ten weeks.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/04197b20-083b-4283-82d6-83ed35a40c04/submeter-for-electricity-project-timeline.jpg"
+    },
+    {
+      "_key": "d113c892aff5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08d25c89fe05",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e078aaa8e859",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cd81bab6852",
+          "_type": "span",
+          "marks": [],
+          "text": "Phase 1, assess and design"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ce9c8d5b7690",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71da7043a387",
+          "_type": "span",
+          "marks": [],
+          "text": "The project starts with a site walk and a design review. That means identifying what needs to be measured, checking panel access, confirming the service layout, and deciding whether the project is for full-suite billing, common loads, or a mix of both. Good design work avoids the expensive mistake of ordering hardware before the building's electrical reality is understood."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "860892f9d0de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "876e07e9219e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89f1b914ad14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70efd8c6bc08",
+          "_type": "span",
+          "marks": [],
+          "text": "Phase 2, procure and notify"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "50202056d7f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1af6ca0453cd",
+          "_type": "span",
+          "marks": [],
+          "text": "Once the design is settled, the provider sources the equipment and prepares tenant communications. Scheduling is particularly important then, because occupied buildings need access windows, notice periods, and coordination with on-site staff. The owner's team should know who is entering which area, what needs to be shut down, and what will remain live."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1246f8cfc4b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b0c65faa83f4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f127432e07b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac11a5dce6b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Phase 3, install and commission"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9a513a269dd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2cd89f9e634a",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation is where the electrical work happens, but it shouldn't feel chaotic if the planning was done correctly. A turnkey provider coordinates with licensed electricians, tests the devices, and confirms each meter is reading the correct load before anything is billed. That validation step matters because bad mapping at launch creates account noise for months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "464b1419f110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac7f75767a71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational rule:"
+        },
+        {
+          "_key": "56b11456a162",
+          "_type": "span",
+          "marks": [],
+          "text": " the first bill should be the last place you discover a wiring or account-mapping mistake."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "61bcf67d8782",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "988dbfd784b9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20517a1f49de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a20306a3955",
+          "_type": "span",
+          "marks": [],
+          "text": "Phase 4, integrate and go live"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "95554ad9223a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f0ea06bda10",
+          "_type": "span",
+          "marks": [],
+          "text": "The final step is billing integration, staff handoff, and the first live billing cycle. Property teams need a clear process for tenant questions, move-ins, move-outs, and account changes. Once that's set, the building moves from one bulk electricity bill to an auditable recovery system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4fe83203da7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "789402b0677e",
+          "_type": "span",
+          "marks": [],
+          "text": "The timeline itself will vary by building complexity, but the project is manageable when someone owns the full sequence. That's the main difference between a controlled rollout and a fragmented vendor handoff."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79e334b81283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac0357939aa0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5837efe3425",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "154f7dae0b92",
+          "_type": "span",
+          "marks": [],
+          "text": "Evaluating Providers and Cost Models"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2701bdaa7f96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92ddf75f1fa9",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners usually compare two models. One is a capital purchase, where the property buys the meters, installation, and often the ongoing maintenance responsibility. The other is a "
+        },
+        {
+          "_key": "f9f42b5fb256",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "full-service agreement"
+        },
+        {
+          "_key": "a5a041ad9f40",
+          "_type": "span",
+          "marks": [],
+          "text": ", where the provider owns and maintains the equipment and the owner pays through an operating arrangement instead of a large upfront cheque."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30d04cbb7dca",
+      "_type": "externalImage",
+      "alt": "A comparison between a capital purchase model and a service model for business management and ownership.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f7b7c701-c28e-499d-9b6c-2314e24ba104/submeter-for-electricity-service-model.jpg"
+    },
+    {
+      "_key": "4c77b1c2d278",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ef9408cb7d5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1477b4e3ad06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f622559df671",
+          "_type": "span",
+          "marks": [],
+          "text": "How the models differ"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9f70a9ab025b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8e35c086c3c",
+          "_type": "span",
+          "marks": [],
+          "text": "A capital purchase can work if the owner wants direct asset ownership and has the internal team to manage calibration, replacements, and billing oversight. The downside is obvious. The owner carries the up-front cost, the lifecycle risk, and the burden of keeping the system current."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c8d16418421",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2027770acf24",
+          "_type": "span",
+          "marks": [],
+          "text": "A service model is cleaner for many property portfolios because it removes the initial capital barrier and shifts equipment upkeep to the provider. Axis Meter Solutions offers that kind of "
+        },
+        {
+          "_key": "6b07aba3bb0d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront"
+        },
+        {
+          "_key": "5d3b545137d7",
+          "_type": "span",
+          "marks": [],
+          "text": " model with provider-owned equipment and long-term service, which is relevant when an owner wants the billing outcome without tying up capital in hardware."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21477f889546",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff35acd3a605",
+          "_type": "span",
+          "marks": [],
+          "text": "For estimating project scope, a tool like "
+        },
+        {
+          "_key": "d25dfd82a154",
+          "_type": "span",
+          "marks": [
+            "6c6b542c1c37"
+          ],
+          "text": "Exayard electrical estimating software"
+        },
+        {
+          "_key": "12216665bc03",
+          "_type": "span",
+          "marks": [],
+          "text": " can help trades and managers build a more disciplined installation budget before work starts."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6c6b542c1c37",
+          "_type": "link",
+          "href": "https://exayard.com/electrical-estimating-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5dda0b2cde80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa4a65e6e5ef",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49510fe60d45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67ad388f13a6",
+          "_type": "span",
+          "marks": [],
+          "text": "What to ask before signing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a10e7deb0cf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b39dd128de78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Licensing and authority:"
+        },
+        {
+          "_key": "9a96c46fbd38",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm the provider is licensed where required and understands local code."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4c1a5a1b825",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93004a6608d9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Meter standards:"
+        },
+        {
+          "_key": "2aef7b54abbd",
+          "_type": "span",
+          "marks": [],
+          "text": " ask how devices are approved, calibrated, and verified before billing begins."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4484b5d2b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c8ed06825b5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing workflow:"
+        },
+        {
+          "_key": "ec88bdd87572",
+          "_type": "span",
+          "marks": [],
+          "text": " make sure the vendor can handle tenant changes, disputes, and monthly invoicing cleanly."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b9a68b297e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ee380d663ef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Maintenance terms:"
+        },
+        {
+          "_key": "1296553a0621",
+          "_type": "span",
+          "marks": [],
+          "text": " ask who replaces failed hardware and how that affects service continuity."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4409cba19d56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b385562a8c6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Contract length:"
+        },
+        {
+          "_key": "5d15837c5c20",
+          "_type": "span",
+          "marks": [],
+          "text": " long agreements can work, but only if the service terms are clear."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d11987d3a91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4b2239e0fab",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Support model:"
+        },
+        {
+          "_key": "5d1b0b4642a6",
+          "_type": "span",
+          "marks": [],
+          "text": " find out who answers tenant questions and who owns issue resolution."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85ce9cb23f9f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a0485739735",
+          "_type": "span",
+          "marks": [],
+          "text": "A provider should be able to explain the difference between installation, commissioning, billing, and ongoing service without hand-waving. If they can't, the owner usually ends up doing the admin anyway."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7b18f6a1cbf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2ce6897c1f4",
+          "_type": "span",
+          "marks": [],
+          "text": "The best model is the one that fits the building's finance plan and risk tolerance. If capital is tight, the service structure often makes the project viable sooner. If ownership wants direct control and has the internal resources, a purchase model can still be reasonable, but only with the right maintenance discipline."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d27c4e05591b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92058acc6517",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5bec5495e885",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7cfa00e954f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Common Submetering Questions Answered"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "9f8551f15d2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c3ec8117d89",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners usually raise the same concerns at this stage, and they are reasonable ones. These questions involve tenant communication, billing continuity, and whether the project changes the building's operating model in a way that supports NOI instead of creating new admin work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c5246f87b63b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07e37fa09037",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c274424ae5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0547e33a00f",
+          "_type": "span",
+          "marks": [],
+          "text": "What about existing tenants"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "82ca4b4178c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72995f16c0f0",
+          "_type": "span",
+          "marks": [],
+          "text": "The issue is not whether they can be metered. It is whether the rollout is communicated clearly and built into the property's billing framework in a way that fits local rules. Existing tenants care about transparency, notice, and consistency, so the change needs to be handled like a billing update, not a surprise fee."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12e029d1a35c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a70149edcac4",
+          "_type": "span",
+          "marks": [],
+          "text": "That usually means aligning the submeter rollout with lease language, notice procedures, and the owner's billing workflow before any hardware goes live. If those pieces are handled early, tenant pushback is easier to manage and the recovery process is more defensible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0853c9f46a61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37a60e8ec4da",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "635df7e8fa82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04e636c2ff56",
+          "_type": "span",
+          "marks": [],
+          "text": "What happens if a meter fails"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "efca6eae74d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8b4be4a5930",
+          "_type": "span",
+          "marks": [],
+          "text": "Under a service agreement, failed equipment should not become the owner's emergency. The provider should handle diagnosis, replacement, and billing continuity so the account does not fall back into estimated charges for long. That matters because an outage in billing accuracy can quickly turn into tenant disputes and extra staff time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "416079c929e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "587a891a456d",
+          "_type": "span",
+          "marks": [],
+          "text": "Managed service also keeps the owner from having to stock spare parts or call trades every time a device misreads. For a property operator, that trade-off is simple, either the vendor owns the maintenance burden, or the site team does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2dd5fdf47bcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9cf9a0a691b2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ea63c0fbe56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5f928f00ea7",
+          "_type": "span",
+          "marks": [],
+          "text": "How does this work for EV charging"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5b5fc8249466",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1307e46d4a0",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners with EV charging equipment on site, the practical question is how to recover those electricity costs without distorting the main utility bill. In California, the CPUC has issued "
+        },
+        {
+          "_key": "f526027f82f4",
+          "_type": "span",
+          "marks": [
+            "4c6e356835d8"
+          ],
+          "text": "CPUC EV submetering guidance"
+        },
+        {
+          "_key": "d369b1fa58b5",
+          "_type": "span",
+          "marks": [],
+          "text": ", which gives owners a clear reference point for structuring EV charging recovery through submetering."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4c6e356835d8",
+          "_type": "link",
+          "href": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/infrastructure/transportation-electrification/electricity-rates-and-cost-of-fueling/plug-in-electric-vehicle-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bc9ac73092dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d0829ce7920",
+          "_type": "span",
+          "marks": [],
+          "text": "That makes submeters useful for multi-family and mixed-use properties where charging loads need to be billed to the right user. It keeps the charging expense separated from general common-area usage, which is the cleanest way to protect recovery and avoid cross-subsidizing one tenant group with another."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8f40c6e14dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49cefaca9587",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e159eeb9b073",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78a7d0792627",
+          "_type": "span",
+          "marks": [],
+          "text": "Is this only for new or large buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "958ee315094d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f4d42b3d658",
+          "_type": "span",
+          "marks": [],
+          "text": "No. Retrofitted buildings are common candidates, and the service can also make sense in smaller portfolios when the owner wants fairer billing and tighter utility recovery. The decision usually comes down to electrical layout, access, and how much billing control the owner wants, not whether the property is new."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ecea22d59a98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f496831ec807",
+          "_type": "span",
+          "marks": [],
+          "text": "Some sites are a straightforward fit because the recoverable loads are clear and the electrical rooms are accessible. Others need more design work, especially where common loads, tenant loads, and utility metering are tightly intertwined. That is where a site review matters, because the right answer depends on the building's actual operating conditions, not a generic rule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f90604979ab9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31710e949dbd",
+          "_type": "span",
+          "marks": [],
+          "text": "The decision hinges on whether the long-term NOI lift outweighs the operational shift, and that trade-off is best analyzed with a site-specific proposal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "596767033703",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f857d4a92a4",
+          "_type": "span",
+          "marks": [],
+          "text": "A submeter project works best when the owner treats it as a long-term operating system, not a one-time appliance swap. If you are weighing the trade-offs for a condo, apartment building, or mixed-use asset, reach out to "
+        },
+        {
+          "_key": "a4c9d79026b6",
+          "_type": "span",
+          "marks": [
+            "3c392592d129"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "a82a0664a2b3",
+          "_type": "span",
+          "marks": [],
+          "text": " and ask for a project review that covers billing structure, compliance, and the right cost model for your building."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3c392592d129",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "A complete guide to using a submeter for electricity in multi-family properties. Learn how it works, the benefits, regulatory needs, and how to start in 2026.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b84d5837-4219-418d-b1c5-8036aeabba55/submeter-for-electricity-landlord-guide.jpg",
+  "noIndex": false,
+  "outrankId": "3ff857f7-2eca-4cf8-80f7-b02ec2b40484",
+  "publishedAt": "2026-07-22T06:51:50.472626+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "submeter-for-electricity"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re staring at a utility file that keeps climbing, and the worst part is the timing. The building is occupied, the tenants expect stable charges, and your month-end numbers take the hit before you&#39;ve had time to respond. A <strong>submeter for electricity</strong> changes that conversation from “Why did the bill spike again?” to a cost allocation system you can defend, budget around, and use to protect <strong>NOI</strong>.</p>\n<p>The essential shift isn&#39;t the hardware. It&#39;s moving from a single bulk expense to a model where consumption is measured at the unit, suite, or zone level, then billed with much more transparency. In Ontario, that approach has already become a regulated service model, not a niche experiment, and the same idea is now being applied in California with tighter code and compliance requirements around measurement and billing.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#the-end-of-unpredictable-utility-bills\">The End of Unpredictable Utility Bills</a></li>\n<li><a href=\"#how-an-electricity-submeter-works\">How an Electricity Submeter Works</a></li>\n<li><a href=\"#the-business-case-for-submetering\">The Business Case for Submetering</a><ul>\n<li><a href=\"#why-owners-care-beyond-billing\">Why owners care beyond billing</a></li>\n<li><a href=\"#where-the-operational-payoff-shows-up\">Where the operational payoff shows up</a></li>\n</ul>\n</li>\n<li><a href=\"#navigating-regulatory-and-compliance-rules\">Navigating Regulatory and Compliance Rules</a><ul>\n<li><a href=\"#why-compliance-matters-in-practice\">Why compliance matters in practice</a></li>\n<li><a href=\"#what-a-competent-provider-handles\">What a competent provider handles</a></li>\n</ul>\n</li>\n<li><a href=\"#your-submetering-project-timeline\">Your Submetering Project Timeline</a><ul>\n<li><a href=\"#phase-1-assess-and-design\">Phase 1, assess and design</a></li>\n<li><a href=\"#phase-2-procure-and-notify\">Phase 2, procure and notify</a></li>\n<li><a href=\"#phase-3-install-and-commission\">Phase 3, install and commission</a></li>\n<li><a href=\"#phase-4-integrate-and-go-live\">Phase 4, integrate and go live</a></li>\n</ul>\n</li>\n<li><a href=\"#evaluating-providers-and-cost-models\">Evaluating Providers and Cost Models</a><ul>\n<li><a href=\"#how-the-models-differ\">How the models differ</a></li>\n<li><a href=\"#what-to-ask-before-signing\">What to ask before signing</a></li>\n</ul>\n</li>\n<li><a href=\"#common-submetering-questions-answered\">Common Submetering Questions Answered</a><ul>\n<li><a href=\"#what-about-existing-tenants\">What about existing tenants</a></li>\n<li><a href=\"#what-happens-if-a-meter-fails\">What happens if a meter fails</a></li>\n<li><a href=\"#how-does-this-work-for-ev-charging\">How does this work for EV charging</a></li>\n<li><a href=\"#is-this-only-for-new-or-large-buildings\">Is this only for new or large buildings</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"the-end-of-unpredictable-utility-bills\"></a></p>\n<h2>The End of Unpredictable Utility Bills</h2>\n<p>The problem usually shows up in a familiar way. A property manager opens the latest electricity invoice, sees a jump that does not match occupancy or operations, and spends the next few days explaining it to ownership, the board, or the asset manager. Bulk billing gives one number, but it does not show where the consumption sits or which tenant activity drove it.</p>\n<p>A <strong>submeter for electricity</strong> changes that conversation. Instead of treating the whole building like one anonymous customer, it measures usage by unit, zone, or tenant so charges can be recovered against actual consumption. In multi-unit properties, that means the owner is not subsidising tenant behaviour through a shared bill, and it gives operations a clearer view of where losses or unusual loads are coming from.</p>\n<p>I have seen this matter most in buildings where the bill looks stable for months, then one mechanical issue, one vacant suite with improper use, or one common-area load change distorts the total. Bulk billing hides those patterns until the invoice arrives. Submetering makes them visible earlier, which helps owners correct the cause instead of arguing over the total.</p>\n<p>The business case is stronger when the project is delivered with <strong>$0 upfront capital</strong> under a provider-owned model. That shifts the decision from “Can we afford the equipment?” to “Does the recovered utility spend justify the service structure?” For many owners, that is the difference between leaving the status quo in place and putting a metered recovery system into the building. It also reduces project risk, because the owner can focus on NOI, billing accuracy, and tenant accountability rather than tying up capital in hardware.</p>\n<p>In Ontario, this model is already mature. The Ontario Energy Board says there are <strong>25 licensed Unit Sub-Meter Providers</strong> serving <strong>upwards of 470,000 consumers</strong> across the province, and those providers work under the <strong>Unit Sub-Metering Code</strong> that governs business practices and customer service rules. The province also publishes Ontario Energy Board guidance on the framework. That scale matters because it shows submetering is not a theory, it is an established utility-adjacent service with consumer-protection rules around it.</p>\n<p><a id=\"how-an-electricity-submeter-works\"></a></p>\n<h2>How an Electricity Submeter Works</h2>\n<p>A good way to think about it is this. The main utility meter is like one bill for a large group dinner, and a <strong>submeter for electricity</strong> is like giving each diner their own check. The dinner still happens at the same table, but the cost is no longer guessed or split evenly.</p>\n<p>The system itself is usually straightforward once you strip away the jargon. First comes the <strong>metering device</strong>, which records the electricity used by a specific unit, suite, or load. Then a <strong>data collector</strong> moves those readings, often wirelessly, into a central system. Finally, a <strong>billing platform</strong> turns the usage data into invoices, customer statements, and owner reporting. In a managed building, those pieces need to work together cleanly, because bad data at any step creates billing disputes later.</p>\n<p>Here&#39;s the simplest flow:</p>\n<ol>\n<li><strong>Main service enters the property.</strong> The building still has a master utility feed and a bulk meter for the whole site.</li>\n<li><strong>Submeters sit downstream.</strong> They capture the electricity used by the specific tenant, suite, or end use.</li>\n<li><strong>Readings are collected.</strong> The data is pulled into a billing platform for allocation and invoice generation.</li>\n</ol>\n<blockquote>\n<p>A submeter is only useful when the reading can be tied back to a tenant account or a defined load. Raw data without account mapping just creates more admin.</p>\n</blockquote>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/442513c9-01a3-4666-95c1-c02495901ddf/submeter-for-electricity-metering-process.jpg\" alt=\"A diagram illustrating how an electricity submeter system works for a large building.\"></p>\n<p>In Canada, systems are typically specified around approved metering and commissioning requirements, because accuracy and traceability matter as much as the hardware itself. In practice, the right design also depends on whether you&#39;re metering whole suites, common-area loads, or dedicated equipment. If you want a clear technical overview of the workflow, this <a href=\"https://www.axismeter.com/how-it-works\">how it works guide</a> is a useful reference.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/8ELBLGwmueA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>The primary value is not just measurement. It&#39;s that electricity consumption becomes billable, reviewable, and auditable instead of hidden inside one umbrella expense.</p>\n<p><a id=\"the-business-case-for-submetering\"></a></p>\n<h2>The Business Case for Submetering</h2>\n<p>A submetering project makes sense when it changes the owner&#39;s utility bill from a shared cost into a recoverable operating line. That shift can improve <strong>NOI</strong> because bulk electricity is no longer sitting inside the landlord&#39;s expense bucket. In underwriting terms, it is a line-item change with direct impact on cash flow, and for an asset owner that is often more important than the hardware itself.</p>\n<p>Ontario&#39;s case material shows how that can work on the ground. A Navigant study cited in Ontario industry materials found that moving from bulk billing to sub-metering produced <strong>approximately 40% annual electricity savings per unit</strong>, and the same Ontario summary reported an average drop of <strong>139 kWh per unit per month in the first year</strong> <a href=\"https://www.enercare.ca/sites/default/files/assets/library/pdfs/navigant_case_study_march_2017.pdf\">Ontario case study PDF</a>. The same analysis also described <strong>$9.66 per month</strong> or <strong>$117 per year</strong> in average residential customer savings versus individually metered service at the standard residential rate. Those figures are Ontario-specific, but they give owners a practical benchmark for how user-pay billing changes consumption and recovery.</p>\n<p>For a pro forma, that recovery shows up as lower utility expense and stronger net operating income. If a building can recover even a portion of a shared electricity cost, the effect can flow straight into valuation through a higher stabilized NOI and, depending on the cap rate, a meaningful lift in asset value. That is why submetering is often reviewed alongside rent assumptions and vacancy, not as a standalone utility project.</p>\n<p><a id=\"why-owners-care-beyond-billing\"></a></p>\n<h3>Why owners care beyond billing</h3>\n<p>Tenants usually watch their usage more closely when the bill is tied to their own consumption. That changes behaviour, but it also reduces friction around pooled charges and estimated allocations. In a building with clear unit-level billing, there is less room for disputes about whether the owner is absorbing the right costs or spreading them too broadly.</p>\n<p>The operational value is just as important. Consumption data can show a suite, floor, or dedicated load drifting above normal before the issue becomes a service call or a tenant complaint. That matters in mixed-use properties, where the owner may be dealing with different load profiles, different occupancy patterns, and more moving parts than a standard residential building. It also gives asset managers a cleaner way to spot equipment issues, from HVAC faults to control problems, without waiting for a manual inspection.</p>\n<blockquote>\n<p><strong>Owner rule:</strong> if a utility problem shows up first on a bill, you have already lost time. If it shows up in interval data, you still have options.</p>\n</blockquote>\n<p>For owners who are already <a href=\"https://edinhart.com/real-estate-investment-property-analysis/\">analyzing real estate investment properties</a>, submetering belongs in the financial model before the deal closes. The question is not only whether utility recovery is possible, but how much variance it removes from the expense line and how that changes the purchase case, the hold strategy, and the exit assumptions.</p>\n<p><a id=\"where-the-operational-payoff-shows-up\"></a></p>\n<h3>Where the operational payoff shows up</h3>\n<ul>\n<li><strong>Lower billing disputes:</strong> clear unit-level readings reduce arguments about estimated charges.</li>\n<li><strong>Better budget control:</strong> recovered electricity costs are easier to forecast than one shared site bill.</li>\n<li><strong>Sharper maintenance signals:</strong> unusual consumption can point to equipment problems.</li>\n<li><strong>Stronger tenant fairness:</strong> each occupant pays for what they use.</li>\n</ul>\n<p>For Ontario-specific billing context, the average provincial utility spend is often discussed in terms of monthly household cost, and this <a href=\"https://www.axismeter.com/blog/average-electricity-bill-ontario\">Ontario electricity bill guide</a> is a practical way to understand how local rates feed into recovery decisions.</p>\n<p>The business case is straightforward. Submetering shifts consumption cost to the user, improves visibility into how a building operates, and gives the owner cleaner numbers for NOI planning and asset valuation. When the system is structured well, it replaces guesswork with recoverable expense and gives the property team a better basis for decisions.</p>\n<p><a id=\"navigating-regulatory-and-compliance-rules\"></a></p>\n<h2>Navigating Regulatory and Compliance Rules</h2>\n<p>A submetering project can fail long before the first meter is installed if the billing model does not fit the jurisdiction. Owners should treat compliance as part of the operating plan, because the rules shape accuracy, tenant protection, and long-term billing stability. The first check is straightforward, the hardware, installation, and billing process all need to fit local requirements.</p>\n<p>In Ontario, the <strong>Ontario Energy Board</strong> licenses <strong>25 Unit Sub-Meter Providers</strong> serving <strong>upwards of 470,000 consumers</strong>, and those providers operate under the <strong>Unit Sub-Metering Code</strong>. That signals a mature market with defined customer-service rules and a clear operating framework. For owners, that matters because it reduces guesswork around billing structure and puts submetering into a regulated utility-adjacent category rather than an improvised recovery method.</p>\n<p><a id=\"why-compliance-matters-in-practice\"></a></p>\n<h3>Why compliance matters in practice</h3>\n<p>California shows the same issue from a different angle. A new electric watthour submeter installation must obtain the necessary permits and conform to CPUC Decision D 05-05-026, including PG&amp;E Greenbook Section 8 requirements, and the meter itself must be legal, suitable for the intended use, type-approved, calibrated, and sealed after testing <a href=\"https://regulations.justia.com/states/california/title-4/division-9/chapter-1/article-2-2/section-4027-5/\">California measurement standards guidance</a>. The project is not only a metering job, it is a compliance job that affects whether the billing can stand up later.</p>\n<p>California&#39;s building-energy rules also require more detailed load visibility than a single whole-building number. New switchboards, panels, and motor control centres must permit downstream disaggregated measurement, and monitored loads can include total electrical energy, HVAC, lighting, and receptacle circuits <a href=\"https://leviton.com/products/commercial/submetering/verifeye-submetering-solutions/submetering-101\">California load disaggregation overview</a>. For owners, the design has to match that code intent, not just the monthly billing goal.</p>\n<p>Tenant communication is part of the compliance work as well. Owners need a clear approach for disclosures, billing explanations, and access rules, especially in occupied buildings where surprise charges create friction fast. For a practical overview of those tenant-side issues, this <a href=\"https://www.axismeter.com/blog/tenants-rights-regarding-electricity\">tenant rights guide</a> is a useful reference before rollout.</p>\n<p><a id=\"what-a-competent-provider-handles\"></a></p>\n<h3>What a competent provider handles</h3>\n<p>A proper provider should coordinate the meter specification, permit path, testing, customer notices, and billing setup. In a well-run project, the owner should not be chasing device approvals or trying to interpret tariff details on the fly. That is the advantage of working with a licensed operator instead of piecing together an installer and a billing vendor separately.</p>\n<blockquote>\n<p>Compliance is not a drag on the project. It is the reason the billing holds up when tenants ask questions later.</p>\n</blockquote>\n<p>In Ontario especially, a defined licensing model makes it easier to compare providers on process quality, service terms, and tenant support. Owners should expect that same discipline anywhere the service is regulated.</p>\n<p><a id=\"your-submetering-project-timeline\"></a></p>\n<h2>Your Submetering Project Timeline</h2>\n<p>Most owners want to know one thing first. How long does this take? A well-managed rollout is usually a structured sequence rather than a long open-ended construction event, and the cleanest projects are the ones where the provider, electrician, and property team all know their responsibilities early.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/04197b20-083b-4283-82d6-83ed35a40c04/submeter-for-electricity-project-timeline.jpg\" alt=\"A project timeline graphic showing the four phases of a submetering implementation process over ten weeks.\"></p>\n<p><a id=\"phase-1-assess-and-design\"></a></p>\n<h3>Phase 1, assess and design</h3>\n<p>The project starts with a site walk and a design review. That means identifying what needs to be measured, checking panel access, confirming the service layout, and deciding whether the project is for full-suite billing, common loads, or a mix of both. Good design work avoids the expensive mistake of ordering hardware before the building&#39;s electrical reality is understood.</p>\n<p><a id=\"phase-2-procure-and-notify\"></a></p>\n<h3>Phase 2, procure and notify</h3>\n<p>Once the design is settled, the provider sources the equipment and prepares tenant communications. Scheduling is particularly important then, because occupied buildings need access windows, notice periods, and coordination with on-site staff. The owner&#39;s team should know who is entering which area, what needs to be shut down, and what will remain live.</p>\n<p><a id=\"phase-3-install-and-commission\"></a></p>\n<h3>Phase 3, install and commission</h3>\n<p>Installation is where the electrical work happens, but it shouldn&#39;t feel chaotic if the planning was done correctly. A turnkey provider coordinates with licensed electricians, tests the devices, and confirms each meter is reading the correct load before anything is billed. That validation step matters because bad mapping at launch creates account noise for months.</p>\n<blockquote>\n<p><strong>Operational rule:</strong> the first bill should be the last place you discover a wiring or account-mapping mistake.</p>\n</blockquote>\n<p><a id=\"phase-4-integrate-and-go-live\"></a></p>\n<h3>Phase 4, integrate and go live</h3>\n<p>The final step is billing integration, staff handoff, and the first live billing cycle. Property teams need a clear process for tenant questions, move-ins, move-outs, and account changes. Once that&#39;s set, the building moves from one bulk electricity bill to an auditable recovery system.</p>\n<p>The timeline itself will vary by building complexity, but the project is manageable when someone owns the full sequence. That&#39;s the main difference between a controlled rollout and a fragmented vendor handoff.</p>\n<p><a id=\"evaluating-providers-and-cost-models\"></a></p>\n<h2>Evaluating Providers and Cost Models</h2>\n<p>Owners usually compare two models. One is a capital purchase, where the property buys the meters, installation, and often the ongoing maintenance responsibility. The other is a <strong>full-service agreement</strong>, where the provider owns and maintains the equipment and the owner pays through an operating arrangement instead of a large upfront cheque.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f7b7c701-c28e-499d-9b6c-2314e24ba104/submeter-for-electricity-service-model.jpg\" alt=\"A comparison between a capital purchase model and a service model for business management and ownership.\"></p>\n<p><a id=\"how-the-models-differ\"></a></p>\n<h3>How the models differ</h3>\n<p>A capital purchase can work if the owner wants direct asset ownership and has the internal team to manage calibration, replacements, and billing oversight. The downside is obvious. The owner carries the up-front cost, the lifecycle risk, and the burden of keeping the system current.</p>\n<p>A service model is cleaner for many property portfolios because it removes the initial capital barrier and shifts equipment upkeep to the provider. Axis Meter Solutions offers that kind of <strong>$0 upfront</strong> model with provider-owned equipment and long-term service, which is relevant when an owner wants the billing outcome without tying up capital in hardware.</p>\n<p>For estimating project scope, a tool like <a href=\"https://exayard.com/electrical-estimating-software\">Exayard electrical estimating software</a> can help trades and managers build a more disciplined installation budget before work starts.</p>\n<p><a id=\"what-to-ask-before-signing\"></a></p>\n<h3>What to ask before signing</h3>\n<ul>\n<li><strong>Licensing and authority:</strong> confirm the provider is licensed where required and understands local code.</li>\n<li><strong>Meter standards:</strong> ask how devices are approved, calibrated, and verified before billing begins.</li>\n<li><strong>Billing workflow:</strong> make sure the vendor can handle tenant changes, disputes, and monthly invoicing cleanly.</li>\n<li><strong>Maintenance terms:</strong> ask who replaces failed hardware and how that affects service continuity.</li>\n<li><strong>Contract length:</strong> long agreements can work, but only if the service terms are clear.</li>\n<li><strong>Support model:</strong> find out who answers tenant questions and who owns issue resolution.</li>\n</ul>\n<p>A provider should be able to explain the difference between installation, commissioning, billing, and ongoing service without hand-waving. If they can&#39;t, the owner usually ends up doing the admin anyway.</p>\n<p>The best model is the one that fits the building&#39;s finance plan and risk tolerance. If capital is tight, the service structure often makes the project viable sooner. If ownership wants direct control and has the internal resources, a purchase model can still be reasonable, but only with the right maintenance discipline.</p>\n<p><a id=\"common-submetering-questions-answered\"></a></p>\n<h2>Common Submetering Questions Answered</h2>\n<p>Owners usually raise the same concerns at this stage, and they are reasonable ones. These questions involve tenant communication, billing continuity, and whether the project changes the building&#39;s operating model in a way that supports NOI instead of creating new admin work.</p>\n<p><a id=\"what-about-existing-tenants\"></a></p>\n<h3>What about existing tenants</h3>\n<p>The issue is not whether they can be metered. It is whether the rollout is communicated clearly and built into the property&#39;s billing framework in a way that fits local rules. Existing tenants care about transparency, notice, and consistency, so the change needs to be handled like a billing update, not a surprise fee.</p>\n<p>That usually means aligning the submeter rollout with lease language, notice procedures, and the owner&#39;s billing workflow before any hardware goes live. If those pieces are handled early, tenant pushback is easier to manage and the recovery process is more defensible.</p>\n<p><a id=\"what-happens-if-a-meter-fails\"></a></p>\n<h3>What happens if a meter fails</h3>\n<p>Under a service agreement, failed equipment should not become the owner&#39;s emergency. The provider should handle diagnosis, replacement, and billing continuity so the account does not fall back into estimated charges for long. That matters because an outage in billing accuracy can quickly turn into tenant disputes and extra staff time.</p>\n<p>Managed service also keeps the owner from having to stock spare parts or call trades every time a device misreads. For a property operator, that trade-off is simple, either the vendor owns the maintenance burden, or the site team does.</p>\n<p><a id=\"how-does-this-work-for-ev-charging\"></a></p>\n<h3>How does this work for EV charging</h3>\n<p>For owners with EV charging equipment on site, the practical question is how to recover those electricity costs without distorting the main utility bill. In California, the CPUC has issued <a href=\"https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/infrastructure/transportation-electrification/electricity-rates-and-cost-of-fueling/plug-in-electric-vehicle-submetering\">CPUC EV submetering guidance</a>, which gives owners a clear reference point for structuring EV charging recovery through submetering.</p>\n<p>That makes submeters useful for multi-family and mixed-use properties where charging loads need to be billed to the right user. It keeps the charging expense separated from general common-area usage, which is the cleanest way to protect recovery and avoid cross-subsidizing one tenant group with another.</p>\n<p><a id=\"is-this-only-for-new-or-large-buildings\"></a></p>\n<h3>Is this only for new or large buildings</h3>\n<p>No. Retrofitted buildings are common candidates, and the service can also make sense in smaller portfolios when the owner wants fairer billing and tighter utility recovery. The decision usually comes down to electrical layout, access, and how much billing control the owner wants, not whether the property is new.</p>\n<p>Some sites are a straightforward fit because the recoverable loads are clear and the electrical rooms are accessible. Others need more design work, especially where common loads, tenant loads, and utility metering are tightly intertwined. That is where a site review matters, because the right answer depends on the building&#39;s actual operating conditions, not a generic rule.</p>\n<p>The decision hinges on whether the long-term NOI lift outweighs the operational shift, and that trade-off is best analyzed with a site-specific proposal.</p>\n<p>A submeter project works best when the owner treats it as a long-term operating system, not a one-time appliance swap. If you are weighing the trade-offs for a condo, apartment building, or mixed-use asset, reach out to <a href=\"https://axismeter.com\">Axis Meter Solutions</a> and ask for a project review that covers billing structure, compliance, and the right cost model for your building.</p>",
+  "tags": [
+    "submeter for electricity",
+    "utility submetering",
+    "electricity billing",
+    "property management",
+    "increase NOI"
+  ],
+  "title": "A Submeter for Electricity: A Landlord's Guide to NOI",
+  "updatedAt": "2026-07-22T06:51:53.804Z"
+}
