@@ -1,0 +1,2399 @@
+{
+  "_createdAt": "2026-07-26T07:23:03Z",
+  "_id": "outrank-ebdbd4fb-2f2f-427e-83ac-98cfd6e4da8b",
+  "_rev": "kqd32DnwMDSkqBnWPy1P4A",
+  "_type": "blogPost",
+  "_updatedAt": "2026-07-26T07:23:03Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "61d700150550",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2140c70824d",
+          "_type": "span",
+          "marks": [],
+          "text": "You've just been told to "
+        },
+        {
+          "_key": "4db0e6e2a132",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submit a meter reading"
+        },
+        {
+          "_key": "c50927862660",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the meter itself might be in a basement, behind a locked door, or tucked inside a utility closet you've never opened. You may also be staring at a bill that looks off, with a deadline close enough to create pressure but not enough time to guess your way through it. The good news is that the process is usually straightforward once you know what the utility wants, what the meter is showing, and what to do when access is the main obstacle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b777edecde0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4861d903f43d",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're a tenant, property manager, or new building operator, the task isn't just writing down numbers. It's making sure the reading is tied to the right account, captured at the right time, and submitted in a way the utility can use. That matters because utilities often require the "
+        },
+        {
+          "_key": "440911f0d1d2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "meter image plus identifiers"
+        },
+        {
+          "_key": "96f6e48c9192",
+          "_type": "span",
+          "marks": [],
+          "text": " such as name, address, and account number before accepting a reading for billing, and readings should be sent close to the scheduled date to reduce estimated-bill drift, as noted in North American utility support guidance ("
+        },
+        {
+          "_key": "f9a45a3af160",
+          "_type": "span",
+          "marks": [
+            "a73c60f1c769"
+          ],
+          "text": "utility submission guidance on photo-based reads"
+        },
+        {
+          "_key": "f97bf28398f0",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a73c60f1c769",
+          "_type": "link",
+          "href": "https://www.youtube.com/watch?v=flJOfwTgYrs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "267c842fae74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8966f3408296",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cd8042eef40f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "715f76ba30c7",
+          "_type": "span",
+          "marks": [
+            "ce63f6113857"
+          ],
+          "text": "Why Accurate Meter Readings Matter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ce63f6113857",
+          "_type": "link",
+          "href": "#why-accurate-meter-readings-matter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1eb8017c7fdd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e1c9f0635f1",
+          "_type": "span",
+          "marks": [
+            "ca2b1c628883"
+          ],
+          "text": "Fair billing starts with the right number"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ca2b1c628883",
+          "_type": "link",
+          "href": "#fair-billing-starts-with-the-right-number"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3606475103d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2cdc96166db9",
+          "_type": "span",
+          "marks": [
+            "ad3473f008d3"
+          ],
+          "text": "The reading date matters as much as the reading itself"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ad3473f008d3",
+          "_type": "link",
+          "href": "#the-reading-date-matters-as-much-as-the-reading-itself"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aa15fc27b08d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9129c3e3f196",
+          "_type": "span",
+          "marks": [
+            "7c360e0a621e"
+          ],
+          "text": "Finding and Reading Your Utility Meter Correctly"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7c360e0a621e",
+          "_type": "link",
+          "href": "#finding-and-reading-your-utility-meter-correctly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "47aa27309dba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a9ba0ceb51b",
+          "_type": "span",
+          "marks": [
+            "035f14877c38"
+          ],
+          "text": "Start by identifying the meter type"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "035f14877c38",
+          "_type": "link",
+          "href": "#start-by-identifying-the-meter-type"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2c6b7d5c7f8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7983be6614d",
+          "_type": "span",
+          "marks": [
+            "227dbd8c5d12"
+          ],
+          "text": "Read the display, not the extra markings"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "227dbd8c5d12",
+          "_type": "link",
+          "href": "#read-the-display-not-the-extra-markings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "558df8c1ff8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b4c6c1be43d",
+          "_type": "span",
+          "marks": [
+            "6f406e84d5d6"
+          ],
+          "text": "Keep the photograph and the number aligned"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6f406e84d5d6",
+          "_type": "link",
+          "href": "#keep-the-photograph-and-the-number-aligned"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2e349b580287",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a5eaf5f8aa0",
+          "_type": "span",
+          "marks": [
+            "405d5d93327a"
+          ],
+          "text": "How to Submit a Meter Reading to Your Provider"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "405d5d93327a",
+          "_type": "link",
+          "href": "#how-to-submit-a-meter-reading-to-your-provider"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "71fc7e81a078",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "935adc0ac2a1",
+          "_type": "span",
+          "marks": [
+            "c763bcbbd23f"
+          ],
+          "text": "Portal and app submissions usually create the cleanest record"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c763bcbbd23f",
+          "_type": "link",
+          "href": "#portal-and-app-submissions-usually-create-the-cleanest-record"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8ec302ab8084",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d36434c75e2",
+          "_type": "span",
+          "marks": [
+            "9e780c30e2f6"
+          ],
+          "text": "Photos beat retyping when precision matters"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9e780c30e2f6",
+          "_type": "link",
+          "href": "#photos-beat-retyping-when-precision-matters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "53d883727f17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2253d8d09f33",
+          "_type": "span",
+          "marks": [
+            "db31b961fcfe"
+          ],
+          "text": "Email, text, and phone still work, but they need discipline"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "db31b961fcfe",
+          "_type": "link",
+          "href": "#email-text-and-phone-still-work-but-they-need-discipline"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ae6def61dbd2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e6d5a2cb2f8",
+          "_type": "span",
+          "marks": [
+            "34fd6190023e"
+          ],
+          "text": "Build for the cases where the meter is not easy to reach"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "34fd6190023e",
+          "_type": "link",
+          "href": "#build-for-the-cases-where-the-meter-is-not-easy-to-reach"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "81131eaaf5cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "362c63d6cca3",
+          "_type": "span",
+          "marks": [
+            "c457612ecc7c"
+          ],
+          "text": "Troubleshooting Common Meter Reading Issues"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c457612ecc7c",
+          "_type": "link",
+          "href": "#troubleshooting-common-meter-reading-issues"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bf3254a68afb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "437679fec84a",
+          "_type": "span",
+          "marks": [
+            "edf839bf9db9"
+          ],
+          "text": "Inaccessible meters need a property-level answer"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "edf839bf9db9",
+          "_type": "link",
+          "href": "#inaccessible-meters-need-a-property-level-answer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "33caf7cf435e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8479bbe12c6d",
+          "_type": "span",
+          "marks": [
+            "435a651e513d"
+          ],
+          "text": "Broken displays and confusing codes need escalation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "435a651e513d",
+          "_type": "link",
+          "href": "#broken-displays-and-confusing-codes-need-escalation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "65e0831f9272",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60618ba1c1ab",
+          "_type": "span",
+          "marks": [
+            "098fcc5b75b8"
+          ],
+          "text": "Smart meters can still create manual-read problems"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "098fcc5b75b8",
+          "_type": "link",
+          "href": "#smart-meters-can-still-create-manual-read-problems"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b042ba5569ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "052794fea711",
+          "_type": "span",
+          "marks": [
+            "f5d6c710bf2d"
+          ],
+          "text": "Deadlines, Billing Cycles, and Data Privacy"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f5d6c710bf2d",
+          "_type": "link",
+          "href": "#deadlines-billing-cycles-and-data-privacy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "098e659d29d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c849df295ad0",
+          "_type": "span",
+          "marks": [
+            "eff122ff9c4b"
+          ],
+          "text": "Submit close to the due date"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eff122ff9c4b",
+          "_type": "link",
+          "href": "#submit-close-to-the-due-date"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "49bee31edf27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f162d38b8328",
+          "_type": "span",
+          "marks": [
+            "1272c4da441b"
+          ],
+          "text": "Manual readings and smart-meter data can coexist"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1272c4da441b",
+          "_type": "link",
+          "href": "#manual-readings-and-smart-meter-data-can-coexist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cb5694a7e7c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd48adde2261",
+          "_type": "span",
+          "marks": [
+            "6fb92590a591"
+          ],
+          "text": "Use only the provider's legitimate submission route"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6fb92590a591",
+          "_type": "link",
+          "href": "#use-only-the-providers-legitimate-submission-route"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5784d8be9d41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2130650a767",
+          "_type": "span",
+          "marks": [
+            "2d68bc5ffabb"
+          ],
+          "text": "Quick Answers and a Printable Tenant Checklist"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2d68bc5ffabb",
+          "_type": "link",
+          "href": "#quick-answers-and-a-printable-tenant-checklist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ff327d38209d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "283861afdb28",
+          "_type": "span",
+          "marks": [
+            "553ee99b127a"
+          ],
+          "text": "Quick answers"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "553ee99b127a",
+          "_type": "link",
+          "href": "#quick-answers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "96a33594492c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "220b0c42b78d",
+          "_type": "span",
+          "marks": [
+            "1a8eec8f7c85"
+          ],
+          "text": "Printable checklist"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1a8eec8f7c85",
+          "_type": "link",
+          "href": "#printable-checklist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c0f20a973851",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fd05668264b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "794acf572473",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a045e9345da",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Accurate Meter Readings Matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e93b745a8758",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a7b1ec4b836",
+          "_type": "span",
+          "marks": [],
+          "text": "A tenant usually notices the problem first when a bill arrives with an estimate instead of a real read. A property manager notices it later, when residents start asking why their charges changed or why the utility record no longer matches the building's own tracking. In both cases, the issue is rarely the bill itself. It usually starts with a reading that was missed, entered incorrectly, or tied to the wrong unit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39be66d63625",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd0841ab8a17",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd9596b8b5e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aeacf0479bcd",
+          "_type": "span",
+          "marks": [],
+          "text": "Fair billing starts with the right number"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9976ef3e1b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c80e32c9f85",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter read only works if it belongs to the correct unit, the correct meter, and the correct date. Utilities usually want more than a number on its own. They want the reading tied to an identifier, and they want it submitted in a form that can be checked before billing, especially where photo-based or app-based entry is used to avoid transcription errors ("
+        },
+        {
+          "_key": "a4514e552b9e",
+          "_type": "span",
+          "marks": [
+            "ad9fe0e87b43"
+          ],
+          "text": "North American utility customer-support guidance"
+        },
+        {
+          "_key": "97ab8cee9f3e",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ad9fe0e87b43",
+          "_type": "link",
+          "href": "https://www.youtube.com/watch?v=flJOfwTgYrs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b80fd4427cd5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d19b04521de5",
+          "_type": "span",
+          "marks": [],
+          "text": "For residents, that means fewer billing disputes and less back-and-forth after a statement goes out. For owners and managers, it means fewer tenant escalations and fewer corrections with the utility or billing provider. "
+        },
+        {
+          "_key": "1b0b13fc9b5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Accuracy protects both sides"
+        },
+        {
+          "_key": "acf612b5dfe1",
+          "_type": "span",
+          "marks": [],
+          "text": ", because a clean submission is easier to accept than a later explanation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d4b2d4cdd5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "811ba4c4fc93",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20accf0af943",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29aa763ba8fa",
+          "_type": "span",
+          "marks": [],
+          "text": "The reading date matters as much as the reading itself"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "82834c41304e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "128a7857183f",
+          "_type": "span",
+          "marks": [],
+          "text": "A late reading can be almost as unhelpful as a wrong one. Utilities want readings close to the scheduled date, because a reading sent days later can create drift between actual use and the bill that gets produced from it. That matters in submetered properties, where one missed date can ripple into a tenant invoice, an owner report, and a support ticket."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8720604d4e26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e82320658a50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "b229d61f2eb7",
+          "_type": "span",
+          "marks": [],
+          "text": " if the utility asks for a reading by a certain date, send it as soon as you've recorded it and verified the account details."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "26577da26cae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "288df92fec4b",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're managing a building, a consistent workflow helps. A predictable read window, a photo record, and a clear submission method reduce avoidable corrections. For a plain overview of how submetering fits into building operations, see "
+        },
+        {
+          "_key": "2fd903399878",
+          "_type": "span",
+          "marks": [
+            "2f0a1a15354d"
+          ],
+          "text": "how Axis Meter Solutions structures its process"
+        },
+        {
+          "_key": "2f411b878aab",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2f0a1a15354d",
+          "_type": "link",
+          "href": "https://www.axismeter.com/how-it-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "78b45cdcb85d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a53606c55f16",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a067275124f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da87eb2d87a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Finding and Reading Your Utility Meter Correctly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8a6145d7419f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6ed9e3e042b",
+          "_type": "span",
+          "marks": [],
+          "text": "The hardest part for many people isn't submission, it's finding the right meter and knowing exactly which digits to record. In a newer suite, the meter may be inside the unit. In an older building, it may be in a shared room, a basement, or an exterior mechanical area. If you're unsure, start with the obvious places first, then check building notices, labels, or the property manager's access instructions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "921c59458ba3",
+      "_type": "externalImage",
+      "alt": "An infographic titled Your Utility Meter A Simple Guide explaining how to locate and read home meters.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2ed7c68d-d5af-4b1d-b2bc-32688e08d967/submit-a-meter-reading-utility-meter.jpg"
+    },
+    {
+      "_key": "c566ea7b042b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b0d3fcdfcd6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c8d0846513c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4327b97c3ea4",
+          "_type": "span",
+          "marks": [],
+          "text": "Start by identifying the meter type"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c218eb495ab1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ddc4b9b1c2b",
+          "_type": "span",
+          "marks": [],
+          "text": "Different meters display information differently, and that changes what you write down. A digital electricity meter may show a single row of numbers, while an older dial meter requires you to read the dials in sequence. Water and gas meters can have their own face layouts, but the same basic rule applies, write down the active consumption number, not every label or code printed on the face."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a287cc96623",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b4232e89a43",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful habit is to look for the "
+        },
+        {
+          "_key": "8ee7f1500ec3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "meter ID"
+        },
+        {
+          "_key": "081fd98c8d3a",
+          "_type": "span",
+          "marks": [],
+          "text": " before you touch the numbers. That ID is what helps tie the reading to the right account, especially in a building with multiple units or multiple utilities. If you're in a shared room, don't assume the nearest meter is yours. Check the tag, unit label, or account reference first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "867f1b7d2496",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60b59da47307",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc315ab9fcb5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65e808459977",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the display, not the extra markings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9aa2577d0d2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3b67be52898",
+          "_type": "span",
+          "marks": [],
+          "text": "On most meters, the reading is the main line of digits, not the smaller print, brand name, or serial plate. If the display includes decimals, leading zeros, or additional registers, the provider may want those shown exactly as the meter presents them. A smart or digital meter can also cycle through several screens, so pause long enough to confirm you're on the actual consumption screen before copying the number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b818f0511cc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f17527673504",
+          "_type": "span",
+          "marks": [],
+          "text": "For CA-region-style billing workflows, utilities typically ask you to choose the premise, enter each active meter value, and confirm the submission reference through a validated digital process ("
+        },
+        {
+          "_key": "17a6cf4353ca",
+          "_type": "span",
+          "marks": [
+            "1912f2efb60f"
+          ],
+          "text": "MyEskomCustomerApp guide"
+        },
+        {
+          "_key": "eda8bf3b085d",
+          "_type": "span",
+          "marks": [],
+          "text": "). The highest-risk mistakes are selecting the wrong premise, dropping leading zeros, and reading the wrong register on a multi-rate meter. Those mistakes are easy to make when you're rushing, so slow down at the meter and verify each digit before you move on."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1912f2efb60f",
+          "_type": "link",
+          "href": "https://www.eskom.co.za/distribution/wp-content/uploads/2021/06/MyEskomCustomerApp.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aced7b5ca855",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6e221ae4827",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "efcc1c2da1d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4c5f79081e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the photograph and the number aligned"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7e0a45a62267",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d41da58f67e",
+          "_type": "span",
+          "marks": [],
+          "text": "If your provider accepts photos, take the picture after you've confirmed the reading, not before. The image should show the full meter face, the account identifier if possible, and the reading clearly enough that someone else could verify it later. That's the cleanest way to avoid a transcription error between what you saw and what gets entered into the portal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5a3a2ebe9ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcbd848d836d",
+          "_type": "span",
+          "marks": [],
+          "text": "A short video walkthrough can also help when the meter face is unfamiliar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66045decd228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e410fac25961",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bafd869fd44d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcdc0f0d1314",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Submit a Meter Reading to Your Provider"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3d07b8726e96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1864cfc962ef",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter reading is only useful if it reaches the right account in the right format. In many buildings, that means using the provider's portal or app first, because it ties the reading to the unit, the date, and the submission record in one place. If your building gives you a resident portal, use that path before you fall back to email or phone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "481018e00d16",
+      "_type": "externalImage",
+      "alt": "Screenshot from https://axismeter.com",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/7d3626e2-8eb6-48f3-893a-531afc7c242d/submit-a-meter-reading-axis-meter.jpg"
+    },
+    {
+      "_key": "b508e5553213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c90185b9dd3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a48720ec9011",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44bf7de160cf",
+          "_type": "span",
+          "marks": [],
+          "text": "Portal and app submissions usually create the cleanest record"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "40ebbdaa3604",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3b87e7c7bcb",
+          "_type": "span",
+          "marks": [],
+          "text": "Digital submission gives you a trace you can check later. A validated portal flow usually asks you to choose the premise, enter the reading date, type in the meter value, and confirm a reference number, which helps show that the reading was sent and accepted. That structure matters when a site has more than one meter, or when a property manager needs to verify who submitted what and when."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59d949990981",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8589dca3c1b4",
+          "_type": "span",
+          "marks": [],
+          "text": "For residents who need a practical account entry point, "
+        },
+        {
+          "_key": "4254ef8a0da6",
+          "_type": "span",
+          "marks": [
+            "420736f70bf7"
+          ],
+          "text": "Axis Meter Solutions' resident portal information"
+        },
+        {
+          "_key": "34577087552a",
+          "_type": "span",
+          "marks": [],
+          "text": " shows the kind of account-level access many utility and billing platforms use."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "420736f70bf7",
+          "_type": "link",
+          "href": "https://www.axismeter.com/residents"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cc47e6ea87f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d86c3f628da2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0043a44c2a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13a173cb6408",
+          "_type": "span",
+          "marks": [],
+          "text": "Photos beat retyping when precision matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "109c1f452a8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ffcc269dc80",
+          "_type": "span",
+          "marks": [],
+          "text": "A photo submission is often the safer choice when the display is hard to read, the digits are small, or the account has had corrections before. The image gives the reviewer a second look at the meter and lowers the chance that a typed number was copied wrong. That matters in billing, where one wrong digit can send an account into an estimate or a dispute."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75116922400e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2d7700e8189",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Best practice:"
+        },
+        {
+          "_key": "3548855e2c7a",
+          "_type": "span",
+          "marks": [],
+          "text": " send the photo and the typed number together when the portal allows both. The image supports the number, and the number supports the image."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f8a59c158d2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0cfa5b5af3d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "16859702da27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9db670b520c0",
+          "_type": "span",
+          "marks": [],
+          "text": "Email, text, and phone still work, but they need discipline"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7c92d0356532",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "956e6725ae09",
+          "_type": "span",
+          "marks": [],
+          "text": "Traditional channels can still work if your provider accepts them, but they are easier to misread. Email should include the account number, unit, reading date, meter ID if available, and the meter photo if the system allows it. Text messages should stay short and exact, because mobile formatting makes it easy to drop a digit or mix up the meter value."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "638309de6214",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4de0ebc4659e",
+          "_type": "span",
+          "marks": [],
+          "text": "Phone calls are fine for confirming that a reading was received. They are weaker when the utility needs a clean record that can be checked later, especially if the account is tied to a shared building process or a portal-based workflow. If you want a broader look at how structured submission systems handle documents and approvals, see "
+        },
+        {
+          "_key": "8e39d536c5eb",
+          "_type": "span",
+          "marks": [
+            "e64df803a961"
+          ],
+          "text": "Superdocu document portal explained"
+        },
+        {
+          "_key": "858f7fd13ada",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e64df803a961",
+          "_type": "link",
+          "href": "https://www.superdocu.com/en/blog/document-submission-portal/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9dccbc04968b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca4a59eb33e7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54a0e13eb08d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "903505c034ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Build for the cases where the meter is not easy to reach"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "11c423c05429",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8586e331ab9b",
+          "_type": "span",
+          "marks": [],
+          "text": "The part that causes the most trouble is access. If the meter is behind a locked door, in a basement, or in a utility area a tenant cannot enter, the submission method matters less than the access plan. Property managers should spell out who can read the meter, who can enter the space, and how residents should report a reading when they cannot physically reach the meter. Manual submissions still matter even in buildings with smart meter data, because the billing team may need a resident reading to resolve a mismatch, confirm a replacement meter, or bridge a gap when automated data has not posted yet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5dca7690bda9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12adc9560272",
+          "_type": "span",
+          "marks": [],
+          "text": "If your building uses a managed workflow, keep the process visible to residents and staff in the same place they already check account details. That is also where a portal reference can help, because the submission can be tied back to the right unit without a long email trail."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a33ebf872340",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17903636c1f5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f3a110418c3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98974c16b002",
+          "_type": "span",
+          "marks": [],
+          "text": "Troubleshooting Common Meter Reading Issues"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0ecf1747d513",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e7e29d8a2ae",
+          "_type": "span",
+          "marks": [],
+          "text": "The reading process breaks down most often where access is poor or the display is confusing. That's especially true in multi-unit buildings, where the meter room may be locked, access may depend on property staff, or the meter may sit in a space a tenant can't reach. Standard guides often skip that part, but in real operations it's usually the part that determines whether a reading gets submitted at all."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "828869351a69",
+      "_type": "externalImage",
+      "alt": "A sketched illustration of a thoughtful man looking at an electricity meter with a red question mark.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b04fb06-0a28-4d70-9284-353d11723c60/submit-a-meter-reading-electricity-meter.jpg"
+    },
+    {
+      "_key": "1e8444d823fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78b473857140",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b9104bae30a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ffa9ff2da254",
+          "_type": "span",
+          "marks": [],
+          "text": "Inaccessible meters need a property-level answer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e7e9a21a8e7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b12ee863ff5",
+          "_type": "span",
+          "marks": [],
+          "text": "If the meter is in a locked room, basement, or utility area that tenants can't enter, don't try to improvise. Contact the property manager or site contact immediately and ask who is responsible for access, who can read the meter, and when that access window exists. In many buildings, this becomes a recurring operations issue rather than a one-off resident task, because utility instructions often assume the customer can physically see the meter, then submit it by app, text, email, or phone when they're done ("
+        },
+        {
+          "_key": "dc4f30042805",
+          "_type": "span",
+          "marks": [
+            "c22f9e481251"
+          ],
+          "text": "National Grid submit your reading guidance"
+        },
+        {
+          "_key": "1132b8663ace",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c22f9e481251",
+          "_type": "link",
+          "href": "https://www.nationalgridus.com/Upstate-NY-Home/Metering/Submit-Your-Reading"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "19bbe0f4c7e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ab8263c4d84",
+          "_type": "span",
+          "marks": [],
+          "text": "If you manage the building, document the access path in writing. Say whether residents, staff, or a contractor should handle the read, and define what happens when the room is unavailable. That simple rule prevents last-minute guesses and reduces the chance that the utility falls back to an estimated bill or that a resident submits the wrong meter out of frustration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "567199f26402",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a6aa2a5e479",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "729a73b79ca5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05d2d3c96966",
+          "_type": "span",
+          "marks": [],
+          "text": "Broken displays and confusing codes need escalation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "af6392120a42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b61712d8e5b1",
+          "_type": "span",
+          "marks": [],
+          "text": "A blank screen, a frozen dial, or a digital display showing an error code is not a normal reading problem. It's a service issue, and it should be reported to the utility or billing provider right away. Don't force a reading from a display that clearly isn't working, because you'll only create a dispute later when the number can't be verified."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6dd9ae1819d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6fe21aa89d3",
+          "_type": "span",
+          "marks": [],
+          "text": "If the meter cycles through several displays, wait until the main usage screen appears. If the meter has multiple registers, such as day and night values, record the correct one for the tariff or time-of-use schedule that applies to that unit. The provider's instructions should tell you which register matters, and if they don't, ask before submitting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37a07f4a0fd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0ec2b04502c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23d7cac8db33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "186b76c9cde0",
+          "_type": "span",
+          "marks": [],
+          "text": "Smart meters can still create manual-read problems"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6d7b89452425",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "828d4e150046",
+          "_type": "span",
+          "marks": [],
+          "text": "A smart meter doesn't remove every problem. Some digital meters cycle through screens, some show multiple values, and some residents are still asked to submit a manual read even though the meter usually reports remotely. Consumer guidance on electricity meters notes that digital meters may display cycling numbers or multiple registers, and that manual readings may be needed only in specific circumstances ("
+        },
+        {
+          "_key": "f21933104f14",
+          "_type": "span",
+          "marks": [
+            "84c416ee0be0"
+          ],
+          "text": "CRU electricity meter guidance"
+        },
+        {
+          "_key": "3ea3a0c7b867",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "84c416ee0be0",
+          "_type": "link",
+          "href": "https://www.cru.ie/consumer-information/billing/your-electricity-meter/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "33b8e6c445c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f264835e3c8c",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical question is not whether a manual reading exists. It's whether it will matter. If the utility is already using interval or remote data, a manual read may be treated as a support record rather than the final billing source. If a bill looks wrong, the strongest evidence is a clear photo, the exact date and time, and the account reference tied to that submission. That is the material you'll want if you later need a correction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "276405bd6248",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b595bebbae4a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8418319c5d0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e45ce712414",
+          "_type": "span",
+          "marks": [],
+          "text": "Deadlines, Billing Cycles, and Data Privacy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bbbe6b5a4552",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32c34549973c",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter reading only helps if it reaches the provider during the billing window being used for that account. Miss the window and the bill may fall back to an estimate, or the actual read may be held for a later correction instead of shaping the current charge. The date matters as much as the number, especially for residents dealing with move-ins, move-outs, or delayed access to the meter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "80f01040a1d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "543e60dfb064",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b77fd809918",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1c38560f741",
+          "_type": "span",
+          "marks": [],
+          "text": "Submit close to the due date"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2e74057343cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b10e10c76eee",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the meter as close to the requested date as possible, then send it right away. That reduces the chance of an estimate drifting far from actual usage, and it also lowers the odds of transcription mistakes when the reading is entered from a photo or app screen."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0efd1f829577",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c14171fe2e1",
+          "_type": "span",
+          "marks": [],
+          "text": "The timing becomes more important in buildings that depend on shared access or staff-assisted reads. If the access window closes before the deadline, the resident usually needs to raise the issue quickly rather than wait for the next cycle. The same applies after a meter replacement, because the account record often needs the new meter details before the reading can be matched to billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb5280c2f86b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4626df0cdd8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0161d7c4cf55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "568bb6688f84",
+          "_type": "span",
+          "marks": [],
+          "text": "Manual readings and smart-meter data can coexist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f071e9bae53b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c757cc828372",
+          "_type": "span",
+          "marks": [],
+          "text": "Modern meter systems do not always behave like older manual ones. Some buildings are using remote or interval-based data, while residents are still asked to send a manual read when the system needs a check or when remote reporting is interrupted. In those cases, a manual submission may support the account, but it will not always replace what the utility's automated data already shows."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14c3321f2a7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "489f6f508e6d",
+          "_type": "span",
+          "marks": [],
+          "text": "That is why disputes need evidence, not guesses. Keep the date, time, photo, and account reference together. If the meter room was inaccessible or the meter was replaced, note that too, because those details explain why a read may have been delayed or why a billing correction needs review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52cfb46f9859",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d5347828768",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3cb9600f268c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a724a1ce8d13",
+          "_type": "span",
+          "marks": [],
+          "text": "Use only the provider's legitimate submission route"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "88fa637ff8d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e22b285e06ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Privacy matters because meter submissions often include personal and account identifiers. Use the portal, app, or contact method the provider publishes, and avoid sending account details through an unverified email thread or an unofficial message chain. If a service asks for more information than the reading process requires, pause and verify what is needed before you share anything."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "42cb0ec86e28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7be8573d182",
+          "_type": "span",
+          "marks": [],
+          "text": "If the provider's instructions are unclear, check the account help pages instead of relying on a forwarded message from the building. A solid FAQ page is usually the quickest place to confirm the accepted channel and the minimum information needed, and the "
+        },
+        {
+          "_key": "4cadd066dbae",
+          "_type": "span",
+          "marks": [
+            "9be074ae6041"
+          ],
+          "text": "Axis Meter Solutions FAQ"
+        },
+        {
+          "_key": "43ef667861f4",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful reference point for that kind of account guidance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9be074ae6041",
+          "_type": "link",
+          "href": "https://www.axismeter.com/faq"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "269e84709cd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20fa3bce364e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43d56b366734",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45ce64fab3c2",
+          "_type": "span",
+          "marks": [],
+          "text": "Quick Answers and a Printable Tenant Checklist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e391556b2ff1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9df222968e96",
+          "_type": "span",
+          "marks": [],
+          "text": "The fastest way to avoid mistakes is to keep the process short and repeatable. Find the meter, confirm the correct unit, record the full reading, capture a photo, and submit it through the provider's accepted channel before the deadline. If anything in that chain breaks, stop and fix the gap before sending a half-verified reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcc96b883ccf",
+      "_type": "externalImage",
+      "alt": "A helpful infographic about meter reading featuring FAQs and a four-step printable checklist for tenants.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/eaccd761-5562-45b1-b9cc-dd802879c41b/submit-a-meter-reading-meter-checklist.jpg"
+    },
+    {
+      "_key": "2fb66f7ca570",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4408eeff50f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9c8f40b54dbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3ffa744c348",
+          "_type": "span",
+          "marks": [],
+          "text": "Quick answers"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fbf131f74960",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0fcfe11012b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What if my meter is inaccessible?"
+        },
+        {
+          "_key": "5d256acd8366",
+          "_type": "span",
+          "marks": [],
+          "text": " Contact your property manager or site contact immediately and ask who can access the meter and when."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "29ae91f05abb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b9ce48896cab",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Can my property manager submit it for me?"
+        },
+        {
+          "_key": "9d18418130b4",
+          "_type": "span",
+          "marks": [],
+          "text": " Yes, if the building's workflow allows it and the provider accepts that submission route."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "393973965ade",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93255ae3d6d8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What if I miss the deadline?"
+        },
+        {
+          "_key": "93018bd64e5d",
+          "_type": "span",
+          "marks": [],
+          "text": " Send the reading anyway, then ask whether the bill can be corrected or whether it will be applied on the next cycle."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "622daa9fd8db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce8947ff8029",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What if the meter looks wrong?"
+        },
+        {
+          "_key": "c09d736f1daa",
+          "_type": "span",
+          "marks": [],
+          "text": " Don't guess. Report the issue before submitting anything uncertain."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "afddff96f185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0982180b7fa4",
+          "_type": "span",
+          "marks": [],
+          "text": "For residents and managers who want a quick reference, the "
+        },
+        {
+          "_key": "e71e1bf60f17",
+          "_type": "span",
+          "marks": [
+            "7f3f37a4c1a0"
+          ],
+          "text": "Axis Meter Solutions FAQ"
+        },
+        {
+          "_key": "1da3b88ed25e",
+          "_type": "span",
+          "marks": [],
+          "text": " is the right place to check common account and submission questions before calling support."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7f3f37a4c1a0",
+          "_type": "link",
+          "href": "https://www.axismeter.com/faq"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "15e51e449a89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4bda3cb0a86",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cdd8991dd7ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ece76ba40b0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Printable checklist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7bac257681ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb76af821724",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Locate the meter"
+        },
+        {
+          "_key": "2b0cfe91681a",
+          "_type": "span",
+          "marks": [],
+          "text": " and confirm the unit or account label."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "05bf574ee34c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34473d0f79f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Record all numbers"
+        },
+        {
+          "_key": "295631167822",
+          "_type": "span",
+          "marks": [],
+          "text": " shown on the active reading screen."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ce3eb0f48e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "014d38e854bb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Note the date and time"
+        },
+        {
+          "_key": "923f31c1a80a",
+          "_type": "span",
+          "marks": [],
+          "text": " of the reading."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "384fda2c5be8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3bf83ff4456a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Take a clear photo"
+        },
+        {
+          "_key": "769a1af73008",
+          "_type": "span",
+          "marks": [],
+          "text": " of the meter face."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec41c31ed153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2aa4f470548d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submit via the provider's app, portal, email, or approved channel"
+        },
+        {
+          "_key": "1b5f563b0ed8",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43a587120d09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db311b6daf4e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep the confirmation reference"
+        },
+        {
+          "_key": "540f4463ad7b",
+          "_type": "span",
+          "marks": [],
+          "text": " if the system provides one."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ccbd54909429",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84d9f3d19091",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the photo until the bill is issued. If the reading is questioned later, that image is your cleanest proof."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f78946ab5e4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8aa23038ce32",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're responsible for a building, print this checklist for residents and keep one copy with your move-in paperwork or access instructions. If you're a tenant, save it on your phone and use it every time the utility asks you to submit a meter reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f9607d36b20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15d94904f577",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions helps property owners and managers organise submetering, resident billing, and account support for buildings where meter access and submission details can get messy. If you want a clearer resident workflow for your property, visit "
+        },
+        {
+          "_key": "1e9240806cdf",
+          "_type": "span",
+          "marks": [
+            "37d2940bb50b"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "988aaf5843f1",
+          "_type": "span",
+          "marks": [],
+          "text": " and review how their portal and billing setup fit into the way your building handles meter readings."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "37d2940bb50b",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Tenants & Renters",
+  "excerpt": "Easily submit a meter reading with our 2026 guide for tenants & property managers. Learn reading methods, submission, and troubleshooting tips.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7bf8a574-0d56-4465-b6a8-2fab20730aa2/submit-a-meter-reading-guide.jpg",
+  "noIndex": false,
+  "outrankId": "ebdbd4fb-2f2f-427e-83ac-98cfd6e4da8b",
+  "publishedAt": "2026-07-26T07:22:57.490742+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "submit-a-meter-reading"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;ve just been told to <strong>submit a meter reading</strong>, and the meter itself might be in a basement, behind a locked door, or tucked inside a utility closet you&#39;ve never opened. You may also be staring at a bill that looks off, with a deadline close enough to create pressure but not enough time to guess your way through it. The good news is that the process is usually straightforward once you know what the utility wants, what the meter is showing, and what to do when access is the main obstacle.</p>\n<p>If you&#39;re a tenant, property manager, or new building operator, the task isn&#39;t just writing down numbers. It&#39;s making sure the reading is tied to the right account, captured at the right time, and submitted in a way the utility can use. That matters because utilities often require the <strong>meter image plus identifiers</strong> such as name, address, and account number before accepting a reading for billing, and readings should be sent close to the scheduled date to reduce estimated-bill drift, as noted in North American utility support guidance (<a href=\"https://www.youtube.com/watch?v=flJOfwTgYrs\">utility submission guidance on photo-based reads</a>).</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-accurate-meter-readings-matter\">Why Accurate Meter Readings Matter</a><ul>\n<li><a href=\"#fair-billing-starts-with-the-right-number\">Fair billing starts with the right number</a></li>\n<li><a href=\"#the-reading-date-matters-as-much-as-the-reading-itself\">The reading date matters as much as the reading itself</a></li>\n</ul>\n</li>\n<li><a href=\"#finding-and-reading-your-utility-meter-correctly\">Finding and Reading Your Utility Meter Correctly</a><ul>\n<li><a href=\"#start-by-identifying-the-meter-type\">Start by identifying the meter type</a></li>\n<li><a href=\"#read-the-display-not-the-extra-markings\">Read the display, not the extra markings</a></li>\n<li><a href=\"#keep-the-photograph-and-the-number-aligned\">Keep the photograph and the number aligned</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-submit-a-meter-reading-to-your-provider\">How to Submit a Meter Reading to Your Provider</a><ul>\n<li><a href=\"#portal-and-app-submissions-usually-create-the-cleanest-record\">Portal and app submissions usually create the cleanest record</a></li>\n<li><a href=\"#photos-beat-retyping-when-precision-matters\">Photos beat retyping when precision matters</a></li>\n<li><a href=\"#email-text-and-phone-still-work-but-they-need-discipline\">Email, text, and phone still work, but they need discipline</a></li>\n<li><a href=\"#build-for-the-cases-where-the-meter-is-not-easy-to-reach\">Build for the cases where the meter is not easy to reach</a></li>\n</ul>\n</li>\n<li><a href=\"#troubleshooting-common-meter-reading-issues\">Troubleshooting Common Meter Reading Issues</a><ul>\n<li><a href=\"#inaccessible-meters-need-a-property-level-answer\">Inaccessible meters need a property-level answer</a></li>\n<li><a href=\"#broken-displays-and-confusing-codes-need-escalation\">Broken displays and confusing codes need escalation</a></li>\n<li><a href=\"#smart-meters-can-still-create-manual-read-problems\">Smart meters can still create manual-read problems</a></li>\n</ul>\n</li>\n<li><a href=\"#deadlines-billing-cycles-and-data-privacy\">Deadlines, Billing Cycles, and Data Privacy</a><ul>\n<li><a href=\"#submit-close-to-the-due-date\">Submit close to the due date</a></li>\n<li><a href=\"#manual-readings-and-smart-meter-data-can-coexist\">Manual readings and smart-meter data can coexist</a></li>\n<li><a href=\"#use-only-the-providers-legitimate-submission-route\">Use only the provider&#39;s legitimate submission route</a></li>\n</ul>\n</li>\n<li><a href=\"#quick-answers-and-a-printable-tenant-checklist\">Quick Answers and a Printable Tenant Checklist</a><ul>\n<li><a href=\"#quick-answers\">Quick answers</a></li>\n<li><a href=\"#printable-checklist\">Printable checklist</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-accurate-meter-readings-matter\"></a></p>\n<h2>Why Accurate Meter Readings Matter</h2>\n<p>A tenant usually notices the problem first when a bill arrives with an estimate instead of a real read. A property manager notices it later, when residents start asking why their charges changed or why the utility record no longer matches the building&#39;s own tracking. In both cases, the issue is rarely the bill itself. It usually starts with a reading that was missed, entered incorrectly, or tied to the wrong unit.</p>\n<p><a id=\"fair-billing-starts-with-the-right-number\"></a></p>\n<h3>Fair billing starts with the right number</h3>\n<p>A meter read only works if it belongs to the correct unit, the correct meter, and the correct date. Utilities usually want more than a number on its own. They want the reading tied to an identifier, and they want it submitted in a form that can be checked before billing, especially where photo-based or app-based entry is used to avoid transcription errors (<a href=\"https://www.youtube.com/watch?v=flJOfwTgYrs\">North American utility customer-support guidance</a>).</p>\n<p>For residents, that means fewer billing disputes and less back-and-forth after a statement goes out. For owners and managers, it means fewer tenant escalations and fewer corrections with the utility or billing provider. <strong>Accuracy protects both sides</strong>, because a clean submission is easier to accept than a later explanation.</p>\n<p><a id=\"the-reading-date-matters-as-much-as-the-reading-itself\"></a></p>\n<h3>The reading date matters as much as the reading itself</h3>\n<p>A late reading can be almost as unhelpful as a wrong one. Utilities want readings close to the scheduled date, because a reading sent days later can create drift between actual use and the bill that gets produced from it. That matters in submetered properties, where one missed date can ripple into a tenant invoice, an owner report, and a support ticket.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> if the utility asks for a reading by a certain date, send it as soon as you&#39;ve recorded it and verified the account details.</p>\n</blockquote>\n<p>If you&#39;re managing a building, a consistent workflow helps. A predictable read window, a photo record, and a clear submission method reduce avoidable corrections. For a plain overview of how submetering fits into building operations, see <a href=\"https://www.axismeter.com/how-it-works\">how Axis Meter Solutions structures its process</a>.</p>\n<p><a id=\"finding-and-reading-your-utility-meter-correctly\"></a></p>\n<h2>Finding and Reading Your Utility Meter Correctly</h2>\n<p>The hardest part for many people isn&#39;t submission, it&#39;s finding the right meter and knowing exactly which digits to record. In a newer suite, the meter may be inside the unit. In an older building, it may be in a shared room, a basement, or an exterior mechanical area. If you&#39;re unsure, start with the obvious places first, then check building notices, labels, or the property manager&#39;s access instructions.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2ed7c68d-d5af-4b1d-b2bc-32688e08d967/submit-a-meter-reading-utility-meter.jpg\" alt=\"An infographic titled Your Utility Meter A Simple Guide explaining how to locate and read home meters.\"></p>\n<p><a id=\"start-by-identifying-the-meter-type\"></a></p>\n<h3>Start by identifying the meter type</h3>\n<p>Different meters display information differently, and that changes what you write down. A digital electricity meter may show a single row of numbers, while an older dial meter requires you to read the dials in sequence. Water and gas meters can have their own face layouts, but the same basic rule applies, write down the active consumption number, not every label or code printed on the face.</p>\n<p>A useful habit is to look for the <strong>meter ID</strong> before you touch the numbers. That ID is what helps tie the reading to the right account, especially in a building with multiple units or multiple utilities. If you&#39;re in a shared room, don&#39;t assume the nearest meter is yours. Check the tag, unit label, or account reference first.</p>\n<p><a id=\"read-the-display-not-the-extra-markings\"></a></p>\n<h3>Read the display, not the extra markings</h3>\n<p>On most meters, the reading is the main line of digits, not the smaller print, brand name, or serial plate. If the display includes decimals, leading zeros, or additional registers, the provider may want those shown exactly as the meter presents them. A smart or digital meter can also cycle through several screens, so pause long enough to confirm you&#39;re on the actual consumption screen before copying the number.</p>\n<p>For CA-region-style billing workflows, utilities typically ask you to choose the premise, enter each active meter value, and confirm the submission reference through a validated digital process (<a href=\"https://www.eskom.co.za/distribution/wp-content/uploads/2021/06/MyEskomCustomerApp.pdf\">MyEskomCustomerApp guide</a>). The highest-risk mistakes are selecting the wrong premise, dropping leading zeros, and reading the wrong register on a multi-rate meter. Those mistakes are easy to make when you&#39;re rushing, so slow down at the meter and verify each digit before you move on.</p>\n<p><a id=\"keep-the-photograph-and-the-number-aligned\"></a></p>\n<h3>Keep the photograph and the number aligned</h3>\n<p>If your provider accepts photos, take the picture after you&#39;ve confirmed the reading, not before. The image should show the full meter face, the account identifier if possible, and the reading clearly enough that someone else could verify it later. That&#39;s the cleanest way to avoid a transcription error between what you saw and what gets entered into the portal.</p>\n<p>A short video walkthrough can also help when the meter face is unfamiliar.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/gFeQ_y5LRrM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"how-to-submit-a-meter-reading-to-your-provider\"></a></p>\n<h2>How to Submit a Meter Reading to Your Provider</h2>\n<p>A meter reading is only useful if it reaches the right account in the right format. In many buildings, that means using the provider&#39;s portal or app first, because it ties the reading to the unit, the date, and the submission record in one place. If your building gives you a resident portal, use that path before you fall back to email or phone.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/7d3626e2-8eb6-48f3-893a-531afc7c242d/submit-a-meter-reading-axis-meter.jpg\" alt=\"Screenshot from https://axismeter.com\"></p>\n<p><a id=\"portal-and-app-submissions-usually-create-the-cleanest-record\"></a></p>\n<h3>Portal and app submissions usually create the cleanest record</h3>\n<p>Digital submission gives you a trace you can check later. A validated portal flow usually asks you to choose the premise, enter the reading date, type in the meter value, and confirm a reference number, which helps show that the reading was sent and accepted. That structure matters when a site has more than one meter, or when a property manager needs to verify who submitted what and when.</p>\n<p>For residents who need a practical account entry point, <a href=\"https://www.axismeter.com/residents\">Axis Meter Solutions&#39; resident portal information</a> shows the kind of account-level access many utility and billing platforms use.</p>\n<p><a id=\"photos-beat-retyping-when-precision-matters\"></a></p>\n<h3>Photos beat retyping when precision matters</h3>\n<p>A photo submission is often the safer choice when the display is hard to read, the digits are small, or the account has had corrections before. The image gives the reviewer a second look at the meter and lowers the chance that a typed number was copied wrong. That matters in billing, where one wrong digit can send an account into an estimate or a dispute.</p>\n<blockquote>\n<p><strong>Best practice:</strong> send the photo and the typed number together when the portal allows both. The image supports the number, and the number supports the image.</p>\n</blockquote>\n<p><a id=\"email-text-and-phone-still-work-but-they-need-discipline\"></a></p>\n<h3>Email, text, and phone still work, but they need discipline</h3>\n<p>Traditional channels can still work if your provider accepts them, but they are easier to misread. Email should include the account number, unit, reading date, meter ID if available, and the meter photo if the system allows it. Text messages should stay short and exact, because mobile formatting makes it easy to drop a digit or mix up the meter value.</p>\n<p>Phone calls are fine for confirming that a reading was received. They are weaker when the utility needs a clean record that can be checked later, especially if the account is tied to a shared building process or a portal-based workflow. If you want a broader look at how structured submission systems handle documents and approvals, see <a href=\"https://www.superdocu.com/en/blog/document-submission-portal/\">Superdocu document portal explained</a>.</p>\n<p><a id=\"build-for-the-cases-where-the-meter-is-not-easy-to-reach\"></a></p>\n<h3>Build for the cases where the meter is not easy to reach</h3>\n<p>The part that causes the most trouble is access. If the meter is behind a locked door, in a basement, or in a utility area a tenant cannot enter, the submission method matters less than the access plan. Property managers should spell out who can read the meter, who can enter the space, and how residents should report a reading when they cannot physically reach the meter. Manual submissions still matter even in buildings with smart meter data, because the billing team may need a resident reading to resolve a mismatch, confirm a replacement meter, or bridge a gap when automated data has not posted yet.</p>\n<p>If your building uses a managed workflow, keep the process visible to residents and staff in the same place they already check account details. That is also where a portal reference can help, because the submission can be tied back to the right unit without a long email trail.</p>\n<p><a id=\"troubleshooting-common-meter-reading-issues\"></a></p>\n<h2>Troubleshooting Common Meter Reading Issues</h2>\n<p>The reading process breaks down most often where access is poor or the display is confusing. That&#39;s especially true in multi-unit buildings, where the meter room may be locked, access may depend on property staff, or the meter may sit in a space a tenant can&#39;t reach. Standard guides often skip that part, but in real operations it&#39;s usually the part that determines whether a reading gets submitted at all.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b04fb06-0a28-4d70-9284-353d11723c60/submit-a-meter-reading-electricity-meter.jpg\" alt=\"A sketched illustration of a thoughtful man looking at an electricity meter with a red question mark.\"></p>\n<p><a id=\"inaccessible-meters-need-a-property-level-answer\"></a></p>\n<h3>Inaccessible meters need a property-level answer</h3>\n<p>If the meter is in a locked room, basement, or utility area that tenants can&#39;t enter, don&#39;t try to improvise. Contact the property manager or site contact immediately and ask who is responsible for access, who can read the meter, and when that access window exists. In many buildings, this becomes a recurring operations issue rather than a one-off resident task, because utility instructions often assume the customer can physically see the meter, then submit it by app, text, email, or phone when they&#39;re done (<a href=\"https://www.nationalgridus.com/Upstate-NY-Home/Metering/Submit-Your-Reading\">National Grid submit your reading guidance</a>).</p>\n<p>If you manage the building, document the access path in writing. Say whether residents, staff, or a contractor should handle the read, and define what happens when the room is unavailable. That simple rule prevents last-minute guesses and reduces the chance that the utility falls back to an estimated bill or that a resident submits the wrong meter out of frustration.</p>\n<p><a id=\"broken-displays-and-confusing-codes-need-escalation\"></a></p>\n<h3>Broken displays and confusing codes need escalation</h3>\n<p>A blank screen, a frozen dial, or a digital display showing an error code is not a normal reading problem. It&#39;s a service issue, and it should be reported to the utility or billing provider right away. Don&#39;t force a reading from a display that clearly isn&#39;t working, because you&#39;ll only create a dispute later when the number can&#39;t be verified.</p>\n<p>If the meter cycles through several displays, wait until the main usage screen appears. If the meter has multiple registers, such as day and night values, record the correct one for the tariff or time-of-use schedule that applies to that unit. The provider&#39;s instructions should tell you which register matters, and if they don&#39;t, ask before submitting.</p>\n<p><a id=\"smart-meters-can-still-create-manual-read-problems\"></a></p>\n<h3>Smart meters can still create manual-read problems</h3>\n<p>A smart meter doesn&#39;t remove every problem. Some digital meters cycle through screens, some show multiple values, and some residents are still asked to submit a manual read even though the meter usually reports remotely. Consumer guidance on electricity meters notes that digital meters may display cycling numbers or multiple registers, and that manual readings may be needed only in specific circumstances (<a href=\"https://www.cru.ie/consumer-information/billing/your-electricity-meter/\">CRU electricity meter guidance</a>).</p>\n<p>The practical question is not whether a manual reading exists. It&#39;s whether it will matter. If the utility is already using interval or remote data, a manual read may be treated as a support record rather than the final billing source. If a bill looks wrong, the strongest evidence is a clear photo, the exact date and time, and the account reference tied to that submission. That is the material you&#39;ll want if you later need a correction.</p>\n<p><a id=\"deadlines-billing-cycles-and-data-privacy\"></a></p>\n<h2>Deadlines, Billing Cycles, and Data Privacy</h2>\n<p>A meter reading only helps if it reaches the provider during the billing window being used for that account. Miss the window and the bill may fall back to an estimate, or the actual read may be held for a later correction instead of shaping the current charge. The date matters as much as the number, especially for residents dealing with move-ins, move-outs, or delayed access to the meter.</p>\n<p><a id=\"submit-close-to-the-due-date\"></a></p>\n<h3>Submit close to the due date</h3>\n<p>Read the meter as close to the requested date as possible, then send it right away. That reduces the chance of an estimate drifting far from actual usage, and it also lowers the odds of transcription mistakes when the reading is entered from a photo or app screen.</p>\n<p>The timing becomes more important in buildings that depend on shared access or staff-assisted reads. If the access window closes before the deadline, the resident usually needs to raise the issue quickly rather than wait for the next cycle. The same applies after a meter replacement, because the account record often needs the new meter details before the reading can be matched to billing.</p>\n<p><a id=\"manual-readings-and-smart-meter-data-can-coexist\"></a></p>\n<h3>Manual readings and smart-meter data can coexist</h3>\n<p>Modern meter systems do not always behave like older manual ones. Some buildings are using remote or interval-based data, while residents are still asked to send a manual read when the system needs a check or when remote reporting is interrupted. In those cases, a manual submission may support the account, but it will not always replace what the utility&#39;s automated data already shows.</p>\n<p>That is why disputes need evidence, not guesses. Keep the date, time, photo, and account reference together. If the meter room was inaccessible or the meter was replaced, note that too, because those details explain why a read may have been delayed or why a billing correction needs review.</p>\n<p><a id=\"use-only-the-providers-legitimate-submission-route\"></a></p>\n<h3>Use only the provider&#39;s legitimate submission route</h3>\n<p>Privacy matters because meter submissions often include personal and account identifiers. Use the portal, app, or contact method the provider publishes, and avoid sending account details through an unverified email thread or an unofficial message chain. If a service asks for more information than the reading process requires, pause and verify what is needed before you share anything.</p>\n<p>If the provider&#39;s instructions are unclear, check the account help pages instead of relying on a forwarded message from the building. A solid FAQ page is usually the quickest place to confirm the accepted channel and the minimum information needed, and the <a href=\"https://www.axismeter.com/faq\">Axis Meter Solutions FAQ</a> is a useful reference point for that kind of account guidance.</p>\n<p><a id=\"quick-answers-and-a-printable-tenant-checklist\"></a></p>\n<h2>Quick Answers and a Printable Tenant Checklist</h2>\n<p>The fastest way to avoid mistakes is to keep the process short and repeatable. Find the meter, confirm the correct unit, record the full reading, capture a photo, and submit it through the provider&#39;s accepted channel before the deadline. If anything in that chain breaks, stop and fix the gap before sending a half-verified reading.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/eaccd761-5562-45b1-b9cc-dd802879c41b/submit-a-meter-reading-meter-checklist.jpg\" alt=\"A helpful infographic about meter reading featuring FAQs and a four-step printable checklist for tenants.\"></p>\n<p><a id=\"quick-answers\"></a></p>\n<h3>Quick answers</h3>\n<ul>\n<li><strong>What if my meter is inaccessible?</strong> Contact your property manager or site contact immediately and ask who can access the meter and when.</li>\n<li><strong>Can my property manager submit it for me?</strong> Yes, if the building&#39;s workflow allows it and the provider accepts that submission route.</li>\n<li><strong>What if I miss the deadline?</strong> Send the reading anyway, then ask whether the bill can be corrected or whether it will be applied on the next cycle.</li>\n<li><strong>What if the meter looks wrong?</strong> Don&#39;t guess. Report the issue before submitting anything uncertain.</li>\n</ul>\n<p>For residents and managers who want a quick reference, the <a href=\"https://www.axismeter.com/faq\">Axis Meter Solutions FAQ</a> is the right place to check common account and submission questions before calling support.</p>\n<p><a id=\"printable-checklist\"></a></p>\n<h3>Printable checklist</h3>\n<ol>\n<li><strong>Locate the meter</strong> and confirm the unit or account label.</li>\n<li><strong>Record all numbers</strong> shown on the active reading screen.</li>\n<li><strong>Note the date and time</strong> of the reading.</li>\n<li><strong>Take a clear photo</strong> of the meter face.</li>\n<li><strong>Submit via the provider&#39;s app, portal, email, or approved channel</strong>.</li>\n<li><strong>Keep the confirmation reference</strong> if the system provides one.</li>\n</ol>\n<blockquote>\n<p>Keep the photo until the bill is issued. If the reading is questioned later, that image is your cleanest proof.</p>\n</blockquote>\n<p>If you&#39;re responsible for a building, print this checklist for residents and keep one copy with your move-in paperwork or access instructions. If you&#39;re a tenant, save it on your phone and use it every time the utility asks you to submit a meter reading.</p>\n<hr>\n<p>Axis Meter Solutions helps property owners and managers organise submetering, resident billing, and account support for buildings where meter access and submission details can get messy. If you want a clearer resident workflow for your property, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> and review how their portal and billing setup fit into the way your building handles meter readings.</p>",
+  "tags": [
+    "submit a meter reading",
+    "utility meter reading",
+    "tenant billing",
+    "property management",
+    "submetering"
+  ],
+  "title": "How to Submit a Meter Reading: 2026 Guide",
+  "updatedAt": "2026-07-26T07:23:02.459Z"
+}
