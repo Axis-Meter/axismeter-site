@@ -1,0 +1,2746 @@
+{
+  "_createdAt": "2026-07-29T06:58:36Z",
+  "_id": "outrank-a9e72c6f-57d0-49e4-acf7-96fea9ac3416",
+  "_rev": "gxHxXVNvdYNX1ew1SFgYO4",
+  "_type": "blogPost",
+  "_updatedAt": "2026-07-29T06:58:36Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "a2188bb439bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b66c80b4ba01",
+          "_type": "span",
+          "marks": [],
+          "text": "You're staring at a water bill that doesn't make sense. The building is full, the tenants are loud about fairness, and every month the same question comes up in a different form, which stack, which suite, and which hidden leak is chewing through NOI. "
+        },
+        {
+          "_key": "f51be73754af",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "306e026c8278",
+          "_type": "span",
+          "marks": [],
+          "text": " stops being a billing argument the moment you treat it as a measurement system, because once you can see consumption at the suite level, you can manage it, bill it, and catch the failures that master-metered buildings hide for months."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b40fc359614a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa5922b03c78",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners usually come to this topic asking about tenant chargebacks. That's the wrong starting point. The core question is whether you want to keep absorbing waste, or whether you want the building to tell you where the money is going, suite by suite, riser by riser, and, when necessary, valve by valve."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ca30f985609",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be9355e9d7f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2e877e89825c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61256bb2ce74",
+          "_type": "span",
+          "marks": [
+            "886cf925ccf3"
+          ],
+          "text": "What Sub Metering Water Solves for Property Owners"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "886cf925ccf3",
+          "_type": "link",
+          "href": "#what-sub-metering-water-solves-for-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fe3a50d5dfcc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "928397196ce7",
+          "_type": "span",
+          "marks": [
+            "a9b768a28974"
+          ],
+          "text": "Sub Metering Water vs Master Meters and RUBS Allocation"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a9b768a28974",
+          "_type": "link",
+          "href": "#sub-metering-water-vs-master-meters-and-rubs-allocation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56ad4db0a8a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27274351ace0",
+          "_type": "span",
+          "marks": [
+            "fb2aaa731feb"
+          ],
+          "text": "Benefits That Move the Needle on NOI"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fb2aaa731feb",
+          "_type": "link",
+          "href": "#benefits-that-move-the-needle-on-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0faab4559f8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c806e9bc570c",
+          "_type": "span",
+          "marks": [
+            "70b00b262ad9"
+          ],
+          "text": "Hardware, Sensors, and Communications Explained"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "70b00b262ad9",
+          "_type": "link",
+          "href": "#hardware-sensors-and-communications-explained"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "285c6cfc791a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6b167e2c601",
+          "_type": "span",
+          "marks": [
+            "6e01eef046ab"
+          ],
+          "text": "Meter type matters more than sales brochures admit"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6e01eef046ab",
+          "_type": "link",
+          "href": "#meter-type-matters-more-than-sales-brochures-admit"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e0c7ff6f03b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fa71bd22a38",
+          "_type": "span",
+          "marks": [
+            "cd9a772103d3"
+          ],
+          "text": "Sensors and communications are not optional extras"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cd9a772103d3",
+          "_type": "link",
+          "href": "#sensors-and-communications-are-not-optional-extras"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "733249d5c0b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c64bfa885fee",
+          "_type": "span",
+          "marks": [
+            "3500d7c13568"
+          ],
+          "text": "Implementation Timeline and On-Site Requirements"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3500d7c13568",
+          "_type": "link",
+          "href": "#implementation-timeline-and-on-site-requirements"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6b1f95d9ce82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6c2af88b30d",
+          "_type": "span",
+          "marks": [
+            "fa6f315291b1"
+          ],
+          "text": "The work is front-loaded"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fa6f315291b1",
+          "_type": "link",
+          "href": "#the-work-is-front-loaded"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dfbe0ef1d7ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d209a9de553f",
+          "_type": "span",
+          "marks": [
+            "8b8274b9277e"
+          ],
+          "text": "Cost Structures and the $0 Upfront Model"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8b8274b9277e",
+          "_type": "link",
+          "href": "#cost-structures-and-the-0-upfront-model"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e4956f262115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e35280994d29",
+          "_type": "span",
+          "marks": [
+            "208f0fa27ccd"
+          ],
+          "text": "What you actually get in a zero-upfront programme"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "208f0fa27ccd",
+          "_type": "link",
+          "href": "#what-you-actually-get-in-a-zero-upfront-programme"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c05ea055d54f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "770125427bee",
+          "_type": "span",
+          "marks": [
+            "25f5912c2c9a"
+          ],
+          "text": "How to choose the structure"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "25f5912c2c9a",
+          "_type": "link",
+          "href": "#how-to-choose-the-structure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "57cc26986e13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fafc802b8742",
+          "_type": "span",
+          "marks": [
+            "f43281c234f8"
+          ],
+          "text": "Vendor Selection Criteria That Matter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f43281c234f8",
+          "_type": "link",
+          "href": "#vendor-selection-criteria-that-matter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a277f17daf83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5921118c755",
+          "_type": "span",
+          "marks": [
+            "b63e08364b85"
+          ],
+          "text": "Ongoing Operations, Billing Workflows, and Leak Response"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b63e08364b85",
+          "_type": "link",
+          "href": "#ongoing-operations-billing-workflows-and-leak-response"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7e5a5a5121fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b740745d2f69",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72e64f65ed42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46f5a71026f6",
+          "_type": "span",
+          "marks": [],
+          "text": "What Sub Metering Water Solves for Property Owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "401a55f947ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43ff3f540bd7",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager gets the call on a Monday morning. A resident says the water charge is unfair, another says the toilet has been running for weeks, and the board wants to know why the monthly utility bill looks higher than last year even though nothing obvious changed. That is the normal starting point for "
+        },
+        {
+          "_key": "d15635cb95c3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "167a7cfff9ec",
+          "_type": "span",
+          "marks": [],
+          "text": ", not a sales pitch, and not a spreadsheet. It is a practical response to a building that has outgrown blunt billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "912041e43690",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "364f357762e1",
+          "_type": "span",
+          "marks": [],
+          "text": "The value is straightforward. A submeter gives you "
+        },
+        {
+          "_key": "64bd61b9c650",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "suite-level visibility"
+        },
+        {
+          "_key": "945304c03230",
+          "_type": "span",
+          "marks": [],
+          "text": " instead of one blended bill for the whole property. That means you can see whether the problem is normal usage, an outlier household, a common-area load, or a leak that never shows up until the invoice lands. The difference is operational, not cosmetic. A flat fee or allocation formula can spread cost around, but it does not tell you what happened inside the building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32c1b88b8345",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1181671b0f11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "38872630c6cf",
+          "_type": "span",
+          "marks": [],
+          "text": " If you cannot point to the line, the suite, or the system that drove the bill, you are still guessing, even if your billing looks organised."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ccacf79b7380",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eac079f1e64a",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners usually get value in three places, and the mix changes by property. Sometimes the win comes from lower consumption because residents can see their own usage. Sometimes it comes from fairer allocation, which cuts disputes and makes billing easier to defend. Sometimes the biggest return is a single avoided loss, a running toilet, a stuck valve, or another leak that gets caught before it becomes a service call and a billing headache."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c37d63523b5e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18eda25ed9de",
+          "_type": "span",
+          "marks": [],
+          "text": "For managers running larger portfolios, the advantage is faster response. A good system lets you separate a normal spike from a bad fixture, so staff can stop arguing about the invoice and start fixing the issue. That matters even more when you pair utility data with an intelligent chatbot for property managers, because the team can answer resident questions, route complaints, and log leak reports without letting small problems sit in the inbox."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91c6e24fbcd8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5cd8d023d11",
+          "_type": "span",
+          "marks": [],
+          "text": "There's a reason owners keep moving toward this model. In the National Apartment Association and NMHC study of "
+        },
+        {
+          "_key": "faf71c65ded0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "32 properties in three states"
+        },
+        {
+          "_key": "ecb62f7b6d93",
+          "_type": "span",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_key": "1a340952ead7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "median submetered property used 18% to 39% less water"
+        },
+        {
+          "_key": "c7d3bcb2c491",
+          "_type": "span",
+          "marks": [],
+          "text": " than the in-rent sample, depending on the metric, and "
+        },
+        {
+          "_key": "e1b50a35a8a7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50% to 55% less"
+        },
+        {
+          "_key": "84310749b628",
+          "_type": "span",
+          "marks": [],
+          "text": " on a per-capita basis, with "
+        },
+        {
+          "_key": "b6a88af58e74",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "26% less"
+        },
+        {
+          "_key": "4996bb40078f",
+          "_type": "span",
+          "marks": [],
+          "text": " per occupied square foot, and billing method mattered more than building age or water and sewer price ("
+        },
+        {
+          "_key": "6ebfa3ae3715",
+          "_type": "span",
+          "marks": [
+            "6b0a0c80dd66"
+          ],
+          "text": "NAA/NMHC study"
+        },
+        {
+          "_key": "bae4f99a7666",
+          "_type": "span",
+          "marks": [],
+          "text": "). That matters in older stock because the technology changes behaviour and measurement, not just accounting."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6b0a0c80dd66",
+          "_type": "link",
+          "href": "https://utilitymca.org/pdf/NAA_&_NMHC-Water-study-on-RUBS-and-SubMetering.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7d35ec731fc4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5a7aef89e97",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners comparing programme options, the practical starting point is the same one used in this "
+        },
+        {
+          "_key": "f3fa183348aa",
+          "_type": "span",
+          "marks": [
+            "cb92b9816387"
+          ],
+          "text": "water submeter overview"
+        },
+        {
+          "_key": "686fbf333bef",
+          "_type": "span",
+          "marks": [],
+          "text": ". Ask whether the project is meant to recover costs, expose leaks faster, reduce disputes, or all three. If the answer is “all three,” then the building is already telling you why a master-meter-only approach is too blunt."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cb92b9816387",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/what-is-a-water-submeter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ba76f67a3906",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae3bdcd81e35",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c15c0a6b7841",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "207bd719a51e",
+          "_type": "span",
+          "marks": [],
+          "text": "Sub Metering Water vs Master Meters and RUBS Allocation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "96c0a21d195c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ccc8ca5e114f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "eac98be7495a",
+          "_type": "span",
+          "marks": [],
+          "text": " means a dedicated meter sits on the line feeding an individual suite or a defined common-area load. The owner gets actual consumption data for that specific load. That is not the same thing as a master meter, a check meter, or RUBS. People mix them up because all four touch utility billing, but they solve different problems."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ad79d239a796",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "967a427718e5",
+          "_type": "span",
+          "marks": [],
+          "text": "A master meter records the building's total intake. Useful for the utility company, useless for suite-level accountability. A check meter measures a branch or segment, which is handy for diagnostics but not enough for resident billing. RUBS, or Ratio Utility Billing System, allocates the master bill by formula, usually by occupancy or square footage. It is easier to roll out, but it is still an estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e165f0daa9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6671eb22a22",
+          "_type": "span",
+          "marks": [],
+          "text": "Approach"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c5c3145059a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db6c67680250",
+          "_type": "span",
+          "marks": [],
+          "text": "What's Measured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83c431d9cea5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5af7d0b5eb70",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing Accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "afaf6a27785e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1849164c1f13",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak Visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e159f7ff9a42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46e0b0af9174",
+          "_type": "span",
+          "marks": [],
+          "text": "Best Fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9761b7a3cf3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29123a0ec257",
+          "_type": "span",
+          "marks": [],
+          "text": "Master meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fad57f4ed4b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4dca0a2109a",
+          "_type": "span",
+          "marks": [],
+          "text": "Whole building"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f71ddcfb3ee5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f964cdbeca44",
+          "_type": "span",
+          "marks": [],
+          "text": "Low for individual suites"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b70a26d30af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "73e2a9c91ac8",
+          "_type": "span",
+          "marks": [],
+          "text": "Very limited"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a45c13121718",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "681ac57a5c50",
+          "_type": "span",
+          "marks": [],
+          "text": "Properties that only need one utility bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3adf5f624f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ac36cfd5195",
+          "_type": "span",
+          "marks": [],
+          "text": "Check meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7676f342c409",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6f91525d75c",
+          "_type": "span",
+          "marks": [],
+          "text": "A branch or system segment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58ec59a4b996",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8f2760a4aad",
+          "_type": "span",
+          "marks": [],
+          "text": "Medium for diagnostics"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43be5900bb3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11bc0719d1a1",
+          "_type": "span",
+          "marks": [],
+          "text": "Good for a shared line"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79e096462ab7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89d37b2b8414",
+          "_type": "span",
+          "marks": [],
+          "text": "Troubleshooting common-area or riser issues"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e60dea4964d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a5a66dd8334",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS allocation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a43f38ae0547",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a91466c2f0e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Nothing at unit level"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "479e23e108de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5360d6bd4259",
+          "_type": "span",
+          "marks": [],
+          "text": "Formula-based, not actual"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1880f0b20633",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db1a24bac660",
+          "_type": "span",
+          "marks": [],
+          "text": "Weak"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "767460fadeb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d4fbf0ef222",
+          "_type": "span",
+          "marks": [],
+          "text": "Buildings where physical metering isn't feasible"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81809bcf4577",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92e2df080f66",
+          "_type": "span",
+          "marks": [],
+          "text": "Submeter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d3a3e29884d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7951ae99da12",
+          "_type": "span",
+          "marks": [],
+          "text": "Individual suite or defined load"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "15867d4b4704",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "688abcf883bc",
+          "_type": "span",
+          "marks": [],
+          "text": "High"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7aa50c0e524",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ebafbfbf555",
+          "_type": "span",
+          "marks": [],
+          "text": "Strong"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00a1799927f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "769ec3dbeed0",
+          "_type": "span",
+          "marks": [],
+          "text": "Multifamily and condo properties that need real accountability"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff63d5681974",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "751e46e40a53",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS is administratively lighter, but it is weaker whenever the owner needs defensible chargebacks or actual consumption data. That distinction matters because the "
+        },
+        {
+          "_key": "1c37cc1ecc17",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "U.S. EPA-sponsored multifamily water billing research"
+        },
+        {
+          "_key": "97317d5c49a4",
+          "_type": "span",
+          "marks": [],
+          "text": " found "
+        },
+        {
+          "_key": "114a2b9b2c92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submetering reduced water use by 15.3%"
+        },
+        {
+          "_key": "46c815f2ee12",
+          "_type": "span",
+          "marks": [],
+          "text": ", equal to "
+        },
+        {
+          "_key": "10f58c00cf81",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "21.8 gallons per day per unit"
+        },
+        {
+          "_key": "43a51633bb28",
+          "_type": "span",
+          "marks": [],
+          "text": ", while "
+        },
+        {
+          "_key": "48fdf734fd9d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "RUBS showed no statistically significant water-saving effect"
+        },
+        {
+          "_key": "15f43a49d58e",
+          "_type": "span",
+          "marks": [],
+          "text": " versus traditional in-rent billing ("
+        },
+        {
+          "_key": "72cb6a12c7bb",
+          "_type": "span",
+          "marks": [
+            "d8ae20ecc222"
+          ],
+          "text": "EPA-sponsored research"
+        },
+        {
+          "_key": "1e9e6965fc01",
+          "_type": "span",
+          "marks": [],
+          "text": "). If your goal is conservation, RUBS is the wrong tool."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d8ae20ecc222",
+          "_type": "link",
+          "href": "https://www.scribd.com/doc/179827251/national-submeter-study"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8fb94b228363",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "654ea59b5052",
+          "_type": "span",
+          "marks": [],
+          "text": "The decision framework is blunt. Use a master meter when you want only a building-level bill. Use RUBS when physical limitations or capital constraints block true metering. Use submeters when the building needs actual accountability, better leak visibility, and chargebacks that can stand up to scrutiny. In most well-run multifamily and condo portfolios, that is the direction the industry keeps moving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba25959291da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e1df2b07678",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "22b07cb13964",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d678ac0cded0",
+          "_type": "span",
+          "marks": [],
+          "text": "Benefits That Move the Needle on NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b1279e7f8d1f",
+      "_type": "externalImage",
+      "alt": "An infographic showing four key benefits of sub metering water to improve net operating income.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b293597c-e91e-4bd4-8eec-35e68a5af6ec/sub-metering-water-noi-benefits.jpg"
+    },
+    {
+      "_key": "255b40eac2ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df34e0bb8737",
+          "_type": "span",
+          "marks": [],
+          "text": "The first benefit is cost recovery. If one household draws more water than the rest of the building, the owner should not absorb that expense forever. Suite-level billing puts the charge where the usage happens, which is easier to defend when residents question the bill. The second benefit is behaviour. Once residents know their own consumption is being measured, they stop treating water like an invisible building expense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "feafd616e4b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc7eac401bdd",
+          "_type": "span",
+          "marks": [],
+          "text": "The bigger payback usually comes from operating discipline, not clever billing language. A good system exposes waste fast, and that is where NOI improves in the actual world. A single running toilet, stuck fill valve, or slow leak can sit inside a master bill long enough to blur the cost. Submeter data breaks that pattern apart and gives maintenance a problem to chase before it grows teeth."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "445ddc7a900c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "019b3c3d216b",
+          "_type": "span",
+          "marks": [],
+          "text": "The research backs up the direction, even if the sales pitch often overreaches. The "
+        },
+        {
+          "_key": "e029ca24ef18",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NAA/NMHC study"
+        },
+        {
+          "_key": "020bd0f7bf12",
+          "_type": "span",
+          "marks": [],
+          "text": " found the median submetered property used "
+        },
+        {
+          "_key": "3f750952b82f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18% to 39% less water"
+        },
+        {
+          "_key": "97fc347a61dc",
+          "_type": "span",
+          "marks": [],
+          "text": " than the in-rent sample and "
+        },
+        {
+          "_key": "1a3bdfcbac77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50% to 55% less per capita"
+        },
+        {
+          "_key": "4ad4bdc25dda",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "498157fc949a",
+          "_type": "span",
+          "marks": [
+            "f22963206aef"
+          ],
+          "text": "NAA/NMHC study"
+        },
+        {
+          "_key": "42d495355df3",
+          "_type": "span",
+          "marks": [],
+          "text": "). The "
+        },
+        {
+          "_key": "f7379bf3ab61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "EPA-sponsored research"
+        },
+        {
+          "_key": "ef65a55b4ea8",
+          "_type": "span",
+          "marks": [],
+          "text": " found a "
+        },
+        {
+          "_key": "ec93e2f850e6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15.3% reduction"
+        },
+        {
+          "_key": "8a600cd4a8cb",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "e2b23b13a69d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "21.8 gallons per day per unit"
+        },
+        {
+          "_key": "b91446424285",
+          "_type": "span",
+          "marks": [],
+          "text": " of savings, while RUBS did not produce a statistically significant water-saving effect ("
+        },
+        {
+          "_key": "0c8b6364933b",
+          "_type": "span",
+          "marks": [
+            "cc40f07a6236"
+          ],
+          "text": "EPA-sponsored research"
+        },
+        {
+          "_key": "a1cae6cc42ca",
+          "_type": "span",
+          "marks": [],
+          "text": "). That is why the model keeps getting adopted. Owners want numbers they can act on, not a billing formula that hides waste."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f22963206aef",
+          "_type": "link",
+          "href": "https://utilitymca.org/pdf/NAA_&_NMHC-Water-study-on-RUBS-and-SubMetering.pdf"
+        },
+        {
+          "_key": "cc40f07a6236",
+          "_type": "link",
+          "href": "https://www.scribd.com/doc/179827251/national-submeter-study"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "32766d7b5731",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97a48abffbe3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational takeaway:"
+        },
+        {
+          "_key": "56b3bd79f3eb",
+          "_type": "span",
+          "marks": [],
+          "text": " In a building that already runs reasonably lean, the first dollar of value often comes from finding waste faster, not from chasing a dramatic conservation story."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "c7077be74b35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af86ddd867b4",
+          "_type": "span",
+          "marks": [],
+          "text": "There is also a direct administrative benefit. Billing disputes usually shrink when residents can see actual usage instead of a formula. Staff spend less time defending allocations, and that matters because every hour spent on billing arguments is an hour not spent on leasing, renewals, or maintenance follow-up. For owners managing Canadian multifamily stock, the strongest case is often a mix of fairer recovery and faster leak detection, not a dramatic conservation windfall."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de0f62e568ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "400b97aee7be",
+          "_type": "span",
+          "marks": [],
+          "text": "For the technical side of meter choice, "
+        },
+        {
+          "_key": "6605269b26c3",
+          "_type": "span",
+          "marks": [
+            "092ddac1c597"
+          ],
+          "text": "ultrasonic flow meters"
+        },
+        {
+          "_key": "853a27a6a411",
+          "_type": "span",
+          "marks": [],
+          "text": " are worth a close look when accuracy and low maintenance matter. The point is not the brand pitch; it is choosing equipment that captures low-flow usage and supports a retrofit without turning the building upside down."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "092ddac1c597",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "48d3a43208d0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3568480dd314",
+          "_type": "span",
+          "marks": [],
+          "text": "The one thing owners cannot do is install the system and ignore the data. Submetering only helps NOI if the team responds to the readings, tracks exceptions, and fixes the leaks the meters reveal. Without that operating habit, the upside stays on paper."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c913cf4899b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e241a7db70c1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b8825153c40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7b4d26901fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Hardware, Sensors, and Communications Explained"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3c1d8315cdd5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8988c52fb586",
+          "_type": "span",
+          "marks": [],
+          "text": "A good proposal should tell you exactly what is being installed and why. If it doesn't, the vendor is hiding behind jargon. For "
+        },
+        {
+          "_key": "5b18594c3d55",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "e2a80c8801ae",
+          "_type": "span",
+          "marks": [],
+          "text": ", the core choices are meter type, sensor package, and communications method, and each one affects accuracy, maintenance, and how painful the retrofit will be."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5603decfd669",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "838432dbad1a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "931e8784ebce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c74c8d862f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter type matters more than sales brochures admit"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3532affc6743",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96c40d2df063",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic meters are a strong fit when you need accuracy and low maintenance, especially where the water quality and installation conditions support them. Electromagnetic meters work well on conductive liquids and are often chosen where the application and pipe conditions suit that method. Multi-jet positive displacement meters are mechanical and still common in many residential jobs because they are familiar, compact, and easy to understand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9378f3d8d57f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1afb73d52a87",
+          "_type": "span",
+          "marks": [],
+          "text": "The wrong meter choice usually shows up later as noisy reads, poor low-flow capture, or maintenance headaches. For residential billing, low-flow performance matters because the meter has to catch the small daily draws that add up over time. If the device misses those, the billing conversation gets ugly fast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02c514fdf3ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af46af890e91",
+          "_type": "span",
+          "marks": [],
+          "text": "One practical resource if you want a deeper technical read on meter selection is this guide on "
+        },
+        {
+          "_key": "fb1473947ddd",
+          "_type": "span",
+          "marks": [
+            "f8bfef8dd233"
+          ],
+          "text": "ultrasonic flow meters"
+        },
+        {
+          "_key": "b572ed1fc8f0",
+          "_type": "span",
+          "marks": [],
+          "text": ". It is especially relevant when you're comparing retrofit options and trying to decide whether you need a cut-in install or a less disruptive approach."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f8bfef8dd233",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "604d2cb54354",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ed909161fc8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39a2b589e4d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3369887b18e1",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensors and communications are not optional extras"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b1731730f753",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d781f339fe5",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak and flood sensors add real operational value because they catch abnormal water events before they become damage claims. The data has to get out of the meter and into a billing or monitoring system, and that happens through wired pulse, wireless AMR, or cellular AMI depending on the building and the vendor design. If the communications layer is weak, the meter is just a piece of metal with a serial number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21efb1c1ea06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2ae4e27a56b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Vendor check:"
+        },
+        {
+          "_key": "197a220e01df",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask how the system handles low residential flow, what happens if the signal drops, and whether the platform flags abnormal usage patterns or only stores reads for billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "cd89f9b29d32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46f055abc666",
+          "_type": "span",
+          "marks": [],
+          "text": "For California-facing equipment, at least one specification in the verified data calls for "
+        },
+        {
+          "_key": "e034be284fd2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CTEP"
+        },
+        {
+          "_key": "67abce7a0f16",
+          "_type": "span",
+          "marks": [],
+          "text": " requirements, "
+        },
+        {
+          "_key": "20db69ff74f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NTEP"
+        },
+        {
+          "_key": "b3ea62ba3eaf",
+          "_type": "span",
+          "marks": [],
+          "text": " approval, "
+        },
+        {
+          "_key": "21dd116b83e2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NSF/ANSI 61 & 372"
+        },
+        {
+          "_key": "138819a63136",
+          "_type": "span",
+          "marks": [],
+          "text": " certification, a "
+        },
+        {
+          "_key": "6a3af4da6cbb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "pulse output of at least 1 pulse/10 gallons"
+        },
+        {
+          "_key": "56e16735eedf",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "178868704d6a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30 gpm max flow"
+        },
+        {
+          "_key": "c79dacb31ad1",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "e990a83d5617",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2 to 25 gpm normal flow"
+        },
+        {
+          "_key": "2f9f0ec6eb98",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "2975cdd1fb82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.50 gpm minimum flow"
+        },
+        {
+          "_key": "2b472ed2823c",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "f3b144eef09e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "150 psi"
+        },
+        {
+          "_key": "696b41c60e6e",
+          "_type": "span",
+          "marks": [],
+          "text": " maximum working pressure ("
+        },
+        {
+          "_key": "1f62a16c5007",
+          "_type": "span",
+          "marks": [
+            "dc1328ead8f9"
+          ],
+          "text": "meter specification"
+        },
+        {
+          "_key": "08ed549a0510",
+          "_type": "span",
+          "marks": [],
+          "text": "). A California utility specification also requires "
+        },
+        {
+          "_key": "e6f59bf6f3f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10 pipe diameters of straight pipe downstream"
+        },
+        {
+          "_key": "43337f699af4",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "583227f17e56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 diameters upstream"
+        },
+        {
+          "_key": "b7fcd353affe",
+          "_type": "span",
+          "marks": [],
+          "text": ", an "
+        },
+        {
+          "_key": "1ffc0457ee27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "accessible location"
+        },
+        {
+          "_key": "cd8b43eabec8",
+          "_type": "span",
+          "marks": [],
+          "text": ", and an "
+        },
+        {
+          "_key": "f29ee4c129ff",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "inline strainer"
+        },
+        {
+          "_key": "1382063a95aa",
+          "_type": "span",
+          "marks": [],
+          "text": " on the inlet ("
+        },
+        {
+          "_key": "389e5d2842c7",
+          "_type": "span",
+          "marks": [
+            "13469a8c29e1"
+          ],
+          "text": "EPA utility specification"
+        },
+        {
+          "_key": "08c2daefa28b",
+          "_type": "span",
+          "marks": [],
+          "text": "). Those details are not paperwork. They are the difference between stable readings and billing headaches."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dc1328ead8f9",
+          "_type": "link",
+          "href": "https://media.distributordatasolutions.com/csv_leviton/2023q2/documents/3658fd6d8e0a546ff6b1a8a67c0dd5ca2a518323.pdf"
+        },
+        {
+          "_key": "13469a8c29e1",
+          "_type": "link",
+          "href": "https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-10-MeteringTechSheet.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "238eb5fae6f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee33d686ace2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c99d9816d58f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "196f8a09afc1",
+          "_type": "span",
+          "marks": [],
+          "text": "Implementation Timeline and On-Site Requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "af2357a3483b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5614508309e",
+          "_type": "span",
+          "marks": [],
+          "text": "A proper project does not start with installation day. It starts with a site walk, a plumbing review, and a jurisdiction check so the design matches the actual building instead of the sales deck. In most portfolios, the end-to-end process lands in the "
+        },
+        {
+          "_key": "613767b7dfcf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 week"
+        },
+        {
+          "_key": "8ed57a104d32",
+          "_type": "span",
+          "marks": [],
+          "text": " range from signed agreement to live meters, assuming the site is organised and access is managed well."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ebfc9ab8a3e",
+      "_type": "externalImage",
+      "alt": "A five-step infographic showing the implementation timeline for on-site water sub metering and electrical equipment installation.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d70316fd-3594-45c8-9764-c07d5ce7623e/sub-metering-water-implementation-timeline.jpg"
+    },
+    {
+      "_key": "e0817a94dcbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "580c0d7681f5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09d1edf1201f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6f5411b6af0",
+          "_type": "span",
+          "marks": [],
+          "text": "The work is front-loaded"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "641987f65faa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f752ba76cbd4",
+          "_type": "span",
+          "marks": [],
+          "text": "The first stage is the site survey. Someone needs to see where the shutoffs are, how the risers are laid out, and whether the property has the access needed for the chosen hardware. Then comes the jurisdiction-specific design and permitting work, which is where a lot of lazy proposals fall apart. If the vendor can't map design to local rules, the project will drift."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd7c6354acc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3dfc23144ae3",
+          "_type": "span",
+          "marks": [],
+          "text": "After that, equipment gets ordered. Meters, sensors, gateways, and billing components all have to be aligned before crews mobilise. Installation usually comes next, and access planning matters most at this stage. A collaborative rollout with on-site trades can cut the disruption down significantly, and in many buildings that means "
+        },
+        {
+          "_key": "b524a7a09645",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one to two days per suite"
+        },
+        {
+          "_key": "e1064faee45d",
+          "_type": "span",
+          "marks": [],
+          "text": " rather than a long, messy sequence of repeat visits, according to the publisher's own programme design notes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2a0757f7153c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37e58c28d019",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "19e8826917f3",
+          "_type": "span",
+          "marks": [],
+          "text": " If the vendor can't explain how they'll handle shutoffs, suite access, and tenant notice, they haven't really planned the job."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "be649c7971d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5dd214384293",
+          "_type": "span",
+          "marks": [],
+          "text": "The final stage is commissioning and go-live. That includes testing the system, validating reads, and notifying tenants before the first bill cycle. If the team rushes this part, billing errors show up immediately and trust drops fast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "856cc1b6f951",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1c38ceeb6b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Older Canadian buildings make the logistics harder, not impossible. Mechanical rooms are tighter, access routes are narrower, and the plumbing rarely looks like the drawings. That is why a clean implementation plan matters more than a glossy hardware brochure. The project should feel controlled, not heroic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83456367a7b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc9d5786db7e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "817f0339b73f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "697f560487df",
+          "_type": "span",
+          "marks": [],
+          "text": "Cost Structures and the $0 Upfront Model"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ab4bb128364a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ca5ad52d4aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners usually see three commercial structures. The first is straight capital purchase, where you buy the hardware and pay separately for installation and billing support. The second is financed purchase, which spreads the capital burden through a loan or lease. The third is the "
+        },
+        {
+          "_key": "249dcc48d253",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront"
+        },
+        {
+          "_key": "9b8123493e39",
+          "_type": "span",
+          "marks": [],
+          "text": " model, where the provider owns the equipment and recovers its cost through a long-term service fee."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae27ff98f440",
+      "_type": "externalImage",
+      "alt": "An infographic illustrating three different payment models for sub metering water services: capital purchase, financed model, and zero-upfront.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5e4b0d1d-045e-4d69-a749-b0f6dc1d152b/sub-metering-water-payment-models.jpg"
+    },
+    {
+      "_key": "720f46b81828",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "222be335acd4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b2c3ab669e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc1090f41a71",
+          "_type": "span",
+          "marks": [],
+          "text": "What you actually get in a zero-upfront programme"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "dd0b432cc0d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b5dccb35d1f",
+          "_type": "span",
+          "marks": [],
+          "text": "A real $0 upfront arrangement should include equipment, installation, commissioning, tenant billing software, collections support, ongoing maintenance, and replacement over the service term. In the publisher's programme description, that term is typically "
+        },
+        {
+          "_key": "8d8a9e4a33e9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20 years"
+        },
+        {
+          "_key": "10c88040938d",
+          "_type": "span",
+          "marks": [],
+          "text": ", with provider-owned and maintained equipment and no upfront capital cost to the owner. That structure matters in older multifamily and condo portfolios where the board or owner wants the operating gain without opening a capital project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c508e1d1932",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdc256bf368d",
+          "_type": "span",
+          "marks": [],
+          "text": "The trade-off is straightforward. You give up some flexibility and accept a longer commitment, but you avoid the immediate capex hit. That is often the right answer for buildings that need the operational benefits now and cannot justify a full cash purchase in the current budget cycle. If you have a newer asset with strong capital reserves, owning the hardware may still make more sense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1e0ba7ff392",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4a0c24b3f15",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "632afa5e4487",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eaa3e27ea76e",
+          "_type": "span",
+          "marks": [],
+          "text": "How to choose the structure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4b6a7c8170c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fef22e642e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Capital purchase:"
+        },
+        {
+          "_key": "d2d8ebdfdf66",
+          "_type": "span",
+          "marks": [],
+          "text": " Best when the owner wants maximum control and can absorb the upfront spend."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17a709d054fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a5cd7b4183d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Financed purchase:"
+        },
+        {
+          "_key": "1b291fe60d68",
+          "_type": "span",
+          "marks": [],
+          "text": " Best when the owner wants ownership but needs to smooth cash flow."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1050c8f16ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "911ad33f4a0d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront provider-owned:"
+        },
+        {
+          "_key": "3850008dd991",
+          "_type": "span",
+          "marks": [],
+          "text": " Best when the property needs the programme and the budget will not support a retrofit capital hit."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f21682de385c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04351f63d984",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions offers a provider-owned model for water submetering, with installation, billing, maintenance, and compliance handled under long-term agreements. That's not the right fit for every asset, but it is a workable structure for owners who need to solve the problem without funding the hardware themselves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc35b1963abc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a5ba09af92b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e0eb6736167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "157ae7422611",
+          "_type": "span",
+          "marks": [],
+          "text": "Vendor Selection Criteria That Matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "55ded9b6770b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30ef29180707",
+          "_type": "span",
+          "marks": [],
+          "text": "The worst mistake owners make is picking the vendor with the slickest savings slide. That slide tells you almost nothing. What matters is whether the company can install legally, bill accurately, and respond when something breaks at 7 a.m. on a holiday weekend."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "beb1656f7e99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d813b29484f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with compliance. The vendor should know the jurisdictional rules for the markets in your portfolio, and they should be able to explain how approvals are handled before the first site gets scheduled. In Ontario, for example, the publisher notes that its operations align with "
+        },
+        {
+          "_key": "d40b7ec2de87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ontario Energy Board licensing for electricity unit sub-metering under licence ES-2022-0268"
+        },
+        {
+          "_key": "6fb8facc31bd",
+          "_type": "span",
+          "marks": [],
+          "text": ", and it also references "
+        },
+        {
+          "_key": "e19b5f11beaa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measurement Canada"
+        },
+        {
+          "_key": "75653fccdec8",
+          "_type": "span",
+          "marks": [],
+          "text": " and U.S. requirements in its equipment selection. For water, the same discipline applies even when the paperwork differs by province or state."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd01400c7611",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ba5aca27790",
+          "_type": "span",
+          "marks": [],
+          "text": "Then look at the operating model. A vendor that only installs hardware and walks away leaves the owner exposed when billing questions start. You want the team that can handle reads, invoicing, collections workflows, resident support, and maintenance without bouncing the issue around three contractors. Insurance, bonding, and in-house labour depth matter for the same reason."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b12a1e101b9a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e8e893800cc",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask a blunt question, what happens after the first bad bill, the first dead gateway, or the first leak alert at midnight?"
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "47af91175246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9509641bfbe",
+          "_type": "span",
+          "marks": [],
+          "text": "Red flags are easy to spot. Vague payback claims, vague timelines, and savings guarantees that ignore building condition are all signs of a weak proposal. So are vendors who can't explain which approvals apply, who owns the meters, and how billing disputes get resolved."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "303b932e3bd1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e52c3193dd0a",
+          "_type": "span",
+          "marks": [],
+          "text": "A good vendor also has a clear answer for the part most sales decks skip, leak detection and response. "
+        },
+        {
+          "_key": "55a62df52134",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "7649af110844",
+          "_type": "span",
+          "marks": [],
+          "text": " is not just a billing tool, it is an operating control that helps protect NOI when a single failed toilet flapper or hidden line leak starts wasting water. If the vendor cannot explain how meter alerts and alarms get routed to staff, they are not ready for a real portfolio. For a practical reference on the device side, see "
+        },
+        {
+          "_key": "213146da2736",
+          "_type": "span",
+          "marks": [
+            "3d076d7382aa"
+          ],
+          "text": "water alarm sensor use in property operations"
+        },
+        {
+          "_key": "1cc36858d1bb",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3d076d7382aa",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-alarm-sensor"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0dfc8c8e01df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7819ddc8148",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want a straightforward shortlist process, ask for three things: the installation plan, the billing workflow, and the escalation path for leaks and resident complaints. If a vendor cannot answer those cleanly, move on. The right partner should also fit into your existing reporting stack, including the tools your team already uses to "
+        },
+        {
+          "_key": "fef101ddeb77",
+          "_type": "span",
+          "marks": [
+            "eec9b0019c88"
+          ],
+          "text": "boost NOI with utility software"
+        },
+        {
+          "_key": "3c6eac5348e1",
+          "_type": "span",
+          "marks": [],
+          "text": ", so the project improves operations instead of creating a second workflow people ignore."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "eec9b0019c88",
+          "_type": "link",
+          "href": "https://www.homebasecre.com/posts/utility-management-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2a891d7720c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49f95dbf3498",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff43cd0a2252",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f156463b1d69",
+          "_type": "span",
+          "marks": [],
+          "text": "Ongoing Operations, Billing Workflows, and Leak Response"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "1ea2c5a74178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85eb3f01f3c4",
+          "_type": "span",
+          "marks": [],
+          "text": "The first mistake owners make after go-live is treating the project like it is finished. It is not. "
+        },
+        {
+          "_key": "cf30cca304f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sub Metering Water"
+        },
+        {
+          "_key": "ebe109ceb5e6",
+          "_type": "span",
+          "marks": [],
+          "text": " becomes a monthly operating system, and the quality of that system decides whether the programme feels like an asset or a nuisance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43aa52417c77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "347dd7af95d6",
+          "_type": "span",
+          "marks": [],
+          "text": "The monthly workflow should be boring in the best way. Reads come in automatically, invoices generate, exceptions get reviewed, arrears get handled, and owners get reporting that shows what changed. If the billing team is doing this well, the property manager should spend less time on utility admin, not more. The right setup also has to fit the tools the team already uses, including an "
+        },
+        {
+          "_key": "10d05ed7a855",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "e5291224ec2e"
+          ],
+          "text": "intelligent chatbot for property managers"
+        },
+        {
+          "_key": "2d31d5c3ba91",
+          "_type": "span",
+          "marks": [],
+          "text": " if resident questions or billing explanations are part of the workflow, and the reporting stack that helps "
+        },
+        {
+          "_key": "60a1a4a04711",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "812c58c3f9f8"
+          ],
+          "text": "boost NOI with utility software"
+        },
+        {
+          "_key": "3be5963a596c",
+          "_type": "span",
+          "marks": [],
+          "text": " instead of forcing staff into a second system nobody trusts."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e5291224ec2e",
+          "_type": "link",
+          "href": "https://docsbot.ai/industry/property-management"
+        },
+        {
+          "_key": "812c58c3f9f8",
+          "_type": "link",
+          "href": "https://www.homebasecre.com/posts/utility-management-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f814a2cd1e0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88d4b720cc58",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak and flood response is the other half of the operation, and it is the point where real money gets protected. A water alarm sensor or meter alert can tell staff something is wrong before the resident notices it, and that early notice changes the outcome. A small leak becomes a work order instead of a damage event. For a practical look at the device layer, see "
+        },
+        {
+          "_key": "97386a766c05",
+          "_type": "span",
+          "marks": [
+            "652237db8ff2"
+          ],
+          "text": "water alarm sensor use in property operations"
+        },
+        {
+          "_key": "45566ba207e6",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "652237db8ff2",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-alarm-sensor"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "57b13d040bdd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "335c13fa8c29",
+          "_type": "span",
+          "marks": [],
+          "text": "The savings range that gets repeated in the industry is a useful benchmark, but it is not a promise for every asset. The EPA-sponsored research found "
+        },
+        {
+          "_key": "c9050e0c0d44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15.3%"
+        },
+        {
+          "_key": "9420d2de108f",
+          "_type": "span",
+          "marks": [],
+          "text": " savings and "
+        },
+        {
+          "_key": "7453eb9fc097",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "21.8 gallons per day per unit"
+        },
+        {
+          "_key": "582ab7471e37",
+          "_type": "span",
+          "marks": [],
+          "text": " in the study it reviewed, while RUBS did not show a statistically significant conservation effect ("
+        },
+        {
+          "_key": "c7114db6994b",
+          "_type": "span",
+          "marks": [
+            "db0cc2483256"
+          ],
+          "text": "EPA-sponsored research"
+        },
+        {
+          "_key": "23cb22baa90d",
+          "_type": "span",
+          "marks": [],
+          "text": "). In a building that is already efficient, the bigger value often comes from catching one bad toilet flapper, one stuck valve, or one slow line leak before it turns into a claim."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "db0cc2483256",
+          "_type": "link",
+          "href": "https://www.scribd.com/doc/179827251/national-submeter-study"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "81e362fb4a0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db3ad3971048",
+          "_type": "span",
+          "marks": [],
+          "text": "Maintenance needs a predictable cadence. Meters need periodic verification, software needs updates, and devices eventually need replacement. A good provider plans for that up front instead of turning maintenance into a surprise invoice later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Learn how sub metering water cuts costs, detects leaks, and streamlines tenant billing. A practical guide for property owners and managers.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c1c805a9-4735-48d4-a0a6-03c1d5c88053/sub-metering-water-property-guide.jpg",
+  "noIndex": false,
+  "outrankId": "a9e72c6f-57d0-49e4-acf7-96fea9ac3416",
+  "publishedAt": "2026-07-29T06:58:31.931771+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "sub-metering-water"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re staring at a water bill that doesn&#39;t make sense. The building is full, the tenants are loud about fairness, and every month the same question comes up in a different form, which stack, which suite, and which hidden leak is chewing through NOI. <strong>Sub Metering Water</strong> stops being a billing argument the moment you treat it as a measurement system, because once you can see consumption at the suite level, you can manage it, bill it, and catch the failures that master-metered buildings hide for months.</p>\n<p>Owners usually come to this topic asking about tenant chargebacks. That&#39;s the wrong starting point. The core question is whether you want to keep absorbing waste, or whether you want the building to tell you where the money is going, suite by suite, riser by riser, and, when necessary, valve by valve.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-sub-metering-water-solves-for-property-owners\">What Sub Metering Water Solves for Property Owners</a></li>\n<li><a href=\"#sub-metering-water-vs-master-meters-and-rubs-allocation\">Sub Metering Water vs Master Meters and RUBS Allocation</a></li>\n<li><a href=\"#benefits-that-move-the-needle-on-noi\">Benefits That Move the Needle on NOI</a></li>\n<li><a href=\"#hardware-sensors-and-communications-explained\">Hardware, Sensors, and Communications Explained</a><ul>\n<li><a href=\"#meter-type-matters-more-than-sales-brochures-admit\">Meter type matters more than sales brochures admit</a></li>\n<li><a href=\"#sensors-and-communications-are-not-optional-extras\">Sensors and communications are not optional extras</a></li>\n</ul>\n</li>\n<li><a href=\"#implementation-timeline-and-on-site-requirements\">Implementation Timeline and On-Site Requirements</a><ul>\n<li><a href=\"#the-work-is-front-loaded\">The work is front-loaded</a></li>\n</ul>\n</li>\n<li><a href=\"#cost-structures-and-the-0-upfront-model\">Cost Structures and the $0 Upfront Model</a><ul>\n<li><a href=\"#what-you-actually-get-in-a-zero-upfront-programme\">What you actually get in a zero-upfront programme</a></li>\n<li><a href=\"#how-to-choose-the-structure\">How to choose the structure</a></li>\n</ul>\n</li>\n<li><a href=\"#vendor-selection-criteria-that-matter\">Vendor Selection Criteria That Matter</a></li>\n<li><a href=\"#ongoing-operations-billing-workflows-and-leak-response\">Ongoing Operations, Billing Workflows, and Leak Response</a></li>\n</ul>\n<p><a id=\"what-sub-metering-water-solves-for-property-owners\"></a></p>\n<h2>What Sub Metering Water Solves for Property Owners</h2>\n<p>A property manager gets the call on a Monday morning. A resident says the water charge is unfair, another says the toilet has been running for weeks, and the board wants to know why the monthly utility bill looks higher than last year even though nothing obvious changed. That is the normal starting point for <strong>Sub Metering Water</strong>, not a sales pitch, and not a spreadsheet. It is a practical response to a building that has outgrown blunt billing.</p>\n<p>The value is straightforward. A submeter gives you <strong>suite-level visibility</strong> instead of one blended bill for the whole property. That means you can see whether the problem is normal usage, an outlier household, a common-area load, or a leak that never shows up until the invoice lands. The difference is operational, not cosmetic. A flat fee or allocation formula can spread cost around, but it does not tell you what happened inside the building.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If you cannot point to the line, the suite, or the system that drove the bill, you are still guessing, even if your billing looks organised.</p>\n</blockquote>\n<p>Owners usually get value in three places, and the mix changes by property. Sometimes the win comes from lower consumption because residents can see their own usage. Sometimes it comes from fairer allocation, which cuts disputes and makes billing easier to defend. Sometimes the biggest return is a single avoided loss, a running toilet, a stuck valve, or another leak that gets caught before it becomes a service call and a billing headache.</p>\n<p>For managers running larger portfolios, the advantage is faster response. A good system lets you separate a normal spike from a bad fixture, so staff can stop arguing about the invoice and start fixing the issue. That matters even more when you pair utility data with an intelligent chatbot for property managers, because the team can answer resident questions, route complaints, and log leak reports without letting small problems sit in the inbox.</p>\n<p>There&#39;s a reason owners keep moving toward this model. In the National Apartment Association and NMHC study of <strong>32 properties in three states</strong>, the <strong>median submetered property used 18% to 39% less water</strong> than the in-rent sample, depending on the metric, and <strong>50% to 55% less</strong> on a per-capita basis, with <strong>26% less</strong> per occupied square foot, and billing method mattered more than building age or water and sewer price (<a href=\"https://utilitymca.org/pdf/NAA_&_NMHC-Water-study-on-RUBS-and-SubMetering.pdf\">NAA/NMHC study</a>). That matters in older stock because the technology changes behaviour and measurement, not just accounting.</p>\n<p>For owners comparing programme options, the practical starting point is the same one used in this <a href=\"https://www.axismeter.com/blog/what-is-a-water-submeter\">water submeter overview</a>. Ask whether the project is meant to recover costs, expose leaks faster, reduce disputes, or all three. If the answer is “all three,” then the building is already telling you why a master-meter-only approach is too blunt.</p>\n<p><a id=\"sub-metering-water-vs-master-meters-and-rubs-allocation\"></a></p>\n<h2>Sub Metering Water vs Master Meters and RUBS Allocation</h2>\n<p><strong>Sub Metering Water</strong> means a dedicated meter sits on the line feeding an individual suite or a defined common-area load. The owner gets actual consumption data for that specific load. That is not the same thing as a master meter, a check meter, or RUBS. People mix them up because all four touch utility billing, but they solve different problems.</p>\n<p>A master meter records the building&#39;s total intake. Useful for the utility company, useless for suite-level accountability. A check meter measures a branch or segment, which is handy for diagnostics but not enough for resident billing. RUBS, or Ratio Utility Billing System, allocates the master bill by formula, usually by occupancy or square footage. It is easier to roll out, but it is still an estimate.</p>\n<table>\n<thead>\n<tr>\n<th>Approach</th>\n<th>What&#39;s Measured</th>\n<th>Billing Accuracy</th>\n<th>Leak Visibility</th>\n<th>Best Fit</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Master meter</td>\n<td>Whole building</td>\n<td>Low for individual suites</td>\n<td>Very limited</td>\n<td>Properties that only need one utility bill</td>\n</tr>\n<tr>\n<td>Check meter</td>\n<td>A branch or system segment</td>\n<td>Medium for diagnostics</td>\n<td>Good for a shared line</td>\n<td>Troubleshooting common-area or riser issues</td>\n</tr>\n<tr>\n<td>RUBS allocation</td>\n<td>Nothing at unit level</td>\n<td>Formula-based, not actual</td>\n<td>Weak</td>\n<td>Buildings where physical metering isn&#39;t feasible</td>\n</tr>\n<tr>\n<td>Submeter</td>\n<td>Individual suite or defined load</td>\n<td>High</td>\n<td>Strong</td>\n<td>Multifamily and condo properties that need real accountability</td>\n</tr>\n</tbody></table>\n<p>RUBS is administratively lighter, but it is weaker whenever the owner needs defensible chargebacks or actual consumption data. That distinction matters because the <strong>U.S. EPA-sponsored multifamily water billing research</strong> found <strong>submetering reduced water use by 15.3%</strong>, equal to <strong>21.8 gallons per day per unit</strong>, while <strong>RUBS showed no statistically significant water-saving effect</strong> versus traditional in-rent billing (<a href=\"https://www.scribd.com/doc/179827251/national-submeter-study\">EPA-sponsored research</a>). If your goal is conservation, RUBS is the wrong tool.</p>\n<p>The decision framework is blunt. Use a master meter when you want only a building-level bill. Use RUBS when physical limitations or capital constraints block true metering. Use submeters when the building needs actual accountability, better leak visibility, and chargebacks that can stand up to scrutiny. In most well-run multifamily and condo portfolios, that is the direction the industry keeps moving.</p>\n<p><a id=\"benefits-that-move-the-needle-on-noi\"></a></p>\n<h2>Benefits That Move the Needle on NOI</h2>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b293597c-e91e-4bd4-8eec-35e68a5af6ec/sub-metering-water-noi-benefits.jpg\" alt=\"An infographic showing four key benefits of sub metering water to improve net operating income.\"></p>\n<p>The first benefit is cost recovery. If one household draws more water than the rest of the building, the owner should not absorb that expense forever. Suite-level billing puts the charge where the usage happens, which is easier to defend when residents question the bill. The second benefit is behaviour. Once residents know their own consumption is being measured, they stop treating water like an invisible building expense.</p>\n<p>The bigger payback usually comes from operating discipline, not clever billing language. A good system exposes waste fast, and that is where NOI improves in the actual world. A single running toilet, stuck fill valve, or slow leak can sit inside a master bill long enough to blur the cost. Submeter data breaks that pattern apart and gives maintenance a problem to chase before it grows teeth.</p>\n<p>The research backs up the direction, even if the sales pitch often overreaches. The <strong>NAA/NMHC study</strong> found the median submetered property used <strong>18% to 39% less water</strong> than the in-rent sample and <strong>50% to 55% less per capita</strong> (<a href=\"https://utilitymca.org/pdf/NAA_&_NMHC-Water-study-on-RUBS-and-SubMetering.pdf\">NAA/NMHC study</a>). The <strong>EPA-sponsored research</strong> found a <strong>15.3% reduction</strong> and <strong>21.8 gallons per day per unit</strong> of savings, while RUBS did not produce a statistically significant water-saving effect (<a href=\"https://www.scribd.com/doc/179827251/national-submeter-study\">EPA-sponsored research</a>). That is why the model keeps getting adopted. Owners want numbers they can act on, not a billing formula that hides waste.</p>\n<blockquote>\n<p><strong>Operational takeaway:</strong> In a building that already runs reasonably lean, the first dollar of value often comes from finding waste faster, not from chasing a dramatic conservation story.</p>\n</blockquote>\n<p>There is also a direct administrative benefit. Billing disputes usually shrink when residents can see actual usage instead of a formula. Staff spend less time defending allocations, and that matters because every hour spent on billing arguments is an hour not spent on leasing, renewals, or maintenance follow-up. For owners managing Canadian multifamily stock, the strongest case is often a mix of fairer recovery and faster leak detection, not a dramatic conservation windfall.</p>\n<p>For the technical side of meter choice, <a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">ultrasonic flow meters</a> are worth a close look when accuracy and low maintenance matter. The point is not the brand pitch; it is choosing equipment that captures low-flow usage and supports a retrofit without turning the building upside down.</p>\n<p>The one thing owners cannot do is install the system and ignore the data. Submetering only helps NOI if the team responds to the readings, tracks exceptions, and fixes the leaks the meters reveal. Without that operating habit, the upside stays on paper.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/2tVv4bIHbBY\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"hardware-sensors-and-communications-explained\"></a></p>\n<h2>Hardware, Sensors, and Communications Explained</h2>\n<p>A good proposal should tell you exactly what is being installed and why. If it doesn&#39;t, the vendor is hiding behind jargon. For <strong>Sub Metering Water</strong>, the core choices are meter type, sensor package, and communications method, and each one affects accuracy, maintenance, and how painful the retrofit will be.</p>\n<p><a id=\"meter-type-matters-more-than-sales-brochures-admit\"></a></p>\n<h3>Meter type matters more than sales brochures admit</h3>\n<p>Ultrasonic meters are a strong fit when you need accuracy and low maintenance, especially where the water quality and installation conditions support them. Electromagnetic meters work well on conductive liquids and are often chosen where the application and pipe conditions suit that method. Multi-jet positive displacement meters are mechanical and still common in many residential jobs because they are familiar, compact, and easy to understand.</p>\n<p>The wrong meter choice usually shows up later as noisy reads, poor low-flow capture, or maintenance headaches. For residential billing, low-flow performance matters because the meter has to catch the small daily draws that add up over time. If the device misses those, the billing conversation gets ugly fast.</p>\n<p>One practical resource if you want a deeper technical read on meter selection is this guide on <a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">ultrasonic flow meters</a>. It is especially relevant when you&#39;re comparing retrofit options and trying to decide whether you need a cut-in install or a less disruptive approach.</p>\n<p><a id=\"sensors-and-communications-are-not-optional-extras\"></a></p>\n<h3>Sensors and communications are not optional extras</h3>\n<p>Leak and flood sensors add real operational value because they catch abnormal water events before they become damage claims. The data has to get out of the meter and into a billing or monitoring system, and that happens through wired pulse, wireless AMR, or cellular AMI depending on the building and the vendor design. If the communications layer is weak, the meter is just a piece of metal with a serial number.</p>\n<blockquote>\n<p><strong>Vendor check:</strong> Ask how the system handles low residential flow, what happens if the signal drops, and whether the platform flags abnormal usage patterns or only stores reads for billing.</p>\n</blockquote>\n<p>For California-facing equipment, at least one specification in the verified data calls for <strong>CTEP</strong> requirements, <strong>NTEP</strong> approval, <strong>NSF/ANSI 61 &amp; 372</strong> certification, a <strong>pulse output of at least 1 pulse/10 gallons</strong>, <strong>30 gpm max flow</strong>, <strong>2 to 25 gpm normal flow</strong>, <strong>0.50 gpm minimum flow</strong>, and <strong>150 psi</strong> maximum working pressure (<a href=\"https://media.distributordatasolutions.com/csv_leviton/2023q2/documents/3658fd6d8e0a546ff6b1a8a67c0dd5ca2a518323.pdf\">meter specification</a>). A California utility specification also requires <strong>10 pipe diameters of straight pipe downstream</strong>, <strong>5 diameters upstream</strong>, an <strong>accessible location</strong>, and an <strong>inline strainer</strong> on the inlet (<a href=\"https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-10-MeteringTechSheet.pdf\">EPA utility specification</a>). Those details are not paperwork. They are the difference between stable readings and billing headaches.</p>\n<p><a id=\"implementation-timeline-and-on-site-requirements\"></a></p>\n<h2>Implementation Timeline and On-Site Requirements</h2>\n<p>A proper project does not start with installation day. It starts with a site walk, a plumbing review, and a jurisdiction check so the design matches the actual building instead of the sales deck. In most portfolios, the end-to-end process lands in the <strong>8 to 10 week</strong> range from signed agreement to live meters, assuming the site is organised and access is managed well.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d70316fd-3594-45c8-9764-c07d5ce7623e/sub-metering-water-implementation-timeline.jpg\" alt=\"A five-step infographic showing the implementation timeline for on-site water sub metering and electrical equipment installation.\"></p>\n<p><a id=\"the-work-is-front-loaded\"></a></p>\n<h3>The work is front-loaded</h3>\n<p>The first stage is the site survey. Someone needs to see where the shutoffs are, how the risers are laid out, and whether the property has the access needed for the chosen hardware. Then comes the jurisdiction-specific design and permitting work, which is where a lot of lazy proposals fall apart. If the vendor can&#39;t map design to local rules, the project will drift.</p>\n<p>After that, equipment gets ordered. Meters, sensors, gateways, and billing components all have to be aligned before crews mobilise. Installation usually comes next, and access planning matters most at this stage. A collaborative rollout with on-site trades can cut the disruption down significantly, and in many buildings that means <strong>one to two days per suite</strong> rather than a long, messy sequence of repeat visits, according to the publisher&#39;s own programme design notes.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If the vendor can&#39;t explain how they&#39;ll handle shutoffs, suite access, and tenant notice, they haven&#39;t really planned the job.</p>\n</blockquote>\n<p>The final stage is commissioning and go-live. That includes testing the system, validating reads, and notifying tenants before the first bill cycle. If the team rushes this part, billing errors show up immediately and trust drops fast.</p>\n<p>Older Canadian buildings make the logistics harder, not impossible. Mechanical rooms are tighter, access routes are narrower, and the plumbing rarely looks like the drawings. That is why a clean implementation plan matters more than a glossy hardware brochure. The project should feel controlled, not heroic.</p>\n<p><a id=\"cost-structures-and-the-0-upfront-model\"></a></p>\n<h2>Cost Structures and the $0 Upfront Model</h2>\n<p>Owners usually see three commercial structures. The first is straight capital purchase, where you buy the hardware and pay separately for installation and billing support. The second is financed purchase, which spreads the capital burden through a loan or lease. The third is the <strong>$0 upfront</strong> model, where the provider owns the equipment and recovers its cost through a long-term service fee.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5e4b0d1d-045e-4d69-a749-b0f6dc1d152b/sub-metering-water-payment-models.jpg\" alt=\"An infographic illustrating three different payment models for sub metering water services: capital purchase, financed model, and zero-upfront.\"></p>\n<p><a id=\"what-you-actually-get-in-a-zero-upfront-programme\"></a></p>\n<h3>What you actually get in a zero-upfront programme</h3>\n<p>A real $0 upfront arrangement should include equipment, installation, commissioning, tenant billing software, collections support, ongoing maintenance, and replacement over the service term. In the publisher&#39;s programme description, that term is typically <strong>20 years</strong>, with provider-owned and maintained equipment and no upfront capital cost to the owner. That structure matters in older multifamily and condo portfolios where the board or owner wants the operating gain without opening a capital project.</p>\n<p>The trade-off is straightforward. You give up some flexibility and accept a longer commitment, but you avoid the immediate capex hit. That is often the right answer for buildings that need the operational benefits now and cannot justify a full cash purchase in the current budget cycle. If you have a newer asset with strong capital reserves, owning the hardware may still make more sense.</p>\n<p><a id=\"how-to-choose-the-structure\"></a></p>\n<h3>How to choose the structure</h3>\n<ul>\n<li><strong>Capital purchase:</strong> Best when the owner wants maximum control and can absorb the upfront spend.</li>\n<li><strong>Financed purchase:</strong> Best when the owner wants ownership but needs to smooth cash flow.</li>\n<li><strong>$0 upfront provider-owned:</strong> Best when the property needs the programme and the budget will not support a retrofit capital hit.</li>\n</ul>\n<p>Axis Meter Solutions offers a provider-owned model for water submetering, with installation, billing, maintenance, and compliance handled under long-term agreements. That&#39;s not the right fit for every asset, but it is a workable structure for owners who need to solve the problem without funding the hardware themselves.</p>\n<p><a id=\"vendor-selection-criteria-that-matter\"></a></p>\n<h2>Vendor Selection Criteria That Matter</h2>\n<p>The worst mistake owners make is picking the vendor with the slickest savings slide. That slide tells you almost nothing. What matters is whether the company can install legally, bill accurately, and respond when something breaks at 7 a.m. on a holiday weekend.</p>\n<p>Start with compliance. The vendor should know the jurisdictional rules for the markets in your portfolio, and they should be able to explain how approvals are handled before the first site gets scheduled. In Ontario, for example, the publisher notes that its operations align with <strong>Ontario Energy Board licensing for electricity unit sub-metering under licence ES-2022-0268</strong>, and it also references <strong>Measurement Canada</strong> and U.S. requirements in its equipment selection. For water, the same discipline applies even when the paperwork differs by province or state.</p>\n<p>Then look at the operating model. A vendor that only installs hardware and walks away leaves the owner exposed when billing questions start. You want the team that can handle reads, invoicing, collections workflows, resident support, and maintenance without bouncing the issue around three contractors. Insurance, bonding, and in-house labour depth matter for the same reason.</p>\n<blockquote>\n<p>Ask a blunt question, what happens after the first bad bill, the first dead gateway, or the first leak alert at midnight?</p>\n</blockquote>\n<p>Red flags are easy to spot. Vague payback claims, vague timelines, and savings guarantees that ignore building condition are all signs of a weak proposal. So are vendors who can&#39;t explain which approvals apply, who owns the meters, and how billing disputes get resolved.</p>\n<p>A good vendor also has a clear answer for the part most sales decks skip, leak detection and response. <strong>Sub Metering Water</strong> is not just a billing tool, it is an operating control that helps protect NOI when a single failed toilet flapper or hidden line leak starts wasting water. If the vendor cannot explain how meter alerts and alarms get routed to staff, they are not ready for a real portfolio. For a practical reference on the device side, see <a href=\"https://www.axismeter.com/blog/water-alarm-sensor\">water alarm sensor use in property operations</a>.</p>\n<p>If you want a straightforward shortlist process, ask for three things: the installation plan, the billing workflow, and the escalation path for leaks and resident complaints. If a vendor cannot answer those cleanly, move on. The right partner should also fit into your existing reporting stack, including the tools your team already uses to <a href=\"https://www.homebasecre.com/posts/utility-management-software\">boost NOI with utility software</a>, so the project improves operations instead of creating a second workflow people ignore.</p>\n<p><a id=\"ongoing-operations-billing-workflows-and-leak-response\"></a></p>\n<h2>Ongoing Operations, Billing Workflows, and Leak Response</h2>\n<p>The first mistake owners make after go-live is treating the project like it is finished. It is not. <strong>Sub Metering Water</strong> becomes a monthly operating system, and the quality of that system decides whether the programme feels like an asset or a nuisance.</p>\n<p>The monthly workflow should be boring in the best way. Reads come in automatically, invoices generate, exceptions get reviewed, arrears get handled, and owners get reporting that shows what changed. If the billing team is doing this well, the property manager should spend less time on utility admin, not more. The right setup also has to fit the tools the team already uses, including an <strong><a href=\"https://docsbot.ai/industry/property-management\">intelligent chatbot for property managers</a></strong> if resident questions or billing explanations are part of the workflow, and the reporting stack that helps <strong><a href=\"https://www.homebasecre.com/posts/utility-management-software\">boost NOI with utility software</a></strong> instead of forcing staff into a second system nobody trusts.</p>\n<p>Leak and flood response is the other half of the operation, and it is the point where real money gets protected. A water alarm sensor or meter alert can tell staff something is wrong before the resident notices it, and that early notice changes the outcome. A small leak becomes a work order instead of a damage event. For a practical look at the device layer, see <a href=\"https://www.axismeter.com/blog/water-alarm-sensor\">water alarm sensor use in property operations</a>.</p>\n<p>The savings range that gets repeated in the industry is a useful benchmark, but it is not a promise for every asset. The EPA-sponsored research found <strong>15.3%</strong> savings and <strong>21.8 gallons per day per unit</strong> in the study it reviewed, while RUBS did not show a statistically significant conservation effect (<a href=\"https://www.scribd.com/doc/179827251/national-submeter-study\">EPA-sponsored research</a>). In a building that is already efficient, the bigger value often comes from catching one bad toilet flapper, one stuck valve, or one slow line leak before it turns into a claim.</p>\n<p>Maintenance needs a predictable cadence. Meters need periodic verification, software needs updates, and devices eventually need replacement. A good provider plans for that up front instead of turning maintenance into a surprise invoice later.</p>",
+  "tags": [
+    "sub metering water",
+    "water submetering",
+    "tenant billing",
+    "leak detection",
+    "property management"
+  ],
+  "title": "Sub Metering Water: A Practical Guide for Property Owners",
+  "updatedAt": "2026-07-29T06:58:36.277Z"
+}
