@@ -1,0 +1,3682 @@
+{
+  "_createdAt": "2026-08-02T07:23:58Z",
+  "_id": "outrank-17c10951-2fad-4ef5-be0a-ae99953bed6f",
+  "_rev": "x4IhIh6n4J6As9mI7VvNqq",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-02T07:23:58Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "1cdb3fbee67a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bbd8f04becc8",
+          "_type": "span",
+          "marks": [],
+          "text": "You're standing in a mechanical room with a tenant on the phone asking why last month's bill looks “wrong” again. The building has one utility account, the invoices are getting harder to defend, and every shutdown request turns into a scheduling problem. A "
+        },
+        {
+          "_key": "5b090ee00d47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "split core current transformer"
+        },
+        {
+          "_key": "2f66956eb107",
+          "_type": "span",
+          "marks": [],
+          "text": " is one of the simplest ways to move from estimated or allocated charges to real, circuit-level measurement without tearing apart an occupied building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "acdc7888f8e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a8a88b0a289",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e2c0b73d316b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9cc5571a6d2a",
+          "_type": "span",
+          "marks": [
+            "f5eebd97c50b"
+          ],
+          "text": "Why Split-Core Current Transformers Matter for Property Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f5eebd97c50b",
+          "_type": "link",
+          "href": "#why-split-core-current-transformers-matter-for-property-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8eb1d2ff8b3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "219398aaa4d7",
+          "_type": "span",
+          "marks": [
+            "dbd8ea050395"
+          ],
+          "text": "How Split-Core Current Transformers Work"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dbd8ea050395",
+          "_type": "link",
+          "href": "#how-split-core-current-transformers-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "220a9b83eb5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45169a664066",
+          "_type": "span",
+          "marks": [
+            "7fc916767a86"
+          ],
+          "text": "The main parts that matter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7fc916767a86",
+          "_type": "link",
+          "href": "#the-main-parts-that-matter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "80bc54c61c3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ea015e3264f",
+          "_type": "span",
+          "marks": [
+            "44cc2cfbdf05"
+          ],
+          "text": "Why the terms matter in the field"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "44cc2cfbdf05",
+          "_type": "link",
+          "href": "#why-the-terms-matter-in-the-field"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b6ddd29de30a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f15fafe7f594",
+          "_type": "span",
+          "marks": [
+            "5dc2ec8d402a"
+          ],
+          "text": "Comparing Split-Core and Solid-Core Current Transformers"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5dc2ec8d402a",
+          "_type": "link",
+          "href": "#comparing-split-core-and-solid-core-current-transformers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bac3afce20c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ec6fac2c07e",
+          "_type": "span",
+          "marks": [
+            "e4fb1967cca4"
+          ],
+          "text": "Where each type fits best"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e4fb1967cca4",
+          "_type": "link",
+          "href": "#where-each-type-fits-best"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bacc957e8eea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d99bc3bb1a45",
+          "_type": "span",
+          "marks": [
+            "e36029fbb6df"
+          ],
+          "text": "A simple decision frame"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e36029fbb6df",
+          "_type": "link",
+          "href": "#a-simple-decision-frame"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "858cd8b65ce0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3949999b0866",
+          "_type": "span",
+          "marks": [
+            "ca4465d39a3d"
+          ],
+          "text": "Selecting the Right Split-Core Current Transformer"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ca4465d39a3d",
+          "_type": "link",
+          "href": "#selecting-the-right-split-core-current-transformer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f7679a14bb55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63023094fe6e",
+          "_type": "span",
+          "marks": [
+            "f7e492c28278"
+          ],
+          "text": "The specifications that actually change performance"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f7e492c28278",
+          "_type": "link",
+          "href": "#the-specifications-that-actually-change-performance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "34cf86e070bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3d7f4a76b02",
+          "_type": "span",
+          "marks": [
+            "81cb5b953066"
+          ],
+          "text": "Common split-core CT specifications for Canadian submetering"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "81cb5b953066",
+          "_type": "link",
+          "href": "#common-split-core-ct-specifications-for-canadian-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8c2a244c6488",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "552cc3a1afb1",
+          "_type": "span",
+          "marks": [
+            "d77645bbd2ca"
+          ],
+          "text": "Installation and Wiring Best Practices"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d77645bbd2ca",
+          "_type": "link",
+          "href": "#installation-and-wiring-best-practices"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56806dc61536",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "944c65b5a61a",
+          "_type": "span",
+          "marks": [
+            "34f598b71f10"
+          ],
+          "text": "What electricians watch first"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "34f598b71f10",
+          "_type": "link",
+          "href": "#what-electricians-watch-first"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9e902a7f9fc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "421f786c7e6c",
+          "_type": "span",
+          "marks": [
+            "6ffc0a0bca0f"
+          ],
+          "text": "Common installation mistakes to avoid"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6ffc0a0bca0f",
+          "_type": "link",
+          "href": "#common-installation-mistakes-to-avoid"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8f3968d7bc27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8511c1906bd4",
+          "_type": "span",
+          "marks": [
+            "e14c2ecfe9be"
+          ],
+          "text": "Revenue-Grade Accuracy and Regulatory Compliance"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e14c2ecfe9be",
+          "_type": "link",
+          "href": "#revenue-grade-accuracy-and-regulatory-compliance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b6befc00f81f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1bbb61ecf4c2",
+          "_type": "span",
+          "marks": [
+            "87dad8cb7b01"
+          ],
+          "text": "Accuracy lives in the field, not just the datasheet"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "87dad8cb7b01",
+          "_type": "link",
+          "href": "#accuracy-lives-in-the-field-not-just-the-datasheet"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "11cce53dcad0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41197eef9ad5",
+          "_type": "span",
+          "marks": [
+            "582b03e8c46e"
+          ],
+          "text": "The specifications that change performance"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "582b03e8c46e",
+          "_type": "link",
+          "href": "#the-specifications-that-change-performance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "267577b16bf9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68c2a76e72d4",
+          "_type": "span",
+          "marks": [
+            "33b12798419b"
+          ],
+          "text": "Deploying Split-Core CTs in Multi-Family and Commercial Properties"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "33b12798419b",
+          "_type": "link",
+          "href": "#deploying-split-core-cts-in-multi-family-and-commercial-properties"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8b4c6742208c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6c5996da403",
+          "_type": "span",
+          "marks": [
+            "08a47a34c5b6"
+          ],
+          "text": "What happens before commissioning"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "08a47a34c5b6",
+          "_type": "link",
+          "href": "#what-happens-before-commissioning"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5b4f746ee39d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c3b2848a5d1",
+          "_type": "span",
+          "marks": [
+            "68b5d0c0d212"
+          ],
+          "text": "What owners should plan for after go-live"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "68b5d0c0d212",
+          "_type": "link",
+          "href": "#what-owners-should-plan-for-after-go-live"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d8fc26c17a42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdbddc6ef5f4",
+          "_type": "span",
+          "marks": [
+            "08e38d100dec"
+          ],
+          "text": "Key Takeaways and Next Steps"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "08e38d100dec",
+          "_type": "link",
+          "href": "#key-takeaways-and-next-steps"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b962d040fef8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7a397eae0bf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a58104d94cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "116880492f74",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Split-Core Current Transformers Matter for Property Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3bbebcd2780a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed346d0fee65",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager can do everything else right, renew the insurance, keep the roof in good shape, and still lose trust over utility allocation. When tenants see a bill based on square footage or a rough estimate, they question fairness because they can't see the actual load behind the charge. That's where "
+        },
+        {
+          "_key": "bfd839385efd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "split-core current transformers"
+        },
+        {
+          "_key": "ad3be70bcddb",
+          "_type": "span",
+          "marks": [],
+          "text": " become practical, not theoretical, because they let a building capture unit-level consumption without disconnecting energized conductors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "64182e3c8ed3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8847ba9afa53",
+          "_type": "span",
+          "marks": [],
+          "text": "In occupied buildings, that non-intrusive installation matters as much as the meter itself. A split-core CT is designed to clamp around a conductor or busbar without opening the circuit first, which is why it's widely used in retrofit energy-monitoring applications and low-current measuring instruments, especially where shutdowns are costly and disruption has to stay low "
+        },
+        {
+          "_key": "2726d8167a66",
+          "_type": "span",
+          "marks": [
+            "17eb423f2fe5"
+          ],
+          "text": "Butler Winding"
+        },
+        {
+          "_key": "48171326cdcb",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "17eb423f2fe5",
+          "_type": "link",
+          "href": "https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac93ad350287",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f63760d7f81",
+          "_type": "span",
+          "marks": [],
+          "text": "For a Canadian multi-unit property, the value is not just measurement. It's the ability to replace guesswork with a documented, defensible process that fits the building's operating reality and the submetering workflow used in Ontario's licensed environment. That's also why retrofit projects often favour "
+        },
+        {
+          "_key": "2e4bd8633289",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CT-based measurement"
+        },
+        {
+          "_key": "36d4563caffd",
+          "_type": "span",
+          "marks": [],
+          "text": " over invasive rewiring, especially in dense urban housing stock where panel access is limited and tenant downtime has to be kept short "
+        },
+        {
+          "_key": "453ed1a5c9df",
+          "_type": "span",
+          "marks": [
+            "9b01d65fa1ed"
+          ],
+          "text": "Ontario submetering context and transformer lineage"
+        },
+        {
+          "_key": "0c1f2584c2a9",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9b01d65fa1ed",
+          "_type": "link",
+          "href": "https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "46b153c4506c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d437df3a349",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "efa4bba63fa6",
+          "_type": "span",
+          "marks": [],
+          "text": " if the building can't afford a shutdown, the metering design has to work around the live conductor, not through it."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "acb00ed2b1c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "110b6efe466d",
+          "_type": "span",
+          "marks": [],
+          "text": "For property owners comparing options, a good starting point is a structured submetering plan rather than buying hardware first. A useful reference point is the "
+        },
+        {
+          "_key": "a66123aca8f3",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "7c9c8e469ba6"
+          ],
+          "text": "electricity submetering solution framework"
+        },
+        {
+          "_key": "82c5d4115314",
+          "_type": "span",
+          "marks": [],
+          "text": ", because the device choice only makes sense when it's tied to billing, commissioning, and building access realities."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7c9c8e469ba6",
+          "_type": "link",
+          "href": "https://www.axismeter.com/solutions/electricity-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac279c9e27f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55352964ee5d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48302155d087",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22efbc077052",
+          "_type": "span",
+          "marks": [],
+          "text": "How Split-Core Current Transformers Work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a428087fdb74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad37c3464ae1",
+          "_type": "span",
+          "marks": [],
+          "text": "A split-core current transformer works on the same measurement principle as a clamp meter, but it is built for permanent installation. A technician closes the hinged core around a live conductor, the alternating current in that conductor creates a magnetic field, and the CT turns that field into a smaller signal that the meter can read safely. In a building system, the goal is not a quick spot check, it is a signal that stays dependable when the meter is used for billing, load tracking, and long-term operating records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc5b2e119024",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how a split-core current transformer works to sense AC current without breaking the circuit.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e2fe0165-0983-436c-a1e7-f32f9e39a682/split-core-current-transformer-working-principle.jpg"
+    },
+    {
+      "_key": "662ccad411a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0720faf0dbf7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a9baeb7be63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e24f491b2d7",
+          "_type": "span",
+          "marks": [],
+          "text": "The main parts that matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ae0df3441d7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a14659985ae4",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "57f0554ec8ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "primary conductor"
+        },
+        {
+          "_key": "c9a70c2d20c9",
+          "_type": "span",
+          "marks": [],
+          "text": " is the cable or busbar carrying the load. The "
+        },
+        {
+          "_key": "bfd3d47e6889",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "split core"
+        },
+        {
+          "_key": "b01a8272a04a",
+          "_type": "span",
+          "marks": [],
+          "text": " is the hinged magnetic path that closes around it, and the "
+        },
+        {
+          "_key": "58d3bdd5b3d3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "secondary output"
+        },
+        {
+          "_key": "81cb4584c49e",
+          "_type": "span",
+          "marks": [],
+          "text": " is the signal sent to the meter. In many submetering systems, that output is either "
+        },
+        {
+          "_key": "05a96afd8b9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 A"
+        },
+        {
+          "_key": "83715d349f99",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "2d91d4adce36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.333 V AC"
+        },
+        {
+          "_key": "e199ef71c650",
+          "_type": "span",
+          "marks": [],
+          "text": ", depending on the meter architecture and lead length requirements "
+        },
+        {
+          "_key": "6cc829756071",
+          "_type": "span",
+          "marks": [
+            "667028d60a10"
+          ],
+          "text": "Banner Engineering specification"
+        },
+        {
+          "_key": "4604cf2c07b7",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "667028d60a10",
+          "_type": "link",
+          "href": "https://info.bannerengineering.com/cs/groups/public/documents/literature/212463.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a55379b4e65c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98593f3b65d2",
+          "_type": "span",
+          "marks": [],
+          "text": "The ratio is the part that often causes confusion. The CT does not read the load in the same direct way a handheld clamp meter does. It scales the current down by a known factor, then the meter interprets the secondary signal and converts it back to the actual load. That is why "
+        },
+        {
+          "_key": "6a6cf9871014",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "burden"
+        },
+        {
+          "_key": "b2dd6ac373c8",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "d0eb06f08655",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "accuracy class"
+        },
+        {
+          "_key": "aadf985db285",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "23efdeff09bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "secondary output"
+        },
+        {
+          "_key": "3f3da833d37b",
+          "_type": "span",
+          "marks": [],
+          "text": " matter just as much as the CT body itself. If any one of those elements is mismatched, the reading can look stable while still being wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "436b6a9d62e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c4b5823084c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "542d30d8897c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2d83b7cb44e",
+          "_type": "span",
+          "marks": [],
+          "text": "Why the terms matter in the field"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "8cc0ec68c19f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fc4c8a97033",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Accuracy class"
+        },
+        {
+          "_key": "d6e7fb05bdf7",
+          "_type": "span",
+          "marks": [],
+          "text": " tells you how closely the CT output follows the true current within its intended range. "
+        },
+        {
+          "_key": "a1a654a53ea6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Burden"
+        },
+        {
+          "_key": "6ff0d5d8da73",
+          "_type": "span",
+          "marks": [],
+          "text": " is the electrical load the meter and wiring place on the CT secondary, and if the burden is too high, accuracy can suffer. "
+        },
+        {
+          "_key": "46286bcbfdc7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Turns ratio"
+        },
+        {
+          "_key": "dec9f33ca635",
+          "_type": "span",
+          "marks": [],
+          "text": " describes how the primary and secondary relate, and if that ratio does not match the expected load profile, the meter can drift outside the range you need."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f25f5018a207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "924d10d71c71",
+          "_type": "span",
+          "marks": [],
+          "text": "For installations that also depend on clear circuit labeling and field identification, "
+        },
+        {
+          "_key": "6d2d1bb64b6b",
+          "_type": "span",
+          "marks": [
+            "35bdda9123e3"
+          ],
+          "text": "industrial electrical identification solutions"
+        },
+        {
+          "_key": "15f8180131e1",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful technical reference point. That matters in property metering work, because a CT that is installed correctly but identified poorly can still lead to billing confusion later, especially when multiple suites, feeders, or tenant loads are involved."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "35bdda9123e3",
+          "_type": "link",
+          "href": "https://evrightindustrial.com.au/electrical/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3d6b83057e6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b28571c0104b",
+          "_type": "span",
+          "marks": [],
+          "text": "For a practical walk-through of the measurement process, the "
+        },
+        {
+          "_key": "5bc7fb46bb56",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "a00e5e6972d4"
+          ],
+          "text": "split-core CT operating overview"
+        },
+        {
+          "_key": "82b9dcb14e6f",
+          "_type": "span",
+          "marks": [],
+          "text": " explains the same operating logic in a way that pairs well with hardware selection and commissioning planning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a00e5e6972d4",
+          "_type": "link",
+          "href": "https://www.axismeter.com/how-it-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "87b17ef4f3b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a4cacf519a9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f3a325fff846",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cb5622c4de0",
+          "_type": "span",
+          "marks": [],
+          "text": "Comparing Split-Core and Solid-Core Current Transformers"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7f852ff5ba17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85ea3cfb1120",
+          "_type": "span",
+          "marks": [],
+          "text": "Split-core and solid-core CTs solve the same measurement problem, but they fit very different project conditions. The simplest distinction is installation method. "
+        },
+        {
+          "_key": "7d1c93c04724",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Solid-core CTs"
+        },
+        {
+          "_key": "8ce8cd88c95c",
+          "_type": "span",
+          "marks": [],
+          "text": " require the conductor to be threaded through the core, which usually means disconnecting and reworking the circuit. "
+        },
+        {
+          "_key": "434850181a28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Split-core CTs"
+        },
+        {
+          "_key": "f208bf9bdb67",
+          "_type": "span",
+          "marks": [],
+          "text": " open around the conductor, which makes them the practical choice for retrofit work in live buildings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12c8a5ec6e26",
+      "_type": "externalImage",
+      "alt": "A comparison chart outlining the key differences between split-core and solid-core current transformers for energy monitoring.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e0673a03-99bc-4177-8168-f360950f32e9/split-core-current-transformer-comparison-chart.jpg"
+    },
+    {
+      "_key": "7f5c32c1e899",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a43467cd33fc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb1e779f2710",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc772cfd98ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Where each type fits best"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a1de6e32cb9c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d273a894440a",
+          "_type": "span",
+          "marks": [],
+          "text": "Solid-core units usually make more sense in new construction because the conductor can be installed through the CT before energization. Split-core units make more sense when an existing panel, feeder, or branch circuit has to stay live. In retrofit-heavy buildings, that difference often decides the project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "841b6a89e411",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed82f377b2ab",
+          "_type": "span",
+          "marks": [],
+          "text": "The trade-off is real. A split-core CT adds a closure interface, so installation quality matters more, and the aperture has to match the conductor geometry closely. A solid-core device removes that closure point, which can support a tighter mechanical arrangement when the system is built from scratch "
+        },
+        {
+          "_key": "c82029228c24",
+          "_type": "span",
+          "marks": [
+            "7378b3c9ed9f"
+          ],
+          "text": "general CT comparison context"
+        },
+        {
+          "_key": "c116482d7a48",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7378b3c9ed9f",
+          "_type": "link",
+          "href": "https://www.packetpower.com/blog/split-core-solid-core-and-why-you-should-care"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "09830f586a6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "116b21531d27",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "15bfd54439ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0b5ce28b4ef",
+          "_type": "span",
+          "marks": [],
+          "text": "A simple decision frame"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4741b912c455",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcaddf544d1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Choose split-core"
+        },
+        {
+          "_key": "55bfc5beb02d",
+          "_type": "span",
+          "marks": [],
+          "text": " when the conductor is already energized, access is limited, or shutdowns are expensive."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30584030b27a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f70b7eaad3e0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Choose solid-core"
+        },
+        {
+          "_key": "ceb04974e33a",
+          "_type": "span",
+          "marks": [],
+          "text": " when the circuit is being built or rebuilt and the conductor can be threaded before commissioning."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a674de56a132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e59b2aa413a3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check the physical fit first"
+        },
+        {
+          "_key": "eecba99ccb92",
+          "_type": "span",
+          "marks": [],
+          "text": " because a CT that doesn't match the conductor size won't solve the project, no matter how good the datasheet looks."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b021eb5f66e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da63623180cf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Match the use case to the building phase"
+        },
+        {
+          "_key": "a522a7447273",
+          "_type": "span",
+          "marks": [],
+          "text": " because retrofits and new builds don't reward the same hardware choices."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca4f1444e29c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f7a8b678cb3",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're choosing for a live building, convenience isn't a luxury. It's part of the technical requirement."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "36acb2876bbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6faada2c0311",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b600de587c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a10ba9b02ec",
+          "_type": "span",
+          "marks": [],
+          "text": "Selecting the Right Split-Core Current Transformer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "fa23c25c3795",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05094b89f676",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager may only notice the problem after a billing dispute, not during the purchase stage. The split-core CT that looked suitable in a spec table can still cause headaches if the aperture is too small, the burden does not match the meter, or the output type does not fit the wiring run. For Canadian submetering, the best habit is to treat the datasheet as a system document, because the CT, meter, conductor, and installation method all have to work together."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c552bb0e6d93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a0126b3cfc9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79bd4cf45d87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b965ac297d86",
+          "_type": "span",
+          "marks": [],
+          "text": "The specifications that actually change performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3b1944259d11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e7d438bb367",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Accuracy class"
+        },
+        {
+          "_key": "eb59b5cbb458",
+          "_type": "span",
+          "marks": [],
+          "text": " is the first filter. For revenue-grade applications, "
+        },
+        {
+          "_key": "d541b848fdfe",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Class 0.5"
+        },
+        {
+          "_key": "1777f38df380",
+          "_type": "span",
+          "marks": [],
+          "text": " is a common benchmark in the Canadian market, because the meter has to support defensible billing, not just casual monitoring "
+        },
+        {
+          "_key": "03ad28b9b81c",
+          "_type": "span",
+          "marks": [
+            "e47a9a4e5fab"
+          ],
+          "text": "Banner Engineering specification"
+        },
+        {
+          "_key": "98234574f68a",
+          "_type": "span",
+          "marks": [],
+          "text": ". "
+        },
+        {
+          "_key": "249dd54f8852",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Secondary output"
+        },
+        {
+          "_key": "1b5608e4b693",
+          "_type": "span",
+          "marks": [],
+          "text": " matters next. A "
+        },
+        {
+          "_key": "107477febe03",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 A"
+        },
+        {
+          "_key": "7c8590005763",
+          "_type": "span",
+          "marks": [],
+          "text": " secondary is common, while "
+        },
+        {
+          "_key": "6ac85ccdf9ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.333 V AC"
+        },
+        {
+          "_key": "b45566d792c6",
+          "_type": "span",
+          "marks": [],
+          "text": " is often preferred when the wiring run is long or the installation needs a lower-burden signal path."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e47a9a4e5fab",
+          "_type": "link",
+          "href": "https://info.bannerengineering.com/cs/groups/public/documents/literature/212463.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3850a18ca1bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf2014e14774",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Aperture size"
+        },
+        {
+          "_key": "53b586673dbb",
+          "_type": "span",
+          "marks": [],
+          "text": " should match the conductor, not the expected load. A branch circuit and a large feeder may carry very different amperage, but the CT still has to physically close around the actual wire or busbar. Banner Engineering lists practical operating and electrical limits that help define the envelope, including "
+        },
+        {
+          "_key": "1f9980af7b71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "±1% ratio error"
+        },
+        {
+          "_key": "fb0aa109b6da",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "40e6a6fc5881",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "≤ ±60 minutes phase angle error"
+        },
+        {
+          "_key": "f52658202b38",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "5257a3472d93",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2.5 kV dielectric strength"
+        },
+        {
+          "_key": "f697c42a6917",
+          "_type": "span",
+          "marks": [],
+          "text": ", and operation from "
+        },
+        {
+          "_key": "a61e4be0ee8d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "−25 °C to +75 °C"
+        },
+        {
+          "_key": "12bb0255f7e4",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "36c7820d3d7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79e98f2544da",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "934c9e8a39a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "947ea3ed869e",
+          "_type": "span",
+          "marks": [],
+          "text": "Common split-core CT specifications for Canadian submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0789dcbbfc52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ab322f6ebd5",
+          "_type": "span",
+          "marks": [],
+          "text": "Specification"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f308e77d34c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04442b95d78c",
+          "_type": "span",
+          "marks": [],
+          "text": "Banner Engineering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf945116518e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d465306e9ca",
+          "_type": "span",
+          "marks": [],
+          "text": "Opto 22"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3526eeaae9a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b0ef070bc7a",
+          "_type": "span",
+          "marks": [],
+          "text": "IEC 61869-2 Range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63dbd24fd1b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8e74d20fd48",
+          "_type": "span",
+          "marks": [],
+          "text": "Secondary output"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "516e18915216",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05a0ccdb5961",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.333 V AC"
+        },
+        {
+          "_key": "00cc2ca5ae0f",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "8f54318134c6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 A"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1bd3c329094d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48163eb16f2e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 A"
+        },
+        {
+          "_key": "0a01c762007e",
+          "_type": "span",
+          "marks": [],
+          "text": " secondary"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d415011458de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7184e902f9aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Varies by application"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d7b91f0e9ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56a01a713dd4",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy class"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6818ef9546ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c9e70e3615f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Class 0.5"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dce18b40b98c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba4dbaf25390",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.5–15 VA burden"
+        },
+        {
+          "_key": "00e632d3acd1",
+          "_type": "span",
+          "marks": [],
+          "text": " models under "
+        },
+        {
+          "_key": "d688448924ac",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "IEC 61869-2"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a60a22c9eee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c3f78876f29",
+          "_type": "span",
+          "marks": [],
+          "text": "Application-dependent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "06e7add32751",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "169d497a4ca8",
+          "_type": "span",
+          "marks": [],
+          "text": "Ratio error"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7efbc265471b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7dfb368ea26",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "±1%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6378f682c8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f521973c30b1",
+          "_type": "span",
+          "marks": [],
+          "text": "Primary ratings from "
+        },
+        {
+          "_key": "facbbbd7ba87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 A to 6000 A"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "11d5a81617e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80efed1293b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Standardised by class"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "047031ae97e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54232ebf9d48",
+          "_type": "span",
+          "marks": [],
+          "text": "Phase angle error"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "628cd5097f19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39f6dace36bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "≤ ±60 minutes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50c52b1ef88f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e77688ba8bfd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "720 V maximum system voltage"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "959ffd0b2b53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec09e1ab4829",
+          "_type": "span",
+          "marks": [],
+          "text": "Standardised by class"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e54384adfb6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94a34489ae58",
+          "_type": "span",
+          "marks": [],
+          "text": "Dielectric strength"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "22316aa1533a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5027b5afffbb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2.5 kV"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "80b93cb0e08d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36295333c4d2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 ft (2.4 m)"
+        },
+        {
+          "_key": "d6122d8b4ef7",
+          "_type": "span",
+          "marks": [],
+          "text": " twisted-pair leads on some models"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92c4f94ae164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4463f9c9163a",
+          "_type": "span",
+          "marks": [],
+          "text": "Application-dependent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2638952b544",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f37e77bffcc",
+          "_type": "span",
+          "marks": [],
+          "text": "Operating temperature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77563c48c04d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91adfadcc621",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "−25 °C to +75 °C"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9773ce7c5bd8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54485148b8e4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18 AWG"
+        },
+        {
+          "_key": "e4f71b6140d6",
+          "_type": "span",
+          "marks": [],
+          "text": " leads on higher-current models"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21bf6f50a350",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a271e8f16006",
+          "_type": "span",
+          "marks": [],
+          "text": "Application-dependent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "523f2cbca0ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8b9ad25f395",
+          "_type": "span",
+          "marks": [],
+          "text": "Measuring band"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8720622316b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79c05ea8e658",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10% to 130% of rated current"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c52f99429cc0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7d6ad16de55",
+          "_type": "span",
+          "marks": [],
+          "text": "Window openings sized for up to "
+        },
+        {
+          "_key": "5cd6d6fb066e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "250 A"
+        },
+        {
+          "_key": "e035c72d02d0",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "ea06e1c55f4b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "600 A"
+        },
+        {
+          "_key": "011369d29f9a",
+          "_type": "span",
+          "marks": [],
+          "text": " on some models"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49cdbbe462a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d2ece39a76f",
+          "_type": "span",
+          "marks": [],
+          "text": "Commonly defined by model"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "787f325f3055",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9e0f82d9cad",
+          "_type": "span",
+          "marks": [],
+          "text": "Opto 22's data shows how selection expands across building sizes, from window openings for up to "
+        },
+        {
+          "_key": "f1e3e00107bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "250 A"
+        },
+        {
+          "_key": "c0a49ce15b0c",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "0b1c3819eb5f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "600 A"
+        },
+        {
+          "_key": "250e20f306fa",
+          "_type": "span",
+          "marks": [],
+          "text": " on some models to catalog entries spanning "
+        },
+        {
+          "_key": "137cda444004",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 A to 6000 A"
+        },
+        {
+          "_key": "d80808b0bddd",
+          "_type": "span",
+          "marks": [],
+          "text": " at "
+        },
+        {
+          "_key": "113eeac49bf6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 A secondary"
+        },
+        {
+          "_key": "736d89b49cec",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "1a9fb2fd60b4",
+          "_type": "span",
+          "marks": [
+            "204497c6c761"
+          ],
+          "text": "Opto 22 data sheet"
+        },
+        {
+          "_key": "0f364c7940e1",
+          "_type": "span",
+          "marks": [],
+          "text": ". That range matters in Canadian commercial and mixed-use buildings because branch circuits, risers, and larger feeders often need different CT bodies even within the same property. For teams comparing options during planning, the "
+        },
+        {
+          "_key": "7bfe44e8c3af",
+          "_type": "span",
+          "marks": [
+            "3d599b2908d0"
+          ],
+          "text": "utility metering installation and maintenance guidance from Axis Meter Solutions"
+        },
+        {
+          "_key": "291e32db631d",
+          "_type": "span",
+          "marks": [],
+          "text": " is a practical way to connect the spec sheet to field conditions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "204497c6c761",
+          "_type": "link",
+          "href": "https://documents.opto22.com/1938_Split_Core_Current_Transformer_Data_Sheet.pdf"
+        },
+        {
+          "_key": "3d599b2908d0",
+          "_type": "link",
+          "href": "https://www.axismeter.com/features/utility-metering-installation-maintenance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dbd917c8cdd2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9aeb69ad077",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose the smallest CT that comfortably fits the conductor and the load profile. Oversizing can weaken low-load performance, and loads below "
+        },
+        {
+          "_key": "129417ad905a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10%"
+        },
+        {
+          "_key": "29816d98aea8",
+          "_type": "span",
+          "marks": [],
+          "text": " of rated current may fall outside the tightest accuracy band in many practical applications. That is one reason the selection decision is tied to operating pattern, not just feeder size."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b541575a2841",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de0ddd554619",
+          "_type": "span",
+          "marks": [],
+          "text": "A second filter is safety and maintenance access. Crews working in energized rooms need hardware that can be installed and checked without turning the job into a long outage. The "
+        },
+        {
+          "_key": "084a1aaf9f4d",
+          "_type": "span",
+          "marks": [
+            "8e154ce2443a"
+          ],
+          "text": "NFPA 70E guide from Refinery Work Wear"
+        },
+        {
+          "_key": "d8d9f2a0ab0a",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful background here, because the installation plan has to fit the site's safety process as much as the electrical layout."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "8e154ce2443a",
+          "_type": "link",
+          "href": "https://canada.refineryworkwear.com/blogs/canadian-safety-standards/nfpa-70-e"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ae9a99767df7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5005f0c61929",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Selection tip:"
+        },
+        {
+          "_key": "1e3ff5195a1f",
+          "_type": "span",
+          "marks": [],
+          "text": " if the conductor is right and the burden is controlled, the meter has a much better chance of staying trustworthy in the field."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "225f2d82f85e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96817a9f678d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "543a59ce3123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "774cba3e9a31",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation and Wiring Best Practices"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "76cca1c53269",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6695f492ef1",
+          "_type": "span",
+          "marks": [],
+          "text": "A split-core current transformer can look simple on a drawings package and still fail in the field if the installation is careless. The usual problems are mechanical first, electrical second. The conductor sits off-centre in the window, the core does not close fully, or the leads are routed through a crowded electrical room without enough attention to the path they take."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f65d6b72e01",
+      "_type": "externalImage",
+      "alt": "A seven-step infographic showing best practices for installing and wiring a split-core current transformer device safely.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2fa454fa-2400-4ed9-8978-260f75df88b8/split-core-current-transformer-installation-guide.jpg"
+    },
+    {
+      "_key": "ddf8d7dd13cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f47efe70f76",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc4b599a165a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d65e16eb453",
+          "_type": "span",
+          "marks": [],
+          "text": "What electricians watch first"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6d1ab0afdfc3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d9e9c4bd1f4",
+          "_type": "span",
+          "marks": [],
+          "text": "The conductor should sit in the middle of the window. That detail sounds small, but an off-centre conductor can create measurable error, especially where nearby conductors, transformers, or variable loads are present "
+        },
+        {
+          "_key": "7d0d8edad368",
+          "_type": "span",
+          "marks": [
+            "97c4269aa484"
+          ],
+          "text": "AIM Dynamics accuracy guidance"
+        },
+        {
+          "_key": "ef56eb27dfb3",
+          "_type": "span",
+          "marks": [],
+          "text": ". The core faces should meet cleanly, with no dust, debris, or gap preventing full contact."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "97c4269aa484",
+          "_type": "link",
+          "href": "https://aimdynamics.com/accuracy-of-split-core-current-transformer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1273b127d241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6b3178f078a",
+          "_type": "span",
+          "marks": [],
+          "text": "Lead routing matters as well. Split-core designs often use "
+        },
+        {
+          "_key": "e9090e38cc2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "twisted-pair leads"
+        },
+        {
+          "_key": "0c42992e2130",
+          "_type": "span",
+          "marks": [],
+          "text": ", and some models specify "
+        },
+        {
+          "_key": "bbcf58c7ea56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 ft (2.4 m)"
+        },
+        {
+          "_key": "396771baa616",
+          "_type": "span",
+          "marks": [],
+          "text": " twisted-pair leads while higher-current variants use larger "
+        },
+        {
+          "_key": "c3c700fe6bbd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18 AWG"
+        },
+        {
+          "_key": "1ce858ab54a3",
+          "_type": "span",
+          "marks": [],
+          "text": " leads "
+        },
+        {
+          "_key": "6194208c53a9",
+          "_type": "span",
+          "marks": [
+            "ebaa51e86220"
+          ],
+          "text": "Opto 22 data sheet"
+        },
+        {
+          "_key": "4d173af1596e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those details are practical, not cosmetic. They help the signal travel between the panel and the meter with less chance of noise pickup or burden-related trouble. For crews comparing installation steps with field work, the "
+        },
+        {
+          "_key": "0d22886748c4",
+          "_type": "span",
+          "marks": [
+            "strong",
+            "0a9ef8da73a8"
+          ],
+          "text": "utility metering installation and maintenance process"
+        },
+        {
+          "_key": "c7b5d53948ce",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful operational reference because it connects the meter room plan to the work order, commissioning checks, and follow-up service."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ebaa51e86220",
+          "_type": "link",
+          "href": "https://documents.opto22.com/1938_Split_Core_Current_Transformer_Data_Sheet.pdf"
+        },
+        {
+          "_key": "0a9ef8da73a8",
+          "_type": "link",
+          "href": "https://www.axismeter.com/features/utility-metering-installation-maintenance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7f6812d6fcfe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d864b548f539",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68abee4c9917",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eae039cfb65f",
+          "_type": "span",
+          "marks": [],
+          "text": "Common installation mistakes to avoid"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1a707eb28ce0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c77cff291d7f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Letting the conductor sit off-centre:"
+        },
+        {
+          "_key": "78db162e39de",
+          "_type": "span",
+          "marks": [],
+          "text": " this introduces avoidable measurement error."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f68adedf1072",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1dc0c5bc6e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leaving the core face dirty or loose:"
+        },
+        {
+          "_key": "7b6315133f04",
+          "_type": "span",
+          "marks": [],
+          "text": " poor mating surfaces reduce measurement stability."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "98706691a685",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b446e5c1221e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Running leads too close to high-current conductors:"
+        },
+        {
+          "_key": "c3c0a9dc5922",
+          "_type": "span",
+          "marks": [],
+          "text": " this can add unwanted interference."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0550be530c64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b0ec45b0e69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Skipping polarity checks:"
+        },
+        {
+          "_key": "95978d209287",
+          "_type": "span",
+          "marks": [],
+          "text": " incorrect orientation can reverse the reading."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76c0dbcef485",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac37102f460e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ignoring phase rotation:"
+        },
+        {
+          "_key": "ff7d66baedcf",
+          "_type": "span",
+          "marks": [],
+          "text": " billing and load analysis become harder to trust later."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e0ae46b755f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d75a0959b53c",
+          "_type": "span",
+          "marks": [],
+          "text": "The safety side matters just as much as the measurement side. A practical field reference for work planning and personal protective equipment is the "
+        },
+        {
+          "_key": "77bb3ca08f36",
+          "_type": "span",
+          "marks": [
+            "71c6d1c00f59"
+          ],
+          "text": "NFPA 70E guide from Refinery Work Wear"
+        },
+        {
+          "_key": "4ae1feaf6818",
+          "_type": "span",
+          "marks": [],
+          "text": ", especially when electricians are working in live or partially energised environments."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "71c6d1c00f59",
+          "_type": "link",
+          "href": "https://canada.refineryworkwear.com/blogs/canadian-safety-standards/nfpa-70-e"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9b97ebc5ff45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "465e47f7688e",
+          "_type": "span",
+          "marks": [],
+          "text": "For property managers, that safety process is part of the job, not an extra step. In multi-tenant buildings, the crew has to keep the installation organised, verify each CT on the correct conductor, and leave enough documentation for future maintenance without turning the room into a puzzle for the next technician."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb8b8e6cc13b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa6d00ff697f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02ce0a56b0e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae5b68a8ac17",
+          "_type": "span",
+          "marks": [],
+          "text": "Revenue-Grade Accuracy and Regulatory Compliance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "67affc51cdd5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2127c20f15eb",
+          "_type": "span",
+          "marks": [],
+          "text": "A buyer can choose a split-core current transformer with a strong label and still end up with poor billing data if the installation is careless. A "
+        },
+        {
+          "_key": "ed9545553ec2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Class 0.5"
+        },
+        {
+          "_key": "34b9a273ff8e",
+          "_type": "span",
+          "marks": [],
+          "text": " rating does not protect against an off-centre conductor, a core that does not close cleanly, or nearby conductors that introduce stray magnetic fields. The device sets the baseline, but the field work decides whether the reading can be trusted "
+        },
+        {
+          "_key": "28cb7803e7e3",
+          "_type": "span",
+          "marks": [
+            "2a47f8c6a666"
+          ],
+          "text": "AIM Dynamics accuracy guidance"
+        },
+        {
+          "_key": "720002d78a69",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2a47f8c6a666",
+          "_type": "link",
+          "href": "https://aimdynamics.com/accuracy-of-split-core-current-transformer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0f425c37140c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3200e33e38c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a6aeeb135f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fde9e0baa42",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy lives in the field, not just the datasheet"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c8d4dd7a9582",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05e86bd058e8",
+          "_type": "span",
+          "marks": [],
+          "text": "Split-core designs depend on mechanical fit as much as electrical specification. Tight core closure, centred conductors, torque-controlled clamping, and periodic recalibration all support stable measurement over time, as outlined by AIM Dynamics "
+        },
+        {
+          "_key": "874e1817a113",
+          "_type": "span",
+          "marks": [
+            "f138e7b703b6"
+          ],
+          "text": "AIM Dynamics accuracy guidance"
+        },
+        {
+          "_key": "be9254381b94",
+          "_type": "span",
+          "marks": [],
+          "text": ". For Canadian billing workflows, that means the installation record matters as much as the product label, because the system has to remain defensible after the crew leaves."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f138e7b703b6",
+          "_type": "link",
+          "href": "https://aimdynamics.com/accuracy-of-split-core-current-transformer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "493dbce4d3b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "256953b7c4bb",
+          "_type": "span",
+          "marks": [],
+          "text": "The regulatory context points in the same direction. Ontario's licensed sub-metering environment treats electricity unit sub-metering as an established compliance activity, so approved metering and commissioning practices are expected, not optional "
+        },
+        {
+          "_key": "7cbdec520561",
+          "_type": "span",
+          "marks": [
+            "787153637688"
+          ],
+          "text": "Ontario submetering context and transformer lineage"
+        },
+        {
+          "_key": "1316a698e346",
+          "_type": "span",
+          "marks": [],
+          "text": ". For operators, that means keeping clear documentation, preserving commissioning records, and maintaining a service trail that can explain how charges were established if a tenant or owner asks for proof."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "787153637688",
+          "_type": "link",
+          "href": "https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dc6769ce52f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e501b45bc997",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21d2b2394bb6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3dfb4ab6407d",
+          "_type": "span",
+          "marks": [],
+          "text": "The specifications that change performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e540b529a923",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6edeb33a406",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Approved metering equipment"
+        },
+        {
+          "_key": "505c2f43de64",
+          "_type": "span",
+          "marks": [],
+          "text": " matched to the site and jurisdiction."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e290af83179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53c1552e1c61",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Documented commissioning"
+        },
+        {
+          "_key": "c01a5e7ddc76",
+          "_type": "span",
+          "marks": [],
+          "text": " that shows polarity, placement, and meter association."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a64863aea393",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "449c2d206cd9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Recalibration planning"
+        },
+        {
+          "_key": "acca7273908f",
+          "_type": "span",
+          "marks": [],
+          "text": " so drift can be checked instead of guessed."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce3340e84e86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98dbb013c1a2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Maintenance records"
+        },
+        {
+          "_key": "2a6e1eac9f05",
+          "_type": "span",
+          "marks": [],
+          "text": " that show inspections and corrections over time."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49f641c403a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad97004b8896",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing-grade accuracy comes from the whole measurement chain. The CT is one part of that chain."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f66a75e81634",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fb718841926",
+          "_type": "span",
+          "marks": [],
+          "text": "Recent technical discussion also points to AI-driven fault detection and self-correction for split-core CTs, which shows where the category is headed for installed systems that need ongoing confidence in difficult electrical-room conditions "
+        },
+        {
+          "_key": "3799295c0e31",
+          "_type": "span",
+          "marks": [
+            "77f87ed3d992"
+          ],
+          "text": "First Transformer guidance"
+        },
+        {
+          "_key": "c3ec3ebe2ef6",
+          "_type": "span",
+          "marks": [],
+          "text": ". For Canadian owners, the practical takeaway stays straightforward. Choose approved equipment, install it carefully, and keep a maintenance trail."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "77f87ed3d992",
+          "_type": "link",
+          "href": "https://www.first-transformer.com/news_detail/280851.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d98403e18448",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "920fe56eaeb0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01d05c26c853",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "561b8de33c68",
+          "_type": "span",
+          "marks": [],
+          "text": "Deploying Split-Core CTs in Multi-Family and Commercial Properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "59dc0fa7a062",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03cacfe518fd",
+          "_type": "span",
+          "marks": [],
+          "text": "A split-core CT project works best when the team studies the site before opening any panel. A property manager, electrician, and submetering provider should identify conductor sizes, check for EMI sources, measure the space around the equipment, and confirm where each CT can be placed without causing access problems later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3bf5556b5682",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b2ab7d3e923",
+          "_type": "span",
+          "marks": [],
+          "text": "A site review also helps the team spot the practical limits of the electrical room. A split-core CT may fit around the conductor, yet it still needs room for lead routing, clear labels, and a meter location that avoids sharp bends or cluttered cable paths. The strongest projects treat the electrical room as a layout problem first, then as an installation task."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6693f2cb8021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a79b0f10c042",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dabcb65c6934",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9252145c0edc",
+          "_type": "span",
+          "marks": [],
+          "text": "What happens before commissioning"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "605954605dca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "822133d33ec4",
+          "_type": "span",
+          "marks": [],
+          "text": "Dense electrical rooms make planning more important than hardware selection. The CT is only one part of the measurement path, so the surrounding space, cable routing, and label placement all affect whether the system is easy to service later. For owners and managers, that means the goal is not just to get the device mounted, but to set up a system that can be understood months later by someone who was not there on day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5710b12096ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b42c9eb6d65f",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning connects the physical installation to the billing platform. That includes checking polarity, verifying phase rotation, recording baseline readings, and storing the installation details so the compliance file stays complete. In a turnkey project, coordination matters because the owner is not left to manage every trade, permit, and handoff alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "38aed711c198",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75efd5a39b2c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac84b74b8a20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60809b898728",
+          "_type": "span",
+          "marks": [],
+          "text": "What owners should plan for after go-live"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d39a374a6953",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c216471d4899",
+          "_type": "span",
+          "marks": [],
+          "text": "A live system still needs attention. Split-core CTs in retrofit settings can face variable loading, limited access, and nearby equipment that changes the magnetic environment over time. Recalibration and condition monitoring matter after installation, not only during it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d53e304edc0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f2665b40147",
+          "_type": "span",
+          "marks": [],
+          "text": "Long-term monitoring becomes even more useful when fault detection tools can flag drift or abnormal behaviour early, as noted earlier in "
+        },
+        {
+          "_key": "b7daca65c0c1",
+          "_type": "span",
+          "marks": [
+            "3f0c3f924a29"
+          ],
+          "text": "First Transformer guidance"
+        },
+        {
+          "_key": "193f623a6f6c",
+          "_type": "span",
+          "marks": [],
+          "text": ". For multi-family and mixed-use properties, that matters because billing confidence depends on catching problems before they turn into tenant disputes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3f0c3f924a29",
+          "_type": "link",
+          "href": "https://www.first-transformer.com/news_detail/280851.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f8189473d82f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d59308499b3c",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical deployment sequence usually follows this order:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a3fa698bb83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba3f539f862b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Site review and design"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ed98fc937c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "314ccd14225e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Equipment selection and lead planning"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d65d3d50989",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ac31b8a7c92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation with labelled conductors and verified polarity"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91bfdfba6009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec66edafd0d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commissioning and baseline documentation"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "198836fa4f4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4bed8f7cca7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ongoing inspection and recalibration planning"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74b15ebd21f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f0309b48de4",
+          "_type": "span",
+          "marks": [],
+          "text": "That sequence keeps the project organised from the first walkthrough through the billing cycle, where the CT's value is finally tested. It also fits the way property owners make decisions in practice, balancing technical accuracy with access, maintenance, and the need to explain charges clearly if questions come up later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f175a322f9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41515f4ccb29",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "673f5f8347d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7c70c9246e5",
+          "_type": "span",
+          "marks": [],
+          "text": "Key Takeaways and Next Steps"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5c8577f75d48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32ce2836a50d",
+          "_type": "span",
+          "marks": [],
+          "text": "A split-core current transformer is useful because it lets you measure current without disconnecting the conductor. In occupied Canadian buildings, that matters because retrofit work often has to happen around tenant schedules, limited shutdown windows, and billing records that may need to stand up to review later. The value comes from choosing the right fit, installing it carefully, and keeping an eye on performance after the system is live."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da9be408dd40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "834d30ad6cbd",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep five points in mind. "
+        },
+        {
+          "_key": "dd3cbea7fa44",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "First"
+        },
+        {
+          "_key": "5e0b4df5b782",
+          "_type": "span",
+          "marks": [],
+          "text": ", the aperture size has to match the conductor, not just the expected load. "
+        },
+        {
+          "_key": "3f4eb8c908a7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Second"
+        },
+        {
+          "_key": "df3edeef067e",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "39ac738b771f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Class 0.5"
+        },
+        {
+          "_key": "85c0c80a22be",
+          "_type": "span",
+          "marks": [],
+          "text": " and the right secondary output can support revenue-grade use when the installation is done well. "
+        },
+        {
+          "_key": "87575480f1b1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Third"
+        },
+        {
+          "_key": "9b2e0df8e8d6",
+          "_type": "span",
+          "marks": [],
+          "text": ", compliance depends on approved metering and documented commissioning, not hardware alone. "
+        },
+        {
+          "_key": "9a49b245320e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fourth"
+        },
+        {
+          "_key": "1c1759d6fcae",
+          "_type": "span",
+          "marks": [],
+          "text": ", installation quality can affect accuracy as much as the device rating does. "
+        },
+        {
+          "_key": "5072bd2cdd9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fifth"
+        },
+        {
+          "_key": "c3b095267617",
+          "_type": "span",
+          "marks": [],
+          "text": ", recalibration and condition monitoring help preserve measurement integrity over time, especially in retrofit environments where access and loading can change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "90e0fd797f92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5c4b3fe5adf",
+          "_type": "span",
+          "marks": [],
+          "text": "For property owners still evaluating submetering, the next step is a site-level review of the electrical rooms and tenant billing goals. That review helps confirm whether the existing conductor layout, cabinet space, and access conditions support a split-core approach without creating avoidable disruption. For teams already in planning, the next step is a specification pass that matches conductor size, burden, and output type before procurement. For owners ready to move, choose a partner that can handle commissioning, billing setup, and ongoing support without creating extra work for the property team."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79a47253a260",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06af2dc98199",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're ready to turn live-building constraints into a practical submetering plan, "
+        },
+        {
+          "_key": "ff65b53718f2",
+          "_type": "span",
+          "marks": [
+            "47fd725655d5"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "8a7c57d24b7d",
+          "_type": "span",
+          "marks": [],
+          "text": " can help you evaluate the right approach, coordinate implementation, and keep the system working after commissioning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "47fd725655d5",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how a split core current transformer works for submetering, including selection, installation, accuracy, and compliance tips.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/15a655eb-97e8-43b5-a9ed-65923e8d72c4/split-core-current-transformer-current-transformer.jpg",
+  "noIndex": false,
+  "outrankId": "17c10951-2fad-4ef5-be0a-ae99953bed6f",
+  "publishedAt": "2026-08-02T07:23:54.583028+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "split-core-current-transformer"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re standing in a mechanical room with a tenant on the phone asking why last month&#39;s bill looks “wrong” again. The building has one utility account, the invoices are getting harder to defend, and every shutdown request turns into a scheduling problem. A <strong>split core current transformer</strong> is one of the simplest ways to move from estimated or allocated charges to real, circuit-level measurement without tearing apart an occupied building.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-split-core-current-transformers-matter-for-property-submetering\">Why Split-Core Current Transformers Matter for Property Submetering</a></li>\n<li><a href=\"#how-split-core-current-transformers-work\">How Split-Core Current Transformers Work</a><ul>\n<li><a href=\"#the-main-parts-that-matter\">The main parts that matter</a></li>\n<li><a href=\"#why-the-terms-matter-in-the-field\">Why the terms matter in the field</a></li>\n</ul>\n</li>\n<li><a href=\"#comparing-split-core-and-solid-core-current-transformers\">Comparing Split-Core and Solid-Core Current Transformers</a><ul>\n<li><a href=\"#where-each-type-fits-best\">Where each type fits best</a></li>\n<li><a href=\"#a-simple-decision-frame\">A simple decision frame</a></li>\n</ul>\n</li>\n<li><a href=\"#selecting-the-right-split-core-current-transformer\">Selecting the Right Split-Core Current Transformer</a><ul>\n<li><a href=\"#the-specifications-that-actually-change-performance\">The specifications that actually change performance</a></li>\n<li><a href=\"#common-split-core-ct-specifications-for-canadian-submetering\">Common split-core CT specifications for Canadian submetering</a></li>\n</ul>\n</li>\n<li><a href=\"#installation-and-wiring-best-practices\">Installation and Wiring Best Practices</a><ul>\n<li><a href=\"#what-electricians-watch-first\">What electricians watch first</a></li>\n<li><a href=\"#common-installation-mistakes-to-avoid\">Common installation mistakes to avoid</a></li>\n</ul>\n</li>\n<li><a href=\"#revenue-grade-accuracy-and-regulatory-compliance\">Revenue-Grade Accuracy and Regulatory Compliance</a><ul>\n<li><a href=\"#accuracy-lives-in-the-field-not-just-the-datasheet\">Accuracy lives in the field, not just the datasheet</a></li>\n<li><a href=\"#the-specifications-that-change-performance\">The specifications that change performance</a></li>\n</ul>\n</li>\n<li><a href=\"#deploying-split-core-cts-in-multi-family-and-commercial-properties\">Deploying Split-Core CTs in Multi-Family and Commercial Properties</a><ul>\n<li><a href=\"#what-happens-before-commissioning\">What happens before commissioning</a></li>\n<li><a href=\"#what-owners-should-plan-for-after-go-live\">What owners should plan for after go-live</a></li>\n</ul>\n</li>\n<li><a href=\"#key-takeaways-and-next-steps\">Key Takeaways and Next Steps</a></li>\n</ul>\n<p><a id=\"why-split-core-current-transformers-matter-for-property-submetering\"></a></p>\n<h2>Why Split-Core Current Transformers Matter for Property Submetering</h2>\n<p>A property manager can do everything else right, renew the insurance, keep the roof in good shape, and still lose trust over utility allocation. When tenants see a bill based on square footage or a rough estimate, they question fairness because they can&#39;t see the actual load behind the charge. That&#39;s where <strong>split-core current transformers</strong> become practical, not theoretical, because they let a building capture unit-level consumption without disconnecting energized conductors.</p>\n<p>In occupied buildings, that non-intrusive installation matters as much as the meter itself. A split-core CT is designed to clamp around a conductor or busbar without opening the circuit first, which is why it&#39;s widely used in retrofit energy-monitoring applications and low-current measuring instruments, especially where shutdowns are costly and disruption has to stay low <a href=\"https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/\">Butler Winding</a>.</p>\n<p>For a Canadian multi-unit property, the value is not just measurement. It&#39;s the ability to replace guesswork with a documented, defensible process that fits the building&#39;s operating reality and the submetering workflow used in Ontario&#39;s licensed environment. That&#39;s also why retrofit projects often favour <strong>CT-based measurement</strong> over invasive rewiring, especially in dense urban housing stock where panel access is limited and tenant downtime has to be kept short <a href=\"https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/\">Ontario submetering context and transformer lineage</a>.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> if the building can&#39;t afford a shutdown, the metering design has to work around the live conductor, not through it.</p>\n</blockquote>\n<p>For property owners comparing options, a good starting point is a structured submetering plan rather than buying hardware first. A useful reference point is the <strong><a href=\"https://www.axismeter.com/solutions/electricity-submetering\">electricity submetering solution framework</a></strong>, because the device choice only makes sense when it&#39;s tied to billing, commissioning, and building access realities.</p>\n<p><a id=\"how-split-core-current-transformers-work\"></a></p>\n<h2>How Split-Core Current Transformers Work</h2>\n<p>A split-core current transformer works on the same measurement principle as a clamp meter, but it is built for permanent installation. A technician closes the hinged core around a live conductor, the alternating current in that conductor creates a magnetic field, and the CT turns that field into a smaller signal that the meter can read safely. In a building system, the goal is not a quick spot check, it is a signal that stays dependable when the meter is used for billing, load tracking, and long-term operating records.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e2fe0165-0983-436c-a1e7-f32f9e39a682/split-core-current-transformer-working-principle.jpg\" alt=\"A diagram illustrating how a split-core current transformer works to sense AC current without breaking the circuit.\"></p>\n<p><a id=\"the-main-parts-that-matter\"></a></p>\n<h3>The main parts that matter</h3>\n<p>The <strong>primary conductor</strong> is the cable or busbar carrying the load. The <strong>split core</strong> is the hinged magnetic path that closes around it, and the <strong>secondary output</strong> is the signal sent to the meter. In many submetering systems, that output is either <strong>5 A</strong> or <strong>0.333 V AC</strong>, depending on the meter architecture and lead length requirements <a href=\"https://info.bannerengineering.com/cs/groups/public/documents/literature/212463.pdf\">Banner Engineering specification</a>.</p>\n<p>The ratio is the part that often causes confusion. The CT does not read the load in the same direct way a handheld clamp meter does. It scales the current down by a known factor, then the meter interprets the secondary signal and converts it back to the actual load. That is why <strong>burden</strong>, <strong>accuracy class</strong>, and <strong>secondary output</strong> matter just as much as the CT body itself. If any one of those elements is mismatched, the reading can look stable while still being wrong.</p>\n<p><a id=\"why-the-terms-matter-in-the-field\"></a></p>\n<h3>Why the terms matter in the field</h3>\n<p><strong>Accuracy class</strong> tells you how closely the CT output follows the true current within its intended range. <strong>Burden</strong> is the electrical load the meter and wiring place on the CT secondary, and if the burden is too high, accuracy can suffer. <strong>Turns ratio</strong> describes how the primary and secondary relate, and if that ratio does not match the expected load profile, the meter can drift outside the range you need.</p>\n<p>For installations that also depend on clear circuit labeling and field identification, <a href=\"https://evrightindustrial.com.au/electrical/\">industrial electrical identification solutions</a> is a useful technical reference point. That matters in property metering work, because a CT that is installed correctly but identified poorly can still lead to billing confusion later, especially when multiple suites, feeders, or tenant loads are involved.</p>\n<p>For a practical walk-through of the measurement process, the <strong><a href=\"https://www.axismeter.com/how-it-works\">split-core CT operating overview</a></strong> explains the same operating logic in a way that pairs well with hardware selection and commissioning planning.</p>\n<p><a id=\"comparing-split-core-and-solid-core-current-transformers\"></a></p>\n<h2>Comparing Split-Core and Solid-Core Current Transformers</h2>\n<p>Split-core and solid-core CTs solve the same measurement problem, but they fit very different project conditions. The simplest distinction is installation method. <strong>Solid-core CTs</strong> require the conductor to be threaded through the core, which usually means disconnecting and reworking the circuit. <strong>Split-core CTs</strong> open around the conductor, which makes them the practical choice for retrofit work in live buildings.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e0673a03-99bc-4177-8168-f360950f32e9/split-core-current-transformer-comparison-chart.jpg\" alt=\"A comparison chart outlining the key differences between split-core and solid-core current transformers for energy monitoring.\"></p>\n<p><a id=\"where-each-type-fits-best\"></a></p>\n<h3>Where each type fits best</h3>\n<p>Solid-core units usually make more sense in new construction because the conductor can be installed through the CT before energization. Split-core units make more sense when an existing panel, feeder, or branch circuit has to stay live. In retrofit-heavy buildings, that difference often decides the project.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/Buwa61a_zSw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>The trade-off is real. A split-core CT adds a closure interface, so installation quality matters more, and the aperture has to match the conductor geometry closely. A solid-core device removes that closure point, which can support a tighter mechanical arrangement when the system is built from scratch <a href=\"https://www.packetpower.com/blog/split-core-solid-core-and-why-you-should-care\">general CT comparison context</a>.</p>\n<p><a id=\"a-simple-decision-frame\"></a></p>\n<h3>A simple decision frame</h3>\n<ul>\n<li><strong>Choose split-core</strong> when the conductor is already energized, access is limited, or shutdowns are expensive.</li>\n<li><strong>Choose solid-core</strong> when the circuit is being built or rebuilt and the conductor can be threaded before commissioning.</li>\n<li><strong>Check the physical fit first</strong> because a CT that doesn&#39;t match the conductor size won&#39;t solve the project, no matter how good the datasheet looks.</li>\n<li><strong>Match the use case to the building phase</strong> because retrofits and new builds don&#39;t reward the same hardware choices.</li>\n</ul>\n<blockquote>\n<p>If you&#39;re choosing for a live building, convenience isn&#39;t a luxury. It&#39;s part of the technical requirement.</p>\n</blockquote>\n<p><a id=\"selecting-the-right-split-core-current-transformer\"></a></p>\n<h2>Selecting the Right Split-Core Current Transformer</h2>\n<p>A property manager may only notice the problem after a billing dispute, not during the purchase stage. The split-core CT that looked suitable in a spec table can still cause headaches if the aperture is too small, the burden does not match the meter, or the output type does not fit the wiring run. For Canadian submetering, the best habit is to treat the datasheet as a system document, because the CT, meter, conductor, and installation method all have to work together.</p>\n<p><a id=\"the-specifications-that-actually-change-performance\"></a></p>\n<h3>The specifications that actually change performance</h3>\n<p><strong>Accuracy class</strong> is the first filter. For revenue-grade applications, <strong>Class 0.5</strong> is a common benchmark in the Canadian market, because the meter has to support defensible billing, not just casual monitoring <a href=\"https://info.bannerengineering.com/cs/groups/public/documents/literature/212463.pdf\">Banner Engineering specification</a>. <strong>Secondary output</strong> matters next. A <strong>5 A</strong> secondary is common, while <strong>0.333 V AC</strong> is often preferred when the wiring run is long or the installation needs a lower-burden signal path.</p>\n<p><strong>Aperture size</strong> should match the conductor, not the expected load. A branch circuit and a large feeder may carry very different amperage, but the CT still has to physically close around the actual wire or busbar. Banner Engineering lists practical operating and electrical limits that help define the envelope, including <strong>±1% ratio error</strong>, <strong>≤ ±60 minutes phase angle error</strong>, <strong>2.5 kV dielectric strength</strong>, and operation from <strong>−25 °C to +75 °C</strong>.</p>\n<p><a id=\"common-split-core-ct-specifications-for-canadian-submetering\"></a></p>\n<h3>Common split-core CT specifications for Canadian submetering</h3>\n<table>\n<thead>\n<tr>\n<th>Specification</th>\n<th>Banner Engineering</th>\n<th>Opto 22</th>\n<th>IEC 61869-2 Range</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Secondary output</td>\n<td><strong>0.333 V AC</strong> or <strong>5 A</strong></td>\n<td><strong>5 A</strong> secondary</td>\n<td>Varies by application</td>\n</tr>\n<tr>\n<td>Accuracy class</td>\n<td><strong>Class 0.5</strong></td>\n<td><strong>1.5–15 VA burden</strong> models under <strong>IEC 61869-2</strong></td>\n<td>Application-dependent</td>\n</tr>\n<tr>\n<td>Ratio error</td>\n<td><strong>±1%</strong></td>\n<td>Primary ratings from <strong>100 A to 6000 A</strong></td>\n<td>Standardised by class</td>\n</tr>\n<tr>\n<td>Phase angle error</td>\n<td><strong>≤ ±60 minutes</strong></td>\n<td><strong>720 V maximum system voltage</strong></td>\n<td>Standardised by class</td>\n</tr>\n<tr>\n<td>Dielectric strength</td>\n<td><strong>2.5 kV</strong></td>\n<td><strong>8 ft (2.4 m)</strong> twisted-pair leads on some models</td>\n<td>Application-dependent</td>\n</tr>\n<tr>\n<td>Operating temperature</td>\n<td><strong>−25 °C to +75 °C</strong></td>\n<td><strong>18 AWG</strong> leads on higher-current models</td>\n<td>Application-dependent</td>\n</tr>\n<tr>\n<td>Measuring band</td>\n<td><strong>10% to 130% of rated current</strong></td>\n<td>Window openings sized for up to <strong>250 A</strong> or <strong>600 A</strong> on some models</td>\n<td>Commonly defined by model</td>\n</tr>\n</tbody></table>\n<p>Opto 22&#39;s data shows how selection expands across building sizes, from window openings for up to <strong>250 A</strong> or <strong>600 A</strong> on some models to catalog entries spanning <strong>100 A to 6000 A</strong> at <strong>5 A secondary</strong> <a href=\"https://documents.opto22.com/1938_Split_Core_Current_Transformer_Data_Sheet.pdf\">Opto 22 data sheet</a>. That range matters in Canadian commercial and mixed-use buildings because branch circuits, risers, and larger feeders often need different CT bodies even within the same property. For teams comparing options during planning, the <a href=\"https://www.axismeter.com/features/utility-metering-installation-maintenance\">utility metering installation and maintenance guidance from Axis Meter Solutions</a> is a practical way to connect the spec sheet to field conditions.</p>\n<p>Choose the smallest CT that comfortably fits the conductor and the load profile. Oversizing can weaken low-load performance, and loads below <strong>10%</strong> of rated current may fall outside the tightest accuracy band in many practical applications. That is one reason the selection decision is tied to operating pattern, not just feeder size.</p>\n<p>A second filter is safety and maintenance access. Crews working in energized rooms need hardware that can be installed and checked without turning the job into a long outage. The <a href=\"https://canada.refineryworkwear.com/blogs/canadian-safety-standards/nfpa-70-e\">NFPA 70E guide from Refinery Work Wear</a> is useful background here, because the installation plan has to fit the site&#39;s safety process as much as the electrical layout.</p>\n<blockquote>\n<p><strong>Selection tip:</strong> if the conductor is right and the burden is controlled, the meter has a much better chance of staying trustworthy in the field.</p>\n</blockquote>\n<p><a id=\"installation-and-wiring-best-practices\"></a></p>\n<h2>Installation and Wiring Best Practices</h2>\n<p>A split-core current transformer can look simple on a drawings package and still fail in the field if the installation is careless. The usual problems are mechanical first, electrical second. The conductor sits off-centre in the window, the core does not close fully, or the leads are routed through a crowded electrical room without enough attention to the path they take.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2fa454fa-2400-4ed9-8978-260f75df88b8/split-core-current-transformer-installation-guide.jpg\" alt=\"A seven-step infographic showing best practices for installing and wiring a split-core current transformer device safely.\"></p>\n<p><a id=\"what-electricians-watch-first\"></a></p>\n<h3>What electricians watch first</h3>\n<p>The conductor should sit in the middle of the window. That detail sounds small, but an off-centre conductor can create measurable error, especially where nearby conductors, transformers, or variable loads are present <a href=\"https://aimdynamics.com/accuracy-of-split-core-current-transformer\">AIM Dynamics accuracy guidance</a>. The core faces should meet cleanly, with no dust, debris, or gap preventing full contact.</p>\n<p>Lead routing matters as well. Split-core designs often use <strong>twisted-pair leads</strong>, and some models specify <strong>8 ft (2.4 m)</strong> twisted-pair leads while higher-current variants use larger <strong>18 AWG</strong> leads <a href=\"https://documents.opto22.com/1938_Split_Core_Current_Transformer_Data_Sheet.pdf\">Opto 22 data sheet</a>. Those details are practical, not cosmetic. They help the signal travel between the panel and the meter with less chance of noise pickup or burden-related trouble. For crews comparing installation steps with field work, the <strong><a href=\"https://www.axismeter.com/features/utility-metering-installation-maintenance\">utility metering installation and maintenance process</a></strong> is a useful operational reference because it connects the meter room plan to the work order, commissioning checks, and follow-up service.</p>\n<p><a id=\"common-installation-mistakes-to-avoid\"></a></p>\n<h3>Common installation mistakes to avoid</h3>\n<ul>\n<li><strong>Letting the conductor sit off-centre:</strong> this introduces avoidable measurement error.</li>\n<li><strong>Leaving the core face dirty or loose:</strong> poor mating surfaces reduce measurement stability.</li>\n<li><strong>Running leads too close to high-current conductors:</strong> this can add unwanted interference.</li>\n<li><strong>Skipping polarity checks:</strong> incorrect orientation can reverse the reading.</li>\n<li><strong>Ignoring phase rotation:</strong> billing and load analysis become harder to trust later.</li>\n</ul>\n<p>The safety side matters just as much as the measurement side. A practical field reference for work planning and personal protective equipment is the <a href=\"https://canada.refineryworkwear.com/blogs/canadian-safety-standards/nfpa-70-e\">NFPA 70E guide from Refinery Work Wear</a>, especially when electricians are working in live or partially energised environments.</p>\n<p>For property managers, that safety process is part of the job, not an extra step. In multi-tenant buildings, the crew has to keep the installation organised, verify each CT on the correct conductor, and leave enough documentation for future maintenance without turning the room into a puzzle for the next technician.</p>\n<p><a id=\"revenue-grade-accuracy-and-regulatory-compliance\"></a></p>\n<h2>Revenue-Grade Accuracy and Regulatory Compliance</h2>\n<p>A buyer can choose a split-core current transformer with a strong label and still end up with poor billing data if the installation is careless. A <strong>Class 0.5</strong> rating does not protect against an off-centre conductor, a core that does not close cleanly, or nearby conductors that introduce stray magnetic fields. The device sets the baseline, but the field work decides whether the reading can be trusted <a href=\"https://aimdynamics.com/accuracy-of-split-core-current-transformer\">AIM Dynamics accuracy guidance</a>.</p>\n<p><a id=\"accuracy-lives-in-the-field-not-just-the-datasheet\"></a></p>\n<h3>Accuracy lives in the field, not just the datasheet</h3>\n<p>Split-core designs depend on mechanical fit as much as electrical specification. Tight core closure, centred conductors, torque-controlled clamping, and periodic recalibration all support stable measurement over time, as outlined by AIM Dynamics <a href=\"https://aimdynamics.com/accuracy-of-split-core-current-transformer\">AIM Dynamics accuracy guidance</a>. For Canadian billing workflows, that means the installation record matters as much as the product label, because the system has to remain defensible after the crew leaves.</p>\n<p>The regulatory context points in the same direction. Ontario&#39;s licensed sub-metering environment treats electricity unit sub-metering as an established compliance activity, so approved metering and commissioning practices are expected, not optional <a href=\"https://www.butlerwinding.com/product/split-core-current-transformers-custom-built/\">Ontario submetering context and transformer lineage</a>. For operators, that means keeping clear documentation, preserving commissioning records, and maintaining a service trail that can explain how charges were established if a tenant or owner asks for proof.</p>\n<p><a id=\"the-specifications-that-change-performance\"></a></p>\n<h3>The specifications that change performance</h3>\n<ul>\n<li><strong>Approved metering equipment</strong> matched to the site and jurisdiction.</li>\n<li><strong>Documented commissioning</strong> that shows polarity, placement, and meter association.</li>\n<li><strong>Recalibration planning</strong> so drift can be checked instead of guessed.</li>\n<li><strong>Maintenance records</strong> that show inspections and corrections over time.</li>\n</ul>\n<blockquote>\n<p>Billing-grade accuracy comes from the whole measurement chain. The CT is one part of that chain.</p>\n</blockquote>\n<p>Recent technical discussion also points to AI-driven fault detection and self-correction for split-core CTs, which shows where the category is headed for installed systems that need ongoing confidence in difficult electrical-room conditions <a href=\"https://www.first-transformer.com/news_detail/280851.html\">First Transformer guidance</a>. For Canadian owners, the practical takeaway stays straightforward. Choose approved equipment, install it carefully, and keep a maintenance trail.</p>\n<p><a id=\"deploying-split-core-cts-in-multi-family-and-commercial-properties\"></a></p>\n<h2>Deploying Split-Core CTs in Multi-Family and Commercial Properties</h2>\n<p>A split-core CT project works best when the team studies the site before opening any panel. A property manager, electrician, and submetering provider should identify conductor sizes, check for EMI sources, measure the space around the equipment, and confirm where each CT can be placed without causing access problems later.</p>\n<p>A site review also helps the team spot the practical limits of the electrical room. A split-core CT may fit around the conductor, yet it still needs room for lead routing, clear labels, and a meter location that avoids sharp bends or cluttered cable paths. The strongest projects treat the electrical room as a layout problem first, then as an installation task.</p>\n<p><a id=\"what-happens-before-commissioning\"></a></p>\n<h3>What happens before commissioning</h3>\n<p>Dense electrical rooms make planning more important than hardware selection. The CT is only one part of the measurement path, so the surrounding space, cable routing, and label placement all affect whether the system is easy to service later. For owners and managers, that means the goal is not just to get the device mounted, but to set up a system that can be understood months later by someone who was not there on day one.</p>\n<p>Commissioning connects the physical installation to the billing platform. That includes checking polarity, verifying phase rotation, recording baseline readings, and storing the installation details so the compliance file stays complete. In a turnkey project, coordination matters because the owner is not left to manage every trade, permit, and handoff alone.</p>\n<p><a id=\"what-owners-should-plan-for-after-go-live\"></a></p>\n<h3>What owners should plan for after go-live</h3>\n<p>A live system still needs attention. Split-core CTs in retrofit settings can face variable loading, limited access, and nearby equipment that changes the magnetic environment over time. Recalibration and condition monitoring matter after installation, not only during it.</p>\n<p>Long-term monitoring becomes even more useful when fault detection tools can flag drift or abnormal behaviour early, as noted earlier in <a href=\"https://www.first-transformer.com/news_detail/280851.html\">First Transformer guidance</a>. For multi-family and mixed-use properties, that matters because billing confidence depends on catching problems before they turn into tenant disputes.</p>\n<p>A practical deployment sequence usually follows this order:</p>\n<ol>\n<li><strong>Site review and design</strong></li>\n<li><strong>Equipment selection and lead planning</strong></li>\n<li><strong>Installation with labelled conductors and verified polarity</strong></li>\n<li><strong>Commissioning and baseline documentation</strong></li>\n<li><strong>Ongoing inspection and recalibration planning</strong></li>\n</ol>\n<p>That sequence keeps the project organised from the first walkthrough through the billing cycle, where the CT&#39;s value is finally tested. It also fits the way property owners make decisions in practice, balancing technical accuracy with access, maintenance, and the need to explain charges clearly if questions come up later.</p>\n<p><a id=\"key-takeaways-and-next-steps\"></a></p>\n<h2>Key Takeaways and Next Steps</h2>\n<p>A split-core current transformer is useful because it lets you measure current without disconnecting the conductor. In occupied Canadian buildings, that matters because retrofit work often has to happen around tenant schedules, limited shutdown windows, and billing records that may need to stand up to review later. The value comes from choosing the right fit, installing it carefully, and keeping an eye on performance after the system is live.</p>\n<p>Keep five points in mind. <strong>First</strong>, the aperture size has to match the conductor, not just the expected load. <strong>Second</strong>, <strong>Class 0.5</strong> and the right secondary output can support revenue-grade use when the installation is done well. <strong>Third</strong>, compliance depends on approved metering and documented commissioning, not hardware alone. <strong>Fourth</strong>, installation quality can affect accuracy as much as the device rating does. <strong>Fifth</strong>, recalibration and condition monitoring help preserve measurement integrity over time, especially in retrofit environments where access and loading can change.</p>\n<p>For property owners still evaluating submetering, the next step is a site-level review of the electrical rooms and tenant billing goals. That review helps confirm whether the existing conductor layout, cabinet space, and access conditions support a split-core approach without creating avoidable disruption. For teams already in planning, the next step is a specification pass that matches conductor size, burden, and output type before procurement. For owners ready to move, choose a partner that can handle commissioning, billing setup, and ongoing support without creating extra work for the property team.</p>\n<p>If you&#39;re ready to turn live-building constraints into a practical submetering plan, <a href=\"https://axismeter.com\">Axis Meter Solutions</a> can help you evaluate the right approach, coordinate implementation, and keep the system working after commissioning.</p>",
+  "tags": [
+    "split core current transformer",
+    "submetering",
+    "current transformer",
+    "building submetering",
+    "revenue grade"
+  ],
+  "title": "Split Core Current Transformer: A Complete Guide",
+  "updatedAt": "2026-08-02T07:23:57.501Z"
+}
