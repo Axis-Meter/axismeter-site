@@ -1,0 +1,2774 @@
+{
+  "_createdAt": "2026-08-07T07:33:07Z",
+  "_id": "outrank-f8343be6-ff28-49a0-b2c3-616585432488",
+  "_rev": "DrtQvCIB4uTCmFIhQ09EM1",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-07T07:33:07Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "b0a6c3f37cea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a779d8f04a23",
+          "_type": "span",
+          "marks": [],
+          "text": "You're probably standing in a hallway, a mechanical room, or a parking garage thinking the same thing most property managers think when a tenant reports a rotten-egg smell: is this a nuisance, or is it a gas issue? That's exactly where a "
+        },
+        {
+          "_key": "ca8057e1390a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "hydrogen sulfide monitor"
+        },
+        {
+          "_key": "958909b30eff",
+          "_type": "span",
+          "marks": [],
+          "text": " stops being an industrial niche product and becomes a building-operations decision. For multi-family and commercial sites, the question isn't whether the gas sounds scary. It's whether you can detect, verify, and act on a low-level problem before it turns into complaints, downtime, or an avoidable emergency."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee87f3dab4d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5993dea8a7d6",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "08ce82f3d0a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7519f462803a",
+          "_type": "span",
+          "marks": [
+            "d5aaa61d3661"
+          ],
+          "text": "Why Property Owners Are Paying Attention to H2S"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d5aaa61d3661",
+          "_type": "link",
+          "href": "#why-property-owners-are-paying-attention-to-h2s"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d5e8abd7519d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "744e30e0b9fc",
+          "_type": "span",
+          "marks": [
+            "2e400265c744"
+          ],
+          "text": "The building problems that actually trigger concern"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2e400265c744",
+          "_type": "link",
+          "href": "#the-building-problems-that-actually-trigger-concern"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b2addf5fb0a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd9291b5a13f",
+          "_type": "span",
+          "marks": [
+            "a1daac08a02d"
+          ],
+          "text": "What owners usually get wrong"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a1daac08a02d",
+          "_type": "link",
+          "href": "#what-owners-usually-get-wrong"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "91a52b39f1bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f8046295eb6",
+          "_type": "span",
+          "marks": [
+            "593ec330d641"
+          ],
+          "text": "What Hydrogen Sulfide Is and the Numbers That Matter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "593ec330d641",
+          "_type": "link",
+          "href": "#what-hydrogen-sulfide-is-and-the-numbers-that-matter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0f78a97a0ee0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f280b3ae8547",
+          "_type": "span",
+          "marks": [
+            "4ab59daeb6e7"
+          ],
+          "text": "Read the exposure numbers correctly"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4ab59daeb6e7",
+          "_type": "link",
+          "href": "#read-the-exposure-numbers-correctly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "07ceef35355f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1da504059e8e",
+          "_type": "span",
+          "marks": [
+            "c15dab1f705b"
+          ],
+          "text": "What those numbers mean for a building manager"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c15dab1f705b",
+          "_type": "link",
+          "href": "#what-those-numbers-mean-for-a-building-manager"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "be02e5e42430",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79bd980fa339",
+          "_type": "span",
+          "marks": [
+            "75db350f56b0"
+          ],
+          "text": "Sensor Technologies and How They Fail"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "75db350f56b0",
+          "_type": "link",
+          "href": "#sensor-technologies-and-how-they-fail"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4a61a5a86ef4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f53866d41759",
+          "_type": "span",
+          "marks": [
+            "34093eb5e81b"
+          ],
+          "text": "The three sensor families that matter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "34093eb5e81b",
+          "_type": "link",
+          "href": "#the-three-sensor-families-that-matter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d5d89ab41d30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fef901bc9787",
+          "_type": "span",
+          "marks": [
+            "c2538478550d"
+          ],
+          "text": "Match the technology to the job"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c2538478550d",
+          "_type": "link",
+          "href": "#match-the-technology-to-the-job"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "33c9ceb50246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a15d3a09c52",
+          "_type": "span",
+          "marks": [
+            "4c55226ff89a"
+          ],
+          "text": "Where H2S Actually Shows Up in a Building"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4c55226ff89a",
+          "_type": "link",
+          "href": "#where-h2s-actually-shows-up-in-a-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4a51c23e2f96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "298d0af21e05",
+          "_type": "span",
+          "marks": [
+            "9dd943cf8bab"
+          ],
+          "text": "Start with the most likely spaces"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9dd943cf8bab",
+          "_type": "link",
+          "href": "#start-with-the-most-likely-spaces"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d488f7452755",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75af70a541d4",
+          "_type": "span",
+          "marks": [
+            "5f20e28046a3"
+          ],
+          "text": "Watch for seasonal and occupancy patterns"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5f20e28046a3",
+          "_type": "link",
+          "href": "#watch-for-seasonal-and-occupancy-patterns"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "91d88981bdbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83778f1f15a6",
+          "_type": "span",
+          "marks": [
+            "36242d2753d1"
+          ],
+          "text": "Use the space type to decide the response"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "36242d2753d1",
+          "_type": "link",
+          "href": "#use-the-space-type-to-decide-the-response"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1b1e353fc20f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67fa0670c01b",
+          "_type": "span",
+          "marks": [
+            "1e9e09b6e089"
+          ],
+          "text": "Siting, Installation, and Integration With Building Systems"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1e9e09b6e089",
+          "_type": "link",
+          "href": "#siting-installation-and-integration-with-building-systems"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4772402be732",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d806c24508fe",
+          "_type": "span",
+          "marks": [
+            "cee9bdb97304"
+          ],
+          "text": "Put the sensor where it can do real work"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cee9bdb97304",
+          "_type": "link",
+          "href": "#put-the-sensor-where-it-can-do-real-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f9090abf01d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2068e59c9223",
+          "_type": "span",
+          "marks": [
+            "5c6f7c1791a0"
+          ],
+          "text": "Choose the integration method before the box arrives"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5c6f7c1791a0",
+          "_type": "link",
+          "href": "#choose-the-integration-method-before-the-box-arrives"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d823342e66db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be6ba607dbf9",
+          "_type": "span",
+          "marks": [
+            "df6b632c6275"
+          ],
+          "text": "Ask these questions before you sign"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "df6b632c6275",
+          "_type": "link",
+          "href": "#ask-these-questions-before-you-sign"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0745e4035a56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a4541ec8883",
+          "_type": "span",
+          "marks": [
+            "a5f2c8a9e68b"
+          ],
+          "text": "Calibration, Bump Testing, and Long-Term Reliability"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a5f2c8a9e68b",
+          "_type": "link",
+          "href": "#calibration-bump-testing-and-long-term-reliability"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ba9730a64097",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed8c58593a83",
+          "_type": "span",
+          "marks": [
+            "582525a87450"
+          ],
+          "text": "Know the difference between a bump test and a calibration"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "582525a87450",
+          "_type": "link",
+          "href": "#know-the-difference-between-a-bump-test-and-a-calibration"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "04993b0b66ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5cf27ce9f21",
+          "_type": "span",
+          "marks": [
+            "ed2973d856e1"
+          ],
+          "text": "Treat ageing as part of ownership"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ed2973d856e1",
+          "_type": "link",
+          "href": "#treat-ageing-as-part-of-ownership"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2f7377d84559",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e78d0952057",
+          "_type": "span",
+          "marks": [
+            "5c3ac32a0107"
+          ],
+          "text": "Keep the record, not just the result"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5c3ac32a0107",
+          "_type": "link",
+          "href": "#keep-the-record-not-just-the-result"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d10af5e08f66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44b096a112a6",
+          "_type": "span",
+          "marks": [
+            "589f0a5e1d1f"
+          ],
+          "text": "Choosing the Right Monitor for Your Property"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "589f0a5e1d1f",
+          "_type": "link",
+          "href": "#choosing-the-right-monitor-for-your-property"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d08dca199933",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e73bf99fde49",
+          "_type": "span",
+          "marks": [
+            "543865f5d8e0"
+          ],
+          "text": "Use five decision points"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "543865f5d8e0",
+          "_type": "link",
+          "href": "#use-five-decision-points"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1cd348ca296f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7e8a916ba5c",
+          "_type": "span",
+          "marks": [
+            "7477a42b8656"
+          ],
+          "text": "Match the solution to the site"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7477a42b8656",
+          "_type": "link",
+          "href": "#match-the-solution-to-the-site"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8de4a658ca0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b274e9af32c5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "433f394fa38e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9353875b3bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Property Owners Are Paying Attention to H2S"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "49175171b757",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62f436ec534d",
+          "_type": "span",
+          "marks": [],
+          "text": "A tenant calls the office because the underground parking level smells like rotten eggs. Your maintenance tech checks drains, the janitor checks the refuse room, and someone opens a few doors hoping the odour goes away. That's a familiar building problem, and it's exactly the kind of situation that makes a "
+        },
+        {
+          "_key": "68f76199f9d2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "hydrogen sulfide monitor"
+        },
+        {
+          "_key": "0e496777cb9d",
+          "_type": "span",
+          "marks": [],
+          "text": " worth discussing before the next complaint arrives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7f92e6e8473",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2b023509243",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "306e880d8f63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebe40fe5dfd3",
+          "_type": "span",
+          "marks": [],
+          "text": "The building problems that actually trigger concern"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e5b0b3c771d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "153dbd488cb4",
+          "_type": "span",
+          "marks": [],
+          "text": "Hydrogen sulfide isn't just a refinery issue. In properties, it can show up where organic material breaks down, where sewer gas migrates through dry traps, or where back-of-house spaces don't ventilate well. Those are the places where staff get repeated complaints, but no one can point to a single obvious source."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2f223befaff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea5431e60aa0",
+          "_type": "span",
+          "marks": [],
+          "text": "The trap for property owners is treating this as a one-off odour investigation every time. That gets expensive fast. If the issue keeps returning, a monitor gives you a way to decide whether the problem is background nuisance, a ventilation issue, or a space that deserves a permanent alert system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "331ebde499f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38af58d6b323",
+          "_type": "span",
+          "marks": [],
+          "text": "That is also why this topic overlaps with broader building-safety decisions. When you compare how you handle gas-related shutdowns, alarm response, and non-payment risk, the operational mindset matters more than the equipment label, which is why a resource like "
+        },
+        {
+          "_key": "d68605599d13",
+          "_type": "span",
+          "marks": [
+            "ca53ee2bcea8"
+          ],
+          "text": "compare safety and payment issues"
+        },
+        {
+          "_key": "51bb52fbc6e5",
+          "_type": "span",
+          "marks": [],
+          "text": " can be useful for managers thinking in terms of building continuity, not just compliance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ca53ee2bcea8",
+          "_type": "link",
+          "href": "https://www.thermal-ops.com/gas-shut-off-safety-vs-non-payment"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3bf81944a723",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "627ccd6b07f8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "882d87315802",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e850f25e29b",
+          "_type": "span",
+          "marks": [],
+          "text": "What owners usually get wrong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ec6e8b45a1c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fd270921821",
+          "_type": "span",
+          "marks": [],
+          "text": "Most owners start with the smell, not the control plan. That's backwards. If a location has repeated complaints, staff concern, or a known sewer or waste pathway, the better move is to decide whether you need spot monitoring, a temporary check, or a fixed device tied to an alarm path."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3aaac1da2e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5e861cde7d9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "d04b0990828c",
+          "_type": "span",
+          "marks": [],
+          "text": " If you're calling contractors more than once for the same odour source, you're already in monitoring territory."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "e9116f744a87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ed13c9cadf8",
+          "_type": "span",
+          "marks": [],
+          "text": "That doesn't mean every building needs a permanent system. It means the decision should be based on whether the space has a repeatable risk profile. In a smaller residential site, a one-time investigation may be enough. In a larger mixed-use property with underground or service areas, a monitor can be cheaper than chasing the same complaint through inspection after inspection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8b1f9d0d0a3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c74579d6f364",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e042c564b8d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9b40b1c7a19",
+          "_type": "span",
+          "marks": [],
+          "text": "What Hydrogen Sulfide Is and the Numbers That Matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b1a543b1801c",
+      "_type": "externalImage",
+      "alt": "An infographic detailing hydrogen sulfide properties, environmental sources, exposure limits, and associated safety hazards.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b97d73c-5815-467c-a37d-dc509c1da698/hydrogen-sulfide-monitor-infographic.jpg"
+    },
+    {
+      "_key": "3899903d1f56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47612b1275f1",
+          "_type": "span",
+          "marks": [],
+          "text": "Hydrogen sulfide, or "
+        },
+        {
+          "_key": "8be109976f0f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "H2S"
+        },
+        {
+          "_key": "f994f65bf4b3",
+          "_type": "span",
+          "marks": [],
+          "text": ", is a gas you need to take seriously because your senses don't protect you for long. It smells like rotten eggs at very low levels, then the sense of smell can fade, which is exactly when relying on odour becomes dangerous. For building managers, that means a complaint about a smell can be an early warning, but it's not a safety system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ca48e577712",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebf5f8fc0f2e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb655c39d14a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7edfd3bb6ef6",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the exposure numbers correctly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1224b49f2004",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "57d57f1597b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian occupational thresholds give you the clearest working frame. Alberta's OHS Code sets an exposure limit of "
+        },
+        {
+          "_key": "f54018b021ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10 ppm as an 8-hour TWA"
+        },
+        {
+          "_key": "c62ffd2786c3",
+          "_type": "span",
+          "marks": [],
+          "text": " and a "
+        },
+        {
+          "_key": "15f967515192",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15 ppm ceiling"
+        },
+        {
+          "_key": "4fc2c920e195",
+          "_type": "span",
+          "marks": [],
+          "text": ", while British Columbia's ceiling limit is "
+        },
+        {
+          "_key": "bac2aaf768ce",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10 ppm"
+        },
+        {
+          "_key": "e6be42c55cf1",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those are the numbers that drive workplace control, but they aren't the same thing as the first trace a tenant might notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bfc8a573b26d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2639c86cf118",
+          "_type": "span",
+          "marks": [],
+          "text": "A Canadian review of low-level H2S exposure reports eye irritation around "
+        },
+        {
+          "_key": "9f769ada3257",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.007 to 0.025 ppm"
+        },
+        {
+          "_key": "c676b1e092a4",
+          "_type": "span",
+          "marks": [],
+          "text": ", and odor perception around "
+        },
+        {
+          "_key": "280c7cf5f85c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.02 to 0.13 ppm"
+        },
+        {
+          "_key": "bcc344d327b7",
+          "_type": "span",
+          "marks": [],
+          "text": ". It also notes community nuisance and symptoms in the roughly "
+        },
+        {
+          "_key": "374112da8688",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.001 to 0.050 ppm"
+        },
+        {
+          "_key": "a5707468de8d",
+          "_type": "span",
+          "marks": [],
+          "text": " range, with broader community standards identifying "
+        },
+        {
+          "_key": "be18117fc7c7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.0015 to 0.1 ppm"
+        },
+        {
+          "_key": "1d0d8994dcb4",
+          "_type": "span",
+          "marks": [],
+          "text": " as potentially dangerous. The same literature gives an odor-detection threshold estimate of "
+        },
+        {
+          "_key": "ad2fe3b391cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.0006 ppm"
+        },
+        {
+          "_key": "637c5863c6f6",
+          "_type": "span",
+          "marks": [],
+          "text": ". In plain terms, people can complain long before a worksite reaches the kind of numbers that trigger an occupational ceiling, which is why “it only smells bad” is not a useful dismissal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1dce7a529e6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fe3b6a95061",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77bd33e15a2e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "842078c2e050",
+          "_type": "span",
+          "marks": [],
+          "text": "What those numbers mean for a building manager"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "32dcbbbdc2fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4664ae331c13",
+          "_type": "span",
+          "marks": [],
+          "text": "If your reported reading is in trace territory, you're not automatically in emergency mode. You're in investigation mode. If the reading is trending up, or if a space regularly produces low but noticeable concentrations, the right response is to improve ventilation, seal the source path, or install monitoring where staff need it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "909e769318e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3d480c749f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Smell is a complaint trigger, not a control measure."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "7021473d9052",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a5b07484139",
+          "_type": "span",
+          "marks": [],
+          "text": "That's the main habit to break. A monitor is useful because it gives you a number, not a guess. It tells you whether the space is background nuisance, a maintenance problem, or a site that needs fixed detection and a written response plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9e6acee3b1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9870c1b4898d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "073b5e79abbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04549bf20995",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensor Technologies and How They Fail"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "275b64a23fcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c46b06837ded",
+          "_type": "span",
+          "marks": [],
+          "text": "Most suppliers talk about accuracy as if it's a permanent property. It isn't. The right "
+        },
+        {
+          "_key": "45c2fda1ba67",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "hydrogen sulfide monitor"
+        },
+        {
+          "_key": "bce23ab7d549",
+          "_type": "span",
+          "marks": [],
+          "text": " for a building is the one that keeps working after humidity changes, seasonal shutdowns, and months of sitting in a cabinet between uses. The wrong one is the one that looks fine on paper but drifts when you need it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4daf3c48a0f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8949b41e035e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66afc299f4b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d194bd8744b1",
+          "_type": "span",
+          "marks": [],
+          "text": "The three sensor families that matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0f39500ce91c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f941637fd1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Electrochemical sensors"
+        },
+        {
+          "_key": "ba548c7ab1d3",
+          "_type": "span",
+          "marks": [],
+          "text": " are the workhorse for low-ppm detection. They're sensitive, low power, and fast enough for most property applications. Their weakness is drift over time, which is why calibration history matters more than the brochure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00d4e9490877",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16e2e94e770f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Metal-oxide semiconductor sensors"
+        },
+        {
+          "_key": "7ec50377cdf1",
+          "_type": "span",
+          "marks": [],
+          "text": " are usually the budget play. They can last a long time, but they're slower and more vulnerable to cross-sensitivity in mixed-gas environments. That matters when a building has more than one odour source or poor air separation between service rooms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a9abf5c1e111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1214fa9e398",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Infrared and paper-tape systems"
+        },
+        {
+          "_key": "c8dc1fbd8733",
+          "_type": "span",
+          "marks": [],
+          "text": " are premium options. They make sense where low maintenance or high specificity matters enough to justify the extra cost and complexity. For most multi-family and commercial sites, they're more capability than you need unless the site has a persistent, high-consequence issue."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21463a03b25b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "002bf224543c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec4f64cc9dfd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca607dbade04",
+          "_type": "span",
+          "marks": [],
+          "text": "Match the technology to the job"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7243749c6015",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c42538262794",
+          "_type": "span",
+          "marks": [],
+          "text": "Here's the plain answer. If you're monitoring a mechanical room, a sewer-adjacent service space, or a small area where H2S is only one part of the risk picture, start with an electrochemical sensor and insist on documented calibration history. If you're trying to cover a broader area with less hands-on upkeep, you can look at more advanced technologies, but only if the site justifies them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "132eaaf65555",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53ccc9278748",
+          "_type": "span",
+          "marks": [],
+          "text": "H2S Sensor Technology at a Glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9fe88f54c48e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24f1bca1b564",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical Range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79288fa27b3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e2fe6bd44d6",
+          "_type": "span",
+          "marks": [],
+          "text": "Strengths"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9361eea3ccb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b9d18b193ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Watch-outs"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "374ecd6cf685",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aba05c8f661c",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrochemical"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "715fb6a05880",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d92a5ee6ea4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-ppm workhorse"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89605aef58c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "754a49f864c9",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensitive, low power, fast response"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac33bb3bc4ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2828c39c3a1",
+          "_type": "span",
+          "marks": [],
+          "text": "Drift, humidity effects, sensor ageing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54749f2de092",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6cda673b70f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Metal-oxide semiconductor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a68449a82fd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "edf45e39bf9d",
+          "_type": "span",
+          "marks": [],
+          "text": "Broader detection use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3675a15c96e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4dc4889141b",
+          "_type": "span",
+          "marks": [],
+          "text": "Lower-cost entry point, longer life"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "62e67fa8722d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31852063e55e",
+          "_type": "span",
+          "marks": [],
+          "text": "Slower response, cross-sensitivity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ccdc647cc29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d53586eefb3",
+          "_type": "span",
+          "marks": [],
+          "text": "Infrared or paper-tape"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8dddada646a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "913736e9120b",
+          "_type": "span",
+          "marks": [],
+          "text": "Specialist applications"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8093135c78c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "712f10243178",
+          "_type": "span",
+          "marks": [],
+          "text": "High specificity, lower routine maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00fc6d714789",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8557bb0dbe7a",
+          "_type": "span",
+          "marks": [],
+          "text": "Higher cost, more justification needed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d843a5aac8e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28f8e0ccd2ff",
+          "_type": "span",
+          "marks": [],
+          "text": "A good vendor should be able to explain service intervals, alarm outputs, and what happens when a sensor starts to age. If they dodge those questions, keep moving. For background on how gas detection categories differ in adjacent applications, see "
+        },
+        {
+          "_key": "505c180eef2e",
+          "_type": "span",
+          "marks": [
+            "c6dde2d85f0e"
+          ],
+          "text": "2026 air quality monitor recommendations"
+        },
+        {
+          "_key": "0ce6c03932eb",
+          "_type": "span",
+          "marks": [],
+          "text": " and compare that with "
+        },
+        {
+          "_key": "5be987e65c82",
+          "_type": "span",
+          "marks": [
+            "fcdd842baa80"
+          ],
+          "text": "methane gas detector basics"
+        },
+        {
+          "_key": "f6ca8da3d904",
+          "_type": "span",
+          "marks": [],
+          "text": " if you're deciding what type of building hazard you're dealing with."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c6dde2d85f0e",
+          "_type": "link",
+          "href": "https://cobrevalleyair.com/best-indoor-air-quality-monitor-for-mold/"
+        },
+        {
+          "_key": "fcdd842baa80",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/gas-detector-methane"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5198df676e82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efe481492830",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "761a6e6233e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "103777472de9",
+          "_type": "span",
+          "marks": [],
+          "text": "Where H2S Actually Shows Up in a Building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ee02ba86998d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bf64cde6428",
+          "_type": "span",
+          "marks": [],
+          "text": "H2S problems in properties usually start in the same few places, and they're rarely glamorous. Underground parking, sewage ejector rooms, mechanical spaces, waste rooms, and older drain stacks are the repeat offenders. The smell may travel farther than the source, which is why staff often report the problem in a corridor even though the origin is elsewhere."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2570b570b8e9",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating nine common areas in a building where toxic hydrogen sulfide gas can accumulate.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/07e997d5-2a6a-4e8b-8128-37b8e6d0d5a5/hydrogen-sulfide-monitor-h2s-risks.jpg"
+    },
+    {
+      "_key": "1a259182a7d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72493f408097",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7d7f9335426",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b2c94f72a44",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the most likely spaces"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d3603b3f6e9a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff2c03fd443d",
+          "_type": "span",
+          "marks": [],
+          "text": "In a typical property, the first places to check are the ones with stagnant air and organic loading. Sewer ejector rooms can produce repeat nuisance issues if ventilation is weak or maintenance is inconsistent. Underground parking ramps are another common complaint area because air movement can be uneven and odours migrate through shared service paths."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "befc01c10b9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1765a02d308f",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical rooms are trickier. They may not generate H2S themselves, but they often sit near sources, and staff blame the room that smells strongest, not the room where the gas began. Food waste rooms and refuse areas are similar, especially when collection timing or temperature makes odours worse."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5da4ccf708ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "081a2db4c527",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e841eb6c67d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d918c61d0a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Watch for seasonal and occupancy patterns"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f8b8d73cf0b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40f181cf6684",
+          "_type": "span",
+          "marks": [],
+          "text": "A clean reading in winter doesn't prove a site is safe year-round. Summer humidity, long weekends, and dry traps can change the picture quickly. When a building sits lightly occupied or a drain dries out, sewer gas can move in ways that surprise both residents and staff."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce4a46957e27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0fe444dd56e4",
+          "_type": "span",
+          "marks": [],
+          "text": "If a room only misbehaves under certain conditions, that's still a real operating problem."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "c4a98927af8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ccfbac1f4c40",
+          "_type": "span",
+          "marks": [],
+          "text": "That's why a one-time spot check is enough for some sites, but not all of them. If the issue only appears after a maintenance event or a dry-weather pattern, investigate the cause and move on. If the space keeps generating complaints or readings, fixed monitoring starts to make sense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "708366249010",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80be996c38f6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89f8e8702ae9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ac6e38b5aab",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the space type to decide the response"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d8566c836a7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8874c476c8d7",
+          "_type": "span",
+          "marks": [],
+          "text": "A garage with occasional odour complaints may only need a spot check and ventilation review. A sewage lift area or a waste-handling room with repeated exposure risk deserves a more serious look. The difference isn't the scent. It's the predictability, frequency, and whether staff work there every day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd9b5811440a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecab6b190892",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3b6dcfa0ab46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d05b05ed256d",
+          "_type": "span",
+          "marks": [],
+          "text": "Siting, Installation, and Integration With Building Systems"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3fa2392af25a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4abcfe287cd",
+          "_type": "span",
+          "marks": [],
+          "text": "A monitor mounted in the wrong spot gives you a false sense of security. The sensor should be placed where air people breathe moves, not tucked into a dead corner or hidden in a draft pattern that misses the source. That's the difference between an alarm that helps and a box that decorates a wall."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5fb8894a7a5",
+      "_type": "externalImage",
+      "alt": "A technical illustration showing site planning, installation, and building system integration for an industrial generator.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f72de4a1-f2c3-490b-b46d-208fa8727b88/hydrogen-sulfide-monitor-generator-installation.jpg"
+    },
+    {
+      "_key": "71022fc6301a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b20b18043a79",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef5e89634495",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e9a3fb84f10",
+          "_type": "span",
+          "marks": [],
+          "text": "Put the sensor where it can do real work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b2e690dc9e71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "adf7f761403b",
+          "_type": "span",
+          "marks": [],
+          "text": "For fixed installation, think in terms of the breathing zone and likely gas movement. Don't place the detector where supply air will dilute the reading before the gas reaches the sensor. Don't bury it in a corner that never sees fresh air, either. That's a common install mistake, and it makes every later reading harder to trust."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bef229c02ea4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb1646afacd5",
+          "_type": "span",
+          "marks": [],
+          "text": "The right contractor should also think about alarm visibility and service access. If a technician can't reach the device easily for testing and calibration, the maintenance schedule will slip. That's not a minor detail. It's the difference between a functioning program and a deferred problem."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c4f013584e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1e30167411e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92ba3a9871c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba7a0172bb4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose the integration method before the box arrives"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "94a69dc10e7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b010ed8241a5",
+          "_type": "span",
+          "marks": [],
+          "text": "If the site has a simple panel, relay outputs may be enough. If the building already uses a management system, an analog signal can help trend the data. For a modern fire alarm or monitoring stack, an addressable module may be the cleaner option. You want the alarm to fit your building's response process, not force staff to improvise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7b0fa9a7c09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a789dc519d0",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful purchase conversation should cover the alarm path, the service plan, and the documentation you'll receive. If a supplier can't tell you how the detector talks to the rest of the building, they're not selling a building solution. They're selling hardware."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e386c65802c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a1803aa839f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "615c0a449019",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3004d6aa70f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask these questions before you sign"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f45168647bf5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87bb08c7cfd0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Where will the sensor be mounted?"
+        },
+        {
+          "_key": "2bc8213d5b55",
+          "_type": "span",
+          "marks": [],
+          "text": " Make the contractor explain why that exact location captures the risk."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7795ce7bb71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "069807550a65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How will the alarm be transmitted?"
+        },
+        {
+          "_key": "845411a23aba",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm whether you're getting relay, analog, or addressable integration."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4d57364b0b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "503919083d69",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who services the unit?"
+        },
+        {
+          "_key": "9fbc0da04d2a",
+          "_type": "span",
+          "marks": [],
+          "text": " If the answer is vague, assume the maintenance burden lands on your team."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd54c9db33c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c29cbaea4043",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What documentation comes with it?"
+        },
+        {
+          "_key": "d6672d1647c0",
+          "_type": "span",
+          "marks": [],
+          "text": " You need calibration history and installation records, not just a box and a manual."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff076027a761",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abb40b44a62d",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners comparing gas detection with other building sensing work, "
+        },
+        {
+          "_key": "b008fc143ad7",
+          "_type": "span",
+          "marks": [
+            "20b372733c91"
+          ],
+          "text": "leak detection system planning"
+        },
+        {
+          "_key": "76c2ab71ff00",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful parallel because the same rule applies, the monitor only matters if the building can act on what it sees. One practical option in a managed property setting is a fixed detector plus ongoing service, and that's the point where a provider like Axis Meter Solutions can sit in the conversation as one operational model among others."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "20b372733c91",
+          "_type": "link",
+          "href": "https://www.axismeter.com/solutions/leak-detection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "682d696259a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3aa5d93a13db",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "def17651be1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a8bf8039b77",
+          "_type": "span",
+          "marks": [],
+          "text": "Calibration, Bump Testing, and Long-Term Reliability"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "25dd908fa7c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "305b4861a323",
+          "_type": "span",
+          "marks": [],
+          "text": "Buying the monitor is the easy part. Keeping it trustworthy is where most programs slip. A device that sits on a wall without a written test routine is not a safety system, it's a decoration with a display."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "babcb17e8459",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9a973e5b328",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c480d98b9ad8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c39f19f4790",
+          "_type": "span",
+          "marks": [],
+          "text": "Know the difference between a bump test and a calibration"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7a643e7ad640",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d500cb98f70",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "cb50b3a5b8c8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "bump test"
+        },
+        {
+          "_key": "de6772681a0c",
+          "_type": "span",
+          "marks": [],
+          "text": " checks whether the alarm still responds to gas. Canadian guidance from Energy Safety Canada recommends "
+        },
+        {
+          "_key": "4f048c7ea60f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "quarterly checks by a qualified person"
+        },
+        {
+          "_key": "7835b0059be0",
+          "_type": "span",
+          "marks": [],
+          "text": " and, for sour gas work, "
+        },
+        {
+          "_key": "54dd4c45095a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "daily bump testing"
+        },
+        {
+          "_key": "2218bd459b7f",
+          "_type": "span",
+          "marks": [],
+          "text": " before use, with a typical bump test using about "
+        },
+        {
+          "_key": "863037f25a47",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "25 ppm"
+        },
+        {
+          "_key": "0355de9e47c9",
+          "_type": "span",
+          "marks": [],
+          "text": " calibration gas and alarm activation expected in roughly "
+        },
+        {
+          "_key": "1803085822f9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60 to 90 seconds"
+        },
+        {
+          "_key": "cb271a5ee330",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "9aa51e8ffde1",
+          "_type": "span",
+          "marks": [
+            "453c16f65150"
+          ],
+          "text": "hydrogen sulfide monitor guidance"
+        },
+        {
+          "_key": "941a853d219c",
+          "_type": "span",
+          "marks": [],
+          "text": "). That's the operational benchmark you should respect, even if your site isn't a sour gas facility."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "453c16f65150",
+          "_type": "link",
+          "href": "https://www.safetyevolution.com/blog/h2s-gas-monitors-detectors"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3fe57ad6b43a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e0b7d9243f6",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "6ea15415332f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "calibration"
+        },
+        {
+          "_key": "0080e16599c4",
+          "_type": "span",
+          "marks": [],
+          "text": " is different. It adjusts the reading against a known gas concentration so the display stays accurate over time. If the monitor misses a bump test, the answer isn't hope. It's service, re-check, and documentation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c885bec56433",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27228d633596",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f75fffa1905",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05d3f52ab147",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat ageing as part of ownership"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4b82364d50b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06bfa7bb5aed",
+          "_type": "span",
+          "marks": [],
+          "text": "A field study of low-cost H2S monitors found that routine bump testing is necessary to confirm the alarm still responds, and that performance degrades over the life of the monitor ("
+        },
+        {
+          "_key": "2354e6a183da",
+          "_type": "span",
+          "marks": [
+            "ae82444d3e7c"
+          ],
+          "text": "low-cost H2S monitor reliability study"
+        },
+        {
+          "_key": "c75be8431088",
+          "_type": "span",
+          "marks": [],
+          "text": "). That matters in buildings because equipment often sits unused, gets moved between sites, or lives in a harsh utility environment. A unit that worked last season is not automatically trustworthy this season."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ae82444d3e7c",
+          "_type": "link",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5704997/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1622ac7453aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76a9bb40800c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ownership rule:"
+        },
+        {
+          "_key": "80908d5ba0e2",
+          "_type": "span",
+          "marks": [],
+          "text": " If you can't prove the monitor responds, you can't rely on the monitor."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "24ccf80b7235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4736b8ebc32",
+          "_type": "span",
+          "marks": [],
+          "text": "That's why I tell property teams to budget for upkeep the same way they budget for fire alarm inspection or sump pump service. The device is only as good as the last confirmed test. You're not buying a gadget. You're buying a maintenance discipline."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58efc369000b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5ae26ededcb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b33aa580f7e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5345dfbcee75",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the record, not just the result"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3f7ed5ce700f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59fff7eecc5b",
+          "_type": "span",
+          "marks": [],
+          "text": "Write down the test date, the person who did it, whether the alarm activated, and what happened next. If a unit fails a test, take it out of service until it's corrected. That's not overkill. That's the minimum standard for a device that people may rely on in a poorly ventilated space."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57a8165a6a2b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cbf195fb12d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b42175169fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb26921fd0ea",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing the Right Monitor for Your Property"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7af6824e13cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cca74cc52bf2",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't start with brand names. Start with the building question. A "
+        },
+        {
+          "_key": "53e3c4423a24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "hydrogen sulfide monitor"
+        },
+        {
+          "_key": "5420aa57264b",
+          "_type": "span",
+          "marks": [],
+          "text": " is worth buying when you have a repeatable risk, a space people work in regularly, or an alarm path that needs to trigger before the next complaint becomes an incident."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c26c0d06c76c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4f2625ca67e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d563bbacd1bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "935f15139470",
+          "_type": "span",
+          "marks": [],
+          "text": "Use five decision points"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3adf8708ec28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bc1331b5444",
+          "_type": "span",
+          "marks": [],
+          "text": "First, decide what concentration range matters for your site. If you're dealing with nuisance odour and trace-level complaints, you need a device that can detect low readings, not just high alarms. Second, check what your jurisdiction and insurer expect, because the install still has to fit the local rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47e0bbb7877d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a93a3b304e04",
+          "_type": "span",
+          "marks": [],
+          "text": "Third, confirm the alarm outputs. If the monitor can't talk to your building system or alert staff in a useful way, it's the wrong unit. Fourth, ask who will service it and how often. Fifth, insist on written documentation, including setup and maintenance records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "747800ed1386",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f857744a88c7",
+          "_type": "span",
+          "marks": [],
+          "text": "For broader air monitoring conversations, a good "
+        },
+        {
+          "_key": "74abea74318f",
+          "_type": "span",
+          "marks": [
+            "bbb3e7927b2f"
+          ],
+          "text": "indoor air quality monitor guide"
+        },
+        {
+          "_key": "674846724af6",
+          "_type": "span",
+          "marks": [],
+          "text": " can help you compare consumer-style monitoring logic with building-grade gas detection, but don't mix the two up. Residential air monitors are not a substitute for a detector placed and maintained for an actual H2S risk."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bbb3e7927b2f",
+          "_type": "link",
+          "href": "https://www.purifiedairductcleaning.com/post/best-air-quality-monitors-for-home"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "30ddcd96573f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcd8357b1a22",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0475409ea133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2dc64c167ecc",
+          "_type": "span",
+          "marks": [],
+          "text": "Match the solution to the site"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4c3b0284c5cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "436d21500d73",
+          "_type": "span",
+          "marks": [],
+          "text": "For many properties, one fixed monitor plus a clear response plan is enough. That's especially true when the concern is a single room, a known service area, or an isolated recurring complaint. For higher-risk spaces like sewage lift stations or food-waste rooms, multiple points may be justified because the gas can move and collect in more than one place."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9f48e04bb94b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1604b4f05965",
+          "_type": "span",
+          "marks": [],
+          "text": "If you want one more operational comparison, look at "
+        },
+        {
+          "_key": "20620b0102af",
+          "_type": "span",
+          "marks": [
+            "504f55d9db3c"
+          ],
+          "text": "water leak detection service planning"
+        },
+        {
+          "_key": "84bacbc9fc64",
+          "_type": "span",
+          "marks": [],
+          "text": " and notice the pattern. The same logic applies here, the hardware matters less than whether the building can maintain it, respond to it, and prove it still works."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "504f55d9db3c",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-services"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c735cbf66386",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03401777ef68",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions helps property owners manage building-level monitoring, commissioning, and ongoing service where a fixed detector is part of the response plan. If you're weighing whether your site needs a monitor or just a one-time investigation, visit "
+        },
+        {
+          "_key": "ce77066e6862",
+          "_type": "span",
+          "marks": [
+            "9b0a6a8ad54d"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "f8086fc3e2b9",
+          "_type": "span",
+          "marks": [],
+          "text": " and start the conversation with a team that works through the operational side, not just the device spec."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9b0a6a8ad54d",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Gas",
+  "excerpt": "Choose, install, and maintain a hydrogen sulfide monitor with confidence. A practical guide for property owners on thresholds, sensors, and upkeep.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5830ab0b-09ae-4dbc-abb1-596f8e17ca74/hydrogen-sulfide-monitor-guide-title.jpg",
+  "noIndex": false,
+  "outrankId": "f8343be6-ff28-49a0-b2c3-616585432488",
+  "publishedAt": "2026-08-07T07:33:03.892645+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "hydrogen-sulfide-monitor"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re probably standing in a hallway, a mechanical room, or a parking garage thinking the same thing most property managers think when a tenant reports a rotten-egg smell: is this a nuisance, or is it a gas issue? That&#39;s exactly where a <strong>hydrogen sulfide monitor</strong> stops being an industrial niche product and becomes a building-operations decision. For multi-family and commercial sites, the question isn&#39;t whether the gas sounds scary. It&#39;s whether you can detect, verify, and act on a low-level problem before it turns into complaints, downtime, or an avoidable emergency.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-property-owners-are-paying-attention-to-h2s\">Why Property Owners Are Paying Attention to H2S</a><ul>\n<li><a href=\"#the-building-problems-that-actually-trigger-concern\">The building problems that actually trigger concern</a></li>\n<li><a href=\"#what-owners-usually-get-wrong\">What owners usually get wrong</a></li>\n</ul>\n</li>\n<li><a href=\"#what-hydrogen-sulfide-is-and-the-numbers-that-matter\">What Hydrogen Sulfide Is and the Numbers That Matter</a><ul>\n<li><a href=\"#read-the-exposure-numbers-correctly\">Read the exposure numbers correctly</a></li>\n<li><a href=\"#what-those-numbers-mean-for-a-building-manager\">What those numbers mean for a building manager</a></li>\n</ul>\n</li>\n<li><a href=\"#sensor-technologies-and-how-they-fail\">Sensor Technologies and How They Fail</a><ul>\n<li><a href=\"#the-three-sensor-families-that-matter\">The three sensor families that matter</a></li>\n<li><a href=\"#match-the-technology-to-the-job\">Match the technology to the job</a></li>\n</ul>\n</li>\n<li><a href=\"#where-h2s-actually-shows-up-in-a-building\">Where H2S Actually Shows Up in a Building</a><ul>\n<li><a href=\"#start-with-the-most-likely-spaces\">Start with the most likely spaces</a></li>\n<li><a href=\"#watch-for-seasonal-and-occupancy-patterns\">Watch for seasonal and occupancy patterns</a></li>\n<li><a href=\"#use-the-space-type-to-decide-the-response\">Use the space type to decide the response</a></li>\n</ul>\n</li>\n<li><a href=\"#siting-installation-and-integration-with-building-systems\">Siting, Installation, and Integration With Building Systems</a><ul>\n<li><a href=\"#put-the-sensor-where-it-can-do-real-work\">Put the sensor where it can do real work</a></li>\n<li><a href=\"#choose-the-integration-method-before-the-box-arrives\">Choose the integration method before the box arrives</a></li>\n<li><a href=\"#ask-these-questions-before-you-sign\">Ask these questions before you sign</a></li>\n</ul>\n</li>\n<li><a href=\"#calibration-bump-testing-and-long-term-reliability\">Calibration, Bump Testing, and Long-Term Reliability</a><ul>\n<li><a href=\"#know-the-difference-between-a-bump-test-and-a-calibration\">Know the difference between a bump test and a calibration</a></li>\n<li><a href=\"#treat-ageing-as-part-of-ownership\">Treat ageing as part of ownership</a></li>\n<li><a href=\"#keep-the-record-not-just-the-result\">Keep the record, not just the result</a></li>\n</ul>\n</li>\n<li><a href=\"#choosing-the-right-monitor-for-your-property\">Choosing the Right Monitor for Your Property</a><ul>\n<li><a href=\"#use-five-decision-points\">Use five decision points</a></li>\n<li><a href=\"#match-the-solution-to-the-site\">Match the solution to the site</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-property-owners-are-paying-attention-to-h2s\"></a></p>\n<h2>Why Property Owners Are Paying Attention to H2S</h2>\n<p>A tenant calls the office because the underground parking level smells like rotten eggs. Your maintenance tech checks drains, the janitor checks the refuse room, and someone opens a few doors hoping the odour goes away. That&#39;s a familiar building problem, and it&#39;s exactly the kind of situation that makes a <strong>hydrogen sulfide monitor</strong> worth discussing before the next complaint arrives.</p>\n<p><a id=\"the-building-problems-that-actually-trigger-concern\"></a></p>\n<h3>The building problems that actually trigger concern</h3>\n<p>Hydrogen sulfide isn&#39;t just a refinery issue. In properties, it can show up where organic material breaks down, where sewer gas migrates through dry traps, or where back-of-house spaces don&#39;t ventilate well. Those are the places where staff get repeated complaints, but no one can point to a single obvious source.</p>\n<p>The trap for property owners is treating this as a one-off odour investigation every time. That gets expensive fast. If the issue keeps returning, a monitor gives you a way to decide whether the problem is background nuisance, a ventilation issue, or a space that deserves a permanent alert system.</p>\n<p>That is also why this topic overlaps with broader building-safety decisions. When you compare how you handle gas-related shutdowns, alarm response, and non-payment risk, the operational mindset matters more than the equipment label, which is why a resource like <a href=\"https://www.thermal-ops.com/gas-shut-off-safety-vs-non-payment\">compare safety and payment issues</a> can be useful for managers thinking in terms of building continuity, not just compliance.</p>\n<p><a id=\"what-owners-usually-get-wrong\"></a></p>\n<h3>What owners usually get wrong</h3>\n<p>Most owners start with the smell, not the control plan. That&#39;s backwards. If a location has repeated complaints, staff concern, or a known sewer or waste pathway, the better move is to decide whether you need spot monitoring, a temporary check, or a fixed device tied to an alarm path.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If you&#39;re calling contractors more than once for the same odour source, you&#39;re already in monitoring territory.</p>\n</blockquote>\n<p>That doesn&#39;t mean every building needs a permanent system. It means the decision should be based on whether the space has a repeatable risk profile. In a smaller residential site, a one-time investigation may be enough. In a larger mixed-use property with underground or service areas, a monitor can be cheaper than chasing the same complaint through inspection after inspection.</p>\n<p><a id=\"what-hydrogen-sulfide-is-and-the-numbers-that-matter\"></a></p>\n<h2>What Hydrogen Sulfide Is and the Numbers That Matter</h2>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b97d73c-5815-467c-a37d-dc509c1da698/hydrogen-sulfide-monitor-infographic.jpg\" alt=\"An infographic detailing hydrogen sulfide properties, environmental sources, exposure limits, and associated safety hazards.\"></p>\n<p>Hydrogen sulfide, or <strong>H2S</strong>, is a gas you need to take seriously because your senses don&#39;t protect you for long. It smells like rotten eggs at very low levels, then the sense of smell can fade, which is exactly when relying on odour becomes dangerous. For building managers, that means a complaint about a smell can be an early warning, but it&#39;s not a safety system.</p>\n<p><a id=\"read-the-exposure-numbers-correctly\"></a></p>\n<h3>Read the exposure numbers correctly</h3>\n<p>Canadian occupational thresholds give you the clearest working frame. Alberta&#39;s OHS Code sets an exposure limit of <strong>10 ppm as an 8-hour TWA</strong> and a <strong>15 ppm ceiling</strong>, while British Columbia&#39;s ceiling limit is <strong>10 ppm</strong>. Those are the numbers that drive workplace control, but they aren&#39;t the same thing as the first trace a tenant might notice.</p>\n<p>A Canadian review of low-level H2S exposure reports eye irritation around <strong>0.007 to 0.025 ppm</strong>, and odor perception around <strong>0.02 to 0.13 ppm</strong>. It also notes community nuisance and symptoms in the roughly <strong>0.001 to 0.050 ppm</strong> range, with broader community standards identifying <strong>0.0015 to 0.1 ppm</strong> as potentially dangerous. The same literature gives an odor-detection threshold estimate of <strong>0.0006 ppm</strong>. In plain terms, people can complain long before a worksite reaches the kind of numbers that trigger an occupational ceiling, which is why “it only smells bad” is not a useful dismissal.</p>\n<p><a id=\"what-those-numbers-mean-for-a-building-manager\"></a></p>\n<h3>What those numbers mean for a building manager</h3>\n<p>If your reported reading is in trace territory, you&#39;re not automatically in emergency mode. You&#39;re in investigation mode. If the reading is trending up, or if a space regularly produces low but noticeable concentrations, the right response is to improve ventilation, seal the source path, or install monitoring where staff need it.</p>\n<blockquote>\n<p>Smell is a complaint trigger, not a control measure.</p>\n</blockquote>\n<p>That&#39;s the main habit to break. A monitor is useful because it gives you a number, not a guess. It tells you whether the space is background nuisance, a maintenance problem, or a site that needs fixed detection and a written response plan.</p>\n<p><a id=\"sensor-technologies-and-how-they-fail\"></a></p>\n<h2>Sensor Technologies and How They Fail</h2>\n<p>Most suppliers talk about accuracy as if it&#39;s a permanent property. It isn&#39;t. The right <strong>hydrogen sulfide monitor</strong> for a building is the one that keeps working after humidity changes, seasonal shutdowns, and months of sitting in a cabinet between uses. The wrong one is the one that looks fine on paper but drifts when you need it.</p>\n<p><a id=\"the-three-sensor-families-that-matter\"></a></p>\n<h3>The three sensor families that matter</h3>\n<p><strong>Electrochemical sensors</strong> are the workhorse for low-ppm detection. They&#39;re sensitive, low power, and fast enough for most property applications. Their weakness is drift over time, which is why calibration history matters more than the brochure.</p>\n<p><strong>Metal-oxide semiconductor sensors</strong> are usually the budget play. They can last a long time, but they&#39;re slower and more vulnerable to cross-sensitivity in mixed-gas environments. That matters when a building has more than one odour source or poor air separation between service rooms.</p>\n<p><strong>Infrared and paper-tape systems</strong> are premium options. They make sense where low maintenance or high specificity matters enough to justify the extra cost and complexity. For most multi-family and commercial sites, they&#39;re more capability than you need unless the site has a persistent, high-consequence issue.</p>\n<p><a id=\"match-the-technology-to-the-job\"></a></p>\n<h3>Match the technology to the job</h3>\n<p>Here&#39;s the plain answer. If you&#39;re monitoring a mechanical room, a sewer-adjacent service space, or a small area where H2S is only one part of the risk picture, start with an electrochemical sensor and insist on documented calibration history. If you&#39;re trying to cover a broader area with less hands-on upkeep, you can look at more advanced technologies, but only if the site justifies them.</p>\n<table>\n<thead>\n<tr>\n<th>H2S Sensor Technology at a Glance</th>\n<th>Typical Range</th>\n<th>Strengths</th>\n<th>Watch-outs</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Electrochemical</td>\n<td>Low-ppm workhorse</td>\n<td>Sensitive, low power, fast response</td>\n<td>Drift, humidity effects, sensor ageing</td>\n</tr>\n<tr>\n<td>Metal-oxide semiconductor</td>\n<td>Broader detection use</td>\n<td>Lower-cost entry point, longer life</td>\n<td>Slower response, cross-sensitivity</td>\n</tr>\n<tr>\n<td>Infrared or paper-tape</td>\n<td>Specialist applications</td>\n<td>High specificity, lower routine maintenance</td>\n<td>Higher cost, more justification needed</td>\n</tr>\n</tbody></table>\n<p>A good vendor should be able to explain service intervals, alarm outputs, and what happens when a sensor starts to age. If they dodge those questions, keep moving. For background on how gas detection categories differ in adjacent applications, see <a href=\"https://cobrevalleyair.com/best-indoor-air-quality-monitor-for-mold/\">2026 air quality monitor recommendations</a> and compare that with <a href=\"https://www.axismeter.com/blog/gas-detector-methane\">methane gas detector basics</a> if you&#39;re deciding what type of building hazard you&#39;re dealing with.</p>\n<p><a id=\"where-h2s-actually-shows-up-in-a-building\"></a></p>\n<h2>Where H2S Actually Shows Up in a Building</h2>\n<p>H2S problems in properties usually start in the same few places, and they&#39;re rarely glamorous. Underground parking, sewage ejector rooms, mechanical spaces, waste rooms, and older drain stacks are the repeat offenders. The smell may travel farther than the source, which is why staff often report the problem in a corridor even though the origin is elsewhere.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/07e997d5-2a6a-4e8b-8128-37b8e6d0d5a5/hydrogen-sulfide-monitor-h2s-risks.jpg\" alt=\"A diagram illustrating nine common areas in a building where toxic hydrogen sulfide gas can accumulate.\"></p>\n<p><a id=\"start-with-the-most-likely-spaces\"></a></p>\n<h3>Start with the most likely spaces</h3>\n<p>In a typical property, the first places to check are the ones with stagnant air and organic loading. Sewer ejector rooms can produce repeat nuisance issues if ventilation is weak or maintenance is inconsistent. Underground parking ramps are another common complaint area because air movement can be uneven and odours migrate through shared service paths.</p>\n<p>Mechanical rooms are trickier. They may not generate H2S themselves, but they often sit near sources, and staff blame the room that smells strongest, not the room where the gas began. Food waste rooms and refuse areas are similar, especially when collection timing or temperature makes odours worse.</p>\n<p><a id=\"watch-for-seasonal-and-occupancy-patterns\"></a></p>\n<h3>Watch for seasonal and occupancy patterns</h3>\n<p>A clean reading in winter doesn&#39;t prove a site is safe year-round. Summer humidity, long weekends, and dry traps can change the picture quickly. When a building sits lightly occupied or a drain dries out, sewer gas can move in ways that surprise both residents and staff.</p>\n<blockquote>\n<p>If a room only misbehaves under certain conditions, that&#39;s still a real operating problem.</p>\n</blockquote>\n<p>That&#39;s why a one-time spot check is enough for some sites, but not all of them. If the issue only appears after a maintenance event or a dry-weather pattern, investigate the cause and move on. If the space keeps generating complaints or readings, fixed monitoring starts to make sense.</p>\n<p><a id=\"use-the-space-type-to-decide-the-response\"></a></p>\n<h3>Use the space type to decide the response</h3>\n<p>A garage with occasional odour complaints may only need a spot check and ventilation review. A sewage lift area or a waste-handling room with repeated exposure risk deserves a more serious look. The difference isn&#39;t the scent. It&#39;s the predictability, frequency, and whether staff work there every day.</p>\n<p><a id=\"siting-installation-and-integration-with-building-systems\"></a></p>\n<h2>Siting, Installation, and Integration With Building Systems</h2>\n<p>A monitor mounted in the wrong spot gives you a false sense of security. The sensor should be placed where air people breathe moves, not tucked into a dead corner or hidden in a draft pattern that misses the source. That&#39;s the difference between an alarm that helps and a box that decorates a wall.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f72de4a1-f2c3-490b-b46d-208fa8727b88/hydrogen-sulfide-monitor-generator-installation.jpg\" alt=\"A technical illustration showing site planning, installation, and building system integration for an industrial generator.\"></p>\n<p><a id=\"put-the-sensor-where-it-can-do-real-work\"></a></p>\n<h3>Put the sensor where it can do real work</h3>\n<p>For fixed installation, think in terms of the breathing zone and likely gas movement. Don&#39;t place the detector where supply air will dilute the reading before the gas reaches the sensor. Don&#39;t bury it in a corner that never sees fresh air, either. That&#39;s a common install mistake, and it makes every later reading harder to trust.</p>\n<p>The right contractor should also think about alarm visibility and service access. If a technician can&#39;t reach the device easily for testing and calibration, the maintenance schedule will slip. That&#39;s not a minor detail. It&#39;s the difference between a functioning program and a deferred problem.</p>\n<p><a id=\"choose-the-integration-method-before-the-box-arrives\"></a></p>\n<h3>Choose the integration method before the box arrives</h3>\n<p>If the site has a simple panel, relay outputs may be enough. If the building already uses a management system, an analog signal can help trend the data. For a modern fire alarm or monitoring stack, an addressable module may be the cleaner option. You want the alarm to fit your building&#39;s response process, not force staff to improvise.</p>\n<p>A useful purchase conversation should cover the alarm path, the service plan, and the documentation you&#39;ll receive. If a supplier can&#39;t tell you how the detector talks to the rest of the building, they&#39;re not selling a building solution. They&#39;re selling hardware.</p>\n<p><a id=\"ask-these-questions-before-you-sign\"></a></p>\n<h3>Ask these questions before you sign</h3>\n<ul>\n<li><strong>Where will the sensor be mounted?</strong> Make the contractor explain why that exact location captures the risk.</li>\n<li><strong>How will the alarm be transmitted?</strong> Confirm whether you&#39;re getting relay, analog, or addressable integration.</li>\n<li><strong>Who services the unit?</strong> If the answer is vague, assume the maintenance burden lands on your team.</li>\n<li><strong>What documentation comes with it?</strong> You need calibration history and installation records, not just a box and a manual.</li>\n</ul>\n<p>For owners comparing gas detection with other building sensing work, <a href=\"https://www.axismeter.com/solutions/leak-detection\">leak detection system planning</a> is a useful parallel because the same rule applies, the monitor only matters if the building can act on what it sees. One practical option in a managed property setting is a fixed detector plus ongoing service, and that&#39;s the point where a provider like Axis Meter Solutions can sit in the conversation as one operational model among others.</p>\n<p><a id=\"calibration-bump-testing-and-long-term-reliability\"></a></p>\n<h2>Calibration, Bump Testing, and Long-Term Reliability</h2>\n<p>Buying the monitor is the easy part. Keeping it trustworthy is where most programs slip. A device that sits on a wall without a written test routine is not a safety system, it&#39;s a decoration with a display.</p>\n<p><a id=\"know-the-difference-between-a-bump-test-and-a-calibration\"></a></p>\n<h3>Know the difference between a bump test and a calibration</h3>\n<p>A <strong>bump test</strong> checks whether the alarm still responds to gas. Canadian guidance from Energy Safety Canada recommends <strong>quarterly checks by a qualified person</strong> and, for sour gas work, <strong>daily bump testing</strong> before use, with a typical bump test using about <strong>25 ppm</strong> calibration gas and alarm activation expected in roughly <strong>60 to 90 seconds</strong> (<a href=\"https://www.safetyevolution.com/blog/h2s-gas-monitors-detectors\">hydrogen sulfide monitor guidance</a>). That&#39;s the operational benchmark you should respect, even if your site isn&#39;t a sour gas facility.</p>\n<p>A <strong>calibration</strong> is different. It adjusts the reading against a known gas concentration so the display stays accurate over time. If the monitor misses a bump test, the answer isn&#39;t hope. It&#39;s service, re-check, and documentation.</p>\n<p><a id=\"treat-ageing-as-part-of-ownership\"></a></p>\n<h3>Treat ageing as part of ownership</h3>\n<p>A field study of low-cost H2S monitors found that routine bump testing is necessary to confirm the alarm still responds, and that performance degrades over the life of the monitor (<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5704997/\">low-cost H2S monitor reliability study</a>). That matters in buildings because equipment often sits unused, gets moved between sites, or lives in a harsh utility environment. A unit that worked last season is not automatically trustworthy this season.</p>\n<blockquote>\n<p><strong>Ownership rule:</strong> If you can&#39;t prove the monitor responds, you can&#39;t rely on the monitor.</p>\n</blockquote>\n<p>That&#39;s why I tell property teams to budget for upkeep the same way they budget for fire alarm inspection or sump pump service. The device is only as good as the last confirmed test. You&#39;re not buying a gadget. You&#39;re buying a maintenance discipline.</p>\n<p><a id=\"keep-the-record-not-just-the-result\"></a></p>\n<h3>Keep the record, not just the result</h3>\n<p>Write down the test date, the person who did it, whether the alarm activated, and what happened next. If a unit fails a test, take it out of service until it&#39;s corrected. That&#39;s not overkill. That&#39;s the minimum standard for a device that people may rely on in a poorly ventilated space.</p>\n<p><a id=\"choosing-the-right-monitor-for-your-property\"></a></p>\n<h2>Choosing the Right Monitor for Your Property</h2>\n<p>Don&#39;t start with brand names. Start with the building question. A <strong>hydrogen sulfide monitor</strong> is worth buying when you have a repeatable risk, a space people work in regularly, or an alarm path that needs to trigger before the next complaint becomes an incident.</p>\n<p><a id=\"use-five-decision-points\"></a></p>\n<h3>Use five decision points</h3>\n<p>First, decide what concentration range matters for your site. If you&#39;re dealing with nuisance odour and trace-level complaints, you need a device that can detect low readings, not just high alarms. Second, check what your jurisdiction and insurer expect, because the install still has to fit the local rules.</p>\n<p>Third, confirm the alarm outputs. If the monitor can&#39;t talk to your building system or alert staff in a useful way, it&#39;s the wrong unit. Fourth, ask who will service it and how often. Fifth, insist on written documentation, including setup and maintenance records.</p>\n<p>For broader air monitoring conversations, a good <a href=\"https://www.purifiedairductcleaning.com/post/best-air-quality-monitors-for-home\">indoor air quality monitor guide</a> can help you compare consumer-style monitoring logic with building-grade gas detection, but don&#39;t mix the two up. Residential air monitors are not a substitute for a detector placed and maintained for an actual H2S risk.</p>\n<p><a id=\"match-the-solution-to-the-site\"></a></p>\n<h3>Match the solution to the site</h3>\n<p>For many properties, one fixed monitor plus a clear response plan is enough. That&#39;s especially true when the concern is a single room, a known service area, or an isolated recurring complaint. For higher-risk spaces like sewage lift stations or food-waste rooms, multiple points may be justified because the gas can move and collect in more than one place.</p>\n<p>If you want one more operational comparison, look at <a href=\"https://www.axismeter.com/blog/water-leak-detection-services\">water leak detection service planning</a> and notice the pattern. The same logic applies here, the hardware matters less than whether the building can maintain it, respond to it, and prove it still works.</p>\n<hr>\n<p>Axis Meter Solutions helps property owners manage building-level monitoring, commissioning, and ongoing service where a fixed detector is part of the response plan. If you&#39;re weighing whether your site needs a monitor or just a one-time investigation, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> and start the conversation with a team that works through the operational side, not just the device spec.</p>",
+  "tags": [
+    "hydrogen sulfide monitor",
+    "H2S safety",
+    "gas detection",
+    "property safety",
+    "monitor calibration"
+  ],
+  "title": "Hydrogen Sulfide Monitor Guide for Property Owners",
+  "updatedAt": "2026-08-07T07:33:07.261Z"
+}
