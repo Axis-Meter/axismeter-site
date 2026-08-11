@@ -1,0 +1,2601 @@
+{
+  "_createdAt": "2026-08-10T08:23:41Z",
+  "_id": "outrank-22ea28bc-784f-47f0-bc06-fd9f935b7277",
+  "_rev": "DrtQvCIB4uTCmFIhQ1gbAb",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-10T08:23:41Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "104aae4611ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8c75ef32e10",
+          "_type": "span",
+          "marks": [],
+          "text": "You know the call that starts with, “We've got water where it shouldn't be,” and ends with drywall, flooring, tenant disruption, and a claims file. In multi-family and mixed-use buildings, that's usually not a dramatic burst, it's a slow leak under a sink, behind a wall, or in a mechanical chase that nobody sees until the damage has spread."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1640540d389c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20eb1a2fd3d7",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "0ad57e0cd996",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water leak detection system"
+        },
+        {
+          "_key": "8a3d31fb289b",
+          "_type": "span",
+          "marks": [],
+          "text": " turns that hidden risk into a managed event. In North America, leak detection is already a mature infrastructure category, with the region accounting for roughly "
+        },
+        {
+          "_key": "669e79e3c93c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "35% to 38% of global installations"
+        },
+        {
+          "_key": "d02b93024411",
+          "_type": "span",
+          "marks": [],
+          "text": " and the market projected to rise from "
+        },
+        {
+          "_key": "c6cb23babaa1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "USD 0.86 billion in 2025 to USD 1.53 billion by 2035"
+        },
+        {
+          "_key": "5ee29fee0cf2",
+          "_type": "span",
+          "marks": [],
+          "text": " at a "
+        },
+        {
+          "_key": "70f134431b19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5.89% CAGR"
+        },
+        {
+          "_key": "c232f16cbd6c",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "208eb48700a3",
+          "_type": "span",
+          "marks": [
+            "4022ffcdfb98"
+          ],
+          "text": "U.S. Department of Energy"
+        },
+        {
+          "_key": "6febe70f2286",
+          "_type": "span",
+          "marks": [],
+          "text": ". For Canadian property operators, that matters because the buying decision is no longer about novelty, it's about how quickly a system can protect occupied units, reduce search time, and connect to the metering and billing tools you already use."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4022ffcdfb98",
+          "_type": "link",
+          "href": "https://www.energy.gov/cmei/femp/water-efficient-technology-opportunity-distribution-system-leak-detection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1b147d65f1b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b0c67c6e3450",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "1c5d9861c875",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90c9ffc626f6",
+          "_type": "span",
+          "marks": [
+            "81bce58efeaf"
+          ],
+          "text": "Introduction and Importance"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "81bce58efeaf",
+          "_type": "link",
+          "href": "#introduction-and-importance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4061d9b6ccca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "255599d08480",
+          "_type": "span",
+          "marks": [
+            "64f0f3328079"
+          ],
+          "text": "Understanding Key Concepts"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "64f0f3328079",
+          "_type": "link",
+          "href": "#understanding-key-concepts"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bc2d44d13ca5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "66298eaf5bcc",
+          "_type": "span",
+          "marks": [
+            "b26f4c94a645"
+          ],
+          "text": "Components and Sensor Technologies"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b26f4c94a645",
+          "_type": "link",
+          "href": "#components-and-sensor-technologies"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "af13ea9d1957",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21a1d19747dd",
+          "_type": "span",
+          "marks": [
+            "734bd3f7c2bd"
+          ],
+          "text": "Choosing between cable runs and point sensors"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "734bd3f7c2bd",
+          "_type": "link",
+          "href": "#choosing-between-cable-runs-and-point-sensors"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7fcd339ad749",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8a3eba4f64d",
+          "_type": "span",
+          "marks": [
+            "6c8c79e307d5"
+          ],
+          "text": "What operators should ask vendors"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6c8c79e307d5",
+          "_type": "link",
+          "href": "#what-operators-should-ask-vendors"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "68814a620c19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0bff98159886",
+          "_type": "span",
+          "marks": [
+            "d2b9c1dfbe41"
+          ],
+          "text": "Sensor Placement and Integration with Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d2b9c1dfbe41",
+          "_type": "link",
+          "href": "#sensor-placement-and-integration-with-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "36d811a491f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4635db0954d",
+          "_type": "span",
+          "marks": [
+            "2a16f9032c27"
+          ],
+          "text": "Where the sensor belongs"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2a16f9032c27",
+          "_type": "link",
+          "href": "#where-the-sensor-belongs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "015764e70abb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c9eed38a25c",
+          "_type": "span",
+          "marks": [
+            "789d777453d9"
+          ],
+          "text": "A simple placement sequence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "789d777453d9",
+          "_type": "link",
+          "href": "#a-simple-placement-sequence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a1420421f6a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a910f56a5510",
+          "_type": "span",
+          "marks": [
+            "941a90a41e7d"
+          ],
+          "text": "Alarm and Response Workflows"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "941a90a41e7d",
+          "_type": "link",
+          "href": "#alarm-and-response-workflows"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "471189be73d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22250babeff7",
+          "_type": "span",
+          "marks": [
+            "eb55be6541b7"
+          ],
+          "text": "What happens after moisture is detected"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eb55be6541b7",
+          "_type": "link",
+          "href": "#what-happens-after-moisture-is-detected"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7a0b685eb566",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf711251b9ae",
+          "_type": "span",
+          "marks": [
+            "1aa44ca657da"
+          ],
+          "text": "Procurement Installation Timelines and Costs"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1aa44ca657da",
+          "_type": "link",
+          "href": "#procurement-installation-timelines-and-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "076d1248a399",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f01ac031e2d",
+          "_type": "span",
+          "marks": [
+            "99adf7181720"
+          ],
+          "text": "How a typical rollout is organised"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "99adf7181720",
+          "_type": "link",
+          "href": "#how-a-typical-rollout-is-organised"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "53a314ce9593",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac6eb1993fef",
+          "_type": "span",
+          "marks": [
+            "fdd2d3730786"
+          ],
+          "text": "What drives cost"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fdd2d3730786",
+          "_type": "link",
+          "href": "#what-drives-cost"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3d6224839e57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb1efef637da",
+          "_type": "span",
+          "marks": [
+            "e83ac6f2f175"
+          ],
+          "text": "ROI Assessment and Case Studies with Next Steps"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e83ac6f2f175",
+          "_type": "link",
+          "href": "#roi-assessment-and-case-studies-with-next-steps"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "296239db3375",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d93846e73802",
+          "_type": "span",
+          "marks": [
+            "8ad6f47d12ba"
+          ],
+          "text": "What to ask before you issue an RFP"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8ad6f47d12ba",
+          "_type": "link",
+          "href": "#what-to-ask-before-you-issue-an-rfp"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "42226dff5f98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1934c87f7ab",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "42519aaef93e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f8ec0ec345f",
+          "_type": "span",
+          "marks": [],
+          "text": "Introduction and Importance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c0b3902085b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7620eb09c43a",
+          "_type": "span",
+          "marks": [],
+          "text": "A resident opens a kitchen cabinet and finds warped particleboard, puddling under the sink, and water creeping toward the hallway. The leak wasn't dramatic, it was quiet, which is why the repair bill grew larger than anyone expected. That kind of event is exactly why property teams now treat leak detection as an operating control, not a nice-to-have add-on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92345d88f9ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea96f3ca9cbb",
+          "_type": "span",
+          "marks": [],
+          "text": "The pressure is bigger than one suite. Leak events can affect common areas, neighbouring units, insurance claims, and tenant confidence all at once. Research summarised for property owners and insurers found that "
+        },
+        {
+          "_key": "a66ed5bc928e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "inline water shutoff technology correlated with 96% fewer escape-of-water claim events"
+        },
+        {
+          "_key": "48c6edaf3ea9",
+          "_type": "span",
+          "marks": [],
+          "text": ", while the "
+        },
+        {
+          "_key": "d3d092fac42f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "average water damage and freezing insurance claim was USD 13,954 from 2018 to 2022"
+        },
+        {
+          "_key": "545d6ad7cc3f",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "93c22f761d85",
+          "_type": "span",
+          "marks": [
+            "3c0d27ec8954"
+          ],
+          "text": "Rapid Eye Inspections"
+        },
+        {
+          "_key": "25f69b2b3d23",
+          "_type": "span",
+          "marks": [],
+          "text": ". That helps explain why many owners now evaluate detection and automatic shutoff together, especially in buildings where access is tight and downtime is expensive."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3c0d27ec8954",
+          "_type": "link",
+          "href": "https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "15a15f3089ab",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the four stages of water leak detection evolution, from manual inspections to automated shutoff systems.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5b58388c-db83-4f54-85d9-ee40fda93d21/water-leak-detection-system-evolution.jpg"
+    },
+    {
+      "_key": "295790d71637",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cb74c3afa63",
+          "_type": "span",
+          "marks": [],
+          "text": "For operators trying to separate signal from marketing, "
+        },
+        {
+          "_key": "5d57f288df90",
+          "_type": "span",
+          "marks": [
+            "0db06875d904"
+          ],
+          "text": "RestoTek TX for leak detection"
+        },
+        {
+          "_key": "b92f74a71953",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful plain-language reference on the basic idea before diving into building-scale choices. A key challenge, though, is not just detecting moisture. It's making detection work alongside submetering, alarm routing, and maintenance workflows so that the building team can act before minor water becomes a capital repair."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0db06875d904",
+          "_type": "link",
+          "href": "https://restotektx.com/what-is-leak-detection/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a526baa2e61f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d80e89bfee03",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab079ef48513",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6845db5fc575",
+          "_type": "span",
+          "marks": [],
+          "text": "Understanding Key Concepts"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2ef2b88831ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19533ce90fdd",
+          "_type": "span",
+          "marks": [],
+          "text": "Water-loss prevention used to depend on walkthroughs, visual checks, and whoever happened to notice a stain first. That approach still appears in some portfolios, but it doesn't scale well in occupied buildings where most risers, utility chases, and under-sink spaces stay closed most of the time. The shift over the past decade has been toward "
+        },
+        {
+          "_key": "563ab96c3784",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "sensor-based automation"
+        },
+        {
+          "_key": "07c89d655894",
+          "_type": "span",
+          "marks": [],
+          "text": ", because the system can watch continuously even when staff can't."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40f5bb4df07c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a138c86e369d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "9d167c717740",
+          "_type": "span",
+          "marks": [],
+          "text": " If a leak is hidden behind access panels, under appliances, or in a vertical chase, manual inspection is too slow to be a control strategy."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "8abb6a58bc50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec2344a848ae",
+          "_type": "span",
+          "marks": [],
+          "text": "The insurance side helps explain the adoption curve. Research summarised for owners and insurers reports that "
+        },
+        {
+          "_key": "ad7940a02f02",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "inline shutoff systems correlated with 96% fewer escape-of-water claims"
+        },
+        {
+          "_key": "bb112d149e68",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the "
+        },
+        {
+          "_key": "5b8d56471c12",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "average water damage and freezing claim was USD 13,954"
+        },
+        {
+          "_key": "eaf56ed09f30",
+          "_type": "span",
+          "marks": [],
+          "text": " across "
+        },
+        {
+          "_key": "748c1bf5e756",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2018 to 2022"
+        },
+        {
+          "_key": "23f1f3ba10b1",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "2a919732a3bb",
+          "_type": "span",
+          "marks": [
+            "43c1e0910d79"
+          ],
+          "text": "Rapid Eye Inspections"
+        },
+        {
+          "_key": "4371595f83b8",
+          "_type": "span",
+          "marks": [],
+          "text": ". That doesn't mean every property gets the same payback, but it does show why owners increasingly bundle detection with automatic shutoff and monitoring instead of relying on alarms alone."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "43c1e0910d79",
+          "_type": "link",
+          "href": "https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e59cec886144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16316970df66",
+          "_type": "span",
+          "marks": [],
+          "text": "The language around system design can be confusing, so it helps to separate the pieces. "
+        },
+        {
+          "_key": "73e99518bc95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Point-of-use devices"
+        },
+        {
+          "_key": "86b496f2fba2",
+          "_type": "span",
+          "marks": [],
+          "text": " sit near a specific risk, like under a sink or beside a water heater. "
+        },
+        {
+          "_key": "d7ef0d6d269d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Point-of-entry devices"
+        },
+        {
+          "_key": "410c4a9e4272",
+          "_type": "span",
+          "marks": [],
+          "text": " watch a broader system, but they can miss the exact source of a localised leak, which is why dense multi-family buildings often need both broad visibility and local precision. The U.S. EPA's leak and flow guide also notes that under-sink and condensate-area leaks may be missed by whole-system monitoring, which is a real issue in occupied suites "
+        },
+        {
+          "_key": "1034619ea90c",
+          "_type": "span",
+          "marks": [
+            "7e4cbb0f74ef"
+          ],
+          "text": "EPA leak and flow guide"
+        },
+        {
+          "_key": "156122284cae",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7e4cbb0f74ef",
+          "_type": "link",
+          "href": "https://www.epa.gov/system/files/documents/2026-02/ws-products-leak-flow-guide.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c62ae09ae9de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "993f72f6156c",
+          "_type": "span",
+          "marks": [],
+          "text": "Another term that matters is "
+        },
+        {
+          "_key": "cc945173c83e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "addressable architecture"
+        },
+        {
+          "_key": "4c1fc6c9fe58",
+          "_type": "span",
+          "marks": [],
+          "text": ". In simple terms, it means the panel can tell you where a trigger came from, not just that “somewhere on the property” there's water. That distinction becomes important once leak detection is tied to submetering, because the same property team that tracks usage anomalies can also respond to localised moisture alerts with much less confusion."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97defdfa77cb",
+      "_type": "externalImage",
+      "alt": "An infographic showing the five key components of a professional water leak detection and mitigation system.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f23b82e2-1d3e-4e2d-b1bc-7de5f7994740/water-leak-detection-system-components.jpg"
+    },
+    {
+      "_key": "216b5fff7a7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0a829e8dcb3",
+          "_type": "span",
+          "marks": [],
+          "text": "The point isn't to alarm on every drop. The point is to translate a small event into a clear location, a clear owner, and a fast next step."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "9e5c1889b936",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c514fadfe4b2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0529816cbe5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc1f4ed22487",
+          "_type": "span",
+          "marks": [],
+          "text": "Components and Sensor Technologies"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4ee39b7bf4ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b6f935ba1d1",
+          "_type": "span",
+          "marks": [],
+          "text": "A professional "
+        },
+        {
+          "_key": "39c0b5d43f7e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water leak detection system"
+        },
+        {
+          "_key": "47fe30e63e3c",
+          "_type": "span",
+          "marks": [],
+          "text": " usually has four working parts, a control panel, sensing devices, a communication path, and a way to stop the water. The control panel is the decision centre. Sensing cables or point sensors detect moisture. A shutoff valve can close the supply automatically when the panel confirms a leak signal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e2f5b59e974",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5474cf109c72",
+          "_type": "span",
+          "marks": [],
+          "text": "The architecture matters most in retrofits. One technical specification for "
+        },
+        {
+          "_key": "1de5362284b6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "addressable leak detection"
+        },
+        {
+          "_key": "1918c83fb178",
+          "_type": "span",
+          "marks": [],
+          "text": " calls for "
+        },
+        {
+          "_key": "d69fdb560fd3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "±1 metre"
+        },
+        {
+          "_key": "79441d8996f1",
+          "_type": "span",
+          "marks": [],
+          "text": " location accuracy, support for "
+        },
+        {
+          "_key": "e32bbf5a61c9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "at least 32 individual sensing cables"
+        },
+        {
+          "_key": "bda90129bf0a",
+          "_type": "span",
+          "marks": [],
+          "text": ", and up to "
+        },
+        {
+          "_key": "be70e2dbbfb8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3,000 m of sensing length"
+        },
+        {
+          "_key": "27b52e7c34cc",
+          "_type": "span",
+          "marks": [],
+          "text": " from one monitoring panel or linked satellite panels technical specification. For property managers, that means the system can narrow a problem to a specific riser, suite segment, or mechanical room instead of forcing staff to search floor by floor."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b9353381628",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69f3263175d6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6eb67f0521fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "616bd3be6e3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing between cable runs and point sensors"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "8de82ec16bac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f9933ed3763",
+          "_type": "span",
+          "marks": [],
+          "text": "Cable-based sensing is useful where water could appear anywhere along a line, such as in a utility chase, along risers, or around long equipment runs. Point sensors fit tight, high-risk spots, like under dishwashers, beside water heaters, or near condensate pans. In occupied buildings, the practical choice is usually not either-or. It's a mix of both, chosen around access constraints and the way the building is used."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e2f98900f7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14c6c38ca4bc",
+          "_type": "span",
+          "marks": [],
+          "text": "The internal guide on "
+        },
+        {
+          "_key": "21c243e6afb9",
+          "_type": "span",
+          "marks": [
+            "1b21aac32edd"
+          ],
+          "text": "water alarm sensor placement"
+        },
+        {
+          "_key": "f93a3e6ec883",
+          "_type": "span",
+          "marks": [],
+          "text": " is a helpful companion if you're comparing point devices with cable runs in real buildings. That matters because the wrong sensor type can create false comfort. A broad system may see that water exists, but a well-placed point sensor can tell you exactly which appliance or cabinet needs attention."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1b21aac32edd",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-alarm-sensor"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e2ec62fbc6e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f565ad5acd38",
+          "_type": "span",
+          "marks": [],
+          "text": "A second technical benchmark is speed. Some systems detect a single drop in "
+        },
+        {
+          "_key": "a12f696b637a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.05 seconds"
+        },
+        {
+          "_key": "003c36f07333",
+          "_type": "span",
+          "marks": [],
+          "text": " and trigger leak indications at "
+        },
+        {
+          "_key": "1a323a3617e3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3 mL"
+        },
+        {
+          "_key": "1035f4b305fa",
+          "_type": "span",
+          "marks": [],
+          "text": ", with response times under "
+        },
+        {
+          "_key": "5effb5866ac1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3 seconds"
+        },
+        {
+          "_key": "20e6f1ccc882",
+          "_type": "span",
+          "marks": [],
+          "text": " for alarm escalation "
+        },
+        {
+          "_key": "713a159119cf",
+          "_type": "span",
+          "marks": [
+            "2137686c19b3"
+          ],
+          "text": "Tatsuta detector specification"
+        },
+        {
+          "_key": "7529ae7c5455",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those numbers sound small, but the building logic is simple. The sooner the panel sees the leak, the less likely the water is to spread into finishes, flooring, or adjacent suites."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2137686c19b3",
+          "_type": "link",
+          "href": "https://www.tatsuta.com/product/sensor_medical/water-leakage/detector/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "64af937ddb4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc77febd7c82",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "333d2d861e70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "001580ec6a4b",
+          "_type": "span",
+          "marks": [],
+          "text": "What operators should ask vendors"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "82d7e68278ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a3f3e2cbd72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Location precision:"
+        },
+        {
+          "_key": "5a7c8ea85b00",
+          "_type": "span",
+          "marks": [],
+          "text": " Can the panel identify the zone tightly enough to send staff to the right riser or suite segment?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb977bd9c270",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecb0079a1fa2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Scalability:"
+        },
+        {
+          "_key": "9c74c22d7099",
+          "_type": "span",
+          "marks": [],
+          "text": " Can it support the building's risers, common areas, and later additions without a redesign?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "794ab8c16a20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c9549ea5804",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Integration path:"
+        },
+        {
+          "_key": "c30c0f8f3ee8",
+          "_type": "span",
+          "marks": [],
+          "text": " Can alarms flow into BMS or maintenance software without manual re-entry?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2b61c4414ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee7130eb3244",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Shutoff logic:"
+        },
+        {
+          "_key": "4fff09b22009",
+          "_type": "span",
+          "marks": [],
+          "text": " Will the system close a valve automatically, or only warn staff?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "339600782948",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "711238b0db08",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Retrofit fit:"
+        },
+        {
+          "_key": "a203478a32a8",
+          "_type": "span",
+          "marks": [],
+          "text": " Can it use existing chases and access paths without major tenant disruption?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0184e956ed05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3065fa6b764",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d121c7a1ad80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99cb53b77e89",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensor Placement and Integration with Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f288d9c7209e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d002f2b7bf6",
+          "_type": "span",
+          "marks": [],
+          "text": "The easiest way to get leak detection wrong is to install sensors where they're convenient rather than where water is most likely to cause damage. Start with the high-risk zones, then map them to the building's metering strategy. In a multi-family property, that usually means suites, vertical risers, common mechanical spaces, laundry rooms, and anywhere a leak can reach electrical or tenant finishes before anyone notices."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6ffc2f9b0d6",
+      "_type": "externalImage",
+      "alt": "An infographic showing a six-step guide for optimal water leak detection system installation and building integration.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f2eeed79-af12-46bb-ba34-4309f9a58f9d/water-leak-detection-system-sensor-placement.jpg"
+    },
+    {
+      "_key": "059a2a259d1e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d70af7cd473",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8a9f836bd91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c895e6a014d8",
+          "_type": "span",
+          "marks": [],
+          "text": "Where the sensor belongs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6112d6e2c558",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f078f84b822d",
+          "_type": "span",
+          "marks": [],
+          "text": "Point-of-use devices make sense in occupied suites, especially under sinks and near water heaters, because those are leak-prone and hard-to-see locations. Whole-system monitoring is useful, too, but the EPA notes that point-of-entry systems can miss localised leak locations, which is why dense residential buildings often need local sensors as well as broader monitoring "
+        },
+        {
+          "_key": "1e82bb934ded",
+          "_type": "span",
+          "marks": [
+            "be19e248a47e"
+          ],
+          "text": "EPA leak and flow guide"
+        },
+        {
+          "_key": "4995d8c7c55f",
+          "_type": "span",
+          "marks": [],
+          "text": ". In practical terms, a cabinet sensor tells you which suite needs attention, while a broader run along the riser helps you find shared infrastructure issues."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "be19e248a47e",
+          "_type": "link",
+          "href": "https://www.epa.gov/system/files/documents/2026-02/ws-products-leak-flow-guide.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c461c6e1542a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ed334f15b3e",
+          "_type": "span",
+          "marks": [],
+          "text": "Integration with submetering is where the hidden value appears. Leak alerts can sit beside consumption data from water submeters, so a manager sees not just that water is present, but whether the usage pattern also looks abnormal. The result is a cleaner operational picture for owners, because one platform can flag both wasted water and likely failure points. For a detailed overview of how usage data is captured and reported, the "
+        },
+        {
+          "_key": "07f8e469c27b",
+          "_type": "span",
+          "marks": [
+            "806c054cc5a4"
+          ],
+          "text": "sub-metering water guide"
+        },
+        {
+          "_key": "6790f36d336c",
+          "_type": "span",
+          "marks": [],
+          "text": " is a practical reference."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "806c054cc5a4",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metering-water"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f74861a74a0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b875485011e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d005b620a7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05018c640b5b",
+          "_type": "span",
+          "marks": [],
+          "text": "A simple placement sequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "46f654ebcf69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8feb8a84c19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Identify critical zones."
+        },
+        {
+          "_key": "24bae84658a2",
+          "_type": "span",
+          "marks": [],
+          "text": " Map suites, risers, boiler rooms, and utility chases first."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12646752d046",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17670a684054",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Place point sensors in unit risk areas."
+        },
+        {
+          "_key": "7cac1b58fc5f",
+          "_type": "span",
+          "marks": [],
+          "text": " Cabinets, toilets, appliances, and condensate pans come before decorative spaces."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01367f565f7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "957912fe5b3a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Run cables where access is long and narrow."
+        },
+        {
+          "_key": "44c6b24b62b2",
+          "_type": "span",
+          "marks": [],
+          "text": " Vertical pipe chases and shared corridors often need linear coverage."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a223db1f4cf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdc391071b1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Connect to submeters."
+        },
+        {
+          "_key": "451036bc5ce7",
+          "_type": "span",
+          "marks": [],
+          "text": " Align alarms with consumption data so billing and maintenance teams work from the same event record."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9122b7971376",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f72e34d05c58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Link to BMS."
+        },
+        {
+          "_key": "35a639ebe123",
+          "_type": "span",
+          "marks": [],
+          "text": " Send alarms to a central dashboard so staff aren't depending on phone calls alone."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c484ae3e7f7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af8a1207ab3e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational insight:"
+        },
+        {
+          "_key": "e8681f7c8840",
+          "_type": "span",
+          "marks": [],
+          "text": " The best installation is the one maintenance can understand in thirty seconds, because the person who gets the alert is often standing in another part of the property."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "eebb78f11440",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "014088ae09f8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54ae456f70e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "317377a44738",
+          "_type": "span",
+          "marks": [],
+          "text": "Alarm and Response Workflows"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "472be80b4d6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6bc58e94061",
+          "_type": "span",
+          "marks": [],
+          "text": "A leak alert only helps if the response is disciplined. The cleanest workflow starts with a sensor trigger, moves to notification, then to shutoff and dispatch. Once that sequence is in place, the job becomes coordination rather than guesswork."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b43e18a77dc",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the seven-step water leak detection workflow and on-site staff responsibilities for leak resolution.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/80402959-a228-4b57-ba41-b9148866c223/water-leak-detection-system-workflow.jpg"
+    },
+    {
+      "_key": "739162e08d1e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba692ac2f7f9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b328ed83607",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3848fca5462e",
+          "_type": "span",
+          "marks": [],
+          "text": "What happens after moisture is detected"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "65c2940a7c05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c707db7ea5d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Some systems detect a single drop in "
+        },
+        {
+          "_key": "9bbdc336ee3b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.05 seconds"
+        },
+        {
+          "_key": "6f7ae997f9ca",
+          "_type": "span",
+          "marks": [],
+          "text": " and trigger leak indications at "
+        },
+        {
+          "_key": "207238243e75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3 mL"
+        },
+        {
+          "_key": "3c9bca1ee1f2",
+          "_type": "span",
+          "marks": [],
+          "text": ", with response times under "
+        },
+        {
+          "_key": "c9eb3a6dd3d7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3 seconds"
+        },
+        {
+          "_key": "ff7c102d2bc3",
+          "_type": "span",
+          "marks": [],
+          "text": " feeding into BMS alarms "
+        },
+        {
+          "_key": "7a2f1b361a94",
+          "_type": "span",
+          "marks": [
+            "cfc365a40fa8"
+          ],
+          "text": "Tatsuta detector specification"
+        },
+        {
+          "_key": "489ea872bd91",
+          "_type": "span",
+          "marks": [],
+          "text": ". In practice, that speed only matters if the building has a clear response chain. The valve closes, the alert goes to the right staff, and the maintenance team knows whether it's a suite issue, a common-area issue, or a mechanical room event."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cfc365a40fa8",
+          "_type": "link",
+          "href": "https://www.tatsuta.com/product/sensor_medical/water-leakage/detector/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fc96b844d826",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d75d6257608",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful workflow separates technology tasks from human tasks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01f32200763e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abc0c0f29e1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Detection and notification:"
+        },
+        {
+          "_key": "932e4d3b90a7",
+          "_type": "span",
+          "marks": [],
+          "text": " The panel confirms the event and sends alerts."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "848b62caef93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f7b33784d32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Isolation:"
+        },
+        {
+          "_key": "36defb7235f2",
+          "_type": "span",
+          "marks": [],
+          "text": " The automatic shutoff valve closes the affected water line when configured to do so."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "223f1fded3b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc521ecf3d94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assessment:"
+        },
+        {
+          "_key": "2e2d3ab506dc",
+          "_type": "span",
+          "marks": [],
+          "text": " On-site staff verify the location, document the condition, and determine whether the issue is local or building-wide."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0a31ce713dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "385aa0e2923e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Repair and reset:"
+        },
+        {
+          "_key": "9e88f1d492c3",
+          "_type": "span",
+          "marks": [],
+          "text": " A technician resolves the source, confirms no recurring moisture, and re-arms the system."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9282de808c7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d5a16b0f178",
+          "_type": "span",
+          "marks": [],
+          "text": "That structure reduces confusion during off-hours events, which is when small leaks often become bigger losses. If a property has remote monitoring, the alert can go to an after-hours operator, a local technician, and the manager without anyone needing to dig through a single inbox."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc09289d658e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e183de2e7bfe",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "0442bc71875b",
+          "_type": "span",
+          "marks": [],
+          "text": " The first person on scene should not be deciding who owns the problem. The workflow should already answer that."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "683642357d21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf2b41959b94",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7eb52bed1a29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f4980ac6e46",
+          "_type": "span",
+          "marks": [],
+          "text": "Procurement Installation Timelines and Costs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "9d730b7b753f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f36097dcd7a9",
+          "_type": "span",
+          "marks": [],
+          "text": "Turnkey leak detection and submetering projects work best when procurement follows a clear sequence. The first step is a site review, then design, equipment selection, scheduling, installation, commissioning, and finally live monitoring. In buildings with tenants in place, the schedule matters as much as the hardware because access windows are limited and every missed appointment creates friction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1826f1269715",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c66d88de1dcf",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions is one provider that delivers water submetering with leak and flood detection included in its installation scope, alongside commissioning and ongoing service under long-term agreements. That kind of structure can help owners reduce upfront capital strain, which is why it's worth understanding the difference between "
+        },
+        {
+          "_key": "83449ad1a828",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CapEx"
+        },
+        {
+          "_key": "5b1b65d84097",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "4fd006992196",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "OpEx"
+        },
+        {
+          "_key": "f2ed4d4d5980",
+          "_type": "span",
+          "marks": [],
+          "text": " before you compare bids "
+        },
+        {
+          "_key": "b34e504c9d44",
+          "_type": "span",
+          "marks": [
+            "ac72315058ca"
+          ],
+          "text": "CapEx vs OpEx overview"
+        },
+        {
+          "_key": "cdfb691d0ab5",
+          "_type": "span",
+          "marks": [],
+          "text": ". The financing model changes how a project appears on the budget, even when the operational outcome is similar."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ac72315058ca",
+          "_type": "link",
+          "href": "https://www.tc-mgt.com/post/what-is-capital-expenditure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1c2ee8b3dc24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c7819b3a77b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "faf10ae59f1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64a9d101b480",
+          "_type": "span",
+          "marks": [],
+          "text": "How a typical rollout is organised"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "24fd82023b8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13644bf650f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Preparatory work begins before equipment arrives. Teams confirm which suites need access, which common areas need linear sensing, and where shutoff valves and panel interfaces will land. Once the design is locked, the installer coordinates labour around resident availability, then commissions each zone so the panel can distinguish an actual leak from a wiring or setup issue."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8fcef674ba9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9817d2798ba7",
+          "_type": "span",
+          "marks": [],
+          "text": "For properties that want a predictable path from agreement to live service, the project timeline is often discussed in weeks rather than months. That's because lead times, access coordination, and commissioning all happen in sequence, not in parallel. If a vendor can't explain what happens at each milestone, the project risk usually lands on the property team."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "857dbbe19ff2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d6b72e98d29",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef35c404c894",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d90c2563f59e",
+          "_type": "span",
+          "marks": [],
+          "text": "What drives cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b008f8c4b4f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40dfab4a915e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Hardware scope:"
+        },
+        {
+          "_key": "918ec02f1a2e",
+          "_type": "span",
+          "marks": [],
+          "text": " More suites, more risers, and more shutoff points mean more devices."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93437a248430",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6a103d7b5f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Retrofit complexity:"
+        },
+        {
+          "_key": "e2657d58e01f",
+          "_type": "span",
+          "marks": [],
+          "text": " Tight ceilings, finished corridors, and occupied units increase labour time."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c8b81163b3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4a48850d906",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Integration needs:"
+        },
+        {
+          "_key": "2d4b9145fe9e",
+          "_type": "span",
+          "marks": [],
+          "text": " BMS and submetering connections add design and commissioning work."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56615ea8d003",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2154e0e30eae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Service terms:"
+        },
+        {
+          "_key": "54cae31e9a7c",
+          "_type": "span",
+          "marks": [],
+          "text": " Monitoring, maintenance, and replacement responsibilities affect the long-term commercial model."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "352a6113eb32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1908931e1896",
+          "_type": "span",
+          "marks": [],
+          "text": "A vendor proposal should make each of those items visible. If it bundles them well, the owner can compare operating value instead of comparing line items in isolation. If it doesn't, hidden costs tend to show up later in change orders and delayed commissioning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56a736ad8451",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcc8711b0a35",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7af0ff5341b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab2a2f1fe660",
+          "_type": "span",
+          "marks": [],
+          "text": "ROI Assessment and Case Studies with Next Steps"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a79d20f9694d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6de0f7147cbc",
+          "_type": "span",
+          "marks": [],
+          "text": "The ROI case is strongest when leak detection is treated as a portfolio control, not a one-off gadget. Water damage is expensive because the damage rarely stays where the leak started. Floors, cabinets, drywall, electrical components, and tenant disruption all travel with the water, which is why prevention and fast shutoff have a clearer business case than reactive cleanup."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "574269465fff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6fce7729474",
+          "_type": "span",
+          "marks": [],
+          "text": "The insurance research cited earlier gives the most useful benchmark. "
+        },
+        {
+          "_key": "d493a39baf21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Inline shutoff technology correlated with 96% fewer escape-of-water claim events"
+        },
+        {
+          "_key": "fed173280f4f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the "
+        },
+        {
+          "_key": "fdefafd524d9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "average water damage and freezing claim was USD 13,954"
+        },
+        {
+          "_key": "e9608f023ab3",
+          "_type": "span",
+          "marks": [],
+          "text": " across "
+        },
+        {
+          "_key": "c6b859d72bc9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2018 to 2022"
+        },
+        {
+          "_key": "dad1c9d040da",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "f2b2f347439f",
+          "_type": "span",
+          "marks": [
+            "458bcd4eb015"
+          ],
+          "text": "Rapid Eye Inspections"
+        },
+        {
+          "_key": "0c54f6c2098c",
+          "_type": "span",
+          "marks": [],
+          "text": ". That doesn't guarantee a payback for every building, but it shows why owners with repeat exposure often prioritise leak detection alongside submetering and other utility controls."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "458bcd4eb015",
+          "_type": "link",
+          "href": "https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "366fc4a411ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df544157ccd0",
+          "_type": "span",
+          "marks": [],
+          "text": "For mixed-use and multi-family buildings, ROI often appears in fewer callouts, less tenant disruption, and cleaner utility accountability. Submetering helps isolate consumption, while leak detection adds a second layer that flags abnormal water use before it becomes visible damage. The internal overview on "
+        },
+        {
+          "_key": "67b1057ba136",
+          "_type": "span",
+          "marks": [
+            "31ab9922bf8e"
+          ],
+          "text": "sub-metered water"
+        },
+        {
+          "_key": "586e535513a7",
+          "_type": "span",
+          "marks": [],
+          "text": " is helpful if you're comparing how usage visibility and leak prevention support each other inside one property strategy."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "31ab9922bf8e",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metered-water"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "24142623ef69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8950d3246f26",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00af019d9a90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f85d087172eb",
+          "_type": "span",
+          "marks": [],
+          "text": "What to ask before you issue an RFP"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5522664c0652",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f96eff42f41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Coverage fit:"
+        },
+        {
+          "_key": "1ac924396ebf",
+          "_type": "span",
+          "marks": [],
+          "text": " Which zones are covered by point sensors, cable runs, and shutoff valves?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "691c6e991ede",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2147476a38a5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Alarm routing:"
+        },
+        {
+          "_key": "225c514e61bc",
+          "_type": "span",
+          "marks": [],
+          "text": " Who receives alerts, and how fast does the message arrive?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7251e0386b4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "afb6ec98d99e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Integration depth:"
+        },
+        {
+          "_key": "118c2b00eceb",
+          "_type": "span",
+          "marks": [],
+          "text": " Does the system feed BMS, billing, or maintenance tools cleanly?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c23507fefad6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02843b728c32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Service ownership:"
+        },
+        {
+          "_key": "c88bcb2fc484",
+          "_type": "span",
+          "marks": [],
+          "text": " Who maintains sensors, valves, and panels after commissioning?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48dcdadbe843",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60d51063e591",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Retrofit disruption:"
+        },
+        {
+          "_key": "c725db07c2be",
+          "_type": "span",
+          "marks": [],
+          "text": " How much access does the installer need in occupied units?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fbfe1b596676",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56ed98ef8d35",
+          "_type": "span",
+          "marks": [],
+          "text": "A smart pilot starts with one riser, a handful of high-risk suites, or one mechanical room cluster. That gives the owner a live view of workflow, tenant access, and maintenance response before scaling across the property. If you're evaluating options now, ask Axis Meter Solutions how its water submetering programmes pair leak and flood detection with commissioning and ongoing service, then compare that model against any vendor that can't show the same level of integration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b800e2d2a7ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1238398c2fc6",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're planning a retrofit, start with a building walk and a utility map, then ask for a leak detection and submetering design that shows sensor placement, alarm routing, and shutoff logic on one page. "
+        },
+        {
+          "_key": "f26a111c1549",
+          "_type": "span",
+          "marks": [
+            "7fd9c48e5e49"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "af26dae78080",
+          "_type": "span",
+          "marks": [],
+          "text": " can help you compare that layout against your portfolio's access constraints and billing needs, so you can move from reactive repairs to a clearer operating plan."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7fd9c48e5e49",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Protect multi-family & mixed-use properties with a water leak detection system. Integrate with submetering for ROI. See case studies.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5bb7ac1a-59c7-429c-8ed9-b7b6df12ce94/water-leak-detection-system-property-protection.jpg",
+  "noIndex": false,
+  "outrankId": "22ea28bc-784f-47f0-bc06-fd9f935b7277",
+  "publishedAt": "2026-08-10T08:23:38.094935+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "water-leak-detection-system"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You know the call that starts with, “We&#39;ve got water where it shouldn&#39;t be,” and ends with drywall, flooring, tenant disruption, and a claims file. In multi-family and mixed-use buildings, that&#39;s usually not a dramatic burst, it&#39;s a slow leak under a sink, behind a wall, or in a mechanical chase that nobody sees until the damage has spread.</p>\n<p>A <strong>water leak detection system</strong> turns that hidden risk into a managed event. In North America, leak detection is already a mature infrastructure category, with the region accounting for roughly <strong>35% to 38% of global installations</strong> and the market projected to rise from <strong>USD 0.86 billion in 2025 to USD 1.53 billion by 2035</strong> at a <strong>5.89% CAGR</strong> <a href=\"https://www.energy.gov/cmei/femp/water-efficient-technology-opportunity-distribution-system-leak-detection\">U.S. Department of Energy</a>. For Canadian property operators, that matters because the buying decision is no longer about novelty, it&#39;s about how quickly a system can protect occupied units, reduce search time, and connect to the metering and billing tools you already use.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#introduction-and-importance\">Introduction and Importance</a></li>\n<li><a href=\"#understanding-key-concepts\">Understanding Key Concepts</a></li>\n<li><a href=\"#components-and-sensor-technologies\">Components and Sensor Technologies</a><ul>\n<li><a href=\"#choosing-between-cable-runs-and-point-sensors\">Choosing between cable runs and point sensors</a></li>\n<li><a href=\"#what-operators-should-ask-vendors\">What operators should ask vendors</a></li>\n</ul>\n</li>\n<li><a href=\"#sensor-placement-and-integration-with-submetering\">Sensor Placement and Integration with Submetering</a><ul>\n<li><a href=\"#where-the-sensor-belongs\">Where the sensor belongs</a></li>\n<li><a href=\"#a-simple-placement-sequence\">A simple placement sequence</a></li>\n</ul>\n</li>\n<li><a href=\"#alarm-and-response-workflows\">Alarm and Response Workflows</a><ul>\n<li><a href=\"#what-happens-after-moisture-is-detected\">What happens after moisture is detected</a></li>\n</ul>\n</li>\n<li><a href=\"#procurement-installation-timelines-and-costs\">Procurement Installation Timelines and Costs</a><ul>\n<li><a href=\"#how-a-typical-rollout-is-organised\">How a typical rollout is organised</a></li>\n<li><a href=\"#what-drives-cost\">What drives cost</a></li>\n</ul>\n</li>\n<li><a href=\"#roi-assessment-and-case-studies-with-next-steps\">ROI Assessment and Case Studies with Next Steps</a><ul>\n<li><a href=\"#what-to-ask-before-you-issue-an-rfp\">What to ask before you issue an RFP</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"introduction-and-importance\"></a></p>\n<h2>Introduction and Importance</h2>\n<p>A resident opens a kitchen cabinet and finds warped particleboard, puddling under the sink, and water creeping toward the hallway. The leak wasn&#39;t dramatic, it was quiet, which is why the repair bill grew larger than anyone expected. That kind of event is exactly why property teams now treat leak detection as an operating control, not a nice-to-have add-on.</p>\n<p>The pressure is bigger than one suite. Leak events can affect common areas, neighbouring units, insurance claims, and tenant confidence all at once. Research summarised for property owners and insurers found that <strong>inline water shutoff technology correlated with 96% fewer escape-of-water claim events</strong>, while the <strong>average water damage and freezing insurance claim was USD 13,954 from 2018 to 2022</strong> <a href=\"https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/\">Rapid Eye Inspections</a>. That helps explain why many owners now evaluate detection and automatic shutoff together, especially in buildings where access is tight and downtime is expensive.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5b58388c-db83-4f54-85d9-ee40fda93d21/water-leak-detection-system-evolution.jpg\" alt=\"A diagram illustrating the four stages of water leak detection evolution, from manual inspections to automated shutoff systems.\"></p>\n<p>For operators trying to separate signal from marketing, <a href=\"https://restotektx.com/what-is-leak-detection/\">RestoTek TX for leak detection</a> is a useful plain-language reference on the basic idea before diving into building-scale choices. A key challenge, though, is not just detecting moisture. It&#39;s making detection work alongside submetering, alarm routing, and maintenance workflows so that the building team can act before minor water becomes a capital repair.</p>\n<p><a id=\"understanding-key-concepts\"></a></p>\n<h2>Understanding Key Concepts</h2>\n<p>Water-loss prevention used to depend on walkthroughs, visual checks, and whoever happened to notice a stain first. That approach still appears in some portfolios, but it doesn&#39;t scale well in occupied buildings where most risers, utility chases, and under-sink spaces stay closed most of the time. The shift over the past decade has been toward <strong>sensor-based automation</strong>, because the system can watch continuously even when staff can&#39;t.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If a leak is hidden behind access panels, under appliances, or in a vertical chase, manual inspection is too slow to be a control strategy.</p>\n</blockquote>\n<p>The insurance side helps explain the adoption curve. Research summarised for owners and insurers reports that <strong>inline shutoff systems correlated with 96% fewer escape-of-water claims</strong>, and the <strong>average water damage and freezing claim was USD 13,954</strong> across <strong>2018 to 2022</strong> <a href=\"https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/\">Rapid Eye Inspections</a>. That doesn&#39;t mean every property gets the same payback, but it does show why owners increasingly bundle detection with automatic shutoff and monitoring instead of relying on alarms alone.</p>\n<p>The language around system design can be confusing, so it helps to separate the pieces. <strong>Point-of-use devices</strong> sit near a specific risk, like under a sink or beside a water heater. <strong>Point-of-entry devices</strong> watch a broader system, but they can miss the exact source of a localised leak, which is why dense multi-family buildings often need both broad visibility and local precision. The U.S. EPA&#39;s leak and flow guide also notes that under-sink and condensate-area leaks may be missed by whole-system monitoring, which is a real issue in occupied suites <a href=\"https://www.epa.gov/system/files/documents/2026-02/ws-products-leak-flow-guide.pdf\">EPA leak and flow guide</a>.</p>\n<p>Another term that matters is <strong>addressable architecture</strong>. In simple terms, it means the panel can tell you where a trigger came from, not just that “somewhere on the property” there&#39;s water. That distinction becomes important once leak detection is tied to submetering, because the same property team that tracks usage anomalies can also respond to localised moisture alerts with much less confusion.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f23b82e2-1d3e-4e2d-b1bc-7de5f7994740/water-leak-detection-system-components.jpg\" alt=\"An infographic showing the five key components of a professional water leak detection and mitigation system.\"></p>\n<blockquote>\n<p>The point isn&#39;t to alarm on every drop. The point is to translate a small event into a clear location, a clear owner, and a fast next step.</p>\n</blockquote>\n<p><a id=\"components-and-sensor-technologies\"></a></p>\n<h2>Components and Sensor Technologies</h2>\n<p>A professional <strong>water leak detection system</strong> usually has four working parts, a control panel, sensing devices, a communication path, and a way to stop the water. The control panel is the decision centre. Sensing cables or point sensors detect moisture. A shutoff valve can close the supply automatically when the panel confirms a leak signal.</p>\n<p>The architecture matters most in retrofits. One technical specification for <strong>addressable leak detection</strong> calls for <strong>±1 metre</strong> location accuracy, support for <strong>at least 32 individual sensing cables</strong>, and up to <strong>3,000 m of sensing length</strong> from one monitoring panel or linked satellite panels technical specification. For property managers, that means the system can narrow a problem to a specific riser, suite segment, or mechanical room instead of forcing staff to search floor by floor.</p>\n<p><a id=\"choosing-between-cable-runs-and-point-sensors\"></a></p>\n<h3>Choosing between cable runs and point sensors</h3>\n<p>Cable-based sensing is useful where water could appear anywhere along a line, such as in a utility chase, along risers, or around long equipment runs. Point sensors fit tight, high-risk spots, like under dishwashers, beside water heaters, or near condensate pans. In occupied buildings, the practical choice is usually not either-or. It&#39;s a mix of both, chosen around access constraints and the way the building is used.</p>\n<p>The internal guide on <a href=\"https://www.axismeter.com/blog/water-alarm-sensor\">water alarm sensor placement</a> is a helpful companion if you&#39;re comparing point devices with cable runs in real buildings. That matters because the wrong sensor type can create false comfort. A broad system may see that water exists, but a well-placed point sensor can tell you exactly which appliance or cabinet needs attention.</p>\n<p>A second technical benchmark is speed. Some systems detect a single drop in <strong>0.05 seconds</strong> and trigger leak indications at <strong>3 mL</strong>, with response times under <strong>3 seconds</strong> for alarm escalation <a href=\"https://www.tatsuta.com/product/sensor_medical/water-leakage/detector/\">Tatsuta detector specification</a>. Those numbers sound small, but the building logic is simple. The sooner the panel sees the leak, the less likely the water is to spread into finishes, flooring, or adjacent suites.</p>\n<p><a id=\"what-operators-should-ask-vendors\"></a></p>\n<h3>What operators should ask vendors</h3>\n<ul>\n<li><strong>Location precision:</strong> Can the panel identify the zone tightly enough to send staff to the right riser or suite segment?</li>\n<li><strong>Scalability:</strong> Can it support the building&#39;s risers, common areas, and later additions without a redesign?</li>\n<li><strong>Integration path:</strong> Can alarms flow into BMS or maintenance software without manual re-entry?</li>\n<li><strong>Shutoff logic:</strong> Will the system close a valve automatically, or only warn staff?</li>\n<li><strong>Retrofit fit:</strong> Can it use existing chases and access paths without major tenant disruption?</li>\n</ul>\n<p><a id=\"sensor-placement-and-integration-with-submetering\"></a></p>\n<h2>Sensor Placement and Integration with Submetering</h2>\n<p>The easiest way to get leak detection wrong is to install sensors where they&#39;re convenient rather than where water is most likely to cause damage. Start with the high-risk zones, then map them to the building&#39;s metering strategy. In a multi-family property, that usually means suites, vertical risers, common mechanical spaces, laundry rooms, and anywhere a leak can reach electrical or tenant finishes before anyone notices.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f2eeed79-af12-46bb-ba34-4309f9a58f9d/water-leak-detection-system-sensor-placement.jpg\" alt=\"An infographic showing a six-step guide for optimal water leak detection system installation and building integration.\"></p>\n<p><a id=\"where-the-sensor-belongs\"></a></p>\n<h3>Where the sensor belongs</h3>\n<p>Point-of-use devices make sense in occupied suites, especially under sinks and near water heaters, because those are leak-prone and hard-to-see locations. Whole-system monitoring is useful, too, but the EPA notes that point-of-entry systems can miss localised leak locations, which is why dense residential buildings often need local sensors as well as broader monitoring <a href=\"https://www.epa.gov/system/files/documents/2026-02/ws-products-leak-flow-guide.pdf\">EPA leak and flow guide</a>. In practical terms, a cabinet sensor tells you which suite needs attention, while a broader run along the riser helps you find shared infrastructure issues.</p>\n<p>Integration with submetering is where the hidden value appears. Leak alerts can sit beside consumption data from water submeters, so a manager sees not just that water is present, but whether the usage pattern also looks abnormal. The result is a cleaner operational picture for owners, because one platform can flag both wasted water and likely failure points. For a detailed overview of how usage data is captured and reported, the <a href=\"https://www.axismeter.com/blog/sub-metering-water\">sub-metering water guide</a> is a practical reference.</p>\n<p><a id=\"a-simple-placement-sequence\"></a></p>\n<h3>A simple placement sequence</h3>\n<ol>\n<li><strong>Identify critical zones.</strong> Map suites, risers, boiler rooms, and utility chases first.</li>\n<li><strong>Place point sensors in unit risk areas.</strong> Cabinets, toilets, appliances, and condensate pans come before decorative spaces.</li>\n<li><strong>Run cables where access is long and narrow.</strong> Vertical pipe chases and shared corridors often need linear coverage.</li>\n<li><strong>Connect to submeters.</strong> Align alarms with consumption data so billing and maintenance teams work from the same event record.</li>\n<li><strong>Link to BMS.</strong> Send alarms to a central dashboard so staff aren&#39;t depending on phone calls alone.</li>\n</ol>\n<blockquote>\n<p><strong>Operational insight:</strong> The best installation is the one maintenance can understand in thirty seconds, because the person who gets the alert is often standing in another part of the property.</p>\n</blockquote>\n<p><a id=\"alarm-and-response-workflows\"></a></p>\n<h2>Alarm and Response Workflows</h2>\n<p>A leak alert only helps if the response is disciplined. The cleanest workflow starts with a sensor trigger, moves to notification, then to shutoff and dispatch. Once that sequence is in place, the job becomes coordination rather than guesswork.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/80402959-a228-4b57-ba41-b9148866c223/water-leak-detection-system-workflow.jpg\" alt=\"A diagram illustrating the seven-step water leak detection workflow and on-site staff responsibilities for leak resolution.\"></p>\n<p><a id=\"what-happens-after-moisture-is-detected\"></a></p>\n<h3>What happens after moisture is detected</h3>\n<p>Some systems detect a single drop in <strong>0.05 seconds</strong> and trigger leak indications at <strong>3 mL</strong>, with response times under <strong>3 seconds</strong> feeding into BMS alarms <a href=\"https://www.tatsuta.com/product/sensor_medical/water-leakage/detector/\">Tatsuta detector specification</a>. In practice, that speed only matters if the building has a clear response chain. The valve closes, the alert goes to the right staff, and the maintenance team knows whether it&#39;s a suite issue, a common-area issue, or a mechanical room event.</p>\n<p>A useful workflow separates technology tasks from human tasks.</p>\n<ul>\n<li><strong>Detection and notification:</strong> The panel confirms the event and sends alerts.</li>\n<li><strong>Isolation:</strong> The automatic shutoff valve closes the affected water line when configured to do so.</li>\n<li><strong>Assessment:</strong> On-site staff verify the location, document the condition, and determine whether the issue is local or building-wide.</li>\n<li><strong>Repair and reset:</strong> A technician resolves the source, confirms no recurring moisture, and re-arms the system.</li>\n</ul>\n<p>That structure reduces confusion during off-hours events, which is when small leaks often become bigger losses. If a property has remote monitoring, the alert can go to an after-hours operator, a local technician, and the manager without anyone needing to dig through a single inbox.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> The first person on scene should not be deciding who owns the problem. The workflow should already answer that.</p>\n</blockquote>\n<p><a id=\"procurement-installation-timelines-and-costs\"></a></p>\n<h2>Procurement Installation Timelines and Costs</h2>\n<p>Turnkey leak detection and submetering projects work best when procurement follows a clear sequence. The first step is a site review, then design, equipment selection, scheduling, installation, commissioning, and finally live monitoring. In buildings with tenants in place, the schedule matters as much as the hardware because access windows are limited and every missed appointment creates friction.</p>\n<p>Axis Meter Solutions is one provider that delivers water submetering with leak and flood detection included in its installation scope, alongside commissioning and ongoing service under long-term agreements. That kind of structure can help owners reduce upfront capital strain, which is why it&#39;s worth understanding the difference between <strong>CapEx</strong> and <strong>OpEx</strong> before you compare bids <a href=\"https://www.tc-mgt.com/post/what-is-capital-expenditure\">CapEx vs OpEx overview</a>. The financing model changes how a project appears on the budget, even when the operational outcome is similar.</p>\n<p><a id=\"how-a-typical-rollout-is-organised\"></a></p>\n<h3>How a typical rollout is organised</h3>\n<p>Preparatory work begins before equipment arrives. Teams confirm which suites need access, which common areas need linear sensing, and where shutoff valves and panel interfaces will land. Once the design is locked, the installer coordinates labour around resident availability, then commissions each zone so the panel can distinguish an actual leak from a wiring or setup issue.</p>\n<p>For properties that want a predictable path from agreement to live service, the project timeline is often discussed in weeks rather than months. That&#39;s because lead times, access coordination, and commissioning all happen in sequence, not in parallel. If a vendor can&#39;t explain what happens at each milestone, the project risk usually lands on the property team.</p>\n<p><a id=\"what-drives-cost\"></a></p>\n<h3>What drives cost</h3>\n<ul>\n<li><strong>Hardware scope:</strong> More suites, more risers, and more shutoff points mean more devices.</li>\n<li><strong>Retrofit complexity:</strong> Tight ceilings, finished corridors, and occupied units increase labour time.</li>\n<li><strong>Integration needs:</strong> BMS and submetering connections add design and commissioning work.</li>\n<li><strong>Service terms:</strong> Monitoring, maintenance, and replacement responsibilities affect the long-term commercial model.</li>\n</ul>\n<p>A vendor proposal should make each of those items visible. If it bundles them well, the owner can compare operating value instead of comparing line items in isolation. If it doesn&#39;t, hidden costs tend to show up later in change orders and delayed commissioning.</p>\n<p><a id=\"roi-assessment-and-case-studies-with-next-steps\"></a></p>\n<h2>ROI Assessment and Case Studies with Next Steps</h2>\n<p>The ROI case is strongest when leak detection is treated as a portfolio control, not a one-off gadget. Water damage is expensive because the damage rarely stays where the leak started. Floors, cabinets, drywall, electrical components, and tenant disruption all travel with the water, which is why prevention and fast shutoff have a clearer business case than reactive cleanup.</p>\n<p>The insurance research cited earlier gives the most useful benchmark. <strong>Inline shutoff technology correlated with 96% fewer escape-of-water claim events</strong>, and the <strong>average water damage and freezing claim was USD 13,954</strong> across <strong>2018 to 2022</strong> <a href=\"https://rapideyeinspections.com/research/water-leak-detection-insurance-statistics/\">Rapid Eye Inspections</a>. That doesn&#39;t guarantee a payback for every building, but it shows why owners with repeat exposure often prioritise leak detection alongside submetering and other utility controls.</p>\n<p>For mixed-use and multi-family buildings, ROI often appears in fewer callouts, less tenant disruption, and cleaner utility accountability. Submetering helps isolate consumption, while leak detection adds a second layer that flags abnormal water use before it becomes visible damage. The internal overview on <a href=\"https://www.axismeter.com/blog/sub-metered-water\">sub-metered water</a> is helpful if you&#39;re comparing how usage visibility and leak prevention support each other inside one property strategy.</p>\n<p><a id=\"what-to-ask-before-you-issue-an-rfp\"></a></p>\n<h3>What to ask before you issue an RFP</h3>\n<ul>\n<li><strong>Coverage fit:</strong> Which zones are covered by point sensors, cable runs, and shutoff valves?</li>\n<li><strong>Alarm routing:</strong> Who receives alerts, and how fast does the message arrive?</li>\n<li><strong>Integration depth:</strong> Does the system feed BMS, billing, or maintenance tools cleanly?</li>\n<li><strong>Service ownership:</strong> Who maintains sensors, valves, and panels after commissioning?</li>\n<li><strong>Retrofit disruption:</strong> How much access does the installer need in occupied units?</li>\n</ul>\n<p>A smart pilot starts with one riser, a handful of high-risk suites, or one mechanical room cluster. That gives the owner a live view of workflow, tenant access, and maintenance response before scaling across the property. If you&#39;re evaluating options now, ask Axis Meter Solutions how its water submetering programmes pair leak and flood detection with commissioning and ongoing service, then compare that model against any vendor that can&#39;t show the same level of integration.</p>\n<hr>\n<p>If you&#39;re planning a retrofit, start with a building walk and a utility map, then ask for a leak detection and submetering design that shows sensor placement, alarm routing, and shutoff logic on one page. <a href=\"https://axismeter.com\">Axis Meter Solutions</a> can help you compare that layout against your portfolio&#39;s access constraints and billing needs, so you can move from reactive repairs to a clearer operating plan.</p>",
+  "tags": [
+    "water leak detection system",
+    "submetering",
+    "property management",
+    "sensor placement",
+    "ROI analysis"
+  ],
+  "title": "Water Leak Detection System: Protect Properties, Boost ROI",
+  "updatedAt": "2026-08-10T08:23:41.021Z"
+}
