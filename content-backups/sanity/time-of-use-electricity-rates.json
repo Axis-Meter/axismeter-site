@@ -1,0 +1,2829 @@
+{
+  "_createdAt": "2026-08-15T08:56:51Z",
+  "_id": "outrank-541c4c9a-9f42-4a81-b1f2-ac3a556e8563",
+  "_rev": "3PHkKWEqoVIDXAZCH7OQ2Z",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-15T08:56:51Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "d52afd93f778",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d576a662e581",
+          "_type": "span",
+          "marks": [],
+          "text": "A monthly electricity bill can rise even when a building's total consumption barely changes. The usual culprit is "
+        },
+        {
+          "_key": "691c4f03fe89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "when the electricity was used"
+        },
+        {
+          "_key": "bcae537b13fd",
+          "_type": "span",
+          "marks": [],
+          "text": ". A laundry room runs through the evening, corridor HVAC overlaps with tenant air conditioning, and several EV chargers start together. The meter records the same basic commodity, but the tariff assigns a different price to each time window."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39ae048ef350",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff18b591eb9c",
+          "_type": "span",
+          "marks": [],
+          "text": "That's the operating reality behind "
+        },
+        {
+          "_key": "8da0220aaa52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "time of use electricity rates"
+        },
+        {
+          "_key": "02b4a4039c7b",
+          "_type": "span",
+          "marks": [],
+          "text": ". For a household, the decision may involve laundry or vehicle charging. For a multi-family, mixed-use, or commercial property, the bill reflects common-area systems, tenant behaviour, equipment schedules, and sometimes demand charges. Treating the building like a large household is a costly mistake."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "901f14ac531d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "871df7beb98c",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "50c87106cab5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf9d309028be",
+          "_type": "span",
+          "marks": [
+            "1d7f301bf024"
+          ],
+          "text": "What Time of Use Electricity Rates Really Mean"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1d7f301bf024",
+          "_type": "link",
+          "href": "#what-time-of-use-electricity-rates-really-mean"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f4e07b5f166d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fbf21a749dc2",
+          "_type": "span",
+          "marks": [
+            "1d3982e6030c"
+          ],
+          "text": "How Peak, Mid-Peak, and Off-Peak Hours Work"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1d3982e6030c",
+          "_type": "link",
+          "href": "#how-peak-mid-peak-and-off-peak-hours-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d50de9e8ad12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74ba15c3c0f2",
+          "_type": "span",
+          "marks": [
+            "14b51a0bf4fe"
+          ],
+          "text": "The price signal is the point"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "14b51a0bf4fe",
+          "_type": "link",
+          "href": "#the-price-signal-is-the-point"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fddf5d6d6306",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e232e0c3bc8e",
+          "_type": "span",
+          "marks": [
+            "8161f73637a3"
+          ],
+          "text": "California uses a different clock"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8161f73637a3",
+          "_type": "link",
+          "href": "#california-uses-a-different-clock"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ca9cc6511b4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe71da1d4786",
+          "_type": "span",
+          "marks": [
+            "916a2ff0e59a"
+          ],
+          "text": "Reading a Sample TOU Bill Line by Line"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "916a2ff0e59a",
+          "_type": "link",
+          "href": "#reading-a-sample-tou-bill-line-by-line"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ec277186d364",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89a2da2b28cb",
+          "_type": "span",
+          "marks": [
+            "afbc5396dceb"
+          ],
+          "text": "Where Submetering Changes the Whole Equation"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "afbc5396dceb",
+          "_type": "link",
+          "href": "#where-submetering-changes-the-whole-equation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c064a9b0803d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95d3c7204a9d",
+          "_type": "span",
+          "marks": [
+            "f1d784e6b57b"
+          ],
+          "text": "Households Versus Buildings Under TOU Pricing"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f1d784e6b57b",
+          "_type": "link",
+          "href": "#households-versus-buildings-under-tou-pricing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d9c462a09b8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2809c6a5c7ec",
+          "_type": "span",
+          "marks": [
+            "854633bf90ed"
+          ],
+          "text": "The control boundary matters"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "854633bf90ed",
+          "_type": "link",
+          "href": "#the-control-boundary-matters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "14014f1b89d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "875284c248cb",
+          "_type": "span",
+          "marks": [
+            "6cad7fc44b7c"
+          ],
+          "text": "Practical Strategies to Cut TOU Exposure"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6cad7fc44b7c",
+          "_type": "link",
+          "href": "#practical-strategies-to-cut-tou-exposure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4b2513a3bc49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "146be8ae3a91",
+          "_type": "span",
+          "marks": [
+            "2dc0f5ada2e6"
+          ],
+          "text": "Shift what doesn't need to run now"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2dc0f5ada2e6",
+          "_type": "link",
+          "href": "#shift-what-doesnt-need-to-run-now"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d802fcd945b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f818135b1d0",
+          "_type": "span",
+          "marks": [
+            "cd4ee5c454c8"
+          ],
+          "text": "Control the building before adding capacity"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cd4ee5c454c8",
+          "_type": "link",
+          "href": "#control-the-building-before-adding-capacity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "939954436773",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cbac9c2bb95",
+          "_type": "span",
+          "marks": [
+            "4e2e91596d57"
+          ],
+          "text": "Use submetering to target the message"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4e2e91596d57",
+          "_type": "link",
+          "href": "#use-submetering-to-target-the-message"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "57f689e91c2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8a157aca626",
+          "_type": "span",
+          "marks": [
+            "0759a5f7bff7"
+          ],
+          "text": "Common Misconceptions About TOU Savings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0759a5f7bff7",
+          "_type": "link",
+          "href": "#common-misconceptions-about-tou-savings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3803205180a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "096774438df4",
+          "_type": "span",
+          "marks": [
+            "60d27641ecca"
+          ],
+          "text": "Next Steps for Property Owners on TOU"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "60d27641ecca",
+          "_type": "link",
+          "href": "#next-steps-for-property-owners-on-tou"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dccbdb86293a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d0f9f1df398",
+          "_type": "span",
+          "marks": [
+            "a0603422f370"
+          ],
+          "text": "Days one through seven"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a0603422f370",
+          "_type": "link",
+          "href": "#days-one-through-seven"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9ad0d97a67e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13e1cc3500ab",
+          "_type": "span",
+          "marks": [
+            "6505bd70564c"
+          ],
+          "text": "Days eight through fourteen"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6505bd70564c",
+          "_type": "link",
+          "href": "#days-eight-through-fourteen"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "020579733373",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15d6856453b9",
+          "_type": "span",
+          "marks": [
+            "51bcf340f495"
+          ],
+          "text": "Days fifteen through thirty"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "51bcf340f495",
+          "_type": "link",
+          "href": "#days-fifteen-through-thirty"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8459daaa9725",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42843ddf197f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0bb9c01e7df2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d27947a3b02",
+          "_type": "span",
+          "marks": [],
+          "text": "What Time of Use Electricity Rates Really Mean"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "077879eca20b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e32b46c8db0a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Time of use, or TOU, pricing charges different rates for each kilowatt-hour depending on when electricity is consumed."
+        },
+        {
+          "_key": "c0f08819c79e",
+          "_type": "span",
+          "marks": [],
+          "text": " A flat rate applies one energy price across the day. A tiered plan changes the price after consumption crosses defined usage thresholds. TOU pricing changes the price according to the clock."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40b404b28f9a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "135428fd8a2d",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction changes the owner's job. Under a flat structure, reducing total kWh is the primary lever. Under TOU, the building can lower its bill by moving flexible consumption from expensive periods into cheaper ones, even when total consumption stays similar. A pool pump, shared laundry room, EV charger, or ventilation system can be scheduled differently without reducing the service it provides."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "989ea443fb2b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17b0f12ec8b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Utilities and regulators use TOU structures to reflect the pressure placed on the electricity system at different times. High-demand periods generally require more expensive or less flexible supply, while lower-demand periods offer more room to run discretionary equipment. The tariff turns that system signal into a price signal for customers. Ontario's historical record shows that the province has tracked regulated TOU pricing since "
+        },
+        {
+          "_key": "f5085bdc9470",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2006"
+        },
+        {
+          "_key": "b01a5b58858c",
+          "_type": "span",
+          "marks": [],
+          "text": ", creating a long record of seasonal rate design through the "
+        },
+        {
+          "_key": "13d8a2396b5e",
+          "_type": "span",
+          "marks": [
+            "74b522b50dd3"
+          ],
+          "text": "Ontario Energy Board's historical electricity rate table"
+        },
+        {
+          "_key": "431ee10ab5b8",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "74b522b50dd3",
+          "_type": "link",
+          "href": "https://www.oeb.ca/consumer-information-and-protection/electricity-rates/historical-electricity-rates"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5bd479692237",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c4ad8a08e4b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "0980774cc759",
+          "_type": "span",
+          "marks": [],
+          "text": " Total kWh tells you how much energy the property used. Interval data tells you why the bill cost what it did."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f4b12475ff59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e80e9c24391b",
+          "_type": "span",
+          "marks": [],
+          "text": "For property owners, the takeaway is simple. TOU doesn't merely reformat an invoice. It changes the calculation behind the invoice. You need to know which loads operate during each tariff window, which costs belong to common areas, and which tenant-level behaviours can be measured or shifted. A useful overview of tariff structures, including how different pricing periods are organised, is available in this "
+        },
+        {
+          "_key": "3d959eabdc53",
+          "_type": "span",
+          "marks": [
+            "75c8957fc737"
+          ],
+          "text": "HighFlow Energy tariff guide"
+        },
+        {
+          "_key": "47e8311c4d31",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "75c8957fc737",
+          "_type": "link",
+          "href": "https://www.highflowenergy.com.au/electricity-tariff-structure/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2a405d423327",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a054861d988",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f2b3ab88c8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91a1d5fba3f3",
+          "_type": "span",
+          "marks": [],
+          "text": "How Peak, Mid-Peak, and Off-Peak Hours Work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0400afca717b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6fec5584c5a",
+          "_type": "span",
+          "marks": [],
+          "text": "A shared laundry room running dryers at 6 p.m. can cost more than the same equipment operating at 8 p.m., even when the cycle length and electricity use stay unchanged. Ontario's "
+        },
+        {
+          "_key": "7dcc18e5b3bb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2025–2026 residential TOU schedule"
+        },
+        {
+          "_key": "9a059f9f47a9",
+          "_type": "span",
+          "marks": [],
+          "text": " makes the clock part of the bill: "
+        },
+        {
+          "_key": "3cbc9b37cfc6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "9.8¢/kWh off-peak, 15.7¢/kWh mid-peak, and 20.3¢/kWh on-peak"
+        },
+        {
+          "_key": "acc4597884ac",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the Ontario Energy Board's current electricity rates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34399923e1c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cb4101e9f05",
+          "_type": "span",
+          "marks": [],
+          "text": "On weekdays, off-peak runs from "
+        },
+        {
+          "_key": "1196cc90d7a0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7 p.m. to 7 a.m."
+        },
+        {
+          "_key": "31afce6b2d26",
+          "_type": "span",
+          "marks": [],
+          "text": " Mid-peak covers "
+        },
+        {
+          "_key": "591334c1b13c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7 a.m. to 11 a.m. and 5 p.m. to 7 p.m."
+        },
+        {
+          "_key": "04603d0a2161",
+          "_type": "span",
+          "marks": [],
+          "text": " On-peak applies from "
+        },
+        {
+          "_key": "a8ec729ca00d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "11 a.m. to 5 p.m."
+        },
+        {
+          "_key": "6cd65be9a63e",
+          "_type": "span",
+          "marks": [],
+          "text": " Weekends and statutory holidays remain off-peak all day. For a multi-family property, that schedule affects tenant laundry, EV charging, pool equipment, ventilation, and other flexible loads at the building level."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0fa6a4da96f9",
+      "_type": "externalImage",
+      "alt": "A chart detailing the residential Time of Use electricity rate structure for Ontario during 2025-2026.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f28d5f9f-8811-4010-a7db-497545aa8661/time-of-use-electricity-rates-residential-pricing.jpg"
+    },
+    {
+      "_key": "4a236ab1f293",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb77ce2190a4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ea5673981a12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "766ba0bf9527",
+          "_type": "span",
+          "marks": [],
+          "text": "The price signal is the point"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fe76587657fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9bfecadafcb",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's on-peak rate is "
+        },
+        {
+          "_key": "83b6d9f5860b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10.5¢/kWh higher"
+        },
+        {
+          "_key": "aa89bdefbe1a",
+          "_type": "span",
+          "marks": [],
+          "text": " than the off-peak rate, creating about a "
+        },
+        {
+          "_key": "d02560710f71",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "213% premium"
+        },
+        {
+          "_key": "5b434b8725d7",
+          "_type": "span",
+          "marks": [],
+          "text": " over off-peak electricity under this schedule. That gap gives property owners a direct operating decision. Shift a flexible load from on-peak to off-peak, and the building pays less for every kWh moved."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "709b6b5e8b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fbec7ea7737",
+          "_type": "span",
+          "marks": [],
+          "text": "The schedule reflects grid conditions, not the property's preferred routine. Mid-peak carries a middle price, while on-peak marks the most expensive window. Owners should map equipment runtimes against those periods and give tenants specific operating guidance instead of asking everyone to use less electricity. This "
+        },
+        {
+          "_key": "046a021ba0ae",
+          "_type": "span",
+          "marks": [
+            "bb1e5e3255be"
+          ],
+          "text": "explanation of off-peak electricity prices and how they work"
+        },
+        {
+          "_key": "96ccc6447dc1",
+          "_type": "span",
+          "marks": [],
+          "text": " provides further context."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bb1e5e3255be",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/off-peak-electricity-prices"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c300448e48df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ba60319c788",
+          "_type": "span",
+          "marks": [],
+          "text": "For buildings, the important measurement is operational. Submetered tenant consumption and common-area loads can show whether an evening laundry schedule, overnight water heating cycle, or daytime HVAC operation is driving the property's TOU exposure. A single scheduling change across shared equipment can affect the building bill without reducing service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e11256d3c25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "645c5a3d7f7e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ffd39bbfa96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba639d9d74d0",
+          "_type": "span",
+          "marks": [],
+          "text": "California uses a different clock"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "88c8f8780e63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "518529843ff2",
+          "_type": "span",
+          "marks": [],
+          "text": "California business TOU schedules commonly place higher-priced periods from "
+        },
+        {
+          "_key": "2853a9b716ab",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "4 p.m. to 9 p.m."
+        },
+        {
+          "_key": "69ddf51382da",
+          "_type": "span",
+          "marks": [],
+          "text": ", with off-peak pricing outside that window. A commercial building operating evening HVAC, EV charging, and common-area systems together can therefore concentrate energy use during its most expensive period."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "90f9dd9f6156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "521ac8f695e2",
+          "_type": "span",
+          "marks": [],
+          "text": "Some California utilities and community-choice programs are expanding "
+        },
+        {
+          "_key": "64e5abaf593c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "super off-peak"
+        },
+        {
+          "_key": "1a6b4210caf8",
+          "_type": "span",
+          "marks": [],
+          "text": " periods, including midday and overnight windows. Property owners should identify the lowest-priced available periods and schedule flexible loads there, particularly battery charging, EV charging, water heating, and selected HVAC operations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "328e633c0a74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f219bf64a6cf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "45a74d2e2e06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89eeb5a693ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Reading a Sample TOU Bill Line by Line"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "943e30bec733",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2086a4160ce",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful bill review starts with one controlled comparison: hold total consumption constant and change only the timing. The following example uses "
+        },
+        {
+          "_key": "d8e96e91c37a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1,000 kWh"
+        },
+        {
+          "_key": "15c982ad70f1",
+          "_type": "span",
+          "marks": [],
+          "text": " and Ontario's 2025–2026 off-peak and on-peak energy rates. It isolates the energy charge only, so it doesn't pretend to include delivery charges, regulatory items, taxes, or other fixed components. For the mechanics of those separate bill components, review this guide to the "
+        },
+        {
+          "_key": "d2307ebed176",
+          "_type": "span",
+          "marks": [
+            "39125fe61968"
+          ],
+          "text": "delivery charge for electricity"
+        },
+        {
+          "_key": "a0388c74c75e",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "39125fe61968",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/delivery-charge-for-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3e3dda6b9a1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "131529bba1eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Assume a flat-rate baseline of "
+        },
+        {
+          "_key": "58f3152a96a8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15.7¢/kWh"
+        },
+        {
+          "_key": "7ac533c0ced4",
+          "_type": "span",
+          "marks": [],
+          "text": ", using the Ontario mid-peak rate as a neutral comparison point. That produces an energy charge of "
+        },
+        {
+          "_key": "26b11d83b722",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$157.00"
+        },
+        {
+          "_key": "636c73685457",
+          "_type": "span",
+          "marks": [],
+          "text": " for 1,000 kWh. The TOU scenarios then distribute the same 1,000 kWh between off-peak and on-peak windows."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56af87a95ad1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "335bc62da07f",
+          "_type": "span",
+          "marks": [],
+          "text": "Scenario"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d6c6c7498d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1c40e389ff3",
+          "_type": "span",
+          "marks": [],
+          "text": "Peak Mix"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ded5a8a7cc4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3172a4c911c",
+          "_type": "span",
+          "marks": [],
+          "text": "Estimated Monthly Cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68bd03a27f0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "931a5870db42",
+          "_type": "span",
+          "marks": [],
+          "text": "Flat-rate baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97d47968584a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e218d7d38c5b",
+          "_type": "span",
+          "marks": [],
+          "text": "1,000 kWh at 15.7¢/kWh"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91860f23137b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1073fdda31fd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$157.00"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f587ec9c7879",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c9e641b3389",
+          "_type": "span",
+          "marks": [],
+          "text": "TOU-heavy month"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa7934756c5a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bbe67b246b7c",
+          "_type": "span",
+          "marks": [],
+          "text": "600 kWh on-peak, 400 kWh off-peak"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9e688992aa9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05af6689eb9d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$161.60"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c2c9a5e40913",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b89f065d1460",
+          "_type": "span",
+          "marks": [],
+          "text": "TOU-optimized month"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "959f26d57be7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf2f4b22d6b2",
+          "_type": "span",
+          "marks": [],
+          "text": "200 kWh on-peak, 800 kWh off-peak"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcd7dbe3feb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cb86012546e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$119.60"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5dc82fd2e89c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b71a56fac7c0",
+          "_type": "span",
+          "marks": [],
+          "text": "The TOU-heavy result comes from "
+        },
+        {
+          "_key": "8c0e3d9b7a5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "600 × $0.203"
+        },
+        {
+          "_key": "5ee0d7e41f95",
+          "_type": "span",
+          "marks": [],
+          "text": ", or $121.80, plus "
+        },
+        {
+          "_key": "68e6c2c55654",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "400 × $0.098"
+        },
+        {
+          "_key": "facd072222b6",
+          "_type": "span",
+          "marks": [],
+          "text": ", or $39.20. The optimized result comes from "
+        },
+        {
+          "_key": "e43e05ea3478",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "200 × $0.203"
+        },
+        {
+          "_key": "e41dfc58ecfe",
+          "_type": "span",
+          "marks": [],
+          "text": ", or $40.60, plus "
+        },
+        {
+          "_key": "bfbd95b02c30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "800 × $0.098"
+        },
+        {
+          "_key": "8d5afc700992",
+          "_type": "span",
+          "marks": [],
+          "text": ", or $78.40. The building used the same total energy in both cases, but the optimized timing produces a "
+        },
+        {
+          "_key": "b0ee0f2db611",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$42.00 monthly difference"
+        },
+        {
+          "_key": "52bf201a40c6",
+          "_type": "span",
+          "marks": [],
+          "text": " between the two TOU profiles."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b03f642d7d96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5edf06c53d1e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Bill-reading discipline:"
+        },
+        {
+          "_key": "d252de5415dd",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate energy charges from fixed charges and delivery items before judging whether a schedule change worked."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "3531a3fd5a1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9ff6df7b85d",
+          "_type": "span",
+          "marks": [],
+          "text": "The load driving the difference isn't necessarily a single appliance. It may be an evening laundry bank, simultaneous suite cooling, a pool system, or EV charging that starts as residents return home. A conservation project can reduce kWh, but a scheduling project can change the price applied to those kWh. Owners should inspect interval data, identify the largest on-peak blocks, and estimate the value of moving each one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "298973c0b707",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7f0af686098",
+          "_type": "span",
+          "marks": [],
+          "text": "This calculation is not a promise of savings. It's a break-even tool. Apply the property's actual rate plan, consumption profile, and non-energy charges before approving equipment or changing tenant billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a6e5382e495d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25a99f49670b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "337bd8486c2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f7546b766467",
+          "_type": "span",
+          "marks": [],
+          "text": "Where Submetering Changes the Whole Equation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "db1b752ec115",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59782e80162c",
+          "_type": "span",
+          "marks": [],
+          "text": "A building-wide TOU bill tells you the property's combined result. It doesn't tell you which suite, common-area system, or commercial tenant created the expensive interval. "
+        },
+        {
+          "_key": "6fba3e524b25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submetering supplies that missing allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2131fc96b6b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "862068a202e6",
+          "_type": "span",
+          "marks": [],
+          "text": "A serious program usually follows three connected steps:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02aa750e1c62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "728339b4e203",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measure at the unit level."
+        },
+        {
+          "_key": "1f7d267ee740",
+          "_type": "span",
+          "marks": [],
+          "text": " Measurement Canada-approved electricity meters can capture individual suite consumption where the jurisdiction and project design require that standard."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "470e0132ce35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ef71b363056",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Record interval usage."
+        },
+        {
+          "_key": "55e8cc5948bf",
+          "_type": "span",
+          "marks": [],
+          "text": " Data is aligned with the applicable TOU windows, so the property team can distinguish off-peak, mid-peak, and on-peak consumption instead of receiving one monthly kWh total."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe447879c5b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "700e34eb2f9e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Apply the billing layer."
+        },
+        {
+          "_key": "5d7b9afc7a6d",
+          "_type": "span",
+          "marks": [],
+          "text": " A billing system allocates measured consumption by unit and period, then supports invoices, reporting, collections, and resident questions."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "08be06eb1cd7",
+      "_type": "externalImage",
+      "alt": "Screenshot from https://axismeter.com",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/852d6fe1-90d1-4d10-9a84-d58eaf5c69fa/time-of-use-electricity-rates-axis-meter.jpg"
+    },
+    {
+      "_key": "20aa3f16d6f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55e5c0a84f8f",
+          "_type": "span",
+          "marks": [],
+          "text": "That structure changes the financial conversation. Owners can recover eligible utility costs more accurately, managers can compare common-area consumption with tenant consumption, and residents can see how their own dryer, air conditioner, or EV charging affects their bill. The property no longer spreads one blended average across suites that have very different load profiles. For a broader explanation of the metering model, see "
+        },
+        {
+          "_key": "6fc53550e325",
+          "_type": "span",
+          "marks": [
+            "2f92c03bcc82"
+          ],
+          "text": "sub-metering electricity"
+        },
+        {
+          "_key": "91813207b3e4",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2f92c03bcc82",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metering-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f1b5e323b0c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3255799a2074",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering also gives managers a targeting mechanism. If a small group of suites consistently creates large evening peaks, communication can focus there. If the common-area HVAC system creates the dominant interval, tenant messaging won't solve the problem. The data points the owner toward the correct intervention."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63f612b5a94a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bcd185659774",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario projects also require regulatory planning. Unit sub-metering providers operating in the province need the applicable Ontario Energy Board licensing, while meter selection, installation, commissioning, and billing must align with local requirements. In the United States, owners need to confirm the relevant state, utility, landlord-tenant, and metering rules before allocating electricity costs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a01ca66d21c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32ebb50a0565",
+          "_type": "span",
+          "marks": [],
+          "text": "The operational result is more important than the technology label. Submetering converts TOU from a building-wide abstraction into a set of actionable signals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8c2a58b1a67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee767abee6ac",
+          "_type": "span",
+          "marks": [],
+          "text": "A property team can then examine equipment schedules, resident communication, common-area controls, and cost-recovery rules using the same interval data."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "05d318ecaa78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18da31a59a7f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3c943f273cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "01ef7f862993",
+          "_type": "span",
+          "marks": [],
+          "text": "Households Versus Buildings Under TOU Pricing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "910b1c655515",
+      "_type": "externalImage",
+      "alt": "A comparison chart showing differences between single household and building manager time-of-use electricity consumption decisions.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cc558073-a865-4809-801b-c70ddb375dcc/time-of-use-electricity-rates-tou-decisions.jpg"
+    },
+    {
+      "_key": "c7b77645dfbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a6b52ecdd66",
+          "_type": "span",
+          "marks": [],
+          "text": "A resident can shift laundry, delay dishwashing, run an EV charger overnight, or pre-cool one home before an expensive period. The financial result stays within that household, and one person can usually make the decision without coordinating other users."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d869b31cd2fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a66284719204",
+          "_type": "span",
+          "marks": [],
+          "text": "A building manager works with a wider control boundary. "
+        },
+        {
+          "_key": "e91c48a73a35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The owner controls the common-area systems, but not every tenant's daily routine."
+        },
+        {
+          "_key": "39fb9dc60175",
+          "_type": "span",
+          "marks": [],
+          "text": " Elevators, hallway lighting, central ventilation, pool heaters, shared laundry, parking ventilation, commercial refrigeration, and central HVAC may run alongside tenant air conditioning and EV charging. Their combined demand can create a costly interval that no single resident can see on an individual bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cfa2463d911",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67e226a146a0",
+          "_type": "span",
+          "marks": [],
+          "text": "California commercial tariffs add a second financial layer. Some business schedules apply a demand charge based on the building's "
+        },
+        {
+          "_key": "1ceb980c9c5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "single highest 15-minute interval in the billing month"
+        },
+        {
+          "_key": "8a4c7bcca937",
+          "_type": "span",
+          "marks": [],
+          "text": ", while energy pricing is higher during the "
+        },
+        {
+          "_key": "815712a1428b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "4 p.m. to 9 p.m."
+        },
+        {
+          "_key": "127d7061aaa7",
+          "_type": "span",
+          "marks": [],
+          "text": " period. A short overlap between evening HVAC, EV charging, and common-area equipment can therefore raise both energy charges and demand-related costs. Check the property's actual tariff and billing terms before changing schedules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7844f6646930",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c19c3058d56",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a23ad967ab55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ea839160081",
+          "_type": "span",
+          "marks": [],
+          "text": "The control boundary matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e726916aa12c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d880dcec2693",
+          "_type": "span",
+          "marks": [],
+          "text": "Household decision"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e66b63743c68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad3f9bbb8d81",
+          "_type": "span",
+          "marks": [],
+          "text": "Building decision"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "983e80bdcb84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f2729f3097d",
+          "_type": "span",
+          "marks": [],
+          "text": "Shift laundry or dishwashing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7be2366bdb8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61dd111f8e00",
+          "_type": "span",
+          "marks": [],
+          "text": "Coordinate shared laundry, HVAC, pumps, and ventilation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00fe20be2979",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60731f4e6db6",
+          "_type": "span",
+          "marks": [],
+          "text": "Schedule one EV charger"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88d4b2e8dfaa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79524445598a",
+          "_type": "span",
+          "marks": [],
+          "text": "Manage multiple charging sessions and site capacity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "398f3f7eaf51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50a1030becd2",
+          "_type": "span",
+          "marks": [],
+          "text": "Pre-cool one home"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01d383c70b8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bedbf94ef8ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Sequence central or common-area HVAC"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba46c91847d0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c4085e92e26",
+          "_type": "span",
+          "marks": [],
+          "text": "Review one bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7376c1424ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6656e9dc5ae3",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate tenant, common-area, and demand-related costs"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d0c4a1a5766",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1837a7e3146",
+          "_type": "span",
+          "marks": [],
+          "text": "A household may act with a timer. A property owner needs "
+        },
+        {
+          "_key": "cdf7da1ad8d5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "interval data, control logic, tenant communication, and cost-allocation rules"
+        },
+        {
+          "_key": "71dc145e396a",
+          "_type": "span",
+          "marks": [],
+          "text": ". Building-wide averages conceal whether the right response is an HVAC adjustment, staggered charging, or a focused review of one suite cluster."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "793d4ebcf8e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6bb6f8d0b3e0",
+          "_type": "span",
+          "marks": [],
+          "text": "The CPUC-linked joint staff paper models TOU reforms reducing peak demand by roughly "
+        },
+        {
+          "_key": "ed68f61b06b5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 MW to 800 MW"
+        },
+        {
+          "_key": "af0a0fde401c",
+          "_type": "span",
+          "marks": [],
+          "text": " across California's three major investor-owned utilities, demonstrating that interval pricing can change consumption timing at system scale (California Energy Commission filing). At property scale, use the narrower lesson: identify the coincident load first, then control the equipment producing it. A single operational shift, such as moving several charging sessions outside the expensive window, can affect the building bill far more than a resident changing one appliance cycle."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4eceafe7e43e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e9e3d60df50",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74b4e8815622",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1b969670f66",
+          "_type": "span",
+          "marks": [],
+          "text": "Practical Strategies to Cut TOU Exposure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3b5f0323924e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49213e3bc2df",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with loads that are flexible, visible, and inexpensive to reschedule. Don't begin by buying hardware. Begin by finding the intervals that carry the highest cost and the equipment operating inside them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6025fe48f1f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "416749ddf58d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb91ca93d739",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a900ce82fbbb",
+          "_type": "span",
+          "marks": [],
+          "text": "Shift what doesn't need to run now"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3a582ff2c9ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "077cf8021475",
+          "_type": "span",
+          "marks": [],
+          "text": "Laundry rooms, pool pumps, water heating, dishwasher circuits, and EV chargers are obvious candidates. Schedule them for off-peak or super off-peak periods, but check the actual local tariff rather than assuming every “night” window is cheapest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fba7b3f5b68c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf09790ee93e",
+          "_type": "span",
+          "marks": [],
+          "text": "In California, the growing use of midday and overnight super off-peak periods changes the operating plan. A battery can charge during a low-cost window, an EV fleet can use a controlled schedule, and selected equipment can run during midday periods instead of being pushed into the evening peak. The "
+        },
+        {
+          "_key": "cea903dddf8f",
+          "_type": "span",
+          "marks": [
+            "d98f00e7971f"
+          ],
+          "text": "DLG Electrical energy monitoring guide"
+        },
+        {
+          "_key": "1b5dc5cfdceb",
+          "_type": "span",
+          "marks": [],
+          "text": " offers useful background on monitoring systems and the visibility required for this work."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d98f00e7971f",
+          "_type": "link",
+          "href": "https://dlgelectrical.com.au/dlg-blog/energy-monitoring-systems/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7ee8708be6e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e22c952f11d3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "201d0156feac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b54f223bb29",
+          "_type": "span",
+          "marks": [],
+          "text": "Control the building before adding capacity"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e09a984b2089",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a2f6cb41248",
+          "_type": "span",
+          "marks": [],
+          "text": "Pre-cooling or pre-heating can move HVAC work earlier, provided the building's controls, comfort requirements, and equipment limits support it. Smart ventilation controls can reduce unnecessary operation during expensive periods. EV charging software can stagger sessions so several vehicles don't create one simultaneous spike."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d9be252f654",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfd97a0adb0d",
+          "_type": "span",
+          "marks": [],
+          "text": "Battery storage is more useful when dispatch follows the tariff. Charging at a lower-cost time and discharging during an expensive window can reduce TOU exposure, while demand-focused controls can limit the site's highest interval where the tariff makes that relevant."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6850bc29b3e",
+      "_type": "externalImage",
+      "alt": "A list of five practical strategies for reducing energy costs under time-of-use electricity rate plans.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e00a510b-6af6-4a72-be9e-f68d061becae/time-of-use-electricity-rates-energy-saving-strategies.jpg"
+    },
+    {
+      "_key": "348490f5f44b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "673262c69c65",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c03e9401114",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0050d713c9d",
+          "_type": "span",
+          "marks": [],
+          "text": "Use submetering to target the message"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "685c99d986a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b6beeeeb6b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant communications work better when they identify a real pattern. Tell residents when EV charging or shared laundry is cheapest, then use submetered data to determine whether behaviour changed. Don't send the same message to every suite if only a small number of units create the dominant peak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "435a9ae2dd4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a1d126a931a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Priority checklist:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b335acd3bab1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98780c96aa8f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Immediate:"
+        },
+        {
+          "_key": "c1fae0c1eb57",
+          "_type": "span",
+          "marks": [],
+          "text": " Reschedule discretionary loads and stagger EV charging."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ed846373a97c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7c4b2170936",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Next:"
+        },
+        {
+          "_key": "312828fec876",
+          "_type": "span",
+          "marks": [],
+          "text": " Adjust HVAC, pumps, ventilation, and water-heating controls."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d0b458fdd82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a86ae02543b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Then:"
+        },
+        {
+          "_key": "8ceecc59cc98",
+          "_type": "span",
+          "marks": [],
+          "text": " Model battery dispatch against the actual tariff."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "277dd0dfc5d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29e4c925a182",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Always:"
+        },
+        {
+          "_key": "e0252582eed2",
+          "_type": "span",
+          "marks": [],
+          "text": " Use interval and submeter data before assigning blame or approving capital work."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf72490dfac3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "442c173c9994",
+          "_type": "span",
+          "marks": [],
+          "text": "Efficiency still matters, but timing comes first when the price difference between periods is substantial. A newer appliance that runs during the highest-priced window may reduce consumption without fixing the property's most expensive interval."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "570a0e87a44c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50d0cb21a835",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d8151d1fe1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e80f71ff9cc7",
+          "_type": "span",
+          "marks": [],
+          "text": "Common Misconceptions About TOU Savings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "410fbb38ceb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "313ffcf5a1a3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "TOU does not automatically lower the bill."
+        },
+        {
+          "_key": "792ca8036a3a",
+          "_type": "span",
+          "marks": [],
+          "text": " A household, apartment building, or commercial property that uses most of its electricity during on-peak periods can pay more than it would under another plan. Ontario's published schedule shows the exposure clearly, with "
+        },
+        {
+          "_key": "5125510062f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20.3¢/kWh on-peak versus 9.8¢/kWh off-peak"
+        },
+        {
+          "_key": "358d9cac83f7",
+          "_type": "span",
+          "marks": [],
+          "text": ". If a building cannot move meaningful flexible load, TOU can work against the owner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "943c490292dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2764c68957b2",
+          "_type": "span",
+          "marks": [],
+          "text": "The useful question is, “What share of our consumption can move, and where can it go?” Compare the building's interval profile with every available rate option, including tiered plans where offered. Review suites, common areas, EV charging, laundry, HVAC, pumps, and commercial tenants separately. Choosing a plan without reviewing that load shape is guesswork."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e595bda5164f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "194827a285e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Shifting one large load rarely fixes the whole bill."
+        },
+        {
+          "_key": "7aae0f132810",
+          "_type": "span",
+          "marks": [],
+          "text": " Moving one EV charger or laundry bank helps only when that equipment represents a material share of total consumption. HVAC, lighting, pumps, and tenant loads may still run during the expensive window. A single operational change can reduce one contributor while leaving the building's main cost pattern untouched."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4b02352b6bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24b65a3357fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Conservation reduces the amount of electricity you buy. TOU optimisation changes the price attached to the electricity you still buy."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "8eddcb9b02c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4475b1e248f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "TOU rewards timing more than general conservation."
+        },
+        {
+          "_key": "3426639da5ae",
+          "_type": "span",
+          "marks": [],
+          "text": " Efficient lighting, improved motors, and better HVAC performance can reduce total kWh, but they do not automatically move usage into a cheaper period. A smaller load operating at 6 p.m. may still cost more than a larger flexible load operating off-peak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19f9160cafdd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f63850f5d58",
+          "_type": "span",
+          "marks": [],
+          "text": "Run a break-even test using actual interval data. Identify on-peak kWh, estimate the portion that can shift, and compare the resulting cost with the current schedule. For commercial properties and multi-family buildings, include common-area loads, submetered tenant patterns, and demand-charge exposure where the tariff applies it. The answer belongs in the meter data, not in a generic savings claim."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd223d396d58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e78371dd59e8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12d44489e891",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80302cf39eb7",
+          "_type": "span",
+          "marks": [],
+          "text": "Next Steps for Property Owners on TOU"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "332fea9822c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3dd6cfc51561",
+          "_type": "span",
+          "marks": [],
+          "text": "Run a focused "
+        },
+        {
+          "_key": "360930d66511",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30-day review"
+        },
+        {
+          "_key": "30e5acb0610f",
+          "_type": "span",
+          "marks": [],
+          "text": " instead of starting with a major equipment purchase."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5277eed9e193",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdb3adc10e32",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7671b7d33b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea522c281109",
+          "_type": "span",
+          "marks": [],
+          "text": "Days one through seven"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0cc125217b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d2badf17d82",
+          "_type": "span",
+          "marks": [],
+          "text": "Collect the last "
+        },
+        {
+          "_key": "ac7d132f18f5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "12 months of electricity bills"
+        },
+        {
+          "_key": "050abb5d71a9",
+          "_type": "span",
+          "marks": [],
+          "text": " and the current tariff schedule. Map monthly consumption against the applicable TOU periods, separating energy charges, delivery items, fixed charges, taxes, and any demand-related components. Mark seasonal changes, unusual peaks, and months where occupancy or weather distorted the pattern."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59b7be24b806",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14f2463c1228",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask one practical question: which loads are both expensive and movable? That list may include EV charging, shared laundry, pool equipment, water heating, ventilation, or scheduled HVAC operation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "51f93ad1b425",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2021e9e1069",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "859ac78ef0f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ff228f58708",
+          "_type": "span",
+          "marks": [],
+          "text": "Days eight through fourteen"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "91818aa88849",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf107b9eb2b1",
+          "_type": "span",
+          "marks": [],
+          "text": "Audit the physical property. Walk common areas, mechanical rooms, parking, laundry facilities, and commercial spaces. Record operating schedules and identify equipment that starts simultaneously. Review tenant-level data if it exists. If it doesn't, don't pretend the building-wide bill can identify individual contributors."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb887084ce5a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "144c2231e4da",
+          "_type": "span",
+          "marks": [],
+          "text": "At this stage, ask the utility or energy consultant to clarify the rate structure, peak windows, demand-charge rules, and any available alternatives. California owners should pay particular attention to late-afternoon and evening exposure, while Ontario owners should compare their operating pattern with the current provincial periods."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "381bf2f6ae83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1887b33e124c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61f72e9a0f10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20631113d246",
+          "_type": "span",
+          "marks": [],
+          "text": "Days fifteen through thirty"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "04cd6a38c59e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "919c83bb8a85",
+          "_type": "span",
+          "marks": [],
+          "text": "Evaluate submetering as the data backbone for ongoing TOU management. Confirm meter approvals, installation requirements, commissioning, tenant billing rules, privacy obligations, and licensing. In Ontario, verify the role of an appropriately licensed unit sub-metering provider. In the United States, confirm the state and utility requirements before implementing cost allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eadabb8d0d7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d09008775fd6",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the same diligence for energy compliance and operational reporting that you'd use for other enterprise controls. Owners assessing broader energy-related credentials can review these "
+        },
+        {
+          "_key": "2af0a8953791",
+          "_type": "span",
+          "marks": [
+            "c7dca7bd7679"
+          ],
+          "text": "certifications use cases for enterprises"
+        },
+        {
+          "_key": "3290a436fecb",
+          "_type": "span",
+          "marks": [],
+          "text": " as a starting point for organising documentation and accountability."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c7dca7bd7679",
+          "_type": "link",
+          "href": "https://www.faberwork.com/success-stories/certifications-in-energy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cc660d592dd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1ced249e0f8",
+          "_type": "span",
+          "marks": [],
+          "text": "The decision sequence is clear: "
+        },
+        {
+          "_key": "285d9020f24b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "measure first, identify the expensive intervals, shift flexible loads, then invest in controls or storage where the data supports it"
+        },
+        {
+          "_key": "8e7c87f875b6",
+          "_type": "span",
+          "marks": [],
+          "text": ". For properties that need unit-level measurement, billing, common-area allocation, and ongoing service, Axis Meter Solutions provides turnkey submetering programs across multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, and monitoring."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7e18ca239b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4eb2d072909",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions can help you turn a building-wide TOU bill into unit-level and common-area data you can act on, with submetering, billing, and ongoing service aligned to local requirements. Visit "
+        },
+        {
+          "_key": "414b715552b4",
+          "_type": "span",
+          "marks": [
+            "42dcc1637244"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "ce1fa9fe9890",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your property, review the available metering approach, and identify the loads worth shifting first."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "42dcc1637244",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how time of use electricity rates work, what they mean for multi-family and commercial buildings, and proven strategies to cut bills under TOU billing.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3be9ce7a-69a8-4257-8430-c89f56ee0490/time-of-use-electricity-rates-utility-drawing.jpg",
+  "noIndex": false,
+  "outrankId": "541c4c9a-9f42-4a81-b1f2-ac3a556e8563",
+  "publishedAt": "2026-08-15T08:56:47.454027+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "time-of-use-electricity-rates"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A monthly electricity bill can rise even when a building&#39;s total consumption barely changes. The usual culprit is <strong>when the electricity was used</strong>. A laundry room runs through the evening, corridor HVAC overlaps with tenant air conditioning, and several EV chargers start together. The meter records the same basic commodity, but the tariff assigns a different price to each time window.</p>\n<p>That&#39;s the operating reality behind <strong>time of use electricity rates</strong>. For a household, the decision may involve laundry or vehicle charging. For a multi-family, mixed-use, or commercial property, the bill reflects common-area systems, tenant behaviour, equipment schedules, and sometimes demand charges. Treating the building like a large household is a costly mistake.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-time-of-use-electricity-rates-really-mean\">What Time of Use Electricity Rates Really Mean</a></li>\n<li><a href=\"#how-peak-mid-peak-and-off-peak-hours-work\">How Peak, Mid-Peak, and Off-Peak Hours Work</a><ul>\n<li><a href=\"#the-price-signal-is-the-point\">The price signal is the point</a></li>\n<li><a href=\"#california-uses-a-different-clock\">California uses a different clock</a></li>\n</ul>\n</li>\n<li><a href=\"#reading-a-sample-tou-bill-line-by-line\">Reading a Sample TOU Bill Line by Line</a></li>\n<li><a href=\"#where-submetering-changes-the-whole-equation\">Where Submetering Changes the Whole Equation</a></li>\n<li><a href=\"#households-versus-buildings-under-tou-pricing\">Households Versus Buildings Under TOU Pricing</a><ul>\n<li><a href=\"#the-control-boundary-matters\">The control boundary matters</a></li>\n</ul>\n</li>\n<li><a href=\"#practical-strategies-to-cut-tou-exposure\">Practical Strategies to Cut TOU Exposure</a><ul>\n<li><a href=\"#shift-what-doesnt-need-to-run-now\">Shift what doesn&#39;t need to run now</a></li>\n<li><a href=\"#control-the-building-before-adding-capacity\">Control the building before adding capacity</a></li>\n<li><a href=\"#use-submetering-to-target-the-message\">Use submetering to target the message</a></li>\n</ul>\n</li>\n<li><a href=\"#common-misconceptions-about-tou-savings\">Common Misconceptions About TOU Savings</a></li>\n<li><a href=\"#next-steps-for-property-owners-on-tou\">Next Steps for Property Owners on TOU</a><ul>\n<li><a href=\"#days-one-through-seven\">Days one through seven</a></li>\n<li><a href=\"#days-eight-through-fourteen\">Days eight through fourteen</a></li>\n<li><a href=\"#days-fifteen-through-thirty\">Days fifteen through thirty</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"what-time-of-use-electricity-rates-really-mean\"></a></p>\n<h2>What Time of Use Electricity Rates Really Mean</h2>\n<p><strong>Time of use, or TOU, pricing charges different rates for each kilowatt-hour depending on when electricity is consumed.</strong> A flat rate applies one energy price across the day. A tiered plan changes the price after consumption crosses defined usage thresholds. TOU pricing changes the price according to the clock.</p>\n<p>That distinction changes the owner&#39;s job. Under a flat structure, reducing total kWh is the primary lever. Under TOU, the building can lower its bill by moving flexible consumption from expensive periods into cheaper ones, even when total consumption stays similar. A pool pump, shared laundry room, EV charger, or ventilation system can be scheduled differently without reducing the service it provides.</p>\n<p>Utilities and regulators use TOU structures to reflect the pressure placed on the electricity system at different times. High-demand periods generally require more expensive or less flexible supply, while lower-demand periods offer more room to run discretionary equipment. The tariff turns that system signal into a price signal for customers. Ontario&#39;s historical record shows that the province has tracked regulated TOU pricing since <strong>2006</strong>, creating a long record of seasonal rate design through the <a href=\"https://www.oeb.ca/consumer-information-and-protection/electricity-rates/historical-electricity-rates\">Ontario Energy Board&#39;s historical electricity rate table</a>.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Total kWh tells you how much energy the property used. Interval data tells you why the bill cost what it did.</p>\n</blockquote>\n<p>For property owners, the takeaway is simple. TOU doesn&#39;t merely reformat an invoice. It changes the calculation behind the invoice. You need to know which loads operate during each tariff window, which costs belong to common areas, and which tenant-level behaviours can be measured or shifted. A useful overview of tariff structures, including how different pricing periods are organised, is available in this <a href=\"https://www.highflowenergy.com.au/electricity-tariff-structure/\">HighFlow Energy tariff guide</a>.</p>\n<p><a id=\"how-peak-mid-peak-and-off-peak-hours-work\"></a></p>\n<h2>How Peak, Mid-Peak, and Off-Peak Hours Work</h2>\n<p>A shared laundry room running dryers at 6 p.m. can cost more than the same equipment operating at 8 p.m., even when the cycle length and electricity use stay unchanged. Ontario&#39;s <strong>2025–2026 residential TOU schedule</strong> makes the clock part of the bill: <strong>9.8¢/kWh off-peak, 15.7¢/kWh mid-peak, and 20.3¢/kWh on-peak</strong>, according to the Ontario Energy Board&#39;s current electricity rates.</p>\n<p>On weekdays, off-peak runs from <strong>7 p.m. to 7 a.m.</strong> Mid-peak covers <strong>7 a.m. to 11 a.m. and 5 p.m. to 7 p.m.</strong> On-peak applies from <strong>11 a.m. to 5 p.m.</strong> Weekends and statutory holidays remain off-peak all day. For a multi-family property, that schedule affects tenant laundry, EV charging, pool equipment, ventilation, and other flexible loads at the building level.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f28d5f9f-8811-4010-a7db-497545aa8661/time-of-use-electricity-rates-residential-pricing.jpg\" alt=\"A chart detailing the residential Time of Use electricity rate structure for Ontario during 2025-2026.\"></p>\n<p><a id=\"the-price-signal-is-the-point\"></a></p>\n<h3>The price signal is the point</h3>\n<p>Ontario&#39;s on-peak rate is <strong>10.5¢/kWh higher</strong> than the off-peak rate, creating about a <strong>213% premium</strong> over off-peak electricity under this schedule. That gap gives property owners a direct operating decision. Shift a flexible load from on-peak to off-peak, and the building pays less for every kWh moved.</p>\n<p>The schedule reflects grid conditions, not the property&#39;s preferred routine. Mid-peak carries a middle price, while on-peak marks the most expensive window. Owners should map equipment runtimes against those periods and give tenants specific operating guidance instead of asking everyone to use less electricity. This <a href=\"https://www.axismeter.com/blog/off-peak-electricity-prices\">explanation of off-peak electricity prices and how they work</a> provides further context.</p>\n<p>For buildings, the important measurement is operational. Submetered tenant consumption and common-area loads can show whether an evening laundry schedule, overnight water heating cycle, or daytime HVAC operation is driving the property&#39;s TOU exposure. A single scheduling change across shared equipment can affect the building bill without reducing service.</p>\n<p><a id=\"california-uses-a-different-clock\"></a></p>\n<h3>California uses a different clock</h3>\n<p>California business TOU schedules commonly place higher-priced periods from <strong>4 p.m. to 9 p.m.</strong>, with off-peak pricing outside that window. A commercial building operating evening HVAC, EV charging, and common-area systems together can therefore concentrate energy use during its most expensive period.</p>\n<p>Some California utilities and community-choice programs are expanding <strong>super off-peak</strong> periods, including midday and overnight windows. Property owners should identify the lowest-priced available periods and schedule flexible loads there, particularly battery charging, EV charging, water heating, and selected HVAC operations.</p>\n<p><a id=\"reading-a-sample-tou-bill-line-by-line\"></a></p>\n<h2>Reading a Sample TOU Bill Line by Line</h2>\n<p>A useful bill review starts with one controlled comparison: hold total consumption constant and change only the timing. The following example uses <strong>1,000 kWh</strong> and Ontario&#39;s 2025–2026 off-peak and on-peak energy rates. It isolates the energy charge only, so it doesn&#39;t pretend to include delivery charges, regulatory items, taxes, or other fixed components. For the mechanics of those separate bill components, review this guide to the <a href=\"https://www.axismeter.com/blog/delivery-charge-for-electricity\">delivery charge for electricity</a>.</p>\n<p>Assume a flat-rate baseline of <strong>15.7¢/kWh</strong>, using the Ontario mid-peak rate as a neutral comparison point. That produces an energy charge of <strong>$157.00</strong> for 1,000 kWh. The TOU scenarios then distribute the same 1,000 kWh between off-peak and on-peak windows.</p>\n<table>\n<thead>\n<tr>\n<th>Scenario</th>\n<th align=\"right\">Peak Mix</th>\n<th align=\"right\">Estimated Monthly Cost</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Flat-rate baseline</td>\n<td align=\"right\">1,000 kWh at 15.7¢/kWh</td>\n<td align=\"right\"><strong>$157.00</strong></td>\n</tr>\n<tr>\n<td>TOU-heavy month</td>\n<td align=\"right\">600 kWh on-peak, 400 kWh off-peak</td>\n<td align=\"right\"><strong>$161.60</strong></td>\n</tr>\n<tr>\n<td>TOU-optimized month</td>\n<td align=\"right\">200 kWh on-peak, 800 kWh off-peak</td>\n<td align=\"right\"><strong>$119.60</strong></td>\n</tr>\n</tbody></table>\n<p>The TOU-heavy result comes from <strong>600 × $0.203</strong>, or $121.80, plus <strong>400 × $0.098</strong>, or $39.20. The optimized result comes from <strong>200 × $0.203</strong>, or $40.60, plus <strong>800 × $0.098</strong>, or $78.40. The building used the same total energy in both cases, but the optimized timing produces a <strong>$42.00 monthly difference</strong> between the two TOU profiles.</p>\n<blockquote>\n<p><strong>Bill-reading discipline:</strong> Separate energy charges from fixed charges and delivery items before judging whether a schedule change worked.</p>\n</blockquote>\n<p>The load driving the difference isn&#39;t necessarily a single appliance. It may be an evening laundry bank, simultaneous suite cooling, a pool system, or EV charging that starts as residents return home. A conservation project can reduce kWh, but a scheduling project can change the price applied to those kWh. Owners should inspect interval data, identify the largest on-peak blocks, and estimate the value of moving each one.</p>\n<p>This calculation is not a promise of savings. It&#39;s a break-even tool. Apply the property&#39;s actual rate plan, consumption profile, and non-energy charges before approving equipment or changing tenant billing.</p>\n<p><a id=\"where-submetering-changes-the-whole-equation\"></a></p>\n<h2>Where Submetering Changes the Whole Equation</h2>\n<p>A building-wide TOU bill tells you the property&#39;s combined result. It doesn&#39;t tell you which suite, common-area system, or commercial tenant created the expensive interval. <strong>Submetering supplies that missing allocation.</strong></p>\n<p>A serious program usually follows three connected steps:</p>\n<ol>\n<li><strong>Measure at the unit level.</strong> Measurement Canada-approved electricity meters can capture individual suite consumption where the jurisdiction and project design require that standard.</li>\n<li><strong>Record interval usage.</strong> Data is aligned with the applicable TOU windows, so the property team can distinguish off-peak, mid-peak, and on-peak consumption instead of receiving one monthly kWh total.</li>\n<li><strong>Apply the billing layer.</strong> A billing system allocates measured consumption by unit and period, then supports invoices, reporting, collections, and resident questions.</li>\n</ol>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/852d6fe1-90d1-4d10-9a84-d58eaf5c69fa/time-of-use-electricity-rates-axis-meter.jpg\" alt=\"Screenshot from https://axismeter.com\"></p>\n<p>That structure changes the financial conversation. Owners can recover eligible utility costs more accurately, managers can compare common-area consumption with tenant consumption, and residents can see how their own dryer, air conditioner, or EV charging affects their bill. The property no longer spreads one blended average across suites that have very different load profiles. For a broader explanation of the metering model, see <a href=\"https://www.axismeter.com/blog/sub-metering-electricity\">sub-metering electricity</a>.</p>\n<p>Submetering also gives managers a targeting mechanism. If a small group of suites consistently creates large evening peaks, communication can focus there. If the common-area HVAC system creates the dominant interval, tenant messaging won&#39;t solve the problem. The data points the owner toward the correct intervention.</p>\n<p>Ontario projects also require regulatory planning. Unit sub-metering providers operating in the province need the applicable Ontario Energy Board licensing, while meter selection, installation, commissioning, and billing must align with local requirements. In the United States, owners need to confirm the relevant state, utility, landlord-tenant, and metering rules before allocating electricity costs.</p>\n<p>The operational result is more important than the technology label. Submetering converts TOU from a building-wide abstraction into a set of actionable signals.</p>\n<p>A property team can then examine equipment schedules, resident communication, common-area controls, and cost-recovery rules using the same interval data.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/oq6q1h2GB6k\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"households-versus-buildings-under-tou-pricing\"></a></p>\n<h2>Households Versus Buildings Under TOU Pricing</h2>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cc558073-a865-4809-801b-c70ddb375dcc/time-of-use-electricity-rates-tou-decisions.jpg\" alt=\"A comparison chart showing differences between single household and building manager time-of-use electricity consumption decisions.\"></p>\n<p>A resident can shift laundry, delay dishwashing, run an EV charger overnight, or pre-cool one home before an expensive period. The financial result stays within that household, and one person can usually make the decision without coordinating other users.</p>\n<p>A building manager works with a wider control boundary. <strong>The owner controls the common-area systems, but not every tenant&#39;s daily routine.</strong> Elevators, hallway lighting, central ventilation, pool heaters, shared laundry, parking ventilation, commercial refrigeration, and central HVAC may run alongside tenant air conditioning and EV charging. Their combined demand can create a costly interval that no single resident can see on an individual bill.</p>\n<p>California commercial tariffs add a second financial layer. Some business schedules apply a demand charge based on the building&#39;s <strong>single highest 15-minute interval in the billing month</strong>, while energy pricing is higher during the <strong>4 p.m. to 9 p.m.</strong> period. A short overlap between evening HVAC, EV charging, and common-area equipment can therefore raise both energy charges and demand-related costs. Check the property&#39;s actual tariff and billing terms before changing schedules.</p>\n<p><a id=\"the-control-boundary-matters\"></a></p>\n<h3>The control boundary matters</h3>\n<table>\n<thead>\n<tr>\n<th>Household decision</th>\n<th>Building decision</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Shift laundry or dishwashing</td>\n<td>Coordinate shared laundry, HVAC, pumps, and ventilation</td>\n</tr>\n<tr>\n<td>Schedule one EV charger</td>\n<td>Manage multiple charging sessions and site capacity</td>\n</tr>\n<tr>\n<td>Pre-cool one home</td>\n<td>Sequence central or common-area HVAC</td>\n</tr>\n<tr>\n<td>Review one bill</td>\n<td>Separate tenant, common-area, and demand-related costs</td>\n</tr>\n</tbody></table>\n<p>A household may act with a timer. A property owner needs <strong>interval data, control logic, tenant communication, and cost-allocation rules</strong>. Building-wide averages conceal whether the right response is an HVAC adjustment, staggered charging, or a focused review of one suite cluster.</p>\n<p>The CPUC-linked joint staff paper models TOU reforms reducing peak demand by roughly <strong>100 MW to 800 MW</strong> across California&#39;s three major investor-owned utilities, demonstrating that interval pricing can change consumption timing at system scale (California Energy Commission filing). At property scale, use the narrower lesson: identify the coincident load first, then control the equipment producing it. A single operational shift, such as moving several charging sessions outside the expensive window, can affect the building bill far more than a resident changing one appliance cycle.</p>\n<p><a id=\"practical-strategies-to-cut-tou-exposure\"></a></p>\n<h2>Practical Strategies to Cut TOU Exposure</h2>\n<p>Start with loads that are flexible, visible, and inexpensive to reschedule. Don&#39;t begin by buying hardware. Begin by finding the intervals that carry the highest cost and the equipment operating inside them.</p>\n<p><a id=\"shift-what-doesnt-need-to-run-now\"></a></p>\n<h3>Shift what doesn&#39;t need to run now</h3>\n<p>Laundry rooms, pool pumps, water heating, dishwasher circuits, and EV chargers are obvious candidates. Schedule them for off-peak or super off-peak periods, but check the actual local tariff rather than assuming every “night” window is cheapest.</p>\n<p>In California, the growing use of midday and overnight super off-peak periods changes the operating plan. A battery can charge during a low-cost window, an EV fleet can use a controlled schedule, and selected equipment can run during midday periods instead of being pushed into the evening peak. The <a href=\"https://dlgelectrical.com.au/dlg-blog/energy-monitoring-systems/\">DLG Electrical energy monitoring guide</a> offers useful background on monitoring systems and the visibility required for this work.</p>\n<p><a id=\"control-the-building-before-adding-capacity\"></a></p>\n<h3>Control the building before adding capacity</h3>\n<p>Pre-cooling or pre-heating can move HVAC work earlier, provided the building&#39;s controls, comfort requirements, and equipment limits support it. Smart ventilation controls can reduce unnecessary operation during expensive periods. EV charging software can stagger sessions so several vehicles don&#39;t create one simultaneous spike.</p>\n<p>Battery storage is more useful when dispatch follows the tariff. Charging at a lower-cost time and discharging during an expensive window can reduce TOU exposure, while demand-focused controls can limit the site&#39;s highest interval where the tariff makes that relevant.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e00a510b-6af6-4a72-be9e-f68d061becae/time-of-use-electricity-rates-energy-saving-strategies.jpg\" alt=\"A list of five practical strategies for reducing energy costs under time-of-use electricity rate plans.\"></p>\n<p><a id=\"use-submetering-to-target-the-message\"></a></p>\n<h3>Use submetering to target the message</h3>\n<p>Tenant communications work better when they identify a real pattern. Tell residents when EV charging or shared laundry is cheapest, then use submetered data to determine whether behaviour changed. Don&#39;t send the same message to every suite if only a small number of units create the dominant peak.</p>\n<p><strong>Priority checklist:</strong></p>\n<ul>\n<li><strong>Immediate:</strong> Reschedule discretionary loads and stagger EV charging.</li>\n<li><strong>Next:</strong> Adjust HVAC, pumps, ventilation, and water-heating controls.</li>\n<li><strong>Then:</strong> Model battery dispatch against the actual tariff.</li>\n<li><strong>Always:</strong> Use interval and submeter data before assigning blame or approving capital work.</li>\n</ul>\n<p>Efficiency still matters, but timing comes first when the price difference between periods is substantial. A newer appliance that runs during the highest-priced window may reduce consumption without fixing the property&#39;s most expensive interval.</p>\n<p><a id=\"common-misconceptions-about-tou-savings\"></a></p>\n<h2>Common Misconceptions About TOU Savings</h2>\n<p><strong>TOU does not automatically lower the bill.</strong> A household, apartment building, or commercial property that uses most of its electricity during on-peak periods can pay more than it would under another plan. Ontario&#39;s published schedule shows the exposure clearly, with <strong>20.3¢/kWh on-peak versus 9.8¢/kWh off-peak</strong>. If a building cannot move meaningful flexible load, TOU can work against the owner.</p>\n<p>The useful question is, “What share of our consumption can move, and where can it go?” Compare the building&#39;s interval profile with every available rate option, including tiered plans where offered. Review suites, common areas, EV charging, laundry, HVAC, pumps, and commercial tenants separately. Choosing a plan without reviewing that load shape is guesswork.</p>\n<p><strong>Shifting one large load rarely fixes the whole bill.</strong> Moving one EV charger or laundry bank helps only when that equipment represents a material share of total consumption. HVAC, lighting, pumps, and tenant loads may still run during the expensive window. A single operational change can reduce one contributor while leaving the building&#39;s main cost pattern untouched.</p>\n<blockquote>\n<p>Conservation reduces the amount of electricity you buy. TOU optimisation changes the price attached to the electricity you still buy.</p>\n</blockquote>\n<p><strong>TOU rewards timing more than general conservation.</strong> Efficient lighting, improved motors, and better HVAC performance can reduce total kWh, but they do not automatically move usage into a cheaper period. A smaller load operating at 6 p.m. may still cost more than a larger flexible load operating off-peak.</p>\n<p>Run a break-even test using actual interval data. Identify on-peak kWh, estimate the portion that can shift, and compare the resulting cost with the current schedule. For commercial properties and multi-family buildings, include common-area loads, submetered tenant patterns, and demand-charge exposure where the tariff applies it. The answer belongs in the meter data, not in a generic savings claim.</p>\n<p><a id=\"next-steps-for-property-owners-on-tou\"></a></p>\n<h2>Next Steps for Property Owners on TOU</h2>\n<p>Run a focused <strong>30-day review</strong> instead of starting with a major equipment purchase.</p>\n<p><a id=\"days-one-through-seven\"></a></p>\n<h3>Days one through seven</h3>\n<p>Collect the last <strong>12 months of electricity bills</strong> and the current tariff schedule. Map monthly consumption against the applicable TOU periods, separating energy charges, delivery items, fixed charges, taxes, and any demand-related components. Mark seasonal changes, unusual peaks, and months where occupancy or weather distorted the pattern.</p>\n<p>Ask one practical question: which loads are both expensive and movable? That list may include EV charging, shared laundry, pool equipment, water heating, ventilation, or scheduled HVAC operation.</p>\n<p><a id=\"days-eight-through-fourteen\"></a></p>\n<h3>Days eight through fourteen</h3>\n<p>Audit the physical property. Walk common areas, mechanical rooms, parking, laundry facilities, and commercial spaces. Record operating schedules and identify equipment that starts simultaneously. Review tenant-level data if it exists. If it doesn&#39;t, don&#39;t pretend the building-wide bill can identify individual contributors.</p>\n<p>At this stage, ask the utility or energy consultant to clarify the rate structure, peak windows, demand-charge rules, and any available alternatives. California owners should pay particular attention to late-afternoon and evening exposure, while Ontario owners should compare their operating pattern with the current provincial periods.</p>\n<p><a id=\"days-fifteen-through-thirty\"></a></p>\n<h3>Days fifteen through thirty</h3>\n<p>Evaluate submetering as the data backbone for ongoing TOU management. Confirm meter approvals, installation requirements, commissioning, tenant billing rules, privacy obligations, and licensing. In Ontario, verify the role of an appropriately licensed unit sub-metering provider. In the United States, confirm the state and utility requirements before implementing cost allocation.</p>\n<p>Use the same diligence for energy compliance and operational reporting that you&#39;d use for other enterprise controls. Owners assessing broader energy-related credentials can review these <a href=\"https://www.faberwork.com/success-stories/certifications-in-energy\">certifications use cases for enterprises</a> as a starting point for organising documentation and accountability.</p>\n<p>The decision sequence is clear: <strong>measure first, identify the expensive intervals, shift flexible loads, then invest in controls or storage where the data supports it</strong>. For properties that need unit-level measurement, billing, common-area allocation, and ongoing service, Axis Meter Solutions provides turnkey submetering programs across multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, and monitoring.</p>\n<hr>\n<p>Axis Meter Solutions can help you turn a building-wide TOU bill into unit-level and common-area data you can act on, with submetering, billing, and ongoing service aligned to local requirements. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your property, review the available metering approach, and identify the loads worth shifting first.</p>",
+  "tags": [
+    "time of use rates",
+    "TOU billing",
+    "submetering",
+    "electricity costs",
+    "property owners"
+  ],
+  "title": "Time of Use Electricity Rates Explained for Property Owners",
+  "updatedAt": "2026-08-15T08:56:50.543Z"
+}
