@@ -1,0 +1,2831 @@
+{
+  "_createdAt": "2026-08-17T07:18:14Z",
+  "_id": "outrank-fcce6563-d9d6-47e5-925b-08476e6f5940",
+  "_rev": "3PHkKWEqoVIDXAZCHAKqlT",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-17T07:18:14Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "ac15bf8f26de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e60378d00dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Most property owners are told that submetering is a billing decision. Install a meter, divide the utility bill, and recover costs from the people or businesses using the space. That advice misses the harder part."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a728957c939",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d31963048fd",
+          "_type": "span",
+          "marks": [],
+          "text": "A residential and commercial submetering programme turns a building into an ongoing data operation. Someone must define which loads belong to each tenant, validate readings, manage estimates, maintain equipment, answer disputes, protect access rights, and meet local reporting and billing requirements. The meter is only the visible part of the system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bec110c6f415",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "daef5f80d03f",
+          "_type": "span",
+          "marks": [],
+          "text": "The scale is significant. Statistics Canada reported "
+        },
+        {
+          "_key": "87da0a62dfac",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$178.0 billion in residential building construction investment in 2025"
+        },
+        {
+          "_key": "18efa83e56b0",
+          "_type": "span",
+          "marks": [],
+          "text": ", while commercial construction investment reached "
+        },
+        {
+          "_key": "51ab59d4d26a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$3.5 billion in December alone"
+        },
+        {
+          "_key": "e1636f4fc8c5",
+          "_type": "span",
+          "marks": [],
+          "text": ". In March 2026, Canadian building permits totalled "
+        },
+        {
+          "_key": "e1da776cdc34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$13.5 billion"
+        },
+        {
+          "_key": "f578593865d1",
+          "_type": "span",
+          "marks": [],
+          "text": ", including "
+        },
+        {
+          "_key": "ab7038b59885",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$8.0 billion in residential construction intentions"
+        },
+        {
+          "_key": "7898ea78b9d9",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same release reported that "
+        },
+        {
+          "_key": "cb0b9b84f964",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "303,700 multi-family and single-family dwellings were authorised across Canada during the 12 months from May 2025 to April 2026"
+        },
+        {
+          "_key": "7dabe28eb2dd",
+          "_type": "span",
+          "marks": [],
+          "text": ". These projects create a growing stock of properties that will need metering, commissioning, tenant billing, and consumption allocation. "
+        },
+        {
+          "_key": "a49b5c4a84d1",
+          "_type": "span",
+          "marks": [
+            "9891be288cca"
+          ],
+          "text": "Statistics Canada's building permit data"
+        },
+        {
+          "_key": "dac65cc1f562",
+          "_type": "span",
+          "marks": [],
+          "text": " shows why the opportunity is broad, but the operating model determines whether submetering remains manageable."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9891be288cca",
+          "_type": "link",
+          "href": "https://www150.statcan.gc.ca/n1/daily-quotidien/260218/dq260218a-eng.htm"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0d509f51dcb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55f42b8ce4e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "84f0b174a8a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "975d9bb86414",
+          "_type": "span",
+          "marks": [
+            "713b303b5ac4"
+          ],
+          "text": "Why Submetering Is More Than a Billing Decision"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "713b303b5ac4",
+          "_type": "link",
+          "href": "#why-submetering-is-more-than-a-billing-decision"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5ae3be18f9aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cda602ff12b8",
+          "_type": "span",
+          "marks": [
+            "e3fbca26797e"
+          ],
+          "text": "The data must be fit for billing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e3fbca26797e",
+          "_type": "link",
+          "href": "#the-data-must-be-fit-for-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c0092a48e671",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a14be03ed44",
+          "_type": "span",
+          "marks": [
+            "c0e5caadfdd8"
+          ],
+          "text": "Residential and commercial assets create different control problems"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c0e5caadfdd8",
+          "_type": "link",
+          "href": "#residential-and-commercial-assets-create-different-control-problems"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "32b0a5ba01c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a81d5f8c0be6",
+          "_type": "span",
+          "marks": [
+            "6640740b0ab6"
+          ],
+          "text": "Key Differences Between Residential and Commercial Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6640740b0ab6",
+          "_type": "link",
+          "href": "#key-differences-between-residential-and-commercial-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a93d1365cc0a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "499ccc9b1bb8",
+          "_type": "span",
+          "marks": [
+            "f33c8ae889a7"
+          ],
+          "text": "Load shape matters more than the label on the door"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f33c8ae889a7",
+          "_type": "link",
+          "href": "#load-shape-matters-more-than-the-label-on-the-door"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "76ab3dcb7ee2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62d3ca5c1485",
+          "_type": "span",
+          "marks": [
+            "a59419e3f073"
+          ],
+          "text": "Mixed-use design needs a deliberate boundary map"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a59419e3f073",
+          "_type": "link",
+          "href": "#mixed-use-design-needs-a-deliberate-boundary-map"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "554859a2b18c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecdaed38754b",
+          "_type": "span",
+          "marks": [
+            "58777ea908c9"
+          ],
+          "text": "Navigating Regulatory Requirements Across Jurisdictions"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "58777ea908c9",
+          "_type": "link",
+          "href": "#navigating-regulatory-requirements-across-jurisdictions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "593909593392",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3165554f82de",
+          "_type": "span",
+          "marks": [
+            "2d1d34f6965e"
+          ],
+          "text": "Separate the approval question from the engineering question"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2d1d34f6965e",
+          "_type": "link",
+          "href": "#separate-the-approval-question-from-the-engineering-question"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a7feba59aff6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40ff05e4ed0f",
+          "_type": "span",
+          "marks": [
+            "940d1ec63d60"
+          ],
+          "text": "Implementation Timeline and Project Coordination"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "940d1ec63d60",
+          "_type": "link",
+          "href": "#implementation-timeline-and-project-coordination"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "49371c8a1814",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ca9772d083a",
+          "_type": "span",
+          "marks": [
+            "d44d5997ba29"
+          ],
+          "text": "Build the sequence around dependencies"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d44d5997ba29",
+          "_type": "link",
+          "href": "#build-the-sequence-around-dependencies"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e7d0970d32e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6e1a6f8eac1",
+          "_type": "span",
+          "marks": [
+            "cb916f604277"
+          ],
+          "text": "Commissioning is where data governance becomes real"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cb916f604277",
+          "_type": "link",
+          "href": "#commissioning-is-where-data-governance-becomes-real"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "76dd30bccb25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5bc44c0912c",
+          "_type": "span",
+          "marks": [
+            "d3174dededf0"
+          ],
+          "text": "Water Submetering as an Operational Risk Management Tool"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d3174dededf0",
+          "_type": "link",
+          "href": "#water-submetering-as-an-operational-risk-management-tool"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5b9be8196db7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff1c2d585340",
+          "_type": "span",
+          "marks": [
+            "78a17607b679"
+          ],
+          "text": "Privacy and access require a written process"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "78a17607b679",
+          "_type": "link",
+          "href": "#privacy-and-access-require-a-written-process"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "27dc0fef1bea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53bf77583d52",
+          "_type": "span",
+          "marks": [
+            "1566492442fd"
+          ],
+          "text": "The Case for Turnkey Submetering Partnerships"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1566492442fd",
+          "_type": "link",
+          "href": "#the-case-for-turnkey-submetering-partnerships"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "11fea3ded1d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "401bbbe22fc4",
+          "_type": "span",
+          "marks": [
+            "059944c9beb8"
+          ],
+          "text": "Compare the operating models honestly"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "059944c9beb8",
+          "_type": "link",
+          "href": "#compare-the-operating-models-honestly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "26f6a999177b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91114b345611",
+          "_type": "span",
+          "marks": [
+            "0a21d849ca5d"
+          ],
+          "text": "Evaluating Your Building for Submetering Readiness"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0a21d849ca5d",
+          "_type": "link",
+          "href": "#evaluating-your-building-for-submetering-readiness"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "231ad0396277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fc74a58a616",
+          "_type": "span",
+          "marks": [
+            "8a43a426eb7f"
+          ],
+          "text": "Use a four-part readiness check"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8a43a426eb7f",
+          "_type": "link",
+          "href": "#use-a-four-part-readiness-check"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dd9c2ac231fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "997b2d0143e4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07828345456e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02fdac8b57df",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Submetering Is More Than a Billing Decision"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "11cd32fb4218",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7432005c5207",
+          "_type": "span",
+          "marks": [],
+          "text": "The popular advice fails because it treats the utility invoice as the end of the process. For an owner, it's usually the beginning. A whole-building bill tells you what the property consumed, but it doesn't necessarily tell you which suite, retailer, office, mechanical system, or common area created that demand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21a1dfb78aa8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e8a75bf7b2a",
+          "_type": "span",
+          "marks": [],
+          "text": "That gap between "
+        },
+        {
+          "_key": "f129f98dfd58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "aggregated building data and usable tenant-level data"
+        },
+        {
+          "_key": "9704830efd45",
+          "_type": "span",
+          "marks": [],
+          "text": " causes many of the practical problems owners encounter. A property manager may know the total water consumption but lack a clean way to reconcile it with suite meters, separately metered spaces, common areas, and utility records. If the owner isn't the account holder, obtaining historical information from utilities or municipal portals can require requests, authorisation, and manual follow-up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ea8ad458559",
+      "_type": "externalImage",
+      "alt": "A man observing a digital utility dashboard on a tablet while standing between residential and commercial buildings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/974dd6c4-fb1a-4c68-88bc-62fda995079e/residential-and-commercial-utility-dashboard.jpg"
+    },
+    {
+      "_key": "ad8e80a197cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bf04d97a033",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "feec6dfb5a3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b57a9c2a86e1",
+          "_type": "span",
+          "marks": [],
+          "text": "The data must be fit for billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ca6fbfdb0896",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a4e49cb92d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's Unit Sub-Metering Code makes the distinction clear. Meter data must be handled as "
+        },
+        {
+          "_key": "caeeef2d988b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "validated, estimated, or edited data"
+        },
+        {
+          "_key": "4429315ff295",
+          "_type": "span",
+          "marks": [],
+          "text": " before it can support billing. That requirement changes the project from a hardware installation into a controlled workflow. A reading that appears on a dashboard isn't automatically ready for an invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f0f165fe585",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e3af67501b4",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto's reporting guidance creates another recurring obligation. Owners must collect and enter monthly information by meter, while the city's large-building reporting framework covers commercial, multi-residential, and mixed-use properties. "
+        },
+        {
+          "_key": "abd025f0ee82",
+          "_type": "span",
+          "marks": [
+            "b09cdecacc06"
+          ],
+          "text": "Ontario's energy and water reporting guidance"
+        },
+        {
+          "_key": "3c688bfadf70",
+          "_type": "span",
+          "marks": [],
+          "text": " also explains that owners may need to request utility or municipal data when they aren't the account holder."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b09cdecacc06",
+          "_type": "link",
+          "href": "https://www.ontario.ca/document/guide-energy-and-water-reporting/information-you-need-reporting"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5b269bfb1db3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ec7f5609a2e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "75baf4f9edc5",
+          "_type": "span",
+          "marks": [],
+          "text": " Decide who owns the data workflow before deciding which meter to buy."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "acae762811ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5fd492c72519",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf93bae33034",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb36ff482654",
+          "_type": "span",
+          "marks": [],
+          "text": "Residential and commercial assets create different control problems"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4637986d4a5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79024d1d55b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Residential properties often require repeatable suite-level billing across many similar units. Commercial buildings introduce more exceptions, including tenant-specific operating hours, process loads, mechanical systems, and lease terms that may allocate utilities differently."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2aaed6dfcfb3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd1462249cb3",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use buildings are the most demanding because the owner must preserve both accuracy and traceability. Residential suites, retail areas, offices, cooling systems, and common spaces shouldn't be treated as one undifferentiated load. A sound programme assigns every meter to a defined billing or operational purpose, records how that assignment was made, and keeps the information usable after staff or tenants change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d84d75000ddc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bdc4fee58228",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering therefore becomes part of "
+        },
+        {
+          "_key": "eb0d0cc67be6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "asset governance"
+        },
+        {
+          "_key": "cc4f9cf34bcb",
+          "_type": "span",
+          "marks": [],
+          "text": ". It affects billing, reporting, tenant relations, leak response, budgeting, compliance reviews, and maintenance planning. Owners who plan only for installation often discover later that the workload sits in reconciliation, exceptions, and documentation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0fd326a5eea2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5acb3123b091",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d80a002cc8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cef7371ed113",
+          "_type": "span",
+          "marks": [],
+          "text": "Key Differences Between Residential and Commercial Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "431dce1ac8ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2a25775e058",
+          "_type": "span",
+          "marks": [],
+          "text": "Residential and commercial submetering may use similar meters, but they create different architecture, billing, and maintenance obligations. A repeatable suite-level programme can suit a multi-family building. The same design can produce poor cost allocation in a retail centre where tenant water use, HVAC demand, operating hours, and equipment vary widely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5943a55df3bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b64daeb479f",
+          "_type": "span",
+          "marks": [],
+          "text": "Commercial properties may need electricity, water, gas, and thermal-energy allocation, plus dedicated measurement for high-load mechanical equipment. California guidance indicates that some Green Building Code provisions require separate submeters for tenant spaces projected to consume "
+        },
+        {
+          "_key": "8a9ff24d6282",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "more than 100 gallons per day"
+        },
+        {
+          "_key": "51cdf8064f6e",
+          "_type": "span",
+          "marks": [],
+          "text": ", along with dedicated metering for certain cooling-tower, evaporative-cooler, and boiler systems. "
+        },
+        {
+          "_key": "c230bcfc6ebf",
+          "_type": "span",
+          "marks": [
+            "e36420ffee6a"
+          ],
+          "text": "California Green Building Code metering guidance"
+        },
+        {
+          "_key": "abd60acd2bb9",
+          "_type": "span",
+          "marks": [],
+          "text": " shows why mechanical loads should follow their own measurement path instead of being hidden inside a tenant total."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e36420ffee6a",
+          "_type": "link",
+          "href": "https://www.energyanalytica.com/california-green-building-code-calgreen-meters/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ed58f5e2d54b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e61932b11f4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Feature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d9925f19735",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78071ba18320",
+          "_type": "span",
+          "marks": [],
+          "text": "Residential"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "25ba810577fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c0bd4b3d3de",
+          "_type": "span",
+          "marks": [],
+          "text": "Commercial"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a369eeac6823",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ea2eb694643",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07e083c57d1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c36aa47bacc8",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3769afa936c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31f3dad21e09",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite-level electricity meters, common-area separation, repeatable billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4ffb5c613ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b9f29b03b68",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant meters may need to reflect varied operating schedules and equipment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c894e727899c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3425223ed96",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate residential, commercial, and common-area circuits"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d16804fc312",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "108aa5fcce76",
+          "_type": "span",
+          "marks": [],
+          "text": "Water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1668ea3d818e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "362aa7243291",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit-level domestic water measurement and leak monitoring"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2de37597282c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c70abdc4c14",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant water, process loads, and mechanical systems may require distinct meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1312ce7c0ef8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "33ce44edfbe3",
+          "_type": "span",
+          "marks": [],
+          "text": "Isolate suites, retail or office spaces, HVAC, and common areas"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "36417bf3358c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6dbe2204079",
+          "_type": "span",
+          "marks": [],
+          "text": "Gas"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8db8fdd78e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "488c2e5ea95d",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocation may apply where permitted and technically practical"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89780a03c3d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d08b1a72e1b7",
+          "_type": "span",
+          "marks": [],
+          "text": "Gas use can relate to cooking, process equipment, or building systems"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5fe8f00abb71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d65bb4b183a0",
+          "_type": "span",
+          "marks": [],
+          "text": "Assign gas loads according to tenant responsibility and system design"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab33fb0482d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1823ce791545",
+          "_type": "span",
+          "marks": [],
+          "text": "Thermal energy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ca250948480",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d73f211a5f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Relevant where heating or cooling is centrally supplied"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "084ff43153fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eacaf1b0aae2",
+          "_type": "span",
+          "marks": [],
+          "text": "Often important for HVAC cost allocation and tenant accountability"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "af3a63005ef5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "803d37a2f7f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate tenant thermal loads from central mechanical consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "31efa93b64f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95584e894cce",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing workflow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6964c3d4efe5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4027ff06e3dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Repeated monthly process across similar units"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef7d07ad48c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4b09c898354",
+          "_type": "span",
+          "marks": [],
+          "text": "Lease terms, usage patterns, and exceptions require more review"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "affcd42711e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34d2162116fa",
+          "_type": "span",
+          "marks": [],
+          "text": "One platform must support different rules without blending loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da624a41f69e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c3539981df8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1be7de80ca3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b3293df6681",
+          "_type": "span",
+          "marks": [],
+          "text": "Load shape matters more than the label on the door"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f0b8301ffaeb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b09a4e8a8f89",
+          "_type": "span",
+          "marks": [],
+          "text": "A residential suite generally follows a domestic consumption pattern. A restaurant, medical office, retailer, or workshop may operate on a different schedule and place demand on different systems. Commercial metering should identify those sources, not just install one meter at the property boundary."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "99aebc50f734",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bed9fe3625a9",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "649940767fe6",
+          "_type": "span",
+          "marks": [
+            "60e0e6237fac"
+          ],
+          "text": "commercial submetering capabilities from Axis Meter Solutions"
+        },
+        {
+          "_key": "574e9242d74e",
+          "_type": "span",
+          "marks": [],
+          "text": " apply where owners need separate tenant and common-area measurement across office, retail, or other commercial assets. Residential programmes use the same underlying principle, but usually place greater weight on repeatable reads, clear resident statements, and consistent exception handling."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "60e0e6237fac",
+          "_type": "link",
+          "href": "https://www.axismeter.com/markets/commercial"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0507a9ceb213",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd3e087455af",
+          "_type": "span",
+          "marks": [],
+          "text": "Data governance changes with the property type. Residential billing may involve many similar accounts, while commercial billing must preserve lease-specific rules, tenant changes, estimated readings, corrections, and an audit trail. The owner also needs a defined process for meter failures, access issues, vacant spaces, and disputed charges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d52c9bae4d21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0fd6a068f5fb",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant services shape operating expectations as well. In multi-family properties, utility management sits alongside resident connectivity and other building services. Owners evaluating "
+        },
+        {
+          "_key": "1a76e6effc73",
+          "_type": "span",
+          "marks": [
+            "5d71ff2411fb"
+          ],
+          "text": "Premier Broadband streaming and gaming"
+        },
+        {
+          "_key": "4232cee9a36c",
+          "_type": "span",
+          "marks": [],
+          "text": " should apply the same operational test: assign clear ownership, maintain dependable support, and communicate in terms occupants can understand."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5d71ff2411fb",
+          "_type": "link",
+          "href": "https://premierbroadband.com/apartment-internet-solutions-how-premier-broadband-simplifies-streaming-gaming-and-work-for-multifamily-living/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "af406895083f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "098f21fe73dc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "99ee102384ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa4e6ea54b92",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use design needs a deliberate boundary map"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "00048dc2cc63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e60878661d3",
+          "_type": "span",
+          "marks": [],
+          "text": "The strongest mixed-use designs begin with a load map identifying every tenant space, shared system, riser, panel, isolation valve, and mechanical connection. The map should also record the billing rule attached to each meter and the person responsible for maintaining that record."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb1e94940a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7cf9f41e1928",
+          "_type": "span",
+          "marks": [],
+          "text": "Without those controls, an owner can receive accurate readings and still issue unfair or unexplainable bills because the meter boundary is wrong. Long-term maintenance then becomes harder when staff change, tenants move, equipment is replaced, or a shared system is reconfigured."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c63bdc583ddf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f3d6ad7f9d0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72f76dde7dea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7686cc5fd42",
+          "_type": "span",
+          "marks": [],
+          "text": "Navigating Regulatory Requirements Across Jurisdictions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bb0a39664c04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a16c60a5c075",
+          "_type": "span",
+          "marks": [],
+          "text": "Regulatory planning should precede equipment selection. A meter may measure accurately and still be unsuitable for billing if it lacks the required approval, registration, certification, or supporting data process. The compliance burden also continues after commissioning. Owners must preserve records, manage exceptions, and keep the billing workflow aligned with rule changes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba14d2762a86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab554b7c346a",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario and California illustrate the difference. In Ontario, electricity unit sub-metering requires an appropriately licensed unit sub-meter provider. The billing process must distinguish validated, estimated, and edited readings under the Unit Sub-Metering Code. The code was updated in August 2025, so an older programme should be reviewed rather than assumed to remain compliant."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6e481cdb8f4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0b8f05119ae",
+          "_type": "span",
+          "marks": [],
+          "text": "California applies a different set of controls to water billing equipment. State guidance defines a water submeter as a device that measures an individual rental unit's consumption within a multi-unit residential or mixed-use residential and commercial structure. New multi-family construction must include submeters for individual units when applying for water service. Billing submeters require current type approval at installation, registration with the county weights-and-measures office before installation, and recertification at least every ten years. "
+        },
+        {
+          "_key": "c45736ab84f5",
+          "_type": "span",
+          "marks": [
+            "03f9841aabf7"
+          ],
+          "text": "California's water submetering guidance"
+        },
+        {
+          "_key": "f20ea13c9337",
+          "_type": "span",
+          "marks": [],
+          "text": " shows why maintenance records and renewal dates belong in the operating plan, not only the construction file."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "03f9841aabf7",
+          "_type": "link",
+          "href": "https://caanet.org/54832.kbdl"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "54a956c7117b",
+      "_type": "externalImage",
+      "alt": "An infographic titled Regulatory Requirements Across Jurisdictions illustrating standard local codes, utility mandates, and performance standards.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b8e517d0-1b1b-47ee-91db-4d36b767f107/residential-and-commercial-regulatory-requirements.jpg"
+    },
+    {
+      "_key": "af3451def9eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b3d3841fa2a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cd8cd424d24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bb4daa41cc8",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate the approval question from the engineering question"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "54e5145c4db1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2dd02037f833",
+          "_type": "span",
+          "marks": [],
+          "text": "Engineering review asks whether a meter can measure the load. Compliance review must also establish:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aec85e58d100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d35c7a6007c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Approval status:"
+        },
+        {
+          "_key": "b61f829c68f2",
+          "_type": "span",
+          "marks": [],
+          "text": " Is the device approved for its intended billing use?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d328abae48cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "811c614721d9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Registration:"
+        },
+        {
+          "_key": "84a60d2c87fd",
+          "_type": "span",
+          "marks": [],
+          "text": " Does installation require registration with a local weights-and-measures office or another authority?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c8e5cc779ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6fc6019e1ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Recertification:"
+        },
+        {
+          "_key": "3b8020a98938",
+          "_type": "span",
+          "marks": [],
+          "text": " What verification or recertification cycle applies?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5695bcffe65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f2cf57f1a65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing disclosures:"
+        },
+        {
+          "_key": "86273729d1eb",
+          "_type": "span",
+          "marks": [],
+          "text": " What information must accompany the tenant or customer bill?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e647c329e36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6159945f2592",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data treatment:"
+        },
+        {
+          "_key": "bcba5f1ae884",
+          "_type": "span",
+          "marks": [],
+          "text": " How are missing, estimated, corrected, or edited readings recorded?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a1b1f7072be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c25750760abb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Responsibility:"
+        },
+        {
+          "_key": "1911084a8974",
+          "_type": "span",
+          "marks": [],
+          "text": " Who retains certificates, approvals, commissioning records, and maintenance history?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9511fca01adc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "111f1dfe6d76",
+          "_type": "span",
+          "marks": [],
+          "text": "California guidance for larger properties introduces another design consideration. New or qualifying multi-family and mixed-use buildings over "
+        },
+        {
+          "_key": "daca229dddaa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50,000 square feet"
+        },
+        {
+          "_key": "8cf8bb1d531a",
+          "_type": "span",
+          "marks": [],
+          "text": " may trigger tenant-level metering or submetering requirements, depending on the applicable rules and utility guidance. The applicable California requirements also distinguish tenant spaces from high-load systems, including cooling-tower makeup water above "
+        },
+        {
+          "_key": "c4bc3e8b4a18",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "500 gpm"
+        },
+        {
+          "_key": "16e837c55324",
+          "_type": "span",
+          "marks": [],
+          "text": ", evaporative coolers above "
+        },
+        {
+          "_key": "b7d45b6843a8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "6 gpm"
+        },
+        {
+          "_key": "0a83ace122fb",
+          "_type": "span",
+          "marks": [],
+          "text": ", and boilers above "
+        },
+        {
+          "_key": "bce7c8b20b12",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "500,000 Btu/h"
+        },
+        {
+          "_key": "86fcc60a3b61",
+          "_type": "span",
+          "marks": [],
+          "text": ". Owners should verify current thresholds before finalizing the meter schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "415dfc7c02da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "199cca51032b",
+          "_type": "span",
+          "marks": [],
+          "text": "A jurisdictional requirements matrix should be completed before equipment is ordered. It should name the authority, required approvals, installation conditions, billing rules, data retention expectations, and future maintenance obligations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf1f0b2e531d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de456f24afe2",
+          "_type": "span",
+          "marks": [],
+          "text": "That record prevents a common project failure: hardware is installed first, then the owner discovers that billing requires a different device, registration step, or audit trail. Compliance shapes the architecture and the long-term operating workload."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8873e8268f6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b555a7da033d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f8f43fa07763",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebcd50c49fcf",
+          "_type": "span",
+          "marks": [],
+          "text": "Implementation Timeline and Project Coordination"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "56e20641c6f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "844cc6891a4c",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical implementation usually takes "
+        },
+        {
+          "_key": "58c3ad881984",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 weeks from agreement to live meters"
+        },
+        {
+          "_key": "0c8ce4550d46",
+          "_type": "span",
+          "marks": [],
+          "text": ", including equipment lead time. The calendar can change when engineering drawings, permits, utility coordination, access arrangements, or tenant communications require more review, but a defined sequence keeps decisions visible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "03684dfdf493",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "017bd19d880f",
+          "_type": "span",
+          "marks": [],
+          "text": "The first phase is agreement and design. The owner and provider confirm the billing boundary, utility systems, meter locations, common-area treatment, jurisdiction, access requirements, and data outputs. Engineers and electricians then review drawings, panel arrangements, risers, isolation valves, communications pathways, and any constraints that could affect installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "215f1bad2ef6",
+      "_type": "externalImage",
+      "alt": "A four-step implementation timeline infographic outlining residential and commercial project coordination from design to go-live.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/94e89b9b-2a8f-4c70-86eb-6f28356e6f5e/residential-and-commercial-project-timeline.jpg"
+    },
+    {
+      "_key": "c0faee4cc765",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2510ad0e4643",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ded21aeecc6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da45c47b9ea8",
+          "_type": "span",
+          "marks": [],
+          "text": "Build the sequence around dependencies"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "22a638ae85ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "110959a6ec4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Procurement and staging come next. Equipment should be ordered only after the design confirms the required meter types, approvals, accessories, communications hardware, and installation details. Staging gives the project team an opportunity to match devices to locations and identify missing components before trades arrive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0323f7d2673f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b163aa29413",
+          "_type": "span",
+          "marks": [],
+          "text": "On-site installation depends heavily on coordination. Property managers must communicate access requirements to residents and commercial tenants, while electricians and plumbers need an agreed work plan. Collaborative delivery can often reduce disruption to "
+        },
+        {
+          "_key": "de31dda1ebca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one or two days of site access"
+        },
+        {
+          "_key": "7a5e97f27434",
+          "_type": "span",
+          "marks": [],
+          "text": ", provided the equipment, drawings, permissions, and trade schedules are ready."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ed1764b044a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "135427d46edb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Coordination principle:"
+        },
+        {
+          "_key": "b047abf16d79",
+          "_type": "span",
+          "marks": [],
+          "text": " The installation crew should not be the first team to discover an inaccessible panel, an unlabelled riser, or a tenant space that can't be entered."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "364ccb9ee7a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5946f65f550",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c6a541e723e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfd06c492a8a",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning is where data governance becomes real"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "18baa3c0d5d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c53327861ec",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning should test more than whether a meter registers consumption. The team should confirm meter identity, location, direction, communication, time settings, account mapping, load allocation, and exception handling. Residential projects need accurate suite-to-account matching. Commercial projects also need tenant responsibility rules, mechanical allocations, and common-area treatment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d52655623b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08629fad6d68",
+          "_type": "span",
+          "marks": [],
+          "text": "Before go-live, the owner should approve the statement format, billing calendar, escalation path, estimated-reading policy, and tenant support process. Owners who aren't the utility account holder should also confirm how whole-building data will be retrieved from utility or municipal portals. A live meter without a reliable data intake process creates another fragmented record instead of a usable operating system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ae92ddf478f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "845c704823b1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d27a62006a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3054256795c",
+          "_type": "span",
+          "marks": [],
+          "text": "Water Submetering as an Operational Risk Management Tool"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "92eca60e62eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ab3039b18a0",
+          "_type": "span",
+          "marks": [],
+          "text": "Water submetering is often sold as a cost-allocation method. That's too narrow for mixed residential and commercial properties. A water meter can show who used water, but a well-designed monitoring system can also help an owner identify abnormal consumption, investigate a failing fixture, and respond before a minor leak becomes a major building incident."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "377e3f159352",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3fd76f63368",
+          "_type": "span",
+          "marks": [],
+          "text": "The operational value comes from combining consumption data with defined response rules. A residential suite with unusual activity may require resident contact or a maintenance inspection. A retail tenant may have process-related use that looks abnormal until compared with operating hours and equipment. A central mechanical system can create a separate pattern that should never be assigned to individual tenants."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c329dfb1d7db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b010c4a458b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto's reporting guidance frames submetering as detailed tracking for individual tenants or systems. That level of visibility supports more than invoicing. It gives property teams a way to compare expected and observed behaviour, provided the meter boundaries and data records are reliable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "edf4eb78ecee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06378c314d09",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c87e45ccbf49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b41189f83c1",
+          "_type": "span",
+          "marks": [],
+          "text": "Privacy and access require a written process"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ba8e8b620110",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c5a15205e99",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners regularly ask how they can reconcile tenant privacy, utility access rights, and leak detection across multiple meter types. The answer isn't to collect less information blindly. It's to define who can see which data, why they can see it, how long records are retained, and who responds to an alert."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c57bb869da8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b7d7b97f1d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Calgary's whole-building water data process shows the practical tension. Access to historical usage may depend on utility-managed requests, and authorisation may be needed when spaces are separately metered. That means an owner needs a documented permission path before an incident occurs, not while water is already escaping."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ae9996357a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d23cbde3e96",
+          "_type": "span",
+          "marks": [],
+          "text": "The programme should distinguish between:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17dc947971cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58d039a90361",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing data:"
+        },
+        {
+          "_key": "0fdd63989334",
+          "_type": "span",
+          "marks": [],
+          "text": " Information needed to calculate and explain tenant charges."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "646f76da3628",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "971082893b92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational alerts:"
+        },
+        {
+          "_key": "24302155cbc2",
+          "_type": "span",
+          "marks": [],
+          "text": " Consumption signals used by authorised staff for maintenance or emergency response."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39e34d9b86ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e55022ffa746",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Building totals:"
+        },
+        {
+          "_key": "99ecfc30ad50",
+          "_type": "span",
+          "marks": [],
+          "text": " Aggregated information used for reporting and benchmarking."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59d74e6b0b6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20565814b839",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Access records:"
+        },
+        {
+          "_key": "52e732f5e510",
+          "_type": "span",
+          "marks": [],
+          "text": " Documentation showing who requested, viewed, edited, or approved information."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "60d5e1943e5e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a540f7177864",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak and flood detection can extend the value of the installation into asset protection. Axis Meter Solutions describes "
+        },
+        {
+          "_key": "e4be877d2ed8",
+          "_type": "span",
+          "marks": [
+            "2edb1871262d"
+          ],
+          "text": "sub-metered water monitoring and related capabilities"
+        },
+        {
+          "_key": "8faaf9f1ca75",
+          "_type": "span",
+          "marks": [],
+          "text": " in a way that reflects this broader use case. The important point is architectural: sensors, alert routing, shutoff decisions, and escalation responsibilities must be designed alongside billing, not added as an afterthought."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2edb1871262d",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metered-water"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e1457d007a18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa907c4a92f4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f9d83821c12b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f166ef5cc1d3",
+          "_type": "span",
+          "marks": [],
+          "text": "The Case for Turnkey Submetering Partnerships"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "736793ff2139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07c1adad6d2b",
+          "_type": "span",
+          "marks": [],
+          "text": "Self-managed submetering looks straightforward until the owner lists every recurring responsibility. Someone must procure approved equipment, coordinate trades, manage permits, commission the system, create tenant accounts, issue monthly bills, handle collections, answer disputes, maintain records, replace failed meters, and keep the programme aligned with changing rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6db0cf2f8322",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f83d3cab5a2",
+          "_type": "span",
+          "marks": [],
+          "text": "That workload is manageable for an organisation with dedicated technical and billing staff. It becomes an avoidable distraction for an owner whose core business is operating real estate. The risk isn't limited to labour. Poorly maintained records can create billing disputes, delayed corrections, and compliance exposure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f485ae6452a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "57691e484166",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07e6b6d456cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "145ecffe114f",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare the operating models honestly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "20d0fb89a9d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88e696c72b40",
+          "_type": "span",
+          "marks": [],
+          "text": "A turnkey arrangement shifts many of those functions to a specialist. Axis Meter Solutions offers a "
+        },
+        {
+          "_key": "8c4697b49c3c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront cost structure"
+        },
+        {
+          "_key": "69fdb912cb38",
+          "_type": "span",
+          "marks": [],
+          "text": ", with provider-owned and maintained equipment over a standard "
+        },
+        {
+          "_key": "da08be8f991d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20-year term"
+        },
+        {
+          "_key": "f98842ba796d",
+          "_type": "span",
+          "marks": [],
+          "text": ". Its scope includes installation, commissioning, tenant billing, collections workflows, resident support, monitoring, maintenance, and meter replacement, subject to the agreement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "633d071a1534",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36ccfeeb11ea",
+          "_type": "span",
+          "marks": [],
+          "text": "That structure changes the owner's decision from a capital purchase to a long-term service commitment. The trade-off is reduced direct control over equipment and a contractual obligation that requires careful review. Owners should examine service levels, termination rights, data ownership, billing responsibilities, maintenance standards, insurance, bonding, and treatment of disputed charges before signing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fbf07076076a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f0786b94060",
+          "_type": "span",
+          "marks": [
+            "a11a7aa8bc71"
+          ],
+          "text": "Utility metering installation and maintenance services"
+        },
+        {
+          "_key": "f023296d9ed8",
+          "_type": "span",
+          "marks": [],
+          "text": " are most useful when the provider accepts responsibility for the full operating chain rather than only mounting meters on a wall. A turnkey partner can also support smaller properties, including buildings with "
+        },
+        {
+          "_key": "8d6d64633fa6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 to 10 units"
+        },
+        {
+          "_key": "e7e66c1c63ef",
+          "_type": "span",
+          "marks": [],
+          "text": ", as well as larger portfolios."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a11a7aa8bc71",
+          "_type": "link",
+          "href": "https://www.axismeter.com/features/utility-metering-installation-maintenance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fac07e93045b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a2b2dd2002a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Contract review point:"
+        },
+        {
+          "_key": "17d6e705d765",
+          "_type": "span",
+          "marks": [],
+          "text": " “No upfront cost” doesn't remove risk. It relocates risk into the agreement, service process, and provider accountability."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ef6aa89bd7f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f1ba47338fd",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners, the strongest case for turnkey delivery is administrative continuity. Tenant communications, billing corrections, compliance records, and maintenance shouldn't depend on one employee remembering how a legacy system works."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b9e5bee667b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "308c8e6b1470",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc19818376ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2cb58387d16",
+          "_type": "span",
+          "marks": [],
+          "text": "Evaluating Your Building for Submetering Readiness"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ae8fb61985d0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8b2296babbb",
+          "_type": "span",
+          "marks": [],
+          "text": "A building is ready for submetering when its physical systems, records, people, and jurisdictional requirements can support repeatable data collection. New construction can often plan meter locations and boundaries early. Existing buildings require more investigation because panels, risers, valves, tenant spaces, and utility accounts may not align with the owner's preferred billing model."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "adfa4676883f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b790ef59208",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the current utility structure. Gather invoices, account numbers, meter lists, tenant responsibility clauses, common-area allocations, and records of estimated or disputed charges. If the owner can't explain how the current bill reaches each tenant, a submetering project needs a data mapping exercise before installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac7e0d762af6",
+      "_type": "externalImage",
+      "alt": "A checklist for evaluating building submetering readiness, covering physical access, electrical infrastructure, water lines, and regulatory requirements.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f446a4e2-4d89-465d-b77b-767f64cd9ac1/residential-and-commercial-submetering-readiness.jpg"
+    },
+    {
+      "_key": "41c0b87e5d8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ae81875c327",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8786943de94a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38d403d3d42f",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a four-part readiness check"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c38fcc322ac2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4783a00b5c9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Physical access:"
+        },
+        {
+          "_key": "d54b25f18847",
+          "_type": "span",
+          "marks": [],
+          "text": " Verify access to utility rooms, risers, panels, meter banks, ceiling spaces, and tenant areas. Record restrictions before the installer schedules work."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3651acd17b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "366e22ea13f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Electrical infrastructure:"
+        },
+        {
+          "_key": "9af3b4a1126a",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm panel capacity, circuit identification, wiring routes, and the location of common-area loads. Commercial properties need particular care where tenant equipment and central systems share distribution paths."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4d8bb61f229",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c820b2804a8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Water line layout:"
+        },
+        {
+          "_key": "e417f61d8920",
+          "_type": "span",
+          "marks": [],
+          "text": " Map pipe runs, unit branches, isolation valves, domestic supplies, mechanical systems, and any spaces that are separately metered. A meter plan is only as reliable as the pipe boundary behind it."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fedaacfe86c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87a86e31650a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Regulatory jurisdiction:"
+        },
+        {
+          "_key": "0a396a1dfa47",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify the province, state, municipality, utility, code requirements, approval obligations, billing rules, and maintenance cycles that apply to each system."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a9fd85a359e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ac663dcc40d",
+          "_type": "span",
+          "marks": [],
+          "text": "California owners should test whether their multi-family or mixed-use building falls within applicable requirements associated with the "
+        },
+        {
+          "_key": "b7a94e9bda12",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50,000-square-foot"
+        },
+        {
+          "_key": "750bd61f0f3b",
+          "_type": "span",
+          "marks": [],
+          "text": " threshold, while Ontario owners should confirm the current unit sub-metering and reporting obligations for the property. The question isn't whether submetering is permitted. It's whether the proposed design can produce defensible data every month."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2197851f1c45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23cbec9c75e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant communication also matters. Prepare explanations for why meters are being installed, what charges will change, how estimated readings are handled, who receives support requests, and how privacy is protected. Commercial tenants may need a different notice process because their leases often define utility responsibility and operating cost recovery."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa7c1319621a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bef1d3a403b",
+          "_type": "span",
+          "marks": [],
+          "text": "The final readiness test is operational ownership. Name the person responsible for meter exceptions, data requests, billing approvals, leak alerts, tenant disputes, and maintenance escalations. If nobody owns those tasks, the building isn't ready, even if the physical installation looks simple."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a5658d9c177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aea536b5862f",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners should request a site assessment that covers both installation feasibility and long-term data governance. Axis Meter Solutions provides coordinated metering, commissioning, tenant billing, leak and flood detection, maintenance, and jurisdiction-specific compliance planning for residential, commercial, and mixed-use properties. Visit "
+        },
+        {
+          "_key": "72aacdf52bae",
+          "_type": "span",
+          "marks": [
+            "2f45002aa5eb"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "e9b5d0e4873c",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your building's utility boundaries, reporting obligations, and readiness for a properly managed submetering programme."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2f45002aa5eb",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how residential and commercial submetering helps property owners track usage, cut costs, and bill tenants fairly.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/302b7736-f118-4d79-8cb0-665791e7ac8b/residential-and-commercial-building-sketches.jpg",
+  "noIndex": false,
+  "outrankId": "fcce6563-d9d6-47e5-925b-08476e6f5940",
+  "publishedAt": "2026-08-17T07:18:10.820406+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "residential-and-commercial"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Most property owners are told that submetering is a billing decision. Install a meter, divide the utility bill, and recover costs from the people or businesses using the space. That advice misses the harder part.</p>\n<p>A residential and commercial submetering programme turns a building into an ongoing data operation. Someone must define which loads belong to each tenant, validate readings, manage estimates, maintain equipment, answer disputes, protect access rights, and meet local reporting and billing requirements. The meter is only the visible part of the system.</p>\n<p>The scale is significant. Statistics Canada reported <strong>$178.0 billion in residential building construction investment in 2025</strong>, while commercial construction investment reached <strong>$3.5 billion in December alone</strong>. In March 2026, Canadian building permits totalled <strong>$13.5 billion</strong>, including <strong>$8.0 billion in residential construction intentions</strong>. The same release reported that <strong>303,700 multi-family and single-family dwellings were authorised across Canada during the 12 months from May 2025 to April 2026</strong>. These projects create a growing stock of properties that will need metering, commissioning, tenant billing, and consumption allocation. <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260218/dq260218a-eng.htm\">Statistics Canada&#39;s building permit data</a> shows why the opportunity is broad, but the operating model determines whether submetering remains manageable.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-submetering-is-more-than-a-billing-decision\">Why Submetering Is More Than a Billing Decision</a><ul>\n<li><a href=\"#the-data-must-be-fit-for-billing\">The data must be fit for billing</a></li>\n<li><a href=\"#residential-and-commercial-assets-create-different-control-problems\">Residential and commercial assets create different control problems</a></li>\n</ul>\n</li>\n<li><a href=\"#key-differences-between-residential-and-commercial-submetering\">Key Differences Between Residential and Commercial Submetering</a><ul>\n<li><a href=\"#load-shape-matters-more-than-the-label-on-the-door\">Load shape matters more than the label on the door</a></li>\n<li><a href=\"#mixed-use-design-needs-a-deliberate-boundary-map\">Mixed-use design needs a deliberate boundary map</a></li>\n</ul>\n</li>\n<li><a href=\"#navigating-regulatory-requirements-across-jurisdictions\">Navigating Regulatory Requirements Across Jurisdictions</a><ul>\n<li><a href=\"#separate-the-approval-question-from-the-engineering-question\">Separate the approval question from the engineering question</a></li>\n</ul>\n</li>\n<li><a href=\"#implementation-timeline-and-project-coordination\">Implementation Timeline and Project Coordination</a><ul>\n<li><a href=\"#build-the-sequence-around-dependencies\">Build the sequence around dependencies</a></li>\n<li><a href=\"#commissioning-is-where-data-governance-becomes-real\">Commissioning is where data governance becomes real</a></li>\n</ul>\n</li>\n<li><a href=\"#water-submetering-as-an-operational-risk-management-tool\">Water Submetering as an Operational Risk Management Tool</a><ul>\n<li><a href=\"#privacy-and-access-require-a-written-process\">Privacy and access require a written process</a></li>\n</ul>\n</li>\n<li><a href=\"#the-case-for-turnkey-submetering-partnerships\">The Case for Turnkey Submetering Partnerships</a><ul>\n<li><a href=\"#compare-the-operating-models-honestly\">Compare the operating models honestly</a></li>\n</ul>\n</li>\n<li><a href=\"#evaluating-your-building-for-submetering-readiness\">Evaluating Your Building for Submetering Readiness</a><ul>\n<li><a href=\"#use-a-four-part-readiness-check\">Use a four-part readiness check</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-submetering-is-more-than-a-billing-decision\"></a></p>\n<h2>Why Submetering Is More Than a Billing Decision</h2>\n<p>The popular advice fails because it treats the utility invoice as the end of the process. For an owner, it&#39;s usually the beginning. A whole-building bill tells you what the property consumed, but it doesn&#39;t necessarily tell you which suite, retailer, office, mechanical system, or common area created that demand.</p>\n<p>That gap between <strong>aggregated building data and usable tenant-level data</strong> causes many of the practical problems owners encounter. A property manager may know the total water consumption but lack a clean way to reconcile it with suite meters, separately metered spaces, common areas, and utility records. If the owner isn&#39;t the account holder, obtaining historical information from utilities or municipal portals can require requests, authorisation, and manual follow-up.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/974dd6c4-fb1a-4c68-88bc-62fda995079e/residential-and-commercial-utility-dashboard.jpg\" alt=\"A man observing a digital utility dashboard on a tablet while standing between residential and commercial buildings.\"></p>\n<p><a id=\"the-data-must-be-fit-for-billing\"></a></p>\n<h3>The data must be fit for billing</h3>\n<p>Ontario&#39;s Unit Sub-Metering Code makes the distinction clear. Meter data must be handled as <strong>validated, estimated, or edited data</strong> before it can support billing. That requirement changes the project from a hardware installation into a controlled workflow. A reading that appears on a dashboard isn&#39;t automatically ready for an invoice.</p>\n<p>Toronto&#39;s reporting guidance creates another recurring obligation. Owners must collect and enter monthly information by meter, while the city&#39;s large-building reporting framework covers commercial, multi-residential, and mixed-use properties. <a href=\"https://www.ontario.ca/document/guide-energy-and-water-reporting/information-you-need-reporting\">Ontario&#39;s energy and water reporting guidance</a> also explains that owners may need to request utility or municipal data when they aren&#39;t the account holder.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Decide who owns the data workflow before deciding which meter to buy.</p>\n</blockquote>\n<p><a id=\"residential-and-commercial-assets-create-different-control-problems\"></a></p>\n<h3>Residential and commercial assets create different control problems</h3>\n<p>Residential properties often require repeatable suite-level billing across many similar units. Commercial buildings introduce more exceptions, including tenant-specific operating hours, process loads, mechanical systems, and lease terms that may allocate utilities differently.</p>\n<p>Mixed-use buildings are the most demanding because the owner must preserve both accuracy and traceability. Residential suites, retail areas, offices, cooling systems, and common spaces shouldn&#39;t be treated as one undifferentiated load. A sound programme assigns every meter to a defined billing or operational purpose, records how that assignment was made, and keeps the information usable after staff or tenants change.</p>\n<p>Submetering therefore becomes part of <strong>asset governance</strong>. It affects billing, reporting, tenant relations, leak response, budgeting, compliance reviews, and maintenance planning. Owners who plan only for installation often discover later that the workload sits in reconciliation, exceptions, and documentation.</p>\n<p><a id=\"key-differences-between-residential-and-commercial-submetering\"></a></p>\n<h2>Key Differences Between Residential and Commercial Submetering</h2>\n<p>Residential and commercial submetering may use similar meters, but they create different architecture, billing, and maintenance obligations. A repeatable suite-level programme can suit a multi-family building. The same design can produce poor cost allocation in a retail centre where tenant water use, HVAC demand, operating hours, and equipment vary widely.</p>\n<p>Commercial properties may need electricity, water, gas, and thermal-energy allocation, plus dedicated measurement for high-load mechanical equipment. California guidance indicates that some Green Building Code provisions require separate submeters for tenant spaces projected to consume <strong>more than 100 gallons per day</strong>, along with dedicated metering for certain cooling-tower, evaporative-cooler, and boiler systems. <a href=\"https://www.energyanalytica.com/california-green-building-code-calgreen-meters/\">California Green Building Code metering guidance</a> shows why mechanical loads should follow their own measurement path instead of being hidden inside a tenant total.</p>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>Residential</th>\n<th>Commercial</th>\n<th>Mixed-use</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Electricity</td>\n<td>Suite-level electricity meters, common-area separation, repeatable billing</td>\n<td>Tenant meters may need to reflect varied operating schedules and equipment</td>\n<td>Separate residential, commercial, and common-area circuits</td>\n</tr>\n<tr>\n<td>Water</td>\n<td>Unit-level domestic water measurement and leak monitoring</td>\n<td>Tenant water, process loads, and mechanical systems may require distinct meters</td>\n<td>Isolate suites, retail or office spaces, HVAC, and common areas</td>\n</tr>\n<tr>\n<td>Gas</td>\n<td>Allocation may apply where permitted and technically practical</td>\n<td>Gas use can relate to cooking, process equipment, or building systems</td>\n<td>Assign gas loads according to tenant responsibility and system design</td>\n</tr>\n<tr>\n<td>Thermal energy</td>\n<td>Relevant where heating or cooling is centrally supplied</td>\n<td>Often important for HVAC cost allocation and tenant accountability</td>\n<td>Separate tenant thermal loads from central mechanical consumption</td>\n</tr>\n<tr>\n<td>Billing workflow</td>\n<td>Repeated monthly process across similar units</td>\n<td>Lease terms, usage patterns, and exceptions require more review</td>\n<td>One platform must support different rules without blending loads</td>\n</tr>\n</tbody></table>\n<p><a id=\"load-shape-matters-more-than-the-label-on-the-door\"></a></p>\n<h3>Load shape matters more than the label on the door</h3>\n<p>A residential suite generally follows a domestic consumption pattern. A restaurant, medical office, retailer, or workshop may operate on a different schedule and place demand on different systems. Commercial metering should identify those sources, not just install one meter at the property boundary.</p>\n<p>The <a href=\"https://www.axismeter.com/markets/commercial\">commercial submetering capabilities from Axis Meter Solutions</a> apply where owners need separate tenant and common-area measurement across office, retail, or other commercial assets. Residential programmes use the same underlying principle, but usually place greater weight on repeatable reads, clear resident statements, and consistent exception handling.</p>\n<p>Data governance changes with the property type. Residential billing may involve many similar accounts, while commercial billing must preserve lease-specific rules, tenant changes, estimated readings, corrections, and an audit trail. The owner also needs a defined process for meter failures, access issues, vacant spaces, and disputed charges.</p>\n<p>Tenant services shape operating expectations as well. In multi-family properties, utility management sits alongside resident connectivity and other building services. Owners evaluating <a href=\"https://premierbroadband.com/apartment-internet-solutions-how-premier-broadband-simplifies-streaming-gaming-and-work-for-multifamily-living/\">Premier Broadband streaming and gaming</a> should apply the same operational test: assign clear ownership, maintain dependable support, and communicate in terms occupants can understand.</p>\n<p><a id=\"mixed-use-design-needs-a-deliberate-boundary-map\"></a></p>\n<h3>Mixed-use design needs a deliberate boundary map</h3>\n<p>The strongest mixed-use designs begin with a load map identifying every tenant space, shared system, riser, panel, isolation valve, and mechanical connection. The map should also record the billing rule attached to each meter and the person responsible for maintaining that record.</p>\n<p>Without those controls, an owner can receive accurate readings and still issue unfair or unexplainable bills because the meter boundary is wrong. Long-term maintenance then becomes harder when staff change, tenants move, equipment is replaced, or a shared system is reconfigured.</p>\n<p><a id=\"navigating-regulatory-requirements-across-jurisdictions\"></a></p>\n<h2>Navigating Regulatory Requirements Across Jurisdictions</h2>\n<p>Regulatory planning should precede equipment selection. A meter may measure accurately and still be unsuitable for billing if it lacks the required approval, registration, certification, or supporting data process. The compliance burden also continues after commissioning. Owners must preserve records, manage exceptions, and keep the billing workflow aligned with rule changes.</p>\n<p>Ontario and California illustrate the difference. In Ontario, electricity unit sub-metering requires an appropriately licensed unit sub-meter provider. The billing process must distinguish validated, estimated, and edited readings under the Unit Sub-Metering Code. The code was updated in August 2025, so an older programme should be reviewed rather than assumed to remain compliant.</p>\n<p>California applies a different set of controls to water billing equipment. State guidance defines a water submeter as a device that measures an individual rental unit&#39;s consumption within a multi-unit residential or mixed-use residential and commercial structure. New multi-family construction must include submeters for individual units when applying for water service. Billing submeters require current type approval at installation, registration with the county weights-and-measures office before installation, and recertification at least every ten years. <a href=\"https://caanet.org/54832.kbdl\">California&#39;s water submetering guidance</a> shows why maintenance records and renewal dates belong in the operating plan, not only the construction file.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b8e517d0-1b1b-47ee-91db-4d36b767f107/residential-and-commercial-regulatory-requirements.jpg\" alt=\"An infographic titled Regulatory Requirements Across Jurisdictions illustrating standard local codes, utility mandates, and performance standards.\"></p>\n<p><a id=\"separate-the-approval-question-from-the-engineering-question\"></a></p>\n<h3>Separate the approval question from the engineering question</h3>\n<p>Engineering review asks whether a meter can measure the load. Compliance review must also establish:</p>\n<ul>\n<li><strong>Approval status:</strong> Is the device approved for its intended billing use?</li>\n<li><strong>Registration:</strong> Does installation require registration with a local weights-and-measures office or another authority?</li>\n<li><strong>Recertification:</strong> What verification or recertification cycle applies?</li>\n<li><strong>Billing disclosures:</strong> What information must accompany the tenant or customer bill?</li>\n<li><strong>Data treatment:</strong> How are missing, estimated, corrected, or edited readings recorded?</li>\n<li><strong>Responsibility:</strong> Who retains certificates, approvals, commissioning records, and maintenance history?</li>\n</ul>\n<p>California guidance for larger properties introduces another design consideration. New or qualifying multi-family and mixed-use buildings over <strong>50,000 square feet</strong> may trigger tenant-level metering or submetering requirements, depending on the applicable rules and utility guidance. The applicable California requirements also distinguish tenant spaces from high-load systems, including cooling-tower makeup water above <strong>500 gpm</strong>, evaporative coolers above <strong>6 gpm</strong>, and boilers above <strong>500,000 Btu/h</strong>. Owners should verify current thresholds before finalizing the meter schedule.</p>\n<p>A jurisdictional requirements matrix should be completed before equipment is ordered. It should name the authority, required approvals, installation conditions, billing rules, data retention expectations, and future maintenance obligations.</p>\n<p>That record prevents a common project failure: hardware is installed first, then the owner discovers that billing requires a different device, registration step, or audit trail. Compliance shapes the architecture and the long-term operating workload.</p>\n<p><a id=\"implementation-timeline-and-project-coordination\"></a></p>\n<h2>Implementation Timeline and Project Coordination</h2>\n<p>A practical implementation usually takes <strong>8 to 10 weeks from agreement to live meters</strong>, including equipment lead time. The calendar can change when engineering drawings, permits, utility coordination, access arrangements, or tenant communications require more review, but a defined sequence keeps decisions visible.</p>\n<p>The first phase is agreement and design. The owner and provider confirm the billing boundary, utility systems, meter locations, common-area treatment, jurisdiction, access requirements, and data outputs. Engineers and electricians then review drawings, panel arrangements, risers, isolation valves, communications pathways, and any constraints that could affect installation.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/94e89b9b-2a8f-4c70-86eb-6f28356e6f5e/residential-and-commercial-project-timeline.jpg\" alt=\"A four-step implementation timeline infographic outlining residential and commercial project coordination from design to go-live.\"></p>\n<p><a id=\"build-the-sequence-around-dependencies\"></a></p>\n<h3>Build the sequence around dependencies</h3>\n<p>Procurement and staging come next. Equipment should be ordered only after the design confirms the required meter types, approvals, accessories, communications hardware, and installation details. Staging gives the project team an opportunity to match devices to locations and identify missing components before trades arrive.</p>\n<p>On-site installation depends heavily on coordination. Property managers must communicate access requirements to residents and commercial tenants, while electricians and plumbers need an agreed work plan. Collaborative delivery can often reduce disruption to <strong>one or two days of site access</strong>, provided the equipment, drawings, permissions, and trade schedules are ready.</p>\n<blockquote>\n<p><strong>Coordination principle:</strong> The installation crew should not be the first team to discover an inaccessible panel, an unlabelled riser, or a tenant space that can&#39;t be entered.</p>\n</blockquote>\n<p><a id=\"commissioning-is-where-data-governance-becomes-real\"></a></p>\n<h3>Commissioning is where data governance becomes real</h3>\n<p>Commissioning should test more than whether a meter registers consumption. The team should confirm meter identity, location, direction, communication, time settings, account mapping, load allocation, and exception handling. Residential projects need accurate suite-to-account matching. Commercial projects also need tenant responsibility rules, mechanical allocations, and common-area treatment.</p>\n<p>Before go-live, the owner should approve the statement format, billing calendar, escalation path, estimated-reading policy, and tenant support process. Owners who aren&#39;t the utility account holder should also confirm how whole-building data will be retrieved from utility or municipal portals. A live meter without a reliable data intake process creates another fragmented record instead of a usable operating system.</p>\n<p><a id=\"water-submetering-as-an-operational-risk-management-tool\"></a></p>\n<h2>Water Submetering as an Operational Risk Management Tool</h2>\n<p>Water submetering is often sold as a cost-allocation method. That&#39;s too narrow for mixed residential and commercial properties. A water meter can show who used water, but a well-designed monitoring system can also help an owner identify abnormal consumption, investigate a failing fixture, and respond before a minor leak becomes a major building incident.</p>\n<p>The operational value comes from combining consumption data with defined response rules. A residential suite with unusual activity may require resident contact or a maintenance inspection. A retail tenant may have process-related use that looks abnormal until compared with operating hours and equipment. A central mechanical system can create a separate pattern that should never be assigned to individual tenants.</p>\n<p>Toronto&#39;s reporting guidance frames submetering as detailed tracking for individual tenants or systems. That level of visibility supports more than invoicing. It gives property teams a way to compare expected and observed behaviour, provided the meter boundaries and data records are reliable.</p>\n<p><a id=\"privacy-and-access-require-a-written-process\"></a></p>\n<h3>Privacy and access require a written process</h3>\n<p>Owners regularly ask how they can reconcile tenant privacy, utility access rights, and leak detection across multiple meter types. The answer isn&#39;t to collect less information blindly. It&#39;s to define who can see which data, why they can see it, how long records are retained, and who responds to an alert.</p>\n<p>Calgary&#39;s whole-building water data process shows the practical tension. Access to historical usage may depend on utility-managed requests, and authorisation may be needed when spaces are separately metered. That means an owner needs a documented permission path before an incident occurs, not while water is already escaping.</p>\n<p>The programme should distinguish between:</p>\n<ul>\n<li><strong>Billing data:</strong> Information needed to calculate and explain tenant charges.</li>\n<li><strong>Operational alerts:</strong> Consumption signals used by authorised staff for maintenance or emergency response.</li>\n<li><strong>Building totals:</strong> Aggregated information used for reporting and benchmarking.</li>\n<li><strong>Access records:</strong> Documentation showing who requested, viewed, edited, or approved information.</li>\n</ul>\n<p>Leak and flood detection can extend the value of the installation into asset protection. Axis Meter Solutions describes <a href=\"https://www.axismeter.com/blog/sub-metered-water\">sub-metered water monitoring and related capabilities</a> in a way that reflects this broader use case. The important point is architectural: sensors, alert routing, shutoff decisions, and escalation responsibilities must be designed alongside billing, not added as an afterthought.</p>\n<p><a id=\"the-case-for-turnkey-submetering-partnerships\"></a></p>\n<h2>The Case for Turnkey Submetering Partnerships</h2>\n<p>Self-managed submetering looks straightforward until the owner lists every recurring responsibility. Someone must procure approved equipment, coordinate trades, manage permits, commission the system, create tenant accounts, issue monthly bills, handle collections, answer disputes, maintain records, replace failed meters, and keep the programme aligned with changing rules.</p>\n<p>That workload is manageable for an organisation with dedicated technical and billing staff. It becomes an avoidable distraction for an owner whose core business is operating real estate. The risk isn&#39;t limited to labour. Poorly maintained records can create billing disputes, delayed corrections, and compliance exposure.</p>\n<p><a id=\"compare-the-operating-models-honestly\"></a></p>\n<h3>Compare the operating models honestly</h3>\n<p>A turnkey arrangement shifts many of those functions to a specialist. Axis Meter Solutions offers a <strong>$0 upfront cost structure</strong>, with provider-owned and maintained equipment over a standard <strong>20-year term</strong>. Its scope includes installation, commissioning, tenant billing, collections workflows, resident support, monitoring, maintenance, and meter replacement, subject to the agreement.</p>\n<p>That structure changes the owner&#39;s decision from a capital purchase to a long-term service commitment. The trade-off is reduced direct control over equipment and a contractual obligation that requires careful review. Owners should examine service levels, termination rights, data ownership, billing responsibilities, maintenance standards, insurance, bonding, and treatment of disputed charges before signing.</p>\n<p><a href=\"https://www.axismeter.com/features/utility-metering-installation-maintenance\">Utility metering installation and maintenance services</a> are most useful when the provider accepts responsibility for the full operating chain rather than only mounting meters on a wall. A turnkey partner can also support smaller properties, including buildings with <strong>5 to 10 units</strong>, as well as larger portfolios.</p>\n<blockquote>\n<p><strong>Contract review point:</strong> “No upfront cost” doesn&#39;t remove risk. It relocates risk into the agreement, service process, and provider accountability.</p>\n</blockquote>\n<p>For owners, the strongest case for turnkey delivery is administrative continuity. Tenant communications, billing corrections, compliance records, and maintenance shouldn&#39;t depend on one employee remembering how a legacy system works.</p>\n<p><a id=\"evaluating-your-building-for-submetering-readiness\"></a></p>\n<h2>Evaluating Your Building for Submetering Readiness</h2>\n<p>A building is ready for submetering when its physical systems, records, people, and jurisdictional requirements can support repeatable data collection. New construction can often plan meter locations and boundaries early. Existing buildings require more investigation because panels, risers, valves, tenant spaces, and utility accounts may not align with the owner&#39;s preferred billing model.</p>\n<p>Start with the current utility structure. Gather invoices, account numbers, meter lists, tenant responsibility clauses, common-area allocations, and records of estimated or disputed charges. If the owner can&#39;t explain how the current bill reaches each tenant, a submetering project needs a data mapping exercise before installation.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f446a4e2-4d89-465d-b77b-767f64cd9ac1/residential-and-commercial-submetering-readiness.jpg\" alt=\"A checklist for evaluating building submetering readiness, covering physical access, electrical infrastructure, water lines, and regulatory requirements.\"></p>\n<p><a id=\"use-a-four-part-readiness-check\"></a></p>\n<h3>Use a four-part readiness check</h3>\n<ol>\n<li><p><strong>Physical access:</strong> Verify access to utility rooms, risers, panels, meter banks, ceiling spaces, and tenant areas. Record restrictions before the installer schedules work.</p>\n</li>\n<li><p><strong>Electrical infrastructure:</strong> Confirm panel capacity, circuit identification, wiring routes, and the location of common-area loads. Commercial properties need particular care where tenant equipment and central systems share distribution paths.</p>\n</li>\n<li><p><strong>Water line layout:</strong> Map pipe runs, unit branches, isolation valves, domestic supplies, mechanical systems, and any spaces that are separately metered. A meter plan is only as reliable as the pipe boundary behind it.</p>\n</li>\n<li><p><strong>Regulatory jurisdiction:</strong> Identify the province, state, municipality, utility, code requirements, approval obligations, billing rules, and maintenance cycles that apply to each system.</p>\n</li>\n</ol>\n<p>California owners should test whether their multi-family or mixed-use building falls within applicable requirements associated with the <strong>50,000-square-foot</strong> threshold, while Ontario owners should confirm the current unit sub-metering and reporting obligations for the property. The question isn&#39;t whether submetering is permitted. It&#39;s whether the proposed design can produce defensible data every month.</p>\n<p>Tenant communication also matters. Prepare explanations for why meters are being installed, what charges will change, how estimated readings are handled, who receives support requests, and how privacy is protected. Commercial tenants may need a different notice process because their leases often define utility responsibility and operating cost recovery.</p>\n<p>The final readiness test is operational ownership. Name the person responsible for meter exceptions, data requests, billing approvals, leak alerts, tenant disputes, and maintenance escalations. If nobody owns those tasks, the building isn&#39;t ready, even if the physical installation looks simple.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/mZDyrol1swk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>Property owners should request a site assessment that covers both installation feasibility and long-term data governance. Axis Meter Solutions provides coordinated metering, commissioning, tenant billing, leak and flood detection, maintenance, and jurisdiction-specific compliance planning for residential, commercial, and mixed-use properties. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your building&#39;s utility boundaries, reporting obligations, and readiness for a properly managed submetering programme.</p>",
+  "tags": [
+    "submetering",
+    "residential and commercial",
+    "utility billing",
+    "property management",
+    "water submetering"
+  ],
+  "title": "Residential and Commercial Submetering for Property Owners",
+  "updatedAt": "2026-08-17T07:18:13.675Z"
+}
