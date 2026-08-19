@@ -1,0 +1,2603 @@
+{
+  "_createdAt": "2026-08-18T07:44:21Z",
+  "_id": "outrank-cd3e266e-c520-4ff5-bfcb-ae2e1bfbe5f6",
+  "_rev": "TMF06sVuj6glue9PI1CLHj",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-18T07:44:21Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "796fa28ee937",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2479d4664cf9",
+          "_type": "span",
+          "marks": [],
+          "text": "You're staring at a bulk water bill that keeps rising, but you can't tell which suites are driving consumption, whether a common-area fixture is leaking, or why residents are disputing their charges. The building's master meter tells you how much water entered the property. It doesn't tell you who used it, where an abnormal flow started, or how quickly you should respond."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb20e44bd8a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "390876576346",
+          "_type": "span",
+          "marks": [],
+          "text": "That's the operating gap "
+        },
+        {
+          "_key": "90ad214be15d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "residential water meters and submetering"
+        },
+        {
+          "_key": "22c4825a102d",
+          "_type": "span",
+          "marks": [],
+          "text": " are designed to close. Properly deployed, they turn water from an opaque bulk expense into a measured utility with suite-level billing, clearer reporting, and continuous leak visibility. The result isn't just a cleaner invoice. It's a more defensible operating model for owners, managers, condo boards, and residents."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4da332d097c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "007c366d108c",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "d309a40bfaa7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56fed6e7b2c1",
+          "_type": "span",
+          "marks": [
+            "7d1155440a0c"
+          ],
+          "text": "Why Property Owners Are Rethinking Residential Water Meters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7d1155440a0c",
+          "_type": "link",
+          "href": "#why-property-owners-are-rethinking-residential-water-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6a3894e8ec8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e144a71ec921",
+          "_type": "span",
+          "marks": [
+            "d066d67df48d"
+          ],
+          "text": "How Residential Water Meters and Submetering Actually Work"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d066d67df48d",
+          "_type": "link",
+          "href": "#how-residential-water-meters-and-submetering-actually-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "66fca317bcef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a3d7b90fc55",
+          "_type": "span",
+          "marks": [
+            "ee681252eb9b"
+          ],
+          "text": "Types of Residential Water Meters and Where Each Fits Best"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ee681252eb9b",
+          "_type": "link",
+          "href": "#types-of-residential-water-meters-and-where-each-fits-best"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fb7ab278487c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae87e5357e47",
+          "_type": "span",
+          "marks": [
+            "b19a7a0c6837"
+          ],
+          "text": "Leak Detection That Turns a Small Drip Into a Prevented Repair"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b19a7a0c6837",
+          "_type": "link",
+          "href": "#leak-detection-that-turns-a-small-drip-into-a-prevented-repair"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e7d93089df31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "978cb8cf7ce0",
+          "_type": "span",
+          "marks": [
+            "eea5cd05ef5d"
+          ],
+          "text": "Cost Recovery, NOI Lift, and Fewer Billing Disputes"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eea5cd05ef5d",
+          "_type": "link",
+          "href": "#cost-recovery-noi-lift-and-fewer-billing-disputes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "47dad2be4683",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d70322859fe",
+          "_type": "span",
+          "marks": [
+            "16269bdb9b0b"
+          ],
+          "text": "Implementation Timeline and the Provider-Owned Model"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "16269bdb9b0b",
+          "_type": "link",
+          "href": "#implementation-timeline-and-the-provider-owned-model"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "772b2a9c3618",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "701773717eee",
+          "_type": "span",
+          "marks": [
+            "cccf5073d1df"
+          ],
+          "text": "The five phases that control the rollout"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cccf5073d1df",
+          "_type": "link",
+          "href": "#the-five-phases-that-control-the-rollout"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "530497e2fd6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "342282d1b339",
+          "_type": "span",
+          "marks": [
+            "52e5910fa2a3"
+          ],
+          "text": "What provider ownership changes"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "52e5910fa2a3",
+          "_type": "link",
+          "href": "#what-provider-ownership-changes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "146bc7faed35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fce4876b01cc",
+          "_type": "span",
+          "marks": [
+            "98e449f5a6fc"
+          ],
+          "text": "Tenant Billing Reporting and Maintenance Through the Agreement"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "98e449f5a6fc",
+          "_type": "link",
+          "href": "#tenant-billing-reporting-and-maintenance-through-the-agreement"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a9dd90c77fe7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e899eeb1da80",
+          "_type": "span",
+          "marks": [
+            "d252627b09f0"
+          ],
+          "text": "A Practical ROI View for a Multi-Family or Condo Building"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d252627b09f0",
+          "_type": "link",
+          "href": "#a-practical-roi-view-for-a-multi-family-or-condo-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f35ed893b565",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d4d0a6bb0df",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dee8ea455fdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d65c0411e880",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Property Owners Are Rethinking Residential Water Meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5b5feb04d11d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d4289998e75",
+          "_type": "span",
+          "marks": [],
+          "text": "For years, many properties treated water as a shared cost. The utility sent one bill, the owner or condominium corporation paid it, and the expense was spread through rent, fees, or an allocation formula. That approach is easy to administer until consumption changes, a leak runs unnoticed, or one resident asks why their charge looks identical to a neighbour's despite very different usage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e14c0c532cbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c1ae0680398",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian adoption has never been completely uniform. The federal residential water-use indicator recorded household metering at "
+        },
+        {
+          "_key": "942ad73428b7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "52% in 1991 and 74% in 2009"
+        },
+        {
+          "_key": "d21eff40e080",
+          "_type": "span",
+          "marks": [],
+          "text": " in one survey series. A later series recorded "
+        },
+        {
+          "_key": "21026c00c40d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "62% in 2006, 58% in 2007, 61% in 2009, and 58% in 2011"
+        },
+        {
+          "_key": "ac9d16d123d6",
+          "_type": "span",
+          "marks": [],
+          "text": ", showing that coverage was widespread but varied by survey method and year. The indicator tracks household metering alongside per-capita residential water use and draws on national survey sources, including Environment Canada's Municipal Water Use and Pricing survey and Statistics Canada's Survey of Drinking Water Plants. ("
+        },
+        {
+          "_key": "6d27e9751058",
+          "_type": "span",
+          "marks": [
+            "ac5dd936a81e"
+          ],
+          "text": "Canada's residential water-use indicator"
+        },
+        {
+          "_key": "9d644ee8e3b3",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ac5dd936a81e",
+          "_type": "link",
+          "href": "https://www.canada.ca/content/dam/eccc/migration/main/indicateurs-indicators/d43360e1-44bd-4f59-9e4b-ae4932a47752/residentialwateruse_en.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b9b17fde0bc3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b8088954cd2",
+          "_type": "span",
+          "marks": [],
+          "text": "Regional implementation can move much faster. Metro Vancouver installed residential meters in successive rounds beginning between "
+        },
+        {
+          "_key": "249ff5c98c5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1988 and the mid-1990s"
+        },
+        {
+          "_key": "93991fe5a81d",
+          "_type": "span",
+          "marks": [],
+          "text": ", followed by another round from the mid-1990s to the early 2000s. By "
+        },
+        {
+          "_key": "03552b747d97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2002, about 90% of residential buildings had meters installed"
+        },
+        {
+          "_key": "f32b03a3751b",
+          "_type": "span",
+          "marks": [],
+          "text": ", while mandatory metering for single-family residential programs applied from "
+        },
+        {
+          "_key": "6a61795a38db",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2007"
+        },
+        {
+          "_key": "3ab885eb7886",
+          "_type": "span",
+          "marks": [],
+          "text": " and new construction had been metered since "
+        },
+        {
+          "_key": "141ab37280ac",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1999"
+        },
+        {
+          "_key": "86698bd197a6",
+          "_type": "span",
+          "marks": [],
+          "text": ". ("
+        },
+        {
+          "_key": "1020bdb732f2",
+          "_type": "span",
+          "marks": [
+            "353bde571bdf"
+          ],
+          "text": "Metro Vancouver's residential water metering best-practices guide"
+        },
+        {
+          "_key": "ecc023b9ce5f",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "353bde571bdf",
+          "_type": "link",
+          "href": "https://metrovancouver.org/services/water/Documents/residential-water-metering-in-metro-vancouver-best-practices-guide.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "769e945781ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ac179f73d88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The practical rule:"
+        },
+        {
+          "_key": "0ebc25a819ba",
+          "_type": "span",
+          "marks": [],
+          "text": " A meter isn't only a billing device. It's a continuous visibility tool for consumption, abnormal flow, and operating risk."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "5fe4588e8700",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c1d6cdf9a85",
+          "_type": "span",
+          "marks": [],
+          "text": "For an owner, that visibility supports "
+        },
+        {
+          "_key": "2f15a2b215b9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cost recovery, fewer billing disputes, faster leak response, and clearer NOI reporting"
+        },
+        {
+          "_key": "7e7496bf16e0",
+          "_type": "span",
+          "marks": [],
+          "text": ". For residents, it creates a more understandable connection between use and charges. The key is to treat the project as an operating system, not as a box of meters installed in mechanical rooms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ed4e825ac35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7681df0a145",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e598e1901db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2148bcaff084",
+          "_type": "span",
+          "marks": [],
+          "text": "How Residential Water Meters and Submetering Actually Work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "483d4ebc37f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "778e5f6c79b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the water path. The municipal supply enters the property through the "
+        },
+        {
+          "_key": "eb1d56c7bd19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "utility master meter"
+        },
+        {
+          "_key": "ac1180a11e30",
+          "_type": "span",
+          "marks": [],
+          "text": ", which records total building consumption. Inside the property, pipes branch through risers and distribution lines. A suite-level residential water meter measures the water assigned to a particular unit, while separate common-area meters can track shared facilities, amenities, mechanical systems, or retail spaces."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb6145bee0f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be4eeef283a8",
+          "_type": "span",
+          "marks": [],
+          "text": "The billing chain usually looks like this:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69eb8b2cfa32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c8d5f55fa0d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Water enters the building."
+        },
+        {
+          "_key": "309e5d40c533",
+          "_type": "span",
+          "marks": [],
+          "text": " The utility master meter records the property's total demand."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d953e4f82d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d70e655e6d06",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Suite meters measure individual use."
+        },
+        {
+          "_key": "5916d86a383f",
+          "_type": "span",
+          "marks": [],
+          "text": " Each meter records the volume passing through the suite's supply line."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d506297fae9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1af4df786f15",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A register or communications device captures reads."
+        },
+        {
+          "_key": "3dd76b2a5c0a",
+          "_type": "span",
+          "marks": [],
+          "text": " Depending on the design, the system may use pulse output, remote reading, or automated communications."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf5b60918e2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37ff30e0d441",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The platform validates consumption."
+        },
+        {
+          "_key": "235e822a2278",
+          "_type": "span",
+          "marks": [],
+          "text": " It flags missing reads, unusual flow, and data gaps."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "140d04d69a6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "698b6fa6a181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The provider generates invoices and reports."
+        },
+        {
+          "_key": "32233935167a",
+          "_type": "span",
+          "marks": [],
+          "text": " The resident receives a charge based on the approved billing method, while the owner receives consumption and operating reports."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8bdc6cc9d5ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "caa93732295f",
+          "_type": "span",
+          "marks": [],
+          "text": "Think of the master meter as the building's odometer and suite meters as trip counters assigned to each unit. The odometer tells you how far the whole vehicle travelled. The trip counters show which route each driver took. Neither measurement replaces the other. The master meter helps reconcile the property's total demand, while suite-level meters support individual billing and investigation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7282e8507cea",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how residential water meters and submetering systems work within a multi-unit apartment building.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d3fba7f5-6b69-41bf-bd41-83722307ef09/residential-water-meters-water-metering.jpg"
+    },
+    {
+      "_key": "9cd42972d8a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "277cb4ccc0a1",
+          "_type": "span",
+          "marks": [],
+          "text": "Ownership and responsibility need to be documented before installation. The utility generally controls the master-meter relationship. The property owner, condominium corporation, or service provider may own the suite meters, communications equipment, billing platform, or maintenance obligations. A contract should state who handles failed reads, access issues, replacements, resident questions, and data retention."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09d057cede09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55697fd658d1",
+          "_type": "span",
+          "marks": [],
+          "text": "Measurement Canada approval matters wherever a meter is used for trade measurement, including billing arrangements that fall within applicable federal requirements. Provincial rules can add another layer. In Ontario, electricity unit-submetering providers operate under Ontario Energy Board requirements, and a provider's licensing position should be confirmed for the services being delivered. Don't accept “compliant” as a sales adjective. Ask which meter approvals, licences, permits, and commissioning records apply to your building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "943ba92bba5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3bbfacaf310",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1e7fdb13067",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d118e44e33ba",
+          "_type": "span",
+          "marks": [],
+          "text": "Types of Residential Water Meters and Where Each Fits Best"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "764b34a9275b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46fff08a4a44",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter selection should follow the building's plumbing layout, flow profile, access conditions, communications needs, and billing model. A 12-suite low-rise doesn't need the same architecture as a 200-unit high-rise or a mixed-use tower with retail and shared mechanical loads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae555b264abb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5fb4df7938f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Positive displacement meters"
+        },
+        {
+          "_key": "8e12a120bdd0",
+          "_type": "span",
+          "marks": [],
+          "text": " are familiar mechanical devices that measure water through a chamber that fills and empties. They can suit smaller residential lines and straightforward installations, especially where purchase cost and simple servicing matter. Their weakness is ageing performance at low flow. Toronto's water-meter accuracy review notes that the American Water Works Association standard allows residential meters to deviate by only "
+        },
+        {
+          "_key": "60dd00cb41b4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "±1.5%"
+        },
+        {
+          "_key": "2017a7c70224",
+          "_type": "span",
+          "marks": [],
+          "text": ", and Toronto Water found "
+        },
+        {
+          "_key": "7869f9070e8f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "94% of 890 tested meters"
+        },
+        {
+          "_key": "ead605bf32c1",
+          "_type": "span",
+          "marks": [],
+          "text": " within that range or under-registering. The same review found that inaccuracies generally involved under-registration, particularly as meters aged past about "
+        },
+        {
+          "_key": "3e4d5b91980e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20 years"
+        },
+        {
+          "_key": "3e544e2088c2",
+          "_type": "span",
+          "marks": [],
+          "text": ". ("
+        },
+        {
+          "_key": "6ae8b88468a2",
+          "_type": "span",
+          "marks": [
+            "b344988d7f6d"
+          ],
+          "text": "Toronto's water-meter accuracy review"
+        },
+        {
+          "_key": "912ade489275",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b344988d7f6d",
+          "_type": "link",
+          "href": "https://www.ombudsmantoronto.ca/wp-content/uploads/2023/09/2012-04-30-Ombudsman-Report-Water-Works.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "222dcabc07ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81948397654d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ultrasonic meters"
+        },
+        {
+          "_key": "a995db8e0741",
+          "_type": "span",
+          "marks": [],
+          "text": " use sound waves rather than moving measurement chambers. They're attractive for new construction, constrained meter rooms, and projects that need strong low-flow sensitivity with fewer moving parts. They also pair well with remote data collection. For a practical technical overview, review "
+        },
+        {
+          "_key": "3003c25db01b",
+          "_type": "span",
+          "marks": [
+            "0de4b7e64cdb"
+          ],
+          "text": "ultrasonic flow meter operation and applications"
+        },
+        {
+          "_key": "c2e27fde3cb9",
+          "_type": "span",
+          "marks": [],
+          "text": " before comparing proposals."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0de4b7e64cdb",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "93d077166f35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d9ff11d6e34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Electromagnetic meters"
+        },
+        {
+          "_key": "52ee588590dc",
+          "_type": "span",
+          "marks": [],
+          "text": " measure flow through an induced electrical signal and are typically more relevant to larger lines, process applications, or building-level and commercial sections than to ordinary suite feeds. They need a suitable conductive liquid and proper installation conditions, so they shouldn't be selected merely because the specification sheet looks advanced."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61f29774b24c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd4e2a7147cd",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca67e7307dae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07f0483897a9",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical Accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9074f666e253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8fc1aee3b89",
+          "_type": "span",
+          "marks": [],
+          "text": "Best Fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a4367673405",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5009a0f1f081",
+          "_type": "span",
+          "marks": [],
+          "text": "Notes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f734d151ad3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "676ab9aa513b",
+          "_type": "span",
+          "marks": [],
+          "text": "Positive displacement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "445fc0264958",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9320fca0323",
+          "_type": "span",
+          "marks": [],
+          "text": "Within the applicable billing tolerance when properly selected, installed, and maintained"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3671b334477",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49b78b90b480",
+          "_type": "span",
+          "marks": [],
+          "text": "Smaller low-rise buildings and conventional suite lines"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec46a8c851c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64ac2127cee1",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical design, familiar servicing, ageing and low-flow performance require attention"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41e7bf18f240",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5895834cfd8",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f7e3ed5cafc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8f103337e74",
+          "_type": "span",
+          "marks": [],
+          "text": "Designed for precise digital measurement, subject to approval and installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b688df54818",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2191bb00bb02",
+          "_type": "span",
+          "marks": [],
+          "text": "New construction, high-rise suites, retrofit locations with limited access"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1236130b7983",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4f9b2529bda",
+          "_type": "span",
+          "marks": [],
+          "text": "Few moving parts, strong communications options, confirm approved configuration"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cae8eb0bbdba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfe2c75cc12d",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e99b07b6fce1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3e6b626dbef",
+          "_type": "span",
+          "marks": [],
+          "text": "Suitable for properly designed larger-line applications"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39e03fc43fd7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a394a5120cd9",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use sections, process lines, and selected building-level uses"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f42dc10e9c08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a259db195e1",
+          "_type": "span",
+          "marks": [],
+          "text": "Requires appropriate pipe conditions and conductive water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b86d273a33c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46d4dc026328",
+          "_type": "span",
+          "marks": [],
+          "text": "Also separate "
+        },
+        {
+          "_key": "10780bc0242a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cold-water and hot-water metering"
+        },
+        {
+          "_key": "2e56c2069c2e",
+          "_type": "span",
+          "marks": [],
+          "text": ". A domestic hot-water system may require different meter materials, temperature ratings, and installation practices than a cold-water line. Remote-read systems send data through a local collection network, while AMI-style systems automate transmission and enable more frequent monitoring. The right answer depends less on the label and more on whether the system can produce reliable, auditable reads for your billing cycle and leak-response process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a34e9eb834a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc1eda6afd1e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ddfb2bb81895",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1665d164ce8c",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak Detection That Turns a Small Drip Into a Prevented Repair"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2aa16a87c241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6d44e551248",
+          "_type": "span",
+          "marks": [],
+          "text": "A monthly bill tells you that water was used. A connected residential water meter can help show "
+        },
+        {
+          "_key": "cc6132fda728",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "when flow occurred and whether it continued when the suite should have been idle"
+        },
+        {
+          "_key": "4be3b31b99f2",
+          "_type": "span",
+          "marks": [],
+          "text": ". That distinction is where the financial value often sits."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52d5eb5935b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89b7c29fed3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto's municipal guidance reports that a "
+        },
+        {
+          "_key": "0a3b3b0480ee",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/16-inch hole can waste 3.57 m³ per day and cost about $2,083 over 120 days"
+        },
+        {
+          "_key": "b80b848cd3e7",
+          "_type": "span",
+          "marks": [],
+          "text": ". Vaughan warns that a "
+        },
+        {
+          "_key": "086ed07e3590",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/32-inch leak can waste 180 m³ per year and cost about $640 annually"
+        },
+        {
+          "_key": "b25909b49ff9",
+          "_type": "span",
+          "marks": [],
+          "text": ". These figures are not theoretical plumbing trivia. They explain why a small toilet leak, failed valve, leaking flange, or pinhole can remain financially material even when nobody sees water on the floor. ("
+        },
+        {
+          "_key": "f93d8db9e78d",
+          "_type": "span",
+          "marks": [
+            "3f0b491b9c2a"
+          ],
+          "text": "Toronto's leak cost guidance"
+        },
+        {
+          "_key": "77d5d9083134",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3f0b491b9c2a",
+          "_type": "link",
+          "href": "https://www.toronto.ca/services-payments/property-taxes-utilities/utility-bill/high-water-bill-leaks/water-leaks-costs-how-to-spot-a-leak/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0b6ce841aa2a",
+      "_type": "externalImage",
+      "alt": "An infographic illustrating that U.S. household leaks waste 1 trillion gallons of water annually, costing homeowners money.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b0df3b13-5501-460e-8005-77ae4397abd0/residential-water-meters-water-waste.jpg"
+    },
+    {
+      "_key": "c84e2469d265",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05a2214f5618",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter-based alert looks for flow behaviour. If a suite shows continuous consumption during a period that normally contains no activity, the system can create an exception for review. That alert doesn't prove the fixture or pipe has failed, but it gives the manager a defined unit, time window, and investigation target."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2302198ad030",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9817e5465f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Flood sensors serve a different purpose. Place them near water heaters, laundry equipment, mechanical closets, or other vulnerable points, and they can detect water where it reaches the sensor. Meter alerts detect flow through the pipe. A strong program uses both layers:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bce6ee97d4a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e87a7bab722",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Meter-flow monitoring:"
+        },
+        {
+          "_key": "0154bf5f5c42",
+          "_type": "span",
+          "marks": [],
+          "text": " Finds persistent or unusual consumption, including hidden fixture leaks."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9dcbd4108381",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb1f426718ff",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Point flood sensors:"
+        },
+        {
+          "_key": "56dfa0c47cc3",
+          "_type": "span",
+          "marks": [],
+          "text": " Detects water accumulation at known failure locations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5c2bc41b3a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0670642ed5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Human response procedures:"
+        },
+        {
+          "_key": "262c9ea959da",
+          "_type": "span",
+          "marks": [],
+          "text": " Assigns someone to contact the resident, inspect the suite, isolate the line, or call a plumber."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fdd5902f5e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92f65d86bb1c",
+          "_type": "span",
+          "marks": [],
+          "text": "For practical plumbing response planning, "
+        },
+        {
+          "_key": "e98cab6c7f0f",
+          "_type": "span",
+          "marks": [
+            "ea8906680066"
+          ],
+          "text": "Good Boy Plumbing leak detection"
+        },
+        {
+          "_key": "8e069e92125b",
+          "_type": "span",
+          "marks": [],
+          "text": " provides useful context on professional leak investigation and related service work. The important operating decision is not whether a dashboard can display an alert. It's whether your team has an escalation path after the alert arrives."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ea8906680066",
+          "_type": "link",
+          "href": "https://goodboyfl.com/hydrojetting/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5da6b0c50e33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a2cf7aadb0d",
+          "_type": "span",
+          "marks": [],
+          "text": "This "
+        },
+        {
+          "_key": "07fbe3fb1bf6",
+          "_type": "span",
+          "marks": [
+            "dcc1e99c05a1"
+          ],
+          "text": "water leak detection system overview"
+        },
+        {
+          "_key": "1ae8e5195a6f",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful when evaluating how meter data, sensors, notifications, and maintenance workflows should work together. Treat leak detection as an "
+        },
+        {
+          "_key": "6b18b99025e6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "insurance and preservation function"
+        },
+        {
+          "_key": "96d109c205d4",
+          "_type": "span",
+          "marks": [],
+          "text": ", not a decorative software feature. A small recurring flow identified early can prevent water waste, resident disruption, mould remediation, and a much larger repair conversation."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dcc1e99c05a1",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f9e3c2e4d013",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "682468b9463d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77da50415cb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5f9adcbf6bb",
+          "_type": "span",
+          "marks": [],
+          "text": "Cost Recovery, NOI Lift, and Fewer Billing Disputes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b410b563f75e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed59bf36baf6",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner's financial case is straightforward. If the property pays one bulk water bill while residents have no usage measurement, the owner carries the consumption risk and has limited ability to explain changes. Suite-level metering creates a defensible record that can support consumption-based billing or an allocation approach, subject to the lease, condominium documents, municipal rules, and provincial requirements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77a40fca055b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df1b8021aec0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submetering"
+        },
+        {
+          "_key": "2c5f7f888e30",
+          "_type": "span",
+          "marks": [],
+          "text": " measures actual suite consumption. "
+        },
+        {
+          "_key": "9bb839892e53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Allocation"
+        },
+        {
+          "_key": "c2e257009466",
+          "_type": "span",
+          "marks": [],
+          "text": " divides a building or group bill using a formula, such as unit size, occupancy assumptions, or another permitted basis. Allocation can be appropriate where plumbing design prevents individual measurement, but it doesn't provide the same leak visibility or resident-specific consumption record. If individual lines are accessible and the jurisdiction permits the arrangement, actual submetering is usually the stronger operating choice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5995d5ac9fe0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6fd71a1d5d8",
+          "_type": "span",
+          "marks": [],
+          "text": "The numbers must reconcile. A property should compare the sum of suite and common-area reads against the master meter, investigate material gaps, and keep a record of adjustments. That process supports accurate invoices and helps identify common-area losses, unmetered branches, read failures, or plumbing changes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1ec5f1daee3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d1239112e3b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Transparency reduces friction:"
+        },
+        {
+          "_key": "0916ab4e3446",
+          "_type": "span",
+          "marks": [],
+          "text": " Residents are more likely to accept a charge when the property can show the meter read, billing period, rate basis, and correction process."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "05d4021dad7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6369edd2219a",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing platform should connect four tasks that are often handled separately:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9426d7353a83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fb45354ff63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read management:"
+        },
+        {
+          "_key": "b5cd331f8427",
+          "_type": "span",
+          "marks": [],
+          "text": " Capture, validate, and store meter data."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a938600c68e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9eab952d875",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Invoice production:"
+        },
+        {
+          "_key": "8ce8bcf54fd4",
+          "_type": "span",
+          "marks": [],
+          "text": " Apply the approved rate and billing rules."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66dbae9b7b0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0068cec04d50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Resident support:"
+        },
+        {
+          "_key": "b95e9e4dfec0",
+          "_type": "span",
+          "marks": [],
+          "text": " Explain charges, manage disputes, and document adjustments."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f6901dbf3e03",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e1ece026e65",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owner reporting:"
+        },
+        {
+          "_key": "267c2d8b94f6",
+          "_type": "span",
+          "marks": [],
+          "text": " Show recoveries, consumption, exceptions, arrears workflows, and common-area performance."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2a48f89944f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "737c29e1d78a",
+          "_type": "span",
+          "marks": [],
+          "text": "A provider's "
+        },
+        {
+          "_key": "f5d05f8c7b2f",
+          "_type": "span",
+          "marks": [
+            "95b16fe01c08"
+          ],
+          "text": "multifamily utility billing platform"
+        },
+        {
+          "_key": "d303b9a76ad6",
+          "_type": "span",
+          "marks": [],
+          "text": " should be evaluated against those operating requirements, not just its invoice template. Ask whether the system distinguishes actual reads from estimates, preserves an audit trail, supports move-ins and move-outs, and gives property staff access to the reports they need."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "95b16fe01c08",
+          "_type": "link",
+          "href": "https://www.axismeter.com/features/multifamily-utility-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "83c9e9dd4fb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f50c567b0cf",
+          "_type": "span",
+          "marks": [],
+          "text": "The NOI benefit comes from "
+        },
+        {
+          "_key": "6fdd461b5720",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cost recovery and predictability"
+        },
+        {
+          "_key": "79d2415f6aee",
+          "_type": "span",
+          "marks": [],
+          "text": ", not from assuming residents will suddenly use less water. Conservation may follow when charges become visible, but an owner should build the financial model around recoverable expenses, avoided waste, administrative savings, and better control of exceptions. Confirm the legal billing rights before presenting any projected NOI improvement to a lender, buyer, or board."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd391b6cfa36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68234e5a7783",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb451ed8604e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2531e0dc326",
+          "_type": "span",
+          "marks": [],
+          "text": "Implementation Timeline and the Provider-Owned Model"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0ac4a2ae5f95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9b1d29598c6",
+          "_type": "span",
+          "marks": [],
+          "text": "A properly managed installation typically moves from agreement to live meters in "
+        },
+        {
+          "_key": "0a9f13adecda",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 weeks"
+        },
+        {
+          "_key": "c61894e2dad9",
+          "_type": "span",
+          "marks": [],
+          "text": ", including equipment lead time. The calendar only works when the property supplies accurate drawings, confirms suite access, and makes decisions quickly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ea01acb20050",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0e2505b5f63",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca1c9483c270",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef095db12b9f",
+          "_type": "span",
+          "marks": [],
+          "text": "The five phases that control the rollout"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "663c9a5c466c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5daba7838c34",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Design and planning"
+        },
+        {
+          "_key": "00f9208fe170",
+          "_type": "span",
+          "marks": [],
+          "text": " establish the meter map. The project team identifies risers, suite branches, common areas, meter sizes, communications paths, isolation points, and access constraints. A provider should flag suites that need plumbing modifications at this stage rather than discovering the issue on installation day."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e9620a279c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd9821d94b14",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Permitting and compliance"
+        },
+        {
+          "_key": "8627dfd26ac0",
+          "_type": "span",
+          "marks": [],
+          "text": " follow the design. Ask who is responsible for permits, meter approvals, commissioning records, notices, and jurisdiction-specific billing requirements. For electricity unit sub-metering in Ontario, confirm the provider's Ontario Energy Board status. Axis Meter Solutions identifies its Ontario Energy Board Unit Sub-Meter Provider licence as "
+        },
+        {
+          "_key": "06ca6fd1cfa0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ES-2022-0268"
+        },
+        {
+          "_key": "21c299e8982b",
+          "_type": "span",
+          "marks": [],
+          "text": ", while water projects still require the applicable Measurement Canada and local compliance review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7abd924cb91a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c3cb2d39620",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Equipment lead time"
+        },
+        {
+          "_key": "b935f6c205b5",
+          "_type": "span",
+          "marks": [],
+          "text": " is not administrative padding. Meter configuration, communications hardware, enclosures, and approved components must arrive before crews are booked. A substitute product can affect approvals, data compatibility, or installation dimensions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ab57d0a7f94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0ab5e98fdd3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation"
+        },
+        {
+          "_key": "0ed71c77e31b",
+          "_type": "span",
+          "marks": [],
+          "text": " requires resident communication and access coordination. Axis Meter Solutions describes typical suite access as "
+        },
+        {
+          "_key": "59a3db193462",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 to 2 days"
+        },
+        {
+          "_key": "970ae1c42876",
+          "_type": "span",
+          "marks": [],
+          "text": ", depending on the property and project design. Keep notices plain: what technicians will do, how access will be arranged, what service interruption to expect, and who residents should contact."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "baa0c11a397a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5612ab2597cc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commissioning and go-live"
+        },
+        {
+          "_key": "e670a9eecbde",
+          "_type": "span",
+          "marks": [],
+          "text": " verify that meters communicate, reads map to the correct suite, common areas are assigned properly, and billing data passes validation. Don't launch invoices until the property team has reviewed exceptions and confirmed the account roster."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "900ce502b99e",
+      "_type": "externalImage",
+      "alt": "A five-step 8-10 week implementation timeline infographic for installing residential water meter systems.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/839215a9-52b2-4900-a9f7-86d498f52e6f/residential-water-meters-implementation-timeline.jpg"
+    },
+    {
+      "_key": "dea50d29345b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4db9087cb97",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "748c4392b0d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6601a511cd5",
+          "_type": "span",
+          "marks": [],
+          "text": "What provider ownership changes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "059dc90ef4ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7e4cb02c288",
+          "_type": "span",
+          "marks": [],
+          "text": "Under a "
+        },
+        {
+          "_key": "a5ba5449e8c4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront provider-owned model"
+        },
+        {
+          "_key": "65ecbf16e3b1",
+          "_type": "span",
+          "marks": [],
+          "text": ", the service provider supplies and maintains the equipment under a long-term agreement. Axis Meter Solutions describes a standard "
+        },
+        {
+          "_key": "29f9a6e7bd49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20-year agreement structure"
+        },
+        {
+          "_key": "e088f01451fc",
+          "_type": "span",
+          "marks": [],
+          "text": ", with equipment ownership, maintenance, and replacement responsibilities assigned through the contract. That can protect the owner from an immediate capital outlay and reduce the risk of carrying an obsolete meter base."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d26ccc209bf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80b8b95a1eea",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the agreement carefully. “No upfront cost” doesn't mean no commercial obligation. Verify the term, early termination charges, access duties, billing rights, service levels, data ownership, insurance, replacement standards, and what happens to the equipment when the agreement ends."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f1c21a959e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "678c1926d723",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8aa7fb52790d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8bea0265030",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant Billing Reporting and Maintenance Through the Agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bedb5ed122b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ccfaa8e26540",
+          "_type": "span",
+          "marks": [],
+          "text": "Once the meters go live, the property needs more than a monthly invoice file. The operating layer should turn reads into resident charges, exception reports, owner dashboards, and documented service actions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f916055c5cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ab3d36a355d",
+          "_type": "span",
+          "marks": [],
+          "text": "A sound workflow captures the read, checks it against the account and prior consumption pattern, applies the permitted billing rules, and produces an invoice that residents can understand. Property staff should be able to see whether a charge came from an actual read or an estimate, which suites have unresolved exceptions, and whether a move-in or move-out date affected the billing period."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59e25df36fad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6bc14ddbf1df",
+          "_type": "span",
+          "marks": [],
+          "text": "Reporting should serve three audiences:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b9afd897bfc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd0389020cec",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Residents need clarity:"
+        },
+        {
+          "_key": "78748a79d4e1",
+          "_type": "span",
+          "marks": [],
+          "text": " Meter read dates, billing periods, rate information, and support contacts."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71742aff879f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a9a151485bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Managers need action lists:"
+        },
+        {
+          "_key": "e7e0e064965c",
+          "_type": "span",
+          "marks": [],
+          "text": " Missing reads, abnormal flow, access issues, disputed invoices, and service tickets."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b7e5b67f3fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ab8904b68b9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owners need operating control:"
+        },
+        {
+          "_key": "77af10b73a8b",
+          "_type": "span",
+          "marks": [],
+          "text": " Recoveries, arrears, consumption by building area, common-area demand, and unresolved exceptions."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e06fbef1542d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a5270474c77",
+          "_type": "span",
+          "marks": [],
+          "text": "The maintenance agreement should spell out meter health checks, communications monitoring, calibration or verification procedures, failed-device replacement, and end-of-life handling. A provider-owned model is only useful if those obligations are written into the service scope rather than left to informal promises."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85ba64665247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "696ed0fdc31d",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask who owns the raw data and how quickly you can export it if management changes. Confirm whether reports can be consolidated across a portfolio, whether suites can be added without redesigning the whole platform, and how the provider handles tenant privacy. Also ask how leak alerts reach the property team outside regular office hours. A notification that nobody receives or acts on isn't a control."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df8b51f7002f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "699f8690267e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69dad45aec49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "224955bf1162",
+          "_type": "span",
+          "marks": [],
+          "text": "A Practical ROI View for a Multi-Family or Condo Building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0b0bd285e68e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e76b8bc3d564",
+          "_type": "span",
+          "marks": [],
+          "text": "For a "
+        },
+        {
+          "_key": "4c0b1ea33d7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50-suite building"
+        },
+        {
+          "_key": "1811131b61a4",
+          "_type": "span",
+          "marks": [],
+          "text": ", build the ROI model from verified property inputs, not a generic marketing calculator. Start with the recoverable water expense, then add defensible estimates for avoided leak waste, reduced staff time spent on billing disputes, and improved budget predictability. Keep conservative and upside cases separate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cfd0aa988ea0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fcac948bcdc2",
+          "_type": "span",
+          "marks": [],
+          "text": "Do not accept an annual benefit figure unless the provider shows its assumptions. Pressure-test the baseline billing method, suite access, tenant mix, common-area allocation, likely leak-response process, agreement fees, and exit terms. The federal data gap matters here. Canada's main residential indicator runs through "
+        },
+        {
+          "_key": "7937cda8e999",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2011"
+        },
+        {
+          "_key": "5d5609b24cf2",
+          "_type": "span",
+          "marks": [],
+          "text": ", so current behavioural and savings assumptions need to come from your property's own billing and consumption records rather than a national headline. ("
+        },
+        {
+          "_key": "1fdb07f64bc2",
+          "_type": "span",
+          "marks": [
+            "184bfa5e4389"
+          ],
+          "text": "Canada's open residential water-use dataset"
+        },
+        {
+          "_key": "d9c8f94063a7",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "184bfa5e4389",
+          "_type": "link",
+          "href": "https://open.canada.ca/data/en/dataset/aecba13b-6a0d-4aff-ad9f-b478a2d3ce9c"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "adbe446e8c03",
+      "_type": "externalImage",
+      "alt": "An infographic illustrating the return on investment for submetering systems in a fifty-suite residential building.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/03e77df6-a097-4c7d-8e74-44e8def4d4d1/residential-water-meters-roi-infographic.jpg"
+    },
+    {
+      "_key": "2552b20db9bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bab978cfb188",
+          "_type": "span",
+          "marks": [],
+          "text": "Before signing, verify:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "27f247fc484b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bff6f4364fde",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing authority:"
+        },
+        {
+          "_key": "0889d9b2dc69",
+          "_type": "span",
+          "marks": [],
+          "text": " Lease, condominium, municipal, and provincial requirements."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f409e1f8f931",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45161db188e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Meter compliance:"
+        },
+        {
+          "_key": "b1c1c654b0e8",
+          "_type": "span",
+          "marks": [],
+          "text": " Approval, commissioning, and replacement standards."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c187e2968ea3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18fef32e37ec",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commercial terms:"
+        },
+        {
+          "_key": "bb25ab6a3d19",
+          "_type": "span",
+          "marks": [],
+          "text": " Agreement length, ownership, termination, and transfer rights."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "22ddb086f083",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a295219dab95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operating scope:"
+        },
+        {
+          "_key": "2bb01bf70d06",
+          "_type": "span",
+          "marks": [],
+          "text": " Billing, collections support, alerts, maintenance, and reporting."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ce9ed2e27d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80406b67c54a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Implementation commitments:"
+        },
+        {
+          "_key": "5ee927c3d6c5",
+          "_type": "span",
+          "marks": [],
+          "text": " Access plan, notices, permits, testing, and go-live controls."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e39ce3aaa40d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2ef4338501f",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including meter installation, commissioning, tenant billing, reporting, and ongoing maintenance under a provider-owned model. Visit "
+        },
+        {
+          "_key": "094cea2e8333",
+          "_type": "span",
+          "marks": [
+            "f074625d7be0"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "be8d1710bff9",
+          "_type": "span",
+          "marks": [],
+          "text": " to request a property review and determine whether residential water meters can improve cost recovery and leak visibility at your building."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f074625d7be0",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Learn how residential water meters work, what they cost, and how submetering helps multi-family and condo owners recover costs, detect leaks, and improve NOI.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/278ab658-5e24-4010-b0a6-238c3c82206d/residential-water-meters-water-meter.jpg",
+  "noIndex": false,
+  "outrankId": "cd3e266e-c520-4ff5-bfcb-ae2e1bfbe5f6",
+  "publishedAt": "2026-08-18T07:44:16.913316+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "residential-water-meters"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re staring at a bulk water bill that keeps rising, but you can&#39;t tell which suites are driving consumption, whether a common-area fixture is leaking, or why residents are disputing their charges. The building&#39;s master meter tells you how much water entered the property. It doesn&#39;t tell you who used it, where an abnormal flow started, or how quickly you should respond.</p>\n<p>That&#39;s the operating gap <strong>residential water meters and submetering</strong> are designed to close. Properly deployed, they turn water from an opaque bulk expense into a measured utility with suite-level billing, clearer reporting, and continuous leak visibility. The result isn&#39;t just a cleaner invoice. It&#39;s a more defensible operating model for owners, managers, condo boards, and residents.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-property-owners-are-rethinking-residential-water-meters\">Why Property Owners Are Rethinking Residential Water Meters</a></li>\n<li><a href=\"#how-residential-water-meters-and-submetering-actually-work\">How Residential Water Meters and Submetering Actually Work</a></li>\n<li><a href=\"#types-of-residential-water-meters-and-where-each-fits-best\">Types of Residential Water Meters and Where Each Fits Best</a></li>\n<li><a href=\"#leak-detection-that-turns-a-small-drip-into-a-prevented-repair\">Leak Detection That Turns a Small Drip Into a Prevented Repair</a></li>\n<li><a href=\"#cost-recovery-noi-lift-and-fewer-billing-disputes\">Cost Recovery, NOI Lift, and Fewer Billing Disputes</a></li>\n<li><a href=\"#implementation-timeline-and-the-provider-owned-model\">Implementation Timeline and the Provider-Owned Model</a><ul>\n<li><a href=\"#the-five-phases-that-control-the-rollout\">The five phases that control the rollout</a></li>\n<li><a href=\"#what-provider-ownership-changes\">What provider ownership changes</a></li>\n</ul>\n</li>\n<li><a href=\"#tenant-billing-reporting-and-maintenance-through-the-agreement\">Tenant Billing Reporting and Maintenance Through the Agreement</a></li>\n<li><a href=\"#a-practical-roi-view-for-a-multi-family-or-condo-building\">A Practical ROI View for a Multi-Family or Condo Building</a></li>\n</ul>\n<p><a id=\"why-property-owners-are-rethinking-residential-water-meters\"></a></p>\n<h2>Why Property Owners Are Rethinking Residential Water Meters</h2>\n<p>For years, many properties treated water as a shared cost. The utility sent one bill, the owner or condominium corporation paid it, and the expense was spread through rent, fees, or an allocation formula. That approach is easy to administer until consumption changes, a leak runs unnoticed, or one resident asks why their charge looks identical to a neighbour&#39;s despite very different usage.</p>\n<p>Canadian adoption has never been completely uniform. The federal residential water-use indicator recorded household metering at <strong>52% in 1991 and 74% in 2009</strong> in one survey series. A later series recorded <strong>62% in 2006, 58% in 2007, 61% in 2009, and 58% in 2011</strong>, showing that coverage was widespread but varied by survey method and year. The indicator tracks household metering alongside per-capita residential water use and draws on national survey sources, including Environment Canada&#39;s Municipal Water Use and Pricing survey and Statistics Canada&#39;s Survey of Drinking Water Plants. (<a href=\"https://www.canada.ca/content/dam/eccc/migration/main/indicateurs-indicators/d43360e1-44bd-4f59-9e4b-ae4932a47752/residentialwateruse_en.pdf\">Canada&#39;s residential water-use indicator</a>)</p>\n<p>Regional implementation can move much faster. Metro Vancouver installed residential meters in successive rounds beginning between <strong>1988 and the mid-1990s</strong>, followed by another round from the mid-1990s to the early 2000s. By <strong>2002, about 90% of residential buildings had meters installed</strong>, while mandatory metering for single-family residential programs applied from <strong>2007</strong> and new construction had been metered since <strong>1999</strong>. (<a href=\"https://metrovancouver.org/services/water/Documents/residential-water-metering-in-metro-vancouver-best-practices-guide.pdf\">Metro Vancouver&#39;s residential water metering best-practices guide</a>)</p>\n<blockquote>\n<p><strong>The practical rule:</strong> A meter isn&#39;t only a billing device. It&#39;s a continuous visibility tool for consumption, abnormal flow, and operating risk.</p>\n</blockquote>\n<p>For an owner, that visibility supports <strong>cost recovery, fewer billing disputes, faster leak response, and clearer NOI reporting</strong>. For residents, it creates a more understandable connection between use and charges. The key is to treat the project as an operating system, not as a box of meters installed in mechanical rooms.</p>\n<p><a id=\"how-residential-water-meters-and-submetering-actually-work\"></a></p>\n<h2>How Residential Water Meters and Submetering Actually Work</h2>\n<p>Start with the water path. The municipal supply enters the property through the <strong>utility master meter</strong>, which records total building consumption. Inside the property, pipes branch through risers and distribution lines. A suite-level residential water meter measures the water assigned to a particular unit, while separate common-area meters can track shared facilities, amenities, mechanical systems, or retail spaces.</p>\n<p>The billing chain usually looks like this:</p>\n<ol>\n<li><strong>Water enters the building.</strong> The utility master meter records the property&#39;s total demand.</li>\n<li><strong>Suite meters measure individual use.</strong> Each meter records the volume passing through the suite&#39;s supply line.</li>\n<li><strong>A register or communications device captures reads.</strong> Depending on the design, the system may use pulse output, remote reading, or automated communications.</li>\n<li><strong>The platform validates consumption.</strong> It flags missing reads, unusual flow, and data gaps.</li>\n<li><strong>The provider generates invoices and reports.</strong> The resident receives a charge based on the approved billing method, while the owner receives consumption and operating reports.</li>\n</ol>\n<p>Think of the master meter as the building&#39;s odometer and suite meters as trip counters assigned to each unit. The odometer tells you how far the whole vehicle travelled. The trip counters show which route each driver took. Neither measurement replaces the other. The master meter helps reconcile the property&#39;s total demand, while suite-level meters support individual billing and investigation.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d3fba7f5-6b69-41bf-bd41-83722307ef09/residential-water-meters-water-metering.jpg\" alt=\"A diagram illustrating how residential water meters and submetering systems work within a multi-unit apartment building.\"></p>\n<p>Ownership and responsibility need to be documented before installation. The utility generally controls the master-meter relationship. The property owner, condominium corporation, or service provider may own the suite meters, communications equipment, billing platform, or maintenance obligations. A contract should state who handles failed reads, access issues, replacements, resident questions, and data retention.</p>\n<p>Measurement Canada approval matters wherever a meter is used for trade measurement, including billing arrangements that fall within applicable federal requirements. Provincial rules can add another layer. In Ontario, electricity unit-submetering providers operate under Ontario Energy Board requirements, and a provider&#39;s licensing position should be confirmed for the services being delivered. Don&#39;t accept “compliant” as a sales adjective. Ask which meter approvals, licences, permits, and commissioning records apply to your building.</p>\n<p><a id=\"types-of-residential-water-meters-and-where-each-fits-best\"></a></p>\n<h2>Types of Residential Water Meters and Where Each Fits Best</h2>\n<p>Meter selection should follow the building&#39;s plumbing layout, flow profile, access conditions, communications needs, and billing model. A 12-suite low-rise doesn&#39;t need the same architecture as a 200-unit high-rise or a mixed-use tower with retail and shared mechanical loads.</p>\n<p><strong>Positive displacement meters</strong> are familiar mechanical devices that measure water through a chamber that fills and empties. They can suit smaller residential lines and straightforward installations, especially where purchase cost and simple servicing matter. Their weakness is ageing performance at low flow. Toronto&#39;s water-meter accuracy review notes that the American Water Works Association standard allows residential meters to deviate by only <strong>±1.5%</strong>, and Toronto Water found <strong>94% of 890 tested meters</strong> within that range or under-registering. The same review found that inaccuracies generally involved under-registration, particularly as meters aged past about <strong>20 years</strong>. (<a href=\"https://www.ombudsmantoronto.ca/wp-content/uploads/2023/09/2012-04-30-Ombudsman-Report-Water-Works.pdf\">Toronto&#39;s water-meter accuracy review</a>)</p>\n<p><strong>Ultrasonic meters</strong> use sound waves rather than moving measurement chambers. They&#39;re attractive for new construction, constrained meter rooms, and projects that need strong low-flow sensitivity with fewer moving parts. They also pair well with remote data collection. For a practical technical overview, review <a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">ultrasonic flow meter operation and applications</a> before comparing proposals.</p>\n<p><strong>Electromagnetic meters</strong> measure flow through an induced electrical signal and are typically more relevant to larger lines, process applications, or building-level and commercial sections than to ordinary suite feeds. They need a suitable conductive liquid and proper installation conditions, so they shouldn&#39;t be selected merely because the specification sheet looks advanced.</p>\n<table>\n<thead>\n<tr>\n<th>Meter Type</th>\n<th>Typical Accuracy</th>\n<th>Best Fit</th>\n<th>Notes</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Positive displacement</td>\n<td>Within the applicable billing tolerance when properly selected, installed, and maintained</td>\n<td>Smaller low-rise buildings and conventional suite lines</td>\n<td>Mechanical design, familiar servicing, ageing and low-flow performance require attention</td>\n</tr>\n<tr>\n<td>Ultrasonic</td>\n<td>Designed for precise digital measurement, subject to approval and installation</td>\n<td>New construction, high-rise suites, retrofit locations with limited access</td>\n<td>Few moving parts, strong communications options, confirm approved configuration</td>\n</tr>\n<tr>\n<td>Electromagnetic</td>\n<td>Suitable for properly designed larger-line applications</td>\n<td>Mixed-use sections, process lines, and selected building-level uses</td>\n<td>Requires appropriate pipe conditions and conductive water</td>\n</tr>\n</tbody></table>\n<p>Also separate <strong>cold-water and hot-water metering</strong>. A domestic hot-water system may require different meter materials, temperature ratings, and installation practices than a cold-water line. Remote-read systems send data through a local collection network, while AMI-style systems automate transmission and enable more frequent monitoring. The right answer depends less on the label and more on whether the system can produce reliable, auditable reads for your billing cycle and leak-response process.</p>\n<p><a id=\"leak-detection-that-turns-a-small-drip-into-a-prevented-repair\"></a></p>\n<h2>Leak Detection That Turns a Small Drip Into a Prevented Repair</h2>\n<p>A monthly bill tells you that water was used. A connected residential water meter can help show <strong>when flow occurred and whether it continued when the suite should have been idle</strong>. That distinction is where the financial value often sits.</p>\n<p>Toronto&#39;s municipal guidance reports that a <strong>1/16-inch hole can waste 3.57 m³ per day and cost about $2,083 over 120 days</strong>. Vaughan warns that a <strong>1/32-inch leak can waste 180 m³ per year and cost about $640 annually</strong>. These figures are not theoretical plumbing trivia. They explain why a small toilet leak, failed valve, leaking flange, or pinhole can remain financially material even when nobody sees water on the floor. (<a href=\"https://www.toronto.ca/services-payments/property-taxes-utilities/utility-bill/high-water-bill-leaks/water-leaks-costs-how-to-spot-a-leak/\">Toronto&#39;s leak cost guidance</a>)</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b0df3b13-5501-460e-8005-77ae4397abd0/residential-water-meters-water-waste.jpg\" alt=\"An infographic illustrating that U.S. household leaks waste 1 trillion gallons of water annually, costing homeowners money.\"></p>\n<p>A meter-based alert looks for flow behaviour. If a suite shows continuous consumption during a period that normally contains no activity, the system can create an exception for review. That alert doesn&#39;t prove the fixture or pipe has failed, but it gives the manager a defined unit, time window, and investigation target.</p>\n<p>Flood sensors serve a different purpose. Place them near water heaters, laundry equipment, mechanical closets, or other vulnerable points, and they can detect water where it reaches the sensor. Meter alerts detect flow through the pipe. A strong program uses both layers:</p>\n<ul>\n<li><strong>Meter-flow monitoring:</strong> Finds persistent or unusual consumption, including hidden fixture leaks.</li>\n<li><strong>Point flood sensors:</strong> Detects water accumulation at known failure locations.</li>\n<li><strong>Human response procedures:</strong> Assigns someone to contact the resident, inspect the suite, isolate the line, or call a plumber.</li>\n</ul>\n<p>For practical plumbing response planning, <a href=\"https://goodboyfl.com/hydrojetting/\">Good Boy Plumbing leak detection</a> provides useful context on professional leak investigation and related service work. The important operating decision is not whether a dashboard can display an alert. It&#39;s whether your team has an escalation path after the alert arrives.</p>\n<p>This <a href=\"https://www.axismeter.com/blog/water-leak-detection-system\">water leak detection system overview</a> is useful when evaluating how meter data, sensors, notifications, and maintenance workflows should work together. Treat leak detection as an <strong>insurance and preservation function</strong>, not a decorative software feature. A small recurring flow identified early can prevent water waste, resident disruption, mould remediation, and a much larger repair conversation.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/zp1tXq2vagw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"cost-recovery-noi-lift-and-fewer-billing-disputes\"></a></p>\n<h2>Cost Recovery, NOI Lift, and Fewer Billing Disputes</h2>\n<p>The owner&#39;s financial case is straightforward. If the property pays one bulk water bill while residents have no usage measurement, the owner carries the consumption risk and has limited ability to explain changes. Suite-level metering creates a defensible record that can support consumption-based billing or an allocation approach, subject to the lease, condominium documents, municipal rules, and provincial requirements.</p>\n<p><strong>Submetering</strong> measures actual suite consumption. <strong>Allocation</strong> divides a building or group bill using a formula, such as unit size, occupancy assumptions, or another permitted basis. Allocation can be appropriate where plumbing design prevents individual measurement, but it doesn&#39;t provide the same leak visibility or resident-specific consumption record. If individual lines are accessible and the jurisdiction permits the arrangement, actual submetering is usually the stronger operating choice.</p>\n<p>The numbers must reconcile. A property should compare the sum of suite and common-area reads against the master meter, investigate material gaps, and keep a record of adjustments. That process supports accurate invoices and helps identify common-area losses, unmetered branches, read failures, or plumbing changes.</p>\n<blockquote>\n<p><strong>Transparency reduces friction:</strong> Residents are more likely to accept a charge when the property can show the meter read, billing period, rate basis, and correction process.</p>\n</blockquote>\n<p>A billing platform should connect four tasks that are often handled separately:</p>\n<ol>\n<li><strong>Read management:</strong> Capture, validate, and store meter data.</li>\n<li><strong>Invoice production:</strong> Apply the approved rate and billing rules.</li>\n<li><strong>Resident support:</strong> Explain charges, manage disputes, and document adjustments.</li>\n<li><strong>Owner reporting:</strong> Show recoveries, consumption, exceptions, arrears workflows, and common-area performance.</li>\n</ol>\n<p>A provider&#39;s <a href=\"https://www.axismeter.com/features/multifamily-utility-billing\">multifamily utility billing platform</a> should be evaluated against those operating requirements, not just its invoice template. Ask whether the system distinguishes actual reads from estimates, preserves an audit trail, supports move-ins and move-outs, and gives property staff access to the reports they need.</p>\n<p>The NOI benefit comes from <strong>cost recovery and predictability</strong>, not from assuming residents will suddenly use less water. Conservation may follow when charges become visible, but an owner should build the financial model around recoverable expenses, avoided waste, administrative savings, and better control of exceptions. Confirm the legal billing rights before presenting any projected NOI improvement to a lender, buyer, or board.</p>\n<p><a id=\"implementation-timeline-and-the-provider-owned-model\"></a></p>\n<h2>Implementation Timeline and the Provider-Owned Model</h2>\n<p>A properly managed installation typically moves from agreement to live meters in <strong>8 to 10 weeks</strong>, including equipment lead time. The calendar only works when the property supplies accurate drawings, confirms suite access, and makes decisions quickly.</p>\n<p><a id=\"the-five-phases-that-control-the-rollout\"></a></p>\n<h3>The five phases that control the rollout</h3>\n<p><strong>Design and planning</strong> establish the meter map. The project team identifies risers, suite branches, common areas, meter sizes, communications paths, isolation points, and access constraints. A provider should flag suites that need plumbing modifications at this stage rather than discovering the issue on installation day.</p>\n<p><strong>Permitting and compliance</strong> follow the design. Ask who is responsible for permits, meter approvals, commissioning records, notices, and jurisdiction-specific billing requirements. For electricity unit sub-metering in Ontario, confirm the provider&#39;s Ontario Energy Board status. Axis Meter Solutions identifies its Ontario Energy Board Unit Sub-Meter Provider licence as <strong>ES-2022-0268</strong>, while water projects still require the applicable Measurement Canada and local compliance review.</p>\n<p><strong>Equipment lead time</strong> is not administrative padding. Meter configuration, communications hardware, enclosures, and approved components must arrive before crews are booked. A substitute product can affect approvals, data compatibility, or installation dimensions.</p>\n<p><strong>Installation</strong> requires resident communication and access coordination. Axis Meter Solutions describes typical suite access as <strong>1 to 2 days</strong>, depending on the property and project design. Keep notices plain: what technicians will do, how access will be arranged, what service interruption to expect, and who residents should contact.</p>\n<p><strong>Commissioning and go-live</strong> verify that meters communicate, reads map to the correct suite, common areas are assigned properly, and billing data passes validation. Don&#39;t launch invoices until the property team has reviewed exceptions and confirmed the account roster.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/839215a9-52b2-4900-a9f7-86d498f52e6f/residential-water-meters-implementation-timeline.jpg\" alt=\"A five-step 8-10 week implementation timeline infographic for installing residential water meter systems.\"></p>\n<p><a id=\"what-provider-ownership-changes\"></a></p>\n<h3>What provider ownership changes</h3>\n<p>Under a <strong>$0 upfront provider-owned model</strong>, the service provider supplies and maintains the equipment under a long-term agreement. Axis Meter Solutions describes a standard <strong>20-year agreement structure</strong>, with equipment ownership, maintenance, and replacement responsibilities assigned through the contract. That can protect the owner from an immediate capital outlay and reduce the risk of carrying an obsolete meter base.</p>\n<p>Read the agreement carefully. “No upfront cost” doesn&#39;t mean no commercial obligation. Verify the term, early termination charges, access duties, billing rights, service levels, data ownership, insurance, replacement standards, and what happens to the equipment when the agreement ends.</p>\n<p><a id=\"tenant-billing-reporting-and-maintenance-through-the-agreement\"></a></p>\n<h2>Tenant Billing Reporting and Maintenance Through the Agreement</h2>\n<p>Once the meters go live, the property needs more than a monthly invoice file. The operating layer should turn reads into resident charges, exception reports, owner dashboards, and documented service actions.</p>\n<p>A sound workflow captures the read, checks it against the account and prior consumption pattern, applies the permitted billing rules, and produces an invoice that residents can understand. Property staff should be able to see whether a charge came from an actual read or an estimate, which suites have unresolved exceptions, and whether a move-in or move-out date affected the billing period.</p>\n<p>Reporting should serve three audiences:</p>\n<ul>\n<li><strong>Residents need clarity:</strong> Meter read dates, billing periods, rate information, and support contacts.</li>\n<li><strong>Managers need action lists:</strong> Missing reads, abnormal flow, access issues, disputed invoices, and service tickets.</li>\n<li><strong>Owners need operating control:</strong> Recoveries, arrears, consumption by building area, common-area demand, and unresolved exceptions.</li>\n</ul>\n<p>The maintenance agreement should spell out meter health checks, communications monitoring, calibration or verification procedures, failed-device replacement, and end-of-life handling. A provider-owned model is only useful if those obligations are written into the service scope rather than left to informal promises.</p>\n<p>Ask who owns the raw data and how quickly you can export it if management changes. Confirm whether reports can be consolidated across a portfolio, whether suites can be added without redesigning the whole platform, and how the provider handles tenant privacy. Also ask how leak alerts reach the property team outside regular office hours. A notification that nobody receives or acts on isn&#39;t a control.</p>\n<p><a id=\"a-practical-roi-view-for-a-multi-family-or-condo-building\"></a></p>\n<h2>A Practical ROI View for a Multi-Family or Condo Building</h2>\n<p>For a <strong>50-suite building</strong>, build the ROI model from verified property inputs, not a generic marketing calculator. Start with the recoverable water expense, then add defensible estimates for avoided leak waste, reduced staff time spent on billing disputes, and improved budget predictability. Keep conservative and upside cases separate.</p>\n<p>Do not accept an annual benefit figure unless the provider shows its assumptions. Pressure-test the baseline billing method, suite access, tenant mix, common-area allocation, likely leak-response process, agreement fees, and exit terms. The federal data gap matters here. Canada&#39;s main residential indicator runs through <strong>2011</strong>, so current behavioural and savings assumptions need to come from your property&#39;s own billing and consumption records rather than a national headline. (<a href=\"https://open.canada.ca/data/en/dataset/aecba13b-6a0d-4aff-ad9f-b478a2d3ce9c\">Canada&#39;s open residential water-use dataset</a>)</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/03e77df6-a097-4c7d-8e74-44e8def4d4d1/residential-water-meters-roi-infographic.jpg\" alt=\"An infographic illustrating the return on investment for submetering systems in a fifty-suite residential building.\"></p>\n<p>Before signing, verify:</p>\n<ul>\n<li><strong>Billing authority:</strong> Lease, condominium, municipal, and provincial requirements.</li>\n<li><strong>Meter compliance:</strong> Approval, commissioning, and replacement standards.</li>\n<li><strong>Commercial terms:</strong> Agreement length, ownership, termination, and transfer rights.</li>\n<li><strong>Operating scope:</strong> Billing, collections support, alerts, maintenance, and reporting.</li>\n<li><strong>Implementation commitments:</strong> Access plan, notices, permits, testing, and go-live controls.</li>\n</ul>\n<hr>\n<p>Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including meter installation, commissioning, tenant billing, reporting, and ongoing maintenance under a provider-owned model. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to request a property review and determine whether residential water meters can improve cost recovery and leak visibility at your building.</p>",
+  "tags": [
+    "residential water meters",
+    "submetering",
+    "leak detection",
+    "multi-family utilities",
+    "cost recovery"
+  ],
+  "title": "Residential Water Meters Explained for Property Owners",
+  "updatedAt": "2026-08-18T07:44:20.985Z"
+}
