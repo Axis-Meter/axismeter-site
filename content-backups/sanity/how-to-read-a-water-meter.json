@@ -1,0 +1,2475 @@
+{
+  "_createdAt": "2026-08-19T07:59:47Z",
+  "_id": "outrank-bc8fbdf1-8be8-47e9-9270-58a2c60aaf26",
+  "_rev": "kpjfMprrX6TlqSm2LYST9Z",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-19T07:59:47Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "48b6fa85dd5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "050a74395440",
+          "_type": "span",
+          "marks": [],
+          "text": "You're standing in a basement utility room with a clipboard, several nearly identical meters, and a billing deadline approaching. One display shows a row of digits, another has clock-style dials, and a third flashes a flow-rate screen that appears to say almost nothing is happening. The challenge isn't merely "
+        },
+        {
+          "_key": "b96bb8fcac82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "how to read a water meter"
+        },
+        {
+          "_key": "adccb32038a2",
+          "_type": "span",
+          "marks": [],
+          "text": ". It's knowing which number is cumulative usage, which indicator shows live flow, which digits your utility bills, and how to document the read so a tenant or owner can verify it later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40f0f0d63a75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fee6d916d086",
+          "_type": "span",
+          "marks": [],
+          "text": "In a multi-unit property, a small reading error can affect an entire billing workflow. The reliable approach is consistent: identify the meter, capture the correct register, confirm the unit of measure, subtract the previous reading, and use the flow indicator separately for leak checks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c63ceea64d17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8bc9e4fcf4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "753b2efd75be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2cce5f14f34",
+          "_type": "span",
+          "marks": [
+            "1bfbe87e3134"
+          ],
+          "text": "Locating and Identifying Your Water Meter Type"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1bfbe87e3134",
+          "_type": "link",
+          "href": "#locating-and-identifying-your-water-meter-type"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0c426f920860",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be4b7acf5479",
+          "_type": "span",
+          "marks": [
+            "27a882eda6af"
+          ],
+          "text": "Identify the display before recording it"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "27a882eda6af",
+          "_type": "link",
+          "href": "#identify-the-display-before-recording-it"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "16698676022a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19a46d8e5408",
+          "_type": "span",
+          "marks": [
+            "519f264cdf8e"
+          ],
+          "text": "Deal with difficult access"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "519f264cdf8e",
+          "_type": "link",
+          "href": "#deal-with-difficult-access"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ba9208af8853",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6ae2a488342",
+          "_type": "span",
+          "marks": [
+            "8f529745578c"
+          ],
+          "text": "Reading Analog Dial and Odometer Water Meters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8f529745578c",
+          "_type": "link",
+          "href": "#reading-analog-dial-and-odometer-water-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c4e581c71135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe4f8fd53b87",
+          "_type": "span",
+          "marks": [
+            "e321fcf3a2e6"
+          ],
+          "text": "Read each dial in order"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e321fcf3a2e6",
+          "_type": "link",
+          "href": "#read-each-dial-in-order"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b414114f36b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75f33b7fd55e",
+          "_type": "span",
+          "marks": [
+            "e904b3e67cb2"
+          ],
+          "text": "Capture odometer-style registers"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e904b3e67cb2",
+          "_type": "link",
+          "href": "#capture-odometer-style-registers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0611ecededf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6721e4cb6e23",
+          "_type": "span",
+          "marks": [
+            "8ceb4d770c5a"
+          ],
+          "text": "Interpreting Digital Meter Displays and Flow Screens"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8ceb4d770c5a",
+          "_type": "link",
+          "href": "#interpreting-digital-meter-displays-and-flow-screens"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "844095dc53d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18530b564eda",
+          "_type": "span",
+          "marks": [
+            "20ce15bdbd5f"
+          ],
+          "text": "Separate total usage from live flow"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "20ce15bdbd5f",
+          "_type": "link",
+          "href": "#separate-total-usage-from-live-flow"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ee01236612fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f29dc500d3c9",
+          "_type": "span",
+          "marks": [
+            "88e9b59d0f10"
+          ],
+          "text": "Reconcile the display with the account"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "88e9b59d0f10",
+          "_type": "link",
+          "href": "#reconcile-the-display-with-the-account"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "380b0fa3852e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c8b1d834e80",
+          "_type": "span",
+          "marks": [
+            "b9118afe9eee"
+          ],
+          "text": "Converting Meter Reads Into Billable Consumption"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b9118afe9eee",
+          "_type": "link",
+          "href": "#converting-meter-reads-into-billable-consumption"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9cdb498fb358",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f41dbca361b",
+          "_type": "span",
+          "marks": [
+            "042a2106f14c"
+          ],
+          "text": "Apply the correct conversion"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "042a2106f14c",
+          "_type": "link",
+          "href": "#apply-the-correct-conversion"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6d98931afbce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03b5952c8ae2",
+          "_type": "span",
+          "marks": [
+            "9a667a2eeaad"
+          ],
+          "text": "Build a billing-ready record"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9a667a2eeaad",
+          "_type": "link",
+          "href": "#build-a-billing-ready-record"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "879d07ee6afd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29aac50ea60e",
+          "_type": "span",
+          "marks": [
+            "b4b1faf6441b"
+          ],
+          "text": "Using Your Meter for Leak Detection and Water Loss Control"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b4b1faf6441b",
+          "_type": "link",
+          "href": "#using-your-meter-for-leak-detection-and-water-loss-control"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "98634f8afa14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e4697f7a703",
+          "_type": "span",
+          "marks": [
+            "717da6343245"
+          ],
+          "text": "Use the right indicator"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "717da6343245",
+          "_type": "link",
+          "href": "#use-the-right-indicator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "15fb2bab8241",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "802422183e73",
+          "_type": "span",
+          "marks": [
+            "50d7f497db73"
+          ],
+          "text": "Compare daily reads for intermittent losses"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "50d7f497db73",
+          "_type": "link",
+          "href": "#compare-daily-reads-for-intermittent-losses"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9ba0f87403f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c55b6efc9010",
+          "_type": "span",
+          "marks": [
+            "80c877b47c0e"
+          ],
+          "text": "Avoiding Common Meter Reading Mistakes in Multi-Unit Properties"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "80c877b47c0e",
+          "_type": "link",
+          "href": "#avoiding-common-meter-reading-mistakes-in-multi-unit-properties"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0940bfdc8b6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77cc946b79d5",
+          "_type": "span",
+          "marks": [
+            "c8402c7b0588"
+          ],
+          "text": "Use a repeatable field routine"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c8402c7b0588",
+          "_type": "link",
+          "href": "#use-a-repeatable-field-routine"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "df44ceae918d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fa3050a7350",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4bef62c33a80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d3a1799eef5",
+          "_type": "span",
+          "marks": [],
+          "text": "Locating and Identifying Your Water Meter Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "fec1142f83a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b0cfe62bf01",
+          "_type": "span",
+          "marks": [],
+          "text": "Before recording anything, confirm that you're looking at the correct meter. Residential meters may sit in an exterior pit, basement utility room, mechanical closet, or a dedicated submeter panel serving condominium or apartment units. In shared spaces, match the meter number or unit label to your property records. Never assume the nearest meter belongs to the nearest suite."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ba0e5199f20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3df1213d466",
+          "_type": "span",
+          "marks": [],
+          "text": "California has relied heavily on metering for conservation. The Water Education Foundation reports that "
+        },
+        {
+          "_key": "3c7b9be8f878",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "more than 90% of California residences and businesses are metered"
+        },
+        {
+          "_key": "816a08ec0243",
+          "_type": "span",
+          "marks": [],
+          "text": ", and California has required meter installation in all new construction since "
+        },
+        {
+          "_key": "ab0d2d0495a2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1992"
+        },
+        {
+          "_key": "a24471d494cf",
+          "_type": "span",
+          "marks": [],
+          "text": ". You can review the state's practical overview in the "
+        },
+        {
+          "_key": "84b6ab8141a2",
+          "_type": "span",
+          "marks": [
+            "e3413760b6f0"
+          ],
+          "text": "California water-meter guidance"
+        },
+        {
+          "_key": "856b3644717c",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e3413760b6f0",
+          "_type": "link",
+          "href": "https://www.cpuc.ca.gov/-/media/cpuc-website/about-cpuc/documents/transparency-and-reporting/fact_sheets/waterwise.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "17859f9216d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f7f5696ac493",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2019ece3b184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa18c5113eaf",
+          "_type": "span",
+          "marks": [],
+          "text": "Identify the display before recording it"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7b91b2a29a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d251ebe01c36",
+          "_type": "span",
+          "marks": [],
+          "text": "Most meters fall into three visual groups:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "466ac4665088",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5393d622bbe4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Analog dial meter:"
+        },
+        {
+          "_key": "1752785e1fb3",
+          "_type": "span",
+          "marks": [],
+          "text": " Multiple clock-style dials with hands. Each dial represents a different place value, and the hands may rotate in alternating directions."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b802a6970e46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ea315964fc0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Odometer or roller meter:"
+        },
+        {
+          "_key": "8ec6eed0ff6a",
+          "_type": "span",
+          "marks": [],
+          "text": " Number wheels display a cumulative register. Read the digits from left to right, but check the face or utility instructions for units and excluded decimal places."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc510b3797c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea39d9ae0c2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Digital meter:"
+        },
+        {
+          "_key": "50403ff6ab4e",
+          "_type": "span",
+          "marks": [],
+          "text": " An LCD screen may cycle between total usage, flow rate, leak status, and other screens. The billing register and live flow screen answer different questions."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c39dd6ee489",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be64967cecad",
+          "_type": "span",
+          "marks": [],
+          "text": "A digital display showing "
+        },
+        {
+          "_key": "33d30885e7cd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.00 GPM"
+        },
+        {
+          "_key": "2cac2493e63f",
+          "_type": "span",
+          "marks": [],
+          "text": " means the meter is reporting no detected flow at that moment. An odometer that hasn't advanced only tells you that the cumulative register hasn't crossed its next displayed increment. Those readings aren't interchangeable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02a6c6eba079",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a855b1653616",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9019ab4583a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49a4c6a729e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Deal with difficult access"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b544e779d680",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5caad5793fa2",
+          "_type": "span",
+          "marks": [],
+          "text": "If the meter is behind a locked door or inside a shared mechanical area, arrange access with the building superintendent, facilities team, or utility. Don't remove covers or interfere with wiring. For a fogged or dirty face, photograph the meter first, then clean only the accessible exterior surface with a soft cloth. If digits remain hidden, record the obstruction and escalate rather than guessing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e75520de51a8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75285ef10b1f",
+          "_type": "span",
+          "marks": [],
+          "text": "For a broader overview of equipment used in residential applications, see "
+        },
+        {
+          "_key": "f1093469118d",
+          "_type": "span",
+          "marks": [
+            "2b2c7ca346e5"
+          ],
+          "text": "residential water meters and their common configurations"
+        },
+        {
+          "_key": "e2ee6d376efa",
+          "_type": "span",
+          "marks": [],
+          "text": ". The purpose of this first inspection is simple: establish the meter identity and format before you interpret any number."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2b2c7ca346e5",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/residential-water-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b817d5218994",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9238f3349183",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c17077389914",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eda01d5011af",
+          "_type": "span",
+          "marks": [],
+          "text": "Reading Analog Dial and Odometer Water Meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "95114381bc00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4144ea62a66b",
+          "_type": "span",
+          "marks": [],
+          "text": "Analog meters demand patience because the indicator used for leak detection may sit beside the billing dials. Start by photographing the entire face. The image preserves the dial positions, meter identification, and any printed multiplier or unit marking."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc737964a6a3",
+      "_type": "externalImage",
+      "alt": "A four-step infographic illustrating how to read an analog dial and odometer water meter.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/10e2905c-34b3-45f4-b222-961358b2310b/how-to-read-a-water-meter-water-meter.jpg"
+    },
+    {
+      "_key": "eae0a97ed021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ed7b5624b7c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f3a317bb7db9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7616aad68074",
+          "_type": "span",
+          "marks": [],
+          "text": "Read each dial in order"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "455d98cf5e4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a712fe4e3209",
+          "_type": "span",
+          "marks": [],
+          "text": "For a traditional dial meter, work from the largest place value to the smallest. Read each hand clockwise and write down the lower number when the hand sits between two digits. If a hand appears exactly on a number, check the previous dial before finalising the reading. That previous-dial check prevents a common mistake where a reader records the apparent number even though the preceding hand hasn't completed its movement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b02a3e20f6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6531b837f32",
+          "_type": "span",
+          "marks": [],
+          "text": "Saskatoon's dial-reading guidance uses this same principle. The hand's position can look settled while the adjacent dial shows that the value is still just below the displayed number. If the dials rotate in alternating directions, follow the printed arrows or the utility's instructions rather than assuming every hand moves clockwise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76e5db680767",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "970f4f45973c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "668105c26439",
+          "_type": "span",
+          "marks": [],
+          "text": " Photograph first, read second, and write the digit sequence down before you leave the meter room."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "5adfd8eb1fe2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe9bea9ab6d7",
+          "_type": "span",
+          "marks": [],
+          "text": "The small red triangle, star, or wheel usually isn't part of the billed register. Waterloo identifies its small red indicator as a low-flow device, with "
+        },
+        {
+          "_key": "cfc61c896d96",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one full turn equal to one litre"
+        },
+        {
+          "_key": "aef9868e949d",
+          "_type": "span",
+          "marks": [],
+          "text": ". Movement while fixtures are off is a leak signal, not an extra digit to add to the total read. The "
+        },
+        {
+          "_key": "5f6e34f56c10",
+          "_type": "span",
+          "marks": [
+            "dee2c9874c38"
+          ],
+          "text": "Waterloo meter-reading instructions"
+        },
+        {
+          "_key": "d0909a17a649",
+          "_type": "span",
+          "marks": [],
+          "text": " explain that distinction clearly."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dee2c9874c38",
+          "_type": "link",
+          "href": "https://www.waterloo.ca/water-utilities/water-meters/how-to-read-your-water-meter/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fa87b6f3c0ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a0811d1e730",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a4a09faa5b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "830ee4dd88e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Capture odometer-style registers"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "59a3c181b352",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3364eace1bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Roller meters are easier to read but easier to misinterpret. Record the digits "
+        },
+        {
+          "_key": "cbed71414322",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "from left to right"
+        },
+        {
+          "_key": "2ae90f6ad40b",
+          "_type": "span",
+          "marks": [],
+          "text": ", including leading zeros. Check whether the display measures gallons, cubic metres, or hundreds of cubic feet, and confirm whether decimal digits belong in the billable read."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb4f2fbcdddb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3132ddbdf89",
+          "_type": "span",
+          "marks": [],
+          "text": "Calgary's guidance associates the whole-number display with cubic metres, where "
+        },
+        {
+          "_key": "54c5c227425a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one cubic metre equals 1,000 litres"
+        },
+        {
+          "_key": "47cdaf2f012b",
+          "_type": "span",
+          "marks": [],
+          "text": ". Some Canadian municipalities instruct readers to ignore digits after the decimal for billing purposes. Don't remove those digits automatically. Follow the instructions printed on the meter or issued by the utility."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43c29f273c1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75aa983266e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the same method every time. A clean sequence such as "
+        },
+        {
+          "_key": "1630ad91b25e",
+          "_type": "span",
+          "marks": [
+            "code"
+          ],
+          "text": "000184"
+        },
+        {
+          "_key": "863b5ccd0b5a",
+          "_type": "span",
+          "marks": [],
+          "text": " is more useful than a rounded note such as “about 184,” especially when several submeters feed a tenant billing file."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2ef31edc278",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d84cb8c2832a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e49540eb4ba9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7234cf27aad",
+          "_type": "span",
+          "marks": [],
+          "text": "Interpreting Digital Meter Displays and Flow Screens"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5fbcab84d56b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0220016d182",
+          "_type": "span",
+          "marks": [],
+          "text": "Digital meters create a different kind of confusion. The screen may rotate through a cumulative register, a live flow-rate display, and a leak indicator. A property manager who records the first visible screen without checking its label can capture the wrong value even when every digit is copied perfectly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "deb7f93ed582",
+      "_type": "externalImage",
+      "alt": "An infographic showing the differences between a water meter's total cumulative usage and real-time flow rate screens.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a05371a9-2123-44a9-8922-b9098677e9e1/how-to-read-a-water-meter-digital-meter-display.jpg"
+    },
+    {
+      "_key": "74308ee73083",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "baf123f3d7b6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8b9ec5ab494",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b8ae7e7361a",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate total usage from live flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "eb5c2cd95762",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a03c8b44257f",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "9dbd5109b284",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "billing register"
+        },
+        {
+          "_key": "5eaff0540272",
+          "_type": "span",
+          "marks": [],
+          "text": " is cumulative. It records the volume that has passed through the meter since the relevant starting point, often installation or a previous reset. To calculate a billing period's consumption, you compare two register readings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d531df489ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a85d3b194e7",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "671890f94893",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "flow-rate screen"
+        },
+        {
+          "_key": "5c370d330daf",
+          "_type": "span",
+          "marks": [],
+          "text": " is immediate. A display such as "
+        },
+        {
+          "_key": "15b44b2e5d28",
+          "_type": "span",
+          "marks": [
+            "code"
+          ],
+          "text": "0.00 GPM"
+        },
+        {
+          "_key": "34d749e0cd6d",
+          "_type": "span",
+          "marks": [],
+          "text": " reports the flow being detected now. It doesn't replace the total register, and it doesn't get added to it. If the flow screen shows a persistent nonzero value while all fixtures are isolated, investigate the property for leakage or an overlooked device."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6c922d3a6a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b3901302207",
+          "_type": "span",
+          "marks": [],
+          "text": "A digital meter may also show an electronic leak symbol or a small moving indicator. Treat that as a diagnostic signal. First confirm what the screen label means, then record the total register separately from the flow status."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc04508300d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5114bc47647e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2805b35c77d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86ac6e7fa0a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Reconcile the display with the account"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2ccb5b66964b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4aa37973f6f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Units vary by provider. Some California services bill in hundreds of cubic feet, while others instruct customers to read gallons or disregard digits after a decimal. The CPUC explains that "
+        },
+        {
+          "_key": "9765f4d58772",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 cubic feet equals 748 gallons"
+        },
+        {
+          "_key": "59b006c0a435",
+          "_type": "span",
+          "marks": [],
+          "text": ", giving you a fixed conversion when the meter and bill use different units. The conversion only works after you've identified the meter's displayed unit correctly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0142376c4db5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f258b728e74",
+          "_type": "span",
+          "marks": [],
+          "text": "For a digital read, record four items in your log:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5615b945f8e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34fa947699c8",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter identification or unit assignment."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "22e94b45ee19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba43d6461c55",
+          "_type": "span",
+          "marks": [],
+          "text": "Full cumulative register, including leading zeros where displayed."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9c715c793fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d5f5dd59616",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit label, such as gallons, cubic metres, or hundreds of cubic feet."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4615540e4ac3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be1d92229546",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow-rate value and screen status, if you're performing a leak check."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e008230736d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8351ade29d08",
+          "_type": "span",
+          "marks": [],
+          "text": "A register can remain nearly unchanged while a low, continuous flow persists. That's why digital interpretation requires both the billing number and the live screen, particularly in buildings with many fixtures and intermittent occupancy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75e3aed6954d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb1465c6d098",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a398eec739c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efb7e3837b85",
+          "_type": "span",
+          "marks": [],
+          "text": "Converting Meter Reads Into Billable Consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "523ec8fc2470",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6d879f2bff4",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter read becomes useful only after you compare it with an earlier read taken from the same register. San José describes the basic calculation plainly: "
+        },
+        {
+          "_key": "7633ceb51614",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "subtract the previous reading from the current reading"
+        },
+        {
+          "_key": "1564fb8c0c18",
+          "_type": "span",
+          "marks": [],
+          "text": ". The result is the consumption for that billing interval, expressed in the meter's unit unless you convert it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8076feac9adc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c83918d865c",
+          "_type": "span",
+          "marks": [],
+          "text": "Write the calculation in the property log instead of relying on mental arithmetic:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1cfa483a8d36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1778ad223f96",
+          "_type": "span",
+          "marks": [
+            "code"
+          ],
+          "text": "Current register − Previous register = Meter-unit consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc95abf1532f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "905b3247887e",
+          "_type": "span",
+          "marks": [],
+          "text": "For example, if a meter displays whole cubic metres, the difference is cubic metres. Calgary ties the left-of-decimal digits to cubic metres and identifies "
+        },
+        {
+          "_key": "d3b4c8992e6b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1,000 litres per cubic metre"
+        },
+        {
+          "_key": "26875dba91df",
+          "_type": "span",
+          "marks": [],
+          "text": ". If the display includes decimal digits that your municipality excludes from billing, leave them out consistently in both reads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a442040fe1f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75a0ceba86ba",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ce4727d7748",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e1a896140b1",
+          "_type": "span",
+          "marks": [],
+          "text": "Apply the correct conversion"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6f1120d7fb95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6661942bf30a",
+          "_type": "span",
+          "marks": [],
+          "text": "California's CPUC guidance provides the relevant conversion for meters reporting in hundreds of cubic feet: "
+        },
+        {
+          "_key": "65eeb4fa451c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one hundred cubic feet equals 748 gallons"
+        },
+        {
+          "_key": "b740a148cf17",
+          "_type": "span",
+          "marks": [],
+          "text": ". Multiply the difference in hundreds of cubic feet by 748 when a gallons figure is needed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d4ce8eb530c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f8eaaf44785",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter Read Difference"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a7fd4fce9a03",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1394e544b350",
+          "_type": "span",
+          "marks": [],
+          "text": "Hundreds of Cubic Feet"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6e740f82a7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46ff275cb4b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Gallons"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "723c984342dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db56e4c6f66f",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic Metres"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8eb438bfa573",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8650fea9d3d",
+          "_type": "span",
+          "marks": [],
+          "text": "One meter unit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78d15591b71a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6f17bd56a37",
+          "_type": "span",
+          "marks": [],
+          "text": "1"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2eaf0c49dc2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e974ffb277f7",
+          "_type": "span",
+          "marks": [],
+          "text": "748"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bcefc424a1b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37da4f28545b",
+          "_type": "span",
+          "marks": [],
+          "text": "Not directly equivalent without a unit conversion"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46133d127469",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06410682a548",
+          "_type": "span",
+          "marks": [],
+          "text": "Two meter units"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47662878a6c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "09eee1836a52",
+          "_type": "span",
+          "marks": [],
+          "text": "2"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f1c00ef45a7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4602e1336ad9",
+          "_type": "span",
+          "marks": [],
+          "text": "1,496"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "712c6a814265",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f631149871fa",
+          "_type": "span",
+          "marks": [],
+          "text": "Not directly equivalent without a unit conversion"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f568b3322c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e8dae580039",
+          "_type": "span",
+          "marks": [],
+          "text": "Five meter units"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20be9e2fc540",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c915f88071a",
+          "_type": "span",
+          "marks": [],
+          "text": "5"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6aa7376e586",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02deed852ab8",
+          "_type": "span",
+          "marks": [],
+          "text": "3,740"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7448a88d22b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "884afba18a05",
+          "_type": "span",
+          "marks": [],
+          "text": "Not directly equivalent without a unit conversion"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b0f8e9b47c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bac5fed16966",
+          "_type": "span",
+          "marks": [],
+          "text": "The table applies only when the meter difference is measured in hundreds of cubic feet. It doesn't convert a cubic-metre register into gallons. For cubic-metre meters, use the displayed unit and the provider's stated conversion rules. Mixing systems is one of the fastest ways to create an apparently unreasonable tenant charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "297231413472",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "898ce87703e1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "95043e033175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20a7881a93b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Build a billing-ready record"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f5296a31c4b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b2b8ad5d199",
+          "_type": "span",
+          "marks": [],
+          "text": "For multi-unit properties, include the read date, read time, meter identifier, current register, previous register, calculated difference, and billing unit. Add a clear photograph. If a supplier's invoice uses a different unit from the meter, preserve the conversion step so another person can audit it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f0c97d02b250",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fe6fb296588",
+          "_type": "span",
+          "marks": [],
+          "text": "The CPUC also states that utilities with metered service connections must read each customer's meter according to tariff schedules and report water quantities in annual filings. That regulatory foundation reinforces a practical operating rule: a meter read is not complete until the property can show "
+        },
+        {
+          "_key": "1b888b1e0235",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "what was read, when it was read, and how the billable quantity was calculated"
+        },
+        {
+          "_key": "97d745df510e",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4f7c0170b62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88e4fa471ecf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a6ccd0128dc2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58bf46fc5757",
+          "_type": "span",
+          "marks": [],
+          "text": "Using Your Meter for Leak Detection and Water Loss Control"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3aeb8db79dfc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29fb256b305a",
+          "_type": "span",
+          "marks": [],
+          "text": "A leak test is a controlled observation, not a quick glance at the register. Shut off every fixture and water-consuming device you can identify, including toilets, ice makers, water treatment equipment, and outdoor irrigation. In a large building, coordinate with occupants or site staff so legitimate use doesn't invalidate the test."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35a9083b6ea8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56c2e9552310",
+          "_type": "span",
+          "marks": [],
+          "text": "California utility guidance recommends observing a meter hand for "
+        },
+        {
+          "_key": "b63226b8b938",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "at least 15 minutes"
+        },
+        {
+          "_key": "96c6b322959e",
+          "_type": "span",
+          "marks": [],
+          "text": " with water shut off. Other local guidance recommends a longer rest period, such as "
+        },
+        {
+          "_key": "795350bfc09d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30 minutes to one hour"
+        },
+        {
+          "_key": "b84a60fe007c",
+          "_type": "span",
+          "marks": [],
+          "text": ", before checking again. The appropriate interval depends on the meter and the property, but the logic stays the same: isolate demand, record the starting condition, wait, and compare."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e3384291ddc",
+      "_type": "externalImage",
+      "alt": "A six-step infographic guide on how to detect water leaks in your home using a water meter.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/35f375e8-b853-45de-aec6-d4b2f825a494/how-to-read-a-water-meter-leak-detection.jpg"
+    },
+    {
+      "_key": "2076ddda8f8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6fad78b80be",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d7e4d9bcac2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5f686db7a78",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the right indicator"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c59c12a6ec62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f12796a9148f",
+          "_type": "span",
+          "marks": [],
+          "text": "On a dial meter, watch the sweep hand or low-flow wheel. On a digital meter, use the flow-rate screen and any electronic leak icon. Movement or a nonzero flow reading suggests water is moving, but it doesn't identify the cause."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "03aa811de99d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45ab9e6bbb66",
+          "_type": "span",
+          "marks": [],
+          "text": "A toilet fill valve, an ice maker cycle, or an irrigation controller can create legitimate flow if it wasn't fully isolated. Repeat the test after confirming those devices are inactive. If the indicator continues moving, inspect toilets, valves, risers, common-area fixtures, and concealed pipework."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6af593e112e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6cc3dac3215",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A nonzero flow reading is evidence of movement, not proof of a billable spike. Confirm the source before assigning responsibility."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "8146d31692c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e538aafe65e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "023b0e510948",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ed984e26db3",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare daily reads for intermittent losses"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5db3c0369416",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0605e8387223",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian utility guidance recommends comparing reads taken at the same time on consecutive days to calculate daily consumption. This technique is valuable when a leak appears only during a cycle or when occupancy changes throughout the day. Consistent timing helps distinguish ordinary demand from a repeating unexplained increase."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c97fb9a35210",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6aded62322ad",
+          "_type": "span",
+          "marks": [],
+          "text": "For larger properties, record common-area and suite-level readings together where possible. A building may show normal unit use while a common-area meter continues to advance because of irrigation, a janitor's sink, or a concealed leak. A structured "
+        },
+        {
+          "_key": "5535e653f409",
+          "_type": "span",
+          "marks": [
+            "edb0ba673067"
+          ],
+          "text": "water system monitoring workflow"
+        },
+        {
+          "_key": "0e16cdb47eb3",
+          "_type": "span",
+          "marks": [],
+          "text": " can help connect readings, alerts, and follow-up work orders."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "edb0ba673067",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-system-monitoring"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "47bd76c197b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e0886a7a917",
+          "_type": "span",
+          "marks": [],
+          "text": "Smart monitoring can add another layer by tracking flow patterns and flagging unusual activity. For a broader discussion of operational water efficiency, "
+        },
+        {
+          "_key": "f8647221ec85",
+          "_type": "span",
+          "marks": [
+            "b7265f430b45"
+          ],
+          "text": "using smart water for cost savings"
+        },
+        {
+          "_key": "0081d9591cef",
+          "_type": "span",
+          "marks": [],
+          "text": " offers useful context, but any alert still needs on-site verification before billing or repair decisions are made."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b7265f430b45",
+          "_type": "link",
+          "href": "https://prestonwoodlandscape.com/what-is-smart-water/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "65d4064a8b8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb26bdf27c63",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e316f13703fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64a4819cab73",
+          "_type": "span",
+          "marks": [],
+          "text": "Avoiding Common Meter Reading Mistakes in Multi-Unit Properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "83189cbdd4b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d869fb707b1",
+          "_type": "span",
+          "marks": [],
+          "text": "The most expensive assumption is that a meter's most noticeable number is automatically the billable number. Readers often copy the low-flow indicator, include excluded decimal digits, reverse dial values, or apply a gallons conversion to a cubic-metre difference. Each mistake can create a charge that appears precise while being wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68508b276ea7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "252c8d80f725",
+          "_type": "span",
+          "marks": [],
+          "text": "Measurement Canada's accuracy benchmark, cited in Prince Edward Island utility review materials, is "
+        },
+        {
+          "_key": "04565ae064b5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "within 3% of actual volume"
+        },
+        {
+          "_key": "e3da8f337017",
+          "_type": "span",
+          "marks": [],
+          "text": ". Calgary's meter-testing materials describe AWWA test acceptance of roughly "
+        },
+        {
+          "_key": "225cccba45ce",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "95% to 101.5% of actual volume"
+        },
+        {
+          "_key": "6a852ea30458",
+          "_type": "span",
+          "marks": [],
+          "text": " during testing. Those benchmarks concern meter performance, not permission to estimate. A poorly captured self-read can exceed the practical tolerance used in verification."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1c99566c2a0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c479de95f825",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f59c16f1e902",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "412efa3e2267",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a repeatable field routine"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2c3d895bd1ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "534715743a18",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read at a consistent time:"
+        },
+        {
+          "_key": "8c8b2ea6bfdd",
+          "_type": "span",
+          "marks": [],
+          "text": " Comparable dates and times make consumption changes easier to interpret."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c90420e31970",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e6548d37e85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Photograph the full face:"
+        },
+        {
+          "_key": "9b7b0a80b45a",
+          "_type": "span",
+          "marks": [],
+          "text": " Include the register, unit label, meter identifier, and any indicator position."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "699e81be3722",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "115fc8745b77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Separate evidence from interpretation:"
+        },
+        {
+          "_key": "11f084372f1e",
+          "_type": "span",
+          "marks": [],
+          "text": " Record the raw digits first, then calculate usage and conversions."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e351570efb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30cb36a8b974",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check the billing convention:"
+        },
+        {
+          "_key": "ba883f55d83a",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm whether decimals, trailing digits, or a multiplier belong in the billable read."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35402625c5bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98a729fd008a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Escalate uncertainty:"
+        },
+        {
+          "_key": "622c1e653ece",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask the utility or submetering provider to review the meter when the display is damaged, the register conflicts with the account, or readings change unexpectedly."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ea4ed92e3f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "501d5e6009f1",
+          "_type": "span",
+          "marks": [],
+          "text": "For resident-facing processes, "
+        },
+        {
+          "_key": "578d61b751ad",
+          "_type": "span",
+          "marks": [
+            "14d14c922e74"
+          ],
+          "text": "submit a meter reading through the approved workflow"
+        },
+        {
+          "_key": "37d5c130a597",
+          "_type": "span",
+          "marks": [],
+          "text": " so the date, image, and captured value remain attached to the account. That record reduces disputes because the billing team and property team can review the same evidence."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "14d14c922e74",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/submit-a-meter-reading"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "01b17c55990c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "706fa02ffe6f",
+          "_type": "span",
+          "marks": [],
+          "text": "In a mixed-meter building, standardisation matters more than speed. Train staff to use one form, one naming convention, and one calculation method for every suite and common-area meter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4100cdbdec44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6c63e82b8ed",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides water submetering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, ongoing service, and leak and flood detection. If your property needs a more reliable way to connect meter reads with billing and water-loss response, visit "
+        },
+        {
+          "_key": "4c7c0250f490",
+          "_type": "span",
+          "marks": [
+            "19c5bdb1edb4"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "312c7e14ef4f",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a managed submetering programme."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "19c5bdb1edb4",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Learn how to read a water meter to ensure accurate billing and detect leaks. Our step-by-step guide makes it simple.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d4b20de9-b60f-462f-a591-85641fd98c93/how-to-read-a-water-meter-water-meter.jpg",
+  "noIndex": false,
+  "outrankId": "bc8fbdf1-8be8-47e9-9270-58a2c60aaf26",
+  "publishedAt": "2026-08-19T07:59:43.164804+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "how-to-read-a-water-meter"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re standing in a basement utility room with a clipboard, several nearly identical meters, and a billing deadline approaching. One display shows a row of digits, another has clock-style dials, and a third flashes a flow-rate screen that appears to say almost nothing is happening. The challenge isn&#39;t merely <strong>how to read a water meter</strong>. It&#39;s knowing which number is cumulative usage, which indicator shows live flow, which digits your utility bills, and how to document the read so a tenant or owner can verify it later.</p>\n<p>In a multi-unit property, a small reading error can affect an entire billing workflow. The reliable approach is consistent: identify the meter, capture the correct register, confirm the unit of measure, subtract the previous reading, and use the flow indicator separately for leak checks.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#locating-and-identifying-your-water-meter-type\">Locating and Identifying Your Water Meter Type</a><ul>\n<li><a href=\"#identify-the-display-before-recording-it\">Identify the display before recording it</a></li>\n<li><a href=\"#deal-with-difficult-access\">Deal with difficult access</a></li>\n</ul>\n</li>\n<li><a href=\"#reading-analog-dial-and-odometer-water-meters\">Reading Analog Dial and Odometer Water Meters</a><ul>\n<li><a href=\"#read-each-dial-in-order\">Read each dial in order</a></li>\n<li><a href=\"#capture-odometer-style-registers\">Capture odometer-style registers</a></li>\n</ul>\n</li>\n<li><a href=\"#interpreting-digital-meter-displays-and-flow-screens\">Interpreting Digital Meter Displays and Flow Screens</a><ul>\n<li><a href=\"#separate-total-usage-from-live-flow\">Separate total usage from live flow</a></li>\n<li><a href=\"#reconcile-the-display-with-the-account\">Reconcile the display with the account</a></li>\n</ul>\n</li>\n<li><a href=\"#converting-meter-reads-into-billable-consumption\">Converting Meter Reads Into Billable Consumption</a><ul>\n<li><a href=\"#apply-the-correct-conversion\">Apply the correct conversion</a></li>\n<li><a href=\"#build-a-billing-ready-record\">Build a billing-ready record</a></li>\n</ul>\n</li>\n<li><a href=\"#using-your-meter-for-leak-detection-and-water-loss-control\">Using Your Meter for Leak Detection and Water Loss Control</a><ul>\n<li><a href=\"#use-the-right-indicator\">Use the right indicator</a></li>\n<li><a href=\"#compare-daily-reads-for-intermittent-losses\">Compare daily reads for intermittent losses</a></li>\n</ul>\n</li>\n<li><a href=\"#avoiding-common-meter-reading-mistakes-in-multi-unit-properties\">Avoiding Common Meter Reading Mistakes in Multi-Unit Properties</a><ul>\n<li><a href=\"#use-a-repeatable-field-routine\">Use a repeatable field routine</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"locating-and-identifying-your-water-meter-type\"></a></p>\n<h2>Locating and Identifying Your Water Meter Type</h2>\n<p>Before recording anything, confirm that you&#39;re looking at the correct meter. Residential meters may sit in an exterior pit, basement utility room, mechanical closet, or a dedicated submeter panel serving condominium or apartment units. In shared spaces, match the meter number or unit label to your property records. Never assume the nearest meter belongs to the nearest suite.</p>\n<p>California has relied heavily on metering for conservation. The Water Education Foundation reports that <strong>more than 90% of California residences and businesses are metered</strong>, and California has required meter installation in all new construction since <strong>1992</strong>. You can review the state&#39;s practical overview in the <a href=\"https://www.cpuc.ca.gov/-/media/cpuc-website/about-cpuc/documents/transparency-and-reporting/fact_sheets/waterwise.pdf\">California water-meter guidance</a>.</p>\n<p><a id=\"identify-the-display-before-recording-it\"></a></p>\n<h3>Identify the display before recording it</h3>\n<p>Most meters fall into three visual groups:</p>\n<ul>\n<li><strong>Analog dial meter:</strong> Multiple clock-style dials with hands. Each dial represents a different place value, and the hands may rotate in alternating directions.</li>\n<li><strong>Odometer or roller meter:</strong> Number wheels display a cumulative register. Read the digits from left to right, but check the face or utility instructions for units and excluded decimal places.</li>\n<li><strong>Digital meter:</strong> An LCD screen may cycle between total usage, flow rate, leak status, and other screens. The billing register and live flow screen answer different questions.</li>\n</ul>\n<p>A digital display showing <strong>0.00 GPM</strong> means the meter is reporting no detected flow at that moment. An odometer that hasn&#39;t advanced only tells you that the cumulative register hasn&#39;t crossed its next displayed increment. Those readings aren&#39;t interchangeable.</p>\n<p><a id=\"deal-with-difficult-access\"></a></p>\n<h3>Deal with difficult access</h3>\n<p>If the meter is behind a locked door or inside a shared mechanical area, arrange access with the building superintendent, facilities team, or utility. Don&#39;t remove covers or interfere with wiring. For a fogged or dirty face, photograph the meter first, then clean only the accessible exterior surface with a soft cloth. If digits remain hidden, record the obstruction and escalate rather than guessing.</p>\n<p>For a broader overview of equipment used in residential applications, see <a href=\"https://www.axismeter.com/blog/residential-water-meters\">residential water meters and their common configurations</a>. The purpose of this first inspection is simple: establish the meter identity and format before you interpret any number.</p>\n<p><a id=\"reading-analog-dial-and-odometer-water-meters\"></a></p>\n<h2>Reading Analog Dial and Odometer Water Meters</h2>\n<p>Analog meters demand patience because the indicator used for leak detection may sit beside the billing dials. Start by photographing the entire face. The image preserves the dial positions, meter identification, and any printed multiplier or unit marking.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/10e2905c-34b3-45f4-b222-961358b2310b/how-to-read-a-water-meter-water-meter.jpg\" alt=\"A four-step infographic illustrating how to read an analog dial and odometer water meter.\"></p>\n<p><a id=\"read-each-dial-in-order\"></a></p>\n<h3>Read each dial in order</h3>\n<p>For a traditional dial meter, work from the largest place value to the smallest. Read each hand clockwise and write down the lower number when the hand sits between two digits. If a hand appears exactly on a number, check the previous dial before finalising the reading. That previous-dial check prevents a common mistake where a reader records the apparent number even though the preceding hand hasn&#39;t completed its movement.</p>\n<p>Saskatoon&#39;s dial-reading guidance uses this same principle. The hand&#39;s position can look settled while the adjacent dial shows that the value is still just below the displayed number. If the dials rotate in alternating directions, follow the printed arrows or the utility&#39;s instructions rather than assuming every hand moves clockwise.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Photograph first, read second, and write the digit sequence down before you leave the meter room.</p>\n</blockquote>\n<p>The small red triangle, star, or wheel usually isn&#39;t part of the billed register. Waterloo identifies its small red indicator as a low-flow device, with <strong>one full turn equal to one litre</strong>. Movement while fixtures are off is a leak signal, not an extra digit to add to the total read. The <a href=\"https://www.waterloo.ca/water-utilities/water-meters/how-to-read-your-water-meter/\">Waterloo meter-reading instructions</a> explain that distinction clearly.</p>\n<p><a id=\"capture-odometer-style-registers\"></a></p>\n<h3>Capture odometer-style registers</h3>\n<p>Roller meters are easier to read but easier to misinterpret. Record the digits <strong>from left to right</strong>, including leading zeros. Check whether the display measures gallons, cubic metres, or hundreds of cubic feet, and confirm whether decimal digits belong in the billable read.</p>\n<p>Calgary&#39;s guidance associates the whole-number display with cubic metres, where <strong>one cubic metre equals 1,000 litres</strong>. Some Canadian municipalities instruct readers to ignore digits after the decimal for billing purposes. Don&#39;t remove those digits automatically. Follow the instructions printed on the meter or issued by the utility.</p>\n<p>Use the same method every time. A clean sequence such as <code>000184</code> is more useful than a rounded note such as “about 184,” especially when several submeters feed a tenant billing file.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/TNg7cVXKoWs\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"interpreting-digital-meter-displays-and-flow-screens\"></a></p>\n<h2>Interpreting Digital Meter Displays and Flow Screens</h2>\n<p>Digital meters create a different kind of confusion. The screen may rotate through a cumulative register, a live flow-rate display, and a leak indicator. A property manager who records the first visible screen without checking its label can capture the wrong value even when every digit is copied perfectly.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a05371a9-2123-44a9-8922-b9098677e9e1/how-to-read-a-water-meter-digital-meter-display.jpg\" alt=\"An infographic showing the differences between a water meter&#39;s total cumulative usage and real-time flow rate screens.\"></p>\n<p><a id=\"separate-total-usage-from-live-flow\"></a></p>\n<h3>Separate total usage from live flow</h3>\n<p>The <strong>billing register</strong> is cumulative. It records the volume that has passed through the meter since the relevant starting point, often installation or a previous reset. To calculate a billing period&#39;s consumption, you compare two register readings.</p>\n<p>The <strong>flow-rate screen</strong> is immediate. A display such as <code>0.00 GPM</code> reports the flow being detected now. It doesn&#39;t replace the total register, and it doesn&#39;t get added to it. If the flow screen shows a persistent nonzero value while all fixtures are isolated, investigate the property for leakage or an overlooked device.</p>\n<p>A digital meter may also show an electronic leak symbol or a small moving indicator. Treat that as a diagnostic signal. First confirm what the screen label means, then record the total register separately from the flow status.</p>\n<p><a id=\"reconcile-the-display-with-the-account\"></a></p>\n<h3>Reconcile the display with the account</h3>\n<p>Units vary by provider. Some California services bill in hundreds of cubic feet, while others instruct customers to read gallons or disregard digits after a decimal. The CPUC explains that <strong>100 cubic feet equals 748 gallons</strong>, giving you a fixed conversion when the meter and bill use different units. The conversion only works after you&#39;ve identified the meter&#39;s displayed unit correctly.</p>\n<p>For a digital read, record four items in your log:</p>\n<ol>\n<li>Meter identification or unit assignment.</li>\n<li>Full cumulative register, including leading zeros where displayed.</li>\n<li>Unit label, such as gallons, cubic metres, or hundreds of cubic feet.</li>\n<li>Flow-rate value and screen status, if you&#39;re performing a leak check.</li>\n</ol>\n<p>A register can remain nearly unchanged while a low, continuous flow persists. That&#39;s why digital interpretation requires both the billing number and the live screen, particularly in buildings with many fixtures and intermittent occupancy.</p>\n<p><a id=\"converting-meter-reads-into-billable-consumption\"></a></p>\n<h2>Converting Meter Reads Into Billable Consumption</h2>\n<p>A meter read becomes useful only after you compare it with an earlier read taken from the same register. San José describes the basic calculation plainly: <strong>subtract the previous reading from the current reading</strong>. The result is the consumption for that billing interval, expressed in the meter&#39;s unit unless you convert it.</p>\n<p>Write the calculation in the property log instead of relying on mental arithmetic:</p>\n<p><code>Current register − Previous register = Meter-unit consumption</code></p>\n<p>For example, if a meter displays whole cubic metres, the difference is cubic metres. Calgary ties the left-of-decimal digits to cubic metres and identifies <strong>1,000 litres per cubic metre</strong>. If the display includes decimal digits that your municipality excludes from billing, leave them out consistently in both reads.</p>\n<p><a id=\"apply-the-correct-conversion\"></a></p>\n<h3>Apply the correct conversion</h3>\n<p>California&#39;s CPUC guidance provides the relevant conversion for meters reporting in hundreds of cubic feet: <strong>one hundred cubic feet equals 748 gallons</strong>. Multiply the difference in hundreds of cubic feet by 748 when a gallons figure is needed.</p>\n<table>\n<thead>\n<tr>\n<th>Meter Read Difference</th>\n<th align=\"right\">Hundreds of Cubic Feet</th>\n<th align=\"right\">Gallons</th>\n<th align=\"right\">Cubic Metres</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>One meter unit</td>\n<td align=\"right\">1</td>\n<td align=\"right\">748</td>\n<td align=\"right\">Not directly equivalent without a unit conversion</td>\n</tr>\n<tr>\n<td>Two meter units</td>\n<td align=\"right\">2</td>\n<td align=\"right\">1,496</td>\n<td align=\"right\">Not directly equivalent without a unit conversion</td>\n</tr>\n<tr>\n<td>Five meter units</td>\n<td align=\"right\">5</td>\n<td align=\"right\">3,740</td>\n<td align=\"right\">Not directly equivalent without a unit conversion</td>\n</tr>\n</tbody></table>\n<p>The table applies only when the meter difference is measured in hundreds of cubic feet. It doesn&#39;t convert a cubic-metre register into gallons. For cubic-metre meters, use the displayed unit and the provider&#39;s stated conversion rules. Mixing systems is one of the fastest ways to create an apparently unreasonable tenant charge.</p>\n<p><a id=\"build-a-billing-ready-record\"></a></p>\n<h3>Build a billing-ready record</h3>\n<p>For multi-unit properties, include the read date, read time, meter identifier, current register, previous register, calculated difference, and billing unit. Add a clear photograph. If a supplier&#39;s invoice uses a different unit from the meter, preserve the conversion step so another person can audit it.</p>\n<p>The CPUC also states that utilities with metered service connections must read each customer&#39;s meter according to tariff schedules and report water quantities in annual filings. That regulatory foundation reinforces a practical operating rule: a meter read is not complete until the property can show <strong>what was read, when it was read, and how the billable quantity was calculated</strong>.</p>\n<p><a id=\"using-your-meter-for-leak-detection-and-water-loss-control\"></a></p>\n<h2>Using Your Meter for Leak Detection and Water Loss Control</h2>\n<p>A leak test is a controlled observation, not a quick glance at the register. Shut off every fixture and water-consuming device you can identify, including toilets, ice makers, water treatment equipment, and outdoor irrigation. In a large building, coordinate with occupants or site staff so legitimate use doesn&#39;t invalidate the test.</p>\n<p>California utility guidance recommends observing a meter hand for <strong>at least 15 minutes</strong> with water shut off. Other local guidance recommends a longer rest period, such as <strong>30 minutes to one hour</strong>, before checking again. The appropriate interval depends on the meter and the property, but the logic stays the same: isolate demand, record the starting condition, wait, and compare.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/35f375e8-b853-45de-aec6-d4b2f825a494/how-to-read-a-water-meter-leak-detection.jpg\" alt=\"A six-step infographic guide on how to detect water leaks in your home using a water meter.\"></p>\n<p><a id=\"use-the-right-indicator\"></a></p>\n<h3>Use the right indicator</h3>\n<p>On a dial meter, watch the sweep hand or low-flow wheel. On a digital meter, use the flow-rate screen and any electronic leak icon. Movement or a nonzero flow reading suggests water is moving, but it doesn&#39;t identify the cause.</p>\n<p>A toilet fill valve, an ice maker cycle, or an irrigation controller can create legitimate flow if it wasn&#39;t fully isolated. Repeat the test after confirming those devices are inactive. If the indicator continues moving, inspect toilets, valves, risers, common-area fixtures, and concealed pipework.</p>\n<blockquote>\n<p><strong>A nonzero flow reading is evidence of movement, not proof of a billable spike. Confirm the source before assigning responsibility.</strong></p>\n</blockquote>\n<p><a id=\"compare-daily-reads-for-intermittent-losses\"></a></p>\n<h3>Compare daily reads for intermittent losses</h3>\n<p>Canadian utility guidance recommends comparing reads taken at the same time on consecutive days to calculate daily consumption. This technique is valuable when a leak appears only during a cycle or when occupancy changes throughout the day. Consistent timing helps distinguish ordinary demand from a repeating unexplained increase.</p>\n<p>For larger properties, record common-area and suite-level readings together where possible. A building may show normal unit use while a common-area meter continues to advance because of irrigation, a janitor&#39;s sink, or a concealed leak. A structured <a href=\"https://www.axismeter.com/blog/water-system-monitoring\">water system monitoring workflow</a> can help connect readings, alerts, and follow-up work orders.</p>\n<p>Smart monitoring can add another layer by tracking flow patterns and flagging unusual activity. For a broader discussion of operational water efficiency, <a href=\"https://prestonwoodlandscape.com/what-is-smart-water/\">using smart water for cost savings</a> offers useful context, but any alert still needs on-site verification before billing or repair decisions are made.</p>\n<p><a id=\"avoiding-common-meter-reading-mistakes-in-multi-unit-properties\"></a></p>\n<h2>Avoiding Common Meter Reading Mistakes in Multi-Unit Properties</h2>\n<p>The most expensive assumption is that a meter&#39;s most noticeable number is automatically the billable number. Readers often copy the low-flow indicator, include excluded decimal digits, reverse dial values, or apply a gallons conversion to a cubic-metre difference. Each mistake can create a charge that appears precise while being wrong.</p>\n<p>Measurement Canada&#39;s accuracy benchmark, cited in Prince Edward Island utility review materials, is <strong>within 3% of actual volume</strong>. Calgary&#39;s meter-testing materials describe AWWA test acceptance of roughly <strong>95% to 101.5% of actual volume</strong> during testing. Those benchmarks concern meter performance, not permission to estimate. A poorly captured self-read can exceed the practical tolerance used in verification.</p>\n<p><a id=\"use-a-repeatable-field-routine\"></a></p>\n<h3>Use a repeatable field routine</h3>\n<ul>\n<li><strong>Read at a consistent time:</strong> Comparable dates and times make consumption changes easier to interpret.</li>\n<li><strong>Photograph the full face:</strong> Include the register, unit label, meter identifier, and any indicator position.</li>\n<li><strong>Separate evidence from interpretation:</strong> Record the raw digits first, then calculate usage and conversions.</li>\n<li><strong>Check the billing convention:</strong> Confirm whether decimals, trailing digits, or a multiplier belong in the billable read.</li>\n<li><strong>Escalate uncertainty:</strong> Ask the utility or submetering provider to review the meter when the display is damaged, the register conflicts with the account, or readings change unexpectedly.</li>\n</ul>\n<p>For resident-facing processes, <a href=\"https://www.axismeter.com/blog/submit-a-meter-reading\">submit a meter reading through the approved workflow</a> so the date, image, and captured value remain attached to the account. That record reduces disputes because the billing team and property team can review the same evidence.</p>\n<p>In a mixed-meter building, standardisation matters more than speed. Train staff to use one form, one naming convention, and one calculation method for every suite and common-area meter.</p>\n<hr>\n<p>Axis Meter Solutions provides water submetering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, ongoing service, and leak and flood detection. If your property needs a more reliable way to connect meter reads with billing and water-loss response, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a managed submetering programme.</p>",
+  "tags": [
+    "water meter reading",
+    "submetering guide",
+    "leak detection",
+    "utility billing",
+    "water meter types"
+  ],
+  "title": "How to Read a Water Meter for Accurate Billing",
+  "updatedAt": "2026-08-19T07:59:46.293Z"
+}
