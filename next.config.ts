@@ -4,24 +4,34 @@ import type { NextConfig } from "next";
 // Vercel build. It is never set on Vercel, so Vercel behaviour is unchanged.
 const isCloudflareBuild = process.env.CF_WORKERS_BUILD === "1";
 
+// Set only for the cutover build, once axismeter.com is a Cloudflare zone with
+// image transformations enabled. See image-loader.ts.
+const useZoneImages = process.env.CF_ZONE_IMAGES === "1";
+
+const images: NextConfig["images"] = {
+  remotePatterns: [
+    {
+      protocol: "https",
+      hostname: "images.unsplash.com",
+    },
+    {
+      protocol: "https",
+      hostname: "cdn.sanity.io",
+    },
+  ],
+  ...(useZoneImages
+    ? // Zone image transformations via /cdn-cgi/image/ (and Sanity's own CDN
+      // for blog imagery). Free tier covers 5k unique transforms per month.
+      { loader: "custom" as const, loaderFile: "./image-loader.ts" }
+    : // Workers has no built-in Next image optimizer and the Cloudflare Images
+      // binding is paid-plan only, so the workers.dev preview serves originals
+      // from /public and from the Sanity/Unsplash CDNs directly.
+      { unoptimized: isCloudflareBuild }),
+};
+
 const nextConfig: NextConfig = {
   outputFileTracingRoot: process.cwd(),
-  images: {
-    // Workers has no built-in Next image optimizer and the Cloudflare Images
-    // binding is paid-plan only, so the preview serves originals from
-    // /public and from the Sanity/Unsplash CDNs directly.
-    unoptimized: isCloudflareBuild,
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-      },
-    ],
-  },
+  images,
   async redirects() {
     return [
       // Core submetering cluster — one authoritative pillar URL.
