@@ -16,6 +16,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Cloudflare Workers build output and the routes the Workers build stashes.
+    ".open-next/**",
+    ".cf-build-excluded/**",
   ]),
 ]);
 

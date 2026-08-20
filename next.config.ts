@@ -1,8 +1,16 @@
 import type { NextConfig } from "next";
 
+// Set by the `cf:*` scripts so the Cloudflare Workers build can differ from the
+// Vercel build. It is never set on Vercel, so Vercel behaviour is unchanged.
+const isCloudflareBuild = process.env.CF_WORKERS_BUILD === "1";
+
 const nextConfig: NextConfig = {
   outputFileTracingRoot: process.cwd(),
   images: {
+    // Workers has no built-in Next image optimizer and the Cloudflare Images
+    // binding is paid-plan only, so the preview serves originals from
+    // /public and from the Sanity/Unsplash CDNs directly.
+    unoptimized: isCloudflareBuild,
     remotePatterns: [
       {
         protocol: "https",
@@ -114,7 +122,9 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
-    if (process.env.VERCEL_ENV !== "preview") {
+    // Keep non-production deployments (Vercel previews and the workers.dev
+    // preview) out of search indexes.
+    if (process.env.VERCEL_ENV !== "preview" && !isCloudflareBuild) {
       return [];
     }
 
