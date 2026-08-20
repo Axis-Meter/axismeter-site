@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { retiredPostRedirects } from "./src/data/retired-posts";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: process.cwd(),
@@ -93,6 +94,12 @@ const nextConfig: NextConfig = {
         destination: "/blog/what-is-a-submeter-and-how-does-it-work",
         permanent: true,
       },
+      // Posts retired on 2026-08-20 (see src/data/retired-posts.ts). Both the
+      // current and the legacy Webflow URL go to the replacement in one hop.
+      ...Object.entries(retiredPostRedirects).flatMap(([slug, destination]) => [
+        { source: `/blog/${slug}`, destination, permanent: true },
+        { source: `/post/${slug}`, destination, permanent: true },
+      ]),
       // Preserve old Webflow URL structure
       {
         source: "/post/:slug",
