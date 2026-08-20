@@ -21,10 +21,6 @@ const seoTitleOverrides: Record<string, string> = {
     "What Is a Water Submeter? Complete Guide | Axis Meter",
   "who-pays-utilities-when-renting-a-house":
     "Who Pays Utilities When Renting a House? | Axis Meter",
-  "what-utilities-do-you-need-for-a-house":
-    "House Utilities Checklist for Owners | Axis Meter Guide",
-  "who-is-responsible-for-unpaid-utility-bills":
-    "Unpaid Utility Bills in Rentals | Axis Meter Guide",
 };
 
 const serviceCtaByCategory: Record<string, { href: string; title: string; description: string }> = {

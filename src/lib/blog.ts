@@ -8,6 +8,7 @@ import {
   type ArticleSummary as OutrankArticleSummary,
 } from "outrank-next-js-blog";
 import { blogPosts, type BlogPostMeta } from "@/data/blogPosts";
+import { retiredPostSlugs } from "@/data/retired-posts";
 import type { BlogArticle, BlogPostSummary } from "@/lib/blog-types";
 import { getSanityBlogArticle, getSanityBlogPostSummaries } from "@/lib/sanity-blog";
 
@@ -149,10 +150,16 @@ export const getBlogPostSummaries = cache(async (): Promise<BlogPostSummary[]> =
     postsBySlug.set(post.slug, post);
   }
 
+  // Retired posts stay out of the index and sitemap even if Sanity or Outrank
+  // still holds a document with the slug.
+  for (const slug of retiredPostSlugs) postsBySlug.delete(slug);
+
   return [...postsBySlug.values()].sort((a, b) => b.date.localeCompare(a.date));
 });
 
 export const getBlogArticle = cache(async (slug: string): Promise<BlogArticle | null> => {
+  if (retiredPostSlugs.has(slug)) return null;
+
   try {
     const sanityPost = await getSanityBlogArticle(slug);
     if (sanityPost) return sanityPost;
