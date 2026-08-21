@@ -1,0 +1,2384 @@
+{
+  "_createdAt": "2026-08-20T07:38:39Z",
+  "_id": "outrank-7eed8983-245d-4858-b582-3074d48879b9",
+  "_rev": "lkzx1b3HED7431htUdmUxe",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-20T07:38:39Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "8c6f5cdf2995",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0e7867fe4b0",
+          "_type": "span",
+          "marks": [],
+          "text": "A forwarded Metergy invoice has just landed in your inbox from the landlord. You've moved recently, the account may still be changing hands, and the balance doesn't immediately tell you whether it covers your occupancy period or an earlier resident's. Before you click "
+        },
+        {
+          "_key": "1baced3114d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pay"
+        },
+        {
+          "_key": "df1046c02a6c",
+          "_type": "span",
+          "marks": [],
+          "text": ", confirm that the bill belongs to you, the portal matches the account, and the payment will be recorded against the right service address."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "90dcbb389a71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48865bb1ece8",
+          "_type": "span",
+          "marks": [],
+          "text": "This guide explains "
+        },
+        {
+          "_key": "a8ffcd5fb9f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Metergy bill payment"
+        },
+        {
+          "_key": "150605fa9b64",
+          "_type": "span",
+          "marks": [],
+          "text": " from preparation through receipt retention and support escalation. It also addresses the less obvious risks, including move-in and move-out dates, landlord-held accounts, disputed arrears, and payment protections available to eligible Ontario customers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2997f2b39373",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a32c8e432996",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "28213078a47d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfbb940fa7d7",
+          "_type": "span",
+          "marks": [
+            "b12213ab6969"
+          ],
+          "text": "What You Need Before Paying a Metergy Bill"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b12213ab6969",
+          "_type": "link",
+          "href": "#what-you-need-before-paying-a-metergy-bill"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a58509989a25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2da214ec1c79",
+          "_type": "span",
+          "marks": [
+            "bee7dc4b20e3"
+          ],
+          "text": "Gather the account evidence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "bee7dc4b20e3",
+          "_type": "link",
+          "href": "#gather-the-account-evidence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac4a3268a227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17d4699ba52e",
+          "_type": "span",
+          "marks": [
+            "10c4bfb35305"
+          ],
+          "text": "Find and Log In to the Metergy Payment Portal"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "10c4bfb35305",
+          "_type": "link",
+          "href": "#find-and-log-in-to-the-metergy-payment-portal"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "79e5300fd615",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3153743554f",
+          "_type": "span",
+          "marks": [
+            "5f58ba99f900"
+          ],
+          "text": "Complete the sign-in carefully"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5f58ba99f900",
+          "_type": "link",
+          "href": "#complete-the-sign-in-carefully"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "13e3385f8d7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35b9ac4993ed",
+          "_type": "span",
+          "marks": [
+            "b12c1b67758d"
+          ],
+          "text": "Choose a One-Time Payment or Auto-Pay"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b12c1b67758d",
+          "_type": "link",
+          "href": "#choose-a-one-time-payment-or-auto-pay"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "34b393e9a6f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26a569a9c523",
+          "_type": "span",
+          "marks": [
+            "ed7c607ba5a9"
+          ],
+          "text": "Configure recurring payment controls"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ed7c607ba5a9",
+          "_type": "link",
+          "href": "#configure-recurring-payment-controls"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ad8ee4d0a5c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5da85ae9b3db",
+          "_type": "span",
+          "marks": [
+            "a46badedfdae"
+          ],
+          "text": "Verify the Payment and Save the Receipt"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a46badedfdae",
+          "_type": "link",
+          "href": "#verify-the-payment-and-save-the-receipt"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e5122fa16990",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "307a555e2990",
+          "_type": "span",
+          "marks": [
+            "ae96b9138032"
+          ],
+          "text": "Confirm Who Owes the Bill"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ae96b9138032",
+          "_type": "link",
+          "href": "#confirm-who-owes-the-bill"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6adc66982d67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27b4082217d0",
+          "_type": "span",
+          "marks": [
+            "76f2fabe7848"
+          ],
+          "text": "Use a responsibility-date test"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "76f2fabe7848",
+          "_type": "link",
+          "href": "#use-a-responsibility-date-test"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "424e9410ac28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed2ea9a112eb",
+          "_type": "span",
+          "marks": [
+            "5a5c57537ff2"
+          ],
+          "text": "Fix Login and Payment Errors"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5a5c57537ff2",
+          "_type": "link",
+          "href": "#fix-login-and-payment-errors"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1d5578d9189f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8b944655e6f",
+          "_type": "span",
+          "marks": [
+            "a4063329e361"
+          ],
+          "text": "When access fails"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a4063329e361",
+          "_type": "link",
+          "href": "#when-access-fails"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fc4b4e5350e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd2272e07856",
+          "_type": "span",
+          "marks": [
+            "a8b0863a3fcd"
+          ],
+          "text": "When a card or bank payment fails"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a8b0863a3fcd",
+          "_type": "link",
+          "href": "#when-a-card-or-bank-payment-fails"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eb36eb72cd0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0441f22ea711",
+          "_type": "span",
+          "marks": [
+            "c0db811e551c"
+          ],
+          "text": "When auto-pay stops"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c0db811e551c",
+          "_type": "link",
+          "href": "#when-auto-pay-stops"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ae549a266753",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2cb6942ef6d",
+          "_type": "span",
+          "marks": [
+            "19ff1a300bad"
+          ],
+          "text": "Pay Securely and Get the Right Support"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "19ff1a300bad",
+          "_type": "link",
+          "href": "#pay-securely-and-get-the-right-support"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "021e13864399",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf7c72616fde",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1cad5efbed4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37b61cf35b57",
+          "_type": "span",
+          "marks": [],
+          "text": "What You Need Before Paying a Metergy Bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cc6878aa0a4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6217888c2ee3",
+          "_type": "span",
+          "marks": [],
+          "text": "A forwarded invoice can look familiar while belonging to a different account. Match the "
+        },
+        {
+          "_key": "1f9d0beff37e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "invoice number, account number, registered unit address, account-holder name, billing period, current balance, and any prior-balance or arrears notice"
+        },
+        {
+          "_key": "7c62b7338225",
+          "_type": "span",
+          "marks": [],
+          "text": " before you enter payment details. These fields work like labels on a package. They help show where the payment should go and which dates the charge covers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cae492c029b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a22f0fc8cc0",
+          "_type": "span",
+          "marks": [],
+          "text": "The service address matters because a building can contain several account histories, particularly after a resident moves. The name on the statement may still belong to the owner or a previous occupant if the account transfer is incomplete. Ontario's legal framework describes unit sub-metering as including the provision and maintenance of meters, along with billing and collecting payment for electricity used in a multi-unit complex, as described in the "
+        },
+        {
+          "_key": "7af0a80e728c",
+          "_type": "span",
+          "marks": [
+            "863cd08d6abd"
+          ],
+          "text": "Ontario unit sub-metering regulation"
+        },
+        {
+          "_key": "4f7771c8f0fd",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "863cd08d6abd",
+          "_type": "link",
+          "href": "https://www.ontario.ca/laws/regulation/100389/v4"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5d5ee9dd9dc8",
+      "_type": "externalImage",
+      "alt": "A Metergy instructional graphic showing four numbered steps to follow before making a utility bill payment.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/873dee54-11f4-4039-978b-7f4a245e71f6/metergy-bill-payment-instructions.jpg"
+    },
+    {
+      "_key": "58f4ef67c50b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4c773d22530",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df356e5b18c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c318afeb0eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Gather the account evidence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5966932749e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9c21c005c4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep your lease, move-in or move-out confirmation, and account-transfer messages beside you. If a property manager forwarded the invoice, ask whether it concerns your personal utility account or a property-level charge. The forwarding email alone does not establish responsibility for every date shown on the bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "309f19bdd12f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9b99bf3b68a",
+          "_type": "span",
+          "marks": [],
+          "text": "Check each item:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de4e726fa53c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98f9a6cf56bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Invoice details:"
+        },
+        {
+          "_key": "a81120166acd",
+          "_type": "span",
+          "marks": [],
+          "text": " Match the invoice and account numbers with the statement you received."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e5ac55d1740",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "304b0cf585e4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Service location:"
+        },
+        {
+          "_key": "f8fc47070131",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the building, unit, and registered service address."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb76aa12d434",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8357acc6ee36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing dates:"
+        },
+        {
+          "_key": "5364be6efe67",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare the covered period with your lease and recorded occupancy dates."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f248f06e16c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1de70d359fcd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Balance status:"
+        },
+        {
+          "_key": "c36363a68f07",
+          "_type": "span",
+          "marks": [],
+          "text": " Distinguish the current charge from a prior balance, adjustment, credit, or arrears amount."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f50840a6bd5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4335d4be7fe2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Payment method:"
+        },
+        {
+          "_key": "68d702d2954c",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm which card or bank options the portal accepts before entering details."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "154a8085b8a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3ce58196ee8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Device setup:"
+        },
+        {
+          "_key": "f86896b83727",
+          "_type": "span",
+          "marks": [],
+          "text": " Use an updated browser, a stable connection, and an accessible email inbox for verification messages."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "590e617e1f98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b14b121720fc",
+          "_type": "span",
+          "marks": [],
+          "text": "A property or finance team handling many statements can use a structured "
+        },
+        {
+          "_key": "a56b891f78fe",
+          "_type": "span",
+          "marks": [
+            "ea40658587a6"
+          ],
+          "text": "finance teams utility invoices"
+        },
+        {
+          "_key": "ffebfb578b78",
+          "_type": "span",
+          "marks": [],
+          "text": " workflow to organise invoice fields before approval. Residents checking a metered charge against other consumption information can consult this "
+        },
+        {
+          "_key": "bec18ccd2d9f",
+          "_type": "span",
+          "marks": [
+            "9501eba89822"
+          ],
+          "text": "guide to reading a water meter"
+        },
+        {
+          "_key": "dd31bc20e7f8",
+          "_type": "span",
+          "marks": [],
+          "text": ". Water readings and electricity invoices remain separate records, so one cannot confirm the other."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ea40658587a6",
+          "_type": "link",
+          "href": "https://matil.ai/marketplace/invoices/us-utility-bill"
+        },
+        {
+          "_key": "9501eba89822",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-read-a-water-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "946caa444058",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "315286452ea6",
+          "_type": "span",
+          "marks": [],
+          "text": "If the address or responsibility dates do not match your documents, pause the payment. Resolve the account transfer or arrears question first, then pay the account that covers your occupancy period."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "33d197cbeb8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c4773dceb41",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3324a7c2c329",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "915cfe965c0f",
+          "_type": "span",
+          "marks": [],
+          "text": "Find and Log In to the Metergy Payment Portal"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "881c3d81ce59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a8c069dc688",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the payment link shown on your current invoice or go directly to the official Metergy website. Don't choose a search result merely because it appears first, and don't enter payment information into a look-alike domain. Before logging in, confirm that the browser shows an "
+        },
+        {
+          "_key": "38b40957e0da",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "HTTPS connection and a padlock"
+        },
+        {
+          "_key": "2f679b46516b",
+          "_type": "span",
+          "marks": [],
+          "text": ", and inspect the address carefully for spelling changes or unexpected redirects."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f0954668fa5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ef0fa9f8c88",
+          "_type": "span",
+          "marks": [],
+          "text": "Some residents receive client-specific links through an invoice or property-management communication. Keep the original link available, including any account or client information embedded in it. If the page redirects to an Axis or property-specific portal, compare the destination with the details printed on your bill. A different portal can be legitimate, but it should still display the correct property, account information, and service context before you continue."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7592edfd5994",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04031d56c57d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d298785f1b7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "848ee3e93ba3",
+          "_type": "span",
+          "marks": [],
+          "text": "Complete the sign-in carefully"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b5c65102a797",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5860212ce4b8",
+          "_type": "span",
+          "marks": [],
+          "text": "Enter the "
+        },
+        {
+          "_key": "badb92d12419",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "account or customer number, registered email address, and password"
+        },
+        {
+          "_key": "134476c5fefe",
+          "_type": "span",
+          "marks": [],
+          "text": " exactly as shown or created during activation. If the portal requests two-factor verification, use the current code sent to your verified contact method. Don't share that code with a caller, email sender, or anyone claiming to be support."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f7d8b9009d2",
+      "_type": "externalImage",
+      "alt": "Screenshot from https://metergy.com/wp-content/uploads/2023/04/Metergy-Payments-portal-login.png",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5cfc3459-f1cc-4d5a-9fbd-10a715928d0c/metergy-bill-payment-web-interface.jpg"
+    },
+    {
+      "_key": "74ea768f00b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f46320987ba",
+          "_type": "span",
+          "marks": [],
+          "text": "If you've forgotten the password, use the portal's recovery option rather than creating a second account. An expired activation link may require a new invitation, while repeated failed attempts can trigger a temporary lock. If recovery sends you to a different client portal, stop and verify the destination with the support contact on your current documentation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e3ec2cce4be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f34c3b38f616",
+          "_type": "span",
+          "marks": [],
+          "text": "Once inside, don't go straight to the payment button. Confirm the "
+        },
+        {
+          "_key": "bc15f953f305",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "account holder, service address, outstanding balance, billing period, and recent payment history"
+        },
+        {
+          "_key": "f95cc1446a6e",
+          "_type": "span",
+          "marks": [],
+          "text": ". For teams designing resident-facing guidance, these "
+        },
+        {
+          "_key": "914a357ff2c1",
+          "_type": "span",
+          "marks": [
+            "41b5b179ce1c"
+          ],
+          "text": "self service implementation tips"
+        },
+        {
+          "_key": "2390570165e6",
+          "_type": "span",
+          "marks": [],
+          "text": " can help organise instructions around verification and escalation rather than assuming every user reaches the same screen."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "41b5b179ce1c",
+          "_type": "link",
+          "href": "https://supportgpt.app/blog/web-self-service"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b3404785de5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c2c6350cde2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9ee1b3c2e9f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26368069450b",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose a One-Time Payment or Auto-Pay"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "863b5ebfa913",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3fe3914c9b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing between a one-time payment and auto-pay depends on whether your account is stable or transitional. A one-time payment lets you select the account, review its balance, enter an amount, choose an accepted method, and submit the transaction. If partial payments are allowed, confirm how the amount will be applied, particularly when the account contains arrears or a balance from a previous resident."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8667c9be7b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b979bc4894a",
+          "_type": "span",
+          "marks": [],
+          "text": "Auto-pay creates an ongoing authorisation through a stored payment method and recurring withdrawal settings. Review the withdrawal timing, available payment cap, notification choices, and cancellation or pause process shown in the portal. Auto-pay can help prevent a monthly invoice from being overlooked, but it does not transfer responsibility when a tenant moves or a property manager updates occupancy records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "add8427c3707",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e2359d0c9ee",
+          "_type": "span",
+          "marks": [],
+          "text": "Feature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "917791872d7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1e83d8a6f55",
+          "_type": "span",
+          "marks": [],
+          "text": "One-Time Payment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f60c646ca659",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "398d3dfc3a3d",
+          "_type": "span",
+          "marks": [],
+          "text": "Auto-Pay"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1925126a185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fb13e2c265b",
+          "_type": "span",
+          "marks": [],
+          "text": "Best fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9654d6e717b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f245063433d",
+          "_type": "span",
+          "marks": [],
+          "text": "A single invoice, disputed period, or transitional account"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1770761eb16d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e17394e510ee",
+          "_type": "span",
+          "marks": [],
+          "text": "A stable occupancy period with predictable account responsibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd56f5956e0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff537f6f8cdb",
+          "_type": "span",
+          "marks": [],
+          "text": "Move-out risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0141dd59d776",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28343be69396",
+          "_type": "span",
+          "marks": [],
+          "text": "You decide whether to pay a confirmed final balance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f71e7fc614de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "891c5a6c25f2",
+          "_type": "span",
+          "marks": [],
+          "text": "A saved authorisation may continue unless you cancel it"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "326490c6d8c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99f3d4720f3e",
+          "_type": "span",
+          "marks": [],
+          "text": "Failure response"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d769a0e043c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fe2846b6ffa",
+          "_type": "span",
+          "marks": [],
+          "text": "You can choose another method after checking the first result"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7a235307ab9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7016dd5c2aab",
+          "_type": "span",
+          "marks": [],
+          "text": "You must monitor failed drafts, expired methods, and notification emails"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9faa98757478",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5779e8dd88e2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ea754bd104e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6b8511cac09",
+          "_type": "span",
+          "marks": [],
+          "text": "Configure recurring payment controls"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "8e9168c579f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55c2a325d1be",
+          "_type": "span",
+          "marks": [],
+          "text": "A long-term tenant may choose auto-pay after confirming that the correct account is registered to the right service address. Set an alert for failed drafts, keep another payment option available where the portal permits it, and review the account after a move or lease change. A short-term resident, or someone waiting for an account transfer, should generally use one-time payments until the responsibility dates and account ownership are settled."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3018fe71d9c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abab0bf99994",
+          "_type": "span",
+          "marks": [],
+          "text": "For example, a tenant who pays an old account through auto-pay may continue covering charges after moving out, while the current account remains unpaid. A property manager should confirm which account is active before directing a resident to enrol. Payment settings follow the account record, not necessarily the person who made the last payment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73027b3ad2a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "496c89fef9ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Stored-payment arrangements also involve authorisations, retries, and cancellation rules. A "
+        },
+        {
+          "_key": "5926041ae2a4",
+          "_type": "span",
+          "marks": [
+            "5ee0b1ae5194"
+          ],
+          "text": "subscription payment processor guide 2026"
+        },
+        {
+          "_key": "f5141873b253",
+          "_type": "span",
+          "marks": [],
+          "text": " provides broader context, but the Metergy portal's displayed terms govern your specific arrangement."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5ee0b1ae5194",
+          "_type": "link",
+          "href": "https://www.tagada.io/blog/recurring-credit-card-processor"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "62ec166c7d05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84e88974d355",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Auto-pay reminder:"
+        },
+        {
+          "_key": "15647eaa29c3",
+          "_type": "span",
+          "marks": [],
+          "text": " Treat recurring payment as an instruction to withdraw funds, not as an account-transfer instruction. Close, transfer, or update responsibility through the proper process, and check whether any arrears remain on the previous account."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "11ccadccad00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5283ecde401",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b100e1ebc2ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a27a041894a",
+          "_type": "span",
+          "marks": [],
+          "text": "Verify the Payment and Save the Receipt"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "513587ee931d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bfd305491d2",
+          "_type": "span",
+          "marks": [],
+          "text": "The checkout confirmation signals that the request was received. It becomes useful evidence only after you verify its status and destination. Look for "
+        },
+        {
+          "_key": "5c36dfef2431",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "processing, posted, or completed"
+        },
+        {
+          "_key": "9e01497ec67d",
+          "_type": "span",
+          "marks": [],
+          "text": ", then check that the payment is attached to the intended account, not an older account linked to the unit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6eec3159b932",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62e744072052",
+          "_type": "span",
+          "marks": [],
+          "text": "Capture the record while it is available:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49e261271b0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "670e0201a99f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirmation number:"
+        },
+        {
+          "_key": "1b1135b78e6a",
+          "_type": "span",
+          "marks": [],
+          "text": " Save the reference exactly as shown."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c692ddabe5e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f0cad0b2ea0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Transaction information:"
+        },
+        {
+          "_key": "0d05d18f571a",
+          "_type": "span",
+          "marks": [],
+          "text": " Record the payment date, amount, account number, and billing period."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "840479ffdec2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21cb2eeae4d5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Method used:"
+        },
+        {
+          "_key": "0919255924f4",
+          "_type": "span",
+          "marks": [],
+          "text": " Note whether you paid by card, bank method, or another accepted option."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8113a8bace74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9011a73d071",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Account result:"
+        },
+        {
+          "_key": "30dc33c5f5dc",
+          "_type": "span",
+          "marks": [],
+          "text": " Check whether the balance changed or remains pending."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "775006058b1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f96063ad2d3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Receipt location:"
+        },
+        {
+          "_key": "56fe87b856ad",
+          "_type": "span",
+          "marks": [],
+          "text": " Download or print the official receipt immediately."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8613210487cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0dc3b629746f",
+          "_type": "span",
+          "marks": [],
+          "text": "For recurring payments, keep the enrolment confirmation and the terms you accepted. Review the withdrawal timing, maximum amount, and cancellation process. If no receipt appears, check your email and spam folders, review payment history, and take a dated screenshot showing the account details and status."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aee09aeea2ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fe26754b9d2",
+          "_type": "span",
+          "marks": [],
+          "text": "A bank transaction that is still pending does not show that Metergy has applied the payment. If the portal continues to show the balance after the stated processing period, collect the receipt, bank record, invoice, and account information before contacting Metergy or the relevant Axis Meter Solutions support channel."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de71a25d6d39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4fe6a898e0f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep these records together. Store the invoice, receipt, lease documents, transfer correspondence, and support messages in one folder. That file can clarify whether a payment reached the wrong account, whether an arrears balance remains, or whether the responsibility date is disputed. A receipt proves what you submitted, while the account status shows where the payment was applied."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ae3bd556703",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee7a611f9922",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3fd3fdf1a30a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0705fb500474",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm Who Owes the Bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "96da7d669a73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91bd698b8b2b",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common payment mistake isn't choosing the wrong button. It's paying a bill for the wrong "
+        },
+        {
+          "_key": "466aa4b7387c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "service period"
+        },
+        {
+          "_key": "d255f614b563",
+          "_type": "span",
+          "marks": [],
+          "text": ". A resident may see their unit address and assume the entire balance belongs to them, even though the account remained open after a previous tenancy or wasn't transferred at move-in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fea4c4322ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44415d79f2d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's Metergy service terms place account-opening responsibility on the owner when the premises are rented, with the owner remaining responsible until a new tenant opens an account or the owner tells Metergy otherwise. The same terms state that bills are issued monthly and due "
+        },
+        {
+          "_key": "5f85e790b4fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20 days after issue"
+        },
+        {
+          "_key": "6f38c4043131",
+          "_type": "span",
+          "marks": [],
+          "text": ", so the transfer record matters when deciding which dates belong to which account holder. Review the Metergy Canada conditions of service%20Canada%20(April%2024,%202024).pdf) alongside your lease and move documentation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1a4728b51f39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a84e3460201a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6f9c0d79c6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74b2b3b6f3b7",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a responsibility-date test"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1ba70013f0a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c95d209345a9",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask four questions before authorising payment:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1d429759faf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1573b08c901",
+          "_type": "span",
+          "marks": [],
+          "text": "Does the invoice show the correct property and unit?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ca9532cde43",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1ff1a4783b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Does the billing period overlap with your occupancy?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1df207e5f4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54d69c2dac4d",
+          "_type": "span",
+          "marks": [],
+          "text": "What move-in or move-out date does the account record show?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1aecb93784c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "402a8b87cc8e",
+          "_type": "span",
+          "marks": [],
+          "text": "Is the account held by you, the landlord, or a property manager?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39e92671a82e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7c667f4560d",
+          "_type": "span",
+          "marks": [],
+          "text": "If the lease makes the landlord responsible for a utility charge, confirm that the invoice isn't already a property-level expense being handled centrally. Don't use a previous resident's login, confirmation number, or balance information to settle your own account."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f1264ec2bf1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "514077877d83",
+          "_type": "span",
+          "marks": [],
+          "text": "For arrears, request a current breakdown showing the original charge, adjustments, credits, and periods covered. Ontario's "
+        },
+        {
+          "_key": "4b70ff4b3818",
+          "_type": "span",
+          "marks": [
+            "48d3a3a47900"
+          ],
+          "text": "electricity unit sub-metering consumer guidance"
+        },
+        {
+          "_key": "0f9f74901724",
+          "_type": "span",
+          "marks": [],
+          "text": " explains that licensed providers bill for measured electricity use and pass through applicable delivery charges without markup. That distinction can help you understand why a sub-metered invoice differs from a flat rent charge, but it doesn't decide who owes a disputed period."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "48d3a3a47900",
+          "_type": "link",
+          "href": "https://www.oeb.ca/consumer-information-and-protection/oebs-consumer-protection-role/understanding-electricity-unit"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "44aa5f6c05c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "773dfecdaf4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Payment made to the wrong account can delay posting and complicate a transfer dispute. If records conflict, send support the invoice, lease, transfer date, and payment history together, and wait for the account number and responsibility date to be confirmed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09a7441dac3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd40e454a456",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a23a39e20fd3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab6428bb2c16",
+          "_type": "span",
+          "marks": [],
+          "text": "Fix Login and Payment Errors"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b4360c83c500",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7469458896da",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the least disruptive checks. A failed login often comes from using an outdated portal link, entering an account number differently from the bill, mistyping the verified email, or overlooking a password-case difference."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b92fc494578",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee702f5e8cb4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4efdc642ecd1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a444a397a7e",
+          "_type": "span",
+          "marks": [],
+          "text": "When access fails"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "13d092730b3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a811b4c5ebb7",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the portal address, caps lock, and the exact account details shown on the invoice. Use the password-reset function, request a new verification or activation link if the original has expired, and avoid repeated attempts that could create a temporary lock. If the account still isn't accessible, ask whether the move-in transfer or account activation has been completed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92460bcf91e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a82d12d2232a",
+          "_type": "span",
+          "marks": [],
+          "text": "A redirect to another client portal deserves attention. Don't assume it means your account is wrong, but don't submit payment until the destination displays the correct service address and account. For general account questions, keep the "
+        },
+        {
+          "_key": "d8fc3a592c22",
+          "_type": "span",
+          "marks": [
+            "872afea0da00"
+          ],
+          "text": "Axis Meter Solutions FAQ"
+        },
+        {
+          "_key": "faf2217a8500",
+          "_type": "span",
+          "marks": [],
+          "text": " available, then use the current support details printed on your invoice or account documentation."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "872afea0da00",
+          "_type": "link",
+          "href": "https://www.axismeter.com/faq"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5f46dff7adb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "683f5f970b62",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "107672aecfab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89ecb2768210",
+          "_type": "span",
+          "marks": [],
+          "text": "When a card or bank payment fails"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e32952b10b1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0166506366a",
+          "_type": "span",
+          "marks": [],
+          "text": "Review the billing address, card number, expiry date, CVV, available funds, daily limits, and restrictions imposed by the bank or cardholder. An updated browser and less aggressive pop-up blocking can resolve a checkout interruption. Clear stored portal data only if you're sure it won't interfere with another active session."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70178b2762c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54d7f24ef6a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't keep retrying after several declines. Multiple attempts can leave duplicate pending transactions even when no payment has posted. Check the bank account first, distinguish pending activity from a posted transaction, and contact the financial institution unless the portal displays a specific payment-processor error."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "99c2364b3e44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb47db26290f",
+          "_type": "span",
+          "marks": [],
+          "text": "Save the exact error, the time, the amount, and any failed-reference number. A screenshot is useful, but redact unnecessary financial information before sharing it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3d269dbf842",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62c89de61034",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3b1460229184",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1a58e84be89",
+          "_type": "span",
+          "marks": [],
+          "text": "When auto-pay stops"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "88cee1f6fc39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d4a90a529e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Check whether the stored card expired, whether the account has exceeded an authorisation cap, and whether recurring withdrawal remains enabled. Don't assume that a failed draft has cancelled the balance or the authorisation. Confirm the account status in the portal and resolve the outstanding transaction through an approved method."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f2cb8c5f135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e39ed582dd03",
+          "_type": "span",
+          "marks": [],
+          "text": "If the problem concerns ownership, arrears, or a transferred balance, provide the invoice, service address, account number, move date, and payment history. Axis Meter Solutions clients should use the contact information on current Metergy or Axis documentation and shouldn't post account or payment details in public forums."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47a5f9dc2356",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "750c61e6c6e2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3de10cad09b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89afb374498a",
+          "_type": "span",
+          "marks": [],
+          "text": "Pay Securely and Get the Right Support"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cbe2a6491fba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b240d235295c",
+          "_type": "span",
+          "marks": [],
+          "text": "A secure payment process has four parts: use the legitimate portal, verify the account, preserve the receipt, and escalate the right issue to the right team. Avoid entering card or bank details on public Wi-Fi, and sign out after finishing. If your tenancy has ended, remove saved payment methods where appropriate, but retain the transaction record and final invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "610e16d3918b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19e8ce51c03c",
+          "_type": "span",
+          "marks": [],
+          "text": "Use Metergy's payment support for transaction status, receipt questions, failed payments, or portal issues. Use the property manager or the designated Axis Meter Solutions contact for account transfers, responsibility dates, property-specific billing questions, and disputes involving the building's sub-metering arrangement. For arrears assistance, ask for the current balance and available payment options before assuming that a missed payment immediately leads to disconnection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f3068069c0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7909d7907b7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's rules require electricity providers, including unit sub-meter providers, to offer payment plans and arrears agreements before disconnection in applicable circumstances. The OEB states that eligible low-income customers may receive emergency assistance of up to "
+        },
+        {
+          "_key": "b520891924ee",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$650"
+        },
+        {
+          "_key": "bfffce09c462",
+          "_type": "span",
+          "marks": [],
+          "text": ", or "
+        },
+        {
+          "_key": "1130a28ae53b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$780 when electrically heated"
+        },
+        {
+          "_key": "af05a33d7cfd",
+          "_type": "span",
+          "marks": [],
+          "text": ", and that arrears agreements must allow at least "
+        },
+        {
+          "_key": "9f2b8daf493f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8, 12, or 16 months"
+        },
+        {
+          "_key": "ad5c6ed93adf",
+          "_type": "span",
+          "marks": [],
+          "text": ", depending on debt size. Review the "
+        },
+        {
+          "_key": "8b8b84beccb5",
+          "_type": "span",
+          "marks": [
+            "2773e16c1298"
+          ],
+          "text": "OEB Low-Income Energy Assistance Program guidance"
+        },
+        {
+          "_key": "0fbcecb65283",
+          "_type": "span",
+          "marks": [],
+          "text": " if affordability is affecting your ability to pay."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2773e16c1298",
+          "_type": "link",
+          "href": "https://www.oeb.ca/consumer-information-and-protection/bill-assistance-programs/low-income-energy-assistance-program"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "653a2751de42",
+      "_type": "externalImage",
+      "alt": "A four-step checklist for secure bill payments including security, receipt saving, arrears review, and escalation contact details.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0eb96209-2716-41d1-b8da-386507215685/metergy-bill-payment-security-checklist.jpg"
+    },
+    {
+      "_key": "9ad44f6446d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a110a89ae04",
+          "_type": "span",
+          "marks": [],
+          "text": "Use this final check before logging out:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8107c0a5c5ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1eedbc62e0a6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Portal security:"
+        },
+        {
+          "_key": "c323bb4cccba",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the official URL and padlock."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f008499c6378",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bcd2f35a76a3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Account accuracy:"
+        },
+        {
+          "_key": "2fcffe7f3466",
+          "_type": "span",
+          "marks": [],
+          "text": " Match the unit, account holder, billing period, and responsibility date."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f23d3c53c588",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb9f5ce7e55d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Receipt retention:"
+        },
+        {
+          "_key": "948bb331bf35",
+          "_type": "span",
+          "marks": [],
+          "text": " Save the confirmation number and official receipt."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b2412fa533e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67f31de2b984",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Arrears review:"
+        },
+        {
+          "_key": "ba5b1625801a",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask how payments apply to prior balances and disputed periods."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc113ba0e280",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2a6146fe4f6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Escalation path:"
+        },
+        {
+          "_key": "cc6bd9fa9fc6",
+          "_type": "span",
+          "marks": [],
+          "text": " Save the appropriate support contact using the "
+        },
+        {
+          "_key": "c453e6535741",
+          "_type": "span",
+          "marks": [
+            "dcadcd9dea67"
+          ],
+          "text": "Axis Meter Solutions contact page"
+        },
+        {
+          "_key": "a19e72d1c419",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dcadcd9dea67",
+          "_type": "link",
+          "href": "https://www.axismeter.com/contact"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f2b328c9b04f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "acabc1613008",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions supports utility sub-metering operations that connect metering, tenant billing, payment records, and resident support for multi-unit properties. If your building needs clearer account transfers or more organised Metergy bill payment support, visit "
+        },
+        {
+          "_key": "4fb521bf5100",
+          "_type": "span",
+          "marks": [
+            "3288eea93716"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "1a51ee8d30ff",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss the right next step."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3288eea93716",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Insights",
+  "excerpt": "Learn how to handle Metergy bill payment, set up auto-pay, verify receipts, resolve payment errors, and get support as an Axis Meter Solutions client.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/ed38b5ae-aec8-4d45-a8d6-9542c3ab5282/metergy-bill-payment-guide.jpg",
+  "noIndex": false,
+  "outrankId": "7eed8983-245d-4858-b582-3074d48879b9",
+  "publishedAt": "2026-08-20T07:38:34.560186+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "metergy-bill-payment"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A forwarded Metergy invoice has just landed in your inbox from the landlord. You&#39;ve moved recently, the account may still be changing hands, and the balance doesn&#39;t immediately tell you whether it covers your occupancy period or an earlier resident&#39;s. Before you click <strong>Pay</strong>, confirm that the bill belongs to you, the portal matches the account, and the payment will be recorded against the right service address.</p>\n<p>This guide explains <strong>Metergy bill payment</strong> from preparation through receipt retention and support escalation. It also addresses the less obvious risks, including move-in and move-out dates, landlord-held accounts, disputed arrears, and payment protections available to eligible Ontario customers.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-you-need-before-paying-a-metergy-bill\">What You Need Before Paying a Metergy Bill</a><ul>\n<li><a href=\"#gather-the-account-evidence\">Gather the account evidence</a></li>\n</ul>\n</li>\n<li><a href=\"#find-and-log-in-to-the-metergy-payment-portal\">Find and Log In to the Metergy Payment Portal</a><ul>\n<li><a href=\"#complete-the-sign-in-carefully\">Complete the sign-in carefully</a></li>\n</ul>\n</li>\n<li><a href=\"#choose-a-one-time-payment-or-auto-pay\">Choose a One-Time Payment or Auto-Pay</a><ul>\n<li><a href=\"#configure-recurring-payment-controls\">Configure recurring payment controls</a></li>\n</ul>\n</li>\n<li><a href=\"#verify-the-payment-and-save-the-receipt\">Verify the Payment and Save the Receipt</a></li>\n<li><a href=\"#confirm-who-owes-the-bill\">Confirm Who Owes the Bill</a><ul>\n<li><a href=\"#use-a-responsibility-date-test\">Use a responsibility-date test</a></li>\n</ul>\n</li>\n<li><a href=\"#fix-login-and-payment-errors\">Fix Login and Payment Errors</a><ul>\n<li><a href=\"#when-access-fails\">When access fails</a></li>\n<li><a href=\"#when-a-card-or-bank-payment-fails\">When a card or bank payment fails</a></li>\n<li><a href=\"#when-auto-pay-stops\">When auto-pay stops</a></li>\n</ul>\n</li>\n<li><a href=\"#pay-securely-and-get-the-right-support\">Pay Securely and Get the Right Support</a></li>\n</ul>\n<p><a id=\"what-you-need-before-paying-a-metergy-bill\"></a></p>\n<h2>What You Need Before Paying a Metergy Bill</h2>\n<p>A forwarded invoice can look familiar while belonging to a different account. Match the <strong>invoice number, account number, registered unit address, account-holder name, billing period, current balance, and any prior-balance or arrears notice</strong> before you enter payment details. These fields work like labels on a package. They help show where the payment should go and which dates the charge covers.</p>\n<p>The service address matters because a building can contain several account histories, particularly after a resident moves. The name on the statement may still belong to the owner or a previous occupant if the account transfer is incomplete. Ontario&#39;s legal framework describes unit sub-metering as including the provision and maintenance of meters, along with billing and collecting payment for electricity used in a multi-unit complex, as described in the <a href=\"https://www.ontario.ca/laws/regulation/100389/v4\">Ontario unit sub-metering regulation</a>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/873dee54-11f4-4039-978b-7f4a245e71f6/metergy-bill-payment-instructions.jpg\" alt=\"A Metergy instructional graphic showing four numbered steps to follow before making a utility bill payment.\"></p>\n<p><a id=\"gather-the-account-evidence\"></a></p>\n<h3>Gather the account evidence</h3>\n<p>Keep your lease, move-in or move-out confirmation, and account-transfer messages beside you. If a property manager forwarded the invoice, ask whether it concerns your personal utility account or a property-level charge. The forwarding email alone does not establish responsibility for every date shown on the bill.</p>\n<p>Check each item:</p>\n<ul>\n<li><strong>Invoice details:</strong> Match the invoice and account numbers with the statement you received.</li>\n<li><strong>Service location:</strong> Confirm the building, unit, and registered service address.</li>\n<li><strong>Billing dates:</strong> Compare the covered period with your lease and recorded occupancy dates.</li>\n<li><strong>Balance status:</strong> Distinguish the current charge from a prior balance, adjustment, credit, or arrears amount.</li>\n<li><strong>Payment method:</strong> Confirm which card or bank options the portal accepts before entering details.</li>\n<li><strong>Device setup:</strong> Use an updated browser, a stable connection, and an accessible email inbox for verification messages.</li>\n</ul>\n<p>A property or finance team handling many statements can use a structured <a href=\"https://matil.ai/marketplace/invoices/us-utility-bill\">finance teams utility invoices</a> workflow to organise invoice fields before approval. Residents checking a metered charge against other consumption information can consult this <a href=\"https://www.axismeter.com/blog/how-to-read-a-water-meter\">guide to reading a water meter</a>. Water readings and electricity invoices remain separate records, so one cannot confirm the other.</p>\n<p>If the address or responsibility dates do not match your documents, pause the payment. Resolve the account transfer or arrears question first, then pay the account that covers your occupancy period.</p>\n<p><a id=\"find-and-log-in-to-the-metergy-payment-portal\"></a></p>\n<h2>Find and Log In to the Metergy Payment Portal</h2>\n<p>Start with the payment link shown on your current invoice or go directly to the official Metergy website. Don&#39;t choose a search result merely because it appears first, and don&#39;t enter payment information into a look-alike domain. Before logging in, confirm that the browser shows an <strong>HTTPS connection and a padlock</strong>, and inspect the address carefully for spelling changes or unexpected redirects.</p>\n<p>Some residents receive client-specific links through an invoice or property-management communication. Keep the original link available, including any account or client information embedded in it. If the page redirects to an Axis or property-specific portal, compare the destination with the details printed on your bill. A different portal can be legitimate, but it should still display the correct property, account information, and service context before you continue.</p>\n<p><a id=\"complete-the-sign-in-carefully\"></a></p>\n<h3>Complete the sign-in carefully</h3>\n<p>Enter the <strong>account or customer number, registered email address, and password</strong> exactly as shown or created during activation. If the portal requests two-factor verification, use the current code sent to your verified contact method. Don&#39;t share that code with a caller, email sender, or anyone claiming to be support.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5cfc3459-f1cc-4d5a-9fbd-10a715928d0c/metergy-bill-payment-web-interface.jpg\" alt=\"Screenshot from https://metergy.com/wp-content/uploads/2023/04/Metergy-Payments-portal-login.png\"></p>\n<p>If you&#39;ve forgotten the password, use the portal&#39;s recovery option rather than creating a second account. An expired activation link may require a new invitation, while repeated failed attempts can trigger a temporary lock. If recovery sends you to a different client portal, stop and verify the destination with the support contact on your current documentation.</p>\n<p>Once inside, don&#39;t go straight to the payment button. Confirm the <strong>account holder, service address, outstanding balance, billing period, and recent payment history</strong>. For teams designing resident-facing guidance, these <a href=\"https://supportgpt.app/blog/web-self-service\">self service implementation tips</a> can help organise instructions around verification and escalation rather than assuming every user reaches the same screen.</p>\n<p><a id=\"choose-a-one-time-payment-or-auto-pay\"></a></p>\n<h2>Choose a One-Time Payment or Auto-Pay</h2>\n<p>Choosing between a one-time payment and auto-pay depends on whether your account is stable or transitional. A one-time payment lets you select the account, review its balance, enter an amount, choose an accepted method, and submit the transaction. If partial payments are allowed, confirm how the amount will be applied, particularly when the account contains arrears or a balance from a previous resident.</p>\n<p>Auto-pay creates an ongoing authorisation through a stored payment method and recurring withdrawal settings. Review the withdrawal timing, available payment cap, notification choices, and cancellation or pause process shown in the portal. Auto-pay can help prevent a monthly invoice from being overlooked, but it does not transfer responsibility when a tenant moves or a property manager updates occupancy records.</p>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>One-Time Payment</th>\n<th>Auto-Pay</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Best fit</td>\n<td>A single invoice, disputed period, or transitional account</td>\n<td>A stable occupancy period with predictable account responsibility</td>\n</tr>\n<tr>\n<td>Move-out risk</td>\n<td>You decide whether to pay a confirmed final balance</td>\n<td>A saved authorisation may continue unless you cancel it</td>\n</tr>\n<tr>\n<td>Failure response</td>\n<td>You can choose another method after checking the first result</td>\n<td>You must monitor failed drafts, expired methods, and notification emails</td>\n</tr>\n</tbody></table>\n<p><a id=\"configure-recurring-payment-controls\"></a></p>\n<h3>Configure recurring payment controls</h3>\n<p>A long-term tenant may choose auto-pay after confirming that the correct account is registered to the right service address. Set an alert for failed drafts, keep another payment option available where the portal permits it, and review the account after a move or lease change. A short-term resident, or someone waiting for an account transfer, should generally use one-time payments until the responsibility dates and account ownership are settled.</p>\n<p>For example, a tenant who pays an old account through auto-pay may continue covering charges after moving out, while the current account remains unpaid. A property manager should confirm which account is active before directing a resident to enrol. Payment settings follow the account record, not necessarily the person who made the last payment.</p>\n<p>Stored-payment arrangements also involve authorisations, retries, and cancellation rules. A <a href=\"https://www.tagada.io/blog/recurring-credit-card-processor\">subscription payment processor guide 2026</a> provides broader context, but the Metergy portal&#39;s displayed terms govern your specific arrangement.</p>\n<blockquote>\n<p><strong>Auto-pay reminder:</strong> Treat recurring payment as an instruction to withdraw funds, not as an account-transfer instruction. Close, transfer, or update responsibility through the proper process, and check whether any arrears remain on the previous account.</p>\n</blockquote>\n<p><a id=\"verify-the-payment-and-save-the-receipt\"></a></p>\n<h2>Verify the Payment and Save the Receipt</h2>\n<p>The checkout confirmation signals that the request was received. It becomes useful evidence only after you verify its status and destination. Look for <strong>processing, posted, or completed</strong>, then check that the payment is attached to the intended account, not an older account linked to the unit.</p>\n<p>Capture the record while it is available:</p>\n<ul>\n<li><strong>Confirmation number:</strong> Save the reference exactly as shown.</li>\n<li><strong>Transaction information:</strong> Record the payment date, amount, account number, and billing period.</li>\n<li><strong>Method used:</strong> Note whether you paid by card, bank method, or another accepted option.</li>\n<li><strong>Account result:</strong> Check whether the balance changed or remains pending.</li>\n<li><strong>Receipt location:</strong> Download or print the official receipt immediately.</li>\n</ul>\n<p>For recurring payments, keep the enrolment confirmation and the terms you accepted. Review the withdrawal timing, maximum amount, and cancellation process. If no receipt appears, check your email and spam folders, review payment history, and take a dated screenshot showing the account details and status.</p>\n<p>A bank transaction that is still pending does not show that Metergy has applied the payment. If the portal continues to show the balance after the stated processing period, collect the receipt, bank record, invoice, and account information before contacting Metergy or the relevant Axis Meter Solutions support channel.</p>\n<p>Keep these records together. Store the invoice, receipt, lease documents, transfer correspondence, and support messages in one folder. That file can clarify whether a payment reached the wrong account, whether an arrears balance remains, or whether the responsibility date is disputed. A receipt proves what you submitted, while the account status shows where the payment was applied.</p>\n<p><a id=\"confirm-who-owes-the-bill\"></a></p>\n<h2>Confirm Who Owes the Bill</h2>\n<p>The most common payment mistake isn&#39;t choosing the wrong button. It&#39;s paying a bill for the wrong <strong>service period</strong>. A resident may see their unit address and assume the entire balance belongs to them, even though the account remained open after a previous tenancy or wasn&#39;t transferred at move-in.</p>\n<p>Ontario&#39;s Metergy service terms place account-opening responsibility on the owner when the premises are rented, with the owner remaining responsible until a new tenant opens an account or the owner tells Metergy otherwise. The same terms state that bills are issued monthly and due <strong>20 days after issue</strong>, so the transfer record matters when deciding which dates belong to which account holder. Review the Metergy Canada conditions of service%20Canada%20(April%2024,%202024).pdf) alongside your lease and move documentation.</p>\n<p><a id=\"use-a-responsibility-date-test\"></a></p>\n<h3>Use a responsibility-date test</h3>\n<p>Ask four questions before authorising payment:</p>\n<ol>\n<li>Does the invoice show the correct property and unit?</li>\n<li>Does the billing period overlap with your occupancy?</li>\n<li>What move-in or move-out date does the account record show?</li>\n<li>Is the account held by you, the landlord, or a property manager?</li>\n</ol>\n<p>If the lease makes the landlord responsible for a utility charge, confirm that the invoice isn&#39;t already a property-level expense being handled centrally. Don&#39;t use a previous resident&#39;s login, confirmation number, or balance information to settle your own account.</p>\n<p>For arrears, request a current breakdown showing the original charge, adjustments, credits, and periods covered. Ontario&#39;s <a href=\"https://www.oeb.ca/consumer-information-and-protection/oebs-consumer-protection-role/understanding-electricity-unit\">electricity unit sub-metering consumer guidance</a> explains that licensed providers bill for measured electricity use and pass through applicable delivery charges without markup. That distinction can help you understand why a sub-metered invoice differs from a flat rent charge, but it doesn&#39;t decide who owes a disputed period.</p>\n<p>Payment made to the wrong account can delay posting and complicate a transfer dispute. If records conflict, send support the invoice, lease, transfer date, and payment history together, and wait for the account number and responsibility date to be confirmed.</p>\n<p><a id=\"fix-login-and-payment-errors\"></a></p>\n<h2>Fix Login and Payment Errors</h2>\n<p>Start with the least disruptive checks. A failed login often comes from using an outdated portal link, entering an account number differently from the bill, mistyping the verified email, or overlooking a password-case difference.</p>\n<p><a id=\"when-access-fails\"></a></p>\n<h3>When access fails</h3>\n<p>Check the portal address, caps lock, and the exact account details shown on the invoice. Use the password-reset function, request a new verification or activation link if the original has expired, and avoid repeated attempts that could create a temporary lock. If the account still isn&#39;t accessible, ask whether the move-in transfer or account activation has been completed.</p>\n<p>A redirect to another client portal deserves attention. Don&#39;t assume it means your account is wrong, but don&#39;t submit payment until the destination displays the correct service address and account. For general account questions, keep the <a href=\"https://www.axismeter.com/faq\">Axis Meter Solutions FAQ</a> available, then use the current support details printed on your invoice or account documentation.</p>\n<p><a id=\"when-a-card-or-bank-payment-fails\"></a></p>\n<h3>When a card or bank payment fails</h3>\n<p>Review the billing address, card number, expiry date, CVV, available funds, daily limits, and restrictions imposed by the bank or cardholder. An updated browser and less aggressive pop-up blocking can resolve a checkout interruption. Clear stored portal data only if you&#39;re sure it won&#39;t interfere with another active session.</p>\n<p>Don&#39;t keep retrying after several declines. Multiple attempts can leave duplicate pending transactions even when no payment has posted. Check the bank account first, distinguish pending activity from a posted transaction, and contact the financial institution unless the portal displays a specific payment-processor error.</p>\n<p>Save the exact error, the time, the amount, and any failed-reference number. A screenshot is useful, but redact unnecessary financial information before sharing it.</p>\n<p><a id=\"when-auto-pay-stops\"></a></p>\n<h3>When auto-pay stops</h3>\n<p>Check whether the stored card expired, whether the account has exceeded an authorisation cap, and whether recurring withdrawal remains enabled. Don&#39;t assume that a failed draft has cancelled the balance or the authorisation. Confirm the account status in the portal and resolve the outstanding transaction through an approved method.</p>\n<p>If the problem concerns ownership, arrears, or a transferred balance, provide the invoice, service address, account number, move date, and payment history. Axis Meter Solutions clients should use the contact information on current Metergy or Axis documentation and shouldn&#39;t post account or payment details in public forums.</p>\n<p><a id=\"pay-securely-and-get-the-right-support\"></a></p>\n<h2>Pay Securely and Get the Right Support</h2>\n<p>A secure payment process has four parts: use the legitimate portal, verify the account, preserve the receipt, and escalate the right issue to the right team. Avoid entering card or bank details on public Wi-Fi, and sign out after finishing. If your tenancy has ended, remove saved payment methods where appropriate, but retain the transaction record and final invoice.</p>\n<p>Use Metergy&#39;s payment support for transaction status, receipt questions, failed payments, or portal issues. Use the property manager or the designated Axis Meter Solutions contact for account transfers, responsibility dates, property-specific billing questions, and disputes involving the building&#39;s sub-metering arrangement. For arrears assistance, ask for the current balance and available payment options before assuming that a missed payment immediately leads to disconnection.</p>\n<p>Ontario&#39;s rules require electricity providers, including unit sub-meter providers, to offer payment plans and arrears agreements before disconnection in applicable circumstances. The OEB states that eligible low-income customers may receive emergency assistance of up to <strong>$650</strong>, or <strong>$780 when electrically heated</strong>, and that arrears agreements must allow at least <strong>8, 12, or 16 months</strong>, depending on debt size. Review the <a href=\"https://www.oeb.ca/consumer-information-and-protection/bill-assistance-programs/low-income-energy-assistance-program\">OEB Low-Income Energy Assistance Program guidance</a> if affordability is affecting your ability to pay.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0eb96209-2716-41d1-b8da-386507215685/metergy-bill-payment-security-checklist.jpg\" alt=\"A four-step checklist for secure bill payments including security, receipt saving, arrears review, and escalation contact details.\"></p>\n<p>Use this final check before logging out:</p>\n<ul>\n<li><strong>Portal security:</strong> Confirm the official URL and padlock.</li>\n<li><strong>Account accuracy:</strong> Match the unit, account holder, billing period, and responsibility date.</li>\n<li><strong>Receipt retention:</strong> Save the confirmation number and official receipt.</li>\n<li><strong>Arrears review:</strong> Ask how payments apply to prior balances and disputed periods.</li>\n<li><strong>Escalation path:</strong> Save the appropriate support contact using the <a href=\"https://www.axismeter.com/contact\">Axis Meter Solutions contact page</a>.</li>\n</ul>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/S6Maf7FP5UA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<hr>\n<p>Axis Meter Solutions supports utility sub-metering operations that connect metering, tenant billing, payment records, and resident support for multi-unit properties. If your building needs clearer account transfers or more organised Metergy bill payment support, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss the right next step.</p>",
+  "tags": [
+    "metergy bill payment",
+    "metergy payment",
+    "auto-pay",
+    "bill receipts",
+    "Axis Meter Solutions"
+  ],
+  "title": "Metergy Bill Payment Guide for Axis Clients",
+  "updatedAt": "2026-08-20T07:38:38.793Z"
+}
