@@ -1,0 +1,3981 @@
+{
+  "_createdAt": "2026-08-25T09:57:12Z",
+  "_id": "outrank-b0c73fc0-4afd-496f-a823-b4af41a66505",
+  "_rev": "zDMRT6FfUieYqxFys8K4JO",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-25T09:57:12Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "f78d5bec87f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "426b1b50a33d",
+          "_type": "span",
+          "marks": [],
+          "text": "You've just bought a Montréal triplex. The morning after closing, you open the Hydro-Québec calculator, enter the postal code, describe the heating system, and expect a reliable annual electricity figure. The result looks precise enough to use in your operating budget."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5b63bde0a7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "825bad7c9cff",
+          "_type": "span",
+          "marks": [],
+          "text": "That confidence can be dangerous. The estimator is useful for a household, but a multi-unit property has master-metered common areas, vacant suites, shared laundry, different heating profiles, and sometimes commercial space or electric-vehicle charging. A number designed for one dwelling can't automatically answer who should pay, what belongs in recoverable tenant consumption, or whether submetering makes financial sense."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9308c3c43486",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3578ef3faaf7",
+          "_type": "span",
+          "marks": [],
+          "text": "This guide treats the "
+        },
+        {
+          "_key": "cd0761ce69bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Hydro-Québec calculator"
+        },
+        {
+          "_key": "020e74a211dc",
+          "_type": "span",
+          "marks": [],
+          "text": " as a starting instrument, not a building budget. The official tariff documents explain why rate class, daily thresholds, billing periods, seasons, and demand charges all matter. The practical question is simple: "
+        },
+        {
+          "_key": "6d1c2c7af57f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "can the calculator's household estimate support your property decision, or do you need actual meter data and unit-level measurement?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d0b18f9910a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "feec863ce5a9",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e9570c0f6472",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2b8a3107874",
+          "_type": "span",
+          "marks": [
+            "66c0673d4ed6"
+          ],
+          "text": "Why Property Owners Use the Hydro-Québec Calculator"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "66c0673d4ed6",
+          "_type": "link",
+          "href": "#why-property-owners-use-the-hydro-quebec-calculator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fa97810b31a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6bdfa71755b",
+          "_type": "span",
+          "marks": [
+            "ae94ca4cdffe"
+          ],
+          "text": "The household estimate is only one input"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ae94ca4cdffe",
+          "_type": "link",
+          "href": "#the-household-estimate-is-only-one-input"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2714b9d4be82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e78f096c4cf",
+          "_type": "span",
+          "marks": [
+            "491768510039"
+          ],
+          "text": "Translate the output before using it"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "491768510039",
+          "_type": "link",
+          "href": "#translate-the-output-before-using-it"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "be7346db6a02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe5ec9eb1240",
+          "_type": "span",
+          "marks": [
+            "8332d5ae75b2"
+          ],
+          "text": "How Hydro-Québec's Tariff Structure Shapes Every Estimate"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8332d5ae75b2",
+          "_type": "link",
+          "href": "#how-hydro-quebecs-tariff-structure-shapes-every-estimate"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d714419f4c9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df8355ebb42b",
+          "_type": "span",
+          "marks": [
+            "4389abc01f05"
+          ],
+          "text": "Rate D and Rate DP component breakdown"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4389abc01f05",
+          "_type": "link",
+          "href": "#rate-d-and-rate-dp-component-breakdown"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f200f6852ca5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39a12d601d0f",
+          "_type": "span",
+          "marks": [
+            "71eeffb76b5c"
+          ],
+          "text": "Inside the Calculator's Inputs and What They Assume"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "71eeffb76b5c",
+          "_type": "link",
+          "href": "#inside-the-calculators-inputs-and-what-they-assume"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ffc0e17948ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "288d628e70c9",
+          "_type": "span",
+          "marks": [
+            "c21e86402699"
+          ],
+          "text": "What the fields are really doing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c21e86402699",
+          "_type": "link",
+          "href": "#what-the-fields-are-really-doing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b296c1dc8099",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb2cae27a895",
+          "_type": "span",
+          "marks": [
+            "c4cf36a7abdc"
+          ],
+          "text": "Three overrides owners must make mentally"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c4cf36a7abdc",
+          "_type": "link",
+          "href": "#three-overrides-owners-must-make-mentally"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "42dcdf8234a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fc3020e35d6",
+          "_type": "span",
+          "marks": [
+            "2555a64822e2"
+          ],
+          "text": "Worked Examples for Residential and Multi-Unit Properties"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2555a64822e2",
+          "_type": "link",
+          "href": "#worked-examples-for-residential-and-multi-unit-properties"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "613de42e710b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "350318d4008a",
+          "_type": "span",
+          "marks": [
+            "e5f0c5e2f89c"
+          ],
+          "text": "Example A, a six-suite Montréal walk-up"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e5f0c5e2f89c",
+          "_type": "link",
+          "href": "#example-a-a-six-suite-montreal-walk-up"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c7bc5b3b3435",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2392cf62e524",
+          "_type": "span",
+          "marks": [
+            "f6a2290bc1c2"
+          ],
+          "text": "Example B, a 24-unit mixed-use building"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f6a2290bc1c2",
+          "_type": "link",
+          "href": "#example-b-a-24-unit-mixed-use-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "267f39d8e342",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1263485dd50",
+          "_type": "span",
+          "marks": [
+            "3ffdf77862eb"
+          ],
+          "text": "Where the Calculator Falls Short for Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3ffdf77862eb",
+          "_type": "link",
+          "href": "#where-the-calculator-falls-short-for-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ce5866b65669",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee2edf12e371",
+          "_type": "span",
+          "marks": [
+            "e449ff5206c0"
+          ],
+          "text": "The loads that disappear from a household estimate"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e449ff5206c0",
+          "_type": "link",
+          "href": "#the-loads-that-disappear-from-a-household-estimate"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3385c43b0863",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8191725daa52",
+          "_type": "span",
+          "marks": [
+            "c995807d8eaf"
+          ],
+          "text": "Five distortions that change recovery"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c995807d8eaf",
+          "_type": "link",
+          "href": "#five-distortions-that-change-recovery"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dcc0d564e2f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f8329552c8a",
+          "_type": "span",
+          "marks": [
+            "a7f51b6c884e"
+          ],
+          "text": "Reading the Results Against Submetering and Bulk Billing"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a7f51b6c884e",
+          "_type": "link",
+          "href": "#reading-the-results-against-submetering-and-bulk-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e7b48e599361",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "523c75ecb74c",
+          "_type": "span",
+          "marks": [
+            "10c3bb85b07f"
+          ],
+          "text": "When bulk billing can work"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "10c3bb85b07f",
+          "_type": "link",
+          "href": "#when-bulk-billing-can-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "31fab31e7442",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1935bc97e709",
+          "_type": "span",
+          "marks": [
+            "8faaf76c72de"
+          ],
+          "text": "When measurement becomes more valuable"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8faaf76c72de",
+          "_type": "link",
+          "href": "#when-measurement-becomes-more-valuable"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "01f492bcfd74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdb32ab2bf09",
+          "_type": "span",
+          "marks": [
+            "48d7e4ee1c45"
+          ],
+          "text": "Next Steps for Owners and Managers"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "48d7e4ee1c45",
+          "_type": "link",
+          "href": "#next-steps-for-owners-and-managers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1445d8c51fe0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f477abf57f68",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fb3c5e0909d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87458f3af4c8",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Property Owners Use the Hydro-Québec Calculator"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bf18afe8a8b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc61fff89db6",
+          "_type": "span",
+          "marks": [],
+          "text": "Hydro-Québec's estimator is attractive because it's fast, public, and easy to use. Enter a building number and postal code, provide information about the dwelling, and the tool produces an address-level electricity-cost estimate. That location-specific screening is useful when you're reviewing a property before you have a complete operating history, as described in "
+        },
+        {
+          "_key": "21c06a91c0ec",
+          "_type": "span",
+          "marks": [
+            "54cdffce5b48"
+          ],
+          "text": "Hydro-Québec's official electricity-cost estimator"
+        },
+        {
+          "_key": "666c9899f9e9",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "54cdffce5b48",
+          "_type": "link",
+          "href": "https://www.hydroquebec.com/residential/customer-space/moving/estimate-electricity-costs.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6b7c2601cde5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "450e1931a117",
+          "_type": "span",
+          "marks": [],
+          "text": "For a single house, the workflow is sensible. You're trying to understand how electricity use may vary with dwelling size, heating source, and household behaviour. For a triplex or larger asset, however, the decision changes. You're not only asking, “What might this home cost?” You're asking whether utilities should be included in rent, allocated through a recovery model, or measured separately for each unit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30df5907c3ef",
+      "_type": "externalImage",
+      "alt": "Screenshot from https://www.hydroquebec.com/residential/space-heating-estimator/",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/64863c92-9ee4-43d5-a922-3bf78b34aa34/hydro-quebec-calculator-energy-app.jpg"
+    },
+    {
+      "_key": "84554d591ef9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "239c73a1fb6d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "680ecfb0217f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12d02ed7e5e1",
+          "_type": "span",
+          "marks": [],
+          "text": "The household estimate is only one input"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3f6cb266ecc9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7108fb214f49",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners usually turn to the calculator for four practical reasons:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cd134cfcfbf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fd642a64ea7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Early underwriting:"
+        },
+        {
+          "_key": "5fe1a3713c8a",
+          "_type": "span",
+          "marks": [],
+          "text": " You need a preliminary utility allowance before a full year of bills is available."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "550560638c88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3d779ebec21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget testing:"
+        },
+        {
+          "_key": "0217921378bf",
+          "_type": "span",
+          "marks": [],
+          "text": " You want to see how heating fuel and dwelling characteristics affect expected costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72bf39ce6440",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eaef4d9ba4e4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Tenant conversations:"
+        },
+        {
+          "_key": "8c09c1b1b33f",
+          "_type": "span",
+          "marks": [],
+          "text": " You need a reasonable reference point before discussing included utilities or recoveries."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1ef7510aa8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c881871ba70d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Renovation planning:"
+        },
+        {
+          "_key": "298d0499c8be",
+          "_type": "span",
+          "marks": [],
+          "text": " You're comparing the effect of insulation, heating changes, or appliance upgrades."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f1d384a51af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fe94e998e51",
+          "_type": "span",
+          "marks": [],
+          "text": "Those are legitimate uses. The mistake is treating the output as a complete building forecast."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f9133fcfba2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41aacfc083f5",
+          "_type": "span",
+          "marks": [],
+          "text": "The calculator's residential framing doesn't resolve "
+        },
+        {
+          "_key": "e20f965e1397",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "common-area allocation"
+        },
+        {
+          "_key": "d6ef5cf8ec66",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "465d980a98c5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "vacancy exposure"
+        },
+        {
+          "_key": "27eef456b18e",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "53a5c1208a95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "shared laundry"
+        },
+        {
+          "_key": "7a74692fd818",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "d35c62be44a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "hallway lighting"
+        },
+        {
+          "_key": "0ca337d5b3e2",
+          "_type": "span",
+          "marks": [],
+          "text": ", or whether a commercial tenant belongs on a different rate class. It also doesn't tell you how to structure recovery in a way that fits your lease terms and applicable Québec requirements. It gives you consumption-oriented guidance, not a complete RUBS, or ratio utility billing system, design."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07fff817effc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7a05100c233",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "0cf9b9ee6587",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the estimator to create a screening assumption. Use bills, tariff classification, and measured loads to make the operating decision."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ff5820583352",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb922061dcb3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ed16656f9e4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "008f8a08d8cf",
+          "_type": "span",
+          "marks": [],
+          "text": "Translate the output before using it"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b7727f759f26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "276004e47a19",
+          "_type": "span",
+          "marks": [],
+          "text": "Start by treating the estimate as a household scenario. Then ask three questions:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd20fb25b987",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1cf302ee9bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How many separate dwellings does the meter serve?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ce38b64236a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f815aa98970",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Which loads sit outside the suites?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec9cfd3ad35d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64161ae734a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Does the account serve only domestic use, or does it include business activity?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50f4808d82cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "910242e732f5",
+          "_type": "span",
+          "marks": [],
+          "text": "If the property has individual suite meters, the calculator may help you form a rough benchmark for each residence. If the property has one master meter, the output needs a second layer of analysis. You'll need to separate tenant-attributable consumption from building consumption before deciding whether equal allocation is fair or financially defensible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59a33ed0f3a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63856eb8d320",
+          "_type": "span",
+          "marks": [],
+          "text": "Hydro-Québec's history also explains why owners pay close attention to the utility's tools. The company was created in "
+        },
+        {
+          "_key": "8586498498aa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1944"
+        },
+        {
+          "_key": "72b816cb2074",
+          "_type": "span",
+          "marks": [],
+          "text": ", and its public-utility system grew through major consolidations and hydroelectric projects. During its "
+        },
+        {
+          "_key": "6128160b6fef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1945 to 1959"
+        },
+        {
+          "_key": "19f137b18db0",
+          "_type": "span",
+          "marks": [],
+          "text": " expansion period, Hydro-Québec became one of the first electric utilities to operate "
+        },
+        {
+          "_key": "0abeb1544f88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "315-kilovolt transmission lines"
+        },
+        {
+          "_key": "71fc239d859f",
+          "_type": "span",
+          "marks": [],
+          "text": ", supporting large-scale generation and long-distance delivery across Québec, as documented in "
+        },
+        {
+          "_key": "4c181f2c4444",
+          "_type": "span",
+          "marks": [
+            "7f91921f904b"
+          ],
+          "text": "Hydro-Québec's electricity history timeline"
+        },
+        {
+          "_key": "8e20e8bf4adc",
+          "_type": "span",
+          "marks": [],
+          "text": ". That large public system comes with a detailed tariff structure, so a simple household result should never be mistaken for a flat provincial price."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7f91921f904b",
+          "_type": "link",
+          "href": "https://www.hydroquebec.com/history-electricity-in-quebec/timeline/hydro-quebec-first-triumphs.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f3cf71dc4796",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "102d0ce784ff",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "781ee7f08fbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db9a34413fbc",
+          "_type": "span",
+          "marks": [],
+          "text": "How Hydro-Québec's Tariff Structure Shapes Every Estimate"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f182af084812",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9f2a6467bf6",
+          "_type": "span",
+          "marks": [],
+          "text": "A Hydro-Québec calculator result is tariff arithmetic presented as a household total. For residential service, the usual framework is "
+        },
+        {
+          "_key": "c9f88de95731",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rate D"
+        },
+        {
+          "_key": "1acd13885733",
+          "_type": "span",
+          "marks": [],
+          "text": ". A business or mixed-use account may fall under "
+        },
+        {
+          "_key": "8e1d9f8ff153",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rate DP"
+        },
+        {
+          "_key": "6c398fdcb28f",
+          "_type": "span",
+          "marks": [],
+          "text": " or another classification. Hydro-Québec's 2026 tariff update raised domestic rates by "
+        },
+        {
+          "_key": "7b9f533d8f01",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3% effective April 1, 2026"
+        },
+        {
+          "_key": "0cd74afb77d2",
+          "_type": "span",
+          "marks": [],
+          "text": ", while business rates rose by "
+        },
+        {
+          "_key": "30c69bda949d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3.8%"
+        },
+        {
+          "_key": "0b7c8b9b184e",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the "
+        },
+        {
+          "_key": "01d7c8f15bec",
+          "_type": "span",
+          "marks": [
+            "342fa648bc5e"
+          ],
+          "text": "official electricity rates and conditions"
+        },
+        {
+          "_key": "61c60a33f047",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "342fa648bc5e",
+          "_type": "link",
+          "href": "https://www.hydroquebec.com/documents-data/official-publications/electricity-rates-conditions-electricity-service.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0a8a3222a667",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd394feab390",
+          "_type": "span",
+          "marks": [],
+          "text": "For 2026, Rate D combines a fixed daily access charge with daily consumption blocks. The estimator identifies "
+        },
+        {
+          "_key": "21223573931d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.065¢ per kWh for the first 40 kWh per day"
+        },
+        {
+          "_key": "93988a12d749",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "fc38a17c409e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "11.142¢ per kWh above that threshold"
+        },
+        {
+          "_key": "2e90e5746c27",
+          "_type": "span",
+          "marks": [],
+          "text": ", and an access charge of "
+        },
+        {
+          "_key": "2d53d9cd6989",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "46.154¢ per day"
+        },
+        {
+          "_key": "6518cfe4d2a5",
+          "_type": "span",
+          "marks": [],
+          "text": ". These figures appear in "
+        },
+        {
+          "_key": "6aad23eda8d1",
+          "_type": "span",
+          "marks": [
+            "bdfb6a56feb8"
+          ],
+          "text": "Hydro-Québec's estimator information"
+        },
+        {
+          "_key": "bb6c7b1d5e89",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "bdfb6a56feb8",
+          "_type": "link",
+          "href": "https://www.hydroquebec.com/residential/customer-space/moving/estimate-electricity-costs.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "57bcfe4f681c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce7b05fbade1",
+          "_type": "span",
+          "marks": [],
+          "text": "The daily breakpoint changes the result quickly. Annual consumption does not create one blended price. The billing calculation places daily usage into the applicable blocks, and electric heating can push a property above the first threshold during winter. For a single home, that may be enough for a useful planning estimate. For a master-metered building, it is only the starting point."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8226915a4eb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f656c5b2298c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55be0bc2516c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ac2f7f5b4a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Rate D and Rate DP component breakdown"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "aeb7327facdb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0fb7506155ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Component"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "27c88606fc40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "600898ad9e90",
+          "_type": "span",
+          "marks": [],
+          "text": "Rate D, residential"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b83af2308e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d26509ab8c6a",
+          "_type": "span",
+          "marks": [],
+          "text": "Rate DP, small power ≤ 65 kW"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6efbb730f62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "658948eca5b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy calculation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb01b79161e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e5248b09dd9",
+          "_type": "span",
+          "marks": [],
+          "text": "First "
+        },
+        {
+          "_key": "4f430961322d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40 kWh/day"
+        },
+        {
+          "_key": "3c3dc4566319",
+          "_type": "span",
+          "marks": [],
+          "text": " at "
+        },
+        {
+          "_key": "4b369d1042db",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.065¢/kWh"
+        },
+        {
+          "_key": "780414b36e60",
+          "_type": "span",
+          "marks": [],
+          "text": ", higher usage at "
+        },
+        {
+          "_key": "5519ace67641",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "11.142¢/kWh"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "84fd2dacaab4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d4e5b1ea2f1",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy charge applies under the business tariff"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d6da54ac94f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e575fbd3ac03",
+          "_type": "span",
+          "marks": [],
+          "text": "Fixed access charge"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "961901f46946",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc7afde41ba7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "46.154¢/day"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82998555ef15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3fc632c93cc3",
+          "_type": "span",
+          "marks": [],
+          "text": "Minimum monthly bill and other applicable components"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "785333387755",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a9618a9e0cc",
+          "_type": "span",
+          "marks": [],
+          "text": "Demand component"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97f335e45c79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "446ec03c49be",
+          "_type": "span",
+          "marks": [],
+          "text": "Not the standard household component"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ddf1d04fd78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7198c28d8b0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Extra demand charge applies above "
+        },
+        {
+          "_key": "8d3910db77d6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50 kW"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "31fb332525e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ccf7e74dc045",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing mechanics"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "96f9020f9d25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "547bbf9eaf90",
+          "_type": "span",
+          "marks": [],
+          "text": "Daily allowances are applied across the billing cycle"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eba4665157b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00810452fd22",
+          "_type": "span",
+          "marks": [],
+          "text": "Demand and billing-period rules affect the total"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "be6443101bf6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d74174993935",
+          "_type": "span",
+          "marks": [],
+          "text": "Best fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a09aaa95487",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0256c75a169",
+          "_type": "span",
+          "marks": [],
+          "text": "Domestic residential service"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "84def20edc65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6108ff8cecf1",
+          "_type": "span",
+          "marks": [],
+          "text": "Eligible business and small-power accounts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d10e73b85a8d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e31bce72e623",
+          "_type": "span",
+          "marks": [],
+          "text": "Rate DP matters for mixed-use and electrically intensive properties. Hydro-Québec states that Rate DP applies when maximum power demand has reached "
+        },
+        {
+          "_key": "b941bd5c0ced",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50 kW or more at least once during the previous 12 monthly periods"
+        },
+        {
+          "_key": "4e86f97a37e1",
+          "_type": "span",
+          "marks": [],
+          "text": ". Its tariff structure also separates winter and summer demand charges and adds a demand component for load above that threshold. A kWh-only estimate can therefore understate costs for a building with concentrated electric heating, commercial equipment, or charging infrastructure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb23d22c4c0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "beded3cc8d88",
+          "_type": "span",
+          "marks": [],
+          "text": "The billing period changes the calculation as well. Hydro-Québec's Rate D example uses a "
+        },
+        {
+          "_key": "766342111320",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "62-day billing period"
+        },
+        {
+          "_key": "1568c4f797c3",
+          "_type": "span",
+          "marks": [],
+          "text": " and prorates daily tier allowances across the days in that cycle. Owners should not divide an invoice by two automatically or compare invoices without normalising the number of billed days. That shortcut can distort recovery models and weaken comparisons between properties."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a090cfd16890",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e4f7e6613bf",
+          "_type": "span",
+          "marks": [],
+          "text": "For building-level decisions, read the calculator output as five separate cost drivers:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8a288ab2b0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "824a48ef97e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Access charges"
+        },
+        {
+          "_key": "cb3e8132d8a0",
+          "_type": "span",
+          "marks": [],
+          "text": ", which continue while the service remains active."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8c40753709c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11091e766ae8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Energy blocks"
+        },
+        {
+          "_key": "fd13298f8b3e",
+          "_type": "span",
+          "marks": [],
+          "text": ", which set the marginal cost of additional consumption."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9dddc07beaf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d334475bc8c4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Demand charges"
+        },
+        {
+          "_key": "41e834107776",
+          "_type": "span",
+          "marks": [],
+          "text": ", where the account classification requires them."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2061f9b1096",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ecf3ccc20cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing-period rules"
+        },
+        {
+          "_key": "3aa5431c7eec",
+          "_type": "span",
+          "marks": [],
+          "text": ", which determine how daily allowances apply."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6313f22c2bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a819b81ca014",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Seasonal exposure"
+        },
+        {
+          "_key": "aa8fcdc1d514",
+          "_type": "span",
+          "marks": [],
+          "text": ", especially when electric heating changes the load shape."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b20be53654d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fad8b1655d43",
+          "_type": "span",
+          "marks": [],
+          "text": "Time-sensitive consumption strategies require a separate look at energy timing and demand. This "
+        },
+        {
+          "_key": "1ecbda0f0356",
+          "_type": "span",
+          "marks": [
+            "8b17d6c18778"
+          ],
+          "text": "overview of Hydro-Québec time-of-use considerations"
+        },
+        {
+          "_key": "2de19f3d8537",
+          "_type": "span",
+          "marks": [],
+          "text": " provides useful context. The practical conclusion is direct: "
+        },
+        {
+          "_key": "e7a5b925f798",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "two buildings with the same kWh total can have different cost sensitivity if one concentrates usage during winter peaks or crosses tariff thresholds more often."
+        },
+        {
+          "_key": "3a50aa08324f",
+          "_type": "span",
+          "marks": [],
+          "text": " That difference affects bulk-billing forecasts, tenant recovery, and the case for suite-level submetering."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "8b17d6c18778",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/time-of-use-hydro"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9237dfe0df8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd9d0ce77fce",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "16f511cd49d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf04e50a2e3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Inside the Calculator's Inputs and What They Assume"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "666881c2feea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb7d1eb8b9a1",
+          "_type": "span",
+          "marks": [],
+          "text": "The estimator looks simple because it turns a complex tariff model into familiar household questions. Each input still carries a hidden assumption about climate, heated area, occupancy, and consumption behaviour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e210844545a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bdf49ccf9b0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "38208c090a4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d93837ceba06",
+          "_type": "span",
+          "marks": [],
+          "text": "What the fields are really doing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a1fd16bf6147",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e6a4153c7f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Address and postal code"
+        },
+        {
+          "_key": "4f62ea5a9658",
+          "_type": "span",
+          "marks": [],
+          "text": " anchor the estimate to a specific property location. Hydro-Québec's tool can generate an address-level estimate when the building number and postal code are entered, which makes it useful for initial screening. The location also helps frame regional weather and service conditions, but it doesn't identify how many suites share the account or which loads belong to common areas."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d52d4cfc55d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e500f5889ac",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Square footage"
+        },
+        {
+          "_key": "6e25edf2a95a",
+          "_type": "span",
+          "marks": [],
+          "text": " acts as a proxy for the amount of space requiring heat, lighting, and appliance use. It can be directionally helpful for a detached home, but it assumes the area behaves like one dwelling. A five-plex with the same total floor area has corridors, mechanical rooms, shared laundry, and different occupancy patterns."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf84331b2f9d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f03a2e8c93a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Heating source"
+        },
+        {
+          "_key": "46425eac9d28",
+          "_type": "span",
+          "marks": [],
+          "text": " is one of the most influential inputs. Electric baseboards can create a very different winter profile from oil, gas, or another non-electric source. A heat pump also behaves differently from resistance heating, yet a basic household estimate may not capture the equipment's actual operating pattern in a building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26d2434f8e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b364bbb3d0d8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Occupants and appliance mix"
+        },
+        {
+          "_key": "dcb64763b294",
+          "_type": "span",
+          "marks": [],
+          "text": " represent hot water, cooking, refrigeration, laundry, and plug loads. The calculator's household framing doesn't reproduce the variation between a lightly occupied unit, a family suite, a furnished rental, or a building with shared laundry equipment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18c67d65033f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5323cc2a9c00",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Insulation and envelope quality"
+        },
+        {
+          "_key": "27ab866b8868",
+          "_type": "span",
+          "marks": [],
+          "text": " remain decisive even when the tool doesn't ask you to document every building-envelope characteristic. Older windows, air leakage, and uneven insulation can push heating demand away from an average household curve."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbed1b9ed6ec",
+      "_type": "externalImage",
+      "alt": "A infographic explaining six key inputs used by a calculator to estimate household electricity usage.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7ea9ede5-02c6-48a9-bc1a-ad9d081f4f96/hydro-quebec-calculator-input-factors.jpg"
+    },
+    {
+      "_key": "26fd6e607c6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0290e5a4060",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce639adbafb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c26a45af82c",
+          "_type": "span",
+          "marks": [],
+          "text": "Three overrides owners must make mentally"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1bc36c2efdff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2b39f59863f",
+          "_type": "span",
+          "marks": [],
+          "text": "For a building, don't accept the household output until you've adjusted for:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57c88c7514f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ff51927a62d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unit count:"
+        },
+        {
+          "_key": "65f1f3d745b2",
+          "_type": "span",
+          "marks": [],
+          "text": " Multiply only the loads that repeat by suite. A common hallway doesn't become six separate household loads."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56ab13d5fab7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13fe78de704e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area consumption:"
+        },
+        {
+          "_key": "b3e91de8e6b8",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify lighting, ventilation, elevators, laundry, exterior equipment, and shared heating before allocating costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71b894fc9468",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8e7d65e5850",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Non-electric heating fuel:"
+        },
+        {
+          "_key": "9f6af34f4581",
+          "_type": "span",
+          "marks": [],
+          "text": " Remove electric heating assumptions where units use another fuel, then add back any electricity used by pumps, controls, fans, or supplemental systems."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd7648e99297",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "315e1561f44c",
+          "_type": "span",
+          "marks": [],
+          "text": "Each override maps to a tariff variable. Unit count affects the amount of residential consumption being modelled. Common areas determine whether the master-metered total can be fairly recovered from tenants. Heating fuel changes the seasonal kWh profile, which affects how much usage moves into the higher Rate D block."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da05b574173e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "290d7af09eb9",
+          "_type": "span",
+          "marks": [],
+          "text": "The estimator isn't wrong when it misses these details. It's answering a narrower question. Your job is to stop a narrow household answer from becoming an unsupported building budget."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "500ef740e900",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32c6cd310a13",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b16c64f7daf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "374e385d00fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Worked Examples for Residential and Multi-Unit Properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "18cf6089ac9d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "630c2b6d484d",
+          "_type": "span",
+          "marks": [],
+          "text": "A worked model shows where Rate D arithmetic fits a building and where a household estimate stops being reliable. The examples use the verified 2026 Rate D components, including "
+        },
+        {
+          "_key": "d43527c56400",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40 kWh per day"
+        },
+        {
+          "_key": "e91cce544efc",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "c91945f347b1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.065¢/kWh for the first block"
+        },
+        {
+          "_key": "a503c2f4fe9d",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "a4e9553af8ef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "11.142¢/kWh above it"
+        },
+        {
+          "_key": "6129e2b53248",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the "
+        },
+        {
+          "_key": "90c165174188",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "46.154¢ daily access charge"
+        },
+        {
+          "_key": "9d6d1460ebe5",
+          "_type": "span",
+          "marks": [],
+          "text": " described in the official guidance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70f638c46fbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56e8c3a5482e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91655a22c362",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4483ce4b1617",
+          "_type": "span",
+          "marks": [],
+          "text": "Example A, a six-suite Montréal walk-up"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ca8e87929ad0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee11d449240b",
+          "_type": "span",
+          "marks": [],
+          "text": "Assume a six-suite building consumes approximately "
+        },
+        {
+          "_key": "96e80f06d647",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18,000 kWh in a 30-day month"
+        },
+        {
+          "_key": "243a13d498af",
+          "_type": "span",
+          "marks": [],
+          "text": ". The first Rate D block provides:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "255af23f43eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2ed8e000bcf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40 kWh × 6 suites × 30 days = 7,200 kWh"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "167fb8a5224a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15e1a8448938",
+          "_type": "span",
+          "marks": [],
+          "text": "The remaining "
+        },
+        {
+          "_key": "88ad3add56b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10,800 kWh"
+        },
+        {
+          "_key": "c8e6967e3cb0",
+          "_type": "span",
+          "marks": [],
+          "text": " falls above that first block. The simplified energy calculation is:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41d0fc806b73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29e5b722242b",
+          "_type": "span",
+          "marks": [],
+          "text": "First block: "
+        },
+        {
+          "_key": "9c18b777915c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7,200 kWh × 7.065¢ = $508.68"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "729600ccd5fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2b61e4f366c",
+          "_type": "span",
+          "marks": [],
+          "text": "Remaining consumption: "
+        },
+        {
+          "_key": "b96a69b73d6f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10,800 kWh × 11.142¢ = $1,203.34"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c442b73bebd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb3171578850",
+          "_type": "span",
+          "marks": [],
+          "text": "Daily access charges: "
+        },
+        {
+          "_key": "0f17b5b4a535",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "46.154¢ × 6 services × 30 days = $83.08"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d524c07259ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f199f98c772",
+          "_type": "span",
+          "marks": [],
+          "text": "Simplified building total: "
+        },
+        {
+          "_key": "1e01a3564586",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$1,795.10"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "486505852da9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cd55752b588",
+          "_type": "span",
+          "marks": [],
+          "text": "Equal split across six suites: approximately "
+        },
+        {
+          "_key": "5a257438d136",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$299.18 per suite"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f9895751a15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc1e05ddaf7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Use this as a planning illustration, not as a final invoice. The account structure, billing period, taxes, and applicable tariff conditions still affect the result. The equal split also assumes every suite should carry the same share. That assumption fails when one unit uses electric heat heavily, another is vacant, or occupants have very different consumption patterns."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24a78d74fc9d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fcba1495957f",
+          "_type": "span",
+          "marks": [],
+          "text": "The equal-split result is a recovery convention, not a measurement."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "b4c1b2d9f73f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdf5a50fcc70",
+          "_type": "span",
+          "marks": [],
+          "text": "A master-metered property needs a common-area allocation inside the "
+        },
+        {
+          "_key": "e52472ec2b49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18,000 kWh"
+        },
+        {
+          "_key": "222f60f8891f",
+          "_type": "span",
+          "marks": [],
+          "text": " total. Hallway lighting, laundry equipment, exterior fixtures, ventilation, and other shared systems consume electricity without belonging to one tenant. Measure those loads where possible, or assign them through a documented method before setting a per-suite recovery amount."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "acf315b74622",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96d7474214b1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c122b3ff05c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9633605c1e45",
+          "_type": "span",
+          "marks": [],
+          "text": "Example B, a 24-unit mixed-use building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c5084db56c77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24f06068509f",
+          "_type": "span",
+          "marks": [],
+          "text": "Consider a "
+        },
+        {
+          "_key": "a884babc5448",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "24-unit mixed-use property"
+        },
+        {
+          "_key": "89ecd64a8ef0",
+          "_type": "span",
+          "marks": [],
+          "text": " with a ground-floor commercial space and "
+        },
+        {
+          "_key": "bdf545efbdb2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "23 apartments"
+        },
+        {
+          "_key": "b4854344622c",
+          "_type": "span",
+          "marks": [],
+          "text": ". A household estimator cannot separate the apartment demand from the commercial demand when both are part of the owner's utility decision. The commercial space may use Rate G or another business classification, while the apartments may relate to Rate D."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55010b308879",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d92b32601399",
+          "_type": "span",
+          "marks": [],
+          "text": "One blended result therefore cannot support tenant recovery. Start with the actual account and meter records. Separate residential consumption, commercial consumption, and common-area loads. A separate commercial meter makes that work clearer. With one master meter, the owner needs a documented allocation method or a submetering plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "174860520260",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80a3b2f7fb7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Building profile"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c0dd30488a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a47d6626cd05",
+          "_type": "span",
+          "marks": [],
+          "text": "Estimator total"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eef43e956911",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e534fcdde8b",
+          "_type": "span",
+          "marks": [],
+          "text": "Per-suite, equal split"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f74159385268",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b65b3ca00e4",
+          "_type": "span",
+          "marks": [],
+          "text": "Per-suite, submetered range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4511d18bef4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb1427045668",
+          "_type": "span",
+          "marks": [],
+          "text": "Six-suite residential walk-up"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a4fd2595ddf1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07939f736bff",
+          "_type": "span",
+          "marks": [],
+          "text": "Household-style estimate scaled to the building"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88087d12ebdb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ae213fcdf49",
+          "_type": "span",
+          "marks": [],
+          "text": "Approximately "
+        },
+        {
+          "_key": "02d1619e2b7a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$299.18"
+        },
+        {
+          "_key": "3249234242cc",
+          "_type": "span",
+          "marks": [],
+          "text": " in the simplified example"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4bd1afeabef9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "875f6806785f",
+          "_type": "span",
+          "marks": [],
+          "text": "Varies by measured suite use, common-area treatment, and billing rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d1ce817ad7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1313d1494e90",
+          "_type": "span",
+          "marks": [],
+          "text": "24-unit mixed-use property"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ff626182b9d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c92392576284",
+          "_type": "span",
+          "marks": [],
+          "text": "Cannot reliably separate domestic and commercial loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "65cd43b3d2e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1bd95a01ace8",
+          "_type": "span",
+          "marks": [],
+          "text": "Not defensible without isolating commercial and shared consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a0c52ae93cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0b49997f3d1",
+          "_type": "span",
+          "marks": [],
+          "text": "Based on measured residential use, commercial use, and allocated common loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f096d8766318",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b04124868df",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners reviewing the full property budget can also "
+        },
+        {
+          "_key": "35c4cb08b0fe",
+          "_type": "span",
+          "marks": [
+            "7d51db28cb59"
+          ],
+          "text": "compare payment scenarios"
+        },
+        {
+          "_key": "59e80c9a058a",
+          "_type": "span",
+          "marks": [],
+          "text": " alongside utility assumptions. Keep financing and electricity recovery separate. Payment comparisons can show the cash-flow effect of different utility assumptions, but they do not repair an unsupported allocation model."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7d51db28cb59",
+          "_type": "link",
+          "href": "https://www.brookside-pm.ca/mortgage-payment-calculator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ef0f9ccde33c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "293c1324e3b4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2bc47fae1c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1084cb60dd4",
+          "_type": "span",
+          "marks": [],
+          "text": "Where the Calculator Falls Short for Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f1316fa0a188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97ea1d7c3cee",
+          "_type": "span",
+          "marks": [],
+          "text": "An owner reviews a Hydro-Québec estimate for a six-suite property and expects it to explain the master-meter bill. It cannot. The calculator models household use, while the account may also serve shared spaces, equipment, commercial areas, and vacant suites."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85681a13a8bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c01d1d7815a",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction matters for building budgets and submetering decisions. A household result can support a rough starting point, but it cannot identify which loads belong to residents or establish a defensible recovery method."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "212bbd1d068e",
+      "_type": "externalImage",
+      "alt": "An infographic detailing five common building energy costs often ignored by standard utility calculators.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b9cd8586-0182-4969-83f3-d92db7b7a5a5/hydro-quebec-calculator-building-energy.jpg"
+    },
+    {
+      "_key": "aecb531eecb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a60f254cff3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02412a1896a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8859b056ee6a",
+          "_type": "span",
+          "marks": [],
+          "text": "The loads that disappear from a household estimate"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "98bb0eafdbdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "819ba724759e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area lighting:"
+        },
+        {
+          "_key": "246f94e4e41b",
+          "_type": "span",
+          "marks": [],
+          "text": " Hallways, stairwells, lobbies, storage rooms, and service spaces draw from the master meter without belonging to one suite."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5c2d012611b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b950c7e49d1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Elevators:"
+        },
+        {
+          "_key": "24babeafe802",
+          "_type": "span",
+          "marks": [],
+          "text": " Lift equipment creates a shared load that a household profile cannot assign to individual residents."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d1d52feb374",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1473c163945",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Exterior lighting:"
+        },
+        {
+          "_key": "e118b26082a7",
+          "_type": "span",
+          "marks": [],
+          "text": " Parking areas, entrances, pathways, signage, and security fixtures may use the same account."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87ca9ec167c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "979e1de58abb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Laundry rooms:"
+        },
+        {
+          "_key": "e4edd5ce2545",
+          "_type": "span",
+          "marks": [],
+          "text": " Shared washers, dryers, ventilation, and hot-water equipment can materially change total consumption."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "678d482ef006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdba1a255856",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common HVAC:"
+        },
+        {
+          "_key": "a877d87e0aa3",
+          "_type": "span",
+          "marks": [],
+          "text": " Fans, pumps, make-up air, corridors, and mechanical rooms add usage outside apartment estimates."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2e34ba9b580",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efb5286ade47",
+          "_type": "span",
+          "marks": [],
+          "text": "The visual identifies common building costs, but its category ranges should not become universal planning benchmarks. Use a panel schedule, equipment inventory, existing submeters, or a targeted load study to establish the property's actual allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "10a4608f22da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d112b5a99fe2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69f283a4ccee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd98b9910098",
+          "_type": "span",
+          "marks": [],
+          "text": "Five distortions that change recovery"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e1b2dde9e2b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c72e566ccebe",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Vacancy"
+        },
+        {
+          "_key": "e50169217317",
+          "_type": "span",
+          "marks": [],
+          "text": " can shift costs between residents. An empty suite may use little electricity, yet the service remains connected and the account still carries fixed access charges. Equal allocation can therefore place vacant-unit costs on occupied tenants unless the lease and policy address that treatment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2df01384ff88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "01821646d325",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Electric baseboards"
+        },
+        {
+          "_key": "dcda428cff71",
+          "_type": "span",
+          "marks": [],
+          "text": " produce a strong winter effect. An average household profile may understate an older building where resistance heating runs for extended periods. Higher consumption can also increase exposure to the higher Rate D block."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c9be564f4640",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38da43494535",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "EV charging"
+        },
+        {
+          "_key": "67472f6fbac9",
+          "_type": "span",
+          "marks": [],
+          "text": " adds a shared load and an ownership question. If chargers use the master meter, identify who pays, how access is controlled, and whether concentrated charging affects tariff or demand calculations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "06ef1744e268",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8cdbab73384",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Seasonal load shape"
+        },
+        {
+          "_key": "1399d815e7c7",
+          "_type": "span",
+          "marks": [],
+          "text": " matters more than an annual average. Properties with similar yearly consumption can produce different winter bills when heating demand is concentrated in the coldest billing periods."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2766cef196b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b12b9216d27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Mixed-use service"
+        },
+        {
+          "_key": "d8eece8e1895",
+          "_type": "span",
+          "marks": [],
+          "text": " breaks the single-household assumption. Commercial equipment, longer operating hours, and a different tariff class can distort both the total and any per-suite allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a61c95ca71c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "133c9e1c8756",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the calculator to frame a question, not close the analysis. Label the result as a household-style estimate, then replace unsupported assumptions with building records and measured loads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "507fdb4ea298",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "310a5ce944ff",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5907bd2e09ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00a106a1da1a",
+          "_type": "span",
+          "marks": [],
+          "text": "Reading the Results Against Submetering and Bulk Billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "20821432c31a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f208bdde20c1",
+          "_type": "span",
+          "marks": [],
+          "text": "The choice between bulk billing and submetering depends on whether the calculator's simplifications are small enough to tolerate. For a small, homogeneous residential building with limited shared consumption and stable occupancy, an equal allocation based on actual bills may be workable. For a complex property, the same approach can hide cross-subsidies and create tenant disputes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e06665af5142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bae7034c6de",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48bbfe94d2ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36dac77b2436",
+          "_type": "span",
+          "marks": [],
+          "text": "When bulk billing can work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d34dda61883b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c00eef6ba8c8",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk billing is usually easier to administer when:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc99afd424c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a3a188e0324",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The property is small:"
+        },
+        {
+          "_key": "6fe1ff646f3c",
+          "_type": "span",
+          "marks": [],
+          "text": " A simple walk-up with similar suites may not justify complex allocation."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bcdb2528a4aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6ab54b36332",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Occupancy is stable:"
+        },
+        {
+          "_key": "021dec9cdc38",
+          "_type": "span",
+          "marks": [],
+          "text": " Year-round tenants make annual budgeting more predictable."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f9e480b04065",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2c79d82419b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Consumption is similar:"
+        },
+        {
+          "_key": "e6ce7978b154",
+          "_type": "span",
+          "marks": [],
+          "text": " Equal allocation is less contentious when unit profiles are close."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da9960da86bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0751b3f79af7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common loads are limited:"
+        },
+        {
+          "_key": "b63d00e79fc2",
+          "_type": "span",
+          "marks": [],
+          "text": " The master-meter total mostly reflects apartment use."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12b57ab857c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa51214aae3c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The tariff is consistent:"
+        },
+        {
+          "_key": "526ed7e6bb82",
+          "_type": "span",
+          "marks": [],
+          "text": " A purely residential account avoids mixing domestic and commercial arithmetic."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "afddb3a56032",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ec688ad3d26",
+          "_type": "span",
+          "marks": [],
+          "text": "That doesn't mean the calculator alone is enough. Pull the actual Hydro-Québec bills, normalise the billing periods, identify unusual winter months, and document how the owner will handle vacancies and shared spaces."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "289f5bff543c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35c4be3e8870",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5455fbf12b67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7d0465db964",
+          "_type": "span",
+          "marks": [],
+          "text": "When measurement becomes more valuable"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "8d36398fd640",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75dd3707feea",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering deserves serious evaluation when suites have materially different consumption, when electric heating dominates, or when the building includes commercial space and EV charging. It can separate tenant-level usage from common-area consumption, giving the owner a better basis for recovery and giving residents a clearer explanation of their charges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df4b01d025c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f452ff4b746f",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a simple test:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0816097fe1f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9682c6d1b6a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Pull "
+        },
+        {
+          "_key": "2e2e77db95f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "12 months of actual Hydro-Québec consumption history"
+        },
+        {
+          "_key": "4854ecdceca8",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09492fe3ebd7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bdaa0ca91cc",
+          "_type": "span",
+          "marks": [],
+          "text": "Identify common-area equipment and any separately metered spaces."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12f10d2700dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0549789d7e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Subtract or isolate those shared loads."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6858ed8ad458",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13c8ad5f9ff7",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare the remaining consumption with an equal per-suite model."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca0590a59107",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cced26664e05",
+          "_type": "span",
+          "marks": [],
+          "text": "Investigate any persistent gap before choosing a billing structure."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66dd06dd9d40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5898541ecdc4",
+          "_type": "span",
+          "marks": [],
+          "text": "The tariff mechanics behind that test are set out in Hydro-Québec's "
+        },
+        {
+          "_key": "eeebefc9192f",
+          "_type": "span",
+          "marks": [
+            "a15a285cee5a"
+          ],
+          "text": "Rate DP billing guidance"
+        },
+        {
+          "_key": "89c0ea87ae18",
+          "_type": "span",
+          "marks": [],
+          "text": ", which covers demand qualification, minimum billing, and billing-period treatment."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a15a285cee5a",
+          "_type": "link",
+          "href": "https://www.hydroquebec.com/residential/customer-space/rates/rate-dp-billing.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a59a78241cbb",
+      "_type": "externalImage",
+      "alt": "A comparison table outlining when to choose submetering versus bulk billing for property management utilities.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/09bf540d-5365-427f-ad55-ae6c4e5ad86c/hydro-quebec-calculator-submetering-comparison.jpg"
+    },
+    {
+      "_key": "a526e76ae06b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f642d60abe3e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Decision test:"
+        },
+        {
+          "_key": "2e95702c0d7b",
+          "_type": "span",
+          "marks": [],
+          "text": " If you can't explain the difference between the master-meter bill and the sum of suite estimates, you don't yet have a defensible recovery model."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ed27ef1f0e81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "971577904bb6",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful primer on the operational side is "
+        },
+        {
+          "_key": "305162c7bdf2",
+          "_type": "span",
+          "marks": [
+            "738b4497fd1a"
+          ],
+          "text": "electricity sub-metering for multi-unit properties"
+        },
+        {
+          "_key": "0d50f17c52f1",
+          "_type": "span",
+          "marks": [],
+          "text": ". The objective isn't to force one solution. It's to match the billing method to the building's actual load structure."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "738b4497fd1a",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metering-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d8268848d99e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2e3ac79132e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5129ddebf0c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75abbe354d90",
+          "_type": "span",
+          "marks": [],
+          "text": "Next Steps for Owners and Managers"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0e880eb41c25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cd2cce18f24",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with evidence, not another calculator run. Use this sequence:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f8271cc0551d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "355638015bcd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pull 12 months of bills and interval or monthly consumption data"
+        },
+        {
+          "_key": "a7dc8a2cc4a5",
+          "_type": "span",
+          "marks": [],
+          "text": " from the Hydro-Québec customer portal. Record billing dates, total kWh, demand information where applicable, and seasonal changes."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "36d87661c1d0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7af675ec2aca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm the meter's tariff classification"
+        },
+        {
+          "_key": "b090fbdd6a9e",
+          "_type": "span",
+          "marks": [],
+          "text": " with Hydro-Québec. Don't assume a mixed-use or electrically intensive building belongs in the same category as a standard home."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e6bd9abb37c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d963ba7de12a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Map every connected load."
+        },
+        {
+          "_key": "b10267452994",
+          "_type": "span",
+          "marks": [],
+          "text": " List suites, corridors, elevators, laundry, exterior lighting, mechanical equipment, commercial areas, and EV chargers."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50c4fb25025d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "192e97354404",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Document operating variables."
+        },
+        {
+          "_key": "21327365bf5e",
+          "_type": "span",
+          "marks": [],
+          "text": " Record unit count, vacancies, heating fuel, major renovations, and any spaces that operate on a different schedule."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cdd81d3d0554",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c89598a474a6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Build two models."
+        },
+        {
+          "_key": "65938f8050bd",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare bulk billing with an equal allocation against a measured or submetered approach. Keep common-area consumption visible rather than burying it in the suite charge."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d87849f3f04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa6eaec0e2ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Small residential walk-ups with stable occupancy may remain practical candidates for bulk billing. Larger properties, buildings with electric heat, mixed-use accounts, EV charging, or fluctuating vacancy deserve a "
+        },
+        {
+          "_key": "9e91d5e9b3ef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "submetering feasibility assessment"
+        },
+        {
+          "_key": "0f474f34876f",
+          "_type": "span",
+          "marks": [],
+          "text": ". Ask the provider how meters will be integrated with tenant billing, how common areas will be handled, how readings are validated, what compliance steps apply, and how projected recovery will be compared with historical bills."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ca2fbf39ba2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d54a724b7db9",
+          "_type": "span",
+          "marks": [],
+          "text": "For a structured implementation review, see "
+        },
+        {
+          "_key": "9f8facaa02e1",
+          "_type": "span",
+          "marks": [
+            "82ef59813b5d"
+          ],
+          "text": "electricity submetering solutions"
+        },
+        {
+          "_key": "4a083ed52f3e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Set a realistic internal schedule: allow "
+        },
+        {
+          "_key": "1253e44ce6a2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one week"
+        },
+        {
+          "_key": "154c385eae9e",
+          "_type": "span",
+          "marks": [],
+          "text": " for estimator and bill review, "
+        },
+        {
+          "_key": "ef02b68c12b4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "two weeks"
+        },
+        {
+          "_key": "8ab132948027",
+          "_type": "span",
+          "marks": [],
+          "text": " for internal modelling, and "
+        },
+        {
+          "_key": "5fb99dee3876",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "four weeks"
+        },
+        {
+          "_key": "31a0b0279b51",
+          "_type": "span",
+          "marks": [],
+          "text": " for a provider proposal, as an organised process is more useful than a rushed quote."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "82ef59813b5d",
+          "_type": "link",
+          "href": "https://www.axismeter.com/solutions/electricity-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9242c706fe64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50f7c6db2ae3",
+          "_type": "span",
+          "marks": [],
+          "text": "The Hydro-Québec calculator is good at producing a quick household estimate. It isn't a substitute for tariff verification, common-area accounting, or unit-level consumption data."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "781c6333cbf3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a833d030dc8",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions can assess master-metered electricity, separate common-area loads, and design a tenant billing program for multi-family, condominium, mixed-use, and commercial properties. Visit "
+        },
+        {
+          "_key": "e8f4e1427179",
+          "_type": "span",
+          "marks": [
+            "c1077374110a"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "d815186f3538",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your building data, recovery objectives, and submetering options with a team that can take the project from feasibility through ongoing billing and service."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c1077374110a",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Hydro quebec calculator. Learn how the Hydro-Québec calculator works, what it misses for multi-unit buildings, and how to interpret results when evaluating",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c6ece7d3-fb67-4850-b045-b4dc1f0a9802/hydro-quebec-calculator-title-card.jpg",
+  "noIndex": false,
+  "outrankId": "b0c73fc0-4afd-496f-a823-b4af41a66505",
+  "publishedAt": "2026-08-25T09:57:08.211576+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "hydro-quebec-calculator"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;ve just bought a Montréal triplex. The morning after closing, you open the Hydro-Québec calculator, enter the postal code, describe the heating system, and expect a reliable annual electricity figure. The result looks precise enough to use in your operating budget.</p>\n<p>That confidence can be dangerous. The estimator is useful for a household, but a multi-unit property has master-metered common areas, vacant suites, shared laundry, different heating profiles, and sometimes commercial space or electric-vehicle charging. A number designed for one dwelling can&#39;t automatically answer who should pay, what belongs in recoverable tenant consumption, or whether submetering makes financial sense.</p>\n<p>This guide treats the <strong>Hydro-Québec calculator</strong> as a starting instrument, not a building budget. The official tariff documents explain why rate class, daily thresholds, billing periods, seasons, and demand charges all matter. The practical question is simple: <strong>can the calculator&#39;s household estimate support your property decision, or do you need actual meter data and unit-level measurement?</strong></p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-property-owners-use-the-hydro-quebec-calculator\">Why Property Owners Use the Hydro-Québec Calculator</a><ul>\n<li><a href=\"#the-household-estimate-is-only-one-input\">The household estimate is only one input</a></li>\n<li><a href=\"#translate-the-output-before-using-it\">Translate the output before using it</a></li>\n</ul>\n</li>\n<li><a href=\"#how-hydro-quebecs-tariff-structure-shapes-every-estimate\">How Hydro-Québec&#39;s Tariff Structure Shapes Every Estimate</a><ul>\n<li><a href=\"#rate-d-and-rate-dp-component-breakdown\">Rate D and Rate DP component breakdown</a></li>\n</ul>\n</li>\n<li><a href=\"#inside-the-calculators-inputs-and-what-they-assume\">Inside the Calculator&#39;s Inputs and What They Assume</a><ul>\n<li><a href=\"#what-the-fields-are-really-doing\">What the fields are really doing</a></li>\n<li><a href=\"#three-overrides-owners-must-make-mentally\">Three overrides owners must make mentally</a></li>\n</ul>\n</li>\n<li><a href=\"#worked-examples-for-residential-and-multi-unit-properties\">Worked Examples for Residential and Multi-Unit Properties</a><ul>\n<li><a href=\"#example-a-a-six-suite-montreal-walk-up\">Example A, a six-suite Montréal walk-up</a></li>\n<li><a href=\"#example-b-a-24-unit-mixed-use-building\">Example B, a 24-unit mixed-use building</a></li>\n</ul>\n</li>\n<li><a href=\"#where-the-calculator-falls-short-for-buildings\">Where the Calculator Falls Short for Buildings</a><ul>\n<li><a href=\"#the-loads-that-disappear-from-a-household-estimate\">The loads that disappear from a household estimate</a></li>\n<li><a href=\"#five-distortions-that-change-recovery\">Five distortions that change recovery</a></li>\n</ul>\n</li>\n<li><a href=\"#reading-the-results-against-submetering-and-bulk-billing\">Reading the Results Against Submetering and Bulk Billing</a><ul>\n<li><a href=\"#when-bulk-billing-can-work\">When bulk billing can work</a></li>\n<li><a href=\"#when-measurement-becomes-more-valuable\">When measurement becomes more valuable</a></li>\n</ul>\n</li>\n<li><a href=\"#next-steps-for-owners-and-managers\">Next Steps for Owners and Managers</a></li>\n</ul>\n<p><a id=\"why-property-owners-use-the-hydro-quebec-calculator\"></a></p>\n<h2>Why Property Owners Use the Hydro-Québec Calculator</h2>\n<p>Hydro-Québec&#39;s estimator is attractive because it&#39;s fast, public, and easy to use. Enter a building number and postal code, provide information about the dwelling, and the tool produces an address-level electricity-cost estimate. That location-specific screening is useful when you&#39;re reviewing a property before you have a complete operating history, as described in <a href=\"https://www.hydroquebec.com/residential/customer-space/moving/estimate-electricity-costs.html\">Hydro-Québec&#39;s official electricity-cost estimator</a>.</p>\n<p>For a single house, the workflow is sensible. You&#39;re trying to understand how electricity use may vary with dwelling size, heating source, and household behaviour. For a triplex or larger asset, however, the decision changes. You&#39;re not only asking, “What might this home cost?” You&#39;re asking whether utilities should be included in rent, allocated through a recovery model, or measured separately for each unit.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/64863c92-9ee4-43d5-a922-3bf78b34aa34/hydro-quebec-calculator-energy-app.jpg\" alt=\"Screenshot from https://www.hydroquebec.com/residential/space-heating-estimator/\"></p>\n<p><a id=\"the-household-estimate-is-only-one-input\"></a></p>\n<h3>The household estimate is only one input</h3>\n<p>Property owners usually turn to the calculator for four practical reasons:</p>\n<ul>\n<li><strong>Early underwriting:</strong> You need a preliminary utility allowance before a full year of bills is available.</li>\n<li><strong>Budget testing:</strong> You want to see how heating fuel and dwelling characteristics affect expected costs.</li>\n<li><strong>Tenant conversations:</strong> You need a reasonable reference point before discussing included utilities or recoveries.</li>\n<li><strong>Renovation planning:</strong> You&#39;re comparing the effect of insulation, heating changes, or appliance upgrades.</li>\n</ul>\n<p>Those are legitimate uses. The mistake is treating the output as a complete building forecast.</p>\n<p>The calculator&#39;s residential framing doesn&#39;t resolve <strong>common-area allocation</strong>, <strong>vacancy exposure</strong>, <strong>shared laundry</strong>, <strong>hallway lighting</strong>, or whether a commercial tenant belongs on a different rate class. It also doesn&#39;t tell you how to structure recovery in a way that fits your lease terms and applicable Québec requirements. It gives you consumption-oriented guidance, not a complete RUBS, or ratio utility billing system, design.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Use the estimator to create a screening assumption. Use bills, tariff classification, and measured loads to make the operating decision.</p>\n</blockquote>\n<p><a id=\"translate-the-output-before-using-it\"></a></p>\n<h3>Translate the output before using it</h3>\n<p>Start by treating the estimate as a household scenario. Then ask three questions:</p>\n<ol>\n<li><strong>How many separate dwellings does the meter serve?</strong></li>\n<li><strong>Which loads sit outside the suites?</strong></li>\n<li><strong>Does the account serve only domestic use, or does it include business activity?</strong></li>\n</ol>\n<p>If the property has individual suite meters, the calculator may help you form a rough benchmark for each residence. If the property has one master meter, the output needs a second layer of analysis. You&#39;ll need to separate tenant-attributable consumption from building consumption before deciding whether equal allocation is fair or financially defensible.</p>\n<p>Hydro-Québec&#39;s history also explains why owners pay close attention to the utility&#39;s tools. The company was created in <strong>1944</strong>, and its public-utility system grew through major consolidations and hydroelectric projects. During its <strong>1945 to 1959</strong> expansion period, Hydro-Québec became one of the first electric utilities to operate <strong>315-kilovolt transmission lines</strong>, supporting large-scale generation and long-distance delivery across Québec, as documented in <a href=\"https://www.hydroquebec.com/history-electricity-in-quebec/timeline/hydro-quebec-first-triumphs.html\">Hydro-Québec&#39;s electricity history timeline</a>. That large public system comes with a detailed tariff structure, so a simple household result should never be mistaken for a flat provincial price.</p>\n<p><a id=\"how-hydro-quebecs-tariff-structure-shapes-every-estimate\"></a></p>\n<h2>How Hydro-Québec&#39;s Tariff Structure Shapes Every Estimate</h2>\n<p>A Hydro-Québec calculator result is tariff arithmetic presented as a household total. For residential service, the usual framework is <strong>Rate D</strong>. A business or mixed-use account may fall under <strong>Rate DP</strong> or another classification. Hydro-Québec&#39;s 2026 tariff update raised domestic rates by <strong>3% effective April 1, 2026</strong>, while business rates rose by <strong>3.8%</strong>, according to the <a href=\"https://www.hydroquebec.com/documents-data/official-publications/electricity-rates-conditions-electricity-service.html\">official electricity rates and conditions</a>.</p>\n<p>For 2026, Rate D combines a fixed daily access charge with daily consumption blocks. The estimator identifies <strong>7.065¢ per kWh for the first 40 kWh per day</strong>, <strong>11.142¢ per kWh above that threshold</strong>, and an access charge of <strong>46.154¢ per day</strong>. These figures appear in <a href=\"https://www.hydroquebec.com/residential/customer-space/moving/estimate-electricity-costs.html\">Hydro-Québec&#39;s estimator information</a>.</p>\n<p>The daily breakpoint changes the result quickly. Annual consumption does not create one blended price. The billing calculation places daily usage into the applicable blocks, and electric heating can push a property above the first threshold during winter. For a single home, that may be enough for a useful planning estimate. For a master-metered building, it is only the starting point.</p>\n<p><a id=\"rate-d-and-rate-dp-component-breakdown\"></a></p>\n<h3>Rate D and Rate DP component breakdown</h3>\n<table>\n<thead>\n<tr>\n<th>Component</th>\n<th align=\"right\">Rate D, residential</th>\n<th align=\"right\">Rate DP, small power ≤ 65 kW</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Energy calculation</td>\n<td align=\"right\">First <strong>40 kWh/day</strong> at <strong>7.065¢/kWh</strong>, higher usage at <strong>11.142¢/kWh</strong></td>\n<td align=\"right\">Energy charge applies under the business tariff</td>\n</tr>\n<tr>\n<td>Fixed access charge</td>\n<td align=\"right\"><strong>46.154¢/day</strong></td>\n<td align=\"right\">Minimum monthly bill and other applicable components</td>\n</tr>\n<tr>\n<td>Demand component</td>\n<td align=\"right\">Not the standard household component</td>\n<td align=\"right\">Extra demand charge applies above <strong>50 kW</strong></td>\n</tr>\n<tr>\n<td>Billing mechanics</td>\n<td align=\"right\">Daily allowances are applied across the billing cycle</td>\n<td align=\"right\">Demand and billing-period rules affect the total</td>\n</tr>\n<tr>\n<td>Best fit</td>\n<td align=\"right\">Domestic residential service</td>\n<td align=\"right\">Eligible business and small-power accounts</td>\n</tr>\n</tbody></table>\n<p>Rate DP matters for mixed-use and electrically intensive properties. Hydro-Québec states that Rate DP applies when maximum power demand has reached <strong>50 kW or more at least once during the previous 12 monthly periods</strong>. Its tariff structure also separates winter and summer demand charges and adds a demand component for load above that threshold. A kWh-only estimate can therefore understate costs for a building with concentrated electric heating, commercial equipment, or charging infrastructure.</p>\n<p>The billing period changes the calculation as well. Hydro-Québec&#39;s Rate D example uses a <strong>62-day billing period</strong> and prorates daily tier allowances across the days in that cycle. Owners should not divide an invoice by two automatically or compare invoices without normalising the number of billed days. That shortcut can distort recovery models and weaken comparisons between properties.</p>\n<p>For building-level decisions, read the calculator output as five separate cost drivers:</p>\n<ul>\n<li><strong>Access charges</strong>, which continue while the service remains active.</li>\n<li><strong>Energy blocks</strong>, which set the marginal cost of additional consumption.</li>\n<li><strong>Demand charges</strong>, where the account classification requires them.</li>\n<li><strong>Billing-period rules</strong>, which determine how daily allowances apply.</li>\n<li><strong>Seasonal exposure</strong>, especially when electric heating changes the load shape.</li>\n</ul>\n<p>Time-sensitive consumption strategies require a separate look at energy timing and demand. This <a href=\"https://www.axismeter.com/blog/time-of-use-hydro\">overview of Hydro-Québec time-of-use considerations</a> provides useful context. The practical conclusion is direct: <strong>two buildings with the same kWh total can have different cost sensitivity if one concentrates usage during winter peaks or crosses tariff thresholds more often.</strong> That difference affects bulk-billing forecasts, tenant recovery, and the case for suite-level submetering.</p>\n<p><a id=\"inside-the-calculators-inputs-and-what-they-assume\"></a></p>\n<h2>Inside the Calculator&#39;s Inputs and What They Assume</h2>\n<p>The estimator looks simple because it turns a complex tariff model into familiar household questions. Each input still carries a hidden assumption about climate, heated area, occupancy, and consumption behaviour.</p>\n<p><a id=\"what-the-fields-are-really-doing\"></a></p>\n<h3>What the fields are really doing</h3>\n<p><strong>Address and postal code</strong> anchor the estimate to a specific property location. Hydro-Québec&#39;s tool can generate an address-level estimate when the building number and postal code are entered, which makes it useful for initial screening. The location also helps frame regional weather and service conditions, but it doesn&#39;t identify how many suites share the account or which loads belong to common areas.</p>\n<p><strong>Square footage</strong> acts as a proxy for the amount of space requiring heat, lighting, and appliance use. It can be directionally helpful for a detached home, but it assumes the area behaves like one dwelling. A five-plex with the same total floor area has corridors, mechanical rooms, shared laundry, and different occupancy patterns.</p>\n<p><strong>Heating source</strong> is one of the most influential inputs. Electric baseboards can create a very different winter profile from oil, gas, or another non-electric source. A heat pump also behaves differently from resistance heating, yet a basic household estimate may not capture the equipment&#39;s actual operating pattern in a building.</p>\n<p><strong>Occupants and appliance mix</strong> represent hot water, cooking, refrigeration, laundry, and plug loads. The calculator&#39;s household framing doesn&#39;t reproduce the variation between a lightly occupied unit, a family suite, a furnished rental, or a building with shared laundry equipment.</p>\n<p><strong>Insulation and envelope quality</strong> remain decisive even when the tool doesn&#39;t ask you to document every building-envelope characteristic. Older windows, air leakage, and uneven insulation can push heating demand away from an average household curve.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7ea9ede5-02c6-48a9-bc1a-ad9d081f4f96/hydro-quebec-calculator-input-factors.jpg\" alt=\"A infographic explaining six key inputs used by a calculator to estimate household electricity usage.\"></p>\n<p><a id=\"three-overrides-owners-must-make-mentally\"></a></p>\n<h3>Three overrides owners must make mentally</h3>\n<p>For a building, don&#39;t accept the household output until you&#39;ve adjusted for:</p>\n<ul>\n<li><strong>Unit count:</strong> Multiply only the loads that repeat by suite. A common hallway doesn&#39;t become six separate household loads.</li>\n<li><strong>Common-area consumption:</strong> Identify lighting, ventilation, elevators, laundry, exterior equipment, and shared heating before allocating costs.</li>\n<li><strong>Non-electric heating fuel:</strong> Remove electric heating assumptions where units use another fuel, then add back any electricity used by pumps, controls, fans, or supplemental systems.</li>\n</ul>\n<p>Each override maps to a tariff variable. Unit count affects the amount of residential consumption being modelled. Common areas determine whether the master-metered total can be fairly recovered from tenants. Heating fuel changes the seasonal kWh profile, which affects how much usage moves into the higher Rate D block.</p>\n<p>The estimator isn&#39;t wrong when it misses these details. It&#39;s answering a narrower question. Your job is to stop a narrow household answer from becoming an unsupported building budget.</p>\n<p><a id=\"worked-examples-for-residential-and-multi-unit-properties\"></a></p>\n<h2>Worked Examples for Residential and Multi-Unit Properties</h2>\n<p>A worked model shows where Rate D arithmetic fits a building and where a household estimate stops being reliable. The examples use the verified 2026 Rate D components, including <strong>40 kWh per day</strong>, <strong>7.065¢/kWh for the first block</strong>, <strong>11.142¢/kWh above it</strong>, and the <strong>46.154¢ daily access charge</strong> described in the official guidance.</p>\n<p><a id=\"example-a-a-six-suite-montreal-walk-up\"></a></p>\n<h3>Example A, a six-suite Montréal walk-up</h3>\n<p>Assume a six-suite building consumes approximately <strong>18,000 kWh in a 30-day month</strong>. The first Rate D block provides:</p>\n<p><strong>40 kWh × 6 suites × 30 days = 7,200 kWh</strong></p>\n<p>The remaining <strong>10,800 kWh</strong> falls above that first block. The simplified energy calculation is:</p>\n<ul>\n<li>First block: <strong>7,200 kWh × 7.065¢ = $508.68</strong></li>\n<li>Remaining consumption: <strong>10,800 kWh × 11.142¢ = $1,203.34</strong></li>\n<li>Daily access charges: <strong>46.154¢ × 6 services × 30 days = $83.08</strong></li>\n<li>Simplified building total: <strong>$1,795.10</strong></li>\n<li>Equal split across six suites: approximately <strong>$299.18 per suite</strong></li>\n</ul>\n<p>Use this as a planning illustration, not as a final invoice. The account structure, billing period, taxes, and applicable tariff conditions still affect the result. The equal split also assumes every suite should carry the same share. That assumption fails when one unit uses electric heat heavily, another is vacant, or occupants have very different consumption patterns.</p>\n<blockquote>\n<p>The equal-split result is a recovery convention, not a measurement.</p>\n</blockquote>\n<p>A master-metered property needs a common-area allocation inside the <strong>18,000 kWh</strong> total. Hallway lighting, laundry equipment, exterior fixtures, ventilation, and other shared systems consume electricity without belonging to one tenant. Measure those loads where possible, or assign them through a documented method before setting a per-suite recovery amount.</p>\n<p><a id=\"example-b-a-24-unit-mixed-use-building\"></a></p>\n<h3>Example B, a 24-unit mixed-use building</h3>\n<p>Consider a <strong>24-unit mixed-use property</strong> with a ground-floor commercial space and <strong>23 apartments</strong>. A household estimator cannot separate the apartment demand from the commercial demand when both are part of the owner&#39;s utility decision. The commercial space may use Rate G or another business classification, while the apartments may relate to Rate D.</p>\n<p>One blended result therefore cannot support tenant recovery. Start with the actual account and meter records. Separate residential consumption, commercial consumption, and common-area loads. A separate commercial meter makes that work clearer. With one master meter, the owner needs a documented allocation method or a submetering plan.</p>\n<table>\n<thead>\n<tr>\n<th>Building profile</th>\n<th>Estimator total</th>\n<th>Per-suite, equal split</th>\n<th>Per-suite, submetered range</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Six-suite residential walk-up</td>\n<td>Household-style estimate scaled to the building</td>\n<td>Approximately <strong>$299.18</strong> in the simplified example</td>\n<td>Varies by measured suite use, common-area treatment, and billing rules</td>\n</tr>\n<tr>\n<td>24-unit mixed-use property</td>\n<td>Cannot reliably separate domestic and commercial loads</td>\n<td>Not defensible without isolating commercial and shared consumption</td>\n<td>Based on measured residential use, commercial use, and allocated common loads</td>\n</tr>\n</tbody></table>\n<p>Owners reviewing the full property budget can also <a href=\"https://www.brookside-pm.ca/mortgage-payment-calculator\">compare payment scenarios</a> alongside utility assumptions. Keep financing and electricity recovery separate. Payment comparisons can show the cash-flow effect of different utility assumptions, but they do not repair an unsupported allocation model.</p>\n<p><a id=\"where-the-calculator-falls-short-for-buildings\"></a></p>\n<h2>Where the Calculator Falls Short for Buildings</h2>\n<p>An owner reviews a Hydro-Québec estimate for a six-suite property and expects it to explain the master-meter bill. It cannot. The calculator models household use, while the account may also serve shared spaces, equipment, commercial areas, and vacant suites.</p>\n<p>That distinction matters for building budgets and submetering decisions. A household result can support a rough starting point, but it cannot identify which loads belong to residents or establish a defensible recovery method.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b9cd8586-0182-4969-83f3-d92db7b7a5a5/hydro-quebec-calculator-building-energy.jpg\" alt=\"An infographic detailing five common building energy costs often ignored by standard utility calculators.\"></p>\n<p><a id=\"the-loads-that-disappear-from-a-household-estimate\"></a></p>\n<h3>The loads that disappear from a household estimate</h3>\n<ul>\n<li><strong>Common-area lighting:</strong> Hallways, stairwells, lobbies, storage rooms, and service spaces draw from the master meter without belonging to one suite.</li>\n<li><strong>Elevators:</strong> Lift equipment creates a shared load that a household profile cannot assign to individual residents.</li>\n<li><strong>Exterior lighting:</strong> Parking areas, entrances, pathways, signage, and security fixtures may use the same account.</li>\n<li><strong>Laundry rooms:</strong> Shared washers, dryers, ventilation, and hot-water equipment can materially change total consumption.</li>\n<li><strong>Common HVAC:</strong> Fans, pumps, make-up air, corridors, and mechanical rooms add usage outside apartment estimates.</li>\n</ul>\n<p>The visual identifies common building costs, but its category ranges should not become universal planning benchmarks. Use a panel schedule, equipment inventory, existing submeters, or a targeted load study to establish the property&#39;s actual allocation.</p>\n<p><a id=\"five-distortions-that-change-recovery\"></a></p>\n<h3>Five distortions that change recovery</h3>\n<p><strong>Vacancy</strong> can shift costs between residents. An empty suite may use little electricity, yet the service remains connected and the account still carries fixed access charges. Equal allocation can therefore place vacant-unit costs on occupied tenants unless the lease and policy address that treatment.</p>\n<p><strong>Electric baseboards</strong> produce a strong winter effect. An average household profile may understate an older building where resistance heating runs for extended periods. Higher consumption can also increase exposure to the higher Rate D block.</p>\n<p><strong>EV charging</strong> adds a shared load and an ownership question. If chargers use the master meter, identify who pays, how access is controlled, and whether concentrated charging affects tariff or demand calculations.</p>\n<p><strong>Seasonal load shape</strong> matters more than an annual average. Properties with similar yearly consumption can produce different winter bills when heating demand is concentrated in the coldest billing periods.</p>\n<p><strong>Mixed-use service</strong> breaks the single-household assumption. Commercial equipment, longer operating hours, and a different tariff class can distort both the total and any per-suite allocation.</p>\n<p>Use the calculator to frame a question, not close the analysis. Label the result as a household-style estimate, then replace unsupported assumptions with building records and measured loads.</p>\n<p><a id=\"reading-the-results-against-submetering-and-bulk-billing\"></a></p>\n<h2>Reading the Results Against Submetering and Bulk Billing</h2>\n<p>The choice between bulk billing and submetering depends on whether the calculator&#39;s simplifications are small enough to tolerate. For a small, homogeneous residential building with limited shared consumption and stable occupancy, an equal allocation based on actual bills may be workable. For a complex property, the same approach can hide cross-subsidies and create tenant disputes.</p>\n<p><a id=\"when-bulk-billing-can-work\"></a></p>\n<h3>When bulk billing can work</h3>\n<p>Bulk billing is usually easier to administer when:</p>\n<ul>\n<li><strong>The property is small:</strong> A simple walk-up with similar suites may not justify complex allocation.</li>\n<li><strong>Occupancy is stable:</strong> Year-round tenants make annual budgeting more predictable.</li>\n<li><strong>Consumption is similar:</strong> Equal allocation is less contentious when unit profiles are close.</li>\n<li><strong>Common loads are limited:</strong> The master-meter total mostly reflects apartment use.</li>\n<li><strong>The tariff is consistent:</strong> A purely residential account avoids mixing domestic and commercial arithmetic.</li>\n</ul>\n<p>That doesn&#39;t mean the calculator alone is enough. Pull the actual Hydro-Québec bills, normalise the billing periods, identify unusual winter months, and document how the owner will handle vacancies and shared spaces.</p>\n<p><a id=\"when-measurement-becomes-more-valuable\"></a></p>\n<h3>When measurement becomes more valuable</h3>\n<p>Submetering deserves serious evaluation when suites have materially different consumption, when electric heating dominates, or when the building includes commercial space and EV charging. It can separate tenant-level usage from common-area consumption, giving the owner a better basis for recovery and giving residents a clearer explanation of their charges.</p>\n<p>Use a simple test:</p>\n<ol>\n<li>Pull <strong>12 months of actual Hydro-Québec consumption history</strong>.</li>\n<li>Identify common-area equipment and any separately metered spaces.</li>\n<li>Subtract or isolate those shared loads.</li>\n<li>Compare the remaining consumption with an equal per-suite model.</li>\n<li>Investigate any persistent gap before choosing a billing structure.</li>\n</ol>\n<p>The tariff mechanics behind that test are set out in Hydro-Québec&#39;s <a href=\"https://www.hydroquebec.com/residential/customer-space/rates/rate-dp-billing.html\">Rate DP billing guidance</a>, which covers demand qualification, minimum billing, and billing-period treatment.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/09bf540d-5365-427f-ad55-ae6c4e5ad86c/hydro-quebec-calculator-submetering-comparison.jpg\" alt=\"A comparison table outlining when to choose submetering versus bulk billing for property management utilities.\"></p>\n<blockquote>\n<p><strong>Decision test:</strong> If you can&#39;t explain the difference between the master-meter bill and the sum of suite estimates, you don&#39;t yet have a defensible recovery model.</p>\n</blockquote>\n<p>A useful primer on the operational side is <a href=\"https://www.axismeter.com/blog/sub-metering-electricity\">electricity sub-metering for multi-unit properties</a>. The objective isn&#39;t to force one solution. It&#39;s to match the billing method to the building&#39;s actual load structure.</p>\n<p><a id=\"next-steps-for-owners-and-managers\"></a></p>\n<h2>Next Steps for Owners and Managers</h2>\n<p>Start with evidence, not another calculator run. Use this sequence:</p>\n<ol>\n<li><strong>Pull 12 months of bills and interval or monthly consumption data</strong> from the Hydro-Québec customer portal. Record billing dates, total kWh, demand information where applicable, and seasonal changes.</li>\n<li><strong>Confirm the meter&#39;s tariff classification</strong> with Hydro-Québec. Don&#39;t assume a mixed-use or electrically intensive building belongs in the same category as a standard home.</li>\n<li><strong>Map every connected load.</strong> List suites, corridors, elevators, laundry, exterior lighting, mechanical equipment, commercial areas, and EV chargers.</li>\n<li><strong>Document operating variables.</strong> Record unit count, vacancies, heating fuel, major renovations, and any spaces that operate on a different schedule.</li>\n<li><strong>Build two models.</strong> Compare bulk billing with an equal allocation against a measured or submetered approach. Keep common-area consumption visible rather than burying it in the suite charge.</li>\n</ol>\n<p>Small residential walk-ups with stable occupancy may remain practical candidates for bulk billing. Larger properties, buildings with electric heat, mixed-use accounts, EV charging, or fluctuating vacancy deserve a <strong>submetering feasibility assessment</strong>. Ask the provider how meters will be integrated with tenant billing, how common areas will be handled, how readings are validated, what compliance steps apply, and how projected recovery will be compared with historical bills.</p>\n<p>For a structured implementation review, see <a href=\"https://www.axismeter.com/solutions/electricity-submetering\">electricity submetering solutions</a>. Set a realistic internal schedule: allow <strong>one week</strong> for estimator and bill review, <strong>two weeks</strong> for internal modelling, and <strong>four weeks</strong> for a provider proposal, as an organised process is more useful than a rushed quote.</p>\n<p>The Hydro-Québec calculator is good at producing a quick household estimate. It isn&#39;t a substitute for tariff verification, common-area accounting, or unit-level consumption data.</p>\n<hr>\n<p>Axis Meter Solutions can assess master-metered electricity, separate common-area loads, and design a tenant billing program for multi-family, condominium, mixed-use, and commercial properties. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your building data, recovery objectives, and submetering options with a team that can take the project from feasibility through ongoing billing and service.</p>",
+  "tags": [
+    "hydro quebec calculator",
+    "hydro-quebec billing",
+    "submetering quebec",
+    "multi-unit electricity",
+    "rate d quebec"
+  ],
+  "title": "Hydro Quebec Calculator",
+  "updatedAt": "2026-08-25T09:57:11.950Z"
+}
