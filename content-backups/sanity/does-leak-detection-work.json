@@ -1,0 +1,3858 @@
+{
+  "_createdAt": "2026-08-28T08:50:12Z",
+  "_id": "outrank-068fc8e7-3daf-4cdf-bebc-4019a843e1c7",
+  "_rev": "DXxeyXMUFtqZYGnl7kexxY",
+  "_type": "blogPost",
+  "_updatedAt": "2026-08-28T08:50:12Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "7a67d5bdb2b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc7ffb358b7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak detection works, but its effectiveness depends on pipe material, sensor type, and whether the system can shut water off automatically. Canadian field testing found AI-enabled hydrant sensors could detect leaks as small as "
+        },
+        {
+          "_key": "656a52fe7b3e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "17 litres per minute"
+        },
+        {
+          "_key": "330ca83f9923",
+          "_type": "span",
+          "marks": [],
+          "text": ", yet alerting alone won't prevent damage if nobody responds."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19699ea5d6f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a56bf8c644a1",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction matters in occupied multi-family and mixed-use buildings. A sensor can identify abnormal flow, acoustic noise, or water on a floor, but it can't remove the water unless the response architecture includes a working shutoff valve. The practical question isn't, “Does leak detection work?” It's whether the selected sensor can detect the failure in your building, whether the alert reaches a responsible person, and whether the system can isolate the supply before a small event becomes a restoration project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49e49d6cb9e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "995d3e3f37d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian municipal systems lose an average of "
+        },
+        {
+          "_key": "6b9c027721b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "over 13% of treated water"
+        },
+        {
+          "_key": "08cbada3eeb1",
+          "_type": "span",
+          "marks": [],
+          "text": " between treatment and delivery because of leaks, bursts, and related losses, according to "
+        },
+        {
+          "_key": "1852e99e82cc",
+          "_type": "span",
+          "marks": [
+            "aa24b9b02516"
+          ],
+          "text": "Canadian research on AI-enabled water leak detection"
+        },
+        {
+          "_key": "3941674cd580",
+          "_type": "span",
+          "marks": [],
+          "text": ". That makes leak detection a measurable water-management issue, not a marginal maintenance feature. The same logic applies inside a building, where a concealed branch-line leak can continue through a vacant suite, mechanical room, or ceiling cavity."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "aa24b9b02516",
+          "_type": "link",
+          "href": "https://uwaterloo.ca/smart-infrastructure-research/news/ai-tech-could-help-cities-detect-expensive-water-leaks"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "40785adedec6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bc5b1f02978",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners comparing water protection with other building-risk decisions may also find "
+        },
+        {
+          "_key": "f387a5b166cc",
+          "_type": "span",
+          "marks": [
+            "270eae959e9b"
+          ],
+          "text": "2026 roof warranty coverage tips"
+        },
+        {
+          "_key": "d85c0e50b285",
+          "_type": "span",
+          "marks": [],
+          "text": " useful for understanding how prevention, exclusions, and response obligations affect total exposure. Leak detection deserves the same practical review. Hardware specifications matter, but pipe construction, sensor placement, alarm escalation, and automatic isolation matter more."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "270eae959e9b",
+          "_type": "link",
+          "href": "https://caroofpros.com/roof-home-warranty/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8abc5542e096",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b42d91224d46",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ec72c747256c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5e0bb089cc7",
+          "_type": "span",
+          "marks": [
+            "65f371871dcf"
+          ],
+          "text": "Does Leak Detection Work"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "65f371871dcf",
+          "_type": "link",
+          "href": "#does-leak-detection-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9d63b11e032f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ed4cec8afcf",
+          "_type": "span",
+          "marks": [
+            "03809022d67b"
+          ],
+          "text": "Start with the failure you need to catch"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "03809022d67b",
+          "_type": "link",
+          "href": "#start-with-the-failure-you-need-to-catch"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1eea039548ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2062be2c6d25",
+          "_type": "span",
+          "marks": [
+            "a2b49e13dbbf"
+          ],
+          "text": "How Leak Detection Sensors Find Water Loss"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a2b49e13dbbf",
+          "_type": "link",
+          "href": "#how-leak-detection-sensors-find-water-loss"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1121aa86bc0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c65b88c87f6f",
+          "_type": "span",
+          "marks": [
+            "633ca5e17c8c"
+          ],
+          "text": "Acoustic sensors"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "633ca5e17c8c",
+          "_type": "link",
+          "href": "#acoustic-sensors"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "24b3a7fa25ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f10b59db708",
+          "_type": "span",
+          "marks": [
+            "eca7911011f8"
+          ],
+          "text": "Flow-based systems"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eca7911011f8",
+          "_type": "link",
+          "href": "#flow-based-systems"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "13403b03e7f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "09ac6b4f4052",
+          "_type": "span",
+          "marks": [
+            "082750e8d01d"
+          ],
+          "text": "AI and multi-signal systems"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "082750e8d01d",
+          "_type": "link",
+          "href": "#ai-and-multi-signal-systems"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dcaede5eb3c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca883679f646",
+          "_type": "span",
+          "marks": [
+            "6f0347e8e115"
+          ],
+          "text": "Real-World Detection Rates in Canadian Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6f0347e8e115",
+          "_type": "link",
+          "href": "#real-world-detection-rates-in-canadian-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c94392700588",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3f90474f784",
+          "_type": "span",
+          "marks": [
+            "d02a5a651003"
+          ],
+          "text": "Field evidence is more useful than a sensitivity promise"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d02a5a651003",
+          "_type": "link",
+          "href": "#field-evidence-is-more-useful-than-a-sensitivity-promise"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7d1af166eca3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4016fefa891",
+          "_type": "span",
+          "marks": [
+            "1c83cf4faebd"
+          ],
+          "text": "Where Leak Detection Falls Short"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1c83cf4faebd",
+          "_type": "link",
+          "href": "#where-leak-detection-falls-short"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "13281e560d67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17bae54cfd6e",
+          "_type": "span",
+          "marks": [
+            "ece288f9cb25"
+          ],
+          "text": "Common failure conditions"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ece288f9cb25",
+          "_type": "link",
+          "href": "#common-failure-conditions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1a75ce502af9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcb99a4457f9",
+          "_type": "span",
+          "marks": [
+            "3b197e282693"
+          ],
+          "text": "Detection Alone Versus Detection With Automatic Shutoff"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3b197e282693",
+          "_type": "link",
+          "href": "#detection-alone-versus-detection-with-automatic-shutoff"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f5bf77f6e686",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "66399b01b168",
+          "_type": "span",
+          "marks": [
+            "0aba955221f4"
+          ],
+          "text": "Compare the two architectures"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0aba955221f4",
+          "_type": "link",
+          "href": "#compare-the-two-architectures"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac0b8f76cc28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3c2153a34b2",
+          "_type": "span",
+          "marks": [
+            "d9caebcc5a28"
+          ],
+          "text": "A Building Owner's Scenario With and Without Detection"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d9caebcc5a28",
+          "_type": "link",
+          "href": "#a-building-owners-scenario-with-and-without-detection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d602e591728e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "991d1aa85e2f",
+          "_type": "span",
+          "marks": [
+            "a185ed0a4c39"
+          ],
+          "text": "What Owners Should Weigh Before Installing"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a185ed0a4c39",
+          "_type": "link",
+          "href": "#what-owners-should-weigh-before-installing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f18db4f3d20b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bca01604720",
+          "_type": "span",
+          "marks": [
+            "e63a17718c35"
+          ],
+          "text": "Four decisions shape the result"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e63a17718c35",
+          "_type": "link",
+          "href": "#four-decisions-shape-the-result"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "77acaac8545a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13a746310b93",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92894b6e3d31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebd107619967",
+          "_type": "span",
+          "marks": [],
+          "text": "Does Leak Detection Work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "94b7b392f60e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88a7693f5a9d",
+          "_type": "span",
+          "marks": [],
+          "text": "The answer depends on the failure, the installation, and the response that follows an alert. "
+        },
+        {
+          "_key": "5274637dee29",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Detection generally works when the sensor matches the failure mode and sits where the relevant signal can reach it. Prevention requires a person, an automatic valve, or both to act on that alert."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94c16506ae85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4978bb5f76b",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning meetings often expose the difference. A property manager may receive an email about continuous flow at 2 a.m., while the building operator is off site and the isolation valve is manual. The system has identified the problem, but water is still running. In that arrangement, the owner has purchased information rather than full mitigation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "597d1a00569c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76176f649b73",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d0c918a16cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2101d6567bc",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the failure you need to catch"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "122a6d217e1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4462f5f3bd3b",
+          "_type": "span",
+          "marks": [],
+          "text": "A flow meter on the building main can identify continuous consumption that does not match the building's normal pattern. An acoustic device listens for pressurized water escaping from a buried or pressurized pipe. A puddle sensor under a sink responds when water reaches that location. It provides useful point protection, but it does not monitor every concealed path."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6039f40d340a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2258a204a9cf",
+          "_type": "span",
+          "marks": [],
+          "text": "Placement defines the area a sensor can observe. A main-line meter may detect a persistent branch leak without identifying the suite responsible, unless additional monitoring is installed. A mechanical-room sensor can detect water at floor level but may never register a leak inside a wall. A riser valve can isolate the affected supply only when its control logic, power, communications, and plumbing configuration have been tested together."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da0447014cf3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7f1ec229076",
+          "_type": "span",
+          "marks": [],
+          "text": "For an overview of components and installation considerations, review this "
+        },
+        {
+          "_key": "33a18742c4b5",
+          "_type": "span",
+          "marks": [
+            "dd9cb610c405"
+          ],
+          "text": "water leak detection system guide"
+        },
+        {
+          "_key": "ebf551ed8c4c",
+          "_type": "span",
+          "marks": [],
+          "text": ". A sound commissioning review follows the full operating chain:"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dd9cb610c405",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "30d22e33f69b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e3d00b8cfb1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sense:"
+        },
+        {
+          "_key": "9fe42226161c",
+          "_type": "span",
+          "marks": [],
+          "text": " Can the device identify the likely leak?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae618ccd532d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97d8c1ebf6b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Locate:"
+        },
+        {
+          "_key": "dc60c4f83870",
+          "_type": "span",
+          "marks": [],
+          "text": " Can staff determine the affected riser, room, or suite?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "445b5904bec7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68d8611517b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Escalate:"
+        },
+        {
+          "_key": "58e3297d339c",
+          "_type": "span",
+          "marks": [],
+          "text": " Does the alert reach someone who can act?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a0feaff09de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "425c428479a1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Isolate:"
+        },
+        {
+          "_key": "33dddb5bdc16",
+          "_type": "span",
+          "marks": [],
+          "text": " Can a tested valve close without creating a new operational problem?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43cfeda8a1cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3828a1c1086c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify:"
+        },
+        {
+          "_key": "53339884a31e",
+          "_type": "span",
+          "marks": [],
+          "text": " Can the team confirm that the leak stopped?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a4c7367ed8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37e60948ac16",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "549afe6a73bf",
+          "_type": "span",
+          "marks": [],
+          "text": " Treat a detection-only installation as an alarm system. Treat detection paired with automatic isolation as a water-loss control system."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "7ac018e1797e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b436116bc47c",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners comparing water protection with other building-risk decisions may also find "
+        },
+        {
+          "_key": "717c78b910d5",
+          "_type": "span",
+          "marks": [
+            "4a84e77cd35a"
+          ],
+          "text": "2026 roof warranty coverage tips"
+        },
+        {
+          "_key": "bd0cb4e6f5a5",
+          "_type": "span",
+          "marks": [],
+          "text": " useful when reviewing prevention, exclusions, and response obligations. Leak detection deserves the same practical review."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4a84e77cd35a",
+          "_type": "link",
+          "href": "https://caroofpros.com/roof-home-warranty/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "577b14cd4338",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a84d01b8a65f",
+          "_type": "span",
+          "marks": [],
+          "text": "The main performance variables are "
+        },
+        {
+          "_key": "66499ba32421",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "pipe material, sensor placement, and shutoff integration"
+        },
+        {
+          "_key": "af486ed67aab",
+          "_type": "span",
+          "marks": [],
+          "text": ". Canadian National Research Council guidance indicates that acoustic listening surveys are mainly suitable for small-diameter metallic pipes. They can perform poorly on non-metallic or large-diameter pipes, especially when background noise masks the signal. That limitation belongs in the design review before anyone compares sensitivity figures on a product sheet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c922559a4466",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18956e49a695",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f77e086ad056",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6f7700a2abf",
+          "_type": "span",
+          "marks": [],
+          "text": "How Leak Detection Sensors Find Water Loss"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e581f076106f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a77eb1bde247",
+          "_type": "span",
+          "marks": [],
+          "text": "The sensor family determines what a system can catch. Owners need to know what each device measures, where it should be installed, and which building conditions can distort its reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "023f8b613ba9",
+      "_type": "externalImage",
+      "alt": "An infographic showing three methods to detect water leaks using acoustic, flow, and temperature sensors.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3c2f0bc2-6901-4022-9735-ed865335f45d/does-leak-detection-work-leak-sensors.jpg"
+    },
+    {
+      "_key": "e026ea6b9417",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08bd4413b7aa",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37a44944a2b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d17050d65bd2",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic sensors"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "22e35865ade7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f870a013993",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic sensors detect the sound and vibration produced when pressurized water escapes through a defect. They do not see water directly. Instead, they assess sound travelling through the pipe or nearby structure, much like a stethoscope applied to accessible pipework."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7a5e09f44f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9278ca39d4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Technicians commonly mount them on hydrants, valves, exposed pipes, or other contact points. Small-diameter metallic pipe usually gives these sensors a clear path because metal transmits the relevant vibration effectively. Insulation, plastic pipe, long distances, and mechanical noise can dampen or mask the signal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e0f04bbb033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d5ccc751aec",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic systems perform best when the pipe network is documented and the sensor has a reliable contact path. Mixed materials and inaccessible branches reduce confidence, even when the hardware itself is sensitive."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18d615eae1fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfa7147ab0c1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "602008b62096",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bee25e0eab62",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow-based systems"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "702a823192dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1aabe001b0b7",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow meters measure water moving through a pipe and compare current activity with an expected operating pattern. Flow monitoring identifies abnormal usage in much the same way fraud alerts flag unusual spending patterns."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9fc389a24802",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "221cff1f7b65",
+          "_type": "span",
+          "marks": [],
+          "text": "Installers may place meters on a building main, riser, suite supply, or dedicated branch. Continuous flow during an expected idle period can reveal losses in vacant suites, common mechanical equipment, and concealed plumbing. This approach measures consumption at the monitored point, so it can detect a problem without hearing the leak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e55fde888ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7cccf503211c",
+          "_type": "span",
+          "marks": [],
+          "text": "The trade-off is attribution. A building main meter may recognise abnormal demand without identifying the fixture or suite responsible. Irrigation, cooling-tower make-up, recirculation, and other legitimate uses can also make the baseline difficult to define. Good commissioning therefore requires a clear operating schedule and a response process, not only a meter reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5327c9f82ae9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0efacdf679ed",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43d256832185",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b36bc561e2b9",
+          "_type": "span",
+          "marks": [],
+          "text": "AI and multi-signal systems"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "09b88d4b3b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63b6b6f955fb",
+          "_type": "span",
+          "marks": [],
+          "text": "AI-enabled systems combine inputs such as flow, pressure, acoustic information, and time-of-use patterns. The software learns expected morning demand, evening showers, and mechanical cycles, then flags behaviour outside those patterns. That improves interpretation, but it does not expand sensor coverage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8bb8eae57fa5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18744c5757b4",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian research reported that hydrant sensors reliably detected leaks as small as "
+        },
+        {
+          "_key": "feee5b3aa1e5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "17 litres per minute in laboratory testing"
+        },
+        {
+          "_key": "ccb3bef42a3f",
+          "_type": "span",
+          "marks": [],
+          "text": ". Recent academic work has also reported model correlation coefficients around "
+        },
+        {
+          "_key": "032a1605bd1c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.91 on training and testing data"
+        },
+        {
+          "_key": "545fad925c84",
+          "_type": "span",
+          "marks": [],
+          "text": ", although those findings reflect laboratory or pilot conditions rather than universal building performance. This "
+        },
+        {
+          "_key": "a420e49bedb4",
+          "_type": "span",
+          "marks": [
+            "6e3102db17c9"
+          ],
+          "text": "water alarm sensor overview"
+        },
+        {
+          "_key": "7f2c1d3282f2",
+          "_type": "span",
+          "marks": [],
+          "text": " gives owners practical context on sensor placement and alerting, instead of focusing only on alarm volume."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6e3102db17c9",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-alarm-sensor"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "38dcb61f9a15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cef568b53b3",
+          "_type": "span",
+          "marks": [],
+          "text": "AI cannot correct poor installation. A badly placed sensor receives weak information, and an unmonitored plastic branch remains outside the system's view. Automatic shutoff is a separate capability. Detection can identify abnormal water loss, while isolation requires a tested valve, suitable controls, and a verified response sequence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9f0703e78b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f95ca156df5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6af0e6bc023",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d55012bbf89",
+          "_type": "span",
+          "marks": [],
+          "text": "Real-World Detection Rates in Canadian Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bd145d571656",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb52178aae94",
+          "_type": "span",
+          "marks": [],
+          "text": "Manufacturer sensitivity ratings answer a narrow question: how small a signal a device can recognise under stated conditions. Building owners need a more practical answer: "
+        },
+        {
+          "_key": "f175d6d107ef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "what loss can this installation find in this network, with this pipe material, this background noise, and this response team?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab8d4686eea2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36f5780ea4b7",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian evidence is strongest when it comes from municipal pilots and operating distribution systems. Municipal suppliers lose roughly "
+        },
+        {
+          "_key": "f918b2bc8cc8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "13.3% of water withdrawn before it reaches end users"
+        },
+        {
+          "_key": "08a74fa1e23d",
+          "_type": "span",
+          "marks": [],
+          "text": ", while Ontario city data cited in Canadian research show losses ranging from "
+        },
+        {
+          "_key": "5fbb03b3391e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3.2% to 30%"
+        },
+        {
+          "_key": "5a6c35ce4332",
+          "_type": "span",
+          "marks": [],
+          "text": ". That range prevents owners from transferring one “catch rate” to every building or utility. Asset condition, pressure, monitoring coverage, and repair speed all affect the result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b288d74058c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff7b1f490bdf",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario field work provides a useful reality check. A tested municipality could recover about "
+        },
+        {
+          "_key": "30c2154dd644",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139,000 cubic metres of treated water annually"
+        },
+        {
+          "_key": "6e8fed1ffcba",
+          "_type": "span",
+          "marks": [],
+          "text": " and avoid approximately "
+        },
+        {
+          "_key": "1809995058a0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 426,000 per year"
+        },
+        {
+          "_key": "c71d05c18b5c",
+          "_type": "span",
+          "marks": [],
+          "text": " in water and wastewater charges after leakage-reduction measures were applied, as reported by the University of Waterloo. In a separate Waterloo Region pilot, "
+        },
+        {
+          "_key": "cad504d26174",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10 hydrant.AI units"
+        },
+        {
+          "_key": "4ca828aa2a8d",
+          "_type": "span",
+          "marks": [],
+          "text": " monitored the network for six months. One detected leak represented "
+        },
+        {
+          "_key": "1917c50c2e49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3,838,000 litres"
+        },
+        {
+          "_key": "9baa41396f95",
+          "_type": "span",
+          "marks": [],
+          "text": " of non-revenue water and about "
+        },
+        {
+          "_key": "4575e8fcc87a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 11,080"
+        },
+        {
+          "_key": "de058039ddff",
+          "_type": "span",
+          "marks": [],
+          "text": " if it ran from November 15 to January 17. Continued operation would have added approximately "
+        },
+        {
+          "_key": "10d36872f039",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 2,518 per month"
+        },
+        {
+          "_key": "951e12713c09",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8df5e1871468",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c79b2a1b6a4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f1c7aa6a88cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "723b1f1e7ef3",
+          "_type": "span",
+          "marks": [],
+          "text": "Field evidence is more useful than a sensitivity promise"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "44125ac3bbaa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c9923b58980",
+          "_type": "span",
+          "marks": [],
+          "text": "The available Canadian sources do not establish a universal percentage of catastrophic building events intercepted by acoustic or flow systems. They also do not support the proposed "
+        },
+        {
+          "_key": "eb0248e6d090",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.005 L/min laboratory threshold"
+        },
+        {
+          "_key": "38ff0037e02f",
+          "_type": "span",
+          "marks": [],
+          "text": ", or a consistent field multiplier of ten to fifty times that figure. Treating those values as normal building performance would overstate the evidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4494d57aebc0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f80b1b875464",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensor Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb6b1acb16c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c082855a6e07",
+          "_type": "span",
+          "marks": [],
+          "text": "Lab Sensitivity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d82d95113f93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eff0763cfdd1",
+          "_type": "span",
+          "marks": [],
+          "text": "Field Catch Rate"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2fc23681cbf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1868b257c47d",
+          "_type": "span",
+          "marks": [],
+          "text": "Best Pipe Material"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3d99e787981",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5eedb22c8a13",
+          "_type": "span",
+          "marks": [],
+          "text": "Weakest Pipe Material"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f6cd443256fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da3437fa7dcb",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5dcf3e4dd23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76f3827bee37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "17 L/min reported in Ontario laboratory testing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0019a0b49f7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21385eab1a96",
+          "_type": "span",
+          "marks": [],
+          "text": "No universal Canadian rate established"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6cb47363d54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb0680d4cfa9",
+          "_type": "span",
+          "marks": [],
+          "text": "Small-diameter metallic pipe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a918d72c3837",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f1cf89b76e3",
+          "_type": "span",
+          "marks": [],
+          "text": "Non-metallic and large-diameter pipe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2a2247001a1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6944f31a4ecd",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow-based"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbcec22068f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f84c511e7c0f",
+          "_type": "span",
+          "marks": [],
+          "text": "Building-specific baseline required"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46ffa469f19a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52205d7fa5dc",
+          "_type": "span",
+          "marks": [],
+          "text": "No universal Canadian rate established"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81f5490ee423",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a28fc5c98609",
+          "_type": "span",
+          "marks": [],
+          "text": "Metered mains and risers"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d793174bfcc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4ad7b4e41bc",
+          "_type": "span",
+          "marks": [],
+          "text": "Networks with continuous legitimate demand"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b230c16646b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "837b1c048923",
+          "_type": "span",
+          "marks": [],
+          "text": "AI and multi-signal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "afc3822d47ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a4e47c3537d0",
+          "_type": "span",
+          "marks": [],
+          "text": "Pilot and laboratory results reported"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "839424631573",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f775e2c62eed",
+          "_type": "span",
+          "marks": [],
+          "text": "No universal Canadian rate established"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e19c979d580d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0c51a167c06",
+          "_type": "span",
+          "marks": [],
+          "text": "Networks with usable flow, pressure, or acoustic data"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a8a179ece40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1aa41e40838c",
+          "_type": "span",
+          "marks": [],
+          "text": "Poorly instrumented mixed-material systems"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "381ac6f895b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8623851a808",
+          "_type": "span",
+          "marks": [],
+          "text": "AI-enabled systems learn that morning demand, evening showers, and mechanical cycles are expected, then flag behaviour that deviates from that pattern. They can improve interpretation of available flow, pressure, or acoustic data, but they do not extend sensor coverage into unmonitored branches."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2989eb271e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8110f6dc4968",
+          "_type": "span",
+          "marks": [],
+          "text": "Montreal research offers another operational measure. Expanding acoustic noise-logger coverage was reported to reduce leak repair time by about "
+        },
+        {
+          "_key": "c34795ed5a91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40%"
+        },
+        {
+          "_key": "833eaedbc77d",
+          "_type": "span",
+          "marks": [],
+          "text": ", reduce annual water-loss value from "
+        },
+        {
+          "_key": "72b9161d4a86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 1.25 million to CAD 600,000"
+        },
+        {
+          "_key": "f9797bb2e9ac",
+          "_type": "span",
+          "marks": [],
+          "text": ", and generate approximately "
+        },
+        {
+          "_key": "cce4c335dc79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 625,000 in annual savings"
+        },
+        {
+          "_key": "216c321f9c98",
+          "_type": "span",
+          "marks": [],
+          "text": " over a "
+        },
+        {
+          "_key": "cca33734bc8a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20-year planning horizon"
+        },
+        {
+          "_key": "3abe0f870ea3",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the "
+        },
+        {
+          "_key": "360137564621",
+          "_type": "span",
+          "marks": [
+            "275862794108"
+          ],
+          "text": "International Water Association case discussion"
+        },
+        {
+          "_key": "a82f870be64c",
+          "_type": "span",
+          "marks": [],
+          "text": ". The result supports earlier discovery and faster repair, not a promise that every hidden leak will be captured."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "275862794108",
+          "_type": "link",
+          "href": "https://digitalwater.solutions/combating-leaks-with-innovative-monitoring/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "39e50e80d660",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5608f5c9e876",
+          "_type": "span",
+          "marks": [],
+          "text": "Guelph's 2025 progress report identified "
+        },
+        {
+          "_key": "19a2a1b70c5e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "41 possible leaks"
+        },
+        {
+          "_key": "a3852ee56d7d",
+          "_type": "span",
+          "marks": [],
+          "text": ", confirmed and repaired "
+        },
+        {
+          "_key": "dca71c2be153",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "31"
+        },
+        {
+          "_key": "0fbbc8961474",
+          "_type": "span",
+          "marks": [],
+          "text": ", and reclaimed about "
+        },
+        {
+          "_key": "0650da9ab0d5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "164.8 cubic metres of daily capacity"
+        },
+        {
+          "_key": "6be054f161e1",
+          "_type": "span",
+          "marks": [],
+          "text": ". Detection can therefore produce material results, but owners should require a site-specific commissioning test rather than accept a generic catch-rate guarantee. Detection and automatic shutoff should also be evaluated separately, since finding abnormal use does not by itself isolate the affected line."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f07c5bdf0477",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dea2424b6ac4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a6e677325ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3f9adf97975",
+          "_type": "span",
+          "marks": [],
+          "text": "Where Leak Detection Falls Short"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8e9f5a5e4c85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91a77389e84e",
+          "_type": "span",
+          "marks": [],
+          "text": "Every sensor has a signal-transmission limit, and understanding those boundaries prevents overconfidence in one technology."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b7f2a1ee169",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84b9f831e610",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic listening illustrates the constraint clearly. Canadian National Research Council guidance says these surveys are mainly suitable for "
+        },
+        {
+          "_key": "50fe48d92b79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "small-diameter metallic pipes"
+        },
+        {
+          "_key": "ddf3e31157eb",
+          "_type": "span",
+          "marks": [],
+          "text": ". They can be generally ineffective on non-metallic and large-diameter pipes, while water softeners and other noise sources may obscure the result. In a multi-family building, insulation, suspended ceilings, fittings, and limited access can interrupt the path between copper risers and the sensor."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d9a07734389",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d853ff0d29d9",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow systems face a different limitation: normal consumption can conceal abnormal use. Irrigation, cooling equipment, recirculation, or a fixture that never fully closes may create a steady baseline. A slow leak can remain inside that pattern. PEX and PVC service lines may also provide less useful acoustic transmission, so one listening method across a mixed-material property leaves unmonitored conditions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86a1c762e413",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "73180a9b8e50",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f04976455570",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc9f78b61a2e",
+          "_type": "span",
+          "marks": [],
+          "text": "Common failure conditions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "29800e4e4c64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0ff1e01e60c",
+          "_type": "span",
+          "marks": [],
+          "text": "Pipe / Building Condition"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "28449257caca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e690571ffd07",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic Sensor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "335d918d1d2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8ce3a3f1566",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow-Based Meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b14aaa728222",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff69f0f50145",
+          "_type": "span",
+          "marks": [],
+          "text": "Puddle Probe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f570b27e5fa0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c5bdc31c8b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Small-diameter metallic pipe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5fd24264e84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7b52c6bc104",
+          "_type": "span",
+          "marks": [],
+          "text": "Often suitable when access and signal are clear"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c808f15fc60f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2160e6f6121",
+          "_type": "span",
+          "marks": [],
+          "text": "Can identify persistent flow if metered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "af05e69239b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "923e869d80dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Only responds after water reaches the probe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9fb2fd48191a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94c709c0c531",
+          "_type": "span",
+          "marks": [],
+          "text": "PEX or PVC service lines"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70e7ba6b9637",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35df16bb9d95",
+          "_type": "span",
+          "marks": [],
+          "text": "May provide a weak or unreliable signal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1680bd74417c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb25931693ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Can work when the leak changes the monitored baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7f830430546",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96c166a274f2",
+          "_type": "span",
+          "marks": [],
+          "text": "Detects local water, not remote loss"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e1b1e7a25b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3b81b21ee0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Large-diameter distribution pipe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "745f1bd11168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4d7334b4eb9",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian guidance identifies general limitations"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46642259d968",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7169d457879c",
+          "_type": "span",
+          "marks": [],
+          "text": "Useful at monitored boundaries"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "533975d41d66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4294a6e18566",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually irrelevant unless water reaches the floor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ee5413ed58b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5970479efb2",
+          "_type": "span",
+          "marks": [],
+          "text": "Insulated riser or suspended ceiling"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba49628131a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f489bb37f1c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Vibration may be damped or inaccessible"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "984d823dc466",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17ca4dccbc50",
+          "_type": "span",
+          "marks": [],
+          "text": "May show aggregate demand"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "877744668689",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a9bb5d62cf3",
+          "_type": "span",
+          "marks": [],
+          "text": "Can miss water trapped above the ceiling"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73efeef1e07a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea348d2d8dff",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical-room background noise"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56f502b15c97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb320c835d35",
+          "_type": "span",
+          "marks": [],
+          "text": "False alarms or uncertain readings are possible"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a7e78f66edda",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67f2a0d1493e",
+          "_type": "span",
+          "marks": [],
+          "text": "Legitimate equipment cycles complicate baselines"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbce0b31ee63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c52f6f03d94",
+          "_type": "span",
+          "marks": [],
+          "text": "Can be reliable for floor-level water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d025278ab751",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c27307a89991",
+          "_type": "span",
+          "marks": [],
+          "text": "Vacant suite with concealed plumbing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41ef149ca1d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70a44d006b04",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on pipe path and sensor location"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07f3ac445bd3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0acdd8df5e22",
+          "_type": "span",
+          "marks": [],
+          "text": "Stronger if the suite or riser is separately monitored"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c80d50cdd06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a35424a2e3f0",
+          "_type": "span",
+          "marks": [],
+          "text": "Fails until water reaches the sensor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f6faf8f90d83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "825ef7ddf858",
+          "_type": "span",
+          "marks": [],
+          "text": "Puddle probes require deliberate placement. Under a dishwasher, washing machine, or water heater, they can respond quickly to a visible floor-level release. They may miss a pinhole spraying onto a vapour barrier above a drywall ceiling, and they cannot identify which upstream valve staff should close."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ecfd5bd7fee9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2949256525d",
+          "_type": "span",
+          "marks": [],
+          "text": "False positives create a quieter failure. Thermal expansion, elevator sump pumps, tenant flushing, and equipment cycling can repeatedly trigger alerts. Once staff learn that alarms are usually noise, urgent events receive slower attention. Owners reviewing "
+        },
+        {
+          "_key": "35fa5ffac4c7",
+          "_type": "span",
+          "marks": [
+            "2a080e5702fe"
+          ],
+          "text": "public adjuster for water damage claims"
+        },
+        {
+          "_key": "6d63abbe305e",
+          "_type": "span",
+          "marks": [],
+          "text": " should also document response procedures and inspection records after an event. A sensor supports maintenance and incident handling, but it does not replace either one."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2a080e5702fe",
+          "_type": "link",
+          "href": "https://forthepublicadjusters.com/blog/does-homeowners-insurance-cover-water-leaks/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dbb53ea7497a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b1d1e498385",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82fb016ebaef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0276edd27e1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection Alone Versus Detection With Automatic Shutoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ee935d7093f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1716ebdf33f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection-only systems identify abnormal water use or moisture and notify someone. Water continues flowing until staff reach the valve, gain access, and close it. That arrangement can suit a staffed facility with a tested response process, but an empty suite or overnight event remains exposed to the time required for acknowledgement, travel, access, and isolation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "107b0ebbd797",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0eb6311919bb",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection with automatic shutoff adds a motorised valve to that response path. Once the system confirms a defined condition, it can send an alert and close the relevant supply without waiting for a caretaker. The valve still requires correct sizing, power, communications, manual override, and regular testing. Automation cannot compensate for a poorly selected valve, incorrect installation, or badly configured control logic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cba997de6e3",
+      "_type": "externalImage",
+      "alt": "A comparison graphic showing how leak detection systems differ from systems with automated water shutoff functionality.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4f071449-791a-4a30-bcca-c4ccf4af2609/does-leak-detection-work-water-shutoff.jpg"
+    },
+    {
+      "_key": "0229b81ff1ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c1667307854",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc09fa49fe22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32f4d8c7f8ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare the two architectures"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "73e01b30f2ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1e81ea4a3eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Capability"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c2f816f9b97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ceda531ecfae",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection only"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71f8c10645fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf5cccb00a9d",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection plus automatic shutoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2474bfef6876",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "afcc935f98c1",
+          "_type": "span",
+          "marks": [],
+          "text": "Identifies abnormal water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ed20c8228acb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "670a7b7995fd",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, if the signal is within sensor limits"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "124726fd6f21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0fb0d43fdd36",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "af08aa1cec36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99c6a5ce4c3a",
+          "_type": "span",
+          "marks": [],
+          "text": "Sends an alert"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e308157ec1e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc55577c71e8",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c0015c0f4bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5edff7c0390d",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47fddbd8a7fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b373b36b63bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Stops water without staff"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ec7e81bf760",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b228a94029ff",
+          "_type": "span",
+          "marks": [],
+          "text": "No"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3037d23cf852",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cadaf9d80e8d",
+          "_type": "span",
+          "marks": [],
+          "text": "Yes, when the valve and logic operate correctly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d642c1981d3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f5264cfcca7",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on after-hours response"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa3b91a0e1b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c64c67724ba2",
+          "_type": "span",
+          "marks": [],
+          "text": "Heavily"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3bb9943e13c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c8dc294fcbc",
+          "_type": "span",
+          "marks": [],
+          "text": "Less heavily"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "314a26cdaa60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a725d204e756",
+          "_type": "span",
+          "marks": [],
+          "text": "Main commissioning risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b2f5c05467f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea73585ee19c",
+          "_type": "span",
+          "marks": [],
+          "text": "Alert fatigue or missed escalation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "31d9ad78d38d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23fd132dd7be",
+          "_type": "span",
+          "marks": [],
+          "text": "Incorrect isolation, valve failure, or nuisance closure"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "666179cc755a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17fd4c502ae1",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian insurance-industry reporting on PREVCAN described a sample of "
+        },
+        {
+          "_key": "2ffe01b0c305",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5,000 residences"
+        },
+        {
+          "_key": "786db334c6e7",
+          "_type": "span",
+          "marks": [],
+          "text": " with "
+        },
+        {
+          "_key": "de9810d2d3b4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "28,137 detectors"
+        },
+        {
+          "_key": "457907b47c52",
+          "_type": "span",
+          "marks": [],
+          "text": " installed and "
+        },
+        {
+          "_key": "e71ad0a88aeb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7,740 leaks reported"
+        },
+        {
+          "_key": "ad6f5140bba8",
+          "_type": "span",
+          "marks": [],
+          "text": ". The report noted that no insurance claims were filed after installation, while also stressing that detectors alone are not enough without a preventative shutoff response. The evidence supports a practical distinction between notification and mitigation. It does not establish the same claim outcome for every building type."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c393d0e1c1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1159b30a0f8d",
+          "_type": "span",
+          "marks": [],
+          "text": "The financial logic is direct. Notification can shorten discovery time, document an event, and help staff mobilise. Automatic shutoff can reduce the volume released before anyone enters the building. For multi-family and mixed-use properties, the stronger design combines both: human review for escalation and automatic isolation for defined high-risk conditions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3fa4ce4b188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b5a751f8bff8",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners selecting components can use this "
+        },
+        {
+          "_key": "6b133cf5b45b",
+          "_type": "span",
+          "marks": [
+            "1b275e9f1434"
+          ],
+          "text": "leak detection equipment guide for water lines"
+        },
+        {
+          "_key": "ccfb148e8286",
+          "_type": "span",
+          "marks": [],
+          "text": " as a starting point. Specify the valve, trigger conditions, reset process, and communications sequence alongside the sensors. Treating shutoff as an accessory often leaves the response design incomplete."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1b275e9f1434",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/leak-detection-equipment-for-water-lines"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b16fdf343d4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "445b6c4d19c4",
+          "_type": "span",
+          "marks": [],
+          "text": "A detection-only system tells you that damage may be happening. A shutoff system can change how much damage happens."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "d40041740577",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e6014af2cde",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b2631e40560",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfd939863fcf",
+          "_type": "span",
+          "marks": [],
+          "text": "A Building Owner's Scenario With and Without Detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f99cf1a09cec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e2ef69db3f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Consider a representative mid-rise with "
+        },
+        {
+          "_key": "66598493578a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "96 suites"
+        },
+        {
+          "_key": "6c255cfd0b0d",
+          "_type": "span",
+          "marks": [],
+          "text": ", a 2003 construction date, copper risers, and PEX branch lines. A slow leak begins behind a third-floor tub surround during a long weekend. The suite stays empty for four days."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8fd5911417a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90bd5a276521",
+          "_type": "span",
+          "marks": [],
+          "text": "Without monitoring, the leak travels through the corridor and adjacent ceiling assemblies. Water reaches six ceilings, triggers two elevator pit alarms, and forces the relocation of eight residents. Remediation reaches "
+        },
+        {
+          "_key": "0e540080de82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 148,000"
+        },
+        {
+          "_key": "a4e7c20a1d45",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the insurance deductible alone exceeds the annual monitoring subscription."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b722311f7e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9ca65a53f21",
+          "_type": "span",
+          "marks": [],
+          "text": "That scenario illustrates the exposure owners worry about, but it isn't a verified case study from the Canadian evidence supplied for this article. It should be used as a planning example, not as a promised outcome. Actual losses depend on leak location, pressure, floor construction, occupancy, access, and the speed of remediation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5bad800c3e2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "962e6b0592e5",
+          "_type": "span",
+          "marks": [],
+          "text": "Now change the response architecture. A flow-based meter on the building main identifies abnormal continuous demand, and an automatic shutoff valve isolates the riser. The alert pages the on-site superintendent, who confirms the condition and arranges a plumber's visit the next morning. The repair involves a "
+        },
+        {
+          "_key": "25e3938f1ba9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 14 cartridge"
+        },
+        {
+          "_key": "e065a16ce6cc",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the contained remediation totals "
+        },
+        {
+          "_key": "74191b142bc9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 1,200"
+        },
+        {
+          "_key": "e4ff7f9bd8b2",
+          "_type": "span",
+          "marks": [],
+          "text": " in this illustrative scenario."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f441b91d29bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2bed3b84f686",
+          "_type": "span",
+          "marks": [],
+          "text": "The technology didn't change. The decisive changes were the monitored boundary, the abnormal-flow rule, the valve, and the escalation path. A main meter may not identify the exact fixture, so the owner still needs access procedures and a plan for narrowing the search. The value comes from connecting detection to a response that limits water movement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6ef2e990953",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6f243632ce2",
+          "_type": "span",
+          "marks": [],
+          "text": "A strong commissioning process would test normal occupancy, overnight demand, mechanical cycles, valve closure, manual override, alarm delivery, and restoration after isolation. It would also document which branches remain outside the monitored zone. A sensor plan that ignores those boundaries can create false confidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "353c6c116b7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5721bde8ca46",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical gap is between "
+        },
+        {
+          "_key": "144bfb74f4d7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "being told about a leak"
+        },
+        {
+          "_key": "977230bfe7bb",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "a95b24fe5c35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "containing the release"
+        },
+        {
+          "_key": "1be92950495f",
+          "_type": "span",
+          "marks": [],
+          "text": ". The first may support faster intervention. The second can materially reduce the area and materials exposed to water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f91171f877a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf721a197245",
+          "_type": "span",
+          "marks": [],
+          "text": "The following video provides a visual explanation of how connected detection and shutoff concepts are commonly presented to property teams."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b748178c8254",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7beaec93722",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c6ee534675a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55aff3c2da11",
+          "_type": "span",
+          "marks": [],
+          "text": "What Owners Should Weigh Before Installing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a96ab19ca563",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad52479caa4e",
+          "_type": "span",
+          "marks": [],
+          "text": "The purchase decision starts with the building, not the sensor catalogue. Before approving a proposal, require the vendor and commissioning team to document pipe materials, monitored boundaries, normal water demand, access points, valve locations, and after-hours responsibility. These details determine whether the system can identify a meaningful event and support a timely response."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94a99d188a07",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d2da8b739e9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2aada70ee5a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63744102815b",
+          "_type": "span",
+          "marks": [],
+          "text": "Four decisions shape the result"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4f8d8ac9b70e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "791ec18585ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pipe compatibility comes first."
+        },
+        {
+          "_key": "6f3f03fffdf0",
+          "_type": "span",
+          "marks": [],
+          "text": " Acoustic equipment can suit accessible small-diameter metallic pipe. Flow monitoring may work better on a main or riser serving mixed PEX and copper. Canadian guidance notes that acoustic surveys can underperform on non-metallic and large-diameter systems. The vendor should explain how those sections will be covered instead of applying one sensor type throughout the property."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "821c225f2e21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f83b3e1690b1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define the response path before installation."
+        },
+        {
+          "_key": "8f717f0a81df",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm who receives an alert, who acknowledges it, who can enter the suite, and which valve closes. If the system connects to a building management system, test both the alarm point and control command under live conditions. A notification sent to an unattended inbox does not contain water."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f915a8905f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "454913e16bd2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Evaluate the avoided-loss logic."
+        },
+        {
+          "_key": "312675db3acc",
+          "_type": "span",
+          "marks": [],
+          "text": " Canadian field results show the possible scale, but they do not set the payback for every apartment building. One Ontario municipality could recover about "
+        },
+        {
+          "_key": "635e56d11449",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139,000 cubic metres annually"
+        },
+        {
+          "_key": "fddc847c543f",
+          "_type": "span",
+          "marks": [],
+          "text": " and avoid roughly "
+        },
+        {
+          "_key": "b9a5a5f7217e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 426,000 per year"
+        },
+        {
+          "_key": "22be1501c4b8",
+          "_type": "span",
+          "marks": [],
+          "text": " after leakage reduction measures, according to the "
+        },
+        {
+          "_key": "06480fa63387",
+          "_type": "span",
+          "marks": [
+            "aa20feb8ccc5"
+          ],
+          "text": "University of Waterloo field research"
+        },
+        {
+          "_key": "96cfdd6cfb54",
+          "_type": "span",
+          "marks": [],
+          "text": ". Cambridge's municipal example reported physical water loss of "
+        },
+        {
+          "_key": "6d76da789068",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "21.7%"
+        },
+        {
+          "_key": "9b01946bdbef",
+          "_type": "span",
+          "marks": [],
+          "text": ", with a preventive programme targeting "
+        },
+        {
+          "_key": "7c0a531a6521",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "14%"
+        },
+        {
+          "_key": "2dfa9cd8f950",
+          "_type": "span",
+          "marks": [],
+          "text": " and reported savings of "
+        },
+        {
+          "_key": "4a4f20e10bb2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5,500 litres per minute"
+        },
+        {
+          "_key": "4372cd2c0425",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the "
+        },
+        {
+          "_key": "553bb8aaa0bd",
+          "_type": "span",
+          "marks": [
+            "63df16343cd6"
+          ],
+          "text": "Federation of Canadian Municipalities water-loss guide"
+        },
+        {
+          "_key": "4d70145b8b6c",
+          "_type": "span",
+          "marks": [],
+          "text": ". Use those figures to frame the opportunity, then calculate payback from the property's water rates, incident history, monitored area, installation cost, and response capability."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "aa20feb8ccc5",
+          "_type": "link",
+          "href": "https://uwaterloo.ca/smart-infrastructure-research/news/ai-tech-could-help-cities-detect-expensive-water-leaks"
+        },
+        {
+          "_key": "63df16343cd6",
+          "_type": "link",
+          "href": "https://fcm.ca/sites/default/files/documents/resources/guide/infraguide-water-use-loss-water-distribution-system-mamp.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7ceed35688e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94d46db447a7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget for maintenance."
+        },
+        {
+          "_key": "4e31a45b23c4",
+          "_type": "span",
+          "marks": [],
+          "text": " Plan for communication checks, battery or power reviews, alarm testing, valve exercising, and baseline validation after plumbing or occupancy changes. AI models require clean, representative data. New cooling equipment, revised irrigation schedules, or changed suite metering can alter normal demand and require threshold review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a4f33d1db591",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea71f807b9ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Factor to Weigh"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7894a7e91c3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44ccec376d78",
+          "_type": "span",
+          "marks": [],
+          "text": "Pipe Material / Building Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48e9b0b6e822",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12efc9fb619c",
+          "_type": "span",
+          "marks": [],
+          "text": "Recommended Sensor Class"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7eba51a78f87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "846ef229b6f9",
+          "_type": "span",
+          "marks": [],
+          "text": "ROI Impact"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "907b420e5386",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "202d504a5f38",
+          "_type": "span",
+          "marks": [],
+          "text": "Signal transmission"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "11173cd0f6f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16b09b5a6e51",
+          "_type": "span",
+          "marks": [],
+          "text": "Small metallic pipe with accessible valves"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cca4bdbd727",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3c1c780dc2d",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic, potentially paired with flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "817428fd24c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9ec26ae2e1e",
+          "_type": "span",
+          "marks": [],
+          "text": "Earlier discovery where the signal path is clear"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "22791acd7f79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15b203f95119",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed materials"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d296f193f1ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae7fe6a33f25",
+          "_type": "span",
+          "marks": [],
+          "text": "Copper risers with PEX or PVC branches"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc8cc95a723d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d872c040597d",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow-based coverage with targeted point sensors"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f009a9977f96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92b10c264ed0",
+          "_type": "span",
+          "marks": [],
+          "text": "Broader coverage than acoustic-only deployment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6362da42be25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "958c61eaf599",
+          "_type": "span",
+          "marks": [],
+          "text": "High background noise"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4d790cecf9c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b0d3ff6ec1bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical rooms and mixed-use sites"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca4b699bedc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ec95247ad08",
+          "_type": "span",
+          "marks": [],
+          "text": "AI or multi-signal monitoring"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f990bbd22078",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "66a221c112d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Fewer avoidable escalations when baselines are well trained"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d07e669dc3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61eb328032ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Vacant or high-risk suites"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f7a15cb729d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcbabdb79abf",
+          "_type": "span",
+          "marks": [],
+          "text": "Condominiums, rentals, student housing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd1f3b5f3f11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35a02a70faf0",
+          "_type": "span",
+          "marks": [],
+          "text": "Point sensors plus automatic shutoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9f92f3030e86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0834e6723b3d",
+          "_type": "span",
+          "marks": [],
+          "text": "Limits release when staff response may be delayed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0ca048046a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99a0ef2fcac0",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility-scale distribution"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5f02bfe7b59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e63f1e0b38a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Buried mains and hydrant networks"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4727407a176e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "899797cb2e7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Acoustic loggers or hydrant sensors"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df2cfa31a377",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb509873d4b4",
+          "_type": "span",
+          "marks": [],
+          "text": "Reduced non-revenue water and faster repair"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6791d4c9b283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99f43578b9a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Integrated submetering project"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d6b10b8eace",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c6b90602c3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Multi-family and mixed-use properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "565aa3243c1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac17df168e05",
+          "_type": "span",
+          "marks": [],
+          "text": "Metering with leak and flood detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb73aa655b02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1688d8193e68",
+          "_type": "span",
+          "marks": [],
+          "text": "Combines consumption visibility with water-event alerts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ad09f0bd88f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb5bd27d02e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides utility submetering for multi-family, condominium, mixed-use, and commercial properties, including water metering and leak and flood detection in its installations. Owners can review "
+        },
+        {
+          "_key": "9b5d6acd081f",
+          "_type": "span",
+          "marks": [
+            "f4c44ea69e0f"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "101d9a618939",
+          "_type": "span",
+          "marks": [],
+          "text": " when assessing a turnkey approach that combines consumption monitoring, project coordination, and ongoing service."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f4c44ea69e0f",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8640d5bb3043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd25e518f41d",
+          "_type": "span",
+          "marks": [],
+          "text": "Positive ROI depends on matching the sensor class to the pipe stock, defining the monitored area around actual risk, and connecting detection to the correct valve. Treat vendor sensitivity claims cautiously when site conditions differ from the test environment. Require a documented live test before accepting the system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abc342117c32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60a449071d2e",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're evaluating a multi-family or mixed-use property, contact Axis Meter Solutions to map the water system, identify monitoring points, and connect leak alerts with response procedures. Visit "
+        },
+        {
+          "_key": "de37291cb5f4",
+          "_type": "span",
+          "marks": [
+            "79fb162436a3"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "4ab26c52557e",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a submetering and leak-detection design suited to the building's pipe materials, operating patterns, and shutoff requirements."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "79fb162436a3",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Wondering does leak detection work? Get practical facts for Canadian property owners on how modern tools find hidden leaks fast and save you money.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f381ac70-fb46-4af1-9b9f-99820006a5ea/does-leak-detection-work-guide-title.jpg",
+  "noIndex": false,
+  "outrankId": "068fc8e7-3daf-4cdf-bebc-4019a843e1c7",
+  "publishedAt": "2026-08-28T08:50:06.335585+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "does-leak-detection-work"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Leak detection works, but its effectiveness depends on pipe material, sensor type, and whether the system can shut water off automatically. Canadian field testing found AI-enabled hydrant sensors could detect leaks as small as <strong>17 litres per minute</strong>, yet alerting alone won&#39;t prevent damage if nobody responds.</p>\n<p>That distinction matters in occupied multi-family and mixed-use buildings. A sensor can identify abnormal flow, acoustic noise, or water on a floor, but it can&#39;t remove the water unless the response architecture includes a working shutoff valve. The practical question isn&#39;t, “Does leak detection work?” It&#39;s whether the selected sensor can detect the failure in your building, whether the alert reaches a responsible person, and whether the system can isolate the supply before a small event becomes a restoration project.</p>\n<p>Canadian municipal systems lose an average of <strong>over 13% of treated water</strong> between treatment and delivery because of leaks, bursts, and related losses, according to <a href=\"https://uwaterloo.ca/smart-infrastructure-research/news/ai-tech-could-help-cities-detect-expensive-water-leaks\">Canadian research on AI-enabled water leak detection</a>. That makes leak detection a measurable water-management issue, not a marginal maintenance feature. The same logic applies inside a building, where a concealed branch-line leak can continue through a vacant suite, mechanical room, or ceiling cavity.</p>\n<p>Property owners comparing water protection with other building-risk decisions may also find <a href=\"https://caroofpros.com/roof-home-warranty/\">2026 roof warranty coverage tips</a> useful for understanding how prevention, exclusions, and response obligations affect total exposure. Leak detection deserves the same practical review. Hardware specifications matter, but pipe construction, sensor placement, alarm escalation, and automatic isolation matter more.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#does-leak-detection-work\">Does Leak Detection Work</a><ul>\n<li><a href=\"#start-with-the-failure-you-need-to-catch\">Start with the failure you need to catch</a></li>\n</ul>\n</li>\n<li><a href=\"#how-leak-detection-sensors-find-water-loss\">How Leak Detection Sensors Find Water Loss</a><ul>\n<li><a href=\"#acoustic-sensors\">Acoustic sensors</a></li>\n<li><a href=\"#flow-based-systems\">Flow-based systems</a></li>\n<li><a href=\"#ai-and-multi-signal-systems\">AI and multi-signal systems</a></li>\n</ul>\n</li>\n<li><a href=\"#real-world-detection-rates-in-canadian-buildings\">Real-World Detection Rates in Canadian Buildings</a><ul>\n<li><a href=\"#field-evidence-is-more-useful-than-a-sensitivity-promise\">Field evidence is more useful than a sensitivity promise</a></li>\n</ul>\n</li>\n<li><a href=\"#where-leak-detection-falls-short\">Where Leak Detection Falls Short</a><ul>\n<li><a href=\"#common-failure-conditions\">Common failure conditions</a></li>\n</ul>\n</li>\n<li><a href=\"#detection-alone-versus-detection-with-automatic-shutoff\">Detection Alone Versus Detection With Automatic Shutoff</a><ul>\n<li><a href=\"#compare-the-two-architectures\">Compare the two architectures</a></li>\n</ul>\n</li>\n<li><a href=\"#a-building-owners-scenario-with-and-without-detection\">A Building Owner&#39;s Scenario With and Without Detection</a></li>\n<li><a href=\"#what-owners-should-weigh-before-installing\">What Owners Should Weigh Before Installing</a><ul>\n<li><a href=\"#four-decisions-shape-the-result\">Four decisions shape the result</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"does-leak-detection-work\"></a></p>\n<h2>Does Leak Detection Work</h2>\n<p>The answer depends on the failure, the installation, and the response that follows an alert. <strong>Detection generally works when the sensor matches the failure mode and sits where the relevant signal can reach it. Prevention requires a person, an automatic valve, or both to act on that alert.</strong></p>\n<p>Commissioning meetings often expose the difference. A property manager may receive an email about continuous flow at 2 a.m., while the building operator is off site and the isolation valve is manual. The system has identified the problem, but water is still running. In that arrangement, the owner has purchased information rather than full mitigation.</p>\n<p><a id=\"start-with-the-failure-you-need-to-catch\"></a></p>\n<h3>Start with the failure you need to catch</h3>\n<p>A flow meter on the building main can identify continuous consumption that does not match the building&#39;s normal pattern. An acoustic device listens for pressurized water escaping from a buried or pressurized pipe. A puddle sensor under a sink responds when water reaches that location. It provides useful point protection, but it does not monitor every concealed path.</p>\n<p>Placement defines the area a sensor can observe. A main-line meter may detect a persistent branch leak without identifying the suite responsible, unless additional monitoring is installed. A mechanical-room sensor can detect water at floor level but may never register a leak inside a wall. A riser valve can isolate the affected supply only when its control logic, power, communications, and plumbing configuration have been tested together.</p>\n<p>For an overview of components and installation considerations, review this <a href=\"https://www.axismeter.com/blog/water-leak-detection-system\">water leak detection system guide</a>. A sound commissioning review follows the full operating chain:</p>\n<ol>\n<li><strong>Sense:</strong> Can the device identify the likely leak?</li>\n<li><strong>Locate:</strong> Can staff determine the affected riser, room, or suite?</li>\n<li><strong>Escalate:</strong> Does the alert reach someone who can act?</li>\n<li><strong>Isolate:</strong> Can a tested valve close without creating a new operational problem?</li>\n<li><strong>Verify:</strong> Can the team confirm that the leak stopped?</li>\n</ol>\n<blockquote>\n<p><strong>Practical rule:</strong> Treat a detection-only installation as an alarm system. Treat detection paired with automatic isolation as a water-loss control system.</p>\n</blockquote>\n<p>Owners comparing water protection with other building-risk decisions may also find <a href=\"https://caroofpros.com/roof-home-warranty/\">2026 roof warranty coverage tips</a> useful when reviewing prevention, exclusions, and response obligations. Leak detection deserves the same practical review.</p>\n<p>The main performance variables are <strong>pipe material, sensor placement, and shutoff integration</strong>. Canadian National Research Council guidance indicates that acoustic listening surveys are mainly suitable for small-diameter metallic pipes. They can perform poorly on non-metallic or large-diameter pipes, especially when background noise masks the signal. That limitation belongs in the design review before anyone compares sensitivity figures on a product sheet.</p>\n<p><a id=\"how-leak-detection-sensors-find-water-loss\"></a></p>\n<h2>How Leak Detection Sensors Find Water Loss</h2>\n<p>The sensor family determines what a system can catch. Owners need to know what each device measures, where it should be installed, and which building conditions can distort its reading.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3c2f0bc2-6901-4022-9735-ed865335f45d/does-leak-detection-work-leak-sensors.jpg\" alt=\"An infographic showing three methods to detect water leaks using acoustic, flow, and temperature sensors.\"></p>\n<p><a id=\"acoustic-sensors\"></a></p>\n<h3>Acoustic sensors</h3>\n<p>Acoustic sensors detect the sound and vibration produced when pressurized water escapes through a defect. They do not see water directly. Instead, they assess sound travelling through the pipe or nearby structure, much like a stethoscope applied to accessible pipework.</p>\n<p>Technicians commonly mount them on hydrants, valves, exposed pipes, or other contact points. Small-diameter metallic pipe usually gives these sensors a clear path because metal transmits the relevant vibration effectively. Insulation, plastic pipe, long distances, and mechanical noise can dampen or mask the signal.</p>\n<p>Acoustic systems perform best when the pipe network is documented and the sensor has a reliable contact path. Mixed materials and inaccessible branches reduce confidence, even when the hardware itself is sensitive.</p>\n<p><a id=\"flow-based-systems\"></a></p>\n<h3>Flow-based systems</h3>\n<p>Flow meters measure water moving through a pipe and compare current activity with an expected operating pattern. Flow monitoring identifies abnormal usage in much the same way fraud alerts flag unusual spending patterns.</p>\n<p>Installers may place meters on a building main, riser, suite supply, or dedicated branch. Continuous flow during an expected idle period can reveal losses in vacant suites, common mechanical equipment, and concealed plumbing. This approach measures consumption at the monitored point, so it can detect a problem without hearing the leak.</p>\n<p>The trade-off is attribution. A building main meter may recognise abnormal demand without identifying the fixture or suite responsible. Irrigation, cooling-tower make-up, recirculation, and other legitimate uses can also make the baseline difficult to define. Good commissioning therefore requires a clear operating schedule and a response process, not only a meter reading.</p>\n<p><a id=\"ai-and-multi-signal-systems\"></a></p>\n<h3>AI and multi-signal systems</h3>\n<p>AI-enabled systems combine inputs such as flow, pressure, acoustic information, and time-of-use patterns. The software learns expected morning demand, evening showers, and mechanical cycles, then flags behaviour outside those patterns. That improves interpretation, but it does not expand sensor coverage.</p>\n<p>Canadian research reported that hydrant sensors reliably detected leaks as small as <strong>17 litres per minute in laboratory testing</strong>. Recent academic work has also reported model correlation coefficients around <strong>0.91 on training and testing data</strong>, although those findings reflect laboratory or pilot conditions rather than universal building performance. This <a href=\"https://www.axismeter.com/blog/water-alarm-sensor\">water alarm sensor overview</a> gives owners practical context on sensor placement and alerting, instead of focusing only on alarm volume.</p>\n<p>AI cannot correct poor installation. A badly placed sensor receives weak information, and an unmonitored plastic branch remains outside the system&#39;s view. Automatic shutoff is a separate capability. Detection can identify abnormal water loss, while isolation requires a tested valve, suitable controls, and a verified response sequence.</p>\n<p><a id=\"real-world-detection-rates-in-canadian-buildings\"></a></p>\n<h2>Real-World Detection Rates in Canadian Buildings</h2>\n<p>Manufacturer sensitivity ratings answer a narrow question: how small a signal a device can recognise under stated conditions. Building owners need a more practical answer: <strong>what loss can this installation find in this network, with this pipe material, this background noise, and this response team?</strong></p>\n<p>Canadian evidence is strongest when it comes from municipal pilots and operating distribution systems. Municipal suppliers lose roughly <strong>13.3% of water withdrawn before it reaches end users</strong>, while Ontario city data cited in Canadian research show losses ranging from <strong>3.2% to 30%</strong>. That range prevents owners from transferring one “catch rate” to every building or utility. Asset condition, pressure, monitoring coverage, and repair speed all affect the result.</p>\n<p>Ontario field work provides a useful reality check. A tested municipality could recover about <strong>139,000 cubic metres of treated water annually</strong> and avoid approximately <strong>CAD 426,000 per year</strong> in water and wastewater charges after leakage-reduction measures were applied, as reported by the University of Waterloo. In a separate Waterloo Region pilot, <strong>10 hydrant.AI units</strong> monitored the network for six months. One detected leak represented <strong>3,838,000 litres</strong> of non-revenue water and about <strong>CAD 11,080</strong> if it ran from November 15 to January 17. Continued operation would have added approximately <strong>CAD 2,518 per month</strong>.</p>\n<p><a id=\"field-evidence-is-more-useful-than-a-sensitivity-promise\"></a></p>\n<h3>Field evidence is more useful than a sensitivity promise</h3>\n<p>The available Canadian sources do not establish a universal percentage of catastrophic building events intercepted by acoustic or flow systems. They also do not support the proposed <strong>0.005 L/min laboratory threshold</strong>, or a consistent field multiplier of ten to fifty times that figure. Treating those values as normal building performance would overstate the evidence.</p>\n<table>\n<thead>\n<tr>\n<th>Sensor Type</th>\n<th align=\"right\">Lab Sensitivity</th>\n<th>Field Catch Rate</th>\n<th>Best Pipe Material</th>\n<th>Weakest Pipe Material</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Acoustic</td>\n<td align=\"right\"><strong>17 L/min reported in Ontario laboratory testing</strong></td>\n<td>No universal Canadian rate established</td>\n<td>Small-diameter metallic pipe</td>\n<td>Non-metallic and large-diameter pipe</td>\n</tr>\n<tr>\n<td>Flow-based</td>\n<td align=\"right\">Building-specific baseline required</td>\n<td>No universal Canadian rate established</td>\n<td>Metered mains and risers</td>\n<td>Networks with continuous legitimate demand</td>\n</tr>\n<tr>\n<td>AI and multi-signal</td>\n<td align=\"right\">Pilot and laboratory results reported</td>\n<td>No universal Canadian rate established</td>\n<td>Networks with usable flow, pressure, or acoustic data</td>\n<td>Poorly instrumented mixed-material systems</td>\n</tr>\n</tbody></table>\n<p>AI-enabled systems learn that morning demand, evening showers, and mechanical cycles are expected, then flag behaviour that deviates from that pattern. They can improve interpretation of available flow, pressure, or acoustic data, but they do not extend sensor coverage into unmonitored branches.</p>\n<p>Montreal research offers another operational measure. Expanding acoustic noise-logger coverage was reported to reduce leak repair time by about <strong>40%</strong>, reduce annual water-loss value from <strong>CAD 1.25 million to CAD 600,000</strong>, and generate approximately <strong>CAD 625,000 in annual savings</strong> over a <strong>20-year planning horizon</strong>, according to the <a href=\"https://digitalwater.solutions/combating-leaks-with-innovative-monitoring/\">International Water Association case discussion</a>. The result supports earlier discovery and faster repair, not a promise that every hidden leak will be captured.</p>\n<p>Guelph&#39;s 2025 progress report identified <strong>41 possible leaks</strong>, confirmed and repaired <strong>31</strong>, and reclaimed about <strong>164.8 cubic metres of daily capacity</strong>. Detection can therefore produce material results, but owners should require a site-specific commissioning test rather than accept a generic catch-rate guarantee. Detection and automatic shutoff should also be evaluated separately, since finding abnormal use does not by itself isolate the affected line.</p>\n<p><a id=\"where-leak-detection-falls-short\"></a></p>\n<h2>Where Leak Detection Falls Short</h2>\n<p>Every sensor has a signal-transmission limit, and understanding those boundaries prevents overconfidence in one technology.</p>\n<p>Acoustic listening illustrates the constraint clearly. Canadian National Research Council guidance says these surveys are mainly suitable for <strong>small-diameter metallic pipes</strong>. They can be generally ineffective on non-metallic and large-diameter pipes, while water softeners and other noise sources may obscure the result. In a multi-family building, insulation, suspended ceilings, fittings, and limited access can interrupt the path between copper risers and the sensor.</p>\n<p>Flow systems face a different limitation: normal consumption can conceal abnormal use. Irrigation, cooling equipment, recirculation, or a fixture that never fully closes may create a steady baseline. A slow leak can remain inside that pattern. PEX and PVC service lines may also provide less useful acoustic transmission, so one listening method across a mixed-material property leaves unmonitored conditions.</p>\n<p><a id=\"common-failure-conditions\"></a></p>\n<h3>Common failure conditions</h3>\n<table>\n<thead>\n<tr>\n<th>Pipe / Building Condition</th>\n<th>Acoustic Sensor</th>\n<th>Flow-Based Meter</th>\n<th>Puddle Probe</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Small-diameter metallic pipe</td>\n<td>Often suitable when access and signal are clear</td>\n<td>Can identify persistent flow if metered</td>\n<td>Only responds after water reaches the probe</td>\n</tr>\n<tr>\n<td>PEX or PVC service lines</td>\n<td>May provide a weak or unreliable signal</td>\n<td>Can work when the leak changes the monitored baseline</td>\n<td>Detects local water, not remote loss</td>\n</tr>\n<tr>\n<td>Large-diameter distribution pipe</td>\n<td>Canadian guidance identifies general limitations</td>\n<td>Useful at monitored boundaries</td>\n<td>Usually irrelevant unless water reaches the floor</td>\n</tr>\n<tr>\n<td>Insulated riser or suspended ceiling</td>\n<td>Vibration may be damped or inaccessible</td>\n<td>May show aggregate demand</td>\n<td>Can miss water trapped above the ceiling</td>\n</tr>\n<tr>\n<td>Mechanical-room background noise</td>\n<td>False alarms or uncertain readings are possible</td>\n<td>Legitimate equipment cycles complicate baselines</td>\n<td>Can be reliable for floor-level water</td>\n</tr>\n<tr>\n<td>Vacant suite with concealed plumbing</td>\n<td>Depends on pipe path and sensor location</td>\n<td>Stronger if the suite or riser is separately monitored</td>\n<td>Fails until water reaches the sensor</td>\n</tr>\n</tbody></table>\n<p>Puddle probes require deliberate placement. Under a dishwasher, washing machine, or water heater, they can respond quickly to a visible floor-level release. They may miss a pinhole spraying onto a vapour barrier above a drywall ceiling, and they cannot identify which upstream valve staff should close.</p>\n<p>False positives create a quieter failure. Thermal expansion, elevator sump pumps, tenant flushing, and equipment cycling can repeatedly trigger alerts. Once staff learn that alarms are usually noise, urgent events receive slower attention. Owners reviewing <a href=\"https://forthepublicadjusters.com/blog/does-homeowners-insurance-cover-water-leaks/\">public adjuster for water damage claims</a> should also document response procedures and inspection records after an event. A sensor supports maintenance and incident handling, but it does not replace either one.</p>\n<p><a id=\"detection-alone-versus-detection-with-automatic-shutoff\"></a></p>\n<h2>Detection Alone Versus Detection With Automatic Shutoff</h2>\n<p>Detection-only systems identify abnormal water use or moisture and notify someone. Water continues flowing until staff reach the valve, gain access, and close it. That arrangement can suit a staffed facility with a tested response process, but an empty suite or overnight event remains exposed to the time required for acknowledgement, travel, access, and isolation.</p>\n<p>Detection with automatic shutoff adds a motorised valve to that response path. Once the system confirms a defined condition, it can send an alert and close the relevant supply without waiting for a caretaker. The valve still requires correct sizing, power, communications, manual override, and regular testing. Automation cannot compensate for a poorly selected valve, incorrect installation, or badly configured control logic.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4f071449-791a-4a30-bcca-c4ccf4af2609/does-leak-detection-work-water-shutoff.jpg\" alt=\"A comparison graphic showing how leak detection systems differ from systems with automated water shutoff functionality.\"></p>\n<p><a id=\"compare-the-two-architectures\"></a></p>\n<h3>Compare the two architectures</h3>\n<table>\n<thead>\n<tr>\n<th>Capability</th>\n<th>Detection only</th>\n<th>Detection plus automatic shutoff</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Identifies abnormal water</td>\n<td>Yes, if the signal is within sensor limits</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>Sends an alert</td>\n<td>Usually</td>\n<td>Usually</td>\n</tr>\n<tr>\n<td>Stops water without staff</td>\n<td>No</td>\n<td>Yes, when the valve and logic operate correctly</td>\n</tr>\n<tr>\n<td>Depends on after-hours response</td>\n<td>Heavily</td>\n<td>Less heavily</td>\n</tr>\n<tr>\n<td>Main commissioning risk</td>\n<td>Alert fatigue or missed escalation</td>\n<td>Incorrect isolation, valve failure, or nuisance closure</td>\n</tr>\n</tbody></table>\n<p>Canadian insurance-industry reporting on PREVCAN described a sample of <strong>5,000 residences</strong> with <strong>28,137 detectors</strong> installed and <strong>7,740 leaks reported</strong>. The report noted that no insurance claims were filed after installation, while also stressing that detectors alone are not enough without a preventative shutoff response. The evidence supports a practical distinction between notification and mitigation. It does not establish the same claim outcome for every building type.</p>\n<p>The financial logic is direct. Notification can shorten discovery time, document an event, and help staff mobilise. Automatic shutoff can reduce the volume released before anyone enters the building. For multi-family and mixed-use properties, the stronger design combines both: human review for escalation and automatic isolation for defined high-risk conditions.</p>\n<p>Owners selecting components can use this <a href=\"https://www.axismeter.com/blog/leak-detection-equipment-for-water-lines\">leak detection equipment guide for water lines</a> as a starting point. Specify the valve, trigger conditions, reset process, and communications sequence alongside the sensors. Treating shutoff as an accessory often leaves the response design incomplete.</p>\n<blockquote>\n<p>A detection-only system tells you that damage may be happening. A shutoff system can change how much damage happens.</p>\n</blockquote>\n<p><a id=\"a-building-owners-scenario-with-and-without-detection\"></a></p>\n<h2>A Building Owner&#39;s Scenario With and Without Detection</h2>\n<p>Consider a representative mid-rise with <strong>96 suites</strong>, a 2003 construction date, copper risers, and PEX branch lines. A slow leak begins behind a third-floor tub surround during a long weekend. The suite stays empty for four days.</p>\n<p>Without monitoring, the leak travels through the corridor and adjacent ceiling assemblies. Water reaches six ceilings, triggers two elevator pit alarms, and forces the relocation of eight residents. Remediation reaches <strong>CAD 148,000</strong>, and the insurance deductible alone exceeds the annual monitoring subscription.</p>\n<p>That scenario illustrates the exposure owners worry about, but it isn&#39;t a verified case study from the Canadian evidence supplied for this article. It should be used as a planning example, not as a promised outcome. Actual losses depend on leak location, pressure, floor construction, occupancy, access, and the speed of remediation.</p>\n<p>Now change the response architecture. A flow-based meter on the building main identifies abnormal continuous demand, and an automatic shutoff valve isolates the riser. The alert pages the on-site superintendent, who confirms the condition and arranges a plumber&#39;s visit the next morning. The repair involves a <strong>CAD 14 cartridge</strong>, and the contained remediation totals <strong>CAD 1,200</strong> in this illustrative scenario.</p>\n<p>The technology didn&#39;t change. The decisive changes were the monitored boundary, the abnormal-flow rule, the valve, and the escalation path. A main meter may not identify the exact fixture, so the owner still needs access procedures and a plan for narrowing the search. The value comes from connecting detection to a response that limits water movement.</p>\n<p>A strong commissioning process would test normal occupancy, overnight demand, mechanical cycles, valve closure, manual override, alarm delivery, and restoration after isolation. It would also document which branches remain outside the monitored zone. A sensor plan that ignores those boundaries can create false confidence.</p>\n<p>The practical gap is between <strong>being told about a leak</strong> and <strong>containing the release</strong>. The first may support faster intervention. The second can materially reduce the area and materials exposed to water.</p>\n<p>The following video provides a visual explanation of how connected detection and shutoff concepts are commonly presented to property teams.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/Dnf6g187tzg\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"what-owners-should-weigh-before-installing\"></a></p>\n<h2>What Owners Should Weigh Before Installing</h2>\n<p>The purchase decision starts with the building, not the sensor catalogue. Before approving a proposal, require the vendor and commissioning team to document pipe materials, monitored boundaries, normal water demand, access points, valve locations, and after-hours responsibility. These details determine whether the system can identify a meaningful event and support a timely response.</p>\n<p><a id=\"four-decisions-shape-the-result\"></a></p>\n<h3>Four decisions shape the result</h3>\n<p><strong>Pipe compatibility comes first.</strong> Acoustic equipment can suit accessible small-diameter metallic pipe. Flow monitoring may work better on a main or riser serving mixed PEX and copper. Canadian guidance notes that acoustic surveys can underperform on non-metallic and large-diameter systems. The vendor should explain how those sections will be covered instead of applying one sensor type throughout the property.</p>\n<p><strong>Define the response path before installation.</strong> Confirm who receives an alert, who acknowledges it, who can enter the suite, and which valve closes. If the system connects to a building management system, test both the alarm point and control command under live conditions. A notification sent to an unattended inbox does not contain water.</p>\n<p><strong>Evaluate the avoided-loss logic.</strong> Canadian field results show the possible scale, but they do not set the payback for every apartment building. One Ontario municipality could recover about <strong>139,000 cubic metres annually</strong> and avoid roughly <strong>CAD 426,000 per year</strong> after leakage reduction measures, according to the <a href=\"https://uwaterloo.ca/smart-infrastructure-research/news/ai-tech-could-help-cities-detect-expensive-water-leaks\">University of Waterloo field research</a>. Cambridge&#39;s municipal example reported physical water loss of <strong>21.7%</strong>, with a preventive programme targeting <strong>14%</strong> and reported savings of <strong>5,500 litres per minute</strong>, according to the <a href=\"https://fcm.ca/sites/default/files/documents/resources/guide/infraguide-water-use-loss-water-distribution-system-mamp.pdf\">Federation of Canadian Municipalities water-loss guide</a>. Use those figures to frame the opportunity, then calculate payback from the property&#39;s water rates, incident history, monitored area, installation cost, and response capability.</p>\n<p><strong>Budget for maintenance.</strong> Plan for communication checks, battery or power reviews, alarm testing, valve exercising, and baseline validation after plumbing or occupancy changes. AI models require clean, representative data. New cooling equipment, revised irrigation schedules, or changed suite metering can alter normal demand and require threshold review.</p>\n<table>\n<thead>\n<tr>\n<th>Factor to Weigh</th>\n<th>Pipe Material / Building Type</th>\n<th>Recommended Sensor Class</th>\n<th>ROI Impact</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Signal transmission</td>\n<td>Small metallic pipe with accessible valves</td>\n<td>Acoustic, potentially paired with flow</td>\n<td>Earlier discovery where the signal path is clear</td>\n</tr>\n<tr>\n<td>Mixed materials</td>\n<td>Copper risers with PEX or PVC branches</td>\n<td>Flow-based coverage with targeted point sensors</td>\n<td>Broader coverage than acoustic-only deployment</td>\n</tr>\n<tr>\n<td>High background noise</td>\n<td>Mechanical rooms and mixed-use sites</td>\n<td>AI or multi-signal monitoring</td>\n<td>Fewer avoidable escalations when baselines are well trained</td>\n</tr>\n<tr>\n<td>Vacant or high-risk suites</td>\n<td>Condominiums, rentals, student housing</td>\n<td>Point sensors plus automatic shutoff</td>\n<td>Limits release when staff response may be delayed</td>\n</tr>\n<tr>\n<td>Utility-scale distribution</td>\n<td>Buried mains and hydrant networks</td>\n<td>Acoustic loggers or hydrant sensors</td>\n<td>Reduced non-revenue water and faster repair</td>\n</tr>\n<tr>\n<td>Integrated submetering project</td>\n<td>Multi-family and mixed-use properties</td>\n<td>Metering with leak and flood detection</td>\n<td>Combines consumption visibility with water-event alerts</td>\n</tr>\n</tbody></table>\n<p>Axis Meter Solutions provides utility submetering for multi-family, condominium, mixed-use, and commercial properties, including water metering and leak and flood detection in its installations. Owners can review <a href=\"https://axismeter.com\">Axis Meter Solutions</a> when assessing a turnkey approach that combines consumption monitoring, project coordination, and ongoing service.</p>\n<p>Positive ROI depends on matching the sensor class to the pipe stock, defining the monitored area around actual risk, and connecting detection to the correct valve. Treat vendor sensitivity claims cautiously when site conditions differ from the test environment. Require a documented live test before accepting the system.</p>\n<hr>\n<p>If you&#39;re evaluating a multi-family or mixed-use property, contact Axis Meter Solutions to map the water system, identify monitoring points, and connect leak alerts with response procedures. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a submetering and leak-detection design suited to the building&#39;s pipe materials, operating patterns, and shutoff requirements.</p>",
+  "tags": [
+    "leak detection",
+    "water leak sensors",
+    "property management",
+    "submetering",
+    "building ROI"
+  ],
+  "title": "Does Leak Detection Work? a Practical Guide for 2026",
+  "updatedAt": "2026-08-28T08:50:11.436Z"
+}
