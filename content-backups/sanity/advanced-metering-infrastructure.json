@@ -1,0 +1,3352 @@
+{
+  "_createdAt": "2026-09-01T08:24:04Z",
+  "_id": "outrank-b80aa187-06a1-4347-bcb4-a4142caac110",
+  "_rev": "7eAOjV367vQ0Hjzn8nEE1O",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-01T08:24:04Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "617992fe4c01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "046953f7b43c",
+          "_type": "span",
+          "marks": [],
+          "text": "Canada's smart-meter market is already mature. "
+        },
+        {
+          "_key": "f69466e072e0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Natural Resources Canada estimated that 82% of Canadian electricity meters were smart meters by the end of 2018, while industry reporting placed the installed base at 15.5 million meters in 2024, with penetration still about 82%"
+        },
+        {
+          "_key": "3188a68d9cd4",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "ab6a7b9b528c",
+          "_type": "span",
+          "marks": [
+            "fb9c4f807605"
+          ],
+          "text": "Canadian smart-meter adoption data"
+        },
+        {
+          "_key": "34c30ca0659f",
+          "_type": "span",
+          "marks": [],
+          "text": "). For a multi-family or commercial property owner, that changes the question. You're not deciding whether networked metering is a futuristic utility concept. You're deciding what the infrastructure behind your building's meters can do."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "fb9c4f807605",
+          "_type": "link",
+          "href": "https://440megatonnes.ca/insight/smart-meters-are-saving-costs-for-canadians-and-utilities/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "010a77fd09aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ac4a644899a",
+          "_type": "span",
+          "marks": [],
+          "text": "Vendors may use terms such as "
+        },
+        {
+          "_key": "6d0e7076f43a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "advanced metering infrastructure"
+        },
+        {
+          "_key": "c1d48a711cd8",
+          "_type": "span",
+          "marks": [],
+          "text": ", smart metering, automated billing, or submetering interchangeably. They don't always mean the same thing. A meter that stores consumption is different from a meter that communicates hourly, and both are different from a complete system that validates data, detects events, supports billing, and keeps a portfolio visible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd5c26871167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05221e76fe9c",
+          "_type": "span",
+          "marks": [],
+          "text": "This guide translates AMI into property-owner language. It explains the equipment, compares AMI with AMR and manual reads, shows where the system affects tenant billing and net operating income, and addresses the less comfortable questions around phased installation, legacy-meter compliance, cybersecurity, and data control. If you're reviewing a "
+        },
+        {
+          "_key": "2ae2371a111a",
+          "_type": "span",
+          "marks": [
+            "921d3a0211d2"
+          ],
+          "text": "residential and commercial submetering overview"
+        },
+        {
+          "_key": "671e8c0ae5b7",
+          "_type": "span",
+          "marks": [],
+          "text": ", start by understanding the infrastructure rather than focusing only on the meter mounted in a suite."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "921d3a0211d2",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/residential-and-commercial"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bdcb7310087a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b3703fb359f",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c15d5e0725d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ed5e1fe8123",
+          "_type": "span",
+          "marks": [
+            "93e716e95066"
+          ],
+          "text": "Why Advanced Metering Infrastructure Matters to Your Building"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "93e716e95066",
+          "_type": "link",
+          "href": "#why-advanced-metering-infrastructure-matters-to-your-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f0c452d589ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86192a20d74b",
+          "_type": "span",
+          "marks": [
+            "9b74517ff832"
+          ],
+          "text": "The five questions owners should ask"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9b74517ff832",
+          "_type": "link",
+          "href": "#the-five-questions-owners-should-ask"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8519f5e1d562",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2842ed8dcc76",
+          "_type": "span",
+          "marks": [
+            "d8d3124e3f3e"
+          ],
+          "text": "How Advanced Metering Infrastructure Actually Works"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d8d3124e3f3e",
+          "_type": "link",
+          "href": "#how-advanced-metering-infrastructure-actually-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d9ce478a2e9a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4c2424177cc",
+          "_type": "span",
+          "marks": [
+            "3ee69b6b42c9"
+          ],
+          "text": "The main layers"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3ee69b6b42c9",
+          "_type": "link",
+          "href": "#the-main-layers"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0d25a3ef66e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a473c63ae4f4",
+          "_type": "span",
+          "marks": [
+            "c27d1935c8f1"
+          ],
+          "text": "One reading from suite to bill"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c27d1935c8f1",
+          "_type": "link",
+          "href": "#one-reading-from-suite-to-bill"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac9a85e0aa64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5224c1817c93",
+          "_type": "span",
+          "marks": [
+            "6517e089f507"
+          ],
+          "text": "AMI Versus AMR and Legacy Meters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6517e089f507",
+          "_type": "link",
+          "href": "#ami-versus-amr-and-legacy-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e8b9aea9abc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f580cfa8b45",
+          "_type": "span",
+          "marks": [
+            "8d56733815be"
+          ],
+          "text": "Choosing the right level"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8d56733815be",
+          "_type": "link",
+          "href": "#choosing-the-right-level"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ea12a834aae2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81ebde16e9ae",
+          "_type": "span",
+          "marks": [
+            "547ff3a1d39f"
+          ],
+          "text": "AMI Use Cases for Multi-Family and Commercial Properties"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "547ff3a1d39f",
+          "_type": "link",
+          "href": "#ami-use-cases-for-multi-family-and-commercial-properties"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b9510fd3df93",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32bcc623806a",
+          "_type": "span",
+          "marks": [
+            "7b8eb39a55af"
+          ],
+          "text": "Converting bulk charges into unit-level visibility"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7b8eb39a55af",
+          "_type": "link",
+          "href": "#converting-bulk-charges-into-unit-level-visibility"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fc65f0c1e05d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0dd5f5b0b1bc",
+          "_type": "span",
+          "marks": [
+            "5e857a60c1c3"
+          ],
+          "text": "Separating tenants from common areas"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5e857a60c1c3",
+          "_type": "link",
+          "href": "#separating-tenants-from-common-areas"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "066f9915e4f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59c028f31a01",
+          "_type": "span",
+          "marks": [
+            "5b3f18d5655a"
+          ],
+          "text": "Resolving disputes and spotting leaks"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5b3f18d5655a",
+          "_type": "link",
+          "href": "#resolving-disputes-and-spotting-leaks"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "47f6f48c4978",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "079284c16858",
+          "_type": "span",
+          "marks": [
+            "77883f3bc25c"
+          ],
+          "text": "Matching the system to the property"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "77883f3bc25c",
+          "_type": "link",
+          "href": "#matching-the-system-to-the-property"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3f0461eb246e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a75fa1633d4",
+          "_type": "span",
+          "marks": [
+            "7ce06587746e"
+          ],
+          "text": "The Data and Analytics Layer Behind the Meters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7ce06587746e",
+          "_type": "link",
+          "href": "#the-data-and-analytics-layer-behind-the-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "49b119c2f827",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b498f68bd5a",
+          "_type": "span",
+          "marks": [
+            "9629f6460252"
+          ],
+          "text": "From readings to management decisions"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9629f6460252",
+          "_type": "link",
+          "href": "#from-readings-to-management-decisions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8e53cdd854d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8aa5a2bcf3d9",
+          "_type": "span",
+          "marks": [
+            "309629c712ee"
+          ],
+          "text": "Governance is part of the design"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "309629c712ee",
+          "_type": "link",
+          "href": "#governance-is-part-of-the-design"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "810199968c36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2af0760cb24d",
+          "_type": "span",
+          "marks": [
+            "4c591d9640be"
+          ],
+          "text": "Phased Rollouts, Compliance, and Common AMI Misconceptions"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4c591d9640be",
+          "_type": "link",
+          "href": "#phased-rollouts-compliance-and-common-ami-misconceptions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "685c9d9fcb92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2dc1f4e47132",
+          "_type": "span",
+          "marks": [
+            "a9f326cc7ae3"
+          ],
+          "text": "Legacy equipment can outlast the project plan"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a9f326cc7ae3",
+          "_type": "link",
+          "href": "#legacy-equipment-can-outlast-the-project-plan"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "823e57bff82b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7920352eda27",
+          "_type": "span",
+          "marks": [
+            "6590ebd6a623"
+          ],
+          "text": "Data authority can change during deployment"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6590ebd6a623",
+          "_type": "link",
+          "href": "#data-authority-can-change-during-deployment"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bcdda158251a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f40b488da38",
+          "_type": "span",
+          "marks": [
+            "267b41ac053b"
+          ],
+          "text": "What AMI Means for Your Submetering Program"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "267b41ac053b",
+          "_type": "link",
+          "href": "#what-ami-means-for-your-submetering-program"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "21affd7f67d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e13a462cce4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb24a8d74183",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10b01084c0f1",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Advanced Metering Infrastructure Matters to Your Building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5acdc1ca107c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6840deb70e2",
+          "_type": "span",
+          "marks": [],
+          "text": "Suppose a condominium corporation receives one bulk electricity bill. The property manager allocates the cost across units, residents question the calculations, and the corporation absorbs common-area consumption without a clear view of which loads are driving it. A commercial landlord faces a similar problem when tenant spaces, elevators, parking equipment, HVAC systems, and lobbies share a billing structure that wasn't designed for detailed cost recovery."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2a2b864881f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fd8eac98794",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner's problem isn't just that someone has to read a meter. The problem is that decisions are being made with incomplete information."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5e9d9c2fdc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5810fe827394",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Advanced metering infrastructure, or AMI, is the connected system that turns meter readings into usable operational data."
+        },
+        {
+          "_key": "e477c074986d",
+          "_type": "span",
+          "marks": [],
+          "text": " It can support automated collection, interval-level consumption records, billing workflows, exception handling, and visibility into unusual usage. For a building, that can mean fewer manual processes and a clearer relationship between consumption and charges. It can also create new responsibilities, especially when tenant-level data moves through several systems."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ea87bb38652",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "460287b3ec4b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b1e4214f6da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9773bcdb7622",
+          "_type": "span",
+          "marks": [],
+          "text": "The five questions owners should ask"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "af7862458a8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d30a93698d6",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical AMI review should answer five questions:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4da8db7eee0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "221d9914a486",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What is installed?"
+        },
+        {
+          "_key": "3d7b5957c706",
+          "_type": "span",
+          "marks": [],
+          "text": " Is the proposal for individual electricity, water, gas, thermal energy, common-area meters, or a combination?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "610824b26e10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "620f5e7e47e4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How does data move?"
+        },
+        {
+          "_key": "8a7754ec8bd5",
+          "_type": "span",
+          "marks": [],
+          "text": " Does the system collect readings remotely through a fixed network, or does someone still need to pass near the meter?"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fbd1b756427b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1edab82732a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How often is usage recorded?"
+        },
+        {
+          "_key": "cc6a56e6c2c2",
+          "_type": "span",
+          "marks": [],
+          "text": " Monthly totals and hourly interval reads support very different decisions."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74efee7d3fb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "940a34b7ec72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who turns readings into bills and alerts?"
+        },
+        {
+          "_key": "e83dd23e968a",
+          "_type": "span",
+          "marks": [],
+          "text": " The meter is only one part of the process."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "36e7ba1282cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "609086568aec",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who controls the data and manages compliance?"
+        },
+        {
+          "_key": "98034978a846",
+          "_type": "span",
+          "marks": [],
+          "text": " A phased rollout can leave old and new systems operating together."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71b74aa518b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38f0f7734e90",
+          "_type": "span",
+          "marks": [],
+          "text": "These questions connect directly to building outcomes. Better interval data can make tenant invoicing more transparent, help identify unusual consumption, and separate shared loads from tenant usage. But AMI doesn't automatically produce savings. The owner still needs sound meter placement, approved equipment, clear billing rules, reliable communications, and a service process that handles exceptions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e527900c7da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14a64c9c47a8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "709d44faa494",
+          "_type": "span",
+          "marks": [],
+          "text": " Treat AMI as building infrastructure, not as a smart gadget. The communications and data-management layers determine whether the meter produces dependable value."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "5369e5020ffa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51ba9308d54e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8b19c882dda6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0b1b7f58a44",
+          "_type": "span",
+          "marks": [],
+          "text": "How Advanced Metering Infrastructure Actually Works"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "07ef00d9060a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38db2935a0d0",
+          "_type": "span",
+          "marks": [],
+          "text": "The easiest way to understand AMI is to compare it with a phone network. The "
+        },
+        {
+          "_key": "95b214710993",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "smart meter is the phone"
+        },
+        {
+          "_key": "fce6cce8a4b3",
+          "_type": "span",
+          "marks": [],
+          "text": ". It records consumption and sends a message. A collector is similar to a cell tower, the communications network carries the message, and the head-end or data-management environment receives, stores, checks, and distributes the information."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8254e5ab74fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d4d28c799e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's policy definition makes the same point in more formal language. It describes AMI as a complete system of "
+        },
+        {
+          "_key": "b4bf2eb1c38f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "meters, communication devices, collectors, wide-area network links, and control computers"
+        },
+        {
+          "_key": "e71e32dff9c4",
+          "_type": "span",
+          "marks": [],
+          "text": ", after setting targets for smart-meter installation in homes across the province ("
+        },
+        {
+          "_key": "a9ec6d83e9d4",
+          "_type": "span",
+          "marks": [
+            "6e75297c3fea"
+          ],
+          "text": "Ontario's AMI functional specification"
+        },
+        {
+          "_key": "b5d2d93fead9",
+          "_type": "span",
+          "marks": [],
+          "text": "))."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6e75297c3fea",
+          "_type": "link",
+          "href": "https://www.ontario.ca/page/functional-specification-advanced-metering-infrastructure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "62e22aa4c92b",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how advanced metering infrastructure works using smart meters, collectors, a network, and a utility system.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a5db1878-6fe1-46b8-904d-f565ec1fe426/advanced-metering-infrastructure-smart-meter.jpg"
+    },
+    {
+      "_key": "449a25520128",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64f2e8a9a364",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ce4268d443e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63f1a0a843ca",
+          "_type": "span",
+          "marks": [],
+          "text": "The main layers"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0d524c54fa7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4b8efd4a093",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The meter measures."
+        },
+        {
+          "_key": "3e8efa31f43b",
+          "_type": "span",
+          "marks": [],
+          "text": " A suite or tenant meter records consumption and attaches a time reference to the reading. In a multi-family property, that endpoint may serve one apartment. In a commercial building, it may measure a tenant panel, a mechanical load, or a common-area circuit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "471473bca50e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "746971300237",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The communication device transmits."
+        },
+        {
+          "_key": "34158ac3ad54",
+          "_type": "span",
+          "marks": [],
+          "text": " The meter needs a way to send its information beyond the electrical room. Depending on the design, communications may use radio, a wired connection, cellular service, or another network approach. The important property-owner question isn't the technical label. It's whether the connection works consistently through concrete, basements, electrical rooms, and dense tenant spaces."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d22cebc6085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "923135372910",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Collectors gather local messages."
+        },
+        {
+          "_key": "38e7be40efd9",
+          "_type": "span",
+          "marks": [],
+          "text": " A collector receives information from multiple endpoints in its coverage area. The cell-tower analogy helps here. A meter may be working perfectly while the collector, antenna, or local connection has a problem, so the complete system needs health monitoring rather than occasional meter inspection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9f8edf238c66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0d8adf5f849",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The wide-area network carries the information."
+        },
+        {
+          "_key": "caa950c53c9a",
+          "_type": "span",
+          "marks": [],
+          "text": " The WAN links the local collection point to the utility or submetering operator's central systems. If the network is interrupted, the meter may continue recording locally, but the operator may not receive the information until communications resume."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77cc1451a7dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6ed753f26f8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The head-end and data-management systems process it."
+        },
+        {
+          "_key": "6df8ae08d817",
+          "_type": "span",
+          "marks": [],
+          "text": " The head-end system communicates with the meters and manages the network connection. A meter data management system, or MDMS, stores and processes readings so they can support billing, reporting, and analysis. Owners evaluating broader connectivity projects may also find "
+        },
+        {
+          "_key": "b372e3410d5b",
+          "_type": "span",
+          "marks": [
+            "7357ff753f29"
+          ],
+          "text": "IoT deployment help by Networking2000"
+        },
+        {
+          "_key": "093824f516dd",
+          "_type": "span",
+          "marks": [],
+          "text": " useful for understanding how connected devices depend on communications planning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7357ff753f29",
+          "_type": "link",
+          "href": "https://networking2000.co.uk/2026/07/14/iot-connectivity-solutions/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "75449fedbc16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e0a3e79db48",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9635c54c7eba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e500df0c8c8",
+          "_type": "span",
+          "marks": [],
+          "text": "One reading from suite to bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "cf6530e682d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45a77c903c3b",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's specification requires hourly reads from deployed devices, with each reading time-stamped to the minute and transferred to the meter data repository by "
+        },
+        {
+          "_key": "4924e77e39f6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5:00 a.m. local time"
+        },
+        {
+          "_key": "f1b4d06f52a2",
+          "_type": "span",
+          "marks": [],
+          "text": " after the daily read period. It also requires collectors to retain a rolling "
+        },
+        {
+          "_key": "26b014dfc3c8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60 days"
+        },
+        {
+          "_key": "8db48ed54a73",
+          "_type": "span",
+          "marks": [],
+          "text": " of meter reads ("
+        },
+        {
+          "_key": "c914aed7717b",
+          "_type": "span",
+          "marks": [
+            "28701b4e4109"
+          ],
+          "text": "Ontario Auditor General material on smart metering"
+        },
+        {
+          "_key": "a5172c9925df",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "28701b4e4109",
+          "_type": "link",
+          "href": "https://www.auditor.on.ca/en/content/news/14_newsreleases/2014news_3.11.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4864f20f00a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d55da5d50500",
+          "_type": "span",
+          "marks": [],
+          "text": "In practical terms, a suite meter records usage during an hour, assigns the reading its time information, sends it to a collector, and travels through the network to the central system. The data layer can then check whether the reading is complete, associate it with the correct account, and pass it into billing or reporting. A property owner wanting a visual explanation of the endpoint-to-system journey can review "
+        },
+        {
+          "_key": "d07f08cae0e9",
+          "_type": "span",
+          "marks": [
+            "36bbd6ad6efa"
+          ],
+          "text": "how networked metering works"
+        },
+        {
+          "_key": "b66d5a2e016a",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "36bbd6ad6efa",
+          "_type": "link",
+          "href": "https://www.axismeter.com/how-it-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d58b400b1ed7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7f24179376c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f87a5be1c90d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd7aa40ba2ad",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI Versus AMR and Legacy Meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "de6d8b3ed75f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47cbe1af7724",
+          "_type": "span",
+          "marks": [],
+          "text": "“Remote meter reading” can refer to different systems. "
+        },
+        {
+          "_key": "c39ba0ee49c6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Automatic meter reading, or AMR, usually automates collection without creating a fully interactive network."
+        },
+        {
+          "_key": "6dbde9637a9b",
+          "_type": "span",
+          "marks": [],
+          "text": " A device may store a reading until a worker or vehicle passes nearby and retrieves it. That reduces manual entry, but it may not provide AMI's regular two-way communication, event reporting, or approved remote commands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86b42b930232",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11f9210d5790",
+          "_type": "span",
+          "marks": [],
+          "text": "A legacy meter relies on someone visiting the site and recording the register. It can suit a small property with simple access and limited billing requirements. The process becomes harder when access is restricted, tenants change often, charges are disputed, or several utility loads must be allocated across suites and common areas."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f4ed12701ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2a58e3a7bff",
+          "_type": "span",
+          "marks": [],
+          "text": "Capability"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9882e3b2ed69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9081f7de8d9",
+          "_type": "span",
+          "marks": [],
+          "text": "Manual Reading"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e4dcbfcf3965",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c71a7bc905ed",
+          "_type": "span",
+          "marks": [],
+          "text": "AMR"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc901008080f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cafee5234809",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8eadd932b0f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00d7bc7ef371",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read collection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "62769b55f491",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78d78e13e92d",
+          "_type": "span",
+          "marks": [],
+          "text": "A person records the register on site"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6b790658246",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82eb89454a95",
+          "_type": "span",
+          "marks": [],
+          "text": "A device collects a stored read during walk-by or drive-by activity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b402cf42c8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bab9f1b7462",
+          "_type": "span",
+          "marks": [],
+          "text": "A fixed network collects readings automatically"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2811e2d24d2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de11be39947b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read frequency"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4d4667963fdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9050bda175f0",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on visits"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aca7c63d38cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "360b56ac92a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on collection routes and schedules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9f1e42755cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fd937424e52",
+          "_type": "span",
+          "marks": [],
+          "text": "Can support regular interval data, including hourly reads where specified"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d6d1ecb05b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d6f7f4bd533",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data granularity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "909d40923f13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7ee4b88a7c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually a cumulative register at the visit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a7b6f09beb5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74dd02262c1e",
+          "_type": "span",
+          "marks": [],
+          "text": "More automated, but still dependent on the collection process"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a62f9788cd84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9aedce037a31",
+          "_type": "span",
+          "marks": [],
+          "text": "Time-stamped interval records support load profiling"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1278fa030f9f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "272c6f4e19bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Outage visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f04a0a7a6be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00af14da4be5",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually discovered during a visit or customer report"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cac36c6841c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "73b6d0844d5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Limited by the next collection event"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1ab91ad5e49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30ae9899d6e3",
+          "_type": "span",
+          "marks": [],
+          "text": "Network and meter events can be monitored centrally"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dfa12c6ed2fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6498734c8a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Remote control"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02ac6fb66900",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "536d90fbdd78",
+          "_type": "span",
+          "marks": [],
+          "text": "Not available"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61d391c3ffc5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efd54832c379",
+          "_type": "span",
+          "marks": [],
+          "text": "Generally limited"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86640da06acd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3832c544e15",
+          "_type": "span",
+          "marks": [],
+          "text": "May support two-way communications and approved remote functions"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f74e72bffb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5896728b02f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Tenant billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e39384cffbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42bcdce0cb20",
+          "_type": "span",
+          "marks": [],
+          "text": "Manual processing and greater transcription risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8163c9caef06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "add7861f8b19",
+          "_type": "span",
+          "marks": [],
+          "text": "Better collection efficiency"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a7fea0f63801",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16c68a715e24",
+          "_type": "span",
+          "marks": [],
+          "text": "Stronger fit for automated billing, exceptions, and consumption analysis"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "16bd1a1faf56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe24e1ae394a",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's smart-metering requirements show the operational difference between a stored read and interval data. The specification calls for hourly readings, minute-level timestamps, transfer to the central repository by "
+        },
+        {
+          "_key": "62029743f29a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5:00 a.m. local time"
+        },
+        {
+          "_key": "adfe3952684a",
+          "_type": "span",
+          "marks": [],
+          "text": " after the daily read period, and collector storage for a rolling "
+        },
+        {
+          "_key": "6f1e138efb30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60 days"
+        },
+        {
+          "_key": "1e9d7ac66f18",
+          "_type": "span",
+          "marks": [],
+          "text": ". These requirements are summarized in the "
+        },
+        {
+          "_key": "ed6bd5acc6ea",
+          "_type": "span",
+          "marks": [
+            "9fa4f9488bf7"
+          ],
+          "text": "Ontario smart-metering requirements"
+        },
+        {
+          "_key": "e15a0d1e0216",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9fa4f9488bf7",
+          "_type": "link",
+          "href": "https://www.auditor.on.ca/en/content/news/14_newsreleases/2014news_3.11.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d4770cd77c3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec08844100f3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82992fd6ed5a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de9e5a9a5730",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing the right level"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "56ef00aedd01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0462e99c4ae",
+          "_type": "span",
+          "marks": [],
+          "text": "AMR can be a sensible choice. A small property with straightforward access and limited reporting needs may not need the communications and data-management systems that AMI requires. Manual reads can also remain practical for isolated equipment or temporary verification."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb8a6a54c86a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07be75950fde",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI fits buildings that need "
+        },
+        {
+          "_key": "319d0f5113cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "repeatable billing, interval visibility, remote collection, common-area allocation, usage alerts, or portfolio-level reporting"
+        },
+        {
+          "_key": "e6314e471588",
+          "_type": "span",
+          "marks": [],
+          "text": ". For a multi-family or commercial owner, the decision also includes governance and rollout risk. Confirm which endpoints the system can communicate with, how often readings are captured, what happens when a read is missing, and whether the service includes data validation. Ask how tenant data is assigned, retained, and shared, especially when installation is phased across a portfolio."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9be2bafa987",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fbe9f69271f",
+          "_type": "span",
+          "marks": [],
+          "text": "A provider should also clarify whether AMI installation is scheduled to continue through "
+        },
+        {
+          "_key": "dd13762e888f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "December 31, 2027"
+        },
+        {
+          "_key": "144af6a94c39",
+          "_type": "span",
+          "marks": [],
+          "text": ", where that timeline applies. Those answers show whether the proposal is AMR, AMI, or a hybrid arrangement, and whether the system can support the building's compliance and billing process as it expands."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "99800d42452c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08939512414e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fa91b67d6ad9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a58f1b734d6",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI Use Cases for Multi-Family and Commercial Properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a216e100bc6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd26893571f9",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI becomes easier to evaluate when you tie it to a building decision. The same networked meter can support different outcomes depending on how the owner structures billing, operations, and tenant communications."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b1e69d338df",
+      "_type": "externalImage",
+      "alt": "A professional man checking electricity usage data on a tablet next to a bank of meters.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/53e5c038-2872-4bdd-b435-49d291133109/advanced-metering-infrastructure-smart-meter.jpg"
+    },
+    {
+      "_key": "b978cbe9cefe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfcab3a796dc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70a712a38ca2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d467c44fd6c",
+          "_type": "span",
+          "marks": [],
+          "text": "Converting bulk charges into unit-level visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4d808f622540",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "788067d80544",
+          "_type": "span",
+          "marks": [],
+          "text": "A multi-family owner paying a bulk electricity bill may have limited insight into suite consumption. Installing unit-level meters and collecting readings remotely can support a cost-recovery model where charges reflect measured use rather than a broad allocation. The value is not only financial. Residents can see how their bills relate to actual consumption, and managers can investigate a disputed charge with a reading history instead of relying on a single manual visit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a064bf7b5b1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a615b9f4d00",
+          "_type": "span",
+          "marks": [],
+          "text": "The same approach can apply to water, thermal energy, or gas where permitted and where the building's physical and regulatory conditions support it. A provider should explain which utility is being measured, how meters are commissioned, and how tenant accounts connect to the correct endpoint."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c309d12fc528",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "302113283ce2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57f7ab493e44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37d54748c135",
+          "_type": "span",
+          "marks": [],
+          "text": "Separating tenants from common areas"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e99969218616",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ead412e2d81c",
+          "_type": "span",
+          "marks": [],
+          "text": "A commercial landlord may need to distinguish tenant consumption from elevators, lobby lighting, pumps, parking equipment, and mechanical systems. "
+        },
+        {
+          "_key": "1b9a06bcdb79",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area metering creates a separate measurement boundary."
+        },
+        {
+          "_key": "25233527a714",
+          "_type": "span",
+          "marks": [],
+          "text": " AMI then supplies a consistent stream of readings for each boundary, giving the owner a clearer basis for budgeting, lease administration, and investigation of unexpected loads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "faae78b57b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c56c7ddcdf0b",
+          "_type": "span",
+          "marks": [],
+          "text": "That separation can also reveal operational questions. If a common-area profile changes sharply, the property team can check equipment schedules, controls, or maintenance conditions. The system doesn't diagnose every cause on its own, but it gives staff a time-based pattern to investigate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab18e3b2554f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91269a614a70",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7dacf217fcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53fec4c31172",
+          "_type": "span",
+          "marks": [],
+          "text": "Resolving disputes and spotting leaks"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a76c0c987899",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d62cbc443613",
+          "_type": "span",
+          "marks": [],
+          "text": "Student housing and affordable housing operators often manage residents with different move-in dates, billing questions, and account changes. A time-stamped data history can help the operator confirm whether a bill reflects an actual read, a transition between occupants, or a data exception requiring review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba68748c69e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11c8555f0043",
+          "_type": "span",
+          "marks": [],
+          "text": "Water presents another useful example. A slow leak may create a sustained usage pattern outside the building's normal profile. An alert process can bring that pattern to the manager's attention before visible damage occurs. That's why leak detection should be evaluated as part of the metering program, not treated as an unrelated add-on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c318db89bff1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "024b434625e0",
+          "_type": "span",
+          "marks": [],
+          "text": "For a practical discussion of connected utility monitoring, this video provides additional context:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a835ce7d3a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f347653aa0d7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9ec6058497b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d35f96e71567",
+          "_type": "span",
+          "marks": [],
+          "text": "Matching the system to the property"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "8f602f1aa163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cae955c94840",
+          "_type": "span",
+          "marks": [],
+          "text": "The right design depends on the number of units, meter locations, access conditions, utility types, and billing rules. Modern submetering programs can serve properties ranging from smaller buildings to large portfolios, but the owner still needs a site-specific plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4ad04e44f5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e66d21ef03ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's smart-meter initiative shows why lifecycle thinking matters. The Auditor General reported "
+        },
+        {
+          "_key": "d60bcbc8d3d0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$1.9 billion in implementation costs by May 2014"
+        },
+        {
+          "_key": "a616d9aec221",
+          "_type": "span",
+          "marks": [],
+          "text": ", while broader commentary estimated that total program costs could ultimately reach "
+        },
+        {
+          "_key": "3215803c074f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "about $50 billion"
+        },
+        {
+          "_key": "266e4593c970",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "c6f4c3ab1458",
+          "_type": "span",
+          "marks": [
+            "6c5a3614ba8f"
+          ],
+          "text": "Ontario Auditor General report on the smart-meter initiative"
+        },
+        {
+          "_key": "1a780e2e89c2",
+          "_type": "span",
+          "marks": [],
+          "text": "). A building-level business case should therefore look beyond the hardware price and assess collection, data management, billing accuracy, maintenance, and long-term operational gains."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6c5a3614ba8f",
+          "_type": "link",
+          "href": "https://www.auditor.on.ca/en/content/annualreports/arreports/en14/311en14.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4f3fe4c3acff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65573d9a1dab",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58fbf4fc3e41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b754bc70f71a",
+          "_type": "span",
+          "marks": [],
+          "text": "The Data and Analytics Layer Behind the Meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "aa7cc6f63edd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42cb03d4c05a",
+          "_type": "span",
+          "marks": [],
+          "text": "The meter is visible. The data layer does the quieter work that determines whether the system is useful. A reading becomes valuable only after the platform connects it to the right unit, checks its quality, stores it securely, and presents it in a form a manager can act on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f06790a2c61",
+      "_type": "externalImage",
+      "alt": "A four-step diagram showing the data and analytics pipeline for utility meters, from ingestion to actionable insights.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/164d01ae-806e-418e-9671-5159ef496c5c/advanced-metering-infrastructure-data-pipeline.jpg"
+    },
+    {
+      "_key": "7bc047c08c0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ddd474dee5a",
+          "_type": "span",
+          "marks": [],
+          "text": "An AMI record may include an interval value, a timestamp, a meter identifier, and an event or communication status. A billing system needs more than raw numbers. It needs a dependable relationship between the meter, the premises, the account, the billing period, and the applicable rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac304b57b70f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efdd2791ce4b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bdfaa9f3a29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0472096e6eb9",
+          "_type": "span",
+          "marks": [],
+          "text": "From readings to management decisions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f1ba99f76afc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce6395c52a05",
+          "_type": "span",
+          "marks": [],
+          "text": "Interval data helps a manager see the building's normal pattern. Electricity may rise during occupancy, water may show a steady overnight flow, and a mechanical system may operate outside its intended schedule. The manager can compare the observed pattern with expected operations and decide whether to inspect equipment, review tenant communication, or adjust a maintenance plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee5ba1e24e72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c097cc891370",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak detection follows the same logic. A system can flag sustained or unusual consumption, then send that exception to a person or workflow. The alert doesn't replace inspection. It shortens the time between an abnormal pattern and a useful response."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ac12eb019c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aac9cf7e0b3d",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners can also use AMI data for:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b075bb2a48e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e4e990ce9e1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing review:"
+        },
+        {
+          "_key": "81e005d93f62",
+          "_type": "span",
+          "marks": [],
+          "text": " Match invoices to actual interval records and investigate missing or irregular reads."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "684fb8bf2c02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58dbaad818ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Load profiling:"
+        },
+        {
+          "_key": "84a707f7fc5e",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare tenant, common-area, and building-level patterns across operating periods."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "13b7752b48d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b027f4be66b6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Budget planning:"
+        },
+        {
+          "_key": "95f1dc1e19a3",
+          "_type": "span",
+          "marks": [],
+          "text": " Use observed consumption behaviour to support more informed forecasting."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ad8fcf576083",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd5855f945d8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Service verification:"
+        },
+        {
+          "_key": "5301cd459e31",
+          "_type": "span",
+          "marks": [],
+          "text": " Check whether a meter is communicating and whether an endpoint needs attention."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1060331c26a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2b7375cab88",
+          "_type": "span",
+          "marks": [],
+          "text": "Businesses building broader reporting processes may find "
+        },
+        {
+          "_key": "dde30a2e45a5",
+          "_type": "span",
+          "marks": [
+            "80c3cf5e36c0"
+          ],
+          "text": "data management analytics for SMBs"
+        },
+        {
+          "_key": "dcd0a58bad89",
+          "_type": "span",
+          "marks": [],
+          "text": " helpful as background on organising operational information. For submetering-specific workflows, "
+        },
+        {
+          "_key": "7a1669782413",
+          "_type": "span",
+          "marks": [
+            "b744b8e26c67"
+          ],
+          "text": "usage-based billing with Axis Meter Solutions"
+        },
+        {
+          "_key": "95f1b16f812a",
+          "_type": "span",
+          "marks": [],
+          "text": " shows how consumption records can feed tenant billing and reporting."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "80c3cf5e36c0",
+          "_type": "link",
+          "href": "https://www.cloudorbis.com/managed-it-services/data-management-analytics"
+        },
+        {
+          "_key": "b744b8e26c67",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/usage-based-billing-with-axis-meter-solutions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c703695bd89c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab70f8bb4ab1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "627cb8fd50ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db587c74e0d5",
+          "_type": "span",
+          "marks": [],
+          "text": "Governance is part of the design"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "816b9bc00656",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38b8e2fa6863",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI creates a larger information system, and that system can contain sensitive tenant-level usage data. Canadian security guidance identifies increased risks involving "
+        },
+        {
+          "_key": "feb2b56a814f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "customer privacy, data security, and cyberattacks"
+        },
+        {
+          "_key": "204f8dfa10fa",
+          "_type": "span",
+          "marks": [],
+          "text": " across meters, head-end systems, MDMS platforms, and communications networks. The same guidance notes that Ontario processes reads from "
+        },
+        {
+          "_key": "93c729b8eb6c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "over 5.3 million smart meters daily"
+        },
+        {
+          "_key": "9a994e235522",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "dc57794a1bf6",
+          "_type": "span",
+          "marks": [
+            "1c8d3da99d9f"
+          ],
+          "text": "Canadian AMI security and governance guidance"
+        },
+        {
+          "_key": "08771485fd17",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1c8d3da99d9f",
+          "_type": "link",
+          "href": "https://www.crwall.com/all-blog-posts/smart-metering-in-the-canadian-natural-gas-industry-benefits-trends-and-why-its-gaining-ground/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "15354bf792e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b23e85ed9ea",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners should ask who can access raw readings, who can export them, how accounts are segmented, and how the provider handles employee and contractor permissions. They should also ask what happens when communications fail. A resilient program should explain local data retention, recovery procedures, read estimation rules, escalation contacts, and the process for correcting a bad meter-to-suite association."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5340b82af45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f35e0711efd1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data is an operating asset, but it's also a responsibility."
+        },
+        {
+          "_key": "8e002ce1d4d0",
+          "_type": "span",
+          "marks": [],
+          "text": " The owner needs clear answers about access, retention, corrections, security, and continuity before residents depend on the resulting bills."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "2a5dcafaca5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e238d1fe4a73",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd1b033f62c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2e5ba6e13ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Phased Rollouts, Compliance, and Common AMI Misconceptions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "165ae273b0ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26dba600a18d",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common AMI misconception is that deployment is a clean cutover. A contractor removes an old meter, installs a smart meter, activates communications, and the building moves forward. That can happen in some projects. Large or complex portfolios often have old and new endpoints operating together while crews work through access limits, equipment availability, approvals, and system integration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "542b13b160d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14d4c358573a",
+          "_type": "span",
+          "marks": [],
+          "text": "The difficult question is often not installation logistics. It's "
+        },
+        {
+          "_key": "f46f081de419",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "how the owner keeps the remaining legacy meters compliant, safe, and readable during the transition"
+        },
+        {
+          "_key": "dffe5d54a0dc",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bb8bd1bf9e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6b5cc04043f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20c33d416620",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce3311dd38b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Legacy equipment can outlast the project plan"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "928211f1dac2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ba78168cc34",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto Hydro asked for temporary dispensation for "
+        },
+        {
+          "_key": "d0eb0ec2d1a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "121,011 electricity meters"
+        },
+        {
+          "_key": "1ad74bc6bf5d",
+          "_type": "span",
+          "marks": [],
+          "text": " whose seals were due to expire at the end of 2025, while AMI installation continued through "
+        },
+        {
+          "_key": "555c22e62eee",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "December 31, 2027"
+        },
+        {
+          "_key": "2bfa9aaa6d30",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "1b19135c77ab",
+          "_type": "span",
+          "marks": [
+            "c2e9cd860414"
+          ],
+          "text": "AMI project status and regulatory filing"
+        },
+        {
+          "_key": "a4a5d64af1ce",
+          "_type": "span",
+          "marks": [],
+          "text": "). The example matters because it shows how meter compliance deadlines can extend beyond the date a project was first approved."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c2e9cd860414",
+          "_type": "link",
+          "href": "https://www.nbpower.com/media/1494043/ami-project-status-report-to-nbeub-third-quarter.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e18876ee17e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2253012a939e",
+          "_type": "span",
+          "marks": [],
+          "text": "For a property owner, that creates practical questions. Which meters remain in service? Who tracks inspection or seal dates? What happens to a tenant's bill if an endpoint is removed, replaced, or temporarily unavailable? Can the provider distinguish a genuine zero-use period from a communications failure?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b77bf2ba430f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c36321431a43",
+          "_type": "span",
+          "marks": [],
+          "text": "A phased plan should document the old system and the new system together. It should identify the meter at each location, the account it serves, the approved replacement, the installation status, and the fallback billing process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1e24ebe4313",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4d835f4371d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3539ab00f4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a1938dcfc4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Data authority can change during deployment"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6cc0928ec732",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e836637b51be",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's Smart Metering Entity received exclusive authority over bi-directional smart-metering data as of "
+        },
+        {
+          "_key": "718db440d68f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "January 1, 2025"
+        },
+        {
+          "_key": "74058e5f28e1",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the same filing. That development illustrates a broader governance reality. Deployment doesn't end the policy conversation. Regulators and system operators may continue defining who controls, handles, and accesses new categories of metering information."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba4f2acca704",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f93c5ff3324f",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners should make these checks part of procurement:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a6b208ae445",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c03e8e54512",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm equipment approval:"
+        },
+        {
+          "_key": "7b976b38aa0a",
+          "_type": "span",
+          "marks": [],
+          "text": " Verify that the proposed meters and installation process meet the requirements of the applicable jurisdiction, including Measurement Canada requirements where relevant."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4432b2370abc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b61d563c9bd0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define account ownership:"
+        },
+        {
+          "_key": "1a4b53d90da8",
+          "_type": "span",
+          "marks": [],
+          "text": " Put in writing who owns the meter, who maintains it, and who is responsible for replacement."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2f286ca23db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb4f6d5d0773",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Map the transition:"
+        },
+        {
+          "_key": "3adf4eea4f8d",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask how old and new readings are reconciled when a building migrates in phases."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34c1fb4df041",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2283157ebd5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Protect billing continuity:"
+        },
+        {
+          "_key": "22a45b6b153b",
+          "_type": "span",
+          "marks": [],
+          "text": " Require a documented process for missed reads, communications outages, tenant moves, and meter exchanges."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a9101dcb4bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "079d7cebf788",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Clarify data access:"
+        },
+        {
+          "_key": "5eb00487433a",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify who can view, export, correct, and retain suite-level consumption information."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "62db27d7824e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb5dfd13a050",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Set escalation rules:"
+        },
+        {
+          "_key": "8723127a7157",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish who responds when a meter stops communicating or a resident challenges a charge."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc15311e9ac2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43d4449c32c5",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI is not risky because it's connected. It's manageable when the owner understands the connections, responsibilities, and failure procedures before the first installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b3e3d1c3ad6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "751eebd86155",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79a0e5572563",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd8a3beacd67",
+          "_type": "span",
+          "marks": [],
+          "text": "What AMI Means for Your Submetering Program"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "28b348d9ba42",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec6c8e1d9333",
+          "_type": "span",
+          "marks": [],
+          "text": "For a building owner, AMI capability is increasingly a baseline requirement rather than a technical luxury. "
+        },
+        {
+          "_key": "1e2d1ff5347b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Interval data, remote collection, usage alerts, and a dependable billing workflow"
+        },
+        {
+          "_key": "c59dcb8af1fe",
+          "_type": "span",
+          "marks": [],
+          "text": " turn a meter from a monthly register into an operating tool. The result can be clearer cost recovery, more transparent tenant communication, and earlier visibility into unusual consumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0eb3fb2009c4",
+      "_type": "externalImage",
+      "alt": "An infographic showing a water meter connected to digital icons representing the benefits of advanced metering infrastructure.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/132b66a9-bd10-462c-a582-5a9e0858b5d2/advanced-metering-infrastructure-smart-meter.jpg"
+    },
+    {
+      "_key": "12f35218c199",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c90cacd3e65f",
+          "_type": "span",
+          "marks": [],
+          "text": "Before signing a submetering agreement, ask:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f084e2302eb5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8800dc35a45c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What is measured?"
+        },
+        {
+          "_key": "bc865835d2fd",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the utility types, suite meters, common-area meters, and allocation boundaries."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87584760cfe9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa2d9e7d8247",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How often is data collected?"
+        },
+        {
+          "_key": "de143a99e4ab",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask whether the system provides interval reads and how missing records are handled."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9be05437e4e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75d392a48cdd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who manages the platform?"
+        },
+        {
+          "_key": "1fae26bbaf7c",
+          "_type": "span",
+          "marks": [],
+          "text": " Clarify responsibility for communications, data validation, billing, maintenance, and resident support."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f9a02315e0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97793519ebe9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How are leaks identified?"
+        },
+        {
+          "_key": "91c35c26a36d",
+          "_type": "span",
+          "marks": [],
+          "text": " Request the alert thresholds, notification process, and response expectations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3fb115f703af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3208b335010f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How is compliance maintained?"
+        },
+        {
+          "_key": "38108a6a3226",
+          "_type": "span",
+          "marks": [],
+          "text": " Verify equipment approvals, commissioning, permits, and transition procedures."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1267a8cf87e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c82f1fe11893",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What happens at contract end?"
+        },
+        {
+          "_key": "992a15eee052",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish ownership, data portability, meter removal, and replacement obligations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c2913858c89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a844eb30fba",
+          "_type": "span",
+          "marks": [],
+          "text": "A turnkey program can combine equipment, installation, commissioning, tenant billing, monitoring, and ongoing maintenance under a long-term agreement. Axis Meter Solutions offers these submetering services for multi-family, condominium, mixed-use, and commercial properties, including electricity, water, gas where permitted, thermal energy, common-area metering, and leak and flood detection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b290d6f053cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4c89896eada",
+          "_type": "span",
+          "marks": [],
+          "text": "If your building still relies on bulk utility costs, manual reads, or unclear common-area allocations, review the meter locations, current billing process, and compliance requirements before choosing a provider. Visit "
+        },
+        {
+          "_key": "b4ea89328ebd",
+          "_type": "span",
+          "marks": [
+            "1680c1cd8647"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "884020bdb98b",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss an AMI-based submetering program that connects measurement, tenant billing, monitoring, and ongoing service."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1680c1cd8647",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Advanced metering infrastructure explained for property owners: AMI architecture, AMI vs AMR, data capabilities, and what AMI means",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b11cfa94-7a65-45b9-acce-bb2d2e0a72ff/advanced-metering-infrastructure-electrical-meter.jpg",
+  "noIndex": false,
+  "outrankId": "b80aa187-06a1-4347-bcb4-a4142caac110",
+  "publishedAt": "2026-09-01T08:23:59.853578+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "advanced-metering-infrastructure"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Canada&#39;s smart-meter market is already mature. <strong>Natural Resources Canada estimated that 82% of Canadian electricity meters were smart meters by the end of 2018, while industry reporting placed the installed base at 15.5 million meters in 2024, with penetration still about 82%</strong> (<a href=\"https://440megatonnes.ca/insight/smart-meters-are-saving-costs-for-canadians-and-utilities/\">Canadian smart-meter adoption data</a>). For a multi-family or commercial property owner, that changes the question. You&#39;re not deciding whether networked metering is a futuristic utility concept. You&#39;re deciding what the infrastructure behind your building&#39;s meters can do.</p>\n<p>Vendors may use terms such as <strong>advanced metering infrastructure</strong>, smart metering, automated billing, or submetering interchangeably. They don&#39;t always mean the same thing. A meter that stores consumption is different from a meter that communicates hourly, and both are different from a complete system that validates data, detects events, supports billing, and keeps a portfolio visible.</p>\n<p>This guide translates AMI into property-owner language. It explains the equipment, compares AMI with AMR and manual reads, shows where the system affects tenant billing and net operating income, and addresses the less comfortable questions around phased installation, legacy-meter compliance, cybersecurity, and data control. If you&#39;re reviewing a <a href=\"https://www.axismeter.com/blog/residential-and-commercial\">residential and commercial submetering overview</a>, start by understanding the infrastructure rather than focusing only on the meter mounted in a suite.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-advanced-metering-infrastructure-matters-to-your-building\">Why Advanced Metering Infrastructure Matters to Your Building</a><ul>\n<li><a href=\"#the-five-questions-owners-should-ask\">The five questions owners should ask</a></li>\n</ul>\n</li>\n<li><a href=\"#how-advanced-metering-infrastructure-actually-works\">How Advanced Metering Infrastructure Actually Works</a><ul>\n<li><a href=\"#the-main-layers\">The main layers</a></li>\n<li><a href=\"#one-reading-from-suite-to-bill\">One reading from suite to bill</a></li>\n</ul>\n</li>\n<li><a href=\"#ami-versus-amr-and-legacy-meters\">AMI Versus AMR and Legacy Meters</a><ul>\n<li><a href=\"#choosing-the-right-level\">Choosing the right level</a></li>\n</ul>\n</li>\n<li><a href=\"#ami-use-cases-for-multi-family-and-commercial-properties\">AMI Use Cases for Multi-Family and Commercial Properties</a><ul>\n<li><a href=\"#converting-bulk-charges-into-unit-level-visibility\">Converting bulk charges into unit-level visibility</a></li>\n<li><a href=\"#separating-tenants-from-common-areas\">Separating tenants from common areas</a></li>\n<li><a href=\"#resolving-disputes-and-spotting-leaks\">Resolving disputes and spotting leaks</a></li>\n<li><a href=\"#matching-the-system-to-the-property\">Matching the system to the property</a></li>\n</ul>\n</li>\n<li><a href=\"#the-data-and-analytics-layer-behind-the-meters\">The Data and Analytics Layer Behind the Meters</a><ul>\n<li><a href=\"#from-readings-to-management-decisions\">From readings to management decisions</a></li>\n<li><a href=\"#governance-is-part-of-the-design\">Governance is part of the design</a></li>\n</ul>\n</li>\n<li><a href=\"#phased-rollouts-compliance-and-common-ami-misconceptions\">Phased Rollouts, Compliance, and Common AMI Misconceptions</a><ul>\n<li><a href=\"#legacy-equipment-can-outlast-the-project-plan\">Legacy equipment can outlast the project plan</a></li>\n<li><a href=\"#data-authority-can-change-during-deployment\">Data authority can change during deployment</a></li>\n</ul>\n</li>\n<li><a href=\"#what-ami-means-for-your-submetering-program\">What AMI Means for Your Submetering Program</a></li>\n</ul>\n<p><a id=\"why-advanced-metering-infrastructure-matters-to-your-building\"></a></p>\n<h2>Why Advanced Metering Infrastructure Matters to Your Building</h2>\n<p>Suppose a condominium corporation receives one bulk electricity bill. The property manager allocates the cost across units, residents question the calculations, and the corporation absorbs common-area consumption without a clear view of which loads are driving it. A commercial landlord faces a similar problem when tenant spaces, elevators, parking equipment, HVAC systems, and lobbies share a billing structure that wasn&#39;t designed for detailed cost recovery.</p>\n<p>The owner&#39;s problem isn&#39;t just that someone has to read a meter. The problem is that decisions are being made with incomplete information.</p>\n<p><strong>Advanced metering infrastructure, or AMI, is the connected system that turns meter readings into usable operational data.</strong> It can support automated collection, interval-level consumption records, billing workflows, exception handling, and visibility into unusual usage. For a building, that can mean fewer manual processes and a clearer relationship between consumption and charges. It can also create new responsibilities, especially when tenant-level data moves through several systems.</p>\n<p><a id=\"the-five-questions-owners-should-ask\"></a></p>\n<h3>The five questions owners should ask</h3>\n<p>A practical AMI review should answer five questions:</p>\n<ol>\n<li><strong>What is installed?</strong> Is the proposal for individual electricity, water, gas, thermal energy, common-area meters, or a combination?</li>\n<li><strong>How does data move?</strong> Does the system collect readings remotely through a fixed network, or does someone still need to pass near the meter?</li>\n<li><strong>How often is usage recorded?</strong> Monthly totals and hourly interval reads support very different decisions.</li>\n<li><strong>Who turns readings into bills and alerts?</strong> The meter is only one part of the process.</li>\n<li><strong>Who controls the data and manages compliance?</strong> A phased rollout can leave old and new systems operating together.</li>\n</ol>\n<p>These questions connect directly to building outcomes. Better interval data can make tenant invoicing more transparent, help identify unusual consumption, and separate shared loads from tenant usage. But AMI doesn&#39;t automatically produce savings. The owner still needs sound meter placement, approved equipment, clear billing rules, reliable communications, and a service process that handles exceptions.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Treat AMI as building infrastructure, not as a smart gadget. The communications and data-management layers determine whether the meter produces dependable value.</p>\n</blockquote>\n<p><a id=\"how-advanced-metering-infrastructure-actually-works\"></a></p>\n<h2>How Advanced Metering Infrastructure Actually Works</h2>\n<p>The easiest way to understand AMI is to compare it with a phone network. The <strong>smart meter is the phone</strong>. It records consumption and sends a message. A collector is similar to a cell tower, the communications network carries the message, and the head-end or data-management environment receives, stores, checks, and distributes the information.</p>\n<p>Ontario&#39;s policy definition makes the same point in more formal language. It describes AMI as a complete system of <strong>meters, communication devices, collectors, wide-area network links, and control computers</strong>, after setting targets for smart-meter installation in homes across the province (<a href=\"https://www.ontario.ca/page/functional-specification-advanced-metering-infrastructure\">Ontario&#39;s AMI functional specification</a>)).</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a5db1878-6fe1-46b8-904d-f565ec1fe426/advanced-metering-infrastructure-smart-meter.jpg\" alt=\"A diagram illustrating how advanced metering infrastructure works using smart meters, collectors, a network, and a utility system.\"></p>\n<p><a id=\"the-main-layers\"></a></p>\n<h3>The main layers</h3>\n<p><strong>The meter measures.</strong> A suite or tenant meter records consumption and attaches a time reference to the reading. In a multi-family property, that endpoint may serve one apartment. In a commercial building, it may measure a tenant panel, a mechanical load, or a common-area circuit.</p>\n<p><strong>The communication device transmits.</strong> The meter needs a way to send its information beyond the electrical room. Depending on the design, communications may use radio, a wired connection, cellular service, or another network approach. The important property-owner question isn&#39;t the technical label. It&#39;s whether the connection works consistently through concrete, basements, electrical rooms, and dense tenant spaces.</p>\n<p><strong>Collectors gather local messages.</strong> A collector receives information from multiple endpoints in its coverage area. The cell-tower analogy helps here. A meter may be working perfectly while the collector, antenna, or local connection has a problem, so the complete system needs health monitoring rather than occasional meter inspection.</p>\n<p><strong>The wide-area network carries the information.</strong> The WAN links the local collection point to the utility or submetering operator&#39;s central systems. If the network is interrupted, the meter may continue recording locally, but the operator may not receive the information until communications resume.</p>\n<p><strong>The head-end and data-management systems process it.</strong> The head-end system communicates with the meters and manages the network connection. A meter data management system, or MDMS, stores and processes readings so they can support billing, reporting, and analysis. Owners evaluating broader connectivity projects may also find <a href=\"https://networking2000.co.uk/2026/07/14/iot-connectivity-solutions/\">IoT deployment help by Networking2000</a> useful for understanding how connected devices depend on communications planning.</p>\n<p><a id=\"one-reading-from-suite-to-bill\"></a></p>\n<h3>One reading from suite to bill</h3>\n<p>Ontario&#39;s specification requires hourly reads from deployed devices, with each reading time-stamped to the minute and transferred to the meter data repository by <strong>5:00 a.m. local time</strong> after the daily read period. It also requires collectors to retain a rolling <strong>60 days</strong> of meter reads (<a href=\"https://www.auditor.on.ca/en/content/news/14_newsreleases/2014news_3.11.pdf\">Ontario Auditor General material on smart metering</a>).</p>\n<p>In practical terms, a suite meter records usage during an hour, assigns the reading its time information, sends it to a collector, and travels through the network to the central system. The data layer can then check whether the reading is complete, associate it with the correct account, and pass it into billing or reporting. A property owner wanting a visual explanation of the endpoint-to-system journey can review <a href=\"https://www.axismeter.com/how-it-works\">how networked metering works</a>.</p>\n<p><a id=\"ami-versus-amr-and-legacy-meters\"></a></p>\n<h2>AMI Versus AMR and Legacy Meters</h2>\n<p>“Remote meter reading” can refer to different systems. <strong>Automatic meter reading, or AMR, usually automates collection without creating a fully interactive network.</strong> A device may store a reading until a worker or vehicle passes nearby and retrieves it. That reduces manual entry, but it may not provide AMI&#39;s regular two-way communication, event reporting, or approved remote commands.</p>\n<p>A legacy meter relies on someone visiting the site and recording the register. It can suit a small property with simple access and limited billing requirements. The process becomes harder when access is restricted, tenants change often, charges are disputed, or several utility loads must be allocated across suites and common areas.</p>\n<table>\n<thead>\n<tr>\n<th>Capability</th>\n<th>Manual Reading</th>\n<th>AMR</th>\n<th>AMI</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Read collection</strong></td>\n<td>A person records the register on site</td>\n<td>A device collects a stored read during walk-by or drive-by activity</td>\n<td>A fixed network collects readings automatically</td>\n</tr>\n<tr>\n<td><strong>Read frequency</strong></td>\n<td>Depends on visits</td>\n<td>Depends on collection routes and schedules</td>\n<td>Can support regular interval data, including hourly reads where specified</td>\n</tr>\n<tr>\n<td><strong>Data granularity</strong></td>\n<td>Usually a cumulative register at the visit</td>\n<td>More automated, but still dependent on the collection process</td>\n<td>Time-stamped interval records support load profiling</td>\n</tr>\n<tr>\n<td><strong>Outage visibility</strong></td>\n<td>Usually discovered during a visit or customer report</td>\n<td>Limited by the next collection event</td>\n<td>Network and meter events can be monitored centrally</td>\n</tr>\n<tr>\n<td><strong>Remote control</strong></td>\n<td>Not available</td>\n<td>Generally limited</td>\n<td>May support two-way communications and approved remote functions</td>\n</tr>\n<tr>\n<td><strong>Tenant billing</strong></td>\n<td>Manual processing and greater transcription risk</td>\n<td>Better collection efficiency</td>\n<td>Stronger fit for automated billing, exceptions, and consumption analysis</td>\n</tr>\n</tbody></table>\n<p>Ontario&#39;s smart-metering requirements show the operational difference between a stored read and interval data. The specification calls for hourly readings, minute-level timestamps, transfer to the central repository by <strong>5:00 a.m. local time</strong> after the daily read period, and collector storage for a rolling <strong>60 days</strong>. These requirements are summarized in the <a href=\"https://www.auditor.on.ca/en/content/news/14_newsreleases/2014news_3.11.pdf\">Ontario smart-metering requirements</a>.</p>\n<p><a id=\"choosing-the-right-level\"></a></p>\n<h3>Choosing the right level</h3>\n<p>AMR can be a sensible choice. A small property with straightforward access and limited reporting needs may not need the communications and data-management systems that AMI requires. Manual reads can also remain practical for isolated equipment or temporary verification.</p>\n<p>AMI fits buildings that need <strong>repeatable billing, interval visibility, remote collection, common-area allocation, usage alerts, or portfolio-level reporting</strong>. For a multi-family or commercial owner, the decision also includes governance and rollout risk. Confirm which endpoints the system can communicate with, how often readings are captured, what happens when a read is missing, and whether the service includes data validation. Ask how tenant data is assigned, retained, and shared, especially when installation is phased across a portfolio.</p>\n<p>A provider should also clarify whether AMI installation is scheduled to continue through <strong>December 31, 2027</strong>, where that timeline applies. Those answers show whether the proposal is AMR, AMI, or a hybrid arrangement, and whether the system can support the building&#39;s compliance and billing process as it expands.</p>\n<p><a id=\"ami-use-cases-for-multi-family-and-commercial-properties\"></a></p>\n<h2>AMI Use Cases for Multi-Family and Commercial Properties</h2>\n<p>AMI becomes easier to evaluate when you tie it to a building decision. The same networked meter can support different outcomes depending on how the owner structures billing, operations, and tenant communications.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/53e5c038-2872-4bdd-b435-49d291133109/advanced-metering-infrastructure-smart-meter.jpg\" alt=\"A professional man checking electricity usage data on a tablet next to a bank of meters.\"></p>\n<p><a id=\"converting-bulk-charges-into-unit-level-visibility\"></a></p>\n<h3>Converting bulk charges into unit-level visibility</h3>\n<p>A multi-family owner paying a bulk electricity bill may have limited insight into suite consumption. Installing unit-level meters and collecting readings remotely can support a cost-recovery model where charges reflect measured use rather than a broad allocation. The value is not only financial. Residents can see how their bills relate to actual consumption, and managers can investigate a disputed charge with a reading history instead of relying on a single manual visit.</p>\n<p>The same approach can apply to water, thermal energy, or gas where permitted and where the building&#39;s physical and regulatory conditions support it. A provider should explain which utility is being measured, how meters are commissioned, and how tenant accounts connect to the correct endpoint.</p>\n<p><a id=\"separating-tenants-from-common-areas\"></a></p>\n<h3>Separating tenants from common areas</h3>\n<p>A commercial landlord may need to distinguish tenant consumption from elevators, lobby lighting, pumps, parking equipment, and mechanical systems. <strong>Common-area metering creates a separate measurement boundary.</strong> AMI then supplies a consistent stream of readings for each boundary, giving the owner a clearer basis for budgeting, lease administration, and investigation of unexpected loads.</p>\n<p>That separation can also reveal operational questions. If a common-area profile changes sharply, the property team can check equipment schedules, controls, or maintenance conditions. The system doesn&#39;t diagnose every cause on its own, but it gives staff a time-based pattern to investigate.</p>\n<p><a id=\"resolving-disputes-and-spotting-leaks\"></a></p>\n<h3>Resolving disputes and spotting leaks</h3>\n<p>Student housing and affordable housing operators often manage residents with different move-in dates, billing questions, and account changes. A time-stamped data history can help the operator confirm whether a bill reflects an actual read, a transition between occupants, or a data exception requiring review.</p>\n<p>Water presents another useful example. A slow leak may create a sustained usage pattern outside the building&#39;s normal profile. An alert process can bring that pattern to the manager&#39;s attention before visible damage occurs. That&#39;s why leak detection should be evaluated as part of the metering program, not treated as an unrelated add-on.</p>\n<p>For a practical discussion of connected utility monitoring, this video provides additional context:</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/aC8Q0N9cDHQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"matching-the-system-to-the-property\"></a></p>\n<h3>Matching the system to the property</h3>\n<p>The right design depends on the number of units, meter locations, access conditions, utility types, and billing rules. Modern submetering programs can serve properties ranging from smaller buildings to large portfolios, but the owner still needs a site-specific plan.</p>\n<p>Ontario&#39;s smart-meter initiative shows why lifecycle thinking matters. The Auditor General reported <strong>$1.9 billion in implementation costs by May 2014</strong>, while broader commentary estimated that total program costs could ultimately reach <strong>about $50 billion</strong> (<a href=\"https://www.auditor.on.ca/en/content/annualreports/arreports/en14/311en14.pdf\">Ontario Auditor General report on the smart-meter initiative</a>). A building-level business case should therefore look beyond the hardware price and assess collection, data management, billing accuracy, maintenance, and long-term operational gains.</p>\n<p><a id=\"the-data-and-analytics-layer-behind-the-meters\"></a></p>\n<h2>The Data and Analytics Layer Behind the Meters</h2>\n<p>The meter is visible. The data layer does the quieter work that determines whether the system is useful. A reading becomes valuable only after the platform connects it to the right unit, checks its quality, stores it securely, and presents it in a form a manager can act on.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/164d01ae-806e-418e-9671-5159ef496c5c/advanced-metering-infrastructure-data-pipeline.jpg\" alt=\"A four-step diagram showing the data and analytics pipeline for utility meters, from ingestion to actionable insights.\"></p>\n<p>An AMI record may include an interval value, a timestamp, a meter identifier, and an event or communication status. A billing system needs more than raw numbers. It needs a dependable relationship between the meter, the premises, the account, the billing period, and the applicable rules.</p>\n<p><a id=\"from-readings-to-management-decisions\"></a></p>\n<h3>From readings to management decisions</h3>\n<p>Interval data helps a manager see the building&#39;s normal pattern. Electricity may rise during occupancy, water may show a steady overnight flow, and a mechanical system may operate outside its intended schedule. The manager can compare the observed pattern with expected operations and decide whether to inspect equipment, review tenant communication, or adjust a maintenance plan.</p>\n<p>Leak detection follows the same logic. A system can flag sustained or unusual consumption, then send that exception to a person or workflow. The alert doesn&#39;t replace inspection. It shortens the time between an abnormal pattern and a useful response.</p>\n<p>Owners can also use AMI data for:</p>\n<ul>\n<li><strong>Billing review:</strong> Match invoices to actual interval records and investigate missing or irregular reads.</li>\n<li><strong>Load profiling:</strong> Compare tenant, common-area, and building-level patterns across operating periods.</li>\n<li><strong>Budget planning:</strong> Use observed consumption behaviour to support more informed forecasting.</li>\n<li><strong>Service verification:</strong> Check whether a meter is communicating and whether an endpoint needs attention.</li>\n</ul>\n<p>Businesses building broader reporting processes may find <a href=\"https://www.cloudorbis.com/managed-it-services/data-management-analytics\">data management analytics for SMBs</a> helpful as background on organising operational information. For submetering-specific workflows, <a href=\"https://www.axismeter.com/blog/usage-based-billing-with-axis-meter-solutions\">usage-based billing with Axis Meter Solutions</a> shows how consumption records can feed tenant billing and reporting.</p>\n<p><a id=\"governance-is-part-of-the-design\"></a></p>\n<h3>Governance is part of the design</h3>\n<p>AMI creates a larger information system, and that system can contain sensitive tenant-level usage data. Canadian security guidance identifies increased risks involving <strong>customer privacy, data security, and cyberattacks</strong> across meters, head-end systems, MDMS platforms, and communications networks. The same guidance notes that Ontario processes reads from <strong>over 5.3 million smart meters daily</strong> (<a href=\"https://www.crwall.com/all-blog-posts/smart-metering-in-the-canadian-natural-gas-industry-benefits-trends-and-why-its-gaining-ground/\">Canadian AMI security and governance guidance</a>).</p>\n<p>Property owners should ask who can access raw readings, who can export them, how accounts are segmented, and how the provider handles employee and contractor permissions. They should also ask what happens when communications fail. A resilient program should explain local data retention, recovery procedures, read estimation rules, escalation contacts, and the process for correcting a bad meter-to-suite association.</p>\n<blockquote>\n<p><strong>Data is an operating asset, but it&#39;s also a responsibility.</strong> The owner needs clear answers about access, retention, corrections, security, and continuity before residents depend on the resulting bills.</p>\n</blockquote>\n<p><a id=\"phased-rollouts-compliance-and-common-ami-misconceptions\"></a></p>\n<h2>Phased Rollouts, Compliance, and Common AMI Misconceptions</h2>\n<p>The most common AMI misconception is that deployment is a clean cutover. A contractor removes an old meter, installs a smart meter, activates communications, and the building moves forward. That can happen in some projects. Large or complex portfolios often have old and new endpoints operating together while crews work through access limits, equipment availability, approvals, and system integration.</p>\n<p>The difficult question is often not installation logistics. It&#39;s <strong>how the owner keeps the remaining legacy meters compliant, safe, and readable during the transition</strong>.</p>\n<p><a id=\"legacy-equipment-can-outlast-the-project-plan\"></a></p>\n<h3>Legacy equipment can outlast the project plan</h3>\n<p>Toronto Hydro asked for temporary dispensation for <strong>121,011 electricity meters</strong> whose seals were due to expire at the end of 2025, while AMI installation continued through <strong>December 31, 2027</strong> (<a href=\"https://www.nbpower.com/media/1494043/ami-project-status-report-to-nbeub-third-quarter.pdf\">AMI project status and regulatory filing</a>). The example matters because it shows how meter compliance deadlines can extend beyond the date a project was first approved.</p>\n<p>For a property owner, that creates practical questions. Which meters remain in service? Who tracks inspection or seal dates? What happens to a tenant&#39;s bill if an endpoint is removed, replaced, or temporarily unavailable? Can the provider distinguish a genuine zero-use period from a communications failure?</p>\n<p>A phased plan should document the old system and the new system together. It should identify the meter at each location, the account it serves, the approved replacement, the installation status, and the fallback billing process.</p>\n<p><a id=\"data-authority-can-change-during-deployment\"></a></p>\n<h3>Data authority can change during deployment</h3>\n<p>Ontario&#39;s Smart Metering Entity received exclusive authority over bi-directional smart-metering data as of <strong>January 1, 2025</strong>, according to the same filing. That development illustrates a broader governance reality. Deployment doesn&#39;t end the policy conversation. Regulators and system operators may continue defining who controls, handles, and accesses new categories of metering information.</p>\n<p>Property owners should make these checks part of procurement:</p>\n<ul>\n<li><strong>Confirm equipment approval:</strong> Verify that the proposed meters and installation process meet the requirements of the applicable jurisdiction, including Measurement Canada requirements where relevant.</li>\n<li><strong>Define account ownership:</strong> Put in writing who owns the meter, who maintains it, and who is responsible for replacement.</li>\n<li><strong>Map the transition:</strong> Ask how old and new readings are reconciled when a building migrates in phases.</li>\n<li><strong>Protect billing continuity:</strong> Require a documented process for missed reads, communications outages, tenant moves, and meter exchanges.</li>\n<li><strong>Clarify data access:</strong> Identify who can view, export, correct, and retain suite-level consumption information.</li>\n<li><strong>Set escalation rules:</strong> Establish who responds when a meter stops communicating or a resident challenges a charge.</li>\n</ul>\n<p>AMI is not risky because it&#39;s connected. It&#39;s manageable when the owner understands the connections, responsibilities, and failure procedures before the first installation.</p>\n<p><a id=\"what-ami-means-for-your-submetering-program\"></a></p>\n<h2>What AMI Means for Your Submetering Program</h2>\n<p>For a building owner, AMI capability is increasingly a baseline requirement rather than a technical luxury. <strong>Interval data, remote collection, usage alerts, and a dependable billing workflow</strong> turn a meter from a monthly register into an operating tool. The result can be clearer cost recovery, more transparent tenant communication, and earlier visibility into unusual consumption.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/132b66a9-bd10-462c-a582-5a9e0858b5d2/advanced-metering-infrastructure-smart-meter.jpg\" alt=\"An infographic showing a water meter connected to digital icons representing the benefits of advanced metering infrastructure.\"></p>\n<p>Before signing a submetering agreement, ask:</p>\n<ul>\n<li><strong>What is measured?</strong> Confirm the utility types, suite meters, common-area meters, and allocation boundaries.</li>\n<li><strong>How often is data collected?</strong> Ask whether the system provides interval reads and how missing records are handled.</li>\n<li><strong>Who manages the platform?</strong> Clarify responsibility for communications, data validation, billing, maintenance, and resident support.</li>\n<li><strong>How are leaks identified?</strong> Request the alert thresholds, notification process, and response expectations.</li>\n<li><strong>How is compliance maintained?</strong> Verify equipment approvals, commissioning, permits, and transition procedures.</li>\n<li><strong>What happens at contract end?</strong> Establish ownership, data portability, meter removal, and replacement obligations.</li>\n</ul>\n<p>A turnkey program can combine equipment, installation, commissioning, tenant billing, monitoring, and ongoing maintenance under a long-term agreement. Axis Meter Solutions offers these submetering services for multi-family, condominium, mixed-use, and commercial properties, including electricity, water, gas where permitted, thermal energy, common-area metering, and leak and flood detection.</p>\n<hr>\n<p>If your building still relies on bulk utility costs, manual reads, or unclear common-area allocations, review the meter locations, current billing process, and compliance requirements before choosing a provider. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss an AMI-based submetering program that connects measurement, tenant billing, monitoring, and ongoing service.</p>",
+  "tags": [
+    "advanced metering infrastructure",
+    "AMI vs AMR",
+    "smart meters",
+    "utility submetering",
+    "smart meter data"
+  ],
+  "title": "Advanced Metering Infrastructure: A Property Owner's Guide",
+  "updatedAt": "2026-09-01T08:24:04.131Z"
+}
