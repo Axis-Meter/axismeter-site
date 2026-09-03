@@ -1,0 +1,3317 @@
+{
+  "_createdAt": "2026-09-03T09:55:46Z",
+  "_id": "outrank-a606ff8d-9205-480c-ad21-14f9d75e8fce",
+  "_rev": "AWGxcl2dD5LlZ1gmDPYqpO",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-03T09:55:46Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "7c03d02741fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dedac21b14f2",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner can discover a metering problem in an ordinary budget review. A landlord in Mississauga, for example, may compare the building's utility bill with suite records and find that a large share of electricity use can't be assigned to individual units. The issue may not be a billing error. It may mean the building has one utility meter for the entire property, while the owner has no reliable way to measure what each suite, commercial space, or common area consumes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f66d51e8c16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67379ff4c0c6",
+          "_type": "span",
+          "marks": [],
+          "text": "That's where "
+        },
+        {
+          "_key": "1a12f13e9f1d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "smart meters in Ontario"
+        },
+        {
+          "_key": "6c30f419b2dc",
+          "_type": "span",
+          "marks": [],
+          "text": " and private unit submetering meet. A utility smart meter measures electricity at the service entrance and sends consumption information into the provincial billing and grid-data system. Unit submeters sit downstream, inside the building, and measure individual areas for cost allocation and tenant billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86765ef428b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fabee9d0c03",
+          "_type": "span",
+          "marks": [],
+          "text": "The distinction matters. The Ontario Energy Board sets rules for electricity distributors, consumer protection, and unit submetering, while the "
+        },
+        {
+          "_key": "55ed3400d359",
+          "_type": "span",
+          "marks": [
+            "755c08a2edf6"
+          ],
+          "text": "Independent Electricity System Operator"
+        },
+        {
+          "_key": "802c7517e779",
+          "_type": "span",
+          "marks": [],
+          "text": " manages important provincial electricity-market and data functions. Together, their frameworks shape how property owners collect, use, and report metering information."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "755c08a2edf6",
+          "_type": "link",
+          "href": "https://www.ieso.ca/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c5c54c9c078c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1776afbc1e8",
+          "_type": "span",
+          "marks": [],
+          "text": "This guide connects Ontario's province-wide smart-meter infrastructure with practical building management. It explains how landlords, condominium corporations, and commercial property managers can use unit-level data to recover eligible utility costs, investigate common-area waste, and prepare properties with solar generation or storage for changing data rules. For a plain-language introduction to time-based electricity pricing, review this guide to "
+        },
+        {
+          "_key": "60f397286294",
+          "_type": "span",
+          "marks": [
+            "996a071da9ac"
+          ],
+          "text": "Time-of-Use hydro pricing"
+        },
+        {
+          "_key": "b1e7c9e94416",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "996a071da9ac",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/time-of-use-hydro"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "270a93c9316d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94602e01bd58",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "49ce5dc322d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94c6e53bd6ef",
+          "_type": "span",
+          "marks": [
+            "6338c7498be7"
+          ],
+          "text": "What Smart Meters Mean for Ontario Property Owners"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6338c7498be7",
+          "_type": "link",
+          "href": "#what-smart-meters-mean-for-ontario-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2ebc6c8fcadd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ddb50e50bd1",
+          "_type": "span",
+          "marks": [
+            "97319ff4a630"
+          ],
+          "text": "The building-level gap"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "97319ff4a630",
+          "_type": "link",
+          "href": "#the-building-level-gap"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e0d4098d5fd7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6fd42bc3e13",
+          "_type": "span",
+          "marks": [
+            "c5252e7fe517"
+          ],
+          "text": "How Ontario Built One of the World's Largest Smart Meter Networks"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c5252e7fe517",
+          "_type": "link",
+          "href": "#how-ontario-built-one-of-the-worlds-largest-smart-meter-networks"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "104eb5f74a4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7092fe21feca",
+          "_type": "span",
+          "marks": [
+            "659071e4fafc"
+          ],
+          "text": "The deployment sequence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "659071e4fafc",
+          "_type": "link",
+          "href": "#the-deployment-sequence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "16ae381726e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6510e73ba689",
+          "_type": "span",
+          "marks": [
+            "866c9fba3062"
+          ],
+          "text": "Why scale matters to property owners"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "866c9fba3062",
+          "_type": "link",
+          "href": "#why-scale-matters-to-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "14657f0e4a92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad1e800715bb",
+          "_type": "span",
+          "marks": [
+            "17e667b651d1"
+          ],
+          "text": "How Smart Meter Data Drives Billing and Conservation"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "17e667b651d1",
+          "_type": "link",
+          "href": "#how-smart-meter-data-drives-billing-and-conservation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "88f765ce0c6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06272d2b726f",
+          "_type": "span",
+          "marks": [
+            "090c3322d95c"
+          ],
+          "text": "From interval records to a bill"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "090c3322d95c",
+          "_type": "link",
+          "href": "#from-interval-records-to-a-bill"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3c2a9f699c08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "758c79e1e77e",
+          "_type": "span",
+          "marks": [
+            "292b32527c51"
+          ],
+          "text": "Smart Meters and Unit Submetering in Multi-Unit Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "292b32527c51",
+          "_type": "link",
+          "href": "#smart-meters-and-unit-submetering-in-multi-unit-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b69fb58ce96b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2df5edf575d7",
+          "_type": "span",
+          "marks": [
+            "64eb8d96c881"
+          ],
+          "text": "How the two systems work together"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "64eb8d96c881",
+          "_type": "link",
+          "href": "#how-the-two-systems-work-together"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b835ed303695",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c59f6b99013",
+          "_type": "span",
+          "marks": [
+            "b2f613084ac0"
+          ],
+          "text": "A simple recovery example"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b2f613084ac0",
+          "_type": "link",
+          "href": "#a-simple-recovery-example"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4e045c56ea19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43425d6fa8cf",
+          "_type": "span",
+          "marks": [
+            "b0e0d6a1002e"
+          ],
+          "text": "Behind-the-Meter Generation and the 2025 Regulatory Shift"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b0e0d6a1002e",
+          "_type": "link",
+          "href": "#behind-the-meter-generation-and-the-2025-regulatory-shift"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8f9dc12f2993",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb9da941a464",
+          "_type": "span",
+          "marks": [
+            "b788f7938136"
+          ],
+          "text": "What changes operationally"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b788f7938136",
+          "_type": "link",
+          "href": "#what-changes-operationally"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "47769868993d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e4a95b11a57",
+          "_type": "span",
+          "marks": [
+            "e13c7292d0ac"
+          ],
+          "text": "Accuracy, Privacy, and Installation Considerations"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e13c7292d0ac",
+          "_type": "link",
+          "href": "#accuracy-privacy-and-installation-considerations"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "42050789ab4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae490def9124",
+          "_type": "span",
+          "marks": [
+            "6c2bddf87bac"
+          ],
+          "text": "Accuracy begins with approved equipment"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6c2bddf87bac",
+          "_type": "link",
+          "href": "#accuracy-begins-with-approved-equipment"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b22856d3edf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c99d742b0283",
+          "_type": "span",
+          "marks": [
+            "0c147abed91d"
+          ],
+          "text": "Privacy is about controlled use"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0c147abed91d",
+          "_type": "link",
+          "href": "#privacy-is-about-controlled-use"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9de017bd23f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08a049a3564e",
+          "_type": "span",
+          "marks": [
+            "2837cc8c5f90"
+          ],
+          "text": "Installation requires coordination"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2837cc8c5f90",
+          "_type": "link",
+          "href": "#installation-requires-coordination"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3d4b93cf115c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21f6fc8b9c5e",
+          "_type": "span",
+          "marks": [
+            "2d6927f99330"
+          ],
+          "text": "A Practical Path Forward for Ontario Property Owners"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2d6927f99330",
+          "_type": "link",
+          "href": "#a-practical-path-forward-for-ontario-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "10da06875688",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e0786a248f6",
+          "_type": "span",
+          "marks": [
+            "9b67b67d7261"
+          ],
+          "text": "A four-part decision path"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9b67b67d7261",
+          "_type": "link",
+          "href": "#a-four-part-decision-path"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6274f5f01276",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be09b0c0cb68",
+          "_type": "span",
+          "marks": [
+            "edd3ee1e9c8c"
+          ],
+          "text": "A workable checklist"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "edd3ee1e9c8c",
+          "_type": "link",
+          "href": "#a-workable-checklist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "26c7f00f5e2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "933b0a06401f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81e195593531",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db6fe3e0bb77",
+          "_type": "span",
+          "marks": [],
+          "text": "What Smart Meters Mean for Ontario Property Owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b66272dd22f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cca2c7859372",
+          "_type": "span",
+          "marks": [],
+          "text": "A smart meter is a digital electricity meter that records consumption in intervals and communicates readings to the local distribution utility. It replaces the uncertainty of manual reads with a continuous data process that supports billing, usage analysis, and grid operations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3757e47f27aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efca3d2a4e8a",
+          "_type": "span",
+          "marks": [],
+          "text": "For a building owner, though, the utility's smart meter usually answers only one question: "
+        },
+        {
+          "_key": "cb622b2fdbb7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "how much electricity entered the property?"
+        },
+        {
+          "_key": "779d2aa9dc44",
+          "_type": "span",
+          "marks": [],
+          "text": " If the meter is installed at the service entrance, its reading covers the whole building. It doesn't automatically tell you how much electricity a particular apartment used, which retail tenant is responsible for a load, or whether a garage ventilation system is operating inefficiently."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e49bd40ad1f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ada949089e99",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "870e44a38cdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b994f7645a95",
+          "_type": "span",
+          "marks": [],
+          "text": "The building-level gap"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4cb01d7e0e54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e415a869fb0c",
+          "_type": "span",
+          "marks": [],
+          "text": "Consider a mid-rise property with residential suites, underground parking, elevators, hallway lighting, mechanical equipment, and shared laundry. The utility smart meter records the combined load. If the owner wants to recover electricity costs from residents based on actual usage, the building needs additional measuring points downstream."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ab9759d7e95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "469e682aedb3",
+          "_type": "span",
+          "marks": [],
+          "text": "Those devices are "
+        },
+        {
+          "_key": "f6c3d4f38635",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "unit submeters"
+        },
+        {
+          "_key": "0ad1b9d51afa",
+          "_type": "span",
+          "marks": [],
+          "text": ". They can measure individual suites, commercial spaces, shared facilities, or selected equipment. A billing provider can then match readings to the correct occupant or account, apply the permitted billing method, and produce statements that residents can understand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1afa6bd48139",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f5c70bfa227",
+          "_type": "span",
+          "marks": [],
+          "text": "The provincial system and the private building system therefore perform different jobs:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59ba048ddf8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac57ae93c4f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Utility smart meter:"
+        },
+        {
+          "_key": "a87042212f52",
+          "_type": "span",
+          "marks": [],
+          "text": " Measures electricity delivered through the property's main service connection."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68d6d6936f22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4551725bab92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unit submeter:"
+        },
+        {
+          "_key": "e1506022af70",
+          "_type": "span",
+          "marks": [],
+          "text": " Measures consumption within a defined suite, area, or tenant space."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cac4f9ffaccf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "adbabc37eb6b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area meter:"
+        },
+        {
+          "_key": "389ec2bf5319",
+          "_type": "span",
+          "marks": [],
+          "text": " Separates shared loads from tenant-controlled consumption."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a4f18ef82d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29042cf5eff2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing platform:"
+        },
+        {
+          "_key": "02d497bf8a2e",
+          "_type": "span",
+          "marks": [],
+          "text": " Converts validated readings into statements, records, and support workflows."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "049595f9e79e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26647d681221",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "ba8461413762",
+          "_type": "span",
+          "marks": [],
+          "text": " A building-wide smart meter improves visibility at the property boundary. It doesn't replace suite-level measurement when the owner needs fair, documented allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "54265c63426e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c00f8f213c41",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction also affects conservation. A whole-building bill may reveal that consumption is high, but suite and common-area data can help identify where the load originates. Managers can use that information to investigate lighting schedules, heating and cooling controls, ventilation, elevators, parking systems, and tenant behaviour without treating the entire property as one undifferentiated load."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1a80a039366",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "643297991f33",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e23b5eed30cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e084f25cf65f",
+          "_type": "span",
+          "marks": [],
+          "text": "How Ontario Built One of the World's Largest Smart Meter Networks"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c7686769378e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e330d190f9b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's smart-meter story began as a provincial policy decision, not as a collection of isolated utility experiments. A "
+        },
+        {
+          "_key": "693061341d58",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2004 government directive"
+        },
+        {
+          "_key": "a4c60d5b59b5",
+          "_type": "span",
+          "marks": [],
+          "text": " set a target of "
+        },
+        {
+          "_key": "79db1d927050",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "800,000 smart meters by December 31, 2007"
+        },
+        {
+          "_key": "d491f8559ba5",
+          "_type": "span",
+          "marks": [],
+          "text": ", followed by full deployment to every Ontario electricity consumer by "
+        },
+        {
+          "_key": "b4942915ea95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "December 31, 2010"
+        },
+        {
+          "_key": "1dec1678bac6",
+          "_type": "span",
+          "marks": [],
+          "text": ". The International Energy Agency's account of Ontario's smart-meter directive identifies that deadline as a major step in moving advanced metering to province-wide scale."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "973e8388bcd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47fe8813e4b1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ecb79c6062a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11b699c442b3",
+          "_type": "span",
+          "marks": [],
+          "text": "The deployment sequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4fda46fbc9cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46f8f4e33b25",
+          "_type": "span",
+          "marks": [],
+          "text": "The timeline is easier to understand in three stages:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0eeb6b3dbb15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11e4d48602c2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Policy mandate:"
+        },
+        {
+          "_key": "f508b107c827",
+          "_type": "span",
+          "marks": [],
+          "text": " Ontario connected smart metering with conservation and time-based pricing. The purpose went beyond taking automated readings. Customers were expected to gain information that could help them shift usage away from expensive periods and manage bills more actively."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d8f302680e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7af30271fa91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Mass installation:"
+        },
+        {
+          "_key": "447079de513f",
+          "_type": "span",
+          "marks": [],
+          "text": " Local distribution companies installed and connected meters across their service territories, including large urban and rural networks."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e809615b7fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03b1625d5e8a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data-system operation:"
+        },
+        {
+          "_key": "b7fdaa95ffae",
+          "_type": "span",
+          "marks": [],
+          "text": " Utilities connected meter communications and data-management processes so readings could be validated and converted into customer billing records."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d081d99b2a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae42c3adabff",
+          "_type": "span",
+          "marks": [],
+          "text": "The communication architecture varies by system design, but the basic principle is straightforward. A meter records electricity use, sends information through a communications network, and delivers that information to utility data-management systems. Those systems organise readings for billing, customer portals, operational analysis, and authorised data sharing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4dd5aa278cdf",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the five-step process of how smart meters transmit energy data to produce utility bills.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5e8b47f4-07b7-478b-aefa-052f7a91bdb1/smart-meters-ontario-utility-process.jpg"
+    },
+    {
+      "_key": "0f108a9d43e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c43ed70b7c9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df2e7add8c82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1cfc512d5d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Why scale matters to property owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b1ceedd7615a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ff338873a37",
+          "_type": "span",
+          "marks": [],
+          "text": "The Independent Electricity System Operator reports that Ontario has "
+        },
+        {
+          "_key": "aac7e3454f26",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "more than five million installed smart meters"
+        },
+        {
+          "_key": "e657e3cc5b9a",
+          "_type": "span",
+          "marks": [],
+          "text": ", while the provincial data repository receives "
+        },
+        {
+          "_key": "97e02fcc4cfc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "over 125 million new records each day"
+        },
+        {
+          "_key": "68f47509a921",
+          "_type": "span",
+          "marks": [],
+          "text": ". These figures are documented in the IESO's "
+        },
+        {
+          "_key": "01a5b2dd5495",
+          "_type": "span",
+          "marks": [
+            "c650cdd5a2f4"
+          ],
+          "text": "smart-meter data-sharing information"
+        },
+        {
+          "_key": "55d7ad98c59b",
+          "_type": "span",
+          "marks": [],
+          "text": ". An Ontario Energy Board notice separately refers to data from "
+        },
+        {
+          "_key": "603c523c86bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "over 5.1 million smart meters"
+        },
+        {
+          "_key": "01856c5ab306",
+          "_type": "span",
+          "marks": [],
+          "text": " serving Regulated Price Plan customers, mainly residential and small-business accounts, as described in the Ontario Energy Board notice on meter-data management."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c650cdd5a2f4",
+          "_type": "link",
+          "href": "https://www.ieso.ca/Sector-Participants/Smart-Metering-Entity/Data-Sharing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c024e51f01de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb260b25118c",
+          "_type": "span",
+          "marks": [],
+          "text": "That scale gives Ontario an established foundation for interval-data billing and consumption visibility. It also creates a useful platform for building owners, although private submeters remain separate hardware installed within the property."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41dfb9624042",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0d1260b8a4b",
+          "_type": "span",
+          "marks": [],
+          "text": "A provincial utility meter doesn't automatically create a tenant billing programme. It does mean that property owners are working within a mature environment where interval records, time-based pricing, and automated utility data flows are already normal parts of electricity administration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8ae8d7b6c87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "acd3b82006a1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "352d7eaecbb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d30a3ab3d5db",
+          "_type": "span",
+          "marks": [],
+          "text": "How Smart Meter Data Drives Billing and Conservation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a22ca7c131f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6588a9bfef2",
+          "_type": "span",
+          "marks": [],
+          "text": "Every time-based electricity bill depends on a chain of records. The smart meter measures consumption during defined intervals, the utility receives and validates those records, and a billing system applies the applicable pricing structure to the customer's usage. The result is more than a single total. It's a time-organised account of when electricity was consumed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ffb58195007",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8322e9de74a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's smart-meter programme was designed to support "
+        },
+        {
+          "_key": "8614853d714d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Time-of-Use pricing"
+        },
+        {
+          "_key": "23e4f7611c28",
+          "_type": "span",
+          "marks": [],
+          "text": ", with off-peak, mid-peak, and on-peak periods. The pricing periods give customers a reason to consider timing, not only volume. A building manager might use this information when scheduling non-essential equipment, reviewing electric heating patterns, or explaining why two billing periods with similar total usage can produce different charges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5ed894379ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4f28506aaa8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f84e8e189492",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c7459690e74",
+          "_type": "span",
+          "marks": [],
+          "text": "From interval records to a bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "cc9ff698f142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5f397dbf966",
+          "_type": "span",
+          "marks": [],
+          "text": "The operating sequence looks like this:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d795e91ee38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59be5c7d2ee6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measurement:"
+        },
+        {
+          "_key": "d90c493b3fb5",
+          "_type": "span",
+          "marks": [],
+          "text": " The utility meter records electricity entering the property at regular intervals."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c1822132971",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42d9a168b435",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Transmission:"
+        },
+        {
+          "_key": "1e8332d8d889",
+          "_type": "span",
+          "marks": [],
+          "text": " Communications equipment sends the readings to the utility."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a17176a6c16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77ed6fe0051f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Validation:"
+        },
+        {
+          "_key": "110bfed648e8",
+          "_type": "span",
+          "marks": [],
+          "text": " The data-management system checks and processes the records."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "812622b56e3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68e9e12de756",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pricing:"
+        },
+        {
+          "_key": "e7a602c2da0d",
+          "_type": "span",
+          "marks": [],
+          "text": " The billing engine assigns consumption to the applicable time periods."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f7efd5c08eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "725859b85aad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Customer visibility:"
+        },
+        {
+          "_key": "d3cbf35f59b8",
+          "_type": "span",
+          "marks": [],
+          "text": " The utility presents the result through a bill or digital account tools."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "879362bf8aca",
+      "_type": "externalImage",
+      "alt": "A diagram comparing utility smart meters for total building power with unit submeters for individual tenant billing.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a3e440ce-8351-46dc-95e7-a2f8240e87cf/smart-meters-ontario-building-metering.jpg"
+    },
+    {
+      "_key": "c8b0348ab1b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60694d85c51a",
+          "_type": "span",
+          "marks": [],
+          "text": "The same broad data stream supports conservation planning and grid-management activities. Utilities and system operators can use authorised, aggregated information to understand demand patterns, assess conservation opportunities, and coordinate grid balancing. Customer-facing programmes, including demand-response initiatives, rely on the broader principle that electricity use can be measured and influenced by timing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e4037288593",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84c87a89b602",
+          "_type": "span",
+          "marks": [],
+          "text": "For an owner, the practical value appears when building-level information is paired with internal metering. A whole-building smart meter can show the property's total pattern. Submeters can show how that pattern is distributed among suites, commercial spaces, and common areas."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3dd9128e664b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f39930abb175",
+          "_type": "span",
+          "marks": [],
+          "text": "A manager might discover that a large overnight load comes from parking ventilation, not resident consumption. Another property might find that a vacant suite still has a meaningful base load because heating, appliances, or controls remain active. These findings don't prove that a retrofit will pay for itself, but they give the owner evidence for deciding what to investigate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f61e2670c78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3379c3957032",
+          "_type": "span",
+          "marks": [],
+          "text": "For more detail on the communications and data architecture behind advanced metering, see this explanation of "
+        },
+        {
+          "_key": "2768e81229f4",
+          "_type": "span",
+          "marks": [
+            "637d3b0f55fc"
+          ],
+          "text": "advanced metering infrastructure"
+        },
+        {
+          "_key": "25f0945aa938",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "637d3b0f55fc",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/advanced-metering-infrastructure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1ce8c663c186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "046eda157485",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "603115099aba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0eda2f2b9b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Smart Meters and Unit Submetering in Multi-Unit Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "db5a1aa09a75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e090c847c404",
+          "_type": "span",
+          "marks": [],
+          "text": "The most common misunderstanding is that a utility smart meter and a unit submeter are interchangeable. They aren't. The utility owns or manages the meter associated with the distribution connection, while a property owner or service provider installs downstream submeters to measure defined parts of the building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "231845c5db3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e707339cce87",
+          "_type": "span",
+          "marks": [],
+          "text": "A utility meter at the service entrance may cover a condominium tower, apartment building, or mixed-use property. It records the total electricity delivered through that connection. A submeter installed on an individual suite feeder measures only that suite, allowing the owner or authorised billing provider to associate consumption with the right account."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "731f4bb156ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ec0a78b3ccd",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e016a49e7354",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2abec5c30f3",
+          "_type": "span",
+          "marks": [],
+          "text": "How the two systems work together"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1864a06d3b80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e139816bfc49",
+          "_type": "span",
+          "marks": [],
+          "text": "The relationship can be explained:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d763802df34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b5a12674190",
+          "_type": "span",
+          "marks": [],
+          "text": "The utility smart meter records total electricity delivered to the property."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c8ad4460eba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e632c4d00b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit submeters record consumption in individual suites or tenant areas."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a73d22e78c69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc84832de8b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Common-area meters measure shared loads separately where the design calls for it."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ebe2882f18e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2487e5ff1130",
+          "_type": "span",
+          "marks": [],
+          "text": "The billing platform receives and validates the relevant readings."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54ebd7f50627",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21d9cf82f67e",
+          "_type": "span",
+          "marks": [],
+          "text": "Charges are assigned according to the building's agreements and applicable Ontario rules."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca2eafe4d5f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc59f61bcfbf",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner receives reporting that helps reconcile the building total with its internal measurements."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8392c32e8f9",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the six-step process of smart meters and unit submetering in multi-unit residential buildings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/ac53a457-9a8e-4f8c-84ce-42c5bd98a7a3/smart-meters-ontario-submetering-process.jpg"
+    },
+    {
+      "_key": "7eaab2069119",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d74a335a3846",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's "
+        },
+        {
+          "_key": "3b91a6b494cd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Energy Consumer Protection Act"
+        },
+        {
+          "_key": "14674ae03e4a",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "98abb5fc3a6d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "O. Reg. 389/10"
+        },
+        {
+          "_key": "c5bd9c9792de",
+          "_type": "span",
+          "marks": [],
+          "text": " form part of the framework governing electricity unit submetering and consumer protections. A property owner can't install a meter and bill however they choose. The project needs an appropriate licensed provider, compliant equipment, clear agreements, and billing practices that meet the applicable rules. Owners should confirm the current requirements with the Ontario Energy Board and their legal or regulatory adviser before rollout."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76b40bb6027f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5753ad010717",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12c4244717dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa96efad77d8",
+          "_type": "span",
+          "marks": [],
+          "text": "A simple recovery example"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "941972ef96d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94ca203ee5f8",
+          "_type": "span",
+          "marks": [],
+          "text": "Suppose a "
+        },
+        {
+          "_key": "094083488e94",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40-unit"
+        },
+        {
+          "_key": "a69d726372cf",
+          "_type": "span",
+          "marks": [],
+          "text": " mid-rise contains "
+        },
+        {
+          "_key": "a7c58ac0121d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30,000 square feet"
+        },
+        {
+          "_key": "b69d71e149cc",
+          "_type": "span",
+          "marks": [],
+          "text": " and has annual electricity costs of "
+        },
+        {
+          "_key": "63fce63dc958",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$2 per square foot"
+        },
+        {
+          "_key": "608d9caef2b5",
+          "_type": "span",
+          "marks": [],
+          "text": ". The building's annual electricity expense would be "
+        },
+        {
+          "_key": "c9aad8338c9d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$60,000"
+        },
+        {
+          "_key": "8b32a2cb2441",
+          "_type": "span",
+          "marks": [],
+          "text": ", calculated as 30,000 multiplied by $2. Those figures are an illustrative example supplied for understanding the recovery model, not a prediction of what a particular building will spend."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4102e0156960",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80ffa2272cfb",
+          "_type": "span",
+          "marks": [],
+          "text": "Without unit-level metering, the owner may recover electricity indirectly through rent or a general building charge. With compliant submetering, eligible consumption costs can instead be assigned to tenants based on measured use, while common-area costs remain an ownership or shared-building expense according to the governing arrangements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abdff84caf45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "076c861cfa37",
+          "_type": "span",
+          "marks": [],
+          "text": "That approach can improve transparency, but it won't eliminate every reconciliation issue. Vacant suites, house meters, equipment loads, data gaps, and differences between the utility total and internal readings all need documented treatment. A capable provider should explain how it handles those items before the board or owner approves the project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "44b5c900cff2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2380a002f76e",
+          "_type": "span",
+          "marks": [],
+          "text": "For a practical overview of the service model, see this guide to "
+        },
+        {
+          "_key": "9ada2e6c553c",
+          "_type": "span",
+          "marks": [
+            "2ff6d2b8424e"
+          ],
+          "text": "electricity submetering"
+        },
+        {
+          "_key": "d797762cfcef",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2ff6d2b8424e",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metering-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fa576d5029b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0907c9e99b44",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "64797254591e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bcef95c3d22",
+          "_type": "span",
+          "marks": [],
+          "text": "Behind-the-Meter Generation and the 2025 Regulatory Shift"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "46c3d2b118b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41a204c7cb33",
+          "_type": "span",
+          "marks": [],
+          "text": "Solar panels, battery storage, and other behind-the-meter systems change the direction of electricity data. A conventional billing model focuses on electricity imported from the grid. A property with generation or storage may also export electricity, charge and discharge batteries, or distribute energy among multiple occupants before any net amount reaches the utility connection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c36c9eaa0e3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9835c35e9aa9",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's regulatory framework now addresses "
+        },
+        {
+          "_key": "179c82d7198b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "bi-directional smart-metering data"
+        },
+        {
+          "_key": "c69878e57fb4",
+          "_type": "span",
+          "marks": [],
+          "text": " for customers with behind-the-meter generation or storage. Amendments to Regulation 393/07 give the Smart Metering Entity authority to collect and manage exported electricity data through the Meter Data Management and Repository, with exclusive authority over smart-metering data effective "
+        },
+        {
+          "_key": "fe201458f209",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "January 1, 2025"
+        },
+        {
+          "_key": "a444c835e2d2",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the Ontario Energy Board regulatory notice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ead0360cd1f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec9a2fed7992",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d16e636a6510",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b19586742a8",
+          "_type": "span",
+          "marks": [],
+          "text": "What changes operationally"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "20df28f1616d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4178606c6d18",
+          "_type": "span",
+          "marks": [],
+          "text": "A building with solar or storage needs data that records both directions of flow and preserves timestamps for interval records. That information affects billing accuracy, settlement, net-metering treatment, and the allocation of credits where several tenants share the project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d8d508bb913",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8feffd4e421",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner should ask a submetering provider how it will handle:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e51a348167bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efdd857aadf3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Imported electricity:"
+        },
+        {
+          "_key": "a0f5659970e6",
+          "_type": "span",
+          "marks": [],
+          "text": " Energy drawn from the utility connection and allocated through the approved billing model."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cc919f93703",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90cd41685142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "On-site consumption:"
+        },
+        {
+          "_key": "b7bbca687d08",
+          "_type": "span",
+          "marks": [],
+          "text": " Generation used directly by suites, common areas, or building systems."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd71dff3decf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34a4c635e99f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Exported electricity:"
+        },
+        {
+          "_key": "0a11ab7e0c0a",
+          "_type": "span",
+          "marks": [],
+          "text": " Energy sent back through the utility connection and reported through the required data path."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e4cfddeb283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab0c2c6e0529",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Credits or adjustments:"
+        },
+        {
+          "_key": "7aef2a2cdaff",
+          "_type": "span",
+          "marks": [],
+          "text": " The method used to assign any eligible value among participating accounts."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc6305e501e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fed96c6c0df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Records:"
+        },
+        {
+          "_key": "7bece4f0a6d1",
+          "_type": "span",
+          "marks": [],
+          "text": " Documentation showing how readings, exports, and allocations were calculated."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3181c7cd253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "713459e54baf",
+          "_type": "span",
+          "marks": [],
+          "text": "The important point is that a building's internal billing platform can't treat export as a simple negative consumption number without checking the applicable rules and agreements. The provider must understand the utility connection, the generation design, the ownership structure, and the approved settlement process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2e363386319",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53c585bf7571",
+          "_type": "span",
+          "marks": [],
+          "text": "Topic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f459218f5e0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0b06a00012c",
+          "_type": "span",
+          "marks": [],
+          "text": "Pre-2025 approach"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "caf503a2af96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40ab9137920a",
+          "_type": "span",
+          "marks": [],
+          "text": "Post-2025 approach"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "06631a1b1443",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d3e5975cc72",
+          "_type": "span",
+          "marks": [],
+          "text": "Metering direction"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4052a20b7a3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e339cc558456",
+          "_type": "span",
+          "marks": [],
+          "text": "Projects often focused operationally on electricity imported from the grid."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02883e8e9743",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2391cb8bdedd",
+          "_type": "span",
+          "marks": [],
+          "text": "Systems must account for "
+        },
+        {
+          "_key": "fe650fac4168",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "bi-directional data"
+        },
+        {
+          "_key": "f086066f46a8",
+          "_type": "span",
+          "marks": [],
+          "text": " where electricity is exported."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b17da7e8fd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e78bdb608de",
+          "_type": "span",
+          "marks": [],
+          "text": "Data authority"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92c206911ef7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16f1d188aed7",
+          "_type": "span",
+          "marks": [],
+          "text": "Responsibilities could be divided during the transition to the revised framework."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cfc7153a5843",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1728016c516",
+          "_type": "span",
+          "marks": [],
+          "text": "The Smart Metering Entity has exclusive authority over smart-metering data through the MDM/R effective January 1, 2025."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6dc5b631e99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6861a481ce9",
+          "_type": "span",
+          "marks": [],
+          "text": "Building records"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b0dbfcc2152",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f995183f6c75",
+          "_type": "span",
+          "marks": [],
+          "text": "Consumption records were the primary concern for ordinary billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb8d6cd970d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2df2ff06b2bc",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners need timestamped import and export records for generation and storage projects."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5fcd9e973cdd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7dcadba8996a",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant allocation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec4927dd86ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "592a2da42741",
+          "_type": "span",
+          "marks": [],
+          "text": "Internal billing generally centred on measured tenant consumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f094a52b43aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a86279319985",
+          "_type": "span",
+          "marks": [],
+          "text": "Providers must document how exported energy and any associated credits are allocated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6950c4f0c5df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b135b7de13a",
+          "_type": "span",
+          "marks": [],
+          "text": "Properties should also confirm connection approvals, electrical-safety requirements, project documentation, and any registration or settlement obligations that apply to the specific asset. The regulatory notice is not a substitute for project-specific advice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7972941925f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8aa0ccf04e8a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "694535ac66ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc2f67214c6d",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy, Privacy, and Installation Considerations"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "dfd7f0809ecb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cccf4b2df64c",
+          "_type": "span",
+          "marks": [],
+          "text": "Property managers usually ask three practical questions before approving a metering project: "
+        },
+        {
+          "_key": "51e2ade84175",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Will the readings be accurate? Who can see the data? How disruptive will installation be?"
+        },
+        {
+          "_key": "c22f7783cad2",
+          "_type": "span",
+          "marks": [],
+          "text": " Each question deserves a documented answer rather than a marketing promise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3204500397c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d14bcc35dc60",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae0530090e6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c34888d6584",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy begins with approved equipment"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fae008540d74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "740a13cd8a41",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility meters and revenue meters used for tenant billing operate within measurement rules administered by Measurement Canada. Owners should ask for the applicable notice of approval, meter model information, commissioning records, and verification results before equipment is put into service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c14cab976028",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "73fc24c136cc",
+          "_type": "span",
+          "marks": [],
+          "text": "The supplied project guidance identifies a "
+        },
+        {
+          "_key": "acf4c36e3ce9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "plus-or-minus 2% accuracy standard"
+        },
+        {
+          "_key": "9c7839fde35e",
+          "_type": "span",
+          "marks": [],
+          "text": " for revenue-grade metering. That figure should be confirmed against the equipment type, approval conditions, and intended billing use. A meter can be technically suitable for one application and unsuitable for another if its approval, installation configuration, or testing record doesn't match the project."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eec51a2eae83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb146af55b1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the evidence. A tenant who disputes a bill needs more than a statement that the meter is certified."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41655ba83738",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "242950fc8831",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd73935d23c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "359959491c82",
+          "_type": "span",
+          "marks": [],
+          "text": "Privacy is about controlled use"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "86e432e5aa65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e4067ab9823",
+          "_type": "span",
+          "marks": [],
+          "text": "A smart meter records interval electricity consumption. It doesn't normally identify which appliance created each reading. Even so, a detailed usage pattern can reveal information about occupancy or operating routines, particularly in a small suite or commercial space."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb165c3dfc8c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c626ba9a7e99",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners should limit access to people who need it for billing, operations, support, compliance, or authorised analysis. They should also explain what data is collected, why it's needed, how long records are retained, and how residents can raise a billing or privacy concern. Aggregated grid information can support planning without exposing an individual tenant's account, but aggregation doesn't remove the owner's responsibility to protect identifiable account information."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de048e8baf0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70ffa7931d62",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0496280acfc6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8e4a8d64c02",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation requires coordination"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a284f96da7d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a637493155e1",
+          "_type": "span",
+          "marks": [],
+          "text": "A typical retrofit follows a sequence such as:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "035d7ff4d99e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98a980ae95c1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Site assessment:"
+        },
+        {
+          "_key": "d24a17356adc",
+          "_type": "span",
+          "marks": [],
+          "text": " Review electrical drawings, panels, feeders, meter rooms, communications paths, and access constraints."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54019c302fa2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8818af068fd5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Regulatory and safety review:"
+        },
+        {
+          "_key": "6dbfc03aa11f",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm permits, ESA requirements, equipment approvals, and the billing arrangement."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a9eb86bf122",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79dba13e8f28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Electrical work:"
+        },
+        {
+          "_key": "21c93016089f",
+          "_type": "span",
+          "marks": [],
+          "text": " Have licensed electricians install meters, current transformers, communications equipment, and required protective components."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "668095cc95ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68ff2f2ca5ce",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verification:"
+        },
+        {
+          "_key": "c4d00d0eed6e",
+          "_type": "span",
+          "marks": [],
+          "text": " Test readings, confirm meter-to-suite mapping, and reconcile the internal system against the building supply."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d3c5a79cb85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c9fa01ff426",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing integration:"
+        },
+        {
+          "_key": "338b84249c08",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect validated data to the billing platform and complete a controlled review before tenant statements begin."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c99fcaf5a9d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c84ed1cec334",
+          "_type": "span",
+          "marks": [],
+          "text": "Older buildings can require extra planning where panels have limited space, wiring is difficult to access, or the electrical distribution doesn't match current drawings. Aluminum wiring, crowded meter rooms, and multiple service sections should be identified during the survey, not after equipment arrives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "51745170f273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c70d65bb89df",
+          "_type": "span",
+          "marks": [],
+          "text": "Retain drawings, approvals, notices of approval, test results, meter serial numbers, suite maps, tenant notices, data corrections, and dispute records. That file supports audits, ownership changes, maintenance, and resident questions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6967222c0efd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f40ccc762f58",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32b946e9d228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9ccb08e1b7a",
+          "_type": "span",
+          "marks": [],
+          "text": "A Practical Path Forward for Ontario Property Owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b5232dbf395e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c22db340f4cb",
+          "_type": "span",
+          "marks": [],
+          "text": "A sensible decision starts with the building's existing records, not with a quote for new hardware. Pull the utility bills, rent or condominium agreements, vacancy records, common-area schedules, and any existing meter inventory. Look for the gap between electricity paid by the property and electricity recovered from occupants."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "556dc4a01f4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e40d9d91926",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "712c3d63eba2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f60ce286c9e7",
+          "_type": "span",
+          "marks": [],
+          "text": "A four-part decision path"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0dfba7896b84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1eb11d4d4f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "First, audit recovery."
+        },
+        {
+          "_key": "763343591307",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate whole-building utility costs into tenant-controlled loads, common areas, vacant suites, mechanical systems, and unknown consumption. The objective isn't to assume every dollar is recoverable. It's to identify where the current arrangement lacks measurement or produces avoidable disputes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bef686445b4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "668c6f6a69b1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Second, map the metering boundary."
+        },
+        {
+          "_key": "11d339eb458a",
+          "_type": "span",
+          "marks": [],
+          "text": " Determine whether the property has only one utility smart meter at the service entrance, existing suite submeters, common-area meters, or a mixture of systems. Ask for meter locations, serial numbers, communications status, and the relationship between each meter and the correct suite."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3b0134f0477",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c38f76a67fbc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Third, review the regulatory route."
+        },
+        {
+          "_key": "d3b5ebea4115",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm whether the proposed arrangement requires an Ontario Energy Board-licensed electricity unit sub-meter provider, how tenant agreements must be handled, and which records the owner must retain. Properties with generation or storage need a separate review of import and export data responsibilities."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f00ea98c261b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a277a6f1dbd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fourth, shortlist providers carefully."
+        },
+        {
+          "_key": "ee5f634771e0",
+          "_type": "span",
+          "marks": [],
+          "text": " Look for a team that can coordinate equipment, licensed electrical work, commissioning, billing, tenant communication, maintenance, and bi-directional data. For property managers also evaluating website visibility and tenant communications, "
+        },
+        {
+          "_key": "229b312b7117",
+          "_type": "span",
+          "marks": [
+            "2e83f935ee22"
+          ],
+          "text": "SEO advice from Central Texas experts"
+        },
+        {
+          "_key": "34c905552d26",
+          "_type": "span",
+          "marks": [],
+          "text": " offers useful guidance on making operational information easier for audiences to find."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2e83f935ee22",
+          "_type": "link",
+          "href": "https://mytekrescue.com/seo-for-property-managers/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "019689f129b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9028de83d26d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2123ffd1815",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a46ba4bc5b36",
+          "_type": "span",
+          "marks": [],
+          "text": "A workable checklist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5a8448b62b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "373223225f78",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Review bills first:"
+        },
+        {
+          "_key": "dac60253dafd",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish the current cost and recovery picture."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e6d1d876d24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29cb481404fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Inspect the electrical system:"
+        },
+        {
+          "_key": "daf65e1d5ee0",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm panels, feeders, meter rooms, and access."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87d70bdfd34c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed2c94a56a7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Validate compliance:"
+        },
+        {
+          "_key": "1e457e1ab3a5",
+          "_type": "span",
+          "marks": [],
+          "text": " Check licences, approvals, permits, agreements, and privacy practices."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73a8d495920f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0729a1217a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Compare proposals:"
+        },
+        {
+          "_key": "4e047a0705b9",
+          "_type": "span",
+          "marks": [],
+          "text": " Request a clear scope for hardware, installation, billing, support, and maintenance."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75213a2784ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45f964b5d608",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Plan communications:"
+        },
+        {
+          "_key": "24e546576909",
+          "_type": "span",
+          "marks": [],
+          "text": " Explain the change to tenants, including readings, statements, questions, and dispute handling."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f6c70cd633c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aca296b96f18",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Test before launch:"
+        },
+        {
+          "_key": "6c01d190c701",
+          "_type": "span",
+          "marks": [],
+          "text": " Reconcile meter identities and readings before issuing live bills."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e505cba7ff1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f8f790ba530",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Monitor after commissioning:"
+        },
+        {
+          "_key": "8911c93ead6a",
+          "_type": "span",
+          "marks": [],
+          "text": " Review exceptions, vacant units, common loads, and export records where applicable."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd28d588b6e4",
+      "_type": "externalImage",
+      "alt": "A seven-step checklist for Ontario property owners to plan, manage, and maintain their real estate projects.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a86cf5d5-dd44-4315-94af-f9d9f0598d06/smart-meters-ontario-property-checklist.jpg"
+    },
+    {
+      "_key": "edd1c2f88923",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb0363db0c87",
+          "_type": "span",
+          "marks": [],
+          "text": "A condo board may need time for approvals and resident communications. A landlord can often begin with a utility and electrical audit. A property manager overseeing solar, storage, or planned electric-vehicle charging should include bi-directional data in the initial design rather than retrofit that requirement later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fced4a88b143",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba8f90a2d34f",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides electricity submetering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, maintenance, and compliance planning. The company operates as an Ontario Energy Board-licensed electricity unit sub-meter provider under licence ES-2022-0268, so owners can evaluate its scope alongside other qualified providers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7fee2a287ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f90440096086",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's provincial smart-meter system supplies the foundation. Unit submetering adds the building-level detail needed for fairer cost recovery, better conservation decisions, and clearer management of properties with distributed energy resources."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8711cdd14ed4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba5c16acdd30",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions can assess your building's current metering, design a compliant unit-submetering programme, and coordinate installation, tenant billing, and ongoing service. Visit "
+        },
+        {
+          "_key": "846150c3a829",
+          "_type": "span",
+          "marks": [
+            "e16a31ad1925"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "74ee96371491",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your property and identify the next practical step."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e16a31ad1925",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Smart Meters Ontario. Learn how smart meters in Ontario work, what they mean for property owners, and how unit submetering can cut utility costs and recover",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/ae86b8cc-abaf-458b-bc2a-3b7969efedb0/smart-meters-ontario-smart-meter.jpg",
+  "noIndex": false,
+  "outrankId": "a606ff8d-9205-480c-ad21-14f9d75e8fce",
+  "publishedAt": "2026-09-03T09:55:42.39256+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "smart-meters-ontario"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A property owner can discover a metering problem in an ordinary budget review. A landlord in Mississauga, for example, may compare the building&#39;s utility bill with suite records and find that a large share of electricity use can&#39;t be assigned to individual units. The issue may not be a billing error. It may mean the building has one utility meter for the entire property, while the owner has no reliable way to measure what each suite, commercial space, or common area consumes.</p>\n<p>That&#39;s where <strong>smart meters in Ontario</strong> and private unit submetering meet. A utility smart meter measures electricity at the service entrance and sends consumption information into the provincial billing and grid-data system. Unit submeters sit downstream, inside the building, and measure individual areas for cost allocation and tenant billing.</p>\n<p>The distinction matters. The Ontario Energy Board sets rules for electricity distributors, consumer protection, and unit submetering, while the <a href=\"https://www.ieso.ca/\">Independent Electricity System Operator</a> manages important provincial electricity-market and data functions. Together, their frameworks shape how property owners collect, use, and report metering information.</p>\n<p>This guide connects Ontario&#39;s province-wide smart-meter infrastructure with practical building management. It explains how landlords, condominium corporations, and commercial property managers can use unit-level data to recover eligible utility costs, investigate common-area waste, and prepare properties with solar generation or storage for changing data rules. For a plain-language introduction to time-based electricity pricing, review this guide to <a href=\"https://www.axismeter.com/blog/time-of-use-hydro\">Time-of-Use hydro pricing</a>.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-smart-meters-mean-for-ontario-property-owners\">What Smart Meters Mean for Ontario Property Owners</a><ul>\n<li><a href=\"#the-building-level-gap\">The building-level gap</a></li>\n</ul>\n</li>\n<li><a href=\"#how-ontario-built-one-of-the-worlds-largest-smart-meter-networks\">How Ontario Built One of the World&#39;s Largest Smart Meter Networks</a><ul>\n<li><a href=\"#the-deployment-sequence\">The deployment sequence</a></li>\n<li><a href=\"#why-scale-matters-to-property-owners\">Why scale matters to property owners</a></li>\n</ul>\n</li>\n<li><a href=\"#how-smart-meter-data-drives-billing-and-conservation\">How Smart Meter Data Drives Billing and Conservation</a><ul>\n<li><a href=\"#from-interval-records-to-a-bill\">From interval records to a bill</a></li>\n</ul>\n</li>\n<li><a href=\"#smart-meters-and-unit-submetering-in-multi-unit-buildings\">Smart Meters and Unit Submetering in Multi-Unit Buildings</a><ul>\n<li><a href=\"#how-the-two-systems-work-together\">How the two systems work together</a></li>\n<li><a href=\"#a-simple-recovery-example\">A simple recovery example</a></li>\n</ul>\n</li>\n<li><a href=\"#behind-the-meter-generation-and-the-2025-regulatory-shift\">Behind-the-Meter Generation and the 2025 Regulatory Shift</a><ul>\n<li><a href=\"#what-changes-operationally\">What changes operationally</a></li>\n</ul>\n</li>\n<li><a href=\"#accuracy-privacy-and-installation-considerations\">Accuracy, Privacy, and Installation Considerations</a><ul>\n<li><a href=\"#accuracy-begins-with-approved-equipment\">Accuracy begins with approved equipment</a></li>\n<li><a href=\"#privacy-is-about-controlled-use\">Privacy is about controlled use</a></li>\n<li><a href=\"#installation-requires-coordination\">Installation requires coordination</a></li>\n</ul>\n</li>\n<li><a href=\"#a-practical-path-forward-for-ontario-property-owners\">A Practical Path Forward for Ontario Property Owners</a><ul>\n<li><a href=\"#a-four-part-decision-path\">A four-part decision path</a></li>\n<li><a href=\"#a-workable-checklist\">A workable checklist</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"what-smart-meters-mean-for-ontario-property-owners\"></a></p>\n<h2>What Smart Meters Mean for Ontario Property Owners</h2>\n<p>A smart meter is a digital electricity meter that records consumption in intervals and communicates readings to the local distribution utility. It replaces the uncertainty of manual reads with a continuous data process that supports billing, usage analysis, and grid operations.</p>\n<p>For a building owner, though, the utility&#39;s smart meter usually answers only one question: <strong>how much electricity entered the property?</strong> If the meter is installed at the service entrance, its reading covers the whole building. It doesn&#39;t automatically tell you how much electricity a particular apartment used, which retail tenant is responsible for a load, or whether a garage ventilation system is operating inefficiently.</p>\n<p><a id=\"the-building-level-gap\"></a></p>\n<h3>The building-level gap</h3>\n<p>Consider a mid-rise property with residential suites, underground parking, elevators, hallway lighting, mechanical equipment, and shared laundry. The utility smart meter records the combined load. If the owner wants to recover electricity costs from residents based on actual usage, the building needs additional measuring points downstream.</p>\n<p>Those devices are <strong>unit submeters</strong>. They can measure individual suites, commercial spaces, shared facilities, or selected equipment. A billing provider can then match readings to the correct occupant or account, apply the permitted billing method, and produce statements that residents can understand.</p>\n<p>The provincial system and the private building system therefore perform different jobs:</p>\n<ul>\n<li><strong>Utility smart meter:</strong> Measures electricity delivered through the property&#39;s main service connection.</li>\n<li><strong>Unit submeter:</strong> Measures consumption within a defined suite, area, or tenant space.</li>\n<li><strong>Common-area meter:</strong> Separates shared loads from tenant-controlled consumption.</li>\n<li><strong>Billing platform:</strong> Converts validated readings into statements, records, and support workflows.</li>\n</ul>\n<blockquote>\n<p><strong>Practical rule:</strong> A building-wide smart meter improves visibility at the property boundary. It doesn&#39;t replace suite-level measurement when the owner needs fair, documented allocation.</p>\n</blockquote>\n<p>That distinction also affects conservation. A whole-building bill may reveal that consumption is high, but suite and common-area data can help identify where the load originates. Managers can use that information to investigate lighting schedules, heating and cooling controls, ventilation, elevators, parking systems, and tenant behaviour without treating the entire property as one undifferentiated load.</p>\n<p><a id=\"how-ontario-built-one-of-the-worlds-largest-smart-meter-networks\"></a></p>\n<h2>How Ontario Built One of the World&#39;s Largest Smart Meter Networks</h2>\n<p>Ontario&#39;s smart-meter story began as a provincial policy decision, not as a collection of isolated utility experiments. A <strong>2004 government directive</strong> set a target of <strong>800,000 smart meters by December 31, 2007</strong>, followed by full deployment to every Ontario electricity consumer by <strong>December 31, 2010</strong>. The International Energy Agency&#39;s account of Ontario&#39;s smart-meter directive identifies that deadline as a major step in moving advanced metering to province-wide scale.</p>\n<p><a id=\"the-deployment-sequence\"></a></p>\n<h3>The deployment sequence</h3>\n<p>The timeline is easier to understand in three stages:</p>\n<ol>\n<li><strong>Policy mandate:</strong> Ontario connected smart metering with conservation and time-based pricing. The purpose went beyond taking automated readings. Customers were expected to gain information that could help them shift usage away from expensive periods and manage bills more actively.</li>\n<li><strong>Mass installation:</strong> Local distribution companies installed and connected meters across their service territories, including large urban and rural networks.</li>\n<li><strong>Data-system operation:</strong> Utilities connected meter communications and data-management processes so readings could be validated and converted into customer billing records.</li>\n</ol>\n<p>The communication architecture varies by system design, but the basic principle is straightforward. A meter records electricity use, sends information through a communications network, and delivers that information to utility data-management systems. Those systems organise readings for billing, customer portals, operational analysis, and authorised data sharing.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5e8b47f4-07b7-478b-aefa-052f7a91bdb1/smart-meters-ontario-utility-process.jpg\" alt=\"A diagram illustrating the five-step process of how smart meters transmit energy data to produce utility bills.\"></p>\n<p><a id=\"why-scale-matters-to-property-owners\"></a></p>\n<h3>Why scale matters to property owners</h3>\n<p>The Independent Electricity System Operator reports that Ontario has <strong>more than five million installed smart meters</strong>, while the provincial data repository receives <strong>over 125 million new records each day</strong>. These figures are documented in the IESO&#39;s <a href=\"https://www.ieso.ca/Sector-Participants/Smart-Metering-Entity/Data-Sharing\">smart-meter data-sharing information</a>. An Ontario Energy Board notice separately refers to data from <strong>over 5.1 million smart meters</strong> serving Regulated Price Plan customers, mainly residential and small-business accounts, as described in the Ontario Energy Board notice on meter-data management.</p>\n<p>That scale gives Ontario an established foundation for interval-data billing and consumption visibility. It also creates a useful platform for building owners, although private submeters remain separate hardware installed within the property.</p>\n<p>A provincial utility meter doesn&#39;t automatically create a tenant billing programme. It does mean that property owners are working within a mature environment where interval records, time-based pricing, and automated utility data flows are already normal parts of electricity administration.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/IOXAR3zO4qM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"how-smart-meter-data-drives-billing-and-conservation\"></a></p>\n<h2>How Smart Meter Data Drives Billing and Conservation</h2>\n<p>Every time-based electricity bill depends on a chain of records. The smart meter measures consumption during defined intervals, the utility receives and validates those records, and a billing system applies the applicable pricing structure to the customer&#39;s usage. The result is more than a single total. It&#39;s a time-organised account of when electricity was consumed.</p>\n<p>Ontario&#39;s smart-meter programme was designed to support <strong>Time-of-Use pricing</strong>, with off-peak, mid-peak, and on-peak periods. The pricing periods give customers a reason to consider timing, not only volume. A building manager might use this information when scheduling non-essential equipment, reviewing electric heating patterns, or explaining why two billing periods with similar total usage can produce different charges.</p>\n<p><a id=\"from-interval-records-to-a-bill\"></a></p>\n<h3>From interval records to a bill</h3>\n<p>The operating sequence looks like this:</p>\n<ul>\n<li><strong>Measurement:</strong> The utility meter records electricity entering the property at regular intervals.</li>\n<li><strong>Transmission:</strong> Communications equipment sends the readings to the utility.</li>\n<li><strong>Validation:</strong> The data-management system checks and processes the records.</li>\n<li><strong>Pricing:</strong> The billing engine assigns consumption to the applicable time periods.</li>\n<li><strong>Customer visibility:</strong> The utility presents the result through a bill or digital account tools.</li>\n</ul>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a3e440ce-8351-46dc-95e7-a2f8240e87cf/smart-meters-ontario-building-metering.jpg\" alt=\"A diagram comparing utility smart meters for total building power with unit submeters for individual tenant billing.\"></p>\n<p>The same broad data stream supports conservation planning and grid-management activities. Utilities and system operators can use authorised, aggregated information to understand demand patterns, assess conservation opportunities, and coordinate grid balancing. Customer-facing programmes, including demand-response initiatives, rely on the broader principle that electricity use can be measured and influenced by timing.</p>\n<p>For an owner, the practical value appears when building-level information is paired with internal metering. A whole-building smart meter can show the property&#39;s total pattern. Submeters can show how that pattern is distributed among suites, commercial spaces, and common areas.</p>\n<p>A manager might discover that a large overnight load comes from parking ventilation, not resident consumption. Another property might find that a vacant suite still has a meaningful base load because heating, appliances, or controls remain active. These findings don&#39;t prove that a retrofit will pay for itself, but they give the owner evidence for deciding what to investigate.</p>\n<p>For more detail on the communications and data architecture behind advanced metering, see this explanation of <a href=\"https://www.axismeter.com/blog/advanced-metering-infrastructure\">advanced metering infrastructure</a>.</p>\n<p><a id=\"smart-meters-and-unit-submetering-in-multi-unit-buildings\"></a></p>\n<h2>Smart Meters and Unit Submetering in Multi-Unit Buildings</h2>\n<p>The most common misunderstanding is that a utility smart meter and a unit submeter are interchangeable. They aren&#39;t. The utility owns or manages the meter associated with the distribution connection, while a property owner or service provider installs downstream submeters to measure defined parts of the building.</p>\n<p>A utility meter at the service entrance may cover a condominium tower, apartment building, or mixed-use property. It records the total electricity delivered through that connection. A submeter installed on an individual suite feeder measures only that suite, allowing the owner or authorised billing provider to associate consumption with the right account.</p>\n<p><a id=\"how-the-two-systems-work-together\"></a></p>\n<h3>How the two systems work together</h3>\n<p>The relationship can be explained:</p>\n<ol>\n<li>The utility smart meter records total electricity delivered to the property.</li>\n<li>Unit submeters record consumption in individual suites or tenant areas.</li>\n<li>Common-area meters measure shared loads separately where the design calls for it.</li>\n<li>The billing platform receives and validates the relevant readings.</li>\n<li>Charges are assigned according to the building&#39;s agreements and applicable Ontario rules.</li>\n<li>The owner receives reporting that helps reconcile the building total with its internal measurements.</li>\n</ol>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/ac53a457-9a8e-4f8c-84ce-42c5bd98a7a3/smart-meters-ontario-submetering-process.jpg\" alt=\"A diagram illustrating the six-step process of smart meters and unit submetering in multi-unit residential buildings.\"></p>\n<p>Ontario&#39;s <strong>Energy Consumer Protection Act</strong> and <strong>O. Reg. 389/10</strong> form part of the framework governing electricity unit submetering and consumer protections. A property owner can&#39;t install a meter and bill however they choose. The project needs an appropriate licensed provider, compliant equipment, clear agreements, and billing practices that meet the applicable rules. Owners should confirm the current requirements with the Ontario Energy Board and their legal or regulatory adviser before rollout.</p>\n<p><a id=\"a-simple-recovery-example\"></a></p>\n<h3>A simple recovery example</h3>\n<p>Suppose a <strong>40-unit</strong> mid-rise contains <strong>30,000 square feet</strong> and has annual electricity costs of <strong>$2 per square foot</strong>. The building&#39;s annual electricity expense would be <strong>$60,000</strong>, calculated as 30,000 multiplied by $2. Those figures are an illustrative example supplied for understanding the recovery model, not a prediction of what a particular building will spend.</p>\n<p>Without unit-level metering, the owner may recover electricity indirectly through rent or a general building charge. With compliant submetering, eligible consumption costs can instead be assigned to tenants based on measured use, while common-area costs remain an ownership or shared-building expense according to the governing arrangements.</p>\n<p>That approach can improve transparency, but it won&#39;t eliminate every reconciliation issue. Vacant suites, house meters, equipment loads, data gaps, and differences between the utility total and internal readings all need documented treatment. A capable provider should explain how it handles those items before the board or owner approves the project.</p>\n<p>For a practical overview of the service model, see this guide to <a href=\"https://www.axismeter.com/blog/sub-metering-electricity\">electricity submetering</a>.</p>\n<p><a id=\"behind-the-meter-generation-and-the-2025-regulatory-shift\"></a></p>\n<h2>Behind-the-Meter Generation and the 2025 Regulatory Shift</h2>\n<p>Solar panels, battery storage, and other behind-the-meter systems change the direction of electricity data. A conventional billing model focuses on electricity imported from the grid. A property with generation or storage may also export electricity, charge and discharge batteries, or distribute energy among multiple occupants before any net amount reaches the utility connection.</p>\n<p>Ontario&#39;s regulatory framework now addresses <strong>bi-directional smart-metering data</strong> for customers with behind-the-meter generation or storage. Amendments to Regulation 393/07 give the Smart Metering Entity authority to collect and manage exported electricity data through the Meter Data Management and Repository, with exclusive authority over smart-metering data effective <strong>January 1, 2025</strong>, according to the Ontario Energy Board regulatory notice.</p>\n<p><a id=\"what-changes-operationally\"></a></p>\n<h3>What changes operationally</h3>\n<p>A building with solar or storage needs data that records both directions of flow and preserves timestamps for interval records. That information affects billing accuracy, settlement, net-metering treatment, and the allocation of credits where several tenants share the project.</p>\n<p>The owner should ask a submetering provider how it will handle:</p>\n<ul>\n<li><strong>Imported electricity:</strong> Energy drawn from the utility connection and allocated through the approved billing model.</li>\n<li><strong>On-site consumption:</strong> Generation used directly by suites, common areas, or building systems.</li>\n<li><strong>Exported electricity:</strong> Energy sent back through the utility connection and reported through the required data path.</li>\n<li><strong>Credits or adjustments:</strong> The method used to assign any eligible value among participating accounts.</li>\n<li><strong>Records:</strong> Documentation showing how readings, exports, and allocations were calculated.</li>\n</ul>\n<p>The important point is that a building&#39;s internal billing platform can&#39;t treat export as a simple negative consumption number without checking the applicable rules and agreements. The provider must understand the utility connection, the generation design, the ownership structure, and the approved settlement process.</p>\n<table>\n<thead>\n<tr>\n<th>Topic</th>\n<th>Pre-2025 approach</th>\n<th>Post-2025 approach</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Metering direction</td>\n<td>Projects often focused operationally on electricity imported from the grid.</td>\n<td>Systems must account for <strong>bi-directional data</strong> where electricity is exported.</td>\n</tr>\n<tr>\n<td>Data authority</td>\n<td>Responsibilities could be divided during the transition to the revised framework.</td>\n<td>The Smart Metering Entity has exclusive authority over smart-metering data through the MDM/R effective January 1, 2025.</td>\n</tr>\n<tr>\n<td>Building records</td>\n<td>Consumption records were the primary concern for ordinary billing.</td>\n<td>Owners need timestamped import and export records for generation and storage projects.</td>\n</tr>\n<tr>\n<td>Tenant allocation</td>\n<td>Internal billing generally centred on measured tenant consumption.</td>\n<td>Providers must document how exported energy and any associated credits are allocated.</td>\n</tr>\n</tbody></table>\n<p>Properties should also confirm connection approvals, electrical-safety requirements, project documentation, and any registration or settlement obligations that apply to the specific asset. The regulatory notice is not a substitute for project-specific advice.</p>\n<p><a id=\"accuracy-privacy-and-installation-considerations\"></a></p>\n<h2>Accuracy, Privacy, and Installation Considerations</h2>\n<p>Property managers usually ask three practical questions before approving a metering project: <strong>Will the readings be accurate? Who can see the data? How disruptive will installation be?</strong> Each question deserves a documented answer rather than a marketing promise.</p>\n<p><a id=\"accuracy-begins-with-approved-equipment\"></a></p>\n<h3>Accuracy begins with approved equipment</h3>\n<p>Utility meters and revenue meters used for tenant billing operate within measurement rules administered by Measurement Canada. Owners should ask for the applicable notice of approval, meter model information, commissioning records, and verification results before equipment is put into service.</p>\n<p>The supplied project guidance identifies a <strong>plus-or-minus 2% accuracy standard</strong> for revenue-grade metering. That figure should be confirmed against the equipment type, approval conditions, and intended billing use. A meter can be technically suitable for one application and unsuitable for another if its approval, installation configuration, or testing record doesn&#39;t match the project.</p>\n<p>Keep the evidence. A tenant who disputes a bill needs more than a statement that the meter is certified.</p>\n<p><a id=\"privacy-is-about-controlled-use\"></a></p>\n<h3>Privacy is about controlled use</h3>\n<p>A smart meter records interval electricity consumption. It doesn&#39;t normally identify which appliance created each reading. Even so, a detailed usage pattern can reveal information about occupancy or operating routines, particularly in a small suite or commercial space.</p>\n<p>Property owners should limit access to people who need it for billing, operations, support, compliance, or authorised analysis. They should also explain what data is collected, why it&#39;s needed, how long records are retained, and how residents can raise a billing or privacy concern. Aggregated grid information can support planning without exposing an individual tenant&#39;s account, but aggregation doesn&#39;t remove the owner&#39;s responsibility to protect identifiable account information.</p>\n<p><a id=\"installation-requires-coordination\"></a></p>\n<h3>Installation requires coordination</h3>\n<p>A typical retrofit follows a sequence such as:</p>\n<ol>\n<li><strong>Site assessment:</strong> Review electrical drawings, panels, feeders, meter rooms, communications paths, and access constraints.</li>\n<li><strong>Regulatory and safety review:</strong> Confirm permits, ESA requirements, equipment approvals, and the billing arrangement.</li>\n<li><strong>Electrical work:</strong> Have licensed electricians install meters, current transformers, communications equipment, and required protective components.</li>\n<li><strong>Verification:</strong> Test readings, confirm meter-to-suite mapping, and reconcile the internal system against the building supply.</li>\n<li><strong>Billing integration:</strong> Connect validated data to the billing platform and complete a controlled review before tenant statements begin.</li>\n</ol>\n<p>Older buildings can require extra planning where panels have limited space, wiring is difficult to access, or the electrical distribution doesn&#39;t match current drawings. Aluminum wiring, crowded meter rooms, and multiple service sections should be identified during the survey, not after equipment arrives.</p>\n<p>Retain drawings, approvals, notices of approval, test results, meter serial numbers, suite maps, tenant notices, data corrections, and dispute records. That file supports audits, ownership changes, maintenance, and resident questions.</p>\n<p><a id=\"a-practical-path-forward-for-ontario-property-owners\"></a></p>\n<h2>A Practical Path Forward for Ontario Property Owners</h2>\n<p>A sensible decision starts with the building&#39;s existing records, not with a quote for new hardware. Pull the utility bills, rent or condominium agreements, vacancy records, common-area schedules, and any existing meter inventory. Look for the gap between electricity paid by the property and electricity recovered from occupants.</p>\n<p><a id=\"a-four-part-decision-path\"></a></p>\n<h3>A four-part decision path</h3>\n<p><strong>First, audit recovery.</strong> Separate whole-building utility costs into tenant-controlled loads, common areas, vacant suites, mechanical systems, and unknown consumption. The objective isn&#39;t to assume every dollar is recoverable. It&#39;s to identify where the current arrangement lacks measurement or produces avoidable disputes.</p>\n<p><strong>Second, map the metering boundary.</strong> Determine whether the property has only one utility smart meter at the service entrance, existing suite submeters, common-area meters, or a mixture of systems. Ask for meter locations, serial numbers, communications status, and the relationship between each meter and the correct suite.</p>\n<p><strong>Third, review the regulatory route.</strong> Confirm whether the proposed arrangement requires an Ontario Energy Board-licensed electricity unit sub-meter provider, how tenant agreements must be handled, and which records the owner must retain. Properties with generation or storage need a separate review of import and export data responsibilities.</p>\n<p><strong>Fourth, shortlist providers carefully.</strong> Look for a team that can coordinate equipment, licensed electrical work, commissioning, billing, tenant communication, maintenance, and bi-directional data. For property managers also evaluating website visibility and tenant communications, <a href=\"https://mytekrescue.com/seo-for-property-managers/\">SEO advice from Central Texas experts</a> offers useful guidance on making operational information easier for audiences to find.</p>\n<p><a id=\"a-workable-checklist\"></a></p>\n<h3>A workable checklist</h3>\n<ul>\n<li><strong>Review bills first:</strong> Establish the current cost and recovery picture.</li>\n<li><strong>Inspect the electrical system:</strong> Confirm panels, feeders, meter rooms, and access.</li>\n<li><strong>Validate compliance:</strong> Check licences, approvals, permits, agreements, and privacy practices.</li>\n<li><strong>Compare proposals:</strong> Request a clear scope for hardware, installation, billing, support, and maintenance.</li>\n<li><strong>Plan communications:</strong> Explain the change to tenants, including readings, statements, questions, and dispute handling.</li>\n<li><strong>Test before launch:</strong> Reconcile meter identities and readings before issuing live bills.</li>\n<li><strong>Monitor after commissioning:</strong> Review exceptions, vacant units, common loads, and export records where applicable.</li>\n</ul>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a86cf5d5-dd44-4315-94af-f9d9f0598d06/smart-meters-ontario-property-checklist.jpg\" alt=\"A seven-step checklist for Ontario property owners to plan, manage, and maintain their real estate projects.\"></p>\n<p>A condo board may need time for approvals and resident communications. A landlord can often begin with a utility and electrical audit. A property manager overseeing solar, storage, or planned electric-vehicle charging should include bi-directional data in the initial design rather than retrofit that requirement later.</p>\n<p>Axis Meter Solutions provides electricity submetering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, maintenance, and compliance planning. The company operates as an Ontario Energy Board-licensed electricity unit sub-meter provider under licence ES-2022-0268, so owners can evaluate its scope alongside other qualified providers.</p>\n<p>Ontario&#39;s provincial smart-meter system supplies the foundation. Unit submetering adds the building-level detail needed for fairer cost recovery, better conservation decisions, and clearer management of properties with distributed energy resources.</p>\n<hr>\n<p>Axis Meter Solutions can assess your building&#39;s current metering, design a compliant unit-submetering programme, and coordinate installation, tenant billing, and ongoing service. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your property and identify the next practical step.</p>",
+  "tags": [
+    "smart meters ontario",
+    "ontario submetering",
+    "unit submetering",
+    "electricity submetering",
+    "OEB submetering"
+  ],
+  "title": "Smart Meters Ontario: What Property Owners Need to Know",
+  "updatedAt": "2026-09-03T09:55:46.101Z"
+}
