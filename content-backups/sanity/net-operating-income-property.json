@@ -1,0 +1,3233 @@
+{
+  "_createdAt": "2026-09-04T07:12:05Z",
+  "_id": "outrank-9d55136f-6cc0-47f8-bb40-fa885fcd7f2e",
+  "_rev": "mRJu6qNgdAyJUmoSUYRFpT",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-04T07:12:05Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "39e6392b7889",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "faad794b263a",
+          "_type": "span",
+          "marks": [],
+          "text": "Most net operating income property advice starts with the same prescription: raise rents. That matters, but it's often the least reliable operational lever in a multifamily portfolio. A rent increase can be limited by market conditions, lease terms, affordability, or regulation, while a heating bill, plumbing leak, or vacant suite can erode income immediately."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9a38cf6e9f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f81a866db165",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NOI is the spread between effective property income and operating expenses."
+        },
+        {
+          "_key": "5156e43462a7",
+          "_type": "span",
+          "marks": [],
+          "text": " In Ontario valuation methodology, that means effective gross income after vacancy and bad debts, less operating expenses. Landlord-paid utilities reduce NOI, while tenant-paid utilities sit outside the owner's operating expense base, as explained in this "
+        },
+        {
+          "_key": "5bd1d4360d31",
+          "_type": "span",
+          "marks": [
+            "8acf5f64dc49"
+          ],
+          "text": "Ontario NOI and cap-rate calculation resource"
+        },
+        {
+          "_key": "6ec072492a58",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "8acf5f64dc49",
+          "_type": "link",
+          "href": "https://homecalc.ca/tools/cap-rate-calculator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1087c19510d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f98521039a68",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian operators also face exposure that basic formulas hide. Weather changes heating demand, carbon pricing affects natural-gas costs, and master-metered buildings can absorb consumption that residents ultimately use. The practical question isn't just how to grow rent. It's how to protect the income you've already earned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "07ed5208c34b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19d657f8c861",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "19bdb29059f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7e0c2bbd9ff",
+          "_type": "span",
+          "marks": [
+            "034869034973"
+          ],
+          "text": "Why Rent Growth Alone Does Not Protect Your NOI"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "034869034973",
+          "_type": "link",
+          "href": "#why-rent-growth-alone-does-not-protect-your-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e280789421e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71063f807184",
+          "_type": "span",
+          "marks": [
+            "92f0c1875cf5"
+          ],
+          "text": "The recoverability question"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "92f0c1875cf5",
+          "_type": "link",
+          "href": "#the-recoverability-question"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "be25b16d7b77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2130f873fd05",
+          "_type": "span",
+          "marks": [
+            "6097c6b7d26b"
+          ],
+          "text": "How to Calculate Net Operating Income for Real Estate"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6097c6b7d26b",
+          "_type": "link",
+          "href": "#how-to-calculate-net-operating-income-for-real-estate"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e93eebf4fa86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "572035a21f51",
+          "_type": "span",
+          "marks": [
+            "974c58e67647"
+          ],
+          "text": "Start with potential income"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "974c58e67647",
+          "_type": "link",
+          "href": "#start-with-potential-income"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f329c78384eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b94519b2b475",
+          "_type": "span",
+          "marks": [
+            "4e8c661b943a"
+          ],
+          "text": "Subtract recurring operating expenses"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4e8c661b943a",
+          "_type": "link",
+          "href": "#subtract-recurring-operating-expenses"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7236fbbb59b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c712bfdbf583",
+          "_type": "span",
+          "marks": [
+            "e33ac4cc08fc"
+          ],
+          "text": "Keep capital costs outside NOI"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e33ac4cc08fc",
+          "_type": "link",
+          "href": "#keep-capital-costs-outside-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eba33486949c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd7adb0fbdf3",
+          "_type": "span",
+          "marks": [
+            "7a408a7366c1"
+          ],
+          "text": "The Operating Expenses That Actually Move Your NOI"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7a408a7366c1",
+          "_type": "link",
+          "href": "#the-operating-expenses-that-actually-move-your-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "818d22a5fe2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "faa1f09bb2f0",
+          "_type": "span",
+          "marks": [
+            "7ebefc2dd589"
+          ],
+          "text": "Weather and policy belong in the forecast"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7ebefc2dd589",
+          "_type": "link",
+          "href": "#weather-and-policy-belong-in-the-forecast"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "adff266870ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e72e4e44d3be",
+          "_type": "span",
+          "marks": [
+            "9a4fcecb6b06"
+          ],
+          "text": "Where savings become NOI"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9a4fcecb6b06",
+          "_type": "link",
+          "href": "#where-savings-become-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8d05dacae572",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ecc6444396c",
+          "_type": "span",
+          "marks": [
+            "d94c5a5fc2a0"
+          ],
+          "text": "Bulk Metering Versus Submetering and the NOI Impact"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d94c5a5fc2a0",
+          "_type": "link",
+          "href": "#bulk-metering-versus-submetering-and-the-noi-impact"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "87422c64f9ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5138df23d892",
+          "_type": "span",
+          "marks": [
+            "21b88e161b84"
+          ],
+          "text": "What works and what doesn't"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "21b88e161b84",
+          "_type": "link",
+          "href": "#what-works-and-what-doesnt"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ec305578520d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ae017bee57c",
+          "_type": "span",
+          "marks": [
+            "1a413f2f9023"
+          ],
+          "text": "How NOI Drives Property Valuation and Investor Decisions"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1a413f2f9023",
+          "_type": "link",
+          "href": "#how-noi-drives-property-valuation-and-investor-decisions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "599d92389b89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a99cd28f1b02",
+          "_type": "span",
+          "marks": [
+            "2b9ed1faf112"
+          ],
+          "text": "Stabilised NOI carries more weight"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2b9ed1faf112",
+          "_type": "link",
+          "href": "#stabilised-noi-carries-more-weight"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d3b5c408d3b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc016002a928",
+          "_type": "span",
+          "marks": [
+            "e1d3d0fd0add"
+          ],
+          "text": "Hidden Utility Leaks That Quietly Erode Your NOI"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e1d3d0fd0add",
+          "_type": "link",
+          "href": "#hidden-utility-leaks-that-quietly-erode-your-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "74afa3e282cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da52cbacffe0",
+          "_type": "span",
+          "marks": [
+            "c5fa70dad464"
+          ],
+          "text": "Master-meter spillover and water loss"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c5fa70dad464",
+          "_type": "link",
+          "href": "#master-meter-spillover-and-water-loss"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "acfd58cd93ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd916d16e957",
+          "_type": "span",
+          "marks": [
+            "4f82083078ac"
+          ],
+          "text": "Your Action Plan to Improve and Protect NOI"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4f82083078ac",
+          "_type": "link",
+          "href": "#your-action-plan-to-improve-and-protect-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a36e3db69017",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d6fd4e000f1",
+          "_type": "span",
+          "marks": [
+            "583f76a65430"
+          ],
+          "text": "Days 1 to 30"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "583f76a65430",
+          "_type": "link",
+          "href": "#days-1-to-30"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "19a8ab7677b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e340fcdf86ea",
+          "_type": "span",
+          "marks": [
+            "d18bbf6b755e"
+          ],
+          "text": "Days 31 to 60"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d18bbf6b755e",
+          "_type": "link",
+          "href": "#days-31-to-60"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d5a31e0dabc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02943d1e9081",
+          "_type": "span",
+          "marks": [
+            "e621d857ddc9"
+          ],
+          "text": "Days 61 to 90"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e621d857ddc9",
+          "_type": "link",
+          "href": "#days-61-to-90"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "34d4c0089c37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62fcb002e77d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1b65b87e9ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23df4ab559b8",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Rent Growth Alone Does Not Protect Your NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "d6f019c0c7a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dedbf3983196",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners often underwrite rent growth as though it automatically becomes NOI. It doesn't. Revenue only improves NOI after vacancy, bad debt, concessions, and operating costs are accounted for. If expenses rise faster than effective income, the property can show higher rents and weaker operating performance at the same time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0be3a89e2fe2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2354d023cb7",
+          "_type": "span",
+          "marks": [],
+          "text": "Utilities are a particularly important example because owners frequently treat them as a fixed background cost. They aren't fixed. Natural Resources Canada benchmarking shows that multifamily energy use is dominated by "
+        },
+        {
+          "_key": "be78ed04038f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "natural gas at 63% and electricity at 34%"
+        },
+        {
+          "_key": "72747398eae6",
+          "_type": "span",
+          "marks": [],
+          "text": ", making heating and electrical demand the primary utility burden in the cited Canadian snapshot ("
+        },
+        {
+          "_key": "13231306f527",
+          "_type": "span",
+          "marks": [
+            "1ce49ade11d1"
+          ],
+          "text": "Natural Resources Canada utility benchmarking data"
+        },
+        {
+          "_key": "0dc26f0ff910",
+          "_type": "span",
+          "marks": [],
+          "text": "). Utility expenses can also represent "
+        },
+        {
+          "_key": "799db156bdd6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15% to 20% of total operating expenses"
+        },
+        {
+          "_key": "d0100744628c",
+          "_type": "span",
+          "marks": [],
+          "text": " in multifamily properties, according to the same referenced property-expense reporting."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1ce49ade11d1",
+          "_type": "link",
+          "href": "https://homecalc.ca/blog/how-to-calculate-cap-rate"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4713b9a5d6fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41b27dbf188f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "851ff36c10db",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate rent growth from NOI growth. The first is a revenue event. The second is what remains after the building pays its bills."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f3696893acf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65749c922c97",
+          "_type": "span",
+          "marks": [],
+          "text": "Weather can overwhelm a clean rent-growth story. InterRent reported that same-property utilities expenses increased "
+        },
+        {
+          "_key": "536492623e02",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "16.6% year over year in Q1 2025"
+        },
+        {
+          "_key": "134084ecf32d",
+          "_type": "span",
+          "marks": [],
+          "text": ", alongside "
+        },
+        {
+          "_key": "5a4c6c25e45e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "18.0% more heating degree days"
+        },
+        {
+          "_key": "f621d78f5b7b",
+          "_type": "span",
+          "marks": [],
+          "text": " and an additional natural-gas cost effect from the carbon tax ("
+        },
+        {
+          "_key": "a70b34a9ce68",
+          "_type": "span",
+          "marks": [
+            "1ab214d29023"
+          ],
+          "text": "InterRent's Q1 2025 results"
+        },
+        {
+          "_key": "ec967414beec",
+          "_type": "span",
+          "marks": [],
+          "text": "). That doesn't mean every property will experience the same movement. It does show why a weather-sensitive building needs more than a rent strategy."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1ab214d29023",
+          "_type": "link",
+          "href": "https://www.newswire.ca/news-releases/interrent-reit-delivers-solid-financial-and-operating-results-in-q1-2025-822269411.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "92a310669b72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "054d975b3c5a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "131b5919eee0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1eb1119a4698",
+          "_type": "span",
+          "marks": [],
+          "text": "The recoverability question"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "213d179895d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04e567ce8fdd",
+          "_type": "span",
+          "marks": [],
+          "text": "The most important distinction is whether the owner pays the utility or recovers it from the resident. A utility reduction in a bulk-billed building generally lowers operating expenses directly. The same reduction may have little effect on owner NOI where residents already pay their own consumption, although it can still reduce disputes, improve transparency, and support asset management."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "565bd9deca8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f63130734ab3",
+          "_type": "span",
+          "marks": [],
+          "text": "CAPREIT's 2025 Annual Report illustrates the scale issue. Its property operating costs were "
+        },
+        {
+          "_key": "4a6f2b04827d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 281.431 million in 2025"
+        },
+        {
+          "_key": "6c82790baafa",
+          "_type": "span",
+          "marks": [],
+          "text": ", compared with "
+        },
+        {
+          "_key": "f670d8941af5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 250.421 million in 2024"
+        },
+        {
+          "_key": "5ee70097e371",
+          "_type": "span",
+          "marks": [],
+          "text": ", while NOI was "
+        },
+        {
+          "_key": "9efd22d2b710",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 730.654 million in 2025"
+        },
+        {
+          "_key": "8d1d7bec6058",
+          "_type": "span",
+          "marks": [],
+          "text": ", compared with "
+        },
+        {
+          "_key": "2a1886838562",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 653.711 million in 2024"
+        },
+        {
+          "_key": "3d085fa8998e",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "789264173b3a",
+          "_type": "span",
+          "marks": [
+            "a10eedd799c4"
+          ],
+          "text": "CAPREIT 2025 Annual Report"
+        },
+        {
+          "_key": "7bf1ab8349ba",
+          "_type": "span",
+          "marks": [],
+          "text": "). The report also shows utilities rising from "
+        },
+        {
+          "_key": "8d39e7d4a760",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CAD 15.735 million to CAD 16.348 million"
+        },
+        {
+          "_key": "8fee30c1cc75",
+          "_type": "span",
+          "marks": [],
+          "text": " in one comparative period. At portfolio scale, even a modest line-item movement deserves the same attention as a leasing initiative."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a10eedd799c4",
+          "_type": "link",
+          "href": "https://www.capreit.ca/wp-content/uploads/2026/02/CAPREIT-2025-Annual-Report-Web.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "59178b351a39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0aec7ca8714",
+          "_type": "span",
+          "marks": [],
+          "text": "Rent growth still has a place in the business plan. It just shouldn't distract operators from controllable costs, weather exposure, and revenue that disappears during vacancy or leaks through building systems."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5e8c8be4643",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9534629d5fd3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e01394e81ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa532fecbdff",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Calculate Net Operating Income for Real Estate"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a973c2c706ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab05b42b757c",
+          "_type": "span",
+          "marks": [],
+          "text": "The core formula is straightforward:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "912870007512",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3472cf4250cf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NOI = Effective Gross Income minus Operating Expenses"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30c2497a03a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee390618fde0",
+          "_type": "span",
+          "marks": [],
+          "text": "The difficulty is deciding what belongs in each input and keeping recurring operations separate from financing and capital work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "492fb4862ca6",
+      "_type": "externalImage",
+      "alt": "An infographic showing the step-by-step formula to calculate Net Operating Income for a real estate property.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c62f8399-7c9f-434a-8de7-2453bd601a01/net-operating-income-property-noi-calculation.jpg"
+    },
+    {
+      "_key": "0405a98bd8ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbb08841b529",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "126616dff6d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cc69fc06b82",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with potential income"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f9751c76a780",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a711389aa65f",
+          "_type": "span",
+          "marks": [],
+          "text": "For a multifamily property, begin with gross potential rent. This is the rent the building would collect if every suite were occupied and every resident paid according to the lease. Add recurring ancillary revenue such as parking, storage, laundry, or other permitted property income."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9059ca46bb01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f08cf2eb924",
+          "_type": "span",
+          "marks": [],
+          "text": "Then subtract vacancy, bad debt, concessions, and other income loss. The result is effective gross income, the amount the property realistically produces before operating costs. MPAC's Ontario methodology uses this income approach for multi-residential valuation, with NOI based on effective gross income less operating expenses after vacancy and bad debts, as outlined in the "
+        },
+        {
+          "_key": "42ef86eaeccc",
+          "_type": "span",
+          "marks": [
+            "1cb0e1c1d939"
+          ],
+          "text": "real estate NOI calculation guide"
+        },
+        {
+          "_key": "e58450711c4f",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1cb0e1c1d939",
+          "_type": "link",
+          "href": "https://www.homebasecre.com/posts/how-to-calculate-noi"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56ec38ed4ed5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96211916d336",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ffa538d6b274",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f095e15d4d30",
+          "_type": "span",
+          "marks": [],
+          "text": "Subtract recurring operating expenses"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e8aa9de4ae5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2c22b296f79",
+          "_type": "span",
+          "marks": [],
+          "text": "Operating expenses are the costs required to run the property. A practical schedule for a 200-unit apartment building might include:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc5c3eb7a9c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32fea23aed4e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Property taxes:"
+        },
+        {
+          "_key": "447afcdb9357",
+          "_type": "span",
+          "marks": [],
+          "text": " Municipal charges tied to ownership and assessed value."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4413bf2ad0a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52aa5563dd57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Insurance:"
+        },
+        {
+          "_key": "f807dfce64cd",
+          "_type": "span",
+          "marks": [],
+          "text": " Policies required to protect the asset and its operations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa8a1fa9c1c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6e342e1a88e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Management:"
+        },
+        {
+          "_key": "5ba260c4b8f4",
+          "_type": "span",
+          "marks": [],
+          "text": " Internal or contracted property-management costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f80a42f5cf88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d66aa80a0ac8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Maintenance:"
+        },
+        {
+          "_key": "c0b0f5c0af7a",
+          "_type": "span",
+          "marks": [],
+          "text": " Routine repairs, service contracts, cleaning, landscaping, and staffing."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4cd6bd1c4127",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18bda0b3418a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Utilities:"
+        },
+        {
+          "_key": "a0c589510471",
+          "_type": "span",
+          "marks": [],
+          "text": " Owner-paid electricity, gas, water, sewer, and thermal energy."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abc30d18b13a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1171e1c35e05",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Administration:"
+        },
+        {
+          "_key": "92f5bcabe9d7",
+          "_type": "span",
+          "marks": [],
+          "text": " Office, software, legal, accounting, and resident-service costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7d7370b548d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36e5800e2fe0",
+          "_type": "span",
+          "marks": [],
+          "text": "The example above is a structure, not a fabricated financial result. Insert the building's actual income and expense ledger, then test each line for recurring timing issues, unusual repairs, recoveries, and missing accruals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f4c524c74e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf1bc7bd735a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34cb54877a77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c6f9b6af435",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep capital costs outside NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c1a3b3ddaa33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87eaff106ad2",
+          "_type": "span",
+          "marks": [],
+          "text": "NOI excludes debt service, mortgage interest, income taxes, and capital expenditures. Replacing a roof, upgrading a boiler, or completing a major suite renovation may affect long-term value and cash flow, but those costs belong in capital planning rather than the recurring NOI calculation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7eaca038e168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fbe67eec5c8",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction matters during acquisitions. An owner can show an attractive NOI while facing substantial deferred capital work. Conversely, a temporary maintenance spike shouldn't automatically define the property's stabilized operating performance. Review the trailing operating record, normalise unusual items carefully, and document every adjustment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "770e286b2ffa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be20de3bd81a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owner's check:"
+        },
+        {
+          "_key": "3456bcd34934",
+          "_type": "span",
+          "marks": [],
+          "text": " Build NOI from the general ledger, utility invoices, rent roll, and vacancy report. Don't copy a broker's summary without reconciling it to source records."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "94dc1810dc1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46175290394d",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful operating expense review should also classify costs by control and recovery. Property taxes and insurance may be difficult to change quickly. Maintenance contracts can often be negotiated. Utilities may be reduced, allocated, or recovered, depending on the building's design and local rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a072f1550495",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1d61d7a6363",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02bf46b58abc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "664a296737d3",
+          "_type": "span",
+          "marks": [],
+          "text": "The Operating Expenses That Actually Move Your NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c55db8efc956",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2285506bcd34",
+          "_type": "span",
+          "marks": [],
+          "text": "A property's largest expense isn't always its best savings opportunity. The useful test is whether the cost is "
+        },
+        {
+          "_key": "533587d18e7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "material, variable, controllable, and recoverable"
+        },
+        {
+          "_key": "73cc94eff88e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Utilities often score highly on all four, especially in older Canadian multifamily buildings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4ff029a9ec2",
+      "_type": "externalImage",
+      "alt": "Bar chart illustrating operating expenses for properties, highlighting utilities as the largest cost affecting net operating income.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/11b15d90-05f8-4fe2-9be3-14feec4d48a3/net-operating-income-property-operating-expenses.jpg"
+    },
+    {
+      "_key": "967518a0d11f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5bcb6859fab1",
+          "_type": "span",
+          "marks": [],
+          "text": "Natural gas and electricity drive most multifamily energy use in the cited Canadian benchmarking snapshot. That makes heating systems, electrical loads, common-area consumption, ventilation, and resident usage important parts of NOI management, not merely engineering concerns. Water and sewer deserve equal attention where the owner pays the master bill, because leaks can continue unnoticed between billing cycles."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7afc98b7ed6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6c6b00004a3",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical review should divide expenses into three groups:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "761120a5d2ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "103c1592a629",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Controllable costs:"
+        },
+        {
+          "_key": "67606c33d380",
+          "_type": "span",
+          "marks": [],
+          "text": " Management, maintenance procurement, lighting schedules, equipment settings, monitoring, and billing administration."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52d2a25246ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d00bbdbf993",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Externally driven costs:"
+        },
+        {
+          "_key": "5123739e5e0c",
+          "_type": "span",
+          "marks": [],
+          "text": " Weather, utility rates, insurance markets, and municipal taxation."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7cc7f9c6246f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd3edf7a3731",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Recoverability-dependent costs:"
+        },
+        {
+          "_key": "58eccb81ae7d",
+          "_type": "span",
+          "marks": [],
+          "text": " Electricity, water, gas, or thermal energy that may be allocated to residents only where the building configuration and jurisdiction permit it."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9c42ac218aee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5b7050b4e76",
+          "_type": "span",
+          "marks": [],
+          "text": "For a broader operating-expense framework, owners can use this "
+        },
+        {
+          "_key": "bf321243451c",
+          "_type": "span",
+          "marks": [
+            "08df0a218576"
+          ],
+          "text": "guide to OpEx from HireAccountants"
+        },
+        {
+          "_key": "fa65b03af530",
+          "_type": "span",
+          "marks": [],
+          "text": " to organise recurring categories before comparing them with the property ledger."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "08df0a218576",
+          "_type": "link",
+          "href": "https://hireaccountants.com/how-to-calculate-operating-expenses/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aacff12e976a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f12940ddfe0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d2e409c54e4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae1bab312f93",
+          "_type": "span",
+          "marks": [],
+          "text": "Weather and policy belong in the forecast"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "aed2a705df40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00f8b31fe800",
+          "_type": "span",
+          "marks": [],
+          "text": "A mild winter can make a building appear efficient. A severe winter can reverse that impression without any change in management. InterRent's reported Q1 2025 experience shows how heating degree days and carbon pricing can move same-property utility expense independently of occupancy or leasing results ("
+        },
+        {
+          "_key": "d94c365fc1c5",
+          "_type": "span",
+          "marks": [
+            "60c305888f90"
+          ],
+          "text": "InterRent's Q1 2025 announcement"
+        },
+        {
+          "_key": "2ff9cf19d054",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "60c305888f90",
+          "_type": "link",
+          "href": "https://www.newswire.ca/news-releases/interrent-reit-delivers-solid-financial-and-operating-results-in-q1-2025-822269411.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a64f771e69ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc469633048e",
+          "_type": "span",
+          "marks": [],
+          "text": "That's why a single annual utility number is a weak management tool. Track consumption and cost separately, compare heating periods with weather information, and identify whether the increase came from usage, rate changes, equipment performance, or billing structure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c107c617211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2557c19ec70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The operator's mistake is treating every utility increase as unavoidable."
+        },
+        {
+          "_key": "d6bcb2edb4f0",
+          "_type": "span",
+          "marks": [],
+          "text": " Some increases are weather-driven. Others come from leaks, inefficient equipment, common-area spillover, or a recovery process that was never completed."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "c0bd4a204944",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cb1ce3171bc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd9da3e315de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8625a1f1aef5",
+          "_type": "span",
+          "marks": [],
+          "text": "Where savings become NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9e50bebef0c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f51a07a28f8",
+          "_type": "span",
+          "marks": [],
+          "text": "In an owner-paid building, a lower utility invoice generally reduces operating expenses and increases NOI. In a resident-paid structure, the owner's opportunity may instead be billing accuracy, vacant-suite controls, common-area separation, and better exception reporting. That difference should shape the business case before anyone orders equipment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d01dbff67831",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d175941e8a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Review the building's electricity consumption and reduction opportunities through this "
+        },
+        {
+          "_key": "2d2aee89758d",
+          "_type": "span",
+          "marks": [
+            "18b63a51fc87"
+          ],
+          "text": "electricity consumption reduction resource"
+        },
+        {
+          "_key": "568571da6bc6",
+          "_type": "span",
+          "marks": [],
+          "text": ", then connect the findings to the actual utility responsibility in each lease and service agreement."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "18b63a51fc87",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electricity-consumption-reduction"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2484e34b3506",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c37f779ad798",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "346d07769fcf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "561e330b6a3a",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk Metering Versus Submetering and the NOI Impact"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "922e6184a74c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8d8876bd368",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk metering puts the owner between the utility provider and the building's individual users. The property receives a master bill, pays it as an operating expense, and may recover part of the cost through rent or a separate allocation process. Submetering creates unit-level measurement so consumption can be assigned and billed according to the applicable lease, condominium documents, and jurisdictional rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1869a79b3da1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89ea53a5d617",
+          "_type": "span",
+          "marks": [],
+          "text": "The accounting effect is simple. If a tenant pays the utility directly or receives a compliant unit-level bill, that consumption generally doesn't remain in the owner's NOI expense bucket. The implementation effect is more complicated because equipment, access, data quality, resident communication, licensing, and billing administration all matter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3157f021522",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5deddb2cb14",
+          "_type": "span",
+          "marks": [],
+          "text": "Factor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c80a6e7dac95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "345f0e5728d5",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk Metered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e046e196421",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb4b7ce72ee1",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ffedf25f71d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b8b32ed0ae8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Utility responsibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd36aa367606",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04ff75df25f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner typically carries the master bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4ebc25eddfb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20f1c9edb7a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Consumption can be allocated to individual units where permitted"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c7f2417e768",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37a8260f0f0d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Usage visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "80369369af9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f84b2fdb230",
+          "_type": "span",
+          "marks": [],
+          "text": "Building-level data, with limited unit detail"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9fd3cc2a6a40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed0ec935b4c7",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit-level data supports monitoring and exception reporting"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa07cb5fa73f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f1f0cd73647",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NOI treatment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23c30b86f26d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1cccd598a8d",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner-paid consumption remains an operating expense"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24175c6c7d02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d34fbc4d749c",
+          "_type": "span",
+          "marks": [],
+          "text": "Recoverable tenant consumption can move outside the owner's expense base"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "95c86a1fe247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e6b6c6021e5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Resident behaviour"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4fdc87a8d36d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c597cc0ea9fd",
+          "_type": "span",
+          "marks": [],
+          "text": "Residents may have limited price visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1c67dc91b29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21ec528b80aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Residents can see a clearer relationship between use and cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d2f67a659c34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2952f51d4973",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8f2cc00b996",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "908469436796",
+          "_type": "span",
+          "marks": [],
+          "text": "May be mixed into the master account"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b593158f66c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48fbdbd08128",
+          "_type": "span",
+          "marks": [],
+          "text": "Can be separately measured when the design supports it"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd77245a5f22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f80190f54a0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational burden"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc46dac7120b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fcf8a9e5a27c",
+          "_type": "span",
+          "marks": [],
+          "text": "Simpler physical arrangement, but greater owner exposure"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d3ce7a6b642",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b9757446026",
+          "_type": "span",
+          "marks": [],
+          "text": "More setup, billing, compliance, and ongoing service requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abf455cb202b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bb0e887b19a",
+          "_type": "span",
+          "marks": [],
+          "text": "The financial case shouldn't rely on a generic promise. First confirm the property's electrical risers, suite layout, existing meters, load separation, and governing rules. Electricity may be the easiest starting point, while water, gas, or thermal energy may require different equipment and approvals."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c6f0aae7cb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38ac6419c1f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario evidence cited in Canadian industry materials found approximately "
+        },
+        {
+          "_key": "6988d00b7699",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40% annual electricity savings per unit"
+        },
+        {
+          "_key": "7f5844f728f7",
+          "_type": "span",
+          "marks": [],
+          "text": " after moving from bulk billing to submetering, with later-year savings of roughly "
+        },
+        {
+          "_key": "94b23efae561",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "37% to 39%"
+        },
+        {
+          "_key": "550c3646399e",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same analysis reported reductions of "
+        },
+        {
+          "_key": "b169464b3102",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139 kWh per unit per month in year one, 125 kWh in year two, and 128 kWh in year three"
+        },
+        {
+          "_key": "f5362137b9ec",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "3819a962d727",
+          "_type": "span",
+          "marks": [
+            "35b5b0ddb274"
+          ],
+          "text": "Ontario submetering evidence reported with CAPREIT's results"
+        },
+        {
+          "_key": "8930c20a0c58",
+          "_type": "span",
+          "marks": [],
+          "text": "). Those figures are specific to the cited Ontario analysis and shouldn't be copied into an underwriting model without testing the subject property."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "35b5b0ddb274",
+          "_type": "link",
+          "href": "https://www.globenewswire.com/news-release/2026/08/06/3340838/0/en/CAPREIT-Reports-Second-Quarter-2026-Results.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a0712c1070aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "01f2e75fe397",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77b74860a2ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2aefb62e158",
+          "_type": "span",
+          "marks": [],
+          "text": "What works and what doesn't"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "97258d104c81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0ec794e3654",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering works best when measurement is accurate, tenant responsibilities are documented, bills are understandable, and exceptions are acted on. It doesn't work as a paper exercise where meters are installed but data isn't reconciled, vacant suites are ignored, or common-area loads remain mixed with residential consumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50e74a673ab9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d9363627eba",
+          "_type": "span",
+          "marks": [],
+          "text": "Operators evaluating electrical separation can review this "
+        },
+        {
+          "_key": "16dd5b7766d8",
+          "_type": "span",
+          "marks": [
+            "d5fb44a1d3da"
+          ],
+          "text": "electricity submetering resource"
+        },
+        {
+          "_key": "814ce1a78cbf",
+          "_type": "span",
+          "marks": [],
+          "text": ". The decision should include installation feasibility, resident notices, compliance review, billing support, maintenance, and a clear calculation of owner-paid expense before and after implementation."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d5fb44a1d3da",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/submeter-for-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "da5f71d99c61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ddef3965ad8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1a480740dce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df255178a8a5",
+          "_type": "span",
+          "marks": [],
+          "text": "How NOI Drives Property Valuation and Investor Decisions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4158e95efe78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f7e958f014dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Investors use NOI because it isolates the property's operating performance from the owner's financing structure. The familiar valuation relationship is:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a23970c2d3f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ae20c661173",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Property value = NOI divided by cap rate"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6337fa317ae6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cbbaaa641ed",
+          "_type": "span",
+          "marks": [],
+          "text": "MPAC's Ontario methodology treats NOI as the income basis for assessing multi-residential properties, which makes the quality of the NOI calculation as important as the headline result ("
+        },
+        {
+          "_key": "80103a0bf24e",
+          "_type": "span",
+          "marks": [
+            "831e70af2b06"
+          ],
+          "text": "Ontario NOI methodology reference"
+        },
+        {
+          "_key": "dd5563a684ab",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "831e70af2b06",
+          "_type": "link",
+          "href": "https://homecalc.ca/tools/cap-rate-calculator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "793cd9d5e062",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b996917cc4e8",
+          "_type": "span",
+          "marks": [],
+          "text": "The formula is useful, but it's not a valuation opinion. Cap rates vary by market, asset type, building condition, location, income durability, and perceived risk. A buyer won't necessarily pay the same multiple for a temporary utility reduction as for a durable, documented improvement supported by clean billing records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fae4c750ebd3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6b8554fec41",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b48eb2ab703f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa567d94422b",
+          "_type": "span",
+          "marks": [],
+          "text": "Stabilised NOI carries more weight"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "527163700be4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "320e91dc26b4",
+          "_type": "span",
+          "marks": [],
+          "text": "A single month can mislead. A winter utility spike, temporary vacancy, insurance adjustment, or unusual repair can distort the result. Buyers and lenders generally want to understand whether the reported NOI reflects recurring operations and whether projected improvements have credible support."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0dcbcfca8e8d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db5f7d570657",
+          "_type": "span",
+          "marks": [],
+          "text": "That's where utility recovery becomes an investment question rather than a bookkeeping adjustment. A new billing structure may improve the owner's expense position, but underwriting should include implementation costs, resident turnover, compliance requirements, bad debt risk, and the possibility that savings differ from the original estimate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7799837facb3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ada038606fd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Value follows durable NOI, not optimistic NOI."
+        },
+        {
+          "_key": "91f1691a720a",
+          "_type": "span",
+          "marks": [],
+          "text": " Document the baseline, the intervention, and the post-implementation operating record."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "3090d4533e07",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c4c1833aa033",
+          "_type": "span",
+          "marks": [],
+          "text": "The same logic applies during a sale. If an owner presents lower expenses without explaining why they fell, a buyer may treat the improvement as temporary. If the owner can show unit-level data, reconciled invoices, clear recovery rules, and stable reporting, the improvement becomes easier to evaluate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "959ad69ee0cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d7fa1faeb21",
+          "_type": "span",
+          "marks": [],
+          "text": "Investors should also compare NOI with capital needs. A building may have attractive operating income but require substantial mechanical, envelope, or plumbing work. NOI supports valuation, but it doesn't replace due diligence on physical condition, lease quality, market rents, debt, or future capital expenditure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6eee79c335c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c4abccd8227",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe48128dc68a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "794993f6fbeb",
+          "_type": "span",
+          "marks": [],
+          "text": "Hidden Utility Leaks That Quietly Erode Your NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "99abb3b19e1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d14d785f0665",
+          "_type": "span",
+          "marks": [],
+          "text": "The utility loss that attracts attention is usually a large rate increase. The quieter losses often come from suites that remain connected during vacancy, common-area loads that sit on a residential master bill, and water escaping through fixtures or buried lines."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb5307eae212",
+      "_type": "externalImage",
+      "alt": "A modern apartment with an exposed utility monitor on the exterior wall overlooking a city skyline.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9342cd28-dba5-4b09-94bf-d27e7fafc079/net-operating-income-property-smart-meter.jpg"
+    },
+    {
+      "_key": "e5b9f2438082",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b718110dc760",
+          "_type": "span",
+          "marks": [],
+          "text": "A vacant unit still needs heat, lighting, ventilation, and sometimes water service. If the owner's billing process stops when the lease ends but the meter remains active, consumption during the vacancy becomes an unrecovered cost. Independent multifamily commentary estimates vacant units can leak "
+        },
+        {
+          "_key": "5bc297bf0e41",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3% to 7% of recoverable utility revenue"
+        },
+        {
+          "_key": "a8f962c1c549",
+          "_type": "span",
+          "marks": [],
+          "text": ", with a cited 500-unit portfolio estimate of roughly "
+        },
+        {
+          "_key": "c20ec0c9cd91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$10,000 to $25,000 annually in missed NOI"
+        },
+        {
+          "_key": "ed83c6f95002",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "21c0c8c828fe",
+          "_type": "span",
+          "marks": [
+            "1e8a3d4079c6"
+          ],
+          "text": "vacant-unit utility recovery analysis from Billee"
+        },
+        {
+          "_key": "a7833edb40b6",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1e8a3d4079c6",
+          "_type": "link",
+          "href": "https://billee.ai/article/how-to-recover-utility-costs-from-vacant-units"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "53cda940421f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f916b5efc595",
+          "_type": "span",
+          "marks": [],
+          "text": "The point isn't to apply that estimate to every property. It's to ask whether the move-out and move-in process includes a utility handoff, whether vacant suites are flagged automatically, and whether the billing system can distinguish resident use from owner use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87c7bdbbeb01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb2ad21659d0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7025093109b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4315be9ce09b",
+          "_type": "span",
+          "marks": [],
+          "text": "Master-meter spillover and water loss"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2ffd0b76db54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ff2739a00cb",
+          "_type": "span",
+          "marks": [],
+          "text": "Master-meter spillover occurs when common-area lighting, mechanical equipment, exterior systems, or another shared load is mixed into a bill intended to represent suite consumption. Without separate measurement, the owner may recover less than the actual resident usage while absorbing the difference."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9120df8ffd32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bacc9c7c1e59",
+          "_type": "span",
+          "marks": [],
+          "text": "Water creates another blind spot. CBC has reported that leaky plumbing can account for "
+        },
+        {
+          "_key": "9fd9930844c4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10% to 33% of an average water bill"
+        },
+        {
+          "_key": "edf3080c0f6f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and that some municipalities may see leakage account for up to half of the bill. Toronto has also been reported to lose "
+        },
+        {
+          "_key": "a532008d0947",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10% to 15% of its drinking-water supply to leakage"
+        },
+        {
+          "_key": "3767b3872237",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "bc54c7dd10e0",
+          "_type": "span",
+          "marks": [
+            "9d8d1a3374e1"
+          ],
+          "text": "CBC reporting on plumbing and municipal water loss"
+        },
+        {
+          "_key": "16940a3eca97",
+          "_type": "span",
+          "marks": [],
+          "text": "). These figures describe broader leakage evidence, not a forecast for a particular building, but they show why a stable water bill doesn't prove that the system is healthy."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9d8d1a3374e1",
+          "_type": "link",
+          "href": "https://billee.ai/article/how-to-recover-utility-costs-from-vacant-units"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "863aa2ad13e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50e50484d243",
+          "_type": "span",
+          "marks": [],
+          "text": "For practical detection, pair submeters with exception reporting and sensors that identify unusual flow, continuous use, or flood conditions. A building team can also use this "
+        },
+        {
+          "_key": "0b0f79f19a66",
+          "_type": "span",
+          "marks": [
+            "01a42477332c"
+          ],
+          "text": "water leak detection system guide"
+        },
+        {
+          "_key": "3c78ed898f36",
+          "_type": "span",
+          "marks": [],
+          "text": " to structure inspections and response procedures."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "01a42477332c",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "80e9ec1ca36f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "554a2d1f86e9",
+          "_type": "span",
+          "marks": [],
+          "text": "The plumbing response should still involve qualified professionals. Encano Plumbing & Drainage Ltd.’s "
+        },
+        {
+          "_key": "3a073c40b823",
+          "_type": "span",
+          "marks": [
+            "35c6b7c4771d"
+          ],
+          "text": "leak detection guide"
+        },
+        {
+          "_key": "14a0eae92179",
+          "_type": "span",
+          "marks": [],
+          "text": " provides useful background on locating hidden water losses before they become larger repairs or insurance events."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "35c6b7c4771d",
+          "_type": "link",
+          "href": "https://www.encanovan.com/leak-detection-and-repair/how-to-find-hidden-water-leaks/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8f452bb12f45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "853325c2d9a0",
+          "_type": "span",
+          "marks": [],
+          "text": "A dashboard can flag a suite with constant overnight flow, an unoccupied unit with unexpected consumption, or a common-area meter that suddenly departs from its normal pattern. The technology doesn't create NOI by itself. The recovery comes when staff investigate the alert, repair the fault, correct the billing status, and verify the next invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd18148afaea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecf9b88fa375",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e967dcdf881",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "386767774c09",
+          "_type": "span",
+          "marks": [],
+          "text": "Your Action Plan to Improve and Protect NOI"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a71590104aba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45cca13542a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat NOI protection as a 90-day operating project, not a one-time spreadsheet exercise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc0fabc1f8c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd933be1ebee",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49025e02be84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e802a1abde6",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 1 to 30"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c8da8826e919",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "032654ac9eea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reconcile the baseline:"
+        },
+        {
+          "_key": "b9c13a85b152",
+          "_type": "span",
+          "marks": [],
+          "text": " Match the rent roll, vacancy report, utility invoices, recoveries, and general ledger."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9394316c022e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "921c3aa5b88f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Map responsibility:"
+        },
+        {
+          "_key": "8de20ca702fc",
+          "_type": "span",
+          "marks": [],
+          "text": " Mark every utility as owner-paid, resident-paid, allocated, or unclear."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fe89a0bf8c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b8611d44655",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Find leakage points:"
+        },
+        {
+          "_key": "55baa3db3c15",
+          "_type": "span",
+          "marks": [],
+          "text": " Review vacant-suite status, common-area connections, estimated bills, unusual consumption, and unresolved plumbing tickets."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8d62f4d512b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1348695426f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Normalise the context:"
+        },
+        {
+          "_key": "0300c9d917a1",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate weather-driven movement from rate changes, equipment problems, and billing errors."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3fbec790e841",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1ecc57ae7b3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b3749f062277",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e947d631f136",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 31 to 60"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d3b4c1f397aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b787702be77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Prioritise the largest exposure:"
+        },
+        {
+          "_key": "10059868cae8",
+          "_type": "span",
+          "marks": [],
+          "text": " Start with the utility that creates the greatest owner-paid burden, not the easiest project to describe."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87fd8bf3a5eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "049075e643e2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Test feasibility:"
+        },
+        {
+          "_key": "04bedd4884ef",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm meter locations, electrical or plumbing separation, access requirements, permitting, resident communication, and jurisdictional rules."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "67da17e06b32",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4818ae7ef50e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Design recovery controls:"
+        },
+        {
+          "_key": "8c7abe17d7d9",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish move-out and move-in billing procedures, vacant-unit monitoring, exception thresholds, and a documented response owner."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d55aa9aabbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "552a1a188cf2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Price the full programme:"
+        },
+        {
+          "_key": "7a3aa0166189",
+          "_type": "span",
+          "marks": [],
+          "text": " Include installation, commissioning, billing, maintenance, compliance, support, and expected owner-paid costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "188599bc60a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4763559bfd8d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a15ca5a963c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40e585e67cf7",
+          "_type": "span",
+          "marks": [],
+          "text": "Days 61 to 90"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a4afee673f8d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40ffb0ddda8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Implement the approved changes:"
+        },
+        {
+          "_key": "04dc8bb47860",
+          "_type": "span",
+          "marks": [],
+          "text": " Coordinate property staff, contractors, engineers, and billing administrators around a written schedule."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "269597214569",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "415260783db5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Report monthly:"
+        },
+        {
+          "_key": "6516ec37af4b",
+          "_type": "span",
+          "marks": [],
+          "text": " Track effective gross income, operating expenses, owner-paid utility consumption, recoveries, vacancy leakage, exceptions, and NOI."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "610ed410b832",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c61fca55852a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify the result:"
+        },
+        {
+          "_key": "d5f8cc14d52b",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare invoices and consumption with the baseline, investigate variances, and record the reason for each material change."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ad7189b547f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b264c78a425",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep the controls active:"
+        },
+        {
+          "_key": "73b7e8bececa",
+          "_type": "span",
+          "marks": [],
+          "text": " Assign responsibility for alerts and review the dashboard at the same operating meeting used for rent collection and maintenance performance."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e72c7e0e54f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a03eb57347a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions offers turnkey submetering for multifamily, condominium, mixed-use, and commercial properties, including meter installation, commissioning, tenant billing, leak and flood detection, compliance planning, and ongoing monitoring. If your building's NOI is being reduced by bulk utility costs or untracked consumption, visit "
+        },
+        {
+          "_key": "bfa7e0f248af",
+          "_type": "span",
+          "marks": [
+            "1b21c0d4a163"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "8a0837273c49",
+          "_type": "span",
+          "marks": [],
+          "text": " to assess whether a measured recovery programme fits the property."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1b21c0d4a163",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how to calculate and improve net operating income property metrics. Discover how utility submetering and cost control strategies boost NOI and valuation.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/1ce6f4d7-92f8-4967-936a-f4aa9abfebae/net-operating-income-property-real-estate.jpg",
+  "noIndex": false,
+  "outrankId": "9d55136f-6cc0-47f8-bb40-fa885fcd7f2e",
+  "publishedAt": "2026-09-04T07:12:01.524212+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "net-operating-income-property"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Most net operating income property advice starts with the same prescription: raise rents. That matters, but it&#39;s often the least reliable operational lever in a multifamily portfolio. A rent increase can be limited by market conditions, lease terms, affordability, or regulation, while a heating bill, plumbing leak, or vacant suite can erode income immediately.</p>\n<p><strong>NOI is the spread between effective property income and operating expenses.</strong> In Ontario valuation methodology, that means effective gross income after vacancy and bad debts, less operating expenses. Landlord-paid utilities reduce NOI, while tenant-paid utilities sit outside the owner&#39;s operating expense base, as explained in this <a href=\"https://homecalc.ca/tools/cap-rate-calculator\">Ontario NOI and cap-rate calculation resource</a>.</p>\n<p>Canadian operators also face exposure that basic formulas hide. Weather changes heating demand, carbon pricing affects natural-gas costs, and master-metered buildings can absorb consumption that residents ultimately use. The practical question isn&#39;t just how to grow rent. It&#39;s how to protect the income you&#39;ve already earned.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-rent-growth-alone-does-not-protect-your-noi\">Why Rent Growth Alone Does Not Protect Your NOI</a><ul>\n<li><a href=\"#the-recoverability-question\">The recoverability question</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-calculate-net-operating-income-for-real-estate\">How to Calculate Net Operating Income for Real Estate</a><ul>\n<li><a href=\"#start-with-potential-income\">Start with potential income</a></li>\n<li><a href=\"#subtract-recurring-operating-expenses\">Subtract recurring operating expenses</a></li>\n<li><a href=\"#keep-capital-costs-outside-noi\">Keep capital costs outside NOI</a></li>\n</ul>\n</li>\n<li><a href=\"#the-operating-expenses-that-actually-move-your-noi\">The Operating Expenses That Actually Move Your NOI</a><ul>\n<li><a href=\"#weather-and-policy-belong-in-the-forecast\">Weather and policy belong in the forecast</a></li>\n<li><a href=\"#where-savings-become-noi\">Where savings become NOI</a></li>\n</ul>\n</li>\n<li><a href=\"#bulk-metering-versus-submetering-and-the-noi-impact\">Bulk Metering Versus Submetering and the NOI Impact</a><ul>\n<li><a href=\"#what-works-and-what-doesnt\">What works and what doesn&#39;t</a></li>\n</ul>\n</li>\n<li><a href=\"#how-noi-drives-property-valuation-and-investor-decisions\">How NOI Drives Property Valuation and Investor Decisions</a><ul>\n<li><a href=\"#stabilised-noi-carries-more-weight\">Stabilised NOI carries more weight</a></li>\n</ul>\n</li>\n<li><a href=\"#hidden-utility-leaks-that-quietly-erode-your-noi\">Hidden Utility Leaks That Quietly Erode Your NOI</a><ul>\n<li><a href=\"#master-meter-spillover-and-water-loss\">Master-meter spillover and water loss</a></li>\n</ul>\n</li>\n<li><a href=\"#your-action-plan-to-improve-and-protect-noi\">Your Action Plan to Improve and Protect NOI</a><ul>\n<li><a href=\"#days-1-to-30\">Days 1 to 30</a></li>\n<li><a href=\"#days-31-to-60\">Days 31 to 60</a></li>\n<li><a href=\"#days-61-to-90\">Days 61 to 90</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-rent-growth-alone-does-not-protect-your-noi\"></a></p>\n<h2>Why Rent Growth Alone Does Not Protect Your NOI</h2>\n<p>Owners often underwrite rent growth as though it automatically becomes NOI. It doesn&#39;t. Revenue only improves NOI after vacancy, bad debt, concessions, and operating costs are accounted for. If expenses rise faster than effective income, the property can show higher rents and weaker operating performance at the same time.</p>\n<p>Utilities are a particularly important example because owners frequently treat them as a fixed background cost. They aren&#39;t fixed. Natural Resources Canada benchmarking shows that multifamily energy use is dominated by <strong>natural gas at 63% and electricity at 34%</strong>, making heating and electrical demand the primary utility burden in the cited Canadian snapshot (<a href=\"https://homecalc.ca/blog/how-to-calculate-cap-rate\">Natural Resources Canada utility benchmarking data</a>). Utility expenses can also represent <strong>15% to 20% of total operating expenses</strong> in multifamily properties, according to the same referenced property-expense reporting.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Separate rent growth from NOI growth. The first is a revenue event. The second is what remains after the building pays its bills.</p>\n</blockquote>\n<p>Weather can overwhelm a clean rent-growth story. InterRent reported that same-property utilities expenses increased <strong>16.6% year over year in Q1 2025</strong>, alongside <strong>18.0% more heating degree days</strong> and an additional natural-gas cost effect from the carbon tax (<a href=\"https://www.newswire.ca/news-releases/interrent-reit-delivers-solid-financial-and-operating-results-in-q1-2025-822269411.html\">InterRent&#39;s Q1 2025 results</a>). That doesn&#39;t mean every property will experience the same movement. It does show why a weather-sensitive building needs more than a rent strategy.</p>\n<p><a id=\"the-recoverability-question\"></a></p>\n<h3>The recoverability question</h3>\n<p>The most important distinction is whether the owner pays the utility or recovers it from the resident. A utility reduction in a bulk-billed building generally lowers operating expenses directly. The same reduction may have little effect on owner NOI where residents already pay their own consumption, although it can still reduce disputes, improve transparency, and support asset management.</p>\n<p>CAPREIT&#39;s 2025 Annual Report illustrates the scale issue. Its property operating costs were <strong>CAD 281.431 million in 2025</strong>, compared with <strong>CAD 250.421 million in 2024</strong>, while NOI was <strong>CAD 730.654 million in 2025</strong>, compared with <strong>CAD 653.711 million in 2024</strong> (<a href=\"https://www.capreit.ca/wp-content/uploads/2026/02/CAPREIT-2025-Annual-Report-Web.pdf\">CAPREIT 2025 Annual Report</a>). The report also shows utilities rising from <strong>CAD 15.735 million to CAD 16.348 million</strong> in one comparative period. At portfolio scale, even a modest line-item movement deserves the same attention as a leasing initiative.</p>\n<p>Rent growth still has a place in the business plan. It just shouldn&#39;t distract operators from controllable costs, weather exposure, and revenue that disappears during vacancy or leaks through building systems.</p>\n<p><a id=\"how-to-calculate-net-operating-income-for-real-estate\"></a></p>\n<h2>How to Calculate Net Operating Income for Real Estate</h2>\n<p>The core formula is straightforward:</p>\n<p><strong>NOI = Effective Gross Income minus Operating Expenses</strong></p>\n<p>The difficulty is deciding what belongs in each input and keeping recurring operations separate from financing and capital work.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c62f8399-7c9f-434a-8de7-2453bd601a01/net-operating-income-property-noi-calculation.jpg\" alt=\"An infographic showing the step-by-step formula to calculate Net Operating Income for a real estate property.\"></p>\n<p><a id=\"start-with-potential-income\"></a></p>\n<h3>Start with potential income</h3>\n<p>For a multifamily property, begin with gross potential rent. This is the rent the building would collect if every suite were occupied and every resident paid according to the lease. Add recurring ancillary revenue such as parking, storage, laundry, or other permitted property income.</p>\n<p>Then subtract vacancy, bad debt, concessions, and other income loss. The result is effective gross income, the amount the property realistically produces before operating costs. MPAC&#39;s Ontario methodology uses this income approach for multi-residential valuation, with NOI based on effective gross income less operating expenses after vacancy and bad debts, as outlined in the <a href=\"https://www.homebasecre.com/posts/how-to-calculate-noi\">real estate NOI calculation guide</a>.</p>\n<p><a id=\"subtract-recurring-operating-expenses\"></a></p>\n<h3>Subtract recurring operating expenses</h3>\n<p>Operating expenses are the costs required to run the property. A practical schedule for a 200-unit apartment building might include:</p>\n<ul>\n<li><strong>Property taxes:</strong> Municipal charges tied to ownership and assessed value.</li>\n<li><strong>Insurance:</strong> Policies required to protect the asset and its operations.</li>\n<li><strong>Management:</strong> Internal or contracted property-management costs.</li>\n<li><strong>Maintenance:</strong> Routine repairs, service contracts, cleaning, landscaping, and staffing.</li>\n<li><strong>Utilities:</strong> Owner-paid electricity, gas, water, sewer, and thermal energy.</li>\n<li><strong>Administration:</strong> Office, software, legal, accounting, and resident-service costs.</li>\n</ul>\n<p>The example above is a structure, not a fabricated financial result. Insert the building&#39;s actual income and expense ledger, then test each line for recurring timing issues, unusual repairs, recoveries, and missing accruals.</p>\n<p><a id=\"keep-capital-costs-outside-noi\"></a></p>\n<h3>Keep capital costs outside NOI</h3>\n<p>NOI excludes debt service, mortgage interest, income taxes, and capital expenditures. Replacing a roof, upgrading a boiler, or completing a major suite renovation may affect long-term value and cash flow, but those costs belong in capital planning rather than the recurring NOI calculation.</p>\n<p>That distinction matters during acquisitions. An owner can show an attractive NOI while facing substantial deferred capital work. Conversely, a temporary maintenance spike shouldn&#39;t automatically define the property&#39;s stabilized operating performance. Review the trailing operating record, normalise unusual items carefully, and document every adjustment.</p>\n<blockquote>\n<p><strong>Owner&#39;s check:</strong> Build NOI from the general ledger, utility invoices, rent roll, and vacancy report. Don&#39;t copy a broker&#39;s summary without reconciling it to source records.</p>\n</blockquote>\n<p>A useful operating expense review should also classify costs by control and recovery. Property taxes and insurance may be difficult to change quickly. Maintenance contracts can often be negotiated. Utilities may be reduced, allocated, or recovered, depending on the building&#39;s design and local rules.</p>\n<p><a id=\"the-operating-expenses-that-actually-move-your-noi\"></a></p>\n<h2>The Operating Expenses That Actually Move Your NOI</h2>\n<p>A property&#39;s largest expense isn&#39;t always its best savings opportunity. The useful test is whether the cost is <strong>material, variable, controllable, and recoverable</strong>. Utilities often score highly on all four, especially in older Canadian multifamily buildings.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/11b15d90-05f8-4fe2-9be3-14feec4d48a3/net-operating-income-property-operating-expenses.jpg\" alt=\"Bar chart illustrating operating expenses for properties, highlighting utilities as the largest cost affecting net operating income.\"></p>\n<p>Natural gas and electricity drive most multifamily energy use in the cited Canadian benchmarking snapshot. That makes heating systems, electrical loads, common-area consumption, ventilation, and resident usage important parts of NOI management, not merely engineering concerns. Water and sewer deserve equal attention where the owner pays the master bill, because leaks can continue unnoticed between billing cycles.</p>\n<p>A practical review should divide expenses into three groups:</p>\n<ul>\n<li><strong>Controllable costs:</strong> Management, maintenance procurement, lighting schedules, equipment settings, monitoring, and billing administration.</li>\n<li><strong>Externally driven costs:</strong> Weather, utility rates, insurance markets, and municipal taxation.</li>\n<li><strong>Recoverability-dependent costs:</strong> Electricity, water, gas, or thermal energy that may be allocated to residents only where the building configuration and jurisdiction permit it.</li>\n</ul>\n<p>For a broader operating-expense framework, owners can use this <a href=\"https://hireaccountants.com/how-to-calculate-operating-expenses/\">guide to OpEx from HireAccountants</a> to organise recurring categories before comparing them with the property ledger.</p>\n<p><a id=\"weather-and-policy-belong-in-the-forecast\"></a></p>\n<h3>Weather and policy belong in the forecast</h3>\n<p>A mild winter can make a building appear efficient. A severe winter can reverse that impression without any change in management. InterRent&#39;s reported Q1 2025 experience shows how heating degree days and carbon pricing can move same-property utility expense independently of occupancy or leasing results (<a href=\"https://www.newswire.ca/news-releases/interrent-reit-delivers-solid-financial-and-operating-results-in-q1-2025-822269411.html\">InterRent&#39;s Q1 2025 announcement</a>).</p>\n<p>That&#39;s why a single annual utility number is a weak management tool. Track consumption and cost separately, compare heating periods with weather information, and identify whether the increase came from usage, rate changes, equipment performance, or billing structure.</p>\n<blockquote>\n<p><strong>The operator&#39;s mistake is treating every utility increase as unavoidable.</strong> Some increases are weather-driven. Others come from leaks, inefficient equipment, common-area spillover, or a recovery process that was never completed.</p>\n</blockquote>\n<p><a id=\"where-savings-become-noi\"></a></p>\n<h3>Where savings become NOI</h3>\n<p>In an owner-paid building, a lower utility invoice generally reduces operating expenses and increases NOI. In a resident-paid structure, the owner&#39;s opportunity may instead be billing accuracy, vacant-suite controls, common-area separation, and better exception reporting. That difference should shape the business case before anyone orders equipment.</p>\n<p>Review the building&#39;s electricity consumption and reduction opportunities through this <a href=\"https://www.axismeter.com/blog/electricity-consumption-reduction\">electricity consumption reduction resource</a>, then connect the findings to the actual utility responsibility in each lease and service agreement.</p>\n<p><a id=\"bulk-metering-versus-submetering-and-the-noi-impact\"></a></p>\n<h2>Bulk Metering Versus Submetering and the NOI Impact</h2>\n<p>Bulk metering puts the owner between the utility provider and the building&#39;s individual users. The property receives a master bill, pays it as an operating expense, and may recover part of the cost through rent or a separate allocation process. Submetering creates unit-level measurement so consumption can be assigned and billed according to the applicable lease, condominium documents, and jurisdictional rules.</p>\n<p>The accounting effect is simple. If a tenant pays the utility directly or receives a compliant unit-level bill, that consumption generally doesn&#39;t remain in the owner&#39;s NOI expense bucket. The implementation effect is more complicated because equipment, access, data quality, resident communication, licensing, and billing administration all matter.</p>\n<table>\n<thead>\n<tr>\n<th>Factor</th>\n<th>Bulk Metered</th>\n<th>Submetered</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Utility responsibility</strong></td>\n<td>Owner typically carries the master bill</td>\n<td>Consumption can be allocated to individual units where permitted</td>\n</tr>\n<tr>\n<td><strong>Usage visibility</strong></td>\n<td>Building-level data, with limited unit detail</td>\n<td>Unit-level data supports monitoring and exception reporting</td>\n</tr>\n<tr>\n<td><strong>NOI treatment</strong></td>\n<td>Owner-paid consumption remains an operating expense</td>\n<td>Recoverable tenant consumption can move outside the owner&#39;s expense base</td>\n</tr>\n<tr>\n<td><strong>Resident behaviour</strong></td>\n<td>Residents may have limited price visibility</td>\n<td>Residents can see a clearer relationship between use and cost</td>\n</tr>\n<tr>\n<td><strong>Common-area loads</strong></td>\n<td>May be mixed into the master account</td>\n<td>Can be separately measured when the design supports it</td>\n</tr>\n<tr>\n<td><strong>Operational burden</strong></td>\n<td>Simpler physical arrangement, but greater owner exposure</td>\n<td>More setup, billing, compliance, and ongoing service requirements</td>\n</tr>\n</tbody></table>\n<p>The financial case shouldn&#39;t rely on a generic promise. First confirm the property&#39;s electrical risers, suite layout, existing meters, load separation, and governing rules. Electricity may be the easiest starting point, while water, gas, or thermal energy may require different equipment and approvals.</p>\n<p>Ontario evidence cited in Canadian industry materials found approximately <strong>40% annual electricity savings per unit</strong> after moving from bulk billing to submetering, with later-year savings of roughly <strong>37% to 39%</strong>. The same analysis reported reductions of <strong>139 kWh per unit per month in year one, 125 kWh in year two, and 128 kWh in year three</strong> (<a href=\"https://www.globenewswire.com/news-release/2026/08/06/3340838/0/en/CAPREIT-Reports-Second-Quarter-2026-Results.html\">Ontario submetering evidence reported with CAPREIT&#39;s results</a>). Those figures are specific to the cited Ontario analysis and shouldn&#39;t be copied into an underwriting model without testing the subject property.</p>\n<p><a id=\"what-works-and-what-doesnt\"></a></p>\n<h3>What works and what doesn&#39;t</h3>\n<p>Submetering works best when measurement is accurate, tenant responsibilities are documented, bills are understandable, and exceptions are acted on. It doesn&#39;t work as a paper exercise where meters are installed but data isn&#39;t reconciled, vacant suites are ignored, or common-area loads remain mixed with residential consumption.</p>\n<p>Operators evaluating electrical separation can review this <a href=\"https://www.axismeter.com/blog/submeter-for-electricity\">electricity submetering resource</a>. The decision should include installation feasibility, resident notices, compliance review, billing support, maintenance, and a clear calculation of owner-paid expense before and after implementation.</p>\n<p><a id=\"how-noi-drives-property-valuation-and-investor-decisions\"></a></p>\n<h2>How NOI Drives Property Valuation and Investor Decisions</h2>\n<p>Investors use NOI because it isolates the property&#39;s operating performance from the owner&#39;s financing structure. The familiar valuation relationship is:</p>\n<p><strong>Property value = NOI divided by cap rate</strong></p>\n<p>MPAC&#39;s Ontario methodology treats NOI as the income basis for assessing multi-residential properties, which makes the quality of the NOI calculation as important as the headline result (<a href=\"https://homecalc.ca/tools/cap-rate-calculator\">Ontario NOI methodology reference</a>).</p>\n<p>The formula is useful, but it&#39;s not a valuation opinion. Cap rates vary by market, asset type, building condition, location, income durability, and perceived risk. A buyer won&#39;t necessarily pay the same multiple for a temporary utility reduction as for a durable, documented improvement supported by clean billing records.</p>\n<p><a id=\"stabilised-noi-carries-more-weight\"></a></p>\n<h3>Stabilised NOI carries more weight</h3>\n<p>A single month can mislead. A winter utility spike, temporary vacancy, insurance adjustment, or unusual repair can distort the result. Buyers and lenders generally want to understand whether the reported NOI reflects recurring operations and whether projected improvements have credible support.</p>\n<p>That&#39;s where utility recovery becomes an investment question rather than a bookkeeping adjustment. A new billing structure may improve the owner&#39;s expense position, but underwriting should include implementation costs, resident turnover, compliance requirements, bad debt risk, and the possibility that savings differ from the original estimate.</p>\n<blockquote>\n<p><strong>Value follows durable NOI, not optimistic NOI.</strong> Document the baseline, the intervention, and the post-implementation operating record.</p>\n</blockquote>\n<p>The same logic applies during a sale. If an owner presents lower expenses without explaining why they fell, a buyer may treat the improvement as temporary. If the owner can show unit-level data, reconciled invoices, clear recovery rules, and stable reporting, the improvement becomes easier to evaluate.</p>\n<p>Investors should also compare NOI with capital needs. A building may have attractive operating income but require substantial mechanical, envelope, or plumbing work. NOI supports valuation, but it doesn&#39;t replace due diligence on physical condition, lease quality, market rents, debt, or future capital expenditure.</p>\n<p><a id=\"hidden-utility-leaks-that-quietly-erode-your-noi\"></a></p>\n<h2>Hidden Utility Leaks That Quietly Erode Your NOI</h2>\n<p>The utility loss that attracts attention is usually a large rate increase. The quieter losses often come from suites that remain connected during vacancy, common-area loads that sit on a residential master bill, and water escaping through fixtures or buried lines.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9342cd28-dba5-4b09-94bf-d27e7fafc079/net-operating-income-property-smart-meter.jpg\" alt=\"A modern apartment with an exposed utility monitor on the exterior wall overlooking a city skyline.\"></p>\n<p>A vacant unit still needs heat, lighting, ventilation, and sometimes water service. If the owner&#39;s billing process stops when the lease ends but the meter remains active, consumption during the vacancy becomes an unrecovered cost. Independent multifamily commentary estimates vacant units can leak <strong>3% to 7% of recoverable utility revenue</strong>, with a cited 500-unit portfolio estimate of roughly <strong>$10,000 to $25,000 annually in missed NOI</strong> (<a href=\"https://billee.ai/article/how-to-recover-utility-costs-from-vacant-units\">vacant-unit utility recovery analysis from Billee</a>).</p>\n<p>The point isn&#39;t to apply that estimate to every property. It&#39;s to ask whether the move-out and move-in process includes a utility handoff, whether vacant suites are flagged automatically, and whether the billing system can distinguish resident use from owner use.</p>\n<p><a id=\"master-meter-spillover-and-water-loss\"></a></p>\n<h3>Master-meter spillover and water loss</h3>\n<p>Master-meter spillover occurs when common-area lighting, mechanical equipment, exterior systems, or another shared load is mixed into a bill intended to represent suite consumption. Without separate measurement, the owner may recover less than the actual resident usage while absorbing the difference.</p>\n<p>Water creates another blind spot. CBC has reported that leaky plumbing can account for <strong>10% to 33% of an average water bill</strong>, and that some municipalities may see leakage account for up to half of the bill. Toronto has also been reported to lose <strong>10% to 15% of its drinking-water supply to leakage</strong> (<a href=\"https://billee.ai/article/how-to-recover-utility-costs-from-vacant-units\">CBC reporting on plumbing and municipal water loss</a>). These figures describe broader leakage evidence, not a forecast for a particular building, but they show why a stable water bill doesn&#39;t prove that the system is healthy.</p>\n<p>For practical detection, pair submeters with exception reporting and sensors that identify unusual flow, continuous use, or flood conditions. A building team can also use this <a href=\"https://www.axismeter.com/blog/water-leak-detection-system\">water leak detection system guide</a> to structure inspections and response procedures.</p>\n<p>The plumbing response should still involve qualified professionals. Encano Plumbing &amp; Drainage Ltd.’s <a href=\"https://www.encanovan.com/leak-detection-and-repair/how-to-find-hidden-water-leaks/\">leak detection guide</a> provides useful background on locating hidden water losses before they become larger repairs or insurance events.</p>\n<p>A dashboard can flag a suite with constant overnight flow, an unoccupied unit with unexpected consumption, or a common-area meter that suddenly departs from its normal pattern. The technology doesn&#39;t create NOI by itself. The recovery comes when staff investigate the alert, repair the fault, correct the billing status, and verify the next invoice.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/abzP37GJuUo\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"your-action-plan-to-improve-and-protect-noi\"></a></p>\n<h2>Your Action Plan to Improve and Protect NOI</h2>\n<p>Treat NOI protection as a 90-day operating project, not a one-time spreadsheet exercise.</p>\n<p><a id=\"days-1-to-30\"></a></p>\n<h3>Days 1 to 30</h3>\n<ul>\n<li><strong>Reconcile the baseline:</strong> Match the rent roll, vacancy report, utility invoices, recoveries, and general ledger.</li>\n<li><strong>Map responsibility:</strong> Mark every utility as owner-paid, resident-paid, allocated, or unclear.</li>\n<li><strong>Find leakage points:</strong> Review vacant-suite status, common-area connections, estimated bills, unusual consumption, and unresolved plumbing tickets.</li>\n<li><strong>Normalise the context:</strong> Separate weather-driven movement from rate changes, equipment problems, and billing errors.</li>\n</ul>\n<p><a id=\"days-31-to-60\"></a></p>\n<h3>Days 31 to 60</h3>\n<ul>\n<li><strong>Prioritise the largest exposure:</strong> Start with the utility that creates the greatest owner-paid burden, not the easiest project to describe.</li>\n<li><strong>Test feasibility:</strong> Confirm meter locations, electrical or plumbing separation, access requirements, permitting, resident communication, and jurisdictional rules.</li>\n<li><strong>Design recovery controls:</strong> Establish move-out and move-in billing procedures, vacant-unit monitoring, exception thresholds, and a documented response owner.</li>\n<li><strong>Price the full programme:</strong> Include installation, commissioning, billing, maintenance, compliance, support, and expected owner-paid costs.</li>\n</ul>\n<p><a id=\"days-61-to-90\"></a></p>\n<h3>Days 61 to 90</h3>\n<ul>\n<li><strong>Implement the approved changes:</strong> Coordinate property staff, contractors, engineers, and billing administrators around a written schedule.</li>\n<li><strong>Report monthly:</strong> Track effective gross income, operating expenses, owner-paid utility consumption, recoveries, vacancy leakage, exceptions, and NOI.</li>\n<li><strong>Verify the result:</strong> Compare invoices and consumption with the baseline, investigate variances, and record the reason for each material change.</li>\n<li><strong>Keep the controls active:</strong> Assign responsibility for alerts and review the dashboard at the same operating meeting used for rent collection and maintenance performance.</li>\n</ul>\n<p>Axis Meter Solutions offers turnkey submetering for multifamily, condominium, mixed-use, and commercial properties, including meter installation, commissioning, tenant billing, leak and flood detection, compliance planning, and ongoing monitoring. If your building&#39;s NOI is being reduced by bulk utility costs or untracked consumption, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to assess whether a measured recovery programme fits the property.</p>",
+  "tags": [
+    "net operating income",
+    "property NOI",
+    "real estate valuation",
+    "utility submetering",
+    "operating expenses"
+  ],
+  "title": "Net Operating Income Property: A Practical Guide",
+  "updatedAt": "2026-09-04T07:12:05.352Z"
+}
