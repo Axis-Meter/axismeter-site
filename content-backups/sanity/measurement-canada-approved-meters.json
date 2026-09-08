@@ -1,0 +1,3199 @@
+{
+  "_createdAt": "2026-09-08T07:27:11Z",
+  "_id": "outrank-0641ed25-57bc-4a90-b0ac-580fa3d11a12",
+  "_rev": "hPHp89Yh0CuH5yu4ggPmDN",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-08T07:27:11Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "c77cc7b3bddd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eef52f124285",
+          "_type": "span",
+          "marks": [],
+          "text": "You're comparing two submetering proposals for the same property. One vendor says its equipment is “industry-standard.” The other points to "
+        },
+        {
+          "_key": "7542eb011cac",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measurement Canada approval"
+        },
+        {
+          "_key": "6c7c9b37ba92",
+          "_type": "span",
+          "marks": [],
+          "text": ". Both meters may look modern, communicate remotely, and produce neat consumption reports, but those descriptions don't answer the question that matters most: "
+        },
+        {
+          "_key": "b39d92d2df2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Can the reading legally support a charge to a tenant or another customer?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "98d3e5af8f99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cffd2a8d8a7",
+          "_type": "span",
+          "marks": [],
+          "text": "For Canadian property owners, the answer depends on more than advertised accuracy. Measurement Canada treats revenue measurement as a regulated activity. The meter type must be approved, the individual device must be verified and sealed before service, and the installation must remain within the approved conditions. That framework turns a technical device into a defensible billing instrument."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf89f3623634",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "268991dadc6a",
+          "_type": "span",
+          "marks": [],
+          "text": "This distinction affects apartment buildings, condominiums, mixed-use properties, commercial sites, and any project where measured electricity, gas, water, or thermal energy is used to calculate a third-party charge. It also affects procurement. A device can be technically precise and still be the wrong choice for revenue billing if its approval status or scope doesn't match the intended use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ea937f79ec2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7323ceb3795",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "12ffcc61b174",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27c8e8eab380",
+          "_type": "span",
+          "marks": [
+            "d50bc40d89b0"
+          ],
+          "text": "What Measurement Canada Approval Means"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d50bc40d89b0",
+          "_type": "link",
+          "href": "#what-measurement-canada-approval-means"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e82256f3e8f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7710742f109",
+          "_type": "span",
+          "marks": [
+            "d32bbdc349b0"
+          ],
+          "text": "Who needs an approved meter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d32bbdc349b0",
+          "_type": "link",
+          "href": "#who-needs-an-approved-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b3f720ba8d23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bfdc6b90ede",
+          "_type": "span",
+          "marks": [
+            "308ec6e33e7e"
+          ],
+          "text": "The Three-Stage Compliance Lifecycle for Revenue Meters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "308ec6e33e7e",
+          "_type": "link",
+          "href": "#the-three-stage-compliance-lifecycle-for-revenue-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fe9558958a91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb980c5e8997",
+          "_type": "span",
+          "marks": [
+            "370be2278622"
+          ],
+          "text": "Stage one, type approval"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "370be2278622",
+          "_type": "link",
+          "href": "#stage-one-type-approval"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dd6a617c42ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f87d42efe023",
+          "_type": "span",
+          "marks": [
+            "dc91f2ada1fa"
+          ],
+          "text": "Stage two, initial verification"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dc91f2ada1fa",
+          "_type": "link",
+          "href": "#stage-two-initial-verification"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e349b79772c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5247ea9daffd",
+          "_type": "span",
+          "marks": [
+            "134a5eb9d052"
+          ],
+          "text": "Stage three, reverification"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "134a5eb9d052",
+          "_type": "link",
+          "href": "#stage-three-reverification"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b4a6c834400e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d2528c2ffee",
+          "_type": "span",
+          "marks": [
+            "abca7d0e9a8e"
+          ],
+          "text": "Inside the Type-Approval Evidence Package"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "abca7d0e9a8e",
+          "_type": "link",
+          "href": "#inside-the-type-approval-evidence-package"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0b0dcf90e836",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48d7d0bc96f8",
+          "_type": "span",
+          "marks": [
+            "39c820fd116b"
+          ],
+          "text": "What the submission must make clear"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "39c820fd116b",
+          "_type": "link",
+          "href": "#what-the-submission-must-make-clear"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "25fc40eb8ab8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c137578b48af",
+          "_type": "span",
+          "marks": [
+            "ef01e1edc858"
+          ],
+          "text": "Read the conditions, not just the number"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ef01e1edc858",
+          "_type": "link",
+          "href": "#read-the-conditions-not-just-the-number"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56ff1a78e14d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3a182661aa0",
+          "_type": "span",
+          "marks": [
+            "d69c8b78e4c0"
+          ],
+          "text": "Matching Approval Scope to Your Building's Use Cases"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d69c8b78e4c0",
+          "_type": "link",
+          "href": "#matching-approval-scope-to-your-buildings-use-cases"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "67b461bb0ab5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93f97d7e6951",
+          "_type": "span",
+          "marks": [
+            "79f2e348d3df"
+          ],
+          "text": "Match the use case before choosing hardware"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "79f2e348d3df",
+          "_type": "link",
+          "href": "#match-the-use-case-before-choosing-hardware"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e4bcdf9ebb30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c261ef7b0df7",
+          "_type": "span",
+          "marks": [
+            "c46d1fb03ad2"
+          ],
+          "text": "Why Approval Matters for Submetering in Multi-Unit Properties"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c46d1fb03ad2",
+          "_type": "link",
+          "href": "#why-approval-matters-for-submetering-in-multi-unit-properties"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "39c03ef9a5f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7786aafed297",
+          "_type": "span",
+          "marks": [
+            "d10f853463da"
+          ],
+          "text": "A billing chain with a physical consequence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d10f853463da",
+          "_type": "link",
+          "href": "#a-billing-chain-with-a-physical-consequence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aa1974bf02e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5634ff92d14e",
+          "_type": "span",
+          "marks": [
+            "1b6256ce1387"
+          ],
+          "text": "What the owner gains operationally"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1b6256ce1387",
+          "_type": "link",
+          "href": "#what-the-owner-gains-operationally"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "171500ed62c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a074a904f81",
+          "_type": "span",
+          "marks": [
+            "74a41464c44f"
+          ],
+          "text": "How to Verify a Meter Is Approved Before You Commit"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "74a41464c44f",
+          "_type": "link",
+          "href": "#how-to-verify-a-meter-is-approved-before-you-commit"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7cea5202c7e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04cc8f73261b",
+          "_type": "span",
+          "marks": [
+            "902d65122529"
+          ],
+          "text": "Use a written verification checklist"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "902d65122529",
+          "_type": "link",
+          "href": "#use-a-written-verification-checklist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "849af2b1a5c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee10db7d006e",
+          "_type": "span",
+          "marks": [
+            "6a192da389cd"
+          ],
+          "text": "Preserve the chain of evidence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6a192da389cd",
+          "_type": "link",
+          "href": "#preserve-the-chain-of-evidence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "80538a32575f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51e45bde2645",
+          "_type": "span",
+          "marks": [
+            "ca96698a640b"
+          ],
+          "text": "Putting Compliance Into Practice With Axis Meter Solutions"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ca96698a640b",
+          "_type": "link",
+          "href": "#putting-compliance-into-practice-with-axis-meter-solutions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cfcb949958c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0279fe9d48a",
+          "_type": "span",
+          "marks": [
+            "1496002675db"
+          ],
+          "text": "What an eight-to-ten-week deployment involves"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1496002675db",
+          "_type": "link",
+          "href": "#what-an-eight-to-ten-week-deployment-involves"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3e5fb4c605ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81169bd7c662",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa9dec387723",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17af89324621",
+          "_type": "span",
+          "marks": [],
+          "text": "What Measurement Canada Approval Means"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c1cbf8897010",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "281badb09375",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner is reviewing two submetering proposals. Both systems can collect consumption data and send it to a dashboard, yet only one may support charges to occupants. The term "
+        },
+        {
+          "_key": "18d87da50822",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "approved"
+        },
+        {
+          "_key": "de920500eeb4",
+          "_type": "span",
+          "marks": [],
+          "text": " carries a specific legal meaning under Canada's measurement laws. Measurement Canada administers requirements for measurement used in trade, and its rules permit only approved devices for measurement-based transactions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91339995e257",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1342fe355bfe",
+          "_type": "span",
+          "marks": [],
+          "text": "For electricity and gas, a new meter type is prototyped, assessed for accuracy, and approved before it can be used for billing. The approval applies to the meter type and its stated conditions of use. It does not describe a modern design or a manufacturer's quality-control process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f3aa79ece79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9676676d3518",
+          "_type": "span",
+          "marks": [],
+          "text": "Three questions help separate the issues:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "584a04b6488a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "021d8a0fa09d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Technical capability:"
+        },
+        {
+          "_key": "17018c356f27",
+          "_type": "span",
+          "marks": [],
+          "text": " Can the device measure consumption and transmit data?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4534de7a490",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8db202ab5b32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commercial suitability:"
+        },
+        {
+          "_key": "43a1fe8ffb88",
+          "_type": "span",
+          "marks": [],
+          "text": " Does it fit the building's electrical, gas, or other service conditions?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94284c9ff21f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2d5c1ff9708",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Legal approval:"
+        },
+        {
+          "_key": "acaad8665a89",
+          "_type": "span",
+          "marks": [],
+          "text": " Is the meter type recognised for measurement-based trade in Canada?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e4eca207f762",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6c8e1d700c0",
+          "_type": "span",
+          "marks": [],
+          "text": "The third question determines whether the device can support billing within the applicable legal framework. A non-approved meter may still serve internal monitoring, energy management, or building automation. Its readings may not provide a lawful basis for charging a tenant or another customer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86cd5a6ead2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25ec1a57879a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "edd8c802c85b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18436c81d11a",
+          "_type": "span",
+          "marks": [],
+          "text": "Who needs an approved meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2858e21dd5e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "079499f01ec6",
+          "_type": "span",
+          "marks": [],
+          "text": "Begin with the transaction and intended use. If a measured quantity forms the basis for selling or billing energy to another party, the owner must assess whether the selected meter is an approved revenue device and whether the proposed billing arrangement falls within its approval scope. This applies to landlords recovering electricity costs from occupants as well as other properties that allocate measured energy charges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a32b784523e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "079378fbd4c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Each approved revenue meter must also be "
+        },
+        {
+          "_key": "4a58818891b4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "verified and sealed before it enters service"
+        },
+        {
+          "_key": "7112d9b235bb",
+          "_type": "span",
+          "marks": [],
+          "text": ". The approval record is therefore one link in a chain. The chain connects the approved design to the specific unit installed, its verification record, and the conditions under which it operates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "defbd114e17c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "949f7d4da56a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "9afa05cdb105",
+          "_type": "span",
+          "marks": [],
+          "text": " Request the exact model, approval number, verification record, and installation conditions before purchase. “Industry-standard” does not replace those documents."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ccf6993870f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7ced6186db9",
+          "_type": "span",
+          "marks": [],
+          "text": "Property managers can store these records with leases, permits, work orders, and other regulated files. "
+        },
+        {
+          "_key": "a5d1aad24f06",
+          "_type": "span",
+          "marks": [
+            "30d658285d49"
+          ],
+          "text": "Compliance software for real estate agencies"
+        },
+        {
+          "_key": "59fd962284b4",
+          "_type": "span",
+          "marks": [],
+          "text": " may help organise evidence and renewal tasks, but software cannot make an unapproved meter lawful. The device record and installation still need to meet the applicable requirements."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "30d658285d49",
+          "_type": "link",
+          "href": "https://realestatecrm.io/blog/real-estate-compliance-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4eaaccdec8c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab0aed2187ca",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing the wrong meter can lead to disputed invoices, requests for supporting records, regulator attention, and billing adjustments. Treat approval as the first procurement gate, then compare communications features, dashboards, and commercial terms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bda4750b9099",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aaa7f2e942b7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7dfae90cc4ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3fb9227c0e75",
+          "_type": "span",
+          "marks": [],
+          "text": "The Three-Stage Compliance Lifecycle for Revenue Meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2fb524a048e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99d7113f78b5",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner may have a meter that looks ready for billing, yet compliance depends on three connected stages. Measurement Canada separates "
+        },
+        {
+          "_key": "507a2b69d615",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "type approval"
+        },
+        {
+          "_key": "1f0322cbf2a9",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "22ee72350062",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "initial verification"
+        },
+        {
+          "_key": "17ba362b5619",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "6f0b2f5c1104",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "reverification"
+        },
+        {
+          "_key": "ff4953a7c7cb",
+          "_type": "span",
+          "marks": [],
+          "text": ". Its "
+        },
+        {
+          "_key": "707f31de4c7f",
+          "_type": "span",
+          "marks": [
+            "3797961c2b53"
+          ],
+          "text": "national compliance policy for electricity and gas"
+        },
+        {
+          "_key": "51d6618ad953",
+          "_type": "span",
+          "marks": [],
+          "text": " places pattern approval before verification and permits authorised statistical methods for verification and reverification."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3797961c2b53",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/national-compliance-policy-electricity-and-gas-inspection-act"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "19853d389542",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the three-stage compliance lifecycle for revenue meters managed by Measurement Canada.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/10871091-5b63-46ca-a556-f32391ccbe7a/measurement-canada-approved-meters-compliance-lifecycle.jpg"
+    },
+    {
+      "_key": "fcc434b2e9b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2ac4cbfa9be",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e4065959a408",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6ae2af485b0",
+          "_type": "span",
+          "marks": [],
+          "text": "Stage one, type approval"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b9bf03f1f04b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54f1173fca29",
+          "_type": "span",
+          "marks": [],
+          "text": "The manufacturer or importer submits the meter design for assessment. Measurement Canada evaluates new designs, typically through its Ottawa laboratories, for performance, reliability, and resistance to external influences. The electricity-meter standard LMB-EG-07 supplies the performance-based framework for deciding whether a new type meets revenue-metering requirements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9f83bcbb74a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5ec39fa231a",
+          "_type": "span",
+          "marks": [],
+          "text": "Type approval answers one question: "
+        },
+        {
+          "_key": "583f0d076607",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Is this design suitable for regulated measurement under its approved conditions?"
+        },
+        {
+          "_key": "f3482219573a",
+          "_type": "span",
+          "marks": [],
+          "text": " It does not approve every physical unit automatically. The approval notice identifies the model and can set out permitted functions, limitations, installation requirements, and other conditions. For a property owner, this is the point to compare the approval scope with the building's intended billing arrangement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc13f19fce80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42ebefca80c6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "efb8d8e56455",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0d2722fda41",
+          "_type": "span",
+          "marks": [],
+          "text": "Stage two, initial verification"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fcc3b32ea9f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ac25af32fba",
+          "_type": "span",
+          "marks": [],
+          "text": "Each meter entering service must correspond to the approved type. Verification checks the individual device before it is used for billing, after which the meter is sealed. The seal helps preserve the checked condition and gives inspectors visible evidence that the required step was completed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "42f6f64a1dd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1ab91880010",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the model and serial number, verification documentation, and installation record together. An approved design without individual verification has not completed the compliance chain. A turnkey provider such as Axis Meter Solutions can coordinate these records with procurement and installation, rather than leaving the owner to assemble them afterward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a245df86a0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5874c74da4ca",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "466688d6c551",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80c4901a5026",
+          "_type": "span",
+          "marks": [],
+          "text": "Stage three, reverification"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "04e39daedc90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ced5bf070f1",
+          "_type": "span",
+          "marks": [],
+          "text": "Reverification checks the meter after it has operated in service or after a relevant change in condition. The interval varies by model. Measurement Canada's "
+        },
+        {
+          "_key": "f95fc811784d",
+          "_type": "span",
+          "marks": [
+            "e9625f59c7e1"
+          ],
+          "text": "E-28 bulletin on lengthened initial reverification periods"
+        },
+        {
+          "_key": "2cbe4e68e724",
+          "_type": "span",
+          "marks": [],
+          "text": " explains that some electronic electricity meters qualify for a "
+        },
+        {
+          "_key": "6eeb99cde972",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10-year initial reverification period"
+        },
+        {
+          "_key": "124d2a499b0e",
+          "_type": "span",
+          "marks": [],
+          "text": ", while others do not. Combination meters follow the shortest applicable period among their functions under E-26 rules."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e9625f59c7e1",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/e-28-qualification-electricity-meters-lengthened-initial-reverification-period-10-years"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "91de93deef1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54cd4afca8dd",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical sequence is clear: type approval establishes design fitness, verification establishes the status of the installed unit, and reverification keeps that evidence current. A provider managing the "
+        },
+        {
+          "_key": "8e1dd62ad0cf",
+          "_type": "span",
+          "marks": [
+            "f84e57b0b725"
+          ],
+          "text": "revenue-grade submeter lifecycle"
+        },
+        {
+          "_key": "b2e3ec19d3d2",
+          "_type": "span",
+          "marks": [],
+          "text": " should identify the record owner and next required action, with implementation planned across the installation process and, where applicable, an 8–10 week turnkey delivery window."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f84e57b0b725",
+          "_type": "link",
+          "href": "https://www.axismeter.com/features/revenue-grade-submeters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b054cb75a0f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a3f776a7ed4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "059c6791a67a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70675f8c2970",
+          "_type": "span",
+          "marks": [],
+          "text": "Inside the Type-Approval Evidence Package"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "9fe5614d2980",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58922782c269",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner reviewing a proposed meter is really reviewing a chain of evidence. The Notice of Approval rests on technical documentation, testing, and conditions of use, not on a product description. For electricity meters, applicants provide design information, installation and user manuals, nameplate markings, and test results. Software-controlled meters also require disclosure of legally relevant software and security information, as described in "
+        },
+        {
+          "_key": "4f220ac11360",
+          "_type": "span",
+          "marks": [
+            "4396e0bd4752"
+          ],
+          "text": "Measurement Canada's revenue-meter guidance"
+        },
+        {
+          "_key": "866067a40336",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4396e0bd4752",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/information-attribution-and-use-revenue-meters-under-electricity-and-gas-inspection-act"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d865438c8bf3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b94ca8860af",
+          "_type": "span",
+          "marks": [],
+          "text": "The published LMB-EG-07 specification supplies a performance-based reference for that review. An owner does not need to repeat the laboratory assessment, but should understand what the evidence proves before approving a device for procurement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1861fd3fb48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7bb90bb1716",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cde3e984a01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cfa782c491d",
+          "_type": "span",
+          "marks": [],
+          "text": "What the submission must make clear"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "50f2612b9444",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5027d038116b",
+          "_type": "span",
+          "marks": [],
+          "text": "The dossier should show how the meter measures, the conditions under which it remains accurate, and how technicians can identify the installed unit later. The supporting material may include:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72dfdba5f431",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cac9314f4c8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Design documentation:"
+        },
+        {
+          "_key": "22ac73621549",
+          "_type": "span",
+          "marks": [],
+          "text": " The construction, operating principles, and metering functions must be identifiable."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2e783e05383",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "061947f9822d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Test results:"
+        },
+        {
+          "_key": "559a6e542aee",
+          "_type": "span",
+          "marks": [],
+          "text": " Accuracy testing demonstrates performance against applicable requirements across the meter's intended operating range."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88fc85aff2ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "935e88edc70e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation instructions:"
+        },
+        {
+          "_key": "1f67da90fce6",
+          "_type": "span",
+          "marks": [],
+          "text": " Correct orientation, wiring, configuration, and operating conditions are part of the approved setup."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8654db55175",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69092301c923",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Nameplate information:"
+        },
+        {
+          "_key": "6a0e8344c370",
+          "_type": "span",
+          "marks": [],
+          "text": " Markings connect the physical device to its approved model and required identification."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1a2ac3deccc0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6420edc3c4ba",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Software records:"
+        },
+        {
+          "_key": "052a60678b6b",
+          "_type": "span",
+          "marks": [],
+          "text": " Firmware-controlled meters need clear version information and security documentation because software can affect legally relevant measurement."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "64d8531ddf26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f16de9da86a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Environmental evidence:"
+        },
+        {
+          "_key": "b2d06f4d988e",
+          "_type": "span",
+          "marks": [],
+          "text": " Testing may address influences such as temperature, humidity, vibration, electromagnetic conditions, or surges."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5c2437bb4be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b4e0f77f4d3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Quality controls:"
+        },
+        {
+          "_key": "b168d5fe9a31",
+          "_type": "span",
+          "marks": [],
+          "text": " Manufacturing controls and documented production practices help keep field units consistent with the submitted design."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "84c64c166700",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e42ecb8ce897",
+          "_type": "span",
+          "marks": [],
+          "text": "The evidence varies by device category and approval application. The Notice of Approval may also restrict a meter to a particular configuration, orientation, function, or measurement arrangement. An approved model is therefore more like a tool with specified operating instructions than a universal permit for every installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d3b8d3b72e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2cc8bf9851d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5dda56745bf5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0190c076d138",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the conditions, not just the number"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2a0b6bb0793d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f3bc72046c8",
+          "_type": "span",
+          "marks": [],
+          "text": "The approval number provides traceability, but it does not describe the entire approval decision. Before equipment is specified, compare the Notice of Approval with the building's voltage, service arrangement, communications design, measurement function, and installation plan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1109f6a6bdf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c5953a20d73",
+          "_type": "span",
+          "marks": [],
+          "text": "Evidence Component"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "952559d4584b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e015e85cc70",
+          "_type": "span",
+          "marks": [],
+          "text": "What It Demonstrates"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a7e5d95847b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "09d24549fe29",
+          "_type": "span",
+          "marks": [],
+          "text": "Technical design file"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f8496ef4c9ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3293c01b5e71",
+          "_type": "span",
+          "marks": [],
+          "text": "How the meter measures and identifies its approved configuration"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d20a94b44cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f1ddfe39f11",
+          "_type": "span",
+          "marks": [],
+          "text": "Laboratory test results"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4cce06a894d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ae1e27abe14",
+          "_type": "span",
+          "marks": [],
+          "text": "Whether performance meets applicable revenue-metering requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5897c5247d85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8124375892de",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation and user manuals"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "209caf238efd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0154e4b7a524",
+          "_type": "span",
+          "marks": [],
+          "text": "How technicians must install, configure, and operate the device"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd7beb388e44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7771124e5510",
+          "_type": "span",
+          "marks": [],
+          "text": "Nameplate markings and drawings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89e8de0d8efe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "616d6785a04b",
+          "_type": "span",
+          "marks": [],
+          "text": "Whether the field unit can be matched to the approved model"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d9810945f4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "242d17f907dc",
+          "_type": "span",
+          "marks": [],
+          "text": "Software and security documentation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71ac6c129a09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e18f2635caba",
+          "_type": "span",
+          "marks": [],
+          "text": "How controlled software is identified and protected"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b8e0399945d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ced4359e85fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Environmental and interference testing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "efcf84ae2023",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f7222377594",
+          "_type": "span",
+          "marks": [],
+          "text": "How the meter responds to relevant external influences"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f47d907d2455",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5647eb624f8f",
+          "_type": "span",
+          "marks": [],
+          "text": "Quality and production records"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf8e31d496df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c89d8239afd1",
+          "_type": "span",
+          "marks": [],
+          "text": "Whether manufactured units can remain consistent with the approved design"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "660aebdfe9a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed345928dc47",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask for the complete notice and its conditions before signing off on the equipment schedule. Axis Meter Solutions can use that documentation during equipment selection, procurement, and installation planning, then coordinate the evidence through a turnkey delivery planned for 8–10 weeks. The approval record becomes an operating checklist, not a document assembled after the meters are already in service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3fa75990acb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0a020d35ac9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e885c9e6959b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8237687b58d",
+          "_type": "span",
+          "marks": [],
+          "text": "Matching Approval Scope to Your Building's Use Cases"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f934da6fc383",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "116c18688b8a",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner may select a meter from an approved list and still choose the wrong device for the intended billing arrangement. The practical question is, "
+        },
+        {
+          "_key": "399ef23c96eb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "“Does this approval cover the function I need?”"
+        },
+        {
+          "_key": "f53547203686",
+          "_type": "span",
+          "marks": [],
+          "text": " Start with the transaction, then match the hardware and approval conditions to it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cfac34c7a3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28dd032d8617",
+          "_type": "span",
+          "marks": [],
+          "text": "For ordinary tenant allocation, the meter may measure consumption in one direction. Solar generation, export credits, battery storage, or other changes in energy flow require an approval scope that expressly covers those functions. Measurement Canada's "
+        },
+        {
+          "_key": "21a1fbe8eca0",
+          "_type": "span",
+          "marks": [
+            "ed36728c3a75"
+          ],
+          "text": "LMB-EG-07 electricity-meter specification"
+        },
+        {
+          "_key": "c34ccbffaab6",
+          "_type": "span",
+          "marks": [],
+          "text": " states that electronic net meters must satisfy LMB-EG-07, along with the additional net-metering conditions and limitations set out in the Notice of Approval."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ed36728c3a75",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/en/archives/lmb-eg-07-specifications-approval-type-electricity-meters-instrument-transformers-and-auxiliary"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b9ad724352a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1022f5d56a48",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0d60fdce5fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "773881c6df4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Match the use case before choosing hardware"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b542d38dbb82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6866c18851f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter Approval Scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1770c6c241dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd740405b384",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical Use Case"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3e8ce2fba9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6574b3e92d39",
+          "_type": "span",
+          "marks": [],
+          "text": "Suitable For"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "64f121bafe19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a15785dd1eca",
+          "_type": "span",
+          "marks": [],
+          "text": "Basic electricity revenue metering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7693b0e170b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "809f926b128a",
+          "_type": "span",
+          "marks": [],
+          "text": "Measuring electricity consumption for an approved billing arrangement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cf31a5fdd46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90e363ab7def",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant allocation, suite consumption, or commercial-unit measurement where the approval conditions fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f57723d7bc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "020883a1f23f",
+          "_type": "span",
+          "marks": [],
+          "text": "Net-metering scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "588ef17023a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79610296d4d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Measuring approved import and export functions"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71b827b3358e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd7708a3f30f",
+          "_type": "span",
+          "marks": [],
+          "text": "Projects where distributed generation affects the measured transaction"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "175419edb4ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee72bf5a389d",
+          "_type": "span",
+          "marks": [],
+          "text": "Bidirectional measurement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55d67af3bac1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12d3417d5f74",
+          "_type": "span",
+          "marks": [],
+          "text": "Recording flow in both directions under the approved configuration"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6fa5445869a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff4e4d50703d",
+          "_type": "span",
+          "marks": [],
+          "text": "Buildings with generation, storage, or other systems that change energy-flow direction"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a4b1438517b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3bf52ba9282e",
+          "_type": "span",
+          "marks": [],
+          "text": "Combination-meter scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6f678d100a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c154a58b83e",
+          "_type": "span",
+          "marks": [],
+          "text": "One device performs more than one regulated function"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b618c4ee290",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8284759dfa6",
+          "_type": "span",
+          "marks": [],
+          "text": "Projects combining measurement functions, subject to the shortest applicable reverification period"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0361dfffec8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2985e9c74911",
+          "_type": "span",
+          "marks": [],
+          "text": "Monitoring-only equipment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c18ea7d799e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72bf996f4c06",
+          "_type": "span",
+          "marks": [],
+          "text": "Internal operational or energy-management readings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d1fecc3511e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28d41e5affaf",
+          "_type": "span",
+          "marks": [],
+          "text": "Building controls and analysis where the reading does not support a third-party charge"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a626ee822a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cff1e7b39b8a",
+          "_type": "span",
+          "marks": [],
+          "text": "A solar-ready building shows why this review belongs in design. A meter intended only for ordinary tenant consumption may produce accurate readings while lacking approval for export credits. The owner could then face billing corrections, a regulatory issue, or a retrofit that equipment selection would have prevented."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82c2deee8108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca0f965e62cc",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use properties create a similar question. Common-area electricity, tenant loads, distributed generation, and thermal energy may each involve different measurement requirements. A consistent meter family does not automatically mean every application has the same approved scope."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "51e19c789b24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3df56d485088",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Specification check:"
+        },
+        {
+          "_key": "04b63a575c8e",
+          "_type": "span",
+          "marks": [],
+          "text": " Place the intended billing function beside the approval number in the equipment schedule. If they do not align, pause procurement until the gap is resolved."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "586233d7b088",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d32fcb1e897",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners planning electrification, district-energy connections, or future generation should review whether the applicable scope supports those plans. A broader scope may preserve options, but it must still match the actual transaction and the Notice of Approval. Axis Meter Solutions can apply this review during equipment selection and turnkey planning, helping move the approval requirements into an installation plan targeted for 8–10 weeks. Guidance on "
+        },
+        {
+          "_key": "606c0ed19b00",
+          "_type": "span",
+          "marks": [
+            "fc1d6c4fd1a1"
+          ],
+          "text": "electric submetering for multi-unit and mixed-use buildings"
+        },
+        {
+          "_key": "0aa0356a5b95",
+          "_type": "span",
+          "marks": [],
+          "text": " can also help frame the design questions before equipment is ordered."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "fc1d6c4fd1a1",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/sub-metering-electric"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "86bf6f66acaf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41cfbdd489f9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "995890ba128a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac4a0b56b9c7",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Approval Matters for Submetering in Multi-Unit Properties"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "6b8acf8ddad0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0500823a067",
+          "_type": "span",
+          "marks": [],
+          "text": "A mid-rise apartment building may have individually metered suites, shared mechanical equipment, and a property manager seeking clearer utility recovery. The manager needs more than a dashboard that displays consumption. Suite readings may feed tenant invoices, while common-area loads must remain separate so residents are not charged for electricity they did not use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ef132aace19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc9b0827e4ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Approval determines whether the equipment can support that billing role. A monitoring device helps an owner understand building performance. An approved revenue meter, properly verified and sealed, can support a regulated measurement transaction when the billing arrangement and jurisdictional rules also allow it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4388e034c7c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b06b817b787",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ea31ed00bb26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "229106c71b55",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing chain with a physical consequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4ae243554877",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39edfcee9974",
+          "_type": "span",
+          "marks": [],
+          "text": "Each step connects a regulatory requirement to an operating decision:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c945d326df96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e595ae363f09",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Install the correct device:"
+        },
+        {
+          "_key": "d29a1fadaf65",
+          "_type": "span",
+          "marks": [],
+          "text": " Match the meter to the service and approved model."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ed6742b36661",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39d9cd1d41de",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Capture suite consumption:"
+        },
+        {
+          "_key": "c6fd5487bb89",
+          "_type": "span",
+          "marks": [],
+          "text": " Use a device recognised for revenue measurement."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17efd3f86421",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7cfddcdb5695",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Transmit the record:"
+        },
+        {
+          "_key": "6bfebf3260db",
+          "_type": "span",
+          "marks": [],
+          "text": " Send data to the billing platform while preserving the meter identity."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2643c1ec211",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6095fec96abc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Apply the permitted allocation method:"
+        },
+        {
+          "_key": "cbe8b6816104",
+          "_type": "span",
+          "marks": [],
+          "text": " Follow the applicable provincial or contractual rules."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb6537052c64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "983fba8d2e70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Issue the statement:"
+        },
+        {
+          "_key": "4223cd5c9ecc",
+          "_type": "span",
+          "marks": [],
+          "text": " Provide a tenant charge supported by an auditable measurement record."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fed6ee76085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d76068ad36b",
+          "_type": "span",
+          "marks": [],
+          "text": "Approval does not settle every billing question. Owners still need suitable agreements, disclosures, calculations, data handling, and provincial compliance. In Ontario, the Ontario Unit Sub Metering Code requires unit sub-meter providers to meet Measurement Canada standards at minimum. Approval provides the technical foundation, while the billing programme must meet the wider rules."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5349a410a2c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34341f433e9c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a937303b324a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa5d5bcfed9b",
+          "_type": "span",
+          "marks": [],
+          "text": "What the owner gains operationally"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7c158ce93e96",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77447f940d3c",
+          "_type": "span",
+          "marks": [],
+          "text": "A compliant design gives the property team readings it can use and defend. Suite-level measurements may help identify unusual water use or potential leaks when the system includes the relevant monitoring capability. Common-area meters separate shared loads from tenant consumption, and documented meter records give staff a stronger response when a resident questions an invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "025250a56cd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2f7bdb10861",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical difference is accountability. Non-approved devices may produce plausible numbers, but the owner has a weaker legal basis for treating those numbers as charges. If a reading is challenged, a spreadsheet or sensor specification cannot replace the required approval, verification, and sealing evidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "240c71d5cc2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cbfd836b8548",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions describes "
+        },
+        {
+          "_key": "ec62082583c3",
+          "_type": "span",
+          "marks": [
+            "a710d8dde0ba"
+          ],
+          "text": "electricity submetering for individual units"
+        },
+        {
+          "_key": "e19ec88f995d",
+          "_type": "span",
+          "marks": [],
+          "text": " as a service that includes approved equipment and commissioning. A turnkey provider can carry the approval requirements from equipment selection through installation and commissioning, with planning targeted at 8–10 weeks. "
+        },
+        {
+          "_key": "2751e6192d9f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Approval is the technical prerequisite that separates useful monitoring from billing-grade measurement."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a710d8dde0ba",
+          "_type": "link",
+          "href": "https://www.axismeter.com/solutions/electricity-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e735427a313a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3287a0c7117e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef47d41c7351",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9594c7989081",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Verify a Meter Is Approved Before You Commit"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7fc4652bf1ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bd2b73a7252",
+          "_type": "span",
+          "marks": [],
+          "text": "Before signing a purchase order, ask for evidence that the proposed meter is approved for the way your property will use it. A vendor's proposal provides the starting details, while the approval record establishes the device's permitted scope."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba872aa498be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58d5fb89f4ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Begin the review before equipment arrives. Once meters are delivered, a mismatch between the packing slip, tender documents, and physical units can delay installation and make responsibility harder to assign."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a8c80693133",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7d922164ee0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "866fd6d4613a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24541a9b34ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a written verification checklist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ec21dc300309",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3858021c23bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ask for the exact identity."
+        },
+        {
+          "_key": "a43de652b9d2",
+          "_type": "span",
+          "marks": [],
+          "text": " Request the manufacturer, model designation, approval number, and serial numbers for the units to be installed. A product family name is insufficient if the approval covers only a particular model or configuration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b36180a327bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e0651cba2ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Search the official record."
+        },
+        {
+          "_key": "212fb1a2cd7f",
+          "_type": "span",
+          "marks": [],
+          "text": " Locate the model in Measurement Canada's public Notice of Approval system using the manufacturer, device details, or approval reference. Save the notice and its conditions with the project records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9da8a0650a72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ae62d3b74cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Compare the notice with the proposal."
+        },
+        {
+          "_key": "47902d8690fb",
+          "_type": "span",
+          "marks": [],
+          "text": " Review the meter function, service arrangement, configuration, installation requirements, and stated limitations. The brand can match while the approved scope does not. The record must cover the transaction the meter will measure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0f5643c1974",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0998459fd7d7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm the field unit."
+        },
+        {
+          "_key": "106e07d6e8e9",
+          "_type": "span",
+          "marks": [],
+          "text": " At delivery and installation, compare the model and serial number on each physical meter with the procurement record. Photograph the nameplate where appropriate, and record the seal information."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a82bb9f0bf86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a6080d4813d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Request verification evidence."
+        },
+        {
+          "_key": "b7f343fc8f2c",
+          "_type": "span",
+          "marks": [],
+          "text": " An approved revenue meter must be verified and sealed before it enters service. Ask the provider or authorised installer for the Certificate of Verification, or the equivalent project record."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c2617411f20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e19e6162910e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check the responsible party."
+        },
+        {
+          "_key": "c561d2ce1724",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish who holds the applicable measurement-accuracy authorisation, who performs the installation, and who retains the compliance file. Assigning these duties clearly prevents the phrase “handles compliance” from replacing specific evidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de271e16a772",
+      "_type": "externalImage",
+      "alt": "A five-step guide on how to verify meter approval according to Measurement Canada standards before making commitments.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b6bc56f9-b979-44b5-804c-69f93306fedf/measurement-canada-approved-meters-meter-verification.jpg"
+    },
+    {
+      "_key": "92566cf568f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84be1e68dd78",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abdb2676dbb5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecce00dc5592",
+          "_type": "span",
+          "marks": [],
+          "text": "Preserve the chain of evidence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e951eb5854dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b954d2e41405",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the approval notice, equipment schedule, invoices, serial-number list, verification records, seal information, installation drawings, and commissioning documents together. The file should connect the approved type to the installed unit, much like a chain of custody connects an item to its documented handling."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cdbd4779eac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3893dafcbea",
+          "_type": "span",
+          "marks": [],
+          "text": "If firmware or another legally relevant software component changes, ask whether the change affects the approved design. Measurement Canada's guidance treats software disclosure as part of the approval evidence for software-controlled meters, so version changes require formal review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71a144ab8be0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4252063cce79",
+          "_type": "span",
+          "marks": [],
+          "text": "Record every answer in writing. A property owner should be able to trace the path from approval record, to physical meter, to verification evidence, and ultimately to the tenant bill. That record gives the project team a practical basis for checking compliance before commitment and for responding clearly if a measurement is later questioned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1de44923ae12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e64b5f0813c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "468dea88cfae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "281e0425f1bc",
+          "_type": "span",
+          "marks": [],
+          "text": "Putting Compliance Into Practice With Axis Meter Solutions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8bd3ebc892b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b08125123134",
+          "_type": "span",
+          "marks": [],
+          "text": "Managing approval internally requires coordination across equipment selection, electrical work, tenant communication, billing setup, records, and future reverification. A turnkey provider brings these responsibilities into one operating programme, giving the owner a defined process from site review through ongoing service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd5d10e4b755",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f4f20a61b00",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions operates Ontario electricity unit-submetering programmes under Ontario Energy Board licence "
+        },
+        {
+          "_key": "1fb43f696a2c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ES-2022-0268"
+        },
+        {
+          "_key": "779b8bcd3d3b",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the company information supplied for this service. Its stated delivery model includes equipment, installation, commissioning, tenant billing, and ongoing service, with equipment selections aligned to Measurement Canada requirements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86f3c5bb2972",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ad8297069fa",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f00e4faf2eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36e02c2e2678",
+          "_type": "span",
+          "marks": [],
+          "text": "What an eight-to-ten-week deployment involves"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "358f1b7c6602",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7ad75ff8688",
+          "_type": "span",
+          "marks": [],
+          "text": "The provider's stated typical timeline is "
+        },
+        {
+          "_key": "f933977e0051",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 weeks from agreement to live meters"
+        },
+        {
+          "_key": "b67b4593dc49",
+          "_type": "span",
+          "marks": [],
+          "text": ", including equipment lead time. The work is organised as a sequence, much like assembling a chain in which each link must connect the approved meter to the final billing record:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "876b8d27531c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1951880e952f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Initial consultation and site assessment:"
+        },
+        {
+          "_key": "d5510c9f26ed",
+          "_type": "span",
+          "marks": [],
+          "text": " The project team reviews the property, services, panels, access requirements, and proposed billing arrangement."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78792a5605c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a663adf56273",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Approved meter selection:"
+        },
+        {
+          "_key": "baa3c3891587",
+          "_type": "span",
+          "marks": [],
+          "text": " Equipment is matched to the building's use case and the applicable approval record."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e377117fda66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47c318879dd9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Licensed installation:"
+        },
+        {
+          "_key": "c587a6937539",
+          "_type": "span",
+          "marks": [],
+          "text": " Electricians install the equipment and coordinate site access with the property team."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b3af1382a6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3bf94b33856",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Configuration and integration:"
+        },
+        {
+          "_key": "a78c56bf3062",
+          "_type": "span",
+          "marks": [],
+          "text": " Meter identities, communications, reads, and billing data are connected."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ed101dc95f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e92fff93f3ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Activation and service:"
+        },
+        {
+          "_key": "8d3cccef5a31",
+          "_type": "span",
+          "marks": [],
+          "text": " The programme begins producing billing-grade reads, with maintenance and compliance records managed through the service relationship."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1abe6fc6f8e",
+      "_type": "externalImage",
+      "alt": "A five-step infographic showing the process for turnkey compliance with Axis Meter Solutions for metering services.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3b1b2487-e625-4c22-990a-b7d34467895a/measurement-canada-approved-meters-metering-process.jpg"
+    },
+    {
+      "_key": "b0e90f712077",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd0ce518b023",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis also states a "
+        },
+        {
+          "_key": "0276c86f1479",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront capital cost"
+        },
+        {
+          "_key": "1b8d4876b44d",
+          "_type": "span",
+          "marks": [],
+          "text": " model. Under that arrangement, the provider funds hardware, installation, and ongoing maintenance in exchange for a share of recovered utility costs. The commercial structure still calls for review of the agreement, billing rules, access responsibilities, and records. It may shift day-to-day meter administration away from the owner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d089f9f8118",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d3e4522dc8c",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical value is clear accountability. Before installation, the provider should identify the approved equipment, preserve verification evidence, coordinate tenant notices, and track reverification requirements. Axis states that its equipment selections carry active approval references and that reverification cycles are managed centrally."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "315f72440bb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d231b4d1f830",
+          "_type": "span",
+          "marks": [],
+          "text": "For an owner, compliance belongs in the operating process, not only in a proposal. Request the approval record, verification documentation, scope confirmation, billing responsibilities, maintenance commitments, and escalation process before authorising the work."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1a44a448d350",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fec937a0bb5e",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're evaluating measurement Canada approved meters for a multi-unit, condominium, mixed-use, or commercial property, Axis Meter Solutions can assess the site, coordinate approved equipment and licensed installation, and manage billing and ongoing compliance through a turnkey programme. Visit Axis Meter Solutions to discuss your building and request a project assessment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn what Measurement Canada approved meters mean, why approval matters for submetering projects, and how to verify compliant meters for your building.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/5ca02117-891c-4adf-a973-a7c9efccab01/measurement-canada-approved-meters-utility-meter.jpg",
+  "noIndex": false,
+  "outrankId": "0641ed25-57bc-4a90-b0ac-580fa3d11a12",
+  "publishedAt": "2026-09-08T07:27:06.391871+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "measurement-canada-approved-meters"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re comparing two submetering proposals for the same property. One vendor says its equipment is “industry-standard.” The other points to <strong>Measurement Canada approval</strong>. Both meters may look modern, communicate remotely, and produce neat consumption reports, but those descriptions don&#39;t answer the question that matters most: <strong>Can the reading legally support a charge to a tenant or another customer?</strong></p>\n<p>For Canadian property owners, the answer depends on more than advertised accuracy. Measurement Canada treats revenue measurement as a regulated activity. The meter type must be approved, the individual device must be verified and sealed before service, and the installation must remain within the approved conditions. That framework turns a technical device into a defensible billing instrument.</p>\n<p>This distinction affects apartment buildings, condominiums, mixed-use properties, commercial sites, and any project where measured electricity, gas, water, or thermal energy is used to calculate a third-party charge. It also affects procurement. A device can be technically precise and still be the wrong choice for revenue billing if its approval status or scope doesn&#39;t match the intended use.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-measurement-canada-approval-means\">What Measurement Canada Approval Means</a><ul>\n<li><a href=\"#who-needs-an-approved-meter\">Who needs an approved meter</a></li>\n</ul>\n</li>\n<li><a href=\"#the-three-stage-compliance-lifecycle-for-revenue-meters\">The Three-Stage Compliance Lifecycle for Revenue Meters</a><ul>\n<li><a href=\"#stage-one-type-approval\">Stage one, type approval</a></li>\n<li><a href=\"#stage-two-initial-verification\">Stage two, initial verification</a></li>\n<li><a href=\"#stage-three-reverification\">Stage three, reverification</a></li>\n</ul>\n</li>\n<li><a href=\"#inside-the-type-approval-evidence-package\">Inside the Type-Approval Evidence Package</a><ul>\n<li><a href=\"#what-the-submission-must-make-clear\">What the submission must make clear</a></li>\n<li><a href=\"#read-the-conditions-not-just-the-number\">Read the conditions, not just the number</a></li>\n</ul>\n</li>\n<li><a href=\"#matching-approval-scope-to-your-buildings-use-cases\">Matching Approval Scope to Your Building&#39;s Use Cases</a><ul>\n<li><a href=\"#match-the-use-case-before-choosing-hardware\">Match the use case before choosing hardware</a></li>\n</ul>\n</li>\n<li><a href=\"#why-approval-matters-for-submetering-in-multi-unit-properties\">Why Approval Matters for Submetering in Multi-Unit Properties</a><ul>\n<li><a href=\"#a-billing-chain-with-a-physical-consequence\">A billing chain with a physical consequence</a></li>\n<li><a href=\"#what-the-owner-gains-operationally\">What the owner gains operationally</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-verify-a-meter-is-approved-before-you-commit\">How to Verify a Meter Is Approved Before You Commit</a><ul>\n<li><a href=\"#use-a-written-verification-checklist\">Use a written verification checklist</a></li>\n<li><a href=\"#preserve-the-chain-of-evidence\">Preserve the chain of evidence</a></li>\n</ul>\n</li>\n<li><a href=\"#putting-compliance-into-practice-with-axis-meter-solutions\">Putting Compliance Into Practice With Axis Meter Solutions</a><ul>\n<li><a href=\"#what-an-eight-to-ten-week-deployment-involves\">What an eight-to-ten-week deployment involves</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"what-measurement-canada-approval-means\"></a></p>\n<h2>What Measurement Canada Approval Means</h2>\n<p>A property owner is reviewing two submetering proposals. Both systems can collect consumption data and send it to a dashboard, yet only one may support charges to occupants. The term <strong>approved</strong> carries a specific legal meaning under Canada&#39;s measurement laws. Measurement Canada administers requirements for measurement used in trade, and its rules permit only approved devices for measurement-based transactions.</p>\n<p>For electricity and gas, a new meter type is prototyped, assessed for accuracy, and approved before it can be used for billing. The approval applies to the meter type and its stated conditions of use. It does not describe a modern design or a manufacturer&#39;s quality-control process.</p>\n<p>Three questions help separate the issues:</p>\n<ul>\n<li><strong>Technical capability:</strong> Can the device measure consumption and transmit data?</li>\n<li><strong>Commercial suitability:</strong> Does it fit the building&#39;s electrical, gas, or other service conditions?</li>\n<li><strong>Legal approval:</strong> Is the meter type recognised for measurement-based trade in Canada?</li>\n</ul>\n<p>The third question determines whether the device can support billing within the applicable legal framework. A non-approved meter may still serve internal monitoring, energy management, or building automation. Its readings may not provide a lawful basis for charging a tenant or another customer.</p>\n<p><a id=\"who-needs-an-approved-meter\"></a></p>\n<h3>Who needs an approved meter</h3>\n<p>Begin with the transaction and intended use. If a measured quantity forms the basis for selling or billing energy to another party, the owner must assess whether the selected meter is an approved revenue device and whether the proposed billing arrangement falls within its approval scope. This applies to landlords recovering electricity costs from occupants as well as other properties that allocate measured energy charges.</p>\n<p>Each approved revenue meter must also be <strong>verified and sealed before it enters service</strong>. The approval record is therefore one link in a chain. The chain connects the approved design to the specific unit installed, its verification record, and the conditions under which it operates.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Request the exact model, approval number, verification record, and installation conditions before purchase. “Industry-standard” does not replace those documents.</p>\n</blockquote>\n<p>Property managers can store these records with leases, permits, work orders, and other regulated files. <a href=\"https://realestatecrm.io/blog/real-estate-compliance-software\">Compliance software for real estate agencies</a> may help organise evidence and renewal tasks, but software cannot make an unapproved meter lawful. The device record and installation still need to meet the applicable requirements.</p>\n<p>Choosing the wrong meter can lead to disputed invoices, requests for supporting records, regulator attention, and billing adjustments. Treat approval as the first procurement gate, then compare communications features, dashboards, and commercial terms.</p>\n<p><a id=\"the-three-stage-compliance-lifecycle-for-revenue-meters\"></a></p>\n<h2>The Three-Stage Compliance Lifecycle for Revenue Meters</h2>\n<p>A property owner may have a meter that looks ready for billing, yet compliance depends on three connected stages. Measurement Canada separates <strong>type approval</strong>, <strong>initial verification</strong>, and <strong>reverification</strong>. Its <a href=\"https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/national-compliance-policy-electricity-and-gas-inspection-act\">national compliance policy for electricity and gas</a> places pattern approval before verification and permits authorised statistical methods for verification and reverification.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/10871091-5b63-46ca-a556-f32391ccbe7a/measurement-canada-approved-meters-compliance-lifecycle.jpg\" alt=\"A diagram illustrating the three-stage compliance lifecycle for revenue meters managed by Measurement Canada.\"></p>\n<p><a id=\"stage-one-type-approval\"></a></p>\n<h3>Stage one, type approval</h3>\n<p>The manufacturer or importer submits the meter design for assessment. Measurement Canada evaluates new designs, typically through its Ottawa laboratories, for performance, reliability, and resistance to external influences. The electricity-meter standard LMB-EG-07 supplies the performance-based framework for deciding whether a new type meets revenue-metering requirements.</p>\n<p>Type approval answers one question: <strong>Is this design suitable for regulated measurement under its approved conditions?</strong> It does not approve every physical unit automatically. The approval notice identifies the model and can set out permitted functions, limitations, installation requirements, and other conditions. For a property owner, this is the point to compare the approval scope with the building&#39;s intended billing arrangement.</p>\n<p><a id=\"stage-two-initial-verification\"></a></p>\n<h3>Stage two, initial verification</h3>\n<p>Each meter entering service must correspond to the approved type. Verification checks the individual device before it is used for billing, after which the meter is sealed. The seal helps preserve the checked condition and gives inspectors visible evidence that the required step was completed.</p>\n<p>Keep the model and serial number, verification documentation, and installation record together. An approved design without individual verification has not completed the compliance chain. A turnkey provider such as Axis Meter Solutions can coordinate these records with procurement and installation, rather than leaving the owner to assemble them afterward.</p>\n<p><a id=\"stage-three-reverification\"></a></p>\n<h3>Stage three, reverification</h3>\n<p>Reverification checks the meter after it has operated in service or after a relevant change in condition. The interval varies by model. Measurement Canada&#39;s <a href=\"https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/e-28-qualification-electricity-meters-lengthened-initial-reverification-period-10-years\">E-28 bulletin on lengthened initial reverification periods</a> explains that some electronic electricity meters qualify for a <strong>10-year initial reverification period</strong>, while others do not. Combination meters follow the shortest applicable period among their functions under E-26 rules.</p>\n<p>The practical sequence is clear: type approval establishes design fitness, verification establishes the status of the installed unit, and reverification keeps that evidence current. A provider managing the <a href=\"https://www.axismeter.com/features/revenue-grade-submeters\">revenue-grade submeter lifecycle</a> should identify the record owner and next required action, with implementation planned across the installation process and, where applicable, an 8–10 week turnkey delivery window.</p>\n<p><a id=\"inside-the-type-approval-evidence-package\"></a></p>\n<h2>Inside the Type-Approval Evidence Package</h2>\n<p>A property owner reviewing a proposed meter is really reviewing a chain of evidence. The Notice of Approval rests on technical documentation, testing, and conditions of use, not on a product description. For electricity meters, applicants provide design information, installation and user manuals, nameplate markings, and test results. Software-controlled meters also require disclosure of legally relevant software and security information, as described in <a href=\"https://ised-isde.canada.ca/site/measurement-canada/en/laws-and-requirements/information-attribution-and-use-revenue-meters-under-electricity-and-gas-inspection-act\">Measurement Canada&#39;s revenue-meter guidance</a>.</p>\n<p>The published LMB-EG-07 specification supplies a performance-based reference for that review. An owner does not need to repeat the laboratory assessment, but should understand what the evidence proves before approving a device for procurement.</p>\n<p><a id=\"what-the-submission-must-make-clear\"></a></p>\n<h3>What the submission must make clear</h3>\n<p>The dossier should show how the meter measures, the conditions under which it remains accurate, and how technicians can identify the installed unit later. The supporting material may include:</p>\n<ul>\n<li><strong>Design documentation:</strong> The construction, operating principles, and metering functions must be identifiable.</li>\n<li><strong>Test results:</strong> Accuracy testing demonstrates performance against applicable requirements across the meter&#39;s intended operating range.</li>\n<li><strong>Installation instructions:</strong> Correct orientation, wiring, configuration, and operating conditions are part of the approved setup.</li>\n<li><strong>Nameplate information:</strong> Markings connect the physical device to its approved model and required identification.</li>\n<li><strong>Software records:</strong> Firmware-controlled meters need clear version information and security documentation because software can affect legally relevant measurement.</li>\n<li><strong>Environmental evidence:</strong> Testing may address influences such as temperature, humidity, vibration, electromagnetic conditions, or surges.</li>\n<li><strong>Quality controls:</strong> Manufacturing controls and documented production practices help keep field units consistent with the submitted design.</li>\n</ul>\n<p>The evidence varies by device category and approval application. The Notice of Approval may also restrict a meter to a particular configuration, orientation, function, or measurement arrangement. An approved model is therefore more like a tool with specified operating instructions than a universal permit for every installation.</p>\n<p><a id=\"read-the-conditions-not-just-the-number\"></a></p>\n<h3>Read the conditions, not just the number</h3>\n<p>The approval number provides traceability, but it does not describe the entire approval decision. Before equipment is specified, compare the Notice of Approval with the building&#39;s voltage, service arrangement, communications design, measurement function, and installation plan.</p>\n<table>\n<thead>\n<tr>\n<th>Evidence Component</th>\n<th>What It Demonstrates</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Technical design file</td>\n<td>How the meter measures and identifies its approved configuration</td>\n</tr>\n<tr>\n<td>Laboratory test results</td>\n<td>Whether performance meets applicable revenue-metering requirements</td>\n</tr>\n<tr>\n<td>Installation and user manuals</td>\n<td>How technicians must install, configure, and operate the device</td>\n</tr>\n<tr>\n<td>Nameplate markings and drawings</td>\n<td>Whether the field unit can be matched to the approved model</td>\n</tr>\n<tr>\n<td>Software and security documentation</td>\n<td>How controlled software is identified and protected</td>\n</tr>\n<tr>\n<td>Environmental and interference testing</td>\n<td>How the meter responds to relevant external influences</td>\n</tr>\n<tr>\n<td>Quality and production records</td>\n<td>Whether manufactured units can remain consistent with the approved design</td>\n</tr>\n</tbody></table>\n<p>Ask for the complete notice and its conditions before signing off on the equipment schedule. Axis Meter Solutions can use that documentation during equipment selection, procurement, and installation planning, then coordinate the evidence through a turnkey delivery planned for 8–10 weeks. The approval record becomes an operating checklist, not a document assembled after the meters are already in service.</p>\n<p><a id=\"matching-approval-scope-to-your-buildings-use-cases\"></a></p>\n<h2>Matching Approval Scope to Your Building&#39;s Use Cases</h2>\n<p>A property owner may select a meter from an approved list and still choose the wrong device for the intended billing arrangement. The practical question is, <strong>“Does this approval cover the function I need?”</strong> Start with the transaction, then match the hardware and approval conditions to it.</p>\n<p>For ordinary tenant allocation, the meter may measure consumption in one direction. Solar generation, export credits, battery storage, or other changes in energy flow require an approval scope that expressly covers those functions. Measurement Canada&#39;s <a href=\"https://ised-isde.canada.ca/site/measurement-canada/en/archives/lmb-eg-07-specifications-approval-type-electricity-meters-instrument-transformers-and-auxiliary\">LMB-EG-07 electricity-meter specification</a> states that electronic net meters must satisfy LMB-EG-07, along with the additional net-metering conditions and limitations set out in the Notice of Approval.</p>\n<p><a id=\"match-the-use-case-before-choosing-hardware\"></a></p>\n<h3>Match the use case before choosing hardware</h3>\n<table>\n<thead>\n<tr>\n<th>Meter Approval Scope</th>\n<th>Typical Use Case</th>\n<th>Suitable For</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Basic electricity revenue metering</td>\n<td>Measuring electricity consumption for an approved billing arrangement</td>\n<td>Tenant allocation, suite consumption, or commercial-unit measurement where the approval conditions fit</td>\n</tr>\n<tr>\n<td>Net-metering scope</td>\n<td>Measuring approved import and export functions</td>\n<td>Projects where distributed generation affects the measured transaction</td>\n</tr>\n<tr>\n<td>Bidirectional measurement</td>\n<td>Recording flow in both directions under the approved configuration</td>\n<td>Buildings with generation, storage, or other systems that change energy-flow direction</td>\n</tr>\n<tr>\n<td>Combination-meter scope</td>\n<td>One device performs more than one regulated function</td>\n<td>Projects combining measurement functions, subject to the shortest applicable reverification period</td>\n</tr>\n<tr>\n<td>Monitoring-only equipment</td>\n<td>Internal operational or energy-management readings</td>\n<td>Building controls and analysis where the reading does not support a third-party charge</td>\n</tr>\n</tbody></table>\n<p>A solar-ready building shows why this review belongs in design. A meter intended only for ordinary tenant consumption may produce accurate readings while lacking approval for export credits. The owner could then face billing corrections, a regulatory issue, or a retrofit that equipment selection would have prevented.</p>\n<p>Mixed-use properties create a similar question. Common-area electricity, tenant loads, distributed generation, and thermal energy may each involve different measurement requirements. A consistent meter family does not automatically mean every application has the same approved scope.</p>\n<blockquote>\n<p><strong>Specification check:</strong> Place the intended billing function beside the approval number in the equipment schedule. If they do not align, pause procurement until the gap is resolved.</p>\n</blockquote>\n<p>Owners planning electrification, district-energy connections, or future generation should review whether the applicable scope supports those plans. A broader scope may preserve options, but it must still match the actual transaction and the Notice of Approval. Axis Meter Solutions can apply this review during equipment selection and turnkey planning, helping move the approval requirements into an installation plan targeted for 8–10 weeks. Guidance on <a href=\"https://www.axismeter.com/blog/sub-metering-electric\">electric submetering for multi-unit and mixed-use buildings</a> can also help frame the design questions before equipment is ordered.</p>\n<p><a id=\"why-approval-matters-for-submetering-in-multi-unit-properties\"></a></p>\n<h2>Why Approval Matters for Submetering in Multi-Unit Properties</h2>\n<p>A mid-rise apartment building may have individually metered suites, shared mechanical equipment, and a property manager seeking clearer utility recovery. The manager needs more than a dashboard that displays consumption. Suite readings may feed tenant invoices, while common-area loads must remain separate so residents are not charged for electricity they did not use.</p>\n<p>Approval determines whether the equipment can support that billing role. A monitoring device helps an owner understand building performance. An approved revenue meter, properly verified and sealed, can support a regulated measurement transaction when the billing arrangement and jurisdictional rules also allow it.</p>\n<p><a id=\"a-billing-chain-with-a-physical-consequence\"></a></p>\n<h3>A billing chain with a physical consequence</h3>\n<p>Each step connects a regulatory requirement to an operating decision:</p>\n<ol>\n<li><strong>Install the correct device:</strong> Match the meter to the service and approved model.</li>\n<li><strong>Capture suite consumption:</strong> Use a device recognised for revenue measurement.</li>\n<li><strong>Transmit the record:</strong> Send data to the billing platform while preserving the meter identity.</li>\n<li><strong>Apply the permitted allocation method:</strong> Follow the applicable provincial or contractual rules.</li>\n<li><strong>Issue the statement:</strong> Provide a tenant charge supported by an auditable measurement record.</li>\n</ol>\n<p>Approval does not settle every billing question. Owners still need suitable agreements, disclosures, calculations, data handling, and provincial compliance. In Ontario, the Ontario Unit Sub Metering Code requires unit sub-meter providers to meet Measurement Canada standards at minimum. Approval provides the technical foundation, while the billing programme must meet the wider rules.</p>\n<p><a id=\"what-the-owner-gains-operationally\"></a></p>\n<h3>What the owner gains operationally</h3>\n<p>A compliant design gives the property team readings it can use and defend. Suite-level measurements may help identify unusual water use or potential leaks when the system includes the relevant monitoring capability. Common-area meters separate shared loads from tenant consumption, and documented meter records give staff a stronger response when a resident questions an invoice.</p>\n<p>The practical difference is accountability. Non-approved devices may produce plausible numbers, but the owner has a weaker legal basis for treating those numbers as charges. If a reading is challenged, a spreadsheet or sensor specification cannot replace the required approval, verification, and sealing evidence.</p>\n<p>Axis Meter Solutions describes <a href=\"https://www.axismeter.com/solutions/electricity-submetering\">electricity submetering for individual units</a> as a service that includes approved equipment and commissioning. A turnkey provider can carry the approval requirements from equipment selection through installation and commissioning, with planning targeted at 8–10 weeks. <strong>Approval is the technical prerequisite that separates useful monitoring from billing-grade measurement.</strong></p>\n<p><a id=\"how-to-verify-a-meter-is-approved-before-you-commit\"></a></p>\n<h2>How to Verify a Meter Is Approved Before You Commit</h2>\n<p>Before signing a purchase order, ask for evidence that the proposed meter is approved for the way your property will use it. A vendor&#39;s proposal provides the starting details, while the approval record establishes the device&#39;s permitted scope.</p>\n<p>Begin the review before equipment arrives. Once meters are delivered, a mismatch between the packing slip, tender documents, and physical units can delay installation and make responsibility harder to assign.</p>\n<p><a id=\"use-a-written-verification-checklist\"></a></p>\n<h3>Use a written verification checklist</h3>\n<p><strong>Ask for the exact identity.</strong> Request the manufacturer, model designation, approval number, and serial numbers for the units to be installed. A product family name is insufficient if the approval covers only a particular model or configuration.</p>\n<p><strong>Search the official record.</strong> Locate the model in Measurement Canada&#39;s public Notice of Approval system using the manufacturer, device details, or approval reference. Save the notice and its conditions with the project records.</p>\n<p><strong>Compare the notice with the proposal.</strong> Review the meter function, service arrangement, configuration, installation requirements, and stated limitations. The brand can match while the approved scope does not. The record must cover the transaction the meter will measure.</p>\n<p><strong>Confirm the field unit.</strong> At delivery and installation, compare the model and serial number on each physical meter with the procurement record. Photograph the nameplate where appropriate, and record the seal information.</p>\n<p><strong>Request verification evidence.</strong> An approved revenue meter must be verified and sealed before it enters service. Ask the provider or authorised installer for the Certificate of Verification, or the equivalent project record.</p>\n<p><strong>Check the responsible party.</strong> Establish who holds the applicable measurement-accuracy authorisation, who performs the installation, and who retains the compliance file. Assigning these duties clearly prevents the phrase “handles compliance” from replacing specific evidence.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b6bc56f9-b979-44b5-804c-69f93306fedf/measurement-canada-approved-meters-meter-verification.jpg\" alt=\"A five-step guide on how to verify meter approval according to Measurement Canada standards before making commitments.\"></p>\n<p><a id=\"preserve-the-chain-of-evidence\"></a></p>\n<h3>Preserve the chain of evidence</h3>\n<p>Keep the approval notice, equipment schedule, invoices, serial-number list, verification records, seal information, installation drawings, and commissioning documents together. The file should connect the approved type to the installed unit, much like a chain of custody connects an item to its documented handling.</p>\n<p>If firmware or another legally relevant software component changes, ask whether the change affects the approved design. Measurement Canada&#39;s guidance treats software disclosure as part of the approval evidence for software-controlled meters, so version changes require formal review.</p>\n<p>Record every answer in writing. A property owner should be able to trace the path from approval record, to physical meter, to verification evidence, and ultimately to the tenant bill. That record gives the project team a practical basis for checking compliance before commitment and for responding clearly if a measurement is later questioned.</p>\n<p><a id=\"putting-compliance-into-practice-with-axis-meter-solutions\"></a></p>\n<h2>Putting Compliance Into Practice With Axis Meter Solutions</h2>\n<p>Managing approval internally requires coordination across equipment selection, electrical work, tenant communication, billing setup, records, and future reverification. A turnkey provider brings these responsibilities into one operating programme, giving the owner a defined process from site review through ongoing service.</p>\n<p>Axis Meter Solutions operates Ontario electricity unit-submetering programmes under Ontario Energy Board licence <strong>ES-2022-0268</strong>, according to the company information supplied for this service. Its stated delivery model includes equipment, installation, commissioning, tenant billing, and ongoing service, with equipment selections aligned to Measurement Canada requirements.</p>\n<p><a id=\"what-an-eight-to-ten-week-deployment-involves\"></a></p>\n<h3>What an eight-to-ten-week deployment involves</h3>\n<p>The provider&#39;s stated typical timeline is <strong>8 to 10 weeks from agreement to live meters</strong>, including equipment lead time. The work is organised as a sequence, much like assembling a chain in which each link must connect the approved meter to the final billing record:</p>\n<ol>\n<li><strong>Initial consultation and site assessment:</strong> The project team reviews the property, services, panels, access requirements, and proposed billing arrangement.</li>\n<li><strong>Approved meter selection:</strong> Equipment is matched to the building&#39;s use case and the applicable approval record.</li>\n<li><strong>Licensed installation:</strong> Electricians install the equipment and coordinate site access with the property team.</li>\n<li><strong>Configuration and integration:</strong> Meter identities, communications, reads, and billing data are connected.</li>\n<li><strong>Activation and service:</strong> The programme begins producing billing-grade reads, with maintenance and compliance records managed through the service relationship.</li>\n</ol>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3b1b2487-e625-4c22-990a-b7d34467895a/measurement-canada-approved-meters-metering-process.jpg\" alt=\"A five-step infographic showing the process for turnkey compliance with Axis Meter Solutions for metering services.\"></p>\n<p>Axis also states a <strong>$0 upfront capital cost</strong> model. Under that arrangement, the provider funds hardware, installation, and ongoing maintenance in exchange for a share of recovered utility costs. The commercial structure still calls for review of the agreement, billing rules, access responsibilities, and records. It may shift day-to-day meter administration away from the owner.</p>\n<p>The practical value is clear accountability. Before installation, the provider should identify the approved equipment, preserve verification evidence, coordinate tenant notices, and track reverification requirements. Axis states that its equipment selections carry active approval references and that reverification cycles are managed centrally.</p>\n<p>For an owner, compliance belongs in the operating process, not only in a proposal. Request the approval record, verification documentation, scope confirmation, billing responsibilities, maintenance commitments, and escalation process before authorising the work.</p>\n<p>If you&#39;re evaluating measurement Canada approved meters for a multi-unit, condominium, mixed-use, or commercial property, Axis Meter Solutions can assess the site, coordinate approved equipment and licensed installation, and manage billing and ongoing compliance through a turnkey programme. Visit Axis Meter Solutions to discuss your building and request a project assessment.</p>",
+  "tags": [
+    "measurement canada approved meters",
+    "submetering compliance",
+    "canadian meter approval",
+    "utility submetering",
+    "ontario submetering"
+  ],
+  "title": "Measurement Canada Approved Meters Explained",
+  "updatedAt": "2026-09-08T07:27:10.385Z"
+}
