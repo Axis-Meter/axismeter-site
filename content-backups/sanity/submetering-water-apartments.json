@@ -1,0 +1,2663 @@
+{
+  "_createdAt": "2026-09-09T07:04:03Z",
+  "_id": "outrank-f145781f-c53e-4f43-87f8-e08f30ee515f",
+  "_rev": "FTDWbM2OxKLhsHAZOIqZLi",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-09T07:04:03Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "ad24dceddfb1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eac7c3ee8a64",
+          "_type": "span",
+          "marks": [],
+          "text": "You're reviewing another bulk water bill, and the number is higher again. The building's occupancy hasn't changed enough to explain it, residents dispute shared charges, and a leak may be running somewhere behind a wall without appearing on anyone's account. The bill arrives as one large operating expense, but the consumption behind it belongs to dozens of separate suites and common areas."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6219a0d6ef16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5dcf6e771dd9",
+          "_type": "span",
+          "marks": [],
+          "text": "That's the core problem with bulk billing. It gives owners one total, not an operational explanation. "
+        },
+        {
+          "_key": "6bb4ee433c84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Water submetering for apartments"
+        },
+        {
+          "_key": "bcacf0bdd4df",
+          "_type": "span",
+          "marks": [],
+          "text": " changes that by measuring consumption downstream of the utility's master meter, assigning usage to individual units, and creating data that managers can use for billing, conservation, and leak response."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6cd72104bfcc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c82db3152475",
+          "_type": "span",
+          "marks": [],
+          "text": "The business case isn't identical for every property. A new building may need submetering to satisfy code, while an older building needs a defensible retrofit analysis. The right question isn't whether submetering sounds modern. It's whether unit-level measurement will recover costs, reduce avoidable losses, improve building operations, or satisfy a requirement that already applies."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7585c31b83de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6960c517d60",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b58c8cfe9462",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a41a55e69dc",
+          "_type": "span",
+          "marks": [
+            "cd6fd51ff238"
+          ],
+          "text": "Why Bulk Water Bills Keep Climbing"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cd6fd51ff238",
+          "_type": "link",
+          "href": "#why-bulk-water-bills-keep-climbing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "749621aebd94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7f158c576c2",
+          "_type": "span",
+          "marks": [
+            "1c9f13bac245"
+          ],
+          "text": "How Water Submetering Actually Works"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1c9f13bac245",
+          "_type": "link",
+          "href": "#how-water-submetering-actually-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "06baf91c2caa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3d08e4575fe",
+          "_type": "span",
+          "marks": [
+            "532dc67adf9f"
+          ],
+          "text": "The physical measurement layer"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "532dc67adf9f",
+          "_type": "link",
+          "href": "#the-physical-measurement-layer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e567a4103936",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5f0bf1931e3",
+          "_type": "span",
+          "marks": [
+            "45287b9177df"
+          ],
+          "text": "The data and billing layer"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "45287b9177df",
+          "_type": "link",
+          "href": "#the-data-and-billing-layer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7f1b06ca0a02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f766593ca49",
+          "_type": "span",
+          "marks": [
+            "4c7b2c577a0a"
+          ],
+          "text": "The Financial and Operational Payoff"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4c7b2c577a0a",
+          "_type": "link",
+          "href": "#the-financial-and-operational-payoff"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "22c1ff3be82c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5bb70ea1c5e6",
+          "_type": "span",
+          "marks": [
+            "67cbca7255c4"
+          ],
+          "text": "Where the economics come from"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "67cbca7255c4",
+          "_type": "link",
+          "href": "#where-the-economics-come-from"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "672f4ca8aede",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f9100b03c8a",
+          "_type": "span",
+          "marks": [
+            "d06c0ae003e8"
+          ],
+          "text": "New Construction Versus Retrofitting Older Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d06c0ae003e8",
+          "_type": "link",
+          "href": "#new-construction-versus-retrofitting-older-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a700a1fd89e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fb8f8098e0a",
+          "_type": "span",
+          "marks": [
+            "222cf94444d0"
+          ],
+          "text": "The retrofit test"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "222cf94444d0",
+          "_type": "link",
+          "href": "#the-retrofit-test"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6526358a41c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dda5b82b3c19",
+          "_type": "span",
+          "marks": [
+            "7989894b7479"
+          ],
+          "text": "What Implementation Actually Looks Like"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7989894b7479",
+          "_type": "link",
+          "href": "#what-implementation-actually-looks-like"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "86f5a6b9a8f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f746e4c8c79",
+          "_type": "span",
+          "marks": [
+            "88b90e7eecab"
+          ],
+          "text": "The working sequence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "88b90e7eecab",
+          "_type": "link",
+          "href": "#the-working-sequence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "146b63d4ae99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1baec9732ea1",
+          "_type": "span",
+          "marks": [
+            "2dd028448c86"
+          ],
+          "text": "Protecting daily operations"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2dd028448c86",
+          "_type": "link",
+          "href": "#protecting-daily-operations"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1e9271ac7f27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "852354c7635e",
+          "_type": "span",
+          "marks": [
+            "793c1c4925db"
+          ],
+          "text": "Choosing the Right Submetering Partner"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "793c1c4925db",
+          "_type": "link",
+          "href": "#choosing-the-right-submetering-partner"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8446c0cf9a47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7190b6250730",
+          "_type": "span",
+          "marks": [
+            "da52243f4a35"
+          ],
+          "text": "Making the Decision and Next Steps"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "da52243f4a35",
+          "_type": "link",
+          "href": "#making-the-decision-and-next-steps"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "41687d67e720",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "051c53939337",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4eddac1e4688",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31322b97f35b",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Bulk Water Bills Keep Climbing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8b926308efba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c6777c77d15",
+          "_type": "span",
+          "marks": [],
+          "text": "A property owner notices the warning signs in ordinary operating work. The utility statement is paid from the building account, residents receive a shared charge, and the superintendent hears complaints about fairness. Meanwhile, a toilet that runs intermittently or a fixture that leaks inside one suite can continue drawing water without identifying the unit responsible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f557a935df54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cbe67482bf71",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk billing hides the source of consumption. It also removes the clearest financial signal for residents. If every household pays through an equal allocation or an embedded rent structure, a resident who uses very little water carries part of the cost created by a resident with unusually high usage. The owner absorbs the difference, manages the complaints, and still lacks the data needed to investigate the building's total demand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "073c8eaf44e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc2b30aebd17",
+          "_type": "span",
+          "marks": [],
+          "text": "This is why "
+        },
+        {
+          "_key": "90e5a5f47b43",
+          "_type": "span",
+          "marks": [
+            "a22251faef46"
+          ],
+          "text": "Axis Meter's guide to high utility bills"
+        },
+        {
+          "_key": "fef1ddbc80d7",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful as a diagnostic starting point. Before selecting equipment, owners should separate rate changes, occupancy patterns, common-area demand, irrigation, mechanical systems, and unexplained baseload. A single bulk total can't do that on its own."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a22251faef46",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/why-are-my-utility-bills-so-high"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "93f74b33e93a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ef86c26412a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owner's rule:"
+        },
+        {
+          "_key": "513d5032286a",
+          "_type": "span",
+          "marks": [],
+          "text": " If you can't identify which area is using the water, you can't manage the cost with confidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f0e3cab31ff1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67e5294bd534",
+          "_type": "span",
+          "marks": [],
+          "text": "The problem becomes more visible in large, complex properties. A condominium, apartment community, or mixed-use site may have suites, retail areas, laundry rooms, mechanical rooms, and outdoor areas drawing from the same master account. Mapping those areas before installation helps the project team understand access routes, meter locations, shutoff points, and resident circulation. A resource such as "
+        },
+        {
+          "_key": "31f7018129af",
+          "_type": "span",
+          "marks": [
+            "1eb3935e1e9e"
+          ],
+          "text": "multifamily venue mapping with Mappedin"
+        },
+        {
+          "_key": "6702b1e95ca0",
+          "_type": "span",
+          "marks": [],
+          "text": " can help teams organise the physical property before they coordinate surveys, resident notices, and installation work."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1eb3935e1e9e",
+          "_type": "link",
+          "href": "https://www.mappedin.com/industries/multifamily/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fb7779455c72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3490cf45e495",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering is the operational lever that turns one opaque expense into a set of measurable accounts. It won't repair a failed valve by itself, and it won't make an uneconomic retrofit worthwhile. It does give owners the visibility required to decide who pays, where consumption is abnormal, and which repairs deserve immediate attention."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c0e4197ef2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d46f4129fc5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eed0f00ea930",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94af56a11231",
+          "_type": "span",
+          "marks": [],
+          "text": "How Water Submetering Actually Works"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a2534c4cd7af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c92ce9a63ef2",
+          "_type": "span",
+          "marks": [],
+          "text": "A submeter sits "
+        },
+        {
+          "_key": "a0132c81fa4a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "downstream of the utility master meter"
+        },
+        {
+          "_key": "17902775814f",
+          "_type": "span",
+          "marks": [],
+          "text": ". The master meter measures the property's total demand for municipal billing. Individual submeters then measure the water supplied to defined areas, usually suites, and may also measure common areas separately."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac9732a34d57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6addd357277",
+          "_type": "span",
+          "marks": [],
+          "text": "The simplest analogy is a restaurant bill. A master meter divides the entire dinner bill for the table. Submetering records what each person ordered, so the allocation reflects actual use rather than an equal split. The system still has to account for shared items, which is why common-area measurement and a documented allocation policy matter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58b7eefe6a8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d2fc8ae0516",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb185bed4797",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56c8e91ec357",
+          "_type": "span",
+          "marks": [],
+          "text": "The physical measurement layer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f0f82598f789",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59872974cd61",
+          "_type": "span",
+          "marks": [],
+          "text": "A typical project starts with a plumbing survey. The installer identifies each suite's supply line, available shutoff valves, pipe size, meter orientation, access constraints, and any shared branches that need separate treatment. Depending on the design, meters may serve cold water, hot water, or both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da89790fab20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e38c6cc82d63",
+          "_type": "span",
+          "marks": [],
+          "text": "Equipment selection should match the building's plumbing configuration and the jurisdiction's rules. For example, ultrasonic meters can offer a useful option where the design requires digital measurement and remote data collection, but owners should review the specific "
+        },
+        {
+          "_key": "7ec43ca1cdf0",
+          "_type": "span",
+          "marks": [
+            "2393c6f8525e"
+          ],
+          "text": "ultrasonic flow meter considerations"
+        },
+        {
+          "_key": "9ef773a254ef",
+          "_type": "span",
+          "marks": [],
+          "text": " before approving a standard across an entire portfolio."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2393c6f8525e",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e15209e0ab7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee4fc4b3bd9a",
+          "_type": "span",
+          "marks": [],
+          "text": "Measurement Canada requirements matter where equipment is used for regulated trade measurement. The project team should confirm approval, commissioning, testing, and billing responsibilities before installation, rather than discovering a compliance issue after residents have received invoices."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b0377af03e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9377df9117fa",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a6b8cf7797fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c97ccf8ccb7",
+          "_type": "span",
+          "marks": [],
+          "text": "The data and billing layer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c9cbc25f2cd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "937189c0c9c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Meters record flow and send readings to a collection system. Communication may use wired or wireless infrastructure, after which a software platform organises consumption by suite, common area, date, and billing period. Managers should be able to review readings, identify missing data, compare current activity with prior patterns, and produce records that support resident questions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a3aa8af12f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f13c46a4cf6f",
+          "_type": "span",
+          "marks": [],
+          "text": "The billing process then applies the approved rate structure and allocation rules to each account. Submetering overlaps with broader "
+        },
+        {
+          "_key": "d0264e1f9d31",
+          "_type": "span",
+          "marks": [
+            "400df88fd3f4"
+          ],
+          "text": "usage-based billing models"
+        },
+        {
+          "_key": "6cc3f3f32266",
+          "_type": "span",
+          "marks": [],
+          "text": ", although apartment utility billing has its own legal, contractual, and resident-communication requirements."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "400df88fd3f4",
+          "_type": "link",
+          "href": "https://www.suby.fi/post/usage-based-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6de5417f2f65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3999bf710a08",
+          "_type": "span",
+          "marks": [],
+          "text": "Continuous interval data adds an important operational layer. A Canadian CMHC study of "
+        },
+        {
+          "_key": "d39061fa9820",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "34 multi-unit residential buildings"
+        },
+        {
+          "_key": "eeab7c80b987",
+          "_type": "span",
+          "marks": [],
+          "text": " captured water consumption at "
+        },
+        {
+          "_key": "63f02e2d300b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15-minute intervals over a two-year period"
+        },
+        {
+          "_key": "576a50441060",
+          "_type": "span",
+          "marks": [],
+          "text": ", showing that apartment demand is structured by time rather than flat throughout the day. That granularity supports logic that can flag persistent off-hours flow or other patterns that merit inspection, as documented in the "
+        },
+        {
+          "_key": "f4f227c76792",
+          "_type": "span",
+          "marks": [
+            "3767788eecea"
+          ],
+          "text": "CMHC building water-consumption research"
+        },
+        {
+          "_key": "8328b831ed8b",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3767788eecea",
+          "_type": "link",
+          "href": "https://publications.gc.ca/collections/Collection/NH18-22-105-119E.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d7c1ab8ddc0c",
+      "_type": "externalImage",
+      "alt": "A bar chart showing a 20% consumption reduction in apartments with submetering compared to a 0% baseline.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2e3743db-c39b-4b7c-aa3c-93e15448e43f/submetering-water-apartments-consumption-reduction.jpg"
+    },
+    {
+      "_key": "7ec8618271a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aee2600caf41",
+          "_type": "span",
+          "marks": [],
+          "text": "The image above should be treated as a design asset, not as verified evidence for a projected savings rate. Owners should build their business case from property-specific bills, measured baseload, local charges, and documented leak history."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94ef215eb5a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c28ef49dc92",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f3e6ea3d3944",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c40789b93154",
+          "_type": "span",
+          "marks": [],
+          "text": "The Financial and Operational Payoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "83920563dd45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e5e0eb7b7dc",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering creates value through three separate mechanisms. "
+        },
+        {
+          "_key": "1e40f69f92b4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Behavioural accountability"
+        },
+        {
+          "_key": "c838dc994881",
+          "_type": "span",
+          "marks": [],
+          "text": " can change consumption. "
+        },
+        {
+          "_key": "fcf3c15c420c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cost allocation"
+        },
+        {
+          "_key": "2acc8f8fe1b4",
+          "_type": "span",
+          "marks": [],
+          "text": " can recover an appropriate share of the utility expense. "
+        },
+        {
+          "_key": "622b1025b8a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational visibility"
+        },
+        {
+          "_key": "6620f9a1b0b0",
+          "_type": "span",
+          "marks": [],
+          "text": " can help staff find abnormal flow before a small plumbing issue becomes a major incident."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "371f39a76780",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "749b5b3b43f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian apartment research provides a useful historical benchmark. An Environment Canada comparison included "
+        },
+        {
+          "_key": "c7b7d49040ca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1,157 individually metered apartment units"
+        },
+        {
+          "_key": "ba27e1d6844a",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "b116d344e949",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "469 unmetered apartment units"
+        },
+        {
+          "_key": "e8df58813f83",
+          "_type": "span",
+          "marks": [],
+          "text": ". Domestic use in the individually metered group was about "
+        },
+        {
+          "_key": "6fbe4804608d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "75% of the use in the unmetered group"
+        },
+        {
+          "_key": "5387b5fecfe8",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the "
+        },
+        {
+          "_key": "7f7cada2c4dc",
+          "_type": "span",
+          "marks": [
+            "023f99392de4"
+          ],
+          "text": "federal apartment-metering research"
+        },
+        {
+          "_key": "43464f84fffc",
+          "_type": "span",
+          "marks": [],
+          "text": ". That finding doesn't guarantee the same result in a particular property. It does show why direct measurement has long been treated as a behaviour-change tool rather than merely an invoicing device."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "023f99392de4",
+          "_type": "link",
+          "href": "https://publications.gc.ca/collections/collection_2019/eccc/En36-519-21-eng.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "58fcd0fec881",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "551332f76095",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fd44e241453",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdead7478f3c",
+          "_type": "span",
+          "marks": [],
+          "text": "Where the economics come from"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d217f4f35d00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ed7e3e4eb88",
+          "_type": "span",
+          "marks": [],
+          "text": "The first value stream is cost recovery. If the owner currently pays the full master bill and can lawfully allocate suite consumption to residents, the property may recover an expense that previously reduced NOI. The exact result depends on local water and sewer rates, the approved billing method, vacancy, collection performance, common-area treatment, and the cost of service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93778fcf511d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "126e5ab52874",
+          "_type": "span",
+          "marks": [],
+          "text": "The second is budget control. A building with suite-level history can distinguish resident demand from common-area use and abnormal baseload. That makes future operating forecasts more credible than applying a percentage increase to the last bulk statement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "95f7f5049ef1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c3cbc6160b5",
+          "_type": "span",
+          "marks": [],
+          "text": "The third is risk reduction. A continuously monitored suite can produce an abnormal-flow alert even when no resident reports a problem. The owner still needs a response process, someone must verify the condition, and the system won't eliminate every failure. It can, however, shorten the time between unusual consumption and an inspection."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59650c355ea1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fd91945c407",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "The payback case is stronger when the property has both recoverable consumption and recurring leak exposure. Billing alone may not justify a difficult retrofit. Leak avoidance can change the calculation."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "00ee8bb53126",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83059339b529",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners should keep the financial model disciplined. Compare installation or service charges with recoverable water costs, expected administrative effort, meter maintenance, resident support, and the value of earlier leak response. Don't count theoretical savings as cash flow until the building's rules and local regulations permit the recovery structure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5302f60895db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ba9de1f0b57",
+          "_type": "span",
+          "marks": [],
+          "text": "Water data also improves accountability beyond the suite. Common areas can be metered separately, allowing managers to see whether laundry facilities, irrigation, mechanical systems, or cleaning operations are driving the remaining demand. That detail helps maintenance teams choose targeted repairs instead of imposing broad restrictions on residents."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87ff83c6058a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2024f28e8acc",
+          "_type": "span",
+          "marks": [],
+          "text": "The conservation context matters in Ontario. Federal analysis reported that Ontario's metering rate was "
+        },
+        {
+          "_key": "97d23a440040",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "86% in 2006"
+        },
+        {
+          "_key": "df80fd297c39",
+          "_type": "span",
+          "marks": [],
+          "text": ", compared with "
+        },
+        {
+          "_key": "6bef0dba2d6d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "72% in western Canada"
+        },
+        {
+          "_key": "e519b1cba05b",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "9fab9e04bb01",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "45% in Atlantic Canada"
+        },
+        {
+          "_key": "eb804a832f4e",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "6333f5dfffe2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20% in Quebec"
+        },
+        {
+          "_key": "dc7345eb3ee2",
+          "_type": "span",
+          "marks": [],
+          "text": ", as detailed in "
+        },
+        {
+          "_key": "b6b5c930fb80",
+          "_type": "span",
+          "marks": [
+            "0cfd082b17dc"
+          ],
+          "text": "Statistics Canada's water-use analysis"
+        },
+        {
+          "_key": "b9aa3d61b90b",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same research noted that apartment and multi-unit households were less likely to have water-saving fixtures than single-detached homes, reinforcing the case for better measurement and efficiency management in dense housing."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0cfd082b17dc",
+          "_type": "link",
+          "href": "https://www150.statcan.gc.ca/n1/pub/16-002-x/16-002-x2008003-eng.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "15ea0865a2f6",
+      "_type": "externalImage",
+      "alt": "A comparison chart showing benefits and requirements of submetering water in new construction versus retrofitting older buildings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f854c185-276f-4fbc-8912-6d91407167db/submetering-water-apartments-construction-comparison.jpg"
+    },
+    {
+      "_key": "6548bb266739",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69897a938dfd",
+          "_type": "span",
+          "marks": [],
+          "text": "The comparison graphic illustrates the strategic difference, but owners should not accept unsupported payback assumptions. The correct model is local and building-specific."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "13c7dd362f12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b11b5a8dd3d5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a367f3a57f89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0731270ef33c",
+          "_type": "span",
+          "marks": [],
+          "text": "New Construction Versus Retrofitting Older Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "1c5851a45f6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dde36addc42c",
+          "_type": "span",
+          "marks": [],
+          "text": "New construction and older-building retrofits should not share the same business case. In a new project, plumbing layouts, meter locations, communications infrastructure, access panels, and resident billing rules can be coordinated before walls close. In an older building, the owner inherits existing pipe routes, occupied suites, uncertain drawings, and the cost of opening spaces or scheduling access."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8486f679e56b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "422b7021cd72",
+          "_type": "span",
+          "marks": [],
+          "text": "California makes the regulatory distinction clear. The state's water-submeter requirement applies to "
+        },
+        {
+          "_key": "708228e6a1c2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "newly constructed multiunit residential and mixed-use residential or commercial projects"
+        },
+        {
+          "_key": "7688f016f2d0",
+          "_type": "span",
+          "marks": [],
+          "text": " with applications for water service after "
+        },
+        {
+          "_key": "2e61d9db4fa9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "January 1, 2018"
+        },
+        {
+          "_key": "c78aa2e40174",
+          "_type": "span",
+          "marks": [],
+          "text": ", under the "
+        },
+        {
+          "_key": "33817c7907a0",
+          "_type": "span",
+          "marks": [
+            "f0b1d85ea3d0"
+          ],
+          "text": "California Water Code provisions for submeters"
+        },
+        {
+          "_key": "7c72fb5679e7",
+          "_type": "span",
+          "marks": [],
+          "text": ". The code also addresses the owner's responsibility to install and read submeters unless the water purveyor or local government assumes that role."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f0b1d85ea3d0",
+          "_type": "link",
+          "href": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=WAT&division=1.&title=&part=&chapter=8.&article=5."
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "503df15d52a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f1689945b61",
+          "_type": "span",
+          "marks": [],
+          "text": "That rule does not automatically make every older California apartment building subject to the same mandate. For pre-2018 stock, the decision is usually an investment question shaped by local law, leases, tenant-billing requirements, water and sewer rates, building condition, and the cost of access."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "409ad0f65455",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06f7199e2a90",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7404dd690d69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31cbcc46d6a2",
+          "_type": "span",
+          "marks": [],
+          "text": "The retrofit test"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "93dba8b3e6af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "194304b9f483",
+          "_type": "span",
+          "marks": [],
+          "text": "For an existing property, ask four questions before requesting a proposal:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b995e01528f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7cbe8fe5d99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Can the plumbing be divided cleanly?"
+        },
+        {
+          "_key": "a7efe8105718",
+          "_type": "span",
+          "marks": [],
+          "text": " A building with accessible suite supply lines is a different project from one with shared branches buried behind finished walls."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e416d09b0674",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1157662b724",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Can the owner recover usage lawfully?"
+        },
+        {
+          "_key": "0f262d201c42",
+          "_type": "span",
+          "marks": [],
+          "text": " Review leases, municipal requirements, disclosure obligations, rate rules, and any applicable testing or maintenance duties."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "242d0419203b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f484f46d4e6b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What losses are already visible?"
+        },
+        {
+          "_key": "d8528c8b7094",
+          "_type": "span",
+          "marks": [],
+          "text": " Examine historical bills, leak incidents, insurance claims, maintenance records, and unexplained night or vacancy consumption."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec85c2b56880",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f291f1dcd5c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What does the alternative cost?"
+        },
+        {
+          "_key": "2ba47441570b",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare submetering with continued bulk payment, fixture upgrades, targeted leak monitoring, or a phased installation."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f6801438fa7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a87adb1dce2",
+          "_type": "span",
+          "marks": [],
+          "text": "The payback should combine cost recovery with avoided loss. Include local water and sewer charges, expected vacancy or turnover disruption, suite access, resident communications, repairs, and the financial consequences of delayed leak detection. Treat installation cost as a project-specific input, not a universal percentage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7314d00e8161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9ffcdf1311a",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario offers a different policy context. Its historically high metering penetration created a stronger operational base for unit-level measurement, billing, and conservation programs. Toronto also requires certain condominiums to report whole-building water consumption under "
+        },
+        {
+          "_key": "e9b536021446",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ontario Regulation 506/18"
+        },
+        {
+          "_key": "c8694deed7c7",
+          "_type": "span",
+          "marks": [],
+          "text": ", which makes building-level data reporting part of the broader management environment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40ee2b43ef92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0afddba8ab5",
+          "_type": "span",
+          "marks": [],
+          "text": "A new building should design submetering in from the start. An older building should proceed when the baseline shows a practical path to recovery or when leak exposure and operational uncertainty justify the investment. Calling every retrofit mandatory is poor advice. Calling every retrofit unnecessary is just as careless."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73e1e21f91ce",
+      "_type": "externalImage",
+      "alt": "A five-step process infographic illustrating the timeline and milestones for water submetering implementation in apartment buildings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/30a218c1-f866-4745-b7a2-44b6a5a1d62e/submetering-water-apartments-implementation-process.jpg"
+    },
+    {
+      "_key": "3924fe023166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3ae3cb4b53d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a8fcb58fb5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46b32d74cfc3",
+          "_type": "span",
+          "marks": [],
+          "text": "What Implementation Actually Looks Like"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3eb6b330557a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de4d9a914e1d",
+          "_type": "span",
+          "marks": [],
+          "text": "A well-run apartment submetering project is a coordination exercise, not just a meter installation. The owner, property manager, plumbing contractor, engineering team, billing provider, and residents all affect the launch. A defined process prevents the project from becoming a series of improvised access requests."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1993bb573c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "163f5835c6f6",
+          "_type": "span",
+          "marks": [],
+          "text": "A typical cycle runs from agreement to live meters in "
+        },
+        {
+          "_key": "d851c2b1b5f3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 weeks"
+        },
+        {
+          "_key": "3c142a5f2a07",
+          "_type": "span",
+          "marks": [],
+          "text": ", including equipment lead time, according to the implementation scope described by Axis Meter Solutions. That timeframe can change when the building needs major plumbing work, permits take longer, equipment is unavailable, or residents can't provide access."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68bc52ef414b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7b13dea9403",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "772997e4753c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "987d9f2f57b1",
+          "_type": "span",
+          "marks": [],
+          "text": "The working sequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "be08d7e1b1b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf4bf01ae40f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Agreement and objectives."
+        },
+        {
+          "_key": "858b7cfeaa1e",
+          "_type": "span",
+          "marks": [],
+          "text": " Start by defining what the owner needs to achieve. Is the priority cost recovery, leak response, common-area separation, regulatory compliance, or a combination? Set the reporting and billing rules before equipment is ordered."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ce2098c285b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efacae5188aa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Site survey."
+        },
+        {
+          "_key": "26d3bc138266",
+          "_type": "span",
+          "marks": [],
+          "text": " The project team inspects representative suites and common areas, verifies pipe arrangements, documents shutoffs, and identifies installation constraints. An older building's real complexity becomes visible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55bc36d4a9c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5a7bd1461ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Design and procurement."
+        },
+        {
+          "_key": "001f80f28e07",
+          "_type": "span",
+          "marks": [],
+          "text": " The provider selects meters, communication hardware, sensors, mounting arrangements, and data services suited to the site. Jurisdiction-specific requirements should be confirmed before the design is final."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a158dd3c7d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82075a672515",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation."
+        },
+        {
+          "_key": "545d4dc979d4",
+          "_type": "span",
+          "marks": [],
+          "text": " Coordinated trades install the equipment, connect communications, label assets, and restore affected areas. With proper scheduling, access can often be concentrated into "
+        },
+        {
+          "_key": "f482b606210a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 to 2 days"
+        },
+        {
+          "_key": "199f42d16b77",
+          "_type": "span",
+          "marks": [],
+          "text": " for a property or project phase, although the exact requirement depends on the building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ebddd869fc2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "727c5d466971",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commissioning and billing setup."
+        },
+        {
+          "_key": "cfb6cf216bae",
+          "_type": "span",
+          "marks": [],
+          "text": " Each meter must be associated with the correct suite, checked for data transmission, and validated against the physical installation. Billing accounts, resident notices, rate policies, dispute procedures, and escalation contacts should be ready before the first invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75276dc125b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f83e95ee29ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ongoing service."
+        },
+        {
+          "_key": "06e809bdfa99",
+          "_type": "span",
+          "marks": [],
+          "text": " Managers need a process for missing readings, abnormal flow, damaged equipment, tenant questions, and meter replacement. A dashboard is only useful when someone reviews alerts and acts on them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ad1482f9b4fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c58035134bf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7354b35153cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54bdb9edcb97",
+          "_type": "span",
+          "marks": [],
+          "text": "Protecting daily operations"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4c4549123b6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f97e87ab3a74",
+          "_type": "span",
+          "marks": [],
+          "text": "Resident communication should explain what the meter measures, how charges are calculated, when billing begins, and who handles questions. Notices should be clear enough that residents don't confuse a usage charge with a new municipal account."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "814858bf5ed4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5d6f5daccfe",
+          "_type": "span",
+          "marks": [],
+          "text": "Property managers should also ask how the provider will coordinate with on-site trades. A turnkey scope that includes permitting, commissioning, billing setup, communications, and maintenance reduces the number of handoffs the owner must manage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6df772bb4469",
+      "_type": "externalImage",
+      "alt": "A six-step infographic showing the structured implementation process from discovery to ongoing support for project management.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d0104b1f-3d13-464d-8d90-19401a795e1c/submetering-water-apartments-implementation-process.jpg"
+    },
+    {
+      "_key": "485e73cbea28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b34545b3645",
+          "_type": "span",
+          "marks": [],
+          "text": "The project isn't complete when the meters transmit their first readings. It's complete when the data reaches the right account, residents understand the bill, managers know how to respond to alerts, and maintenance responsibilities are documented."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d5662106f4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a01021bf1b31",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "702b4e1a060b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40e444990037",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing the Right Submetering Partner"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2ee7075b1734",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5e3f9f8905a",
+          "_type": "span",
+          "marks": [],
+          "text": "The cheapest equipment quote can become the most expensive operating decision if the owner is left with meter testing, resident billing, collections, data exceptions, and replacements. Compare the full service model, not just the hardware line."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b61db8d76bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1c0d4ca3c87",
+          "_type": "span",
+          "marks": [],
+          "text": "Some providers sell equipment and leave the property team to build the rest. Others provide an integrated programme covering installation, data, billing, support, and maintenance. An owner considering a $0 upfront structure should still examine the term, equipment ownership, service charges, termination rights, replacement obligations, and how the provider earns revenue."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "04a991948fc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "651b5445a38d",
+          "_type": "span",
+          "marks": [],
+          "text": "A disciplined "
+        },
+        {
+          "_key": "96c0d7073376",
+          "_type": "span",
+          "marks": [
+            "3095acd82701"
+          ],
+          "text": "should cost analysis guide"
+        },
+        {
+          "_key": "65c13b6dee20",
+          "_type": "span",
+          "marks": [],
+          "text": " can help an owner separate genuine scope differences from vague price comparisons. Ask each vendor to price the same assumptions, including suite count, common areas, meter types, communications, billing, support, leak detection, and ongoing maintenance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3095acd82701",
+          "_type": "link",
+          "href": "https://procright.com/blog/should-cost-analysis"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c3b3eea3e334",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87f7837a86d9",
+          "_type": "span",
+          "marks": [],
+          "text": "Evaluation Criteria"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cb4632577e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f42425d988c",
+          "_type": "span",
+          "marks": [],
+          "text": "What to Look For"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82b9c0d26dc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4f24cc85b42",
+          "_type": "span",
+          "marks": [],
+          "text": "Why It Matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb5a3408a29c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5db164945df0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Equipment and approvals"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbc720c5fcd8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1654b752672",
+          "_type": "span",
+          "marks": [],
+          "text": "Appropriate meters, documented approvals, commissioning, and testing responsibilities"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6b9abb485c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dab87e229714",
+          "_type": "span",
+          "marks": [],
+          "text": "Incorrect or poorly documented equipment can undermine billing confidence"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4699ff3ae247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d511996c61a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee74bfec8f04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4388b6bb21b",
+          "_type": "span",
+          "marks": [],
+          "text": "Plumbing survey, permits, access coordination, restoration, labelling, and final verification"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7da822177dab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f184f8477887",
+          "_type": "span",
+          "marks": [],
+          "text": "A low equipment price may conceal significant owner-managed work"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cc222fae9d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdb0dc014867",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing service"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "595622166f95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eac4dc21c2af",
+          "_type": "span",
+          "marks": [],
+          "text": "Rate configuration, monthly invoices, collections workflows, resident support, and dispute handling"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18002c2e2c94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c96f50b0d731",
+          "_type": "span",
+          "marks": [],
+          "text": "Accurate measurement still fails if residents receive confusing or inconsistent bills"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d38cf2e73af9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5bd2f2905fb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leak and flood detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73d4a0964e09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "473706b3ed41",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensors, alert thresholds, escalation contacts, and response procedures"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "acaeb205991a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bed767d5639a",
+          "_type": "span",
+          "marks": [],
+          "text": "Detection creates value only when someone can investigate and act"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35137d3b2564",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88e69f638a48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data access"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aab40b5f212a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98aeea86db9c",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite-level reports, common-area visibility, interval history, exports, and exception reporting"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "717ec4619c04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb3af5ac54ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Managers need usable information, not a dashboard that only vendors can interpret"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e77215449f71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "decb743ea476",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Long-term maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc4cd60f1d52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "732e147c4e42",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter replacements, communications failures, testing, warranty limits, and service response"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ce331e14b11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c7340a3e760",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner needs predictable responsibility throughout the agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18ffb60d57ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "66935924d33a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commercial structure"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b82ef3dfab66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1deb5d772eeb",
+          "_type": "span",
+          "marks": [],
+          "text": "Capital cost, term, ownership, termination, renewal, and fee changes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "530abe1e839c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04420579381f",
+          "_type": "span",
+          "marks": [],
+          "text": "The contract determines the actual retrofit economics"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6115c137540a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c1c456afdb8",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides water submetering for suites and common areas, with leak and flood detection included in its installation scope, alongside tenant billing, reporting, maintenance, and meter replacement services. Owners should compare that model with equipment-only suppliers and other full-service operators using the same written criteria."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f35a8a7320f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ac27aa63d3a",
+          "_type": "span",
+          "marks": [],
+          "text": "For broader meter portfolios, review how a provider handles "
+        },
+        {
+          "_key": "3ea27daf0650",
+          "_type": "span",
+          "marks": [
+            "26e834e26f9d"
+          ],
+          "text": "total meter services"
+        },
+        {
+          "_key": "5b447419f9bf",
+          "_type": "span",
+          "marks": [],
+          "text": ", especially when a property also needs electricity, gas, thermal energy, or common-area measurement. One accountable partner can simplify administration, but only if the contract clearly defines every service and response obligation."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "26e834e26f9d",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/total-meter-services"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cce072059ba7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1dbbed8957cb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0dac2b87d227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5fca6624418",
+          "_type": "span",
+          "marks": [],
+          "text": "Making the Decision and Next Steps"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "d7f1068a4331",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc00988b419f",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering deserves immediate investigation when a building has rising bulk costs, recurring leak incidents, unexplained baseload, frequent billing disputes, or a regulatory requirement that applies to the project. These conditions create a clear operational reason to measure suites rather than continue treating the property as one undifferentiated account."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88f7c83c1d63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74e6b74ac1f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Waiting can be sensible when costs are stable, plumbing access is exceptionally difficult, residents already have a lawful and transparent allocation method, and the building has no meaningful leak history. Even then, managers should preserve bills, maintenance records, occupancy information, and incident data so the decision can be revisited with evidence."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63947116f768",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d37a6b019fa2",
+          "_type": "span",
+          "marks": [],
+          "text": "Use this order of work:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ffbed2d769c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5eb2c3027535",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Build the baseline."
+        },
+        {
+          "_key": "2fd4cd533bbf",
+          "_type": "span",
+          "marks": [],
+          "text": " Gather utility bills, water and sewer charges, occupancy information, common-area uses, leak records, insurance incidents, and current billing rules."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ffbf2b785cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3c7a1f2921d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm the jurisdiction."
+        },
+        {
+          "_key": "ea92b15d6502",
+          "_type": "span",
+          "marks": [],
+          "text": " Check code, lease requirements, disclosure rules, meter approvals, testing duties, and any role assigned to the water purveyor or local government."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cbb131a87c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a5b9dd7ace1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Survey the building."
+        },
+        {
+          "_key": "1e7b71d8c0be",
+          "_type": "span",
+          "marks": [],
+          "text": " Have qualified personnel verify suite supply lines, access conditions, common-area branches, communications options, and restoration requirements."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "012913656847",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e91626ce23b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Model the economics."
+        },
+        {
+          "_key": "9a49b5674ee3",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare recoverable charges and leak-avoidance value with installation, service, administrative, access, and resident-support costs."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b9609f1d9e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb51beaa584c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Request comparable proposals."
+        },
+        {
+          "_key": "e9c7547916a2",
+          "_type": "span",
+          "marks": [],
+          "text": " Give vendors the same scope and demand clear terms for ownership, billing, maintenance, alerts, replacements, and termination."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "04502749785e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "540158a46c42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Plan the change."
+        },
+        {
+          "_key": "b6cd76179594",
+          "_type": "span",
+          "marks": [],
+          "text": " Set resident communications, billing launch rules, escalation contacts, and manager training before installation starts."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b91f5cfdf31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54d12034650d",
+          "_type": "span",
+          "marks": [],
+          "text": "The right conclusion may be to proceed, phase the work, or wait. What matters is that the decision rests on the building's plumbing, rules, operating history, and financial model, not on a generic savings promise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5313e5cd4137",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c60a598022b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including installation, commissioning, tenant billing, reporting, and ongoing maintenance. Visit "
+        },
+        {
+          "_key": "e5bc9a132181",
+          "_type": "span",
+          "marks": [
+            "7643d8ee4d07"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "ad1ee6b2a985",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your building's retrofit conditions, leak-detection needs, and cost-recovery options."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7643d8ee4d07",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Learn how submetering water apartments improves cost recovery, detects leaks, and boosts NOI. Covers ROI, timelines, regulations, and vendor selection.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4c61a2e4-937a-46f5-9a86-6e3fbf9d5607/submetering-water-apartments-water-meter.jpg",
+  "noIndex": false,
+  "outrankId": "f145781f-c53e-4f43-87f8-e08f30ee515f",
+  "publishedAt": "2026-09-09T07:03:59.234226+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "submetering-water-apartments"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re reviewing another bulk water bill, and the number is higher again. The building&#39;s occupancy hasn&#39;t changed enough to explain it, residents dispute shared charges, and a leak may be running somewhere behind a wall without appearing on anyone&#39;s account. The bill arrives as one large operating expense, but the consumption behind it belongs to dozens of separate suites and common areas.</p>\n<p>That&#39;s the core problem with bulk billing. It gives owners one total, not an operational explanation. <strong>Water submetering for apartments</strong> changes that by measuring consumption downstream of the utility&#39;s master meter, assigning usage to individual units, and creating data that managers can use for billing, conservation, and leak response.</p>\n<p>The business case isn&#39;t identical for every property. A new building may need submetering to satisfy code, while an older building needs a defensible retrofit analysis. The right question isn&#39;t whether submetering sounds modern. It&#39;s whether unit-level measurement will recover costs, reduce avoidable losses, improve building operations, or satisfy a requirement that already applies.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-bulk-water-bills-keep-climbing\">Why Bulk Water Bills Keep Climbing</a></li>\n<li><a href=\"#how-water-submetering-actually-works\">How Water Submetering Actually Works</a><ul>\n<li><a href=\"#the-physical-measurement-layer\">The physical measurement layer</a></li>\n<li><a href=\"#the-data-and-billing-layer\">The data and billing layer</a></li>\n</ul>\n</li>\n<li><a href=\"#the-financial-and-operational-payoff\">The Financial and Operational Payoff</a><ul>\n<li><a href=\"#where-the-economics-come-from\">Where the economics come from</a></li>\n</ul>\n</li>\n<li><a href=\"#new-construction-versus-retrofitting-older-buildings\">New Construction Versus Retrofitting Older Buildings</a><ul>\n<li><a href=\"#the-retrofit-test\">The retrofit test</a></li>\n</ul>\n</li>\n<li><a href=\"#what-implementation-actually-looks-like\">What Implementation Actually Looks Like</a><ul>\n<li><a href=\"#the-working-sequence\">The working sequence</a></li>\n<li><a href=\"#protecting-daily-operations\">Protecting daily operations</a></li>\n</ul>\n</li>\n<li><a href=\"#choosing-the-right-submetering-partner\">Choosing the Right Submetering Partner</a></li>\n<li><a href=\"#making-the-decision-and-next-steps\">Making the Decision and Next Steps</a></li>\n</ul>\n<p><a id=\"why-bulk-water-bills-keep-climbing\"></a></p>\n<h2>Why Bulk Water Bills Keep Climbing</h2>\n<p>A property owner notices the warning signs in ordinary operating work. The utility statement is paid from the building account, residents receive a shared charge, and the superintendent hears complaints about fairness. Meanwhile, a toilet that runs intermittently or a fixture that leaks inside one suite can continue drawing water without identifying the unit responsible.</p>\n<p>Bulk billing hides the source of consumption. It also removes the clearest financial signal for residents. If every household pays through an equal allocation or an embedded rent structure, a resident who uses very little water carries part of the cost created by a resident with unusually high usage. The owner absorbs the difference, manages the complaints, and still lacks the data needed to investigate the building&#39;s total demand.</p>\n<p>This is why <a href=\"https://www.axismeter.com/blog/why-are-my-utility-bills-so-high\">Axis Meter&#39;s guide to high utility bills</a> is useful as a diagnostic starting point. Before selecting equipment, owners should separate rate changes, occupancy patterns, common-area demand, irrigation, mechanical systems, and unexplained baseload. A single bulk total can&#39;t do that on its own.</p>\n<blockquote>\n<p><strong>Owner&#39;s rule:</strong> If you can&#39;t identify which area is using the water, you can&#39;t manage the cost with confidence.</p>\n</blockquote>\n<p>The problem becomes more visible in large, complex properties. A condominium, apartment community, or mixed-use site may have suites, retail areas, laundry rooms, mechanical rooms, and outdoor areas drawing from the same master account. Mapping those areas before installation helps the project team understand access routes, meter locations, shutoff points, and resident circulation. A resource such as <a href=\"https://www.mappedin.com/industries/multifamily/\">multifamily venue mapping with Mappedin</a> can help teams organise the physical property before they coordinate surveys, resident notices, and installation work.</p>\n<p>Submetering is the operational lever that turns one opaque expense into a set of measurable accounts. It won&#39;t repair a failed valve by itself, and it won&#39;t make an uneconomic retrofit worthwhile. It does give owners the visibility required to decide who pays, where consumption is abnormal, and which repairs deserve immediate attention.</p>\n<p><a id=\"how-water-submetering-actually-works\"></a></p>\n<h2>How Water Submetering Actually Works</h2>\n<p>A submeter sits <strong>downstream of the utility master meter</strong>. The master meter measures the property&#39;s total demand for municipal billing. Individual submeters then measure the water supplied to defined areas, usually suites, and may also measure common areas separately.</p>\n<p>The simplest analogy is a restaurant bill. A master meter divides the entire dinner bill for the table. Submetering records what each person ordered, so the allocation reflects actual use rather than an equal split. The system still has to account for shared items, which is why common-area measurement and a documented allocation policy matter.</p>\n<p><a id=\"the-physical-measurement-layer\"></a></p>\n<h3>The physical measurement layer</h3>\n<p>A typical project starts with a plumbing survey. The installer identifies each suite&#39;s supply line, available shutoff valves, pipe size, meter orientation, access constraints, and any shared branches that need separate treatment. Depending on the design, meters may serve cold water, hot water, or both.</p>\n<p>Equipment selection should match the building&#39;s plumbing configuration and the jurisdiction&#39;s rules. For example, ultrasonic meters can offer a useful option where the design requires digital measurement and remote data collection, but owners should review the specific <a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">ultrasonic flow meter considerations</a> before approving a standard across an entire portfolio.</p>\n<p>Measurement Canada requirements matter where equipment is used for regulated trade measurement. The project team should confirm approval, commissioning, testing, and billing responsibilities before installation, rather than discovering a compliance issue after residents have received invoices.</p>\n<p><a id=\"the-data-and-billing-layer\"></a></p>\n<h3>The data and billing layer</h3>\n<p>Meters record flow and send readings to a collection system. Communication may use wired or wireless infrastructure, after which a software platform organises consumption by suite, common area, date, and billing period. Managers should be able to review readings, identify missing data, compare current activity with prior patterns, and produce records that support resident questions.</p>\n<p>The billing process then applies the approved rate structure and allocation rules to each account. Submetering overlaps with broader <a href=\"https://www.suby.fi/post/usage-based-billing\">usage-based billing models</a>, although apartment utility billing has its own legal, contractual, and resident-communication requirements.</p>\n<p>Continuous interval data adds an important operational layer. A Canadian CMHC study of <strong>34 multi-unit residential buildings</strong> captured water consumption at <strong>15-minute intervals over a two-year period</strong>, showing that apartment demand is structured by time rather than flat throughout the day. That granularity supports logic that can flag persistent off-hours flow or other patterns that merit inspection, as documented in the <a href=\"https://publications.gc.ca/collections/Collection/NH18-22-105-119E.pdf\">CMHC building water-consumption research</a>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/2e3743db-c39b-4b7c-aa3c-93e15448e43f/submetering-water-apartments-consumption-reduction.jpg\" alt=\"A bar chart showing a 20% consumption reduction in apartments with submetering compared to a 0% baseline.\"></p>\n<p>The image above should be treated as a design asset, not as verified evidence for a projected savings rate. Owners should build their business case from property-specific bills, measured baseload, local charges, and documented leak history.</p>\n<p><a id=\"the-financial-and-operational-payoff\"></a></p>\n<h2>The Financial and Operational Payoff</h2>\n<p>Submetering creates value through three separate mechanisms. <strong>Behavioural accountability</strong> can change consumption. <strong>Cost allocation</strong> can recover an appropriate share of the utility expense. <strong>Operational visibility</strong> can help staff find abnormal flow before a small plumbing issue becomes a major incident.</p>\n<p>Canadian apartment research provides a useful historical benchmark. An Environment Canada comparison included <strong>1,157 individually metered apartment units</strong> and <strong>469 unmetered apartment units</strong>. Domestic use in the individually metered group was about <strong>75% of the use in the unmetered group</strong>, according to the <a href=\"https://publications.gc.ca/collections/collection_2019/eccc/En36-519-21-eng.pdf\">federal apartment-metering research</a>. That finding doesn&#39;t guarantee the same result in a particular property. It does show why direct measurement has long been treated as a behaviour-change tool rather than merely an invoicing device.</p>\n<p><a id=\"where-the-economics-come-from\"></a></p>\n<h3>Where the economics come from</h3>\n<p>The first value stream is cost recovery. If the owner currently pays the full master bill and can lawfully allocate suite consumption to residents, the property may recover an expense that previously reduced NOI. The exact result depends on local water and sewer rates, the approved billing method, vacancy, collection performance, common-area treatment, and the cost of service.</p>\n<p>The second is budget control. A building with suite-level history can distinguish resident demand from common-area use and abnormal baseload. That makes future operating forecasts more credible than applying a percentage increase to the last bulk statement.</p>\n<p>The third is risk reduction. A continuously monitored suite can produce an abnormal-flow alert even when no resident reports a problem. The owner still needs a response process, someone must verify the condition, and the system won&#39;t eliminate every failure. It can, however, shorten the time between unusual consumption and an inspection.</p>\n<blockquote>\n<p><strong>The payback case is stronger when the property has both recoverable consumption and recurring leak exposure. Billing alone may not justify a difficult retrofit. Leak avoidance can change the calculation.</strong></p>\n</blockquote>\n<p>Owners should keep the financial model disciplined. Compare installation or service charges with recoverable water costs, expected administrative effort, meter maintenance, resident support, and the value of earlier leak response. Don&#39;t count theoretical savings as cash flow until the building&#39;s rules and local regulations permit the recovery structure.</p>\n<p>Water data also improves accountability beyond the suite. Common areas can be metered separately, allowing managers to see whether laundry facilities, irrigation, mechanical systems, or cleaning operations are driving the remaining demand. That detail helps maintenance teams choose targeted repairs instead of imposing broad restrictions on residents.</p>\n<p>The conservation context matters in Ontario. Federal analysis reported that Ontario&#39;s metering rate was <strong>86% in 2006</strong>, compared with <strong>72% in western Canada</strong>, <strong>45% in Atlantic Canada</strong>, and <strong>20% in Quebec</strong>, as detailed in <a href=\"https://www150.statcan.gc.ca/n1/pub/16-002-x/16-002-x2008003-eng.pdf\">Statistics Canada&#39;s water-use analysis</a>. The same research noted that apartment and multi-unit households were less likely to have water-saving fixtures than single-detached homes, reinforcing the case for better measurement and efficiency management in dense housing.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f854c185-276f-4fbc-8912-6d91407167db/submetering-water-apartments-construction-comparison.jpg\" alt=\"A comparison chart showing benefits and requirements of submetering water in new construction versus retrofitting older buildings.\"></p>\n<p>The comparison graphic illustrates the strategic difference, but owners should not accept unsupported payback assumptions. The correct model is local and building-specific.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/NhtLGKgzaxk\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p><a id=\"new-construction-versus-retrofitting-older-buildings\"></a></p>\n<h2>New Construction Versus Retrofitting Older Buildings</h2>\n<p>New construction and older-building retrofits should not share the same business case. In a new project, plumbing layouts, meter locations, communications infrastructure, access panels, and resident billing rules can be coordinated before walls close. In an older building, the owner inherits existing pipe routes, occupied suites, uncertain drawings, and the cost of opening spaces or scheduling access.</p>\n<p>California makes the regulatory distinction clear. The state&#39;s water-submeter requirement applies to <strong>newly constructed multiunit residential and mixed-use residential or commercial projects</strong> with applications for water service after <strong>January 1, 2018</strong>, under the <a href=\"https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=WAT&division=1.&title=&part=&chapter=8.&article=5.\">California Water Code provisions for submeters</a>. The code also addresses the owner&#39;s responsibility to install and read submeters unless the water purveyor or local government assumes that role.</p>\n<p>That rule does not automatically make every older California apartment building subject to the same mandate. For pre-2018 stock, the decision is usually an investment question shaped by local law, leases, tenant-billing requirements, water and sewer rates, building condition, and the cost of access.</p>\n<p><a id=\"the-retrofit-test\"></a></p>\n<h3>The retrofit test</h3>\n<p>For an existing property, ask four questions before requesting a proposal:</p>\n<ol>\n<li><strong>Can the plumbing be divided cleanly?</strong> A building with accessible suite supply lines is a different project from one with shared branches buried behind finished walls.</li>\n<li><strong>Can the owner recover usage lawfully?</strong> Review leases, municipal requirements, disclosure obligations, rate rules, and any applicable testing or maintenance duties.</li>\n<li><strong>What losses are already visible?</strong> Examine historical bills, leak incidents, insurance claims, maintenance records, and unexplained night or vacancy consumption.</li>\n<li><strong>What does the alternative cost?</strong> Compare submetering with continued bulk payment, fixture upgrades, targeted leak monitoring, or a phased installation.</li>\n</ol>\n<p>The payback should combine cost recovery with avoided loss. Include local water and sewer charges, expected vacancy or turnover disruption, suite access, resident communications, repairs, and the financial consequences of delayed leak detection. Treat installation cost as a project-specific input, not a universal percentage.</p>\n<p>Ontario offers a different policy context. Its historically high metering penetration created a stronger operational base for unit-level measurement, billing, and conservation programs. Toronto also requires certain condominiums to report whole-building water consumption under <strong>Ontario Regulation 506/18</strong>, which makes building-level data reporting part of the broader management environment.</p>\n<p>A new building should design submetering in from the start. An older building should proceed when the baseline shows a practical path to recovery or when leak exposure and operational uncertainty justify the investment. Calling every retrofit mandatory is poor advice. Calling every retrofit unnecessary is just as careless.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/30a218c1-f866-4745-b7a2-44b6a5a1d62e/submetering-water-apartments-implementation-process.jpg\" alt=\"A five-step process infographic illustrating the timeline and milestones for water submetering implementation in apartment buildings.\"></p>\n<p><a id=\"what-implementation-actually-looks-like\"></a></p>\n<h2>What Implementation Actually Looks Like</h2>\n<p>A well-run apartment submetering project is a coordination exercise, not just a meter installation. The owner, property manager, plumbing contractor, engineering team, billing provider, and residents all affect the launch. A defined process prevents the project from becoming a series of improvised access requests.</p>\n<p>A typical cycle runs from agreement to live meters in <strong>8 to 10 weeks</strong>, including equipment lead time, according to the implementation scope described by Axis Meter Solutions. That timeframe can change when the building needs major plumbing work, permits take longer, equipment is unavailable, or residents can&#39;t provide access.</p>\n<p><a id=\"the-working-sequence\"></a></p>\n<h3>The working sequence</h3>\n<p><strong>Agreement and objectives.</strong> Start by defining what the owner needs to achieve. Is the priority cost recovery, leak response, common-area separation, regulatory compliance, or a combination? Set the reporting and billing rules before equipment is ordered.</p>\n<p><strong>Site survey.</strong> The project team inspects representative suites and common areas, verifies pipe arrangements, documents shutoffs, and identifies installation constraints. An older building&#39;s real complexity becomes visible.</p>\n<p><strong>Design and procurement.</strong> The provider selects meters, communication hardware, sensors, mounting arrangements, and data services suited to the site. Jurisdiction-specific requirements should be confirmed before the design is final.</p>\n<p><strong>Installation.</strong> Coordinated trades install the equipment, connect communications, label assets, and restore affected areas. With proper scheduling, access can often be concentrated into <strong>1 to 2 days</strong> for a property or project phase, although the exact requirement depends on the building.</p>\n<p><strong>Commissioning and billing setup.</strong> Each meter must be associated with the correct suite, checked for data transmission, and validated against the physical installation. Billing accounts, resident notices, rate policies, dispute procedures, and escalation contacts should be ready before the first invoice.</p>\n<p><strong>Ongoing service.</strong> Managers need a process for missing readings, abnormal flow, damaged equipment, tenant questions, and meter replacement. A dashboard is only useful when someone reviews alerts and acts on them.</p>\n<p><a id=\"protecting-daily-operations\"></a></p>\n<h3>Protecting daily operations</h3>\n<p>Resident communication should explain what the meter measures, how charges are calculated, when billing begins, and who handles questions. Notices should be clear enough that residents don&#39;t confuse a usage charge with a new municipal account.</p>\n<p>Property managers should also ask how the provider will coordinate with on-site trades. A turnkey scope that includes permitting, commissioning, billing setup, communications, and maintenance reduces the number of handoffs the owner must manage.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d0104b1f-3d13-464d-8d90-19401a795e1c/submetering-water-apartments-implementation-process.jpg\" alt=\"A six-step infographic showing the structured implementation process from discovery to ongoing support for project management.\"></p>\n<p>The project isn&#39;t complete when the meters transmit their first readings. It&#39;s complete when the data reaches the right account, residents understand the bill, managers know how to respond to alerts, and maintenance responsibilities are documented.</p>\n<p><a id=\"choosing-the-right-submetering-partner\"></a></p>\n<h2>Choosing the Right Submetering Partner</h2>\n<p>The cheapest equipment quote can become the most expensive operating decision if the owner is left with meter testing, resident billing, collections, data exceptions, and replacements. Compare the full service model, not just the hardware line.</p>\n<p>Some providers sell equipment and leave the property team to build the rest. Others provide an integrated programme covering installation, data, billing, support, and maintenance. An owner considering a $0 upfront structure should still examine the term, equipment ownership, service charges, termination rights, replacement obligations, and how the provider earns revenue.</p>\n<p>A disciplined <a href=\"https://procright.com/blog/should-cost-analysis\">should cost analysis guide</a> can help an owner separate genuine scope differences from vague price comparisons. Ask each vendor to price the same assumptions, including suite count, common areas, meter types, communications, billing, support, leak detection, and ongoing maintenance.</p>\n<table>\n<thead>\n<tr>\n<th>Evaluation Criteria</th>\n<th>What to Look For</th>\n<th>Why It Matters</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Equipment and approvals</strong></td>\n<td>Appropriate meters, documented approvals, commissioning, and testing responsibilities</td>\n<td>Incorrect or poorly documented equipment can undermine billing confidence</td>\n</tr>\n<tr>\n<td><strong>Installation scope</strong></td>\n<td>Plumbing survey, permits, access coordination, restoration, labelling, and final verification</td>\n<td>A low equipment price may conceal significant owner-managed work</td>\n</tr>\n<tr>\n<td><strong>Billing service</strong></td>\n<td>Rate configuration, monthly invoices, collections workflows, resident support, and dispute handling</td>\n<td>Accurate measurement still fails if residents receive confusing or inconsistent bills</td>\n</tr>\n<tr>\n<td><strong>Leak and flood detection</strong></td>\n<td>Sensors, alert thresholds, escalation contacts, and response procedures</td>\n<td>Detection creates value only when someone can investigate and act</td>\n</tr>\n<tr>\n<td><strong>Data access</strong></td>\n<td>Suite-level reports, common-area visibility, interval history, exports, and exception reporting</td>\n<td>Managers need usable information, not a dashboard that only vendors can interpret</td>\n</tr>\n<tr>\n<td><strong>Long-term maintenance</strong></td>\n<td>Meter replacements, communications failures, testing, warranty limits, and service response</td>\n<td>The owner needs predictable responsibility throughout the agreement</td>\n</tr>\n<tr>\n<td><strong>Commercial structure</strong></td>\n<td>Capital cost, term, ownership, termination, renewal, and fee changes</td>\n<td>The contract determines the actual retrofit economics</td>\n</tr>\n</tbody></table>\n<p>Axis Meter Solutions provides water submetering for suites and common areas, with leak and flood detection included in its installation scope, alongside tenant billing, reporting, maintenance, and meter replacement services. Owners should compare that model with equipment-only suppliers and other full-service operators using the same written criteria.</p>\n<p>For broader meter portfolios, review how a provider handles <a href=\"https://www.axismeter.com/blog/total-meter-services\">total meter services</a>, especially when a property also needs electricity, gas, thermal energy, or common-area measurement. One accountable partner can simplify administration, but only if the contract clearly defines every service and response obligation.</p>\n<p><a id=\"making-the-decision-and-next-steps\"></a></p>\n<h2>Making the Decision and Next Steps</h2>\n<p>Submetering deserves immediate investigation when a building has rising bulk costs, recurring leak incidents, unexplained baseload, frequent billing disputes, or a regulatory requirement that applies to the project. These conditions create a clear operational reason to measure suites rather than continue treating the property as one undifferentiated account.</p>\n<p>Waiting can be sensible when costs are stable, plumbing access is exceptionally difficult, residents already have a lawful and transparent allocation method, and the building has no meaningful leak history. Even then, managers should preserve bills, maintenance records, occupancy information, and incident data so the decision can be revisited with evidence.</p>\n<p>Use this order of work:</p>\n<ol>\n<li><strong>Build the baseline.</strong> Gather utility bills, water and sewer charges, occupancy information, common-area uses, leak records, insurance incidents, and current billing rules.</li>\n<li><strong>Confirm the jurisdiction.</strong> Check code, lease requirements, disclosure rules, meter approvals, testing duties, and any role assigned to the water purveyor or local government.</li>\n<li><strong>Survey the building.</strong> Have qualified personnel verify suite supply lines, access conditions, common-area branches, communications options, and restoration requirements.</li>\n<li><strong>Model the economics.</strong> Compare recoverable charges and leak-avoidance value with installation, service, administrative, access, and resident-support costs.</li>\n<li><strong>Request comparable proposals.</strong> Give vendors the same scope and demand clear terms for ownership, billing, maintenance, alerts, replacements, and termination.</li>\n<li><strong>Plan the change.</strong> Set resident communications, billing launch rules, escalation contacts, and manager training before installation starts.</li>\n</ol>\n<p>The right conclusion may be to proceed, phase the work, or wait. What matters is that the decision rests on the building&#39;s plumbing, rules, operating history, and financial model, not on a generic savings promise.</p>\n<hr>\n<p>Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including installation, commissioning, tenant billing, reporting, and ongoing maintenance. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your building&#39;s retrofit conditions, leak-detection needs, and cost-recovery options.</p>",
+  "tags": [
+    "water submetering",
+    "apartment utilities",
+    "submetering water apartments",
+    "multifamily billing",
+    "leak detection"
+  ],
+  "title": "Submetering Water Apartments: A Practical Guide for Owners",
+  "updatedAt": "2026-09-09T07:04:03.014Z"
+}
