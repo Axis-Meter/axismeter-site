@@ -1,0 +1,3573 @@
+{
+  "_createdAt": "2026-09-13T07:35:52Z",
+  "_id": "outrank-c590c19f-8592-46fa-a1c8-60dcf52e5269",
+  "_rev": "o08jWrXBxooNv99hGSBbkW",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-13T07:35:52Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "0b0e93a9d104",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a9f62f23a6e",
+          "_type": "span",
+          "marks": [],
+          "text": "The consolidated Enbridge or Alectra invoice arrives, and the numbers look familiar until you compare them with the property's operating statement. Common-area consumption, vacant suites, unclear allocation rules, and unpaid tenant charges are reducing the return from the building. The question isn't whether you can charge tenants. It's "
+        },
+        {
+          "_key": "568dfd269693",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "how to bill tenants for utilities"
+        },
+        {
+          "_key": "1b78b70cba9d",
+          "_type": "span",
+          "marks": [],
+          "text": " in a way that is transparent, contractually sound, operationally manageable, and defensible if a dispute reaches a tribunal."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd3d77d6eb58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9e1af05a898",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario owners have three practical routes: "
+        },
+        {
+          "_key": "79d28292cd5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "RUBS"
+        },
+        {
+          "_key": "6706eb073f4a",
+          "_type": "span",
+          "marks": [],
+          "text": ", submetering, and direct utility accounts. Each produces a different balance between capital cost, measurement accuracy, tenant acceptance, collections work, and regulatory exposure. The right choice depends on the building's existing infrastructure and the lease terms, not on a generic billing formula copied from another property."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a4ef961e0a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d423f2d18e11",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "d381a61d4c91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a40fd78f0d0",
+          "_type": "span",
+          "marks": [
+            "9fa7675c7236"
+          ],
+          "text": "The Three Ways a Canadian Landlord Can Recover Utility Costs"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9fa7675c7236",
+          "_type": "link",
+          "href": "#the-three-ways-a-canadian-landlord-can-recover-utility-costs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a70bf4bb4a4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca3decf176de",
+          "_type": "span",
+          "marks": [
+            "1f39c72c12d0"
+          ],
+          "text": "Start with the building, not the billing software"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1f39c72c12d0",
+          "_type": "link",
+          "href": "#start-with-the-building-not-the-billing-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ab7880cec7ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8049bdcd326f",
+          "_type": "span",
+          "marks": [
+            "4fd9360da4ef"
+          ],
+          "text": "What the Law and Your Regulator Actually Require"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4fd9360da4ef",
+          "_type": "link",
+          "href": "#what-the-law-and-your-regulator-actually-require"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "531045ce2bf2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "effebfe287a4",
+          "_type": "span",
+          "marks": [
+            "0667f2603e96"
+          ],
+          "text": "Ontario records need to support the invoice"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0667f2603e96",
+          "_type": "link",
+          "href": "#ontario-records-need-to-support-the-invoice"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "852ca007ef14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9276fe0df76",
+          "_type": "span",
+          "marks": [
+            "0eb5a6ce7309"
+          ],
+          "text": "RUBS vs Submetering vs Direct Utility Accounts"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0eb5a6ce7309",
+          "_type": "link",
+          "href": "#rubs-vs-submetering-vs-direct-utility-accounts"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "95817d5bc603",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e9159ffb82d",
+          "_type": "span",
+          "marks": [
+            "06e41951fdda"
+          ],
+          "text": "The fixed-charge trap"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "06e41951fdda",
+          "_type": "link",
+          "href": "#the-fixed-charge-trap"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "34ad51e889cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a22bc7562037",
+          "_type": "span",
+          "marks": [
+            "f64e091e83c1"
+          ],
+          "text": "Building the Monthly Calculation That Stands Up"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f64e091e83c1",
+          "_type": "link",
+          "href": "#building-the-monthly-calculation-that-stands-up"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a39b09efd28e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "157b34d36f28",
+          "_type": "span",
+          "marks": [
+            "b25eaf780dbb"
+          ],
+          "text": "Use a repeatable worksheet"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b25eaf780dbb",
+          "_type": "link",
+          "href": "#use-a-repeatable-worksheet"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cdc0c6b6e32e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee7a83d4569e",
+          "_type": "span",
+          "marks": [
+            "82bce4d430e2"
+          ],
+          "text": "Lease Clauses and Tenant Notices That Work"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "82bce4d430e2",
+          "_type": "link",
+          "href": "#lease-clauses-and-tenant-notices-that-work"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1220cf0f7f00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03350dcb3eab",
+          "_type": "span",
+          "marks": [
+            "f78336c12b56"
+          ],
+          "text": "Treat a method change as a contract issue"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f78336c12b56",
+          "_type": "link",
+          "href": "#treat-a-method-change-as-a-contract-issue"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "46a5ce9491ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ff5a1e5b597",
+          "_type": "span",
+          "marks": [
+            "8e230b14d580"
+          ],
+          "text": "Disputes, Late Payments and Tribunal-Ready Records"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8e230b14d580",
+          "_type": "link",
+          "href": "#disputes-late-payments-and-tribunal-ready-records"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "60e4fb5b327c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82d69563c59d",
+          "_type": "span",
+          "marks": [
+            "285bf5ac56ba"
+          ],
+          "text": "Separate the question from the collection"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "285bf5ac56ba",
+          "_type": "link",
+          "href": "#separate-the-question-from-the-collection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f460d596235d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67b8f7913c16",
+          "_type": "span",
+          "marks": [
+            "360cbe95c704"
+          ],
+          "text": "Keeping the Program Compliant Year After Year"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "360cbe95c704",
+          "_type": "link",
+          "href": "#keeping-the-program-compliant-year-after-year"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ebd24c30151a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88ca78bb09da",
+          "_type": "span",
+          "marks": [
+            "c14cd39fe2be"
+          ],
+          "text": "Use a fixed review cycle"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c14cd39fe2be",
+          "_type": "link",
+          "href": "#use-a-fixed-review-cycle"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4dfd929ccf92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f74195e97995",
+          "_type": "span",
+          "marks": [
+            "d9a6a02897f6"
+          ],
+          "text": "Redesign when the building changes"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d9a6a02897f6",
+          "_type": "link",
+          "href": "#redesign-when-the-building-changes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a9ba98fcf313",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38563804c3ab",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f55edeb859a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a61a88c467ad",
+          "_type": "span",
+          "marks": [],
+          "text": "The Three Ways a Canadian Landlord Can Recover Utility Costs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f5e3735dee85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9944b06b70eb",
+          "_type": "span",
+          "marks": [],
+          "text": "A landlord with a master-metered building usually starts with one supplier invoice covering several different loads. That bill may include tenant suites, corridors, mechanical rooms, vacant units, and other shared spaces. Before recovering any amount, separate those categories operationally. A tenant should not be charged for costs that the lease or allocation schedule doesn't permit you to pass through."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c514ebc576fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6af2319be11c",
+          "_type": "span",
+          "marks": [],
+          "text": "The three common models are:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20e7b3678532",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "046eaa5ab20f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ratio Utility Billing Systems, or RUBS:"
+        },
+        {
+          "_key": "583f4db4a173",
+          "_type": "span",
+          "marks": [],
+          "text": " The landlord keeps the master account and allocates the bill using a stated formula, such as unit area, occupancy, or a combination of factors. RUBS requires little physical work, but the formula must be disclosed and applied consistently."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77f196ea68a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2418d23ef004",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submetering:"
+        },
+        {
+          "_key": "cc1e1d13da6a",
+          "_type": "span",
+          "marks": [],
+          "text": " Individual meters record suite consumption. The billing process then uses actual reads, rather than an estimate based on the characteristics of the unit."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1e602c95743",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b9dcd9364587",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Direct utility accounts:"
+        },
+        {
+          "_key": "ffe158c0db00",
+          "_type": "span",
+          "marks": [],
+          "text": " The local distribution company maintains a separate account for each separately metered suite, and the tenant pays the provider directly. The landlord still needs a process for common-area services and move-in or move-out coordination."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7076efd36c04",
+      "_type": "externalImage",
+      "alt": "An infographic showing three common methods for Canadian landlords to recover utility costs from their tenants.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/449fcc53-5289-41d8-abd1-bea93f3c9d60/how-to-bill-tenants-for-utilities-utility-recovery.jpg"
+    },
+    {
+      "_key": "0a57dabd8393",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38857d6d1a14",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f33a7309963f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "139b80e0fce0",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the building, not the billing software"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6074ae5ba6a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "608bb0877da5",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS works best where installing meters would require major plumbing or electrical changes, or where the owner needs a quick allocation process for an existing building. It also creates the greatest risk of tenant dissatisfaction because two households with different consumption patterns may receive similar charges."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b02d7039bff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b9ff9ce3807",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering offers a closer connection between use and payment. It introduces installation, maintenance, data, and meter-accuracy obligations, but it gives the tenant a clearer explanation for a variable charge. Direct accounts transfer much of the collection work to the utility provider, although they're only practical when the infrastructure supports separate accounts and the local provider accepts the arrangement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5666069c2612",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5555811e080",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "99bd275f5c00",
+          "_type": "span",
+          "marks": [
+            "43a95d774547"
+          ],
+          "text": "residential and commercial submetering overview"
+        },
+        {
+          "_key": "7ab0f7a9ccb4",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful when mapping those infrastructure differences before choosing a model."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "43a95d774547",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/residential-and-commercial"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8868eacd3076",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4fe84135efa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "780c5ef59899",
+          "_type": "span",
+          "marks": [],
+          "text": " Don't choose a billing method until you can identify the supplier account, the loads it serves, the lease authority for recovery, and the person responsible for answering a tenant's question."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "49f018c6bda0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9fc40253e0c",
+          "_type": "span",
+          "marks": [],
+          "text": "The sections below focus on Ontario operations, where a formula that seems reasonable can still fail if the lease, meter approval, invoice design, or regulatory status doesn't support it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "763deef3188f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65f0f713be52",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b818797bc27b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3fca8c1b169",
+          "_type": "span",
+          "marks": [],
+          "text": "What the Law and Your Regulator Actually Require"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "9689f20f2b57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd712ca128df",
+          "_type": "span",
+          "marks": [],
+          "text": "Before sending a utility invoice, clear four separate checks. First, confirm what the applicable provincial tenancy legislation permits. Ontario's Residential Tenancies Act includes restrictions on additional charges and rent-related costs, while other provinces use different rules. A clause that works in one province can be unsuitable in another."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "38f29e91fd48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdb8319a0bbc",
+          "_type": "span",
+          "marks": [],
+          "text": "Second, identify whether the charge is a direct utility reimbursement, an allocation of a master-meter bill, or a resale of energy. Ontario electricity arrangements can involve Ontario Energy Board licensing or an applicable exemption. A landlord allocating a building cost isn't automatically in the same position as an energy retailer, but a submetering program that recovers variable electricity supply costs needs jurisdiction-specific review. Don't assume that calling a charge “administration” removes it from regulatory scrutiny."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "25b5d82bc5de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7384b7ffea97",
+          "_type": "span",
+          "marks": [],
+          "text": "Third, confirm the meter and measurement requirements. Electricity and water meters used for billing may need approval under federal measurement rules, including applicable Weights and Measures requirements and relevant S- or WI-series designations. The "
+        },
+        {
+          "_key": "b4f3a512ac55",
+          "_type": "span",
+          "marks": [
+            "49b036266823"
+          ],
+          "text": "Measurement Canada meter guide"
+        },
+        {
+          "_key": "4a2466972cf1",
+          "_type": "span",
+          "marks": [],
+          "text": " explains why meter selection and commissioning should happen before tenant billing begins."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "49b036266823",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/measurement-canada-approved-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "88021df9170c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15bb86dfd62a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "71a780397177",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b106cdd671b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario records need to support the invoice"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "218f887f9fea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29f7335fe212",
+          "_type": "span",
+          "marks": [],
+          "text": "PG&E's California tenant guidance illustrates how detailed a regulated submetering process can become. It identifies rights to rates matching the utility's rates, itemized electricity or gas charges, retained rate schedules and tenant billings for at least "
+        },
+        {
+          "_key": "0e6fb73c9045",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "12 months"
+        },
+        {
+          "_key": "c08439aeafb8",
+          "_type": "span",
+          "marks": [],
+          "text": ", landlord responsibility for maintaining the submeter, and accuracy testing submitted to the county Department of Weights and Measures. Those California requirements aren't Ontario law, but they show the operational standard a well-controlled programme should aim for. "
+        },
+        {
+          "_key": "0112c7c20014",
+          "_type": "span",
+          "marks": [
+            "b3028ca97cd3"
+          ],
+          "text": "PG&E's submetered tenant and landlord guidance"
+        },
+        {
+          "_key": "3fedf29b4881",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful comparison point."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b3028ca97cd3",
+          "_type": "link",
+          "href": "https://www.pge.com/en/account/billing-and-assistance/understand-your-bill/sub-metered-tenant-and-landlord.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "445defc6e56c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b641e6d89563",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's environment is also changing. The landlord-course legislation tracker identifies changes taking effect "
+        },
+        {
+          "_key": "ada9510e2f28",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "July 1, 2026"
+        },
+        {
+          "_key": "3810ad3b1146",
+          "_type": "span",
+          "marks": [],
+          "text": ", with further changes associated with Bills 60 and 97 scheduled for "
+        },
+        {
+          "_key": "439567d3ee3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "September 2026"
+        },
+        {
+          "_key": "d10a2cba207d",
+          "_type": "span",
+          "marks": [],
+          "text": ". Owners should check the current legislation and tribunal guidance before changing billing practices, notices, or enforcement procedures. "
+        },
+        {
+          "_key": "1f20333f20a2",
+          "_type": "span",
+          "marks": [
+            "11d6f2a3cc12"
+          ],
+          "text": "The Ontario legislation tracker"
+        },
+        {
+          "_key": "f3d77273a7a2",
+          "_type": "span",
+          "marks": [],
+          "text": " is a starting point for monitoring those developments."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "11d6f2a3cc12",
+          "_type": "link",
+          "href": "https://landlordcourse.ca/ontario-legislation-tracker"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f6fd8ba958b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d09db9b8907",
+          "_type": "span",
+          "marks": [],
+          "text": "Province"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cba72bdf60e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a144b3098fe1",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering Rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "730b516450b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8e12960590b",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS Allowed?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc7107ff34a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cb8a05a0386",
+          "_type": "span",
+          "marks": [],
+          "text": "Measurement Canada Required?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40a9c9c2380b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "825ced64e4af",
+          "_type": "span",
+          "marks": [],
+          "text": "Key Restriction"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a5102cf8225",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e87b55a74a66",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "26d5d5e02e27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fef40862cd24",
+          "_type": "span",
+          "marks": [],
+          "text": "Review provincial tenancy, energy, and measurement requirements before launch"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1adcdd18ff0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e65a16e7f1a",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on the lease, allocation method, and applicable rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac47e02bb67b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8d1b408844a",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm meter approval and billing use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a4ce62dd382a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1401cc645a0c",
+          "_type": "span",
+          "marks": [],
+          "text": "Charges must be authorised, transparent, and supported by records"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "345ff9d56534",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dda8bedff049",
+          "_type": "span",
+          "marks": [],
+          "text": "British Columbia"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1f9d0b9becd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "780db12f00e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the Residential Tenancy Act and applicable utility arrangements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f96584ea57a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1f23cdaf55b",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on the agreement and allocation method"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fa149edf8b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f43bd7c8da06",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm the meter's intended billing use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "430fb6c00970",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e65e9ef051fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Written agreement and clear responsibility for utilities matter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dbd40661603f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f17a82849a91",
+          "_type": "span",
+          "marks": [],
+          "text": "Alberta"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1530572a5cf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6cb0aec9f9cb",
+          "_type": "span",
+          "marks": [],
+          "text": "Review the tenancy agreement, utility provider requirements, and measurement rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "42b97e2469ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9e0efe071c2",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on the contract and local practice"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68ad0d7f2a92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5d8ade50d7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm applicable measurement requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc614c673b26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74d70d6d6b5c",
+          "_type": "span",
+          "marks": [],
+          "text": "Avoid undisclosed or unexplained pass-through charges"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1d15efca80e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "983dc5fb8d4b",
+          "_type": "span",
+          "marks": [],
+          "text": "Other provinces"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "602edf89a0b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b109cc25f9e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Verify provincial and municipal requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2d4bd3ad03c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1c1eda32d73",
+          "_type": "span",
+          "marks": [],
+          "text": "Varies"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c354e5b764db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "833aab2da1d9",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm with Measurement Canada and the provider"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f7e028566b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14c9b8698dc6",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't apply an Ontario formula without local review"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "394e025f9672",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f8ae18003ad",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "157d026ac884",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f1ea49d3abd",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS vs Submetering vs Direct Utility Accounts"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "68e97dd8cbb4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80e833389953",
+          "_type": "span",
+          "marks": [],
+          "text": "The cheapest installation method isn't automatically the lowest-cost operating model. Score each option against six questions: capital required per suite, recurring operating cost, regulatory burden, tenant acceptance, accuracy of recovery, and administrative effort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18c5dd71d1fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29933259a2ec",
+          "_type": "span",
+          "marks": [],
+          "text": "The comparison below uses qualitative operating categories because the actual cost depends on the building, service, meter configuration, provider, and agreement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6e432796f613",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44b540279fff",
+          "_type": "span",
+          "marks": [],
+          "text": "Criteria"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0f67dd11305",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "662622840b2e",
+          "_type": "span",
+          "marks": [],
+          "text": "RUBS"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f0d31af0b6ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b8264a41f00",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8825ed5c14c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e23bc6d49e6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Direct Utility Account"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec3d00da5067",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24756d5651e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Capex per suite"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c42aa196b91a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05496610ac79",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually low where existing infrastructure can remain unchanged"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6851d81bbb26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb8db5cb621f",
+          "_type": "span",
+          "marks": [],
+          "text": "Requires meter installation and possible electrical or plumbing work"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a3f7493f487b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7dcb18a9ef16",
+          "_type": "span",
+          "marks": [],
+          "text": "Requires separate metering and provider acceptance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c936cc7aac14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96734a5c1f0f",
+          "_type": "span",
+          "marks": [],
+          "text": "Operating cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "199ed6498df5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86733fcc22d0",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing administration, data handling, and collections remain with the owner or agent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe54181afc59",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f851761bd60",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter reads, data service, maintenance, billing, and support"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5376e6ba001",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9e572609150",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider handles the tenant account, while the owner handles common areas"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f9cf26d47b2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80a9542e475f",
+          "_type": "span",
+          "marks": [],
+          "text": "Regulatory burden"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "62d023f72363",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f555489cbde",
+          "_type": "span",
+          "marks": [],
+          "text": "Formula disclosure, lease authority, and consistent records"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a28551bb6719",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4ca33ff54dc",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter approval, accuracy, commissioning, billing, and possible energy licensing review"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "27a385ac9b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03a944ad6269",
+          "_type": "span",
+          "marks": [],
+          "text": "Account setup, eligibility, deposits, and separate meter requirements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1e1119d0d15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95dbb23da500",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant acceptance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0c4fd365102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ccf485d7febb",
+          "_type": "span",
+          "marks": [],
+          "text": "Often weaker because charges are allocated rather than measured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd45cf209163",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc80b977f7a1",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually clearer because charges follow actual reads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cdeaa2cbc45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2311bd75c820",
+          "_type": "span",
+          "marks": [],
+          "text": "Strong when the tenant receives the provider's bill directly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f9607d6f7a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92107c73768f",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy of recovery"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5712e15f2a8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13e867021703",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on the formula and occupancy data"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ce429ebd68f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8d21adea24a",
+          "_type": "span",
+          "marks": [],
+          "text": "Closely tied to measured consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f7e72603476",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39286996bb0c",
+          "_type": "span",
+          "marks": [],
+          "text": "Based on the provider's account and meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50a96a4efadc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "edff51e88cd0",
+          "_type": "span",
+          "marks": [],
+          "text": "Administrative effort"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "797600cdb852",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19f3dec410e7",
+          "_type": "span",
+          "marks": [],
+          "text": "High if the owner calculates and collects manually"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb2b37903798",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5c2271739a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Moderate to high unless outsourced"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "73c8da27977c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e84abf9d833b",
+          "_type": "span",
+          "marks": [],
+          "text": "Lower for suite consumption, but move-in and move-out controls remain important"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54e0586f4316",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1be56c2c0b8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7dbb11816952",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cde05f180bfb",
+          "_type": "span",
+          "marks": [],
+          "text": "The fixed-charge trap"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9f35ab8d08d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a03f150fb42",
+          "_type": "span",
+          "marks": [],
+          "text": "A master-meter bill usually has more than a variable consumption component. It can also include delivery, service, account, or other fixed charges. A RUBS formula that distributes only consumption can leave those fixed costs on the landlord's income statement. A direct account generally places the suite's provider charges with the tenant, while submetering requires the owner to decide, under the lease and applicable rules, how permitted fixed charges are allocated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "607270dc0a4a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "935e8ac3b377",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto's water framework includes a base charge of roughly "
+        },
+        {
+          "_key": "390c32655ed8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$128 every two months per meter before consumption"
+        },
+        {
+          "_key": "d98ba73fa0d5",
+          "_type": "span",
+          "marks": [],
+          "text": ". That figure comes from the "
+        },
+        {
+          "_key": "44bbaa032321",
+          "_type": "span",
+          "marks": [
+            "598c88206362"
+          ],
+          "text": "City of Toronto water billing material"
+        },
+        {
+          "_key": "71cae09aa787",
+          "_type": "span",
+          "marks": [],
+          "text": ", and it demonstrates why a formula that considers only usage can produce a misleading recovery result. The charge isn't necessarily recoverable from tenants just because it appears on the supplier invoice. The lease and governing rules still control."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "598c88206362",
+          "_type": "link",
+          "href": "https://www.toronto.ca/legdocs/mmis/2017/td/comm/communicationfile-72723.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "08b8b259b806",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf8552c6b69f",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing model that recovers consumption but strands delivery charges can look efficient in a tenant statement while performing poorly on the owner's ledger."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "762606c0101a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a262c6ea3d83",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose RUBS where the building lacks practical meter infrastructure and the allocation formula can be explained plainly. Choose submetering where actual consumption, leak visibility, and long-term operating control justify the installation. Choose direct accounts where separate provider accounts are available and the owner wants the utility company, rather than the property team, to collect suite usage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56f96520125d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1dad41b22781",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f13556140399",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d86900d3ce50",
+          "_type": "span",
+          "marks": [],
+          "text": "Building the Monthly Calculation That Stands Up"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "d379e35d8332",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74a95dd2c227",
+          "_type": "span",
+          "marks": [],
+          "text": "A defensible invoice starts with the supplier statement, not a tenant's previous charge. Save the complete bill, identify its service period, separate consumption from fixed charges, and record any common-area or vacant-suite component before applying the allocation method."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fe7c7e30d68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3384a849d4d4",
+          "_type": "span",
+          "marks": [],
+          "text": "For a 20-unit building with a water supplier bill of "
+        },
+        {
+          "_key": "6b1398c04459",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$2,400"
+        },
+        {
+          "_key": "f05e72503d5e",
+          "_type": "span",
+          "marks": [],
+          "text": ", an owner might allocate the permitted tenant share through a disclosed occupancy formula. If a two-occupant unit receives two shares and a one-occupant unit receives one, the worksheet should show the total shares, each unit's share, and the occupancy record used. Keep the formula consistent. Changing it from month to month because a tenant disputes the result creates a second problem, an audit trail that no longer explains the charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81da0c9516bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9330b058fe4c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcc91fb92674",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "508ec56aa0ca",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a repeatable worksheet"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "60788c2077af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a1d975f4b60",
+          "_type": "span",
+          "marks": [],
+          "text": "Another staff member should be able to reproduce an invoice without calling its preparer. Store the supplier bill, meter data or occupancy record, lease schedule, rounding rule, and approval record together. A worksheet should also identify who reviewed the calculation and how corrections are documented."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5064d3f5b46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0129abfbfc47",
+          "_type": "span",
+          "marks": [],
+          "text": "Line Item"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4d0d1ed3918",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03b1370d976f",
+          "_type": "span",
+          "marks": [],
+          "text": "Supplier Cost ($)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae2ab0607894",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34c4cfea67d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Fixed Charge Share"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb2f66f599e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "691020f93efc",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocation Basis"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f2e263d5cc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dae80af5f7e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Admin Fee"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1917925c92c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd1e08731794",
+          "_type": "span",
+          "marks": [],
+          "text": "Per-Unit Charge ($)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83d7e063a504",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f18ed2c65707",
+          "_type": "span",
+          "marks": [],
+          "text": "Water consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b078e896eccc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c9ccd25d4e6",
+          "_type": "span",
+          "marks": [],
+          "text": "2,400"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "245c769f0c34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00699b9fb5d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Recorded separately"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d4d09b834b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58a838634a43",
+          "_type": "span",
+          "marks": [],
+          "text": "Occupancy or approved formula"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ddb73c8c172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc24488d92b8",
+          "_type": "span",
+          "marks": [],
+          "text": "Permitted amount only"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abe2c3a0abb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "970f1b0b6ca7",
+          "_type": "span",
+          "marks": [],
+          "text": "Formula result"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b0a861b03da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2e50dc9bbeb",
+          "_type": "span",
+          "marks": [],
+          "text": "Water base charge"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "707c6c91b7fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "913904ceffc5",
+          "_type": "span",
+          "marks": [],
+          "text": "Recorded from supplier bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2251fe5cf79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32bf773dd754",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocated only if authorised"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "60d0163b56a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ef94224a19f",
+          "_type": "span",
+          "marks": [],
+          "text": "Per meter, area, or stated schedule"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a7faef744031",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92f875c16e2e",
+          "_type": "span",
+          "marks": [],
+          "text": "None unless authorised"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2edb103fae9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96036f24bb7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Formula result"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f10e43ab4a4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf4c71891e78",
+          "_type": "span",
+          "marks": [],
+          "text": "Common-area water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c496790042a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93ab278f6d74",
+          "_type": "span",
+          "marks": [],
+          "text": "Recorded from supplier bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "304077f44c03",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d1b54002c70",
+          "_type": "span",
+          "marks": [],
+          "text": "Retained or allocated as authorised"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f8873511778",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54c43bf21e48",
+          "_type": "span",
+          "marks": [],
+          "text": "Lease schedule"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "31b2ec4972bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d2adfb807c4",
+          "_type": "span",
+          "marks": [],
+          "text": "None unless authorised"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f01cea901f0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b8dc30b835d",
+          "_type": "span",
+          "marks": [],
+          "text": "Formula result"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4017b862c9e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "140d0baa91ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Vacancy share"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2904109e7d88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de7cdb71c603",
+          "_type": "span",
+          "marks": [],
+          "text": "Recorded from supplier bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8e2e424e0a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55026ba2fe52",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner responsibility unless authorised"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41abeeb5df87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfdbc52f8e5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Vacancy policy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd973f30d337",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31da93003303",
+          "_type": "span",
+          "marks": [],
+          "text": "None"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8426cd0c7035",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39fb476d5882",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner ledger"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dbf062e95ce6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8aab3027dac5",
+          "_type": "span",
+          "marks": [],
+          "text": "Rounding adjustment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "08dd7385a452",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a6dce9934fd",
+          "_type": "span",
+          "marks": [],
+          "text": "Worksheet total"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9adaac42f3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69949c43c269",
+          "_type": "span",
+          "marks": [],
+          "text": "Reconciles to supplier cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a656ea7a7e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3bd47d089f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Consistent rounding rule"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8624e5d494b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aafdeea24d20",
+          "_type": "span",
+          "marks": [],
+          "text": "None"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "773ef0ed2f39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1755fb02e235",
+          "_type": "span",
+          "marks": [],
+          "text": "Final adjustment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8b7fa64ae05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ac3b8628dc0",
+          "_type": "span",
+          "marks": [],
+          "text": "The California comparison is useful as a formatting check. Its statutory framework generally requires electricity and gas submeter bills to mirror the utility bill format and not exceed the direct utility rate under "
+        },
+        {
+          "_key": "20bde58452bc",
+          "_type": "span",
+          "marks": [
+            "aa091d820753"
+          ],
+          "text": "California Public Utilities Code section 12821.5"
+        },
+        {
+          "_key": "c5234907f027",
+          "_type": "span",
+          "marks": [],
+          "text": ". California's itemised-bill requirement is why the worksheet separates consumption, fixed charges, and administration fees. That comparison does not replace Ontario rules."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "aa091d820753",
+          "_type": "link",
+          "href": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=5.&part=4.&chapter=2.5.&article=&op_statues=2016&op_chapter=623&op_section=2"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "68b40a335d94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18e3e73ac086",
+          "_type": "span",
+          "marks": [],
+          "text": "For an Ontario program, the file should identify the lease authority for each recoverable charge, show the supplier evidence behind it, and distinguish tenant amounts from owner-retained costs. An administration fee should appear as its own line, with the applicable Ontario authority and disclosure recorded before billing. Do not import California's water-billing ceiling of the lesser of "
+        },
+        {
+          "_key": "88fd026e6186",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$4.75 or 25% of the amount billed"
+        },
+        {
+          "_key": "ec747f3c30e3",
+          "_type": "span",
+          "marks": [],
+          "text": ", adjusted annually from "
+        },
+        {
+          "_key": "5f5ed0a01a04",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "January 1, 2018"
+        },
+        {
+          "_key": "cb746c1d89dc",
+          "_type": "span",
+          "marks": [],
+          "text": ", into an Ontario lease. That figure is stated in the "
+        },
+        {
+          "_key": "d883e817c2bb",
+          "_type": "span",
+          "marks": [
+            "ef7088310a05"
+          ],
+          "text": "California Public Utilities Code section 12821.5"
+        },
+        {
+          "_key": "ba7c10d33631",
+          "_type": "span",
+          "marks": [],
+          "text": ", not Ontario law."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ef7088310a05",
+          "_type": "link",
+          "href": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=5.&part=4.&chapter=2.5.&article=&op_statues=2016&op_chapter=623&op_section=2"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "edc864246807",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30898ac8c6e1",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing platform such as "
+        },
+        {
+          "_key": "9101696396a5",
+          "_type": "span",
+          "marks": [
+            "1df52a726644"
+          ],
+          "text": "usage-based billing with Axis Meter Solutions"
+        },
+        {
+          "_key": "f6f5ca740ff5",
+          "_type": "span",
+          "marks": [],
+          "text": " can organise meter reads, lease rules, invoices, and resident questions. The owner still chooses the allocation method and retains the evidence supporting every billed amount."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1df52a726644",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/usage-based-billing-with-axis-meter-solutions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6297e62c0fe1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "227600ae3e05",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0552ee401552",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a5bca387a4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Lease Clauses and Tenant Notices That Work"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f8c4569b1004",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8b9778a563e",
+          "_type": "span",
+          "marks": [],
+          "text": "“Tenant pays utilities” is rarely enough for a multi-unit building. The lease should identify each utility, state whether the tenant pays the provider or the landlord, describe the allocation formula, explain treatment of common areas and fixed charges, and set out the invoice timing and dispute process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93c9a3307431",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c33c6641d9ae",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical Ontario utility schedule should answer these questions:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f4c4ea6880c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55fb07b031fb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Utility responsibility:"
+        },
+        {
+          "_key": "8f4f44449bd3",
+          "_type": "span",
+          "marks": [],
+          "text": " Which party pays electricity, gas, water, heating, cooling, and common-area services?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "33ef7ba37398",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dee03944b589",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Allocation method:"
+        },
+        {
+          "_key": "6ec91ffcf467",
+          "_type": "span",
+          "marks": [],
+          "text": " Is the charge based on a submeter read, unit area, occupancy, or another stated formula?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83d18fde9d58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ac93e3c8727",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Source data:"
+        },
+        {
+          "_key": "07d921c9bc5b",
+          "_type": "span",
+          "marks": [],
+          "text": " Which supplier invoice, meter record, or occupancy record supports the calculation?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd4572c7d828",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30d0ff40e09c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fixed charges:"
+        },
+        {
+          "_key": "8ce930295943",
+          "_type": "span",
+          "marks": [],
+          "text": " Are any base or delivery charges included, and what authority permits their recovery?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "415bf0e4ae15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "440b6dc55fb8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Administration:"
+        },
+        {
+          "_key": "d96258a111c7",
+          "_type": "span",
+          "marks": [],
+          "text": " Is an administrative fee charged, and does it remain within the applicable regulatory limit?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f834f4fdd1e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c057f8664cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Change control:"
+        },
+        {
+          "_key": "236de5cdb5cc",
+          "_type": "span",
+          "marks": [],
+          "text": " How can the method change, and what written notice or consent is required?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a6a939c1001",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e14689691703",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e27da6e21ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cda601cb62d6",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat a method change as a contract issue"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "59aa933a91f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec82c8e6118f",
+          "_type": "span",
+          "marks": [],
+          "text": "If an existing lease uses a RUBS formula, installing submeters doesn't automatically give the owner permission to replace that formula. A mid-lease change should be reviewed for consent, notice, rent-increase, and Residential Tenancies Act implications. A new programme should use a separate schedule signed with the lease, not a paragraph added after the tenant has moved in."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d14c3a41aaeb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "186531ca9451",
+          "_type": "span",
+          "marks": [],
+          "text": "The 2026 changes identified in the Ontario legislation tracker make timing especially important. Owners should verify how changes associated with Bills 60 and 97 affect new agreements, existing agreements, rent administration, and tribunal procedure before issuing a revised schedule. Don't describe a future rule as if it already applies. Check the law in force on the date the notice is prepared."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c22bbd834364",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "600bc1906fd8",
+          "_type": "span",
+          "marks": [],
+          "text": "A launch notice should state the start date, utility covered, first billing period, calculation method, sample invoice, payment instructions, and contact for disputes. A mid-lease notice should explain the proposed change and identify the consent or legal process being relied on. A rate-adjustment notice should distinguish a supplier-rate change from an administrative-fee change and attach the supporting bill where appropriate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "802e2fb49e2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef5349116cb1",
+          "_type": "span",
+          "marks": [],
+          "text": "Avoid fixed fees that exceed the governing cap, retroactive charges without prior agreement, unexplained “utility recovery” amounts, and clauses that let the landlord change the formula at will. Those provisions create avoidable weaknesses at the Landlord and Tenant Board."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "daead84a4aa5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22dc4d39f361",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8507f933c710",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd5faa55c081",
+          "_type": "span",
+          "marks": [],
+          "text": "Disputes, Late Payments and Tribunal-Ready Records"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "102121d89792",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b49ff76caf05",
+          "_type": "span",
+          "marks": [],
+          "text": "A tenant in a 24-unit building receives a "
+        },
+        {
+          "_key": "639464809784",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$187"
+        },
+        {
+          "_key": "327e1d04b8f8",
+          "_type": "span",
+          "marks": [],
+          "text": " water and heating bill and objects. She says her unit has two occupants while a neighbour's unit has one, so the allocation feels unfair. The correct response isn't to defend the number from memory. It's to reconstruct the charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b00cffa3bedc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b86eb68a477",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the worksheet. Confirm the occupancy record, check that the formula matches the signed lease schedule, and reconcile the total allocated amount to the supplier invoice. Then provide the relevant calculation and explain which part of the bill represents consumption, fixed charges, common-area usage, or an authorised administration amount."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb6b31180e07",
+      "_type": "externalImage",
+      "alt": "A five-step flowchart illustrating the process of resolving tenant disputes over utility bills and tribunal preparation.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/88e0cd57-913c-4929-a6a4-ca14b45791a2/how-to-bill-tenants-for-utilities-dispute-resolution.jpg"
+    },
+    {
+      "_key": "dfa14e2da112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58c8a7434957",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d86c50f6307d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fdcf15a6c58",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate the question from the collection"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9601ae8d0449",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e12a70242844",
+          "_type": "span",
+          "marks": [],
+          "text": "The tenant can dispute the allocation without the property team losing the evidence trail. Reply within the period stated in the lease or billing policy, identify any undisputed amount, and avoid adding late charges while the calculation is being checked unless the agreement and law clearly support them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6dc1107313dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf6e2d9d5cf2",
+          "_type": "span",
+          "marks": [],
+          "text": "If the tenant doesn't pay an amount that is lawfully due, issue the appropriate written arrears notice and follow the Landlord and Tenant Board process that applies. An L1 application may be relevant for non-payment of rent-related charges, but the owner should obtain current legal guidance before treating a disputed utility invoice as rent arrears. Don't use disconnection or informal pressure as a substitute for the formal process."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b3b20fce780",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f3c436b7e2a",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep one record set for every charge:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18b927179a33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5809d3428f37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Signed agreement:"
+        },
+        {
+          "_key": "725c09099e9c",
+          "_type": "span",
+          "marks": [],
+          "text": " Lease, utility schedule, amendments, and consent records."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7aad639a2579",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c8d4b1600ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Supplier evidence:"
+        },
+        {
+          "_key": "bbc78d81b867",
+          "_type": "span",
+          "marks": [],
+          "text": " Monthly invoices, statements, adjustments, and payment confirmations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19c5d25df3d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "040acb29dc0b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Calculation file:"
+        },
+        {
+          "_key": "98616de1a4de",
+          "_type": "span",
+          "marks": [],
+          "text": " Meter reads, occupancy data, formula version, fixed-charge treatment, and rounding."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ec650c4cdf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b703cf5ac4e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Delivery proof:"
+        },
+        {
+          "_key": "ad7593114769",
+          "_type": "span",
+          "marks": [],
+          "text": " Date and method used to send each invoice or notice."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d85f0de33c35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0cc3cf4754b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Dispute log:"
+        },
+        {
+          "_key": "3978a62048e5",
+          "_type": "span",
+          "marks": [],
+          "text": " Tenant question, response date, evidence supplied, adjustment, and outcome."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5718a7c343e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb91c8a5955e",
+          "_type": "span",
+          "marks": [],
+          "text": "The embedded video provides another practical reference point for organising the dispute and hearing workflow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ccebac633409",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd30bd236cd0",
+          "_type": "span",
+          "marks": [],
+          "text": "A simple collections rhythm helps. At "
+        },
+        {
+          "_key": "8f6dc6046ee9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30 days"
+        },
+        {
+          "_key": "6d3029f6b3b2",
+          "_type": "span",
+          "marks": [],
+          "text": ", confirm the invoice was delivered and send a courteous reminder. At "
+        },
+        {
+          "_key": "b5fae8831130",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60 days"
+        },
+        {
+          "_key": "df0cac0c859d",
+          "_type": "span",
+          "marks": [],
+          "text": ", reconcile the account, respond to any active dispute, and issue the next formal notice if permitted. At "
+        },
+        {
+          "_key": "394efaccdda6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "90 days"
+        },
+        {
+          "_key": "83012c9f72bc",
+          "_type": "span",
+          "marks": [],
+          "text": ", review the complete file with the property manager or legal adviser before filing or escalating. The exact timing and remedy depend on the agreement and applicable law."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f4d112aec66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb2f40e7201f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69096da7f07e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87891a0c03d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Keeping the Program Compliant Year After Year"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3a5655a76b92",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a01102d19b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility billing fails most often through drift. The original lease says one thing, the property team starts using another formula, a meter is replaced without a commissioning record, or a fixed charge is added to every invoice without notice. An annual review catches those changes before they become a pattern."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa8f9df8fdbd",
+      "_type": "externalImage",
+      "alt": "A checklist infographic titled Keeping the Program Compliant Year After Year, detailing steps for utility billing management.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4de4e4a0-eba9-4814-b541-0e8f9902a401/how-to-bill-tenants-for-utilities-compliance-checklist.jpg"
+    },
+    {
+      "_key": "cb218da93249",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfc570bf0e16",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f8e0a853b580",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad4b6e4c2b42",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a fixed review cycle"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0cb5bd86980e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0db5818136a6",
+          "_type": "span",
+          "marks": [],
+          "text": "At least annually, re-read the master utility contract, confirm the supplier account and service boundaries, verify any third-party billing agent's Ontario Energy Board status where relevant, and compare the lease schedule with the formula used in production. Check current Ontario requirements before relying on older guidance, particularly around the changes taking effect in "
+        },
+        {
+          "_key": "90bfb7936af6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "July and September 2026"
+        },
+        {
+          "_key": "248035f7a639",
+          "_type": "span",
+          "marks": [],
+          "text": " identified by the legislation tracker."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "906e8423ce99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aad3fc4cc5b0",
+          "_type": "span",
+          "marks": [],
+          "text": "Metered buildings need their own maintenance record. Log the meter identifier, installation or replacement date, commissioning information, accuracy testing, battery work where applicable, access problems, read exceptions, and any estimate used. For walk-up reads, record the reader, date, unit, and reason for an unavailable read. A tenant bill should never depend on an unexplained spreadsheet override."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ebd1cca6f52d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b59f0a966fee",
+          "_type": "span",
+          "marks": [],
+          "text": "Retain monthly supplier invoices, calculation worksheets, issued bills, and dispute correspondence in a consistent property folder. Share usage information with tenants where the lease or programme requires it, and retain dispute records long enough for the owner to respond coherently if a historical charge is questioned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f18254b4473",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6bfc4468cef",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb9ec59fdbf7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e32834b6f08",
+          "_type": "span",
+          "marks": [],
+          "text": "Redesign when the building changes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a0dad261c57f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "933f6b72412c",
+          "_type": "span",
+          "marks": [],
+          "text": "Electric-vehicle chargers, rooftop solar credits, a new heating system, altered common-area loads, or a major plumbing project can make the existing allocation formula unsuitable. Recalculate the service boundaries and renegotiate the schedule where necessary. Don't bolt a new load onto an old RUBS formula without deciding who receives the credit or pays the cost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e19b0f558b90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce37d5581100",
+          "_type": "span",
+          "marks": [],
+          "text": "Finish each annual cycle with an owner-side checklist:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6809f79d54a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df8aaaa9e5ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Insurance:"
+        },
+        {
+          "_key": "1314286a84ef",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the programme, equipment, access work, and service responsibilities align with insurance requirements."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52f2f1a2e430",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18313c068899",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Communication:"
+        },
+        {
+          "_key": "41ca9d106bf0",
+          "_type": "span",
+          "marks": [],
+          "text": " Give residents a clear contact and explain changes before the first affected invoice."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37a1ebaa6ece",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "057223fc59e9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Audit:"
+        },
+        {
+          "_key": "730ad3d7a648",
+          "_type": "span",
+          "marks": [],
+          "text": " Select one month and reproduce every unit bill from the supplier statement to the tenant ledger."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e4a91d80f33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2407b74029f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Training:"
+        },
+        {
+          "_key": "9375247a395b",
+          "_type": "span",
+          "marks": [],
+          "text": " Ensure leasing, accounting, maintenance, and collections staff use the same formula and records."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f52957a4bc73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba7097768921",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Escalation:"
+        },
+        {
+          "_key": "423f524df161",
+          "_type": "span",
+          "marks": [],
+          "text": " Refer unusual energy, licensing, or tenancy questions to qualified provincial advisers."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2b1970250ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed315e60ee5b",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey submetering and tenant-billing services, including equipment, commissioning, invoicing, collections workflows, and ongoing meter service for multi-family and mixed-use properties. If your current process leaves fixed charges, meter data, or tenant disputes in separate spreadsheets, visit "
+        },
+        {
+          "_key": "86e51056e142",
+          "_type": "span",
+          "marks": [
+            "0b8a310a5d93"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "346bea82e826",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a billing programme built around your building's infrastructure and lease rules."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0b8a310a5d93",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how to bill tenants for utilities in Canada with a step-by-step guide covering RUBS, submetering, leases, Ontario rules, and compliant invoicing.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9b5f9132-ba6c-48b5-aede-79882e5f1163/how-to-bill-tenants-for-utilities-utility-billing.jpg",
+  "noIndex": false,
+  "outrankId": "c590c19f-8592-46fa-a1c8-60dcf52e5269",
+  "publishedAt": "2026-09-13T07:35:49.16366+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "how-to-bill-tenants-for-utilities"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>The consolidated Enbridge or Alectra invoice arrives, and the numbers look familiar until you compare them with the property&#39;s operating statement. Common-area consumption, vacant suites, unclear allocation rules, and unpaid tenant charges are reducing the return from the building. The question isn&#39;t whether you can charge tenants. It&#39;s <strong>how to bill tenants for utilities</strong> in a way that is transparent, contractually sound, operationally manageable, and defensible if a dispute reaches a tribunal.</p>\n<p>Ontario owners have three practical routes: <strong>RUBS</strong>, submetering, and direct utility accounts. Each produces a different balance between capital cost, measurement accuracy, tenant acceptance, collections work, and regulatory exposure. The right choice depends on the building&#39;s existing infrastructure and the lease terms, not on a generic billing formula copied from another property.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#the-three-ways-a-canadian-landlord-can-recover-utility-costs\">The Three Ways a Canadian Landlord Can Recover Utility Costs</a><ul>\n<li><a href=\"#start-with-the-building-not-the-billing-software\">Start with the building, not the billing software</a></li>\n</ul>\n</li>\n<li><a href=\"#what-the-law-and-your-regulator-actually-require\">What the Law and Your Regulator Actually Require</a><ul>\n<li><a href=\"#ontario-records-need-to-support-the-invoice\">Ontario records need to support the invoice</a></li>\n</ul>\n</li>\n<li><a href=\"#rubs-vs-submetering-vs-direct-utility-accounts\">RUBS vs Submetering vs Direct Utility Accounts</a><ul>\n<li><a href=\"#the-fixed-charge-trap\">The fixed-charge trap</a></li>\n</ul>\n</li>\n<li><a href=\"#building-the-monthly-calculation-that-stands-up\">Building the Monthly Calculation That Stands Up</a><ul>\n<li><a href=\"#use-a-repeatable-worksheet\">Use a repeatable worksheet</a></li>\n</ul>\n</li>\n<li><a href=\"#lease-clauses-and-tenant-notices-that-work\">Lease Clauses and Tenant Notices That Work</a><ul>\n<li><a href=\"#treat-a-method-change-as-a-contract-issue\">Treat a method change as a contract issue</a></li>\n</ul>\n</li>\n<li><a href=\"#disputes-late-payments-and-tribunal-ready-records\">Disputes, Late Payments and Tribunal-Ready Records</a><ul>\n<li><a href=\"#separate-the-question-from-the-collection\">Separate the question from the collection</a></li>\n</ul>\n</li>\n<li><a href=\"#keeping-the-program-compliant-year-after-year\">Keeping the Program Compliant Year After Year</a><ul>\n<li><a href=\"#use-a-fixed-review-cycle\">Use a fixed review cycle</a></li>\n<li><a href=\"#redesign-when-the-building-changes\">Redesign when the building changes</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"the-three-ways-a-canadian-landlord-can-recover-utility-costs\"></a></p>\n<h2>The Three Ways a Canadian Landlord Can Recover Utility Costs</h2>\n<p>A landlord with a master-metered building usually starts with one supplier invoice covering several different loads. That bill may include tenant suites, corridors, mechanical rooms, vacant units, and other shared spaces. Before recovering any amount, separate those categories operationally. A tenant should not be charged for costs that the lease or allocation schedule doesn&#39;t permit you to pass through.</p>\n<p>The three common models are:</p>\n<ul>\n<li><strong>Ratio Utility Billing Systems, or RUBS:</strong> The landlord keeps the master account and allocates the bill using a stated formula, such as unit area, occupancy, or a combination of factors. RUBS requires little physical work, but the formula must be disclosed and applied consistently.</li>\n<li><strong>Submetering:</strong> Individual meters record suite consumption. The billing process then uses actual reads, rather than an estimate based on the characteristics of the unit.</li>\n<li><strong>Direct utility accounts:</strong> The local distribution company maintains a separate account for each separately metered suite, and the tenant pays the provider directly. The landlord still needs a process for common-area services and move-in or move-out coordination.</li>\n</ul>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/449fcc53-5289-41d8-abd1-bea93f3c9d60/how-to-bill-tenants-for-utilities-utility-recovery.jpg\" alt=\"An infographic showing three common methods for Canadian landlords to recover utility costs from their tenants.\"></p>\n<p><a id=\"start-with-the-building-not-the-billing-software\"></a></p>\n<h3>Start with the building, not the billing software</h3>\n<p>RUBS works best where installing meters would require major plumbing or electrical changes, or where the owner needs a quick allocation process for an existing building. It also creates the greatest risk of tenant dissatisfaction because two households with different consumption patterns may receive similar charges.</p>\n<p>Submetering offers a closer connection between use and payment. It introduces installation, maintenance, data, and meter-accuracy obligations, but it gives the tenant a clearer explanation for a variable charge. Direct accounts transfer much of the collection work to the utility provider, although they&#39;re only practical when the infrastructure supports separate accounts and the local provider accepts the arrangement.</p>\n<p>The <a href=\"https://www.axismeter.com/blog/residential-and-commercial\">residential and commercial submetering overview</a> is useful when mapping those infrastructure differences before choosing a model.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Don&#39;t choose a billing method until you can identify the supplier account, the loads it serves, the lease authority for recovery, and the person responsible for answering a tenant&#39;s question.</p>\n</blockquote>\n<p>The sections below focus on Ontario operations, where a formula that seems reasonable can still fail if the lease, meter approval, invoice design, or regulatory status doesn&#39;t support it.</p>\n<p><a id=\"what-the-law-and-your-regulator-actually-require\"></a></p>\n<h2>What the Law and Your Regulator Actually Require</h2>\n<p>Before sending a utility invoice, clear four separate checks. First, confirm what the applicable provincial tenancy legislation permits. Ontario&#39;s Residential Tenancies Act includes restrictions on additional charges and rent-related costs, while other provinces use different rules. A clause that works in one province can be unsuitable in another.</p>\n<p>Second, identify whether the charge is a direct utility reimbursement, an allocation of a master-meter bill, or a resale of energy. Ontario electricity arrangements can involve Ontario Energy Board licensing or an applicable exemption. A landlord allocating a building cost isn&#39;t automatically in the same position as an energy retailer, but a submetering program that recovers variable electricity supply costs needs jurisdiction-specific review. Don&#39;t assume that calling a charge “administration” removes it from regulatory scrutiny.</p>\n<p>Third, confirm the meter and measurement requirements. Electricity and water meters used for billing may need approval under federal measurement rules, including applicable Weights and Measures requirements and relevant S- or WI-series designations. The <a href=\"https://www.axismeter.com/blog/measurement-canada-approved-meters\">Measurement Canada meter guide</a> explains why meter selection and commissioning should happen before tenant billing begins.</p>\n<p><a id=\"ontario-records-need-to-support-the-invoice\"></a></p>\n<h3>Ontario records need to support the invoice</h3>\n<p>PG&amp;E&#39;s California tenant guidance illustrates how detailed a regulated submetering process can become. It identifies rights to rates matching the utility&#39;s rates, itemized electricity or gas charges, retained rate schedules and tenant billings for at least <strong>12 months</strong>, landlord responsibility for maintaining the submeter, and accuracy testing submitted to the county Department of Weights and Measures. Those California requirements aren&#39;t Ontario law, but they show the operational standard a well-controlled programme should aim for. <a href=\"https://www.pge.com/en/account/billing-and-assistance/understand-your-bill/sub-metered-tenant-and-landlord.html\">PG&amp;E&#39;s submetered tenant and landlord guidance</a> is a useful comparison point.</p>\n<p>Ontario&#39;s environment is also changing. The landlord-course legislation tracker identifies changes taking effect <strong>July 1, 2026</strong>, with further changes associated with Bills 60 and 97 scheduled for <strong>September 2026</strong>. Owners should check the current legislation and tribunal guidance before changing billing practices, notices, or enforcement procedures. <a href=\"https://landlordcourse.ca/ontario-legislation-tracker\">The Ontario legislation tracker</a> is a starting point for monitoring those developments.</p>\n<table>\n<thead>\n<tr>\n<th>Province</th>\n<th>Submetering Rules</th>\n<th>RUBS Allowed?</th>\n<th>Measurement Canada Required?</th>\n<th>Key Restriction</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Ontario</td>\n<td>Review provincial tenancy, energy, and measurement requirements before launch</td>\n<td>Depends on the lease, allocation method, and applicable rules</td>\n<td>Confirm meter approval and billing use</td>\n<td>Charges must be authorised, transparent, and supported by records</td>\n</tr>\n<tr>\n<td>British Columbia</td>\n<td>Check the Residential Tenancy Act and applicable utility arrangements</td>\n<td>Depends on the agreement and allocation method</td>\n<td>Confirm the meter&#39;s intended billing use</td>\n<td>Written agreement and clear responsibility for utilities matter</td>\n</tr>\n<tr>\n<td>Alberta</td>\n<td>Review the tenancy agreement, utility provider requirements, and measurement rules</td>\n<td>Depends on the contract and local practice</td>\n<td>Confirm applicable measurement requirements</td>\n<td>Avoid undisclosed or unexplained pass-through charges</td>\n</tr>\n<tr>\n<td>Other provinces</td>\n<td>Verify provincial and municipal requirements</td>\n<td>Varies</td>\n<td>Confirm with Measurement Canada and the provider</td>\n<td>Don&#39;t apply an Ontario formula without local review</td>\n</tr>\n</tbody></table>\n<p><a id=\"rubs-vs-submetering-vs-direct-utility-accounts\"></a></p>\n<h2>RUBS vs Submetering vs Direct Utility Accounts</h2>\n<p>The cheapest installation method isn&#39;t automatically the lowest-cost operating model. Score each option against six questions: capital required per suite, recurring operating cost, regulatory burden, tenant acceptance, accuracy of recovery, and administrative effort.</p>\n<p>The comparison below uses qualitative operating categories because the actual cost depends on the building, service, meter configuration, provider, and agreement.</p>\n<table>\n<thead>\n<tr>\n<th>Criteria</th>\n<th>RUBS</th>\n<th>Submetering</th>\n<th>Direct Utility Account</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Capex per suite</td>\n<td>Usually low where existing infrastructure can remain unchanged</td>\n<td>Requires meter installation and possible electrical or plumbing work</td>\n<td>Requires separate metering and provider acceptance</td>\n</tr>\n<tr>\n<td>Operating cost</td>\n<td>Billing administration, data handling, and collections remain with the owner or agent</td>\n<td>Meter reads, data service, maintenance, billing, and support</td>\n<td>Provider handles the tenant account, while the owner handles common areas</td>\n</tr>\n<tr>\n<td>Regulatory burden</td>\n<td>Formula disclosure, lease authority, and consistent records</td>\n<td>Meter approval, accuracy, commissioning, billing, and possible energy licensing review</td>\n<td>Account setup, eligibility, deposits, and separate meter requirements</td>\n</tr>\n<tr>\n<td>Tenant acceptance</td>\n<td>Often weaker because charges are allocated rather than measured</td>\n<td>Usually clearer because charges follow actual reads</td>\n<td>Strong when the tenant receives the provider&#39;s bill directly</td>\n</tr>\n<tr>\n<td>Accuracy of recovery</td>\n<td>Depends on the formula and occupancy data</td>\n<td>Closely tied to measured consumption</td>\n<td>Based on the provider&#39;s account and meter</td>\n</tr>\n<tr>\n<td>Administrative effort</td>\n<td>High if the owner calculates and collects manually</td>\n<td>Moderate to high unless outsourced</td>\n<td>Lower for suite consumption, but move-in and move-out controls remain important</td>\n</tr>\n</tbody></table>\n<p><a id=\"the-fixed-charge-trap\"></a></p>\n<h3>The fixed-charge trap</h3>\n<p>A master-meter bill usually has more than a variable consumption component. It can also include delivery, service, account, or other fixed charges. A RUBS formula that distributes only consumption can leave those fixed costs on the landlord&#39;s income statement. A direct account generally places the suite&#39;s provider charges with the tenant, while submetering requires the owner to decide, under the lease and applicable rules, how permitted fixed charges are allocated.</p>\n<p>Toronto&#39;s water framework includes a base charge of roughly <strong>$128 every two months per meter before consumption</strong>. That figure comes from the <a href=\"https://www.toronto.ca/legdocs/mmis/2017/td/comm/communicationfile-72723.pdf\">City of Toronto water billing material</a>, and it demonstrates why a formula that considers only usage can produce a misleading recovery result. The charge isn&#39;t necessarily recoverable from tenants just because it appears on the supplier invoice. The lease and governing rules still control.</p>\n<blockquote>\n<p>A billing model that recovers consumption but strands delivery charges can look efficient in a tenant statement while performing poorly on the owner&#39;s ledger.</p>\n</blockquote>\n<p>Choose RUBS where the building lacks practical meter infrastructure and the allocation formula can be explained plainly. Choose submetering where actual consumption, leak visibility, and long-term operating control justify the installation. Choose direct accounts where separate provider accounts are available and the owner wants the utility company, rather than the property team, to collect suite usage.</p>\n<p><a id=\"building-the-monthly-calculation-that-stands-up\"></a></p>\n<h2>Building the Monthly Calculation That Stands Up</h2>\n<p>A defensible invoice starts with the supplier statement, not a tenant&#39;s previous charge. Save the complete bill, identify its service period, separate consumption from fixed charges, and record any common-area or vacant-suite component before applying the allocation method.</p>\n<p>For a 20-unit building with a water supplier bill of <strong>$2,400</strong>, an owner might allocate the permitted tenant share through a disclosed occupancy formula. If a two-occupant unit receives two shares and a one-occupant unit receives one, the worksheet should show the total shares, each unit&#39;s share, and the occupancy record used. Keep the formula consistent. Changing it from month to month because a tenant disputes the result creates a second problem, an audit trail that no longer explains the charge.</p>\n<p><a id=\"use-a-repeatable-worksheet\"></a></p>\n<h3>Use a repeatable worksheet</h3>\n<p>Another staff member should be able to reproduce an invoice without calling its preparer. Store the supplier bill, meter data or occupancy record, lease schedule, rounding rule, and approval record together. A worksheet should also identify who reviewed the calculation and how corrections are documented.</p>\n<table>\n<thead>\n<tr>\n<th>Line Item</th>\n<th align=\"right\">Supplier Cost ($)</th>\n<th align=\"right\">Fixed Charge Share</th>\n<th>Allocation Basis</th>\n<th align=\"right\">Admin Fee</th>\n<th align=\"right\">Per-Unit Charge ($)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Water consumption</td>\n<td align=\"right\">2,400</td>\n<td align=\"right\">Recorded separately</td>\n<td>Occupancy or approved formula</td>\n<td align=\"right\">Permitted amount only</td>\n<td align=\"right\">Formula result</td>\n</tr>\n<tr>\n<td>Water base charge</td>\n<td align=\"right\">Recorded from supplier bill</td>\n<td align=\"right\">Allocated only if authorised</td>\n<td>Per meter, area, or stated schedule</td>\n<td align=\"right\">None unless authorised</td>\n<td align=\"right\">Formula result</td>\n</tr>\n<tr>\n<td>Common-area water</td>\n<td align=\"right\">Recorded from supplier bill</td>\n<td align=\"right\">Retained or allocated as authorised</td>\n<td>Lease schedule</td>\n<td align=\"right\">None unless authorised</td>\n<td align=\"right\">Formula result</td>\n</tr>\n<tr>\n<td>Vacancy share</td>\n<td align=\"right\">Recorded from supplier bill</td>\n<td align=\"right\">Owner responsibility unless authorised</td>\n<td>Vacancy policy</td>\n<td align=\"right\">None</td>\n<td align=\"right\">Owner ledger</td>\n</tr>\n<tr>\n<td>Rounding adjustment</td>\n<td align=\"right\">Worksheet total</td>\n<td align=\"right\">Reconciles to supplier cost</td>\n<td>Consistent rounding rule</td>\n<td align=\"right\">None</td>\n<td align=\"right\">Final adjustment</td>\n</tr>\n</tbody></table>\n<p>The California comparison is useful as a formatting check. Its statutory framework generally requires electricity and gas submeter bills to mirror the utility bill format and not exceed the direct utility rate under <a href=\"https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=5.&part=4.&chapter=2.5.&article=&op_statues=2016&op_chapter=623&op_section=2\">California Public Utilities Code section 12821.5</a>. California&#39;s itemised-bill requirement is why the worksheet separates consumption, fixed charges, and administration fees. That comparison does not replace Ontario rules.</p>\n<p>For an Ontario program, the file should identify the lease authority for each recoverable charge, show the supplier evidence behind it, and distinguish tenant amounts from owner-retained costs. An administration fee should appear as its own line, with the applicable Ontario authority and disclosure recorded before billing. Do not import California&#39;s water-billing ceiling of the lesser of <strong>$4.75 or 25% of the amount billed</strong>, adjusted annually from <strong>January 1, 2018</strong>, into an Ontario lease. That figure is stated in the <a href=\"https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=5.&part=4.&chapter=2.5.&article=&op_statues=2016&op_chapter=623&op_section=2\">California Public Utilities Code section 12821.5</a>, not Ontario law.</p>\n<p>A billing platform such as <a href=\"https://www.axismeter.com/blog/usage-based-billing-with-axis-meter-solutions\">usage-based billing with Axis Meter Solutions</a> can organise meter reads, lease rules, invoices, and resident questions. The owner still chooses the allocation method and retains the evidence supporting every billed amount.</p>\n<p><a id=\"lease-clauses-and-tenant-notices-that-work\"></a></p>\n<h2>Lease Clauses and Tenant Notices That Work</h2>\n<p>“Tenant pays utilities” is rarely enough for a multi-unit building. The lease should identify each utility, state whether the tenant pays the provider or the landlord, describe the allocation formula, explain treatment of common areas and fixed charges, and set out the invoice timing and dispute process.</p>\n<p>A practical Ontario utility schedule should answer these questions:</p>\n<ul>\n<li><strong>Utility responsibility:</strong> Which party pays electricity, gas, water, heating, cooling, and common-area services?</li>\n<li><strong>Allocation method:</strong> Is the charge based on a submeter read, unit area, occupancy, or another stated formula?</li>\n<li><strong>Source data:</strong> Which supplier invoice, meter record, or occupancy record supports the calculation?</li>\n<li><strong>Fixed charges:</strong> Are any base or delivery charges included, and what authority permits their recovery?</li>\n<li><strong>Administration:</strong> Is an administrative fee charged, and does it remain within the applicable regulatory limit?</li>\n<li><strong>Change control:</strong> How can the method change, and what written notice or consent is required?</li>\n</ul>\n<p><a id=\"treat-a-method-change-as-a-contract-issue\"></a></p>\n<h3>Treat a method change as a contract issue</h3>\n<p>If an existing lease uses a RUBS formula, installing submeters doesn&#39;t automatically give the owner permission to replace that formula. A mid-lease change should be reviewed for consent, notice, rent-increase, and Residential Tenancies Act implications. A new programme should use a separate schedule signed with the lease, not a paragraph added after the tenant has moved in.</p>\n<p>The 2026 changes identified in the Ontario legislation tracker make timing especially important. Owners should verify how changes associated with Bills 60 and 97 affect new agreements, existing agreements, rent administration, and tribunal procedure before issuing a revised schedule. Don&#39;t describe a future rule as if it already applies. Check the law in force on the date the notice is prepared.</p>\n<p>A launch notice should state the start date, utility covered, first billing period, calculation method, sample invoice, payment instructions, and contact for disputes. A mid-lease notice should explain the proposed change and identify the consent or legal process being relied on. A rate-adjustment notice should distinguish a supplier-rate change from an administrative-fee change and attach the supporting bill where appropriate.</p>\n<p>Avoid fixed fees that exceed the governing cap, retroactive charges without prior agreement, unexplained “utility recovery” amounts, and clauses that let the landlord change the formula at will. Those provisions create avoidable weaknesses at the Landlord and Tenant Board.</p>\n<p><a id=\"disputes-late-payments-and-tribunal-ready-records\"></a></p>\n<h2>Disputes, Late Payments and Tribunal-Ready Records</h2>\n<p>A tenant in a 24-unit building receives a <strong>$187</strong> water and heating bill and objects. She says her unit has two occupants while a neighbour&#39;s unit has one, so the allocation feels unfair. The correct response isn&#39;t to defend the number from memory. It&#39;s to reconstruct the charge.</p>\n<p>Start with the worksheet. Confirm the occupancy record, check that the formula matches the signed lease schedule, and reconcile the total allocated amount to the supplier invoice. Then provide the relevant calculation and explain which part of the bill represents consumption, fixed charges, common-area usage, or an authorised administration amount.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/88e0cd57-913c-4929-a6a4-ca14b45791a2/how-to-bill-tenants-for-utilities-dispute-resolution.jpg\" alt=\"A five-step flowchart illustrating the process of resolving tenant disputes over utility bills and tribunal preparation.\"></p>\n<p><a id=\"separate-the-question-from-the-collection\"></a></p>\n<h3>Separate the question from the collection</h3>\n<p>The tenant can dispute the allocation without the property team losing the evidence trail. Reply within the period stated in the lease or billing policy, identify any undisputed amount, and avoid adding late charges while the calculation is being checked unless the agreement and law clearly support them.</p>\n<p>If the tenant doesn&#39;t pay an amount that is lawfully due, issue the appropriate written arrears notice and follow the Landlord and Tenant Board process that applies. An L1 application may be relevant for non-payment of rent-related charges, but the owner should obtain current legal guidance before treating a disputed utility invoice as rent arrears. Don&#39;t use disconnection or informal pressure as a substitute for the formal process.</p>\n<p>Keep one record set for every charge:</p>\n<ul>\n<li><strong>Signed agreement:</strong> Lease, utility schedule, amendments, and consent records.</li>\n<li><strong>Supplier evidence:</strong> Monthly invoices, statements, adjustments, and payment confirmations.</li>\n<li><strong>Calculation file:</strong> Meter reads, occupancy data, formula version, fixed-charge treatment, and rounding.</li>\n<li><strong>Delivery proof:</strong> Date and method used to send each invoice or notice.</li>\n<li><strong>Dispute log:</strong> Tenant question, response date, evidence supplied, adjustment, and outcome.</li>\n</ul>\n<p>The embedded video provides another practical reference point for organising the dispute and hearing workflow.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/rABrU_djpKI\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>A simple collections rhythm helps. At <strong>30 days</strong>, confirm the invoice was delivered and send a courteous reminder. At <strong>60 days</strong>, reconcile the account, respond to any active dispute, and issue the next formal notice if permitted. At <strong>90 days</strong>, review the complete file with the property manager or legal adviser before filing or escalating. The exact timing and remedy depend on the agreement and applicable law.</p>\n<p><a id=\"keeping-the-program-compliant-year-after-year\"></a></p>\n<h2>Keeping the Program Compliant Year After Year</h2>\n<p>Utility billing fails most often through drift. The original lease says one thing, the property team starts using another formula, a meter is replaced without a commissioning record, or a fixed charge is added to every invoice without notice. An annual review catches those changes before they become a pattern.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4de4e4a0-eba9-4814-b541-0e8f9902a401/how-to-bill-tenants-for-utilities-compliance-checklist.jpg\" alt=\"A checklist infographic titled Keeping the Program Compliant Year After Year, detailing steps for utility billing management.\"></p>\n<p><a id=\"use-a-fixed-review-cycle\"></a></p>\n<h3>Use a fixed review cycle</h3>\n<p>At least annually, re-read the master utility contract, confirm the supplier account and service boundaries, verify any third-party billing agent&#39;s Ontario Energy Board status where relevant, and compare the lease schedule with the formula used in production. Check current Ontario requirements before relying on older guidance, particularly around the changes taking effect in <strong>July and September 2026</strong> identified by the legislation tracker.</p>\n<p>Metered buildings need their own maintenance record. Log the meter identifier, installation or replacement date, commissioning information, accuracy testing, battery work where applicable, access problems, read exceptions, and any estimate used. For walk-up reads, record the reader, date, unit, and reason for an unavailable read. A tenant bill should never depend on an unexplained spreadsheet override.</p>\n<p>Retain monthly supplier invoices, calculation worksheets, issued bills, and dispute correspondence in a consistent property folder. Share usage information with tenants where the lease or programme requires it, and retain dispute records long enough for the owner to respond coherently if a historical charge is questioned.</p>\n<p><a id=\"redesign-when-the-building-changes\"></a></p>\n<h3>Redesign when the building changes</h3>\n<p>Electric-vehicle chargers, rooftop solar credits, a new heating system, altered common-area loads, or a major plumbing project can make the existing allocation formula unsuitable. Recalculate the service boundaries and renegotiate the schedule where necessary. Don&#39;t bolt a new load onto an old RUBS formula without deciding who receives the credit or pays the cost.</p>\n<p>Finish each annual cycle with an owner-side checklist:</p>\n<ul>\n<li><strong>Insurance:</strong> Confirm the programme, equipment, access work, and service responsibilities align with insurance requirements.</li>\n<li><strong>Communication:</strong> Give residents a clear contact and explain changes before the first affected invoice.</li>\n<li><strong>Audit:</strong> Select one month and reproduce every unit bill from the supplier statement to the tenant ledger.</li>\n<li><strong>Training:</strong> Ensure leasing, accounting, maintenance, and collections staff use the same formula and records.</li>\n<li><strong>Escalation:</strong> Refer unusual energy, licensing, or tenancy questions to qualified provincial advisers.</li>\n</ul>\n<p>Axis Meter Solutions provides turnkey submetering and tenant-billing services, including equipment, commissioning, invoicing, collections workflows, and ongoing meter service for multi-family and mixed-use properties. If your current process leaves fixed charges, meter data, or tenant disputes in separate spreadsheets, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a billing programme built around your building&#39;s infrastructure and lease rules.</p>",
+  "tags": [
+    "utility billing",
+    "submetering",
+    "RUBS",
+    "Ontario landlord",
+    "tenant utilities"
+  ],
+  "title": "How to Bill Tenants for Utilities in Canada",
+  "updatedAt": "2026-09-13T07:35:52.209Z"
+}
