@@ -36,6 +36,18 @@ Do not expose the key with a `NEXT_PUBLIC_` prefix. Outrank content is cached fo
 one day in production, while a missing key or temporary Outrank failure leaves
 the existing local blog available.
 
+## Dependency maintenance
+
+Keep `next` and `eslint-config-next` on the same patched version and commit
+`package-lock.json` with dependency changes. Verify updates with `npm audit`,
+`npm run lint`, `npm run typecheck`, `npm run build`, and `npm run sanity:validate`.
+
+The scoped overrides for `@sanity/runtime-cli` and `@sanity/uuid` keep their
+transitive dependencies on patched `adm-zip` and `uuid` releases without upgrading
+Sanity's major version. Sanity uses ZIP creation and UUID v4 APIs that remain
+compatible with these versions. Remove these overrides when the parent packages
+accept patched releases themselves; do not downgrade to their vulnerable ranges.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

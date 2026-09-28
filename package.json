@@ -19,7 +19,7 @@
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "jsdom": "^26.1.0",
-    "next": "15.5.20",
+    "next": "15.5.26",
     "next-sanity": "^11.6.13",
     "outrank-next-js-blog": "^0.1.2",
     "react": "^19.0.0",
@@ -34,13 +34,19 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "eslint": "^9.39.5",
-    "eslint-config-next": "15.5.20",
-    "postcss": "^8.5.17",
+    "eslint-config-next": "15.5.26",
+    "postcss": "^8.5.28",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.0"
   },
   "overrides": {
     "postcss": "$postcss",
-    "undici": "7.28.0"
+    "undici": "7.29.0",
+    "@sanity/runtime-cli": {
+      "adm-zip": "^0.6.1"
+    },
+    "@sanity/uuid": {
+      "uuid": "^11.1.1"
+    }
   }
 }
