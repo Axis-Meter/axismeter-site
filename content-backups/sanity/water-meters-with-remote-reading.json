@@ -1,0 +1,2313 @@
+{
+  "_createdAt": "2026-09-28T06:55:26Z",
+  "_id": "outrank-c5d84490-2a73-400a-b821-155b0afd6176",
+  "_rev": "dCn05mZyXQ0Qy0iA7frKOm",
+  "_type": "blogPost",
+  "_updatedAt": "2026-09-28T06:55:26Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "b290bd7dca0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8f45de41eb1",
+          "_type": "span",
+          "marks": [],
+          "text": "Most advice on "
+        },
+        {
+          "_key": "c19efe521c2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water meters with remote reading"
+        },
+        {
+          "_key": "f9ecabb24e8c",
+          "_type": "span",
+          "marks": [],
+          "text": " starts in the wrong place. It treats remote reading as a convenience for billing staff, when the core value for property owners is tighter control over "
+        },
+        {
+          "_key": "d96cf10146cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "net operating income"
+        },
+        {
+          "_key": "54db0300aeaf",
+          "_type": "span",
+          "marks": [],
+          "text": ", fewer tenant disputes, and earlier leak detection before a small issue turns into a capital repair."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b33882321dd3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bea1931094e0",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical question is not whether a reader can avoid walking the property. It's whether the building can recover water costs cleanly, spot abnormal usage early, and avoid the friction that comes from estimated bills, unit access, and slow investigation cycles. On that measure, remote reading is a financial tool, not just a utility upgrade."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70af4138fc6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65c8ab13976f",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b85c213cd691",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a196bbad0687",
+          "_type": "span",
+          "marks": [
+            "aef5654fb17d"
+          ],
+          "text": "Rethinking Remote Water Meter Value"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "aef5654fb17d",
+          "_type": "link",
+          "href": "#rethinking-remote-water-meter-value"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "97e1599d8555",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86e62fa2b4d5",
+          "_type": "span",
+          "marks": [
+            "ed61d48835d4"
+          ],
+          "text": "Comparing AMR and AMI Technologies"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ed61d48835d4",
+          "_type": "link",
+          "href": "#comparing-amr-and-ami-technologies"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2eff10118189",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dee9d36cda28",
+          "_type": "span",
+          "marks": [
+            "dc6f6f64a820"
+          ],
+          "text": "Leak Detection and Conservation Benefits"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dc6f6f64a820",
+          "_type": "link",
+          "href": "#leak-detection-and-conservation-benefits"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "619e4f61802f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "757eb944629f",
+          "_type": "span",
+          "marks": [
+            "460c6424ebbc"
+          ],
+          "text": "Navigating Retrofit Complexities in Older Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "460c6424ebbc",
+          "_type": "link",
+          "href": "#navigating-retrofit-complexities-in-older-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1e23b1558d1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85add467c6b7",
+          "_type": "span",
+          "marks": [
+            "a3b2f435c41d"
+          ],
+          "text": "Start with the mechanical room, not the brochure"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a3b2f435c41d",
+          "_type": "link",
+          "href": "#start-with-the-mechanical-room-not-the-brochure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7c9c2b000057",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3185701365ea",
+          "_type": "span",
+          "marks": [
+            "8fee19c1cbca"
+          ],
+          "text": "Plan the access and ownership questions early"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8fee19c1cbca",
+          "_type": "link",
+          "href": "#plan-the-access-and-ownership-questions-early"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cde01ad0c8e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3b50d36ba6c",
+          "_type": "span",
+          "marks": [
+            "63f75cb92e92"
+          ],
+          "text": "Integrating Data with Billing and Monitoring Platforms"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "63f75cb92e92",
+          "_type": "link",
+          "href": "#integrating-data-with-billing-and-monitoring-platforms"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "531a05efe3a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "57836f87f8c6",
+          "_type": "span",
+          "marks": [
+            "c72fbb466b11"
+          ],
+          "text": "Evaluating Capital Expenditure Versus Turnkey Agreements"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c72fbb466b11",
+          "_type": "link",
+          "href": "#evaluating-capital-expenditure-versus-turnkey-agreements"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f2eaefab22cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8fe2af37711b",
+          "_type": "span",
+          "marks": [
+            "d6384e2e5059"
+          ],
+          "text": "CAPEX and turnkey do different jobs"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d6384e2e5059",
+          "_type": "link",
+          "href": "#capex-and-turnkey-do-different-jobs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6351cc7a73f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3be8213ba272",
+          "_type": "span",
+          "marks": [
+            "fb73e049a3b5"
+          ],
+          "text": "Executing a Compliant Implementation Roadmap"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fb73e049a3b5",
+          "_type": "link",
+          "href": "#executing-a-compliant-implementation-roadmap"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dbeaa10f8488",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23f3f779f2e1",
+          "_type": "span",
+          "marks": [
+            "c98a50b0bba6"
+          ],
+          "text": "Step 1, confirm jurisdictional rules"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c98a50b0bba6",
+          "_type": "link",
+          "href": "#step-1-confirm-jurisdictional-rules"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5db2e9c71fef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ba5fa6ffd25",
+          "_type": "span",
+          "marks": [
+            "1ccc1ef93f01"
+          ],
+          "text": "Step 2, map the site honestly"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1ccc1ef93f01",
+          "_type": "link",
+          "href": "#step-2-map-the-site-honestly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8b0c7b413100",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0ac73d9edc2",
+          "_type": "span",
+          "marks": [
+            "186d0a14a300"
+          ],
+          "text": "Step 3, coordinate the trades"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "186d0a14a300",
+          "_type": "link",
+          "href": "#step-3-coordinate-the-trades"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c9ad4f4ff6f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c557a2c31405",
+          "_type": "span",
+          "marks": [
+            "f1ed8877e53f"
+          ],
+          "text": "Step 4, connect data before billing starts"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f1ed8877e53f",
+          "_type": "link",
+          "href": "#step-4-connect-data-before-billing-starts"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0af8e2559638",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1962f53b5359",
+          "_type": "span",
+          "marks": [
+            "e03e04c465ac"
+          ],
+          "text": "Step 5, launch with tenant communication"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e03e04c465ac",
+          "_type": "link",
+          "href": "#step-5-launch-with-tenant-communication"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b86ba8d2317e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f29f223c7bb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00be23802668",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e273754f82d0",
+          "_type": "span",
+          "marks": [],
+          "text": "Rethinking Remote Water Meter Value"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3e97efe430d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca51e69c589c",
+          "_type": "span",
+          "marks": [],
+          "text": "Property owners usually hear the sales pitch from a municipal lens. The pitch is simple, remote reading saves labour because nobody needs to knock on doors or walk a route. That framing misses the bigger point for multi-unit and mixed-use assets, where the meter is really a control point for revenue recovery and loss prevention."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9f8a98ffb2cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "73b37b62eddb",
+          "_type": "span",
+          "marks": [],
+          "text": "The strongest case for "
+        },
+        {
+          "_key": "7725d3a57d37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water meters with remote reading"
+        },
+        {
+          "_key": "04d38e75a2e7",
+          "_type": "span",
+          "marks": [],
+          "text": " is precise cost allocation. When each suite or tenant is measured properly, owners stop eating usage that should have been billed elsewhere, and tenants stop arguing over estimates that never felt fair in the first place. That matters in condo buildings, rental portfolios, and mixed-use sites where even small billing errors can snowball into constant admin noise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79712a7d4d46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c4e17d309a16",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak visibility is the other half of the equation. A slow leak between billing cycles looks like normal consumption until the bill lands, and by then the damage has already been paid for in wasted water, labour, and sometimes remediation. Remote reading changes that by turning water use into a monitored operational signal instead of a monthly surprise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "143ca050a674",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee09baa20d22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "3f6a79b6670c",
+          "_type": "span",
+          "marks": [],
+          "text": " if the system only helps you bill faster, you've underused it. If it helps you find abnormal flow early, it starts protecting NOI."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "0a2455ed4043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18afac9d1d78",
+          "_type": "span",
+          "marks": [],
+          "text": "Toronto's system shows the logic well. The city says smaller residential meters transmit readings four times a day, larger high-use accounts transmit every hour, and each transmission lasts only "
+        },
+        {
+          "_key": "7ba102c28105",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.25 seconds"
+        },
+        {
+          "_key": "3664b66c3024",
+          "_type": "span",
+          "marks": [],
+          "text": ". Toronto also says the radio frequency used is "
+        },
+        {
+          "_key": "5ea30fee57d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "450 to 470 MHz"
+        },
+        {
+          "_key": "5faa8e9b24a8",
+          "_type": "span",
+          "marks": [],
+          "text": ", licensed by Industry Canada, and that the transmitter sends only the meter serial number and consumption data, with new meters tested for accuracy as they arrive. Those details matter because they show how remote-reading systems are built for frequent capture, low-duty-cycle communication, and measurement reliability, not just convenience. "
+        },
+        {
+          "_key": "d7ee6d30346b",
+          "_type": "span",
+          "marks": [
+            "51ee529f61a6"
+          ],
+          "text": "Toronto water meter details"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "51ee529f61a6",
+          "_type": "link",
+          "href": "https://www.toronto.ca/services-payments/water-environment/your-water-pipes-meter/water-meters/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a42c03d49821",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "392d3adcf787",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners, that means the smartest question isn't “Does it read remotely?” It's “What does it prevent?” If the answer includes leak loss, billing disputes, and avoidable site visits, the asset starts paying for itself in operating discipline, not just labour savings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f18916388a0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f1905ea8ea4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c2cd49acc929",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9885c992896",
+          "_type": "span",
+          "marks": [],
+          "text": "Comparing AMR and AMI Technologies"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a312859a0d8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b0bbc997602",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners make a costly mistake when they treat every remote-reading system as interchangeable. "
+        },
+        {
+          "_key": "70a39b69681c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "AMR"
+        },
+        {
+          "_key": "e21c946c97f8",
+          "_type": "span",
+          "marks": [],
+          "text": ", or Automated Meter Reading, and "
+        },
+        {
+          "_key": "c38aa8e23b0c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "AMI"
+        },
+        {
+          "_key": "1722d23ad5e8",
+          "_type": "span",
+          "marks": [],
+          "text": ", or Advanced Metering Infrastructure, solve different operating problems. Pick the wrong one, and you end up with modern-looking metering that still leaves you blind to leaks, tenant disputes, and field access headaches."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fbf6aece3714",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0167020b123b",
+          "_type": "span",
+          "marks": [],
+          "text": "Feature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24ea9551ca0a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8d76f3b1fde",
+          "_type": "span",
+          "marks": [],
+          "text": "AMR (Automated Meter Reading)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7806af27b9c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34a19c7d9434",
+          "_type": "span",
+          "marks": [],
+          "text": "AMI (Advanced Metering Infrastructure)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba162ece4c73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98c4cc6c7ee4",
+          "_type": "span",
+          "marks": [],
+          "text": "Data collection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9846605fca0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f0458ede5c5",
+          "_type": "span",
+          "marks": [],
+          "text": "A reader interrogates the meter from outside the building, often through a visual remote register or touch-pad"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ebd83a54f368",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c03e06361051",
+          "_type": "span",
+          "marks": [],
+          "text": "Data is collected automatically through a fixed network"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "723ee4b6bd76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cbe0796c8db2",
+          "_type": "span",
+          "marks": [],
+          "text": "Visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9696b7ec8c73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6db73653c60b",
+          "_type": "span",
+          "marks": [],
+          "text": "Useful for scheduled billing reads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d35da9af9436",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cae9f6bd52be",
+          "_type": "span",
+          "marks": [],
+          "text": "Useful for hourly or sub-hourly usage visibility, depending on network design"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef904b09f3e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f91d76a7cb41",
+          "_type": "span",
+          "marks": [],
+          "text": "Operational use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69de64537358",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "935e22eab0ee",
+          "_type": "span",
+          "marks": [],
+          "text": "Basic billing automation and reduced manual access"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9c0567996c40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d5944a30864",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak alerts, trend monitoring, and broader consumption management"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4fba45581daa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a031dee1b13b",
+          "_type": "span",
+          "marks": [],
+          "text": "Building fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6987cfe4e8f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8e55affb122",
+          "_type": "span",
+          "marks": [],
+          "text": "Works when the goal is simpler read collection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e2ab5257217",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "021238cb8908",
+          "_type": "span",
+          "marks": [],
+          "text": "Works when the goal is active monitoring and faster response"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d87f4ec76f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fbf68ad404e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Management style"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ad3ad696b7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36f76a6d576a",
+          "_type": "span",
+          "marks": [],
+          "text": "Route-based or periodic read capture"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9452945a26b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2c25225fc9d",
+          "_type": "span",
+          "marks": [],
+          "text": "Continuous or near-continuous data flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef8e58944902",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45eedd426a94",
+          "_type": "span",
+          "marks": [],
+          "text": "Halifax Regional Water Commission describes "
+        },
+        {
+          "_key": "79f06663ce49",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "AMI"
+        },
+        {
+          "_key": "99b769eb1849",
+          "_type": "span",
+          "marks": [],
+          "text": " as remote read from a central location using radio-enabled meter interface units, while the City of Timmins says AMI can provide near real-time customer access and hourly or sub-hourly usage data depending on network design. That distinction matters for owners. AMR fits a billing problem. AMI fits an operating problem. "
+        },
+        {
+          "_key": "b4fa852dc506",
+          "_type": "span",
+          "marks": [
+            "7b1935242403"
+          ],
+          "text": "Halifax Regional Water Commission AMI report"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7b1935242403",
+          "_type": "link",
+          "href": "https://www.halifax.ca/sites/default/files/documents/home-property/water/AMITechnology-FianlReport.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fac7d276451c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "735c4e073bc2",
+          "_type": "span",
+          "marks": [],
+          "text": "For multi-unit properties, the capital decision should follow the pain point. If the only goal is to stop sending someone to the basement with a clipboard, AMR is enough. If the building needs early leak detection, tenant-level visibility, and faster intervention, AMI is the better fit. That is why a closer look at "
+        },
+        {
+          "_key": "2890e302c133",
+          "_type": "span",
+          "marks": [
+            "f76d81e78831"
+          ],
+          "text": "advanced metering infrastructure"
+        },
+        {
+          "_key": "4c7a488bac6c",
+          "_type": "span",
+          "marks": [],
+          "text": " matters before you commit to hardware."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f76d81e78831",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/advanced-metering-infrastructure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "980d50a85bb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e9cff02fa9a",
+          "_type": "span",
+          "marks": [],
+          "text": "The market reads AMI as a broader data platform, not just a read collection method, and that is the right lens for portfolio owners. Use the cheaper system only when your risk profile is simple. If water loss, service friction, and retrofit complexity are already hurting NOI, buy the architecture that gives you the operating control to act on the problem, not just the ability to bill it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bedd4b61136a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "836f29c47ec9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "184becd175e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1ed38fa10ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak Detection and Conservation Benefits"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f9cc407c4b5d",
+      "_type": "externalImage",
+      "alt": "An infographic showing the benefits of water leak detection, including potential cost savings and sustainability improvements.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0e77acc0-fedf-458a-9198-209317f14d3e/water-meters-with-remote-reading-leak-detection.jpg"
+    },
+    {
+      "_key": "8f184d1f7796",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4996645b1f73",
+          "_type": "span",
+          "marks": [],
+          "text": "The financial case for remote reading gets much stronger when you stop talking about billing and start talking about abnormal flow. A running toilet in one unit can disappear into aggregate costs for months if nobody is watching consumption closely enough. Once the system is configured to flag patterns, that same issue becomes actionable, which is the whole point."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c8b92862569",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43771269740e",
+          "_type": "span",
+          "marks": [],
+          "text": "That's why municipal deployments matter. Saskatoon reported in 2021 that it had completed more than "
+        },
+        {
+          "_key": "a88be68ff800",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "75%"
+        },
+        {
+          "_key": "3bbc40b432f1",
+          "_type": "span",
+          "marks": [],
+          "text": " of its AMI installations and that over "
+        },
+        {
+          "_key": "e38dc9a606a3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "57,000"
+        },
+        {
+          "_key": "b8f743d035ee",
+          "_type": "span",
+          "marks": [],
+          "text": " water meters were already being read remotely. It also said approximately "
+        },
+        {
+          "_key": "5c0ee59c1014",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "52%"
+        },
+        {
+          "_key": "d4e09d3836fe",
+          "_type": "span",
+          "marks": [],
+          "text": " of water meters had been updated since the AMI program began in "
+        },
+        {
+          "_key": "b4fa5897be56",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2016"
+        },
+        {
+          "_key": "5c8988731909",
+          "_type": "span",
+          "marks": [],
+          "text": ", with daily meter-read performance greater than "
+        },
+        {
+          "_key": "f57bdf8251a7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "99%"
+        },
+        {
+          "_key": "0634acfe51f0",
+          "_type": "span",
+          "marks": [],
+          "text": ". That shows remote reading working at city scale, not as a pilot, and it proves the model can deliver reliable reads while reducing blind spots between billing periods. "
+        },
+        {
+          "_key": "e79010285afd",
+          "_type": "span",
+          "marks": [
+            "1a5442c45e14"
+          ],
+          "text": "Saskatoon AMI update"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1a5442c45e14",
+          "_type": "link",
+          "href": "https://www.saskatoon.ca/sites/default/files/documents/transportation-utilities/saskatoon-water/meters/tu-sw_ami-lettertoresidents_feb_9_2021_final.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2655deef2fd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f7e315f546d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Remote data is only useful if somebody acts on it quickly. If a property team waits for the invoice, the leak already won."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "e0593c5615a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0209491d160",
+          "_type": "span",
+          "marks": [],
+          "text": "The conservation angle is more than theory. Calgary says homes with remote read-out technology let meter readers collect data without entering homes, and a 2026 British Columbia pilot described AMI meters as enabling near real-time leak detection over cellular or private radio networks. The province also said meters can help communities identify leaks and reduce water use by up to "
+        },
+        {
+          "_key": "2a52d0fa70d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30%"
+        },
+        {
+          "_key": "9ad3263da30b",
+          "_type": "span",
+          "marks": [],
+          "text": ". For owners, that's the kind of operational signal that can justify a tougher capital conversation because the value sits in avoided waste and avoided damage, not just lower admin effort. "
+        },
+        {
+          "_key": "919f50e2885b",
+          "_type": "span",
+          "marks": [
+            "420bfe9b6336"
+          ],
+          "text": "Calgary water meter reading"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "420bfe9b6336",
+          "_type": "link",
+          "href": "https://www.calgary.ca/water/water-utility/water-meter-reading.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d9246f1cb46c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4678e0e35c0e",
+          "_type": "span",
+          "marks": [],
+          "text": "The monitoring stack gets stronger when leak and flood sensors are paired with consumption data, because the meter catches the pattern and the sensor catches the event. A resource on "
+        },
+        {
+          "_key": "cedc7adf00b1",
+          "_type": "span",
+          "marks": [
+            "ebd303f1c20c"
+          ],
+          "text": "professional leak detection services"
+        },
+        {
+          "_key": "b837142e88fa",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful context for owners who want the operational side of that workflow, not just the hardware discussion."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ebd303f1c20c",
+          "_type": "link",
+          "href": "https://eaglerestorationfl.com/2026/08/18/leak-detection-services/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d8beccbc1ef3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e2cfbc69b0e",
+          "_type": "span",
+          "marks": [
+            "4d03e23f80bb"
+          ],
+          "text": "Internal guide on water leak detection systems"
+        },
+        {
+          "_key": "5666e2f8e7f9",
+          "_type": "span",
+          "marks": [],
+          "text": " is also worth reading if you're deciding how to structure alerts and response paths."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4d03e23f80bb",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c0e8a5c48384",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87c0fd855f62",
+          "_type": "span",
+          "marks": [],
+          "text": "The takeaway is blunt. If you only use remote reading for invoices, you're leaving the best part of the system untouched. ROI sits in faster detection, faster response, and fewer surprise losses."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bfa490167fdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83838c22ded3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8ff3e04a6ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "539d20da6963",
+          "_type": "span",
+          "marks": [],
+          "text": "Navigating Retrofit Complexities in Older Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c7b79018c7df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d7b1c2fad36",
+          "_type": "span",
+          "marks": [],
+          "text": "New construction makes remote reading look easy. Older buildings do not. The retrofit challenge is usually not the meter itself, it's the mechanical room, the electrical setup, the access plan, and the communication path that needs to work around the property instead of through a clean design."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a3f393219526",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ddbb1f0848b9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a39f620c5d2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff07f6e42997",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the mechanical room, not the brochure"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "cb836f6beafa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6add113b5307",
+          "_type": "span",
+          "marks": [],
+          "text": "Utilities Kingston's specifications show why this matters. Larger meters may require dedicated "
+        },
+        {
+          "_key": "f258eb0e0b9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "120V"
+        },
+        {
+          "_key": "faa85566cdf2",
+          "_type": "span",
+          "marks": [],
+          "text": " power near the meter and even remote disconnect provisions, which means the job is not just a swap of the sensing device. It can trigger electrical work, coordination with on-site trades, and careful planning around where the communication equipment lives. "
+        },
+        {
+          "_key": "ab875cdfffdc",
+          "_type": "span",
+          "marks": [
+            "88b3e58e2ffd"
+          ],
+          "text": "Utilities Kingston water meter specifications"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "88b3e58e2ffd",
+          "_type": "link",
+          "href": "https://utilitieskingston.com/Cms_Data/Contents/UtilitiesKingston/Media/Documents/Water/Water-Meter-Specifications.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2ec63376b1ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "498828e823a8",
+          "_type": "span",
+          "marks": [],
+          "text": "That's where many projects stall. Owners assume “remote reading” means no access issues, but older mixed-use and multi-unit buildings often have tight mechanical rooms, legacy plumbing, and uneven electrical capacity. In those buildings, the install team has to work around physical constraints, not pretend they don't exist."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b95c0ee66963",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49c95664d0b4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6c7a3b00cb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5505e255a30d",
+          "_type": "span",
+          "marks": [],
+          "text": "Plan the access and ownership questions early"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "524dd398478e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "460c9e554ad5",
+          "_type": "span",
+          "marks": [],
+          "text": "The second problem is responsibility. Who pays for power near the meter, who grants access to suites, and who handles replacement when a meter fails? These questions sound administrative, but they affect timeline and cost more than the hardware choice does."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a37759a4d001",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aef2f0b4e6e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Builder's rule:"
+        },
+        {
+          "_key": "0051da5a6518",
+          "_type": "span",
+          "marks": [],
+          "text": " if the access plan isn't written before procurement, the project will drift into change orders."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "eb6ca58f28b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0e59c4b1952",
+          "_type": "span",
+          "marks": [],
+          "text": "For retrofit planning, ask three things up front:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff1576d4847c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10e2f0e7fddb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Where does power come from?"
+        },
+        {
+          "_key": "f59eb71f3ba2",
+          "_type": "span",
+          "marks": [],
+          "text": " Larger meters may need local electrical support, so confirm the path before ordering equipment."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c8f9a9c4316",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ca05989ae7d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How will access happen?"
+        },
+        {
+          "_key": "180b09184c3b",
+          "_type": "span",
+          "marks": [],
+          "text": " Suites, locked rooms, and common areas each need a different scheduling plan."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3b5d237672e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac36a0b47011",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What happens when a device needs investigation?"
+        },
+        {
+          "_key": "0c83b3d032d1",
+          "_type": "span",
+          "marks": [],
+          "text": " A system only works if field service can reach it without delaying billing or disrupting residents."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d59f944b710",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d266772e4155",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical lesson is simple. Remote reading reduces routine entry, but it does not eliminate building-side coordination. Owners who plan for trades, access, and commissioning early usually get a cleaner deployment and less tenant disruption. Owners who don't tend to discover the hard parts after the purchase order is already signed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e3290c0b3c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1105423764a2",
+          "_type": "span",
+          "marks": [
+            "940d6c83c649"
+          ],
+          "text": "Ultrasonic flow meters and retrofit planning"
+        },
+        {
+          "_key": "4038f4c78955",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful reference if you're comparing meter types for constrained spaces."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "940d6c83c649",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9c2f4d45cda4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eac2beb22007",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cd60bb66618",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77bea87b8fd7",
+          "_type": "span",
+          "marks": [],
+          "text": "Integrating Data with Billing and Monitoring Platforms"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "968fd468b005",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3dcddad06c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Hardware without software integration just creates a new pile of unread data. The value of "
+        },
+        {
+          "_key": "59b96e765f70",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water meters with remote reading"
+        },
+        {
+          "_key": "4977726d76f7",
+          "_type": "span",
+          "marks": [],
+          "text": " comes alive only when consumption data flows into billing, validation, and resident-facing tools that someone uses. That's the difference between owning sensors and operating a system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d77659f77b88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f4802119f91",
+          "_type": "span",
+          "marks": [],
+          "text": "The first requirement is clean billing logic. The meter reading has to land in a platform that can standardise invoices, separate common area use from tenant use, and flag odd reads before the bill goes out. If that doesn't happen, you've replaced manual reading errors with digital processing errors, which is a poor trade for any owner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "11010551a15f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5787df71c4d",
+          "_type": "span",
+          "marks": [],
+          "text": "The second requirement is visibility. Tenant portals change the conversation because residents can see their own usage instead of waiting for a monthly surprise. That usually lowers friction, not because people love dashboards, but because they trust a bill they can trace back to their own behaviour. For owners, trust means fewer disputes, fewer credits, and less staff time spent explaining charges that should have been obvious."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a44c78989399",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55f96629a99f",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful reference on "
+        },
+        {
+          "_key": "7dde38eed2dc",
+          "_type": "span",
+          "marks": [
+            "94a7c6ebbb66"
+          ],
+          "text": "smart irrigation cost savings"
+        },
+        {
+          "_key": "b7ba7a2a26ce",
+          "_type": "span",
+          "marks": [],
+          "text": " sits in a related space, because the same logic applies to outdoor and site water. Once the data is visible and actionable, consumption management becomes part of operations, not just accounting."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "94a7c6ebbb66",
+          "_type": "link",
+          "href": "https://prestonwoodlandscape.com/smart-water-management-technologies/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b10aba4bc852",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a09fba669954",
+          "_type": "span",
+          "marks": [],
+          "text": "There's also a practical reason to connect monitoring and billing in one workflow. If a pattern shows abnormal usage, the team can investigate before invoice generation, not after. That keeps bad data out of the bill and makes the rest of the process faster to defend."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17fd02276a9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e96ce84f566e",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions is one option in this space, since it provides water submetering with remote collection, tenant billing, and leak detection as part of a managed programme. That kind of integrated setup matters when the owner wants the operational outcome, not a box of disconnected hardware."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "289b579b7c50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f07a9e3fc63",
+          "_type": "span",
+          "marks": [],
+          "text": "The best systems make water data usable at three levels at once. Owners see NOI risk, managers see exceptions, and residents see their own consumption. If one of those layers is missing, the deployment is incomplete."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9a4d97084ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c4802a137ea",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89408aa095c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7976b6531ed",
+          "_type": "span",
+          "marks": [],
+          "text": "Evaluating Capital Expenditure Versus Turnkey Agreements"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "6e384ee912bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a3b563e9faa",
+          "_type": "span",
+          "marks": [],
+          "text": "A weak financial model can turn remote reading into a bad asset decision. Owners tend to fixate on the hardware price and ignore the rest of the lifecycle. That is the wrong lens. Meters need maintenance, replacement cycles, communication support, and periodic correction to keep producing usable data."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f496a72dbfda",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "088560f5d3aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Kitchener's AMI feasibility work makes the capital question plain. The city found that every evaluated AMI option produced a significant negative net present value over a "
+        },
+        {
+          "_key": "ef1bf24817ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20-year"
+        },
+        {
+          "_key": "197c869aeee2",
+          "_type": "span",
+          "marks": [],
+          "text": " operating period, with the water-only option estimated at "
+        },
+        {
+          "_key": "39340dcd7a19",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$38.4 million"
+        },
+        {
+          "_key": "b99d4ff6fdeb",
+          "_type": "span",
+          "marks": [],
+          "text": " and a preliminary customer impact of about "
+        },
+        {
+          "_key": "d75d5f3689f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$18/year"
+        },
+        {
+          "_key": "f122c2f16c7f",
+          "_type": "span",
+          "marks": [],
+          "text": " on wet utilities. Remote reading still has value, but the economic case has to include network costs and replacement burden, not just labour savings. "
+        },
+        {
+          "_key": "69b025dff633",
+          "_type": "span",
+          "marks": [
+            "3e9e1ff8364a"
+          ],
+          "text": "Kitchener AMI report"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3e9e1ff8364a",
+          "_type": "link",
+          "href": "https://lf.kitchener.ca/WebLinkExt/DocView.aspx?id=1981671&dbid=0&repo=CityofKitchener"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "10ac44f78050",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6a69a8fb1e4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b04fcc6968f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b1cb5875abd",
+          "_type": "span",
+          "marks": [],
+          "text": "CAPEX and turnkey do different jobs"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "14225429526c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51f745f14d55",
+          "_type": "span",
+          "marks": [],
+          "text": "A capital purchase gives the owner control, and it also puts every future headache on the owner's desk. Batteries fail. Meters age. Firmware and network components need updates. Someone still has to coordinate repairs when the system misbehaves. A turnkey agreement shifts that burden to the provider and makes cost more predictable, which is usually the better fit for multi-property portfolios that care more about operating certainty than asset ownership."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f50d23d6d006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71dcb75b3f67",
+          "_type": "span",
+          "marks": [],
+          "text": "The trade-off is straightforward."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c2d5aff0e4fd",
+      "_type": "externalImage",
+      "alt": "A comparison chart showing the benefits and drawbacks of CAPEX purchases versus turnkey agreements for metering assets.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0b3a3f6d-ab74-445c-9586-3429cd25f410/water-meters-with-remote-reading-capex-turnkey.jpg"
+    },
+    {
+      "_key": "b12653a7255a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a73e5f705d8",
+          "_type": "span",
+          "marks": [],
+          "text": "For most owners, the decision is not philosophical. It is whether they want to carry technical and maintenance risk themselves, or pay for a managed outcome with less internal burden. Smaller portfolios with technical staff can justify CAPEX. Buildings with stretched maintenance teams usually do better with a turnkey model."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5376b044506e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20922575c552",
+          "_type": "span",
+          "marks": [],
+          "text": "Price the full lifecycle, not just installation. That is where the financial truth sits."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12eda0d26b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c8a09237a8e",
+          "_type": "span",
+          "marks": [],
+          "text": "The same logic applies to exterior and site water use. Once the data is visible and actionable, consumption control becomes an operating discipline, not just an accounting exercise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e3d269d717e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e666f4813dcb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "64511ed35150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a2f8a9911e4",
+          "_type": "span",
+          "marks": [],
+          "text": "Executing a Compliant Implementation Roadmap"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "838e72613e24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "589ca2203b17",
+          "_type": "span",
+          "marks": [],
+          "text": "A remote-reading project should move in a controlled sequence, not as a loose collection of trades and paperwork. The cleanest deployments start with compliance, proceed through design and procurement, then end with commissioning and tenant communication. If you skip any of those steps, you usually pay for it later in delays or billing issues."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a3ed84269b2",
+      "_type": "externalImage",
+      "alt": "A five-step roadmap infographic for installing compliant submetering systems with remote reading for water billing.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a2e8c654-17ed-44e3-a561-0a9650fe77da/water-meters-with-remote-reading-implementation-roadmap.jpg"
+    },
+    {
+      "_key": "f98dc1b0a651",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e01ce73a956d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7391a83610ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1772cdcb1b26",
+          "_type": "span",
+          "marks": [],
+          "text": "Step 1, confirm jurisdictional rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "663d42961a95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5096661c386",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the local measurement and billing requirements before you touch the building. The wrong meter specification or billing workflow can create a compliance problem that's more expensive than the hardware. The reason to do this first is simple, compliance errors don't get cheaper after installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "12475a16a22e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6ad8540aa69",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b26ca3352822",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18fc375490ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Step 2, map the site honestly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "69af2f163bf5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52148029650e",
+          "_type": "span",
+          "marks": [],
+          "text": "Do a real site audit, not a paper exercise. Count units, inspect mechanical rooms, confirm access constraints, and identify whether power or communication work is needed near larger meters. If the site is older, assume there will be exceptions and plan for them before procurement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46d13a3de9e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52c19158df7c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6919f6f09ee6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe6b3b2496f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Step 3, coordinate the trades"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b6c5072a592f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "554027677783",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation works best when property managers, electricians, and the meter provider are all aligned on access windows and sequencing. That coordination reduces disruption for residents and avoids the last-minute scramble that creates mistrust. A well-run project feels boring, and that's exactly what you want."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab11c36cad2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ecbd4fcc79b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2ad4d118221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b0ceefcab82d",
+          "_type": "span",
+          "marks": [],
+          "text": "Step 4, connect data before billing starts"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "3451c54d7c00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05825f199f08",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning is not complete until the meter data lands cleanly in the billing platform. Test reads, validate formats, and make sure exceptions are visible before the first invoice goes out. That protects the owner from disputes and protects the resident from bad bills."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c23d6169e840",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3055f10c1d9f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cc8c880ffc4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97ed58103e3a",
+          "_type": "span",
+          "marks": [],
+          "text": "Step 5, launch with tenant communication"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "eaaf8e9ab875",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "33085b094bee",
+          "_type": "span",
+          "marks": [],
+          "text": "Residents should know what changed, why it changed, and how their usage will now be measured. Clear communication lowers friction fast because people are less suspicious when they understand the process. Once the system is live, the tangible value begins: accurate billing, better leak visibility, and a cleaner operating model."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c047f3eb791",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c83b8b3cc6af",
+          "_type": "span",
+          "marks": [],
+          "text": "For owners and operators who want a managed path, Axis Meter Solutions offers turnkey water submetering with remote collection, installation coordination, billing, and ongoing service under long-term agreements. If you're planning a retrofit or a new build, visit "
+        },
+        {
+          "_key": "57f3bc6cdf70",
+          "_type": "span",
+          "marks": [
+            "2c6cfbfed310"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "4ae572ed2079",
+          "_type": "span",
+          "marks": [],
+          "text": " and compare the operational model against your building's needs before you commit capital."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2c6cfbfed310",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Explore how water meters with remote reading improve submetering. Learn about AMI vs AMR tech, leak detection, and billing integration for properties.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/177dd522-8e50-416d-b8ac-a526ed1b3a42/water-meters-with-remote-reading-smart-meter.jpg",
+  "noIndex": false,
+  "outrankId": "c5d84490-2a73-400a-b821-155b0afd6176",
+  "publishedAt": "2026-09-28T06:55:22.302787+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "water-meters-with-remote-reading"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Most advice on <strong>water meters with remote reading</strong> starts in the wrong place. It treats remote reading as a convenience for billing staff, when the core value for property owners is tighter control over <strong>net operating income</strong>, fewer tenant disputes, and earlier leak detection before a small issue turns into a capital repair.</p>\n<p>The practical question is not whether a reader can avoid walking the property. It&#39;s whether the building can recover water costs cleanly, spot abnormal usage early, and avoid the friction that comes from estimated bills, unit access, and slow investigation cycles. On that measure, remote reading is a financial tool, not just a utility upgrade.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#rethinking-remote-water-meter-value\">Rethinking Remote Water Meter Value</a></li>\n<li><a href=\"#comparing-amr-and-ami-technologies\">Comparing AMR and AMI Technologies</a></li>\n<li><a href=\"#leak-detection-and-conservation-benefits\">Leak Detection and Conservation Benefits</a></li>\n<li><a href=\"#navigating-retrofit-complexities-in-older-buildings\">Navigating Retrofit Complexities in Older Buildings</a><ul>\n<li><a href=\"#start-with-the-mechanical-room-not-the-brochure\">Start with the mechanical room, not the brochure</a></li>\n<li><a href=\"#plan-the-access-and-ownership-questions-early\">Plan the access and ownership questions early</a></li>\n</ul>\n</li>\n<li><a href=\"#integrating-data-with-billing-and-monitoring-platforms\">Integrating Data with Billing and Monitoring Platforms</a></li>\n<li><a href=\"#evaluating-capital-expenditure-versus-turnkey-agreements\">Evaluating Capital Expenditure Versus Turnkey Agreements</a><ul>\n<li><a href=\"#capex-and-turnkey-do-different-jobs\">CAPEX and turnkey do different jobs</a></li>\n</ul>\n</li>\n<li><a href=\"#executing-a-compliant-implementation-roadmap\">Executing a Compliant Implementation Roadmap</a><ul>\n<li><a href=\"#step-1-confirm-jurisdictional-rules\">Step 1, confirm jurisdictional rules</a></li>\n<li><a href=\"#step-2-map-the-site-honestly\">Step 2, map the site honestly</a></li>\n<li><a href=\"#step-3-coordinate-the-trades\">Step 3, coordinate the trades</a></li>\n<li><a href=\"#step-4-connect-data-before-billing-starts\">Step 4, connect data before billing starts</a></li>\n<li><a href=\"#step-5-launch-with-tenant-communication\">Step 5, launch with tenant communication</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"rethinking-remote-water-meter-value\"></a></p>\n<h2>Rethinking Remote Water Meter Value</h2>\n<p>Property owners usually hear the sales pitch from a municipal lens. The pitch is simple, remote reading saves labour because nobody needs to knock on doors or walk a route. That framing misses the bigger point for multi-unit and mixed-use assets, where the meter is really a control point for revenue recovery and loss prevention.</p>\n<p>The strongest case for <strong>water meters with remote reading</strong> is precise cost allocation. When each suite or tenant is measured properly, owners stop eating usage that should have been billed elsewhere, and tenants stop arguing over estimates that never felt fair in the first place. That matters in condo buildings, rental portfolios, and mixed-use sites where even small billing errors can snowball into constant admin noise.</p>\n<p>Leak visibility is the other half of the equation. A slow leak between billing cycles looks like normal consumption until the bill lands, and by then the damage has already been paid for in wasted water, labour, and sometimes remediation. Remote reading changes that by turning water use into a monitored operational signal instead of a monthly surprise.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> if the system only helps you bill faster, you&#39;ve underused it. If it helps you find abnormal flow early, it starts protecting NOI.</p>\n</blockquote>\n<p>Toronto&#39;s system shows the logic well. The city says smaller residential meters transmit readings four times a day, larger high-use accounts transmit every hour, and each transmission lasts only <strong>0.25 seconds</strong>. Toronto also says the radio frequency used is <strong>450 to 470 MHz</strong>, licensed by Industry Canada, and that the transmitter sends only the meter serial number and consumption data, with new meters tested for accuracy as they arrive. Those details matter because they show how remote-reading systems are built for frequent capture, low-duty-cycle communication, and measurement reliability, not just convenience. <a href=\"https://www.toronto.ca/services-payments/water-environment/your-water-pipes-meter/water-meters/\">Toronto water meter details</a></p>\n<p>For owners, that means the smartest question isn&#39;t “Does it read remotely?” It&#39;s “What does it prevent?” If the answer includes leak loss, billing disputes, and avoidable site visits, the asset starts paying for itself in operating discipline, not just labour savings.</p>\n<p><a id=\"comparing-amr-and-ami-technologies\"></a></p>\n<h2>Comparing AMR and AMI Technologies</h2>\n<p>Owners make a costly mistake when they treat every remote-reading system as interchangeable. <strong>AMR</strong>, or Automated Meter Reading, and <strong>AMI</strong>, or Advanced Metering Infrastructure, solve different operating problems. Pick the wrong one, and you end up with modern-looking metering that still leaves you blind to leaks, tenant disputes, and field access headaches.</p>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>AMR (Automated Meter Reading)</th>\n<th>AMI (Advanced Metering Infrastructure)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Data collection</td>\n<td>A reader interrogates the meter from outside the building, often through a visual remote register or touch-pad</td>\n<td>Data is collected automatically through a fixed network</td>\n</tr>\n<tr>\n<td>Visibility</td>\n<td>Useful for scheduled billing reads</td>\n<td>Useful for hourly or sub-hourly usage visibility, depending on network design</td>\n</tr>\n<tr>\n<td>Operational use</td>\n<td>Basic billing automation and reduced manual access</td>\n<td>Leak alerts, trend monitoring, and broader consumption management</td>\n</tr>\n<tr>\n<td>Building fit</td>\n<td>Works when the goal is simpler read collection</td>\n<td>Works when the goal is active monitoring and faster response</td>\n</tr>\n<tr>\n<td>Management style</td>\n<td>Route-based or periodic read capture</td>\n<td>Continuous or near-continuous data flow</td>\n</tr>\n</tbody></table>\n<p>Halifax Regional Water Commission describes <strong>AMI</strong> as remote read from a central location using radio-enabled meter interface units, while the City of Timmins says AMI can provide near real-time customer access and hourly or sub-hourly usage data depending on network design. That distinction matters for owners. AMR fits a billing problem. AMI fits an operating problem. <a href=\"https://www.halifax.ca/sites/default/files/documents/home-property/water/AMITechnology-FianlReport.pdf\">Halifax Regional Water Commission AMI report</a></p>\n<p>For multi-unit properties, the capital decision should follow the pain point. If the only goal is to stop sending someone to the basement with a clipboard, AMR is enough. If the building needs early leak detection, tenant-level visibility, and faster intervention, AMI is the better fit. That is why a closer look at <a href=\"https://www.axismeter.com/blog/advanced-metering-infrastructure\">advanced metering infrastructure</a> matters before you commit to hardware.</p>\n<p>The market reads AMI as a broader data platform, not just a read collection method, and that is the right lens for portfolio owners. Use the cheaper system only when your risk profile is simple. If water loss, service friction, and retrofit complexity are already hurting NOI, buy the architecture that gives you the operating control to act on the problem, not just the ability to bill it.</p>\n<p><a id=\"leak-detection-and-conservation-benefits\"></a></p>\n<h2>Leak Detection and Conservation Benefits</h2>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0e77acc0-fedf-458a-9198-209317f14d3e/water-meters-with-remote-reading-leak-detection.jpg\" alt=\"An infographic showing the benefits of water leak detection, including potential cost savings and sustainability improvements.\"></p>\n<p>The financial case for remote reading gets much stronger when you stop talking about billing and start talking about abnormal flow. A running toilet in one unit can disappear into aggregate costs for months if nobody is watching consumption closely enough. Once the system is configured to flag patterns, that same issue becomes actionable, which is the whole point.</p>\n<p>That&#39;s why municipal deployments matter. Saskatoon reported in 2021 that it had completed more than <strong>75%</strong> of its AMI installations and that over <strong>57,000</strong> water meters were already being read remotely. It also said approximately <strong>52%</strong> of water meters had been updated since the AMI program began in <strong>2016</strong>, with daily meter-read performance greater than <strong>99%</strong>. That shows remote reading working at city scale, not as a pilot, and it proves the model can deliver reliable reads while reducing blind spots between billing periods. <a href=\"https://www.saskatoon.ca/sites/default/files/documents/transportation-utilities/saskatoon-water/meters/tu-sw_ami-lettertoresidents_feb_9_2021_final.pdf\">Saskatoon AMI update</a></p>\n<blockquote>\n<p>Remote data is only useful if somebody acts on it quickly. If a property team waits for the invoice, the leak already won.</p>\n</blockquote>\n<p>The conservation angle is more than theory. Calgary says homes with remote read-out technology let meter readers collect data without entering homes, and a 2026 British Columbia pilot described AMI meters as enabling near real-time leak detection over cellular or private radio networks. The province also said meters can help communities identify leaks and reduce water use by up to <strong>30%</strong>. For owners, that&#39;s the kind of operational signal that can justify a tougher capital conversation because the value sits in avoided waste and avoided damage, not just lower admin effort. <a href=\"https://www.calgary.ca/water/water-utility/water-meter-reading.html\">Calgary water meter reading</a></p>\n<p>The monitoring stack gets stronger when leak and flood sensors are paired with consumption data, because the meter catches the pattern and the sensor catches the event. A resource on <a href=\"https://eaglerestorationfl.com/2026/08/18/leak-detection-services/\">professional leak detection services</a> is useful context for owners who want the operational side of that workflow, not just the hardware discussion.</p>\n<p><a href=\"https://www.axismeter.com/blog/water-leak-detection-system\">Internal guide on water leak detection systems</a> is also worth reading if you&#39;re deciding how to structure alerts and response paths.</p>\n<p>The takeaway is blunt. If you only use remote reading for invoices, you&#39;re leaving the best part of the system untouched. ROI sits in faster detection, faster response, and fewer surprise losses.</p>\n<p><a id=\"navigating-retrofit-complexities-in-older-buildings\"></a></p>\n<h2>Navigating Retrofit Complexities in Older Buildings</h2>\n<p>New construction makes remote reading look easy. Older buildings do not. The retrofit challenge is usually not the meter itself, it&#39;s the mechanical room, the electrical setup, the access plan, and the communication path that needs to work around the property instead of through a clean design.</p>\n<p><a id=\"start-with-the-mechanical-room-not-the-brochure\"></a></p>\n<h3>Start with the mechanical room, not the brochure</h3>\n<p>Utilities Kingston&#39;s specifications show why this matters. Larger meters may require dedicated <strong>120V</strong> power near the meter and even remote disconnect provisions, which means the job is not just a swap of the sensing device. It can trigger electrical work, coordination with on-site trades, and careful planning around where the communication equipment lives. <a href=\"https://utilitieskingston.com/Cms_Data/Contents/UtilitiesKingston/Media/Documents/Water/Water-Meter-Specifications.pdf\">Utilities Kingston water meter specifications</a></p>\n<p>That&#39;s where many projects stall. Owners assume “remote reading” means no access issues, but older mixed-use and multi-unit buildings often have tight mechanical rooms, legacy plumbing, and uneven electrical capacity. In those buildings, the install team has to work around physical constraints, not pretend they don&#39;t exist.</p>\n<p><a id=\"plan-the-access-and-ownership-questions-early\"></a></p>\n<h3>Plan the access and ownership questions early</h3>\n<p>The second problem is responsibility. Who pays for power near the meter, who grants access to suites, and who handles replacement when a meter fails? These questions sound administrative, but they affect timeline and cost more than the hardware choice does.</p>\n<blockquote>\n<p><strong>Builder&#39;s rule:</strong> if the access plan isn&#39;t written before procurement, the project will drift into change orders.</p>\n</blockquote>\n<p>For retrofit planning, ask three things up front:</p>\n<ul>\n<li><strong>Where does power come from?</strong> Larger meters may need local electrical support, so confirm the path before ordering equipment.</li>\n<li><strong>How will access happen?</strong> Suites, locked rooms, and common areas each need a different scheduling plan.</li>\n<li><strong>What happens when a device needs investigation?</strong> A system only works if field service can reach it without delaying billing or disrupting residents.</li>\n</ul>\n<p>The practical lesson is simple. Remote reading reduces routine entry, but it does not eliminate building-side coordination. Owners who plan for trades, access, and commissioning early usually get a cleaner deployment and less tenant disruption. Owners who don&#39;t tend to discover the hard parts after the purchase order is already signed.</p>\n<p><a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">Ultrasonic flow meters and retrofit planning</a> is a useful reference if you&#39;re comparing meter types for constrained spaces.</p>\n<p><a id=\"integrating-data-with-billing-and-monitoring-platforms\"></a></p>\n<h2>Integrating Data with Billing and Monitoring Platforms</h2>\n<p>Hardware without software integration just creates a new pile of unread data. The value of <strong>water meters with remote reading</strong> comes alive only when consumption data flows into billing, validation, and resident-facing tools that someone uses. That&#39;s the difference between owning sensors and operating a system.</p>\n<p>The first requirement is clean billing logic. The meter reading has to land in a platform that can standardise invoices, separate common area use from tenant use, and flag odd reads before the bill goes out. If that doesn&#39;t happen, you&#39;ve replaced manual reading errors with digital processing errors, which is a poor trade for any owner.</p>\n<p>The second requirement is visibility. Tenant portals change the conversation because residents can see their own usage instead of waiting for a monthly surprise. That usually lowers friction, not because people love dashboards, but because they trust a bill they can trace back to their own behaviour. For owners, trust means fewer disputes, fewer credits, and less staff time spent explaining charges that should have been obvious.</p>\n<p>A useful reference on <a href=\"https://prestonwoodlandscape.com/smart-water-management-technologies/\">smart irrigation cost savings</a> sits in a related space, because the same logic applies to outdoor and site water. Once the data is visible and actionable, consumption management becomes part of operations, not just accounting.</p>\n<p>There&#39;s also a practical reason to connect monitoring and billing in one workflow. If a pattern shows abnormal usage, the team can investigate before invoice generation, not after. That keeps bad data out of the bill and makes the rest of the process faster to defend.</p>\n<p>Axis Meter Solutions is one option in this space, since it provides water submetering with remote collection, tenant billing, and leak detection as part of a managed programme. That kind of integrated setup matters when the owner wants the operational outcome, not a box of disconnected hardware.</p>\n<p>The best systems make water data usable at three levels at once. Owners see NOI risk, managers see exceptions, and residents see their own consumption. If one of those layers is missing, the deployment is incomplete.</p>\n<p><a id=\"evaluating-capital-expenditure-versus-turnkey-agreements\"></a></p>\n<h2>Evaluating Capital Expenditure Versus Turnkey Agreements</h2>\n<p>A weak financial model can turn remote reading into a bad asset decision. Owners tend to fixate on the hardware price and ignore the rest of the lifecycle. That is the wrong lens. Meters need maintenance, replacement cycles, communication support, and periodic correction to keep producing usable data.</p>\n<p>Kitchener&#39;s AMI feasibility work makes the capital question plain. The city found that every evaluated AMI option produced a significant negative net present value over a <strong>20-year</strong> operating period, with the water-only option estimated at <strong>$38.4 million</strong> and a preliminary customer impact of about <strong>$18/year</strong> on wet utilities. Remote reading still has value, but the economic case has to include network costs and replacement burden, not just labour savings. <a href=\"https://lf.kitchener.ca/WebLinkExt/DocView.aspx?id=1981671&dbid=0&repo=CityofKitchener\">Kitchener AMI report</a></p>\n<p><a id=\"capex-and-turnkey-do-different-jobs\"></a></p>\n<h3>CAPEX and turnkey do different jobs</h3>\n<p>A capital purchase gives the owner control, and it also puts every future headache on the owner&#39;s desk. Batteries fail. Meters age. Firmware and network components need updates. Someone still has to coordinate repairs when the system misbehaves. A turnkey agreement shifts that burden to the provider and makes cost more predictable, which is usually the better fit for multi-property portfolios that care more about operating certainty than asset ownership.</p>\n<p>The trade-off is straightforward.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0b3a3f6d-ab74-445c-9586-3429cd25f410/water-meters-with-remote-reading-capex-turnkey.jpg\" alt=\"A comparison chart showing the benefits and drawbacks of CAPEX purchases versus turnkey agreements for metering assets.\"></p>\n<p>For most owners, the decision is not philosophical. It is whether they want to carry technical and maintenance risk themselves, or pay for a managed outcome with less internal burden. Smaller portfolios with technical staff can justify CAPEX. Buildings with stretched maintenance teams usually do better with a turnkey model.</p>\n<p>Price the full lifecycle, not just installation. That is where the financial truth sits.</p>\n<p>The same logic applies to exterior and site water use. Once the data is visible and actionable, consumption control becomes an operating discipline, not just an accounting exercise.</p>\n<p><a id=\"executing-a-compliant-implementation-roadmap\"></a></p>\n<h2>Executing a Compliant Implementation Roadmap</h2>\n<p>A remote-reading project should move in a controlled sequence, not as a loose collection of trades and paperwork. The cleanest deployments start with compliance, proceed through design and procurement, then end with commissioning and tenant communication. If you skip any of those steps, you usually pay for it later in delays or billing issues.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a2e8c654-17ed-44e3-a561-0a9650fe77da/water-meters-with-remote-reading-implementation-roadmap.jpg\" alt=\"A five-step roadmap infographic for installing compliant submetering systems with remote reading for water billing.\"></p>\n<p><a id=\"step-1-confirm-jurisdictional-rules\"></a></p>\n<h3>Step 1, confirm jurisdictional rules</h3>\n<p>Start with the local measurement and billing requirements before you touch the building. The wrong meter specification or billing workflow can create a compliance problem that&#39;s more expensive than the hardware. The reason to do this first is simple, compliance errors don&#39;t get cheaper after installation.</p>\n<p><a id=\"step-2-map-the-site-honestly\"></a></p>\n<h3>Step 2, map the site honestly</h3>\n<p>Do a real site audit, not a paper exercise. Count units, inspect mechanical rooms, confirm access constraints, and identify whether power or communication work is needed near larger meters. If the site is older, assume there will be exceptions and plan for them before procurement.</p>\n<p><a id=\"step-3-coordinate-the-trades\"></a></p>\n<h3>Step 3, coordinate the trades</h3>\n<p>Installation works best when property managers, electricians, and the meter provider are all aligned on access windows and sequencing. That coordination reduces disruption for residents and avoids the last-minute scramble that creates mistrust. A well-run project feels boring, and that&#39;s exactly what you want.</p>\n<p><a id=\"step-4-connect-data-before-billing-starts\"></a></p>\n<h3>Step 4, connect data before billing starts</h3>\n<p>Commissioning is not complete until the meter data lands cleanly in the billing platform. Test reads, validate formats, and make sure exceptions are visible before the first invoice goes out. That protects the owner from disputes and protects the resident from bad bills.</p>\n<p><a id=\"step-5-launch-with-tenant-communication\"></a></p>\n<h3>Step 5, launch with tenant communication</h3>\n<p>Residents should know what changed, why it changed, and how their usage will now be measured. Clear communication lowers friction fast because people are less suspicious when they understand the process. Once the system is live, the tangible value begins: accurate billing, better leak visibility, and a cleaner operating model.</p>\n<p>For owners and operators who want a managed path, Axis Meter Solutions offers turnkey water submetering with remote collection, installation coordination, billing, and ongoing service under long-term agreements. If you&#39;re planning a retrofit or a new build, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> and compare the operational model against your building&#39;s needs before you commit capital.</p>",
+  "tags": [
+    "water meters with remote reading",
+    "submetering",
+    "AMI water meters",
+    "leak detection",
+    "utility billing"
+  ],
+  "title": "Water Meters with Remote Reading for Properties",
+  "updatedAt": "2026-09-28T06:55:25.871Z"
+}
