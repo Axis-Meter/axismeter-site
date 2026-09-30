@@ -59,8 +59,8 @@ export default function ResidentsPage() {
               >
                 Access Your Account →
               </a>
-              <Link href="/help/reset-password" className="mt-4 block text-accent hover:underline">
-                Forgot your password? Watch the reset guide →
+              <Link href="https://myaccount.axismeter.com/help" className="mt-4 block text-accent hover:underline">
+                Visit the Help Centre →
               </Link>
             </div>
           </div>

@@ -9,7 +9,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/submetering-company', '/property-owners', '/residents',
-    '/case-studies', '/resources', '/help/reset-password',
+    '/case-studies', '/resources',
     '/faq', '/solutions', '/solutions/electricity-submetering', '/solutions/water-submetering',
     '/solutions/thermal-submetering', '/solutions/gas-submetering', '/solutions/common-area-metering',
     '/solutions/leak-detection',
