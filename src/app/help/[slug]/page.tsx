@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getHelpArticle } from '@/lib/help-centre';
-import { ArticleBody } from '../_components/ArticleBody';
+import { ArticleInstructions } from '../_components/ArticleInstructions';
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -38,11 +38,7 @@ export default async function HelpArticlePage({ params }: Props) {
           </div>
         </section>
       )}
-      <div className="mx-auto mt-10 max-w-3xl"><ArticleBody body={article.body} /></div>
-      <aside className="mx-auto mt-12 max-w-3xl rounded-xl border border-gray-200 p-6">
-        <h2 className="text-lg font-semibold">Still need help?</h2>
-        <p className="mt-2 text-gray-600">Email <a href="mailto:info@axismeter.com" className="text-navy underline">info@axismeter.com</a> or call <a href="tel:+12267025500" className="text-navy underline">226-702-5500</a>.</p>
-      </aside>
+      <ArticleInstructions body={article.body} />
     </article>
   );
 }
