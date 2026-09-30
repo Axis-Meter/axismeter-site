@@ -21,7 +21,7 @@ const propertyOwnerLinks = [
 ];
 
 const residentLinks = [
-  { name: "Help Centre", href: "https://myaccount.axismeter.com/help", external: true },
+  { name: "Help Centre", href: "/help" },
   { name: "Resident Information", href: "/residents" },
   { name: "Frequently Asked Questions", href: "/faq" },
   { name: "My Account Login", href: "https://myaccount.axismeter.com", external: true },

@@ -149,7 +149,7 @@ export default function FaqPage() {
           <aside className="mb-12 rounded-xl border border-gray-200 bg-gray-50 p-6">
             <h2 className="text-xl font-semibold text-gray-900">Need help with your account?</h2>
             <p className="mt-2 text-gray-600">Find step-by-step articles and videos in the Axis Meter Help Centre.</p>
-            <Link href="https://myaccount.axismeter.com/help" className="mt-3 inline-block font-semibold text-gray-900 underline">
+            <Link href="/help" className="mt-3 inline-block font-semibold text-gray-900 underline">
               Browse help articles and videos →
             </Link>
           </aside>

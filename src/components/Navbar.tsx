@@ -23,7 +23,7 @@ const markets = [
 ];
 
 const resources = [
-  { name: "Help Centre", href: "https://myaccount.axismeter.com/help" },
+  { name: "Help Centre", href: "/help" },
   { name: "Submetering 101", href: "/blog/what-is-a-submeter-and-how-does-it-work" },
   { name: "FAQ", href: "/faq" },
   { name: "Blog", href: "/blog" },

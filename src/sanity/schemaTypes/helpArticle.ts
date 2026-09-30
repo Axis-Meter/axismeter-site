@@ -35,7 +35,7 @@ export const helpArticle = defineType({
   type: "document",
   fields: [
     defineField({ name: "title", title: "Title", type: "string", validation: (rule) => rule.required().max(120) }),
-    defineField({ name: "slug", title: "Link name", type: "slug", options: { source: "title", maxLength: 96 }, description: "Published at myaccount.axismeter.com/help/ followed by this name. Keep it unchanged after sharing the link.", validation: (rule) => rule.required().custom((value) => !value?.current || /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value.current) ? true : "Use lowercase letters, numbers and hyphens.") }),
+    defineField({ name: "slug", title: "Link name", type: "slug", options: { source: "title", maxLength: 96 }, description: "Published at www.axismeter.com/help/ followed by this name. Keep it unchanged after sharing the link.", validation: (rule) => rule.required().custom((value) => !value?.current || /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(value.current) ? true : "Use lowercase letters, numbers and hyphens.") }),
     defineField({ name: "summary", title: "Short summary", type: "text", rows: 3, validation: (rule) => rule.required().max(240) }),
     defineField({ name: "category", title: "Category", type: "string", options: { list: categories }, validation: (rule) => rule.required() }),
     defineField({ name: "keywords", title: "Search keywords", type: "array", of: [{ type: "string" }], options: { layout: "tags" } }),
