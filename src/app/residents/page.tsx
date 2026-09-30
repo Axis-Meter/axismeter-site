@@ -59,7 +59,7 @@ export default function ResidentsPage() {
               >
                 Access Your Account →
               </a>
-              <Link href="https://myaccount.axismeter.com/help" className="mt-4 block text-accent hover:underline">
+              <Link href="/help" className="mt-4 block text-accent hover:underline">
                 Visit the Help Centre →
               </Link>
             </div>

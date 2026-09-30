@@ -50,28 +50,27 @@ the recoverable, versioned copy if Sanity is ever removed.
 
 ## Help Articles
 
-The same Studio now edits `helpArticle` documents for the public Help Centre at
-`https://myaccount.axismeter.com/help`. Blog posts still publish to
+The same Studio edits `helpArticle` documents for the public Help Centre at
+`https://www.axismeter.com/help`. Blog posts publish to
 `https://www.axismeter.com/blog`; there is one editor and one Sanity project.
 The Studio display title is **Axis Meter Content**.
 
-Choose **Help Article → New** for a blank guide, or choose **Password reset guide
-(with video)** from the new-document template menu for the prepared first guide.
-Each help article has a title, stable URL slug, summary, category, search keywords,
-rich-text instructions, images, optional MP4, poster and English WebVTT captions.
-Uploaded media takes priority over existing HTTPS media URLs. The reset template
-uses the finished recording hosted by `axis-app` under `/help-media/`.
+Choose **Help Article → New** for a blank guide, or **Password reset guide
+(with video)** from the new-document template menu. Each article has a title,
+stable slug, summary, category, search keywords, written instructions, images,
+and optional MP4 video, cover and English WebVTT captions. Uploaded media takes
+priority over existing HTTPS URLs. The reset template uses the recording shipped
+with this website under `/help-media/`.
 
-Drafts remain unpublished. Publish edits to update the Help Centre; the account
-application refreshes its content cache after 60 seconds on a subsequent request.
-Unpublish a guide or publish **Hide from the Help Centre** to remove it. Keep
-slugs stable once shared. Content and assets are public: do not add customer
-information, reset codes, passwords or internal operating instructions.
+Drafts remain unpublished. Publish edits to update the Help Centre; its cache
+revalidates after 60 seconds on subsequent requests. Unpublish a guide or publish
+**Hide from the Help Centre** to remove it. Keep shared slugs stable and never
+include customer information, reset codes, passwords or private instructions.
 
-The editor schema ships with this website. The public library and finished reset
-video ship separately in `axis-app`; deploy both before publishing the first
-article. A new editor is not installed on the account domain. No paid Sanity
-features or plan changes are required by this implementation.
+The editor, public pages and video are all owned by this repository. The account
+application only links and redirects here; no second editor or paid Sanity feature
+is needed. Deploy the website pages and media before publishing the first draft.
+See [Public Help Centre](public-help-centre.md) for implementation and release notes.
 
-The existing daily backup workflow also exports published help documents to
+The daily backup workflow also exports published help documents to
 `content-backups/help` via `scripts/export-sanity-help.mjs`.

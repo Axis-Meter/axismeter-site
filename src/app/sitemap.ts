@@ -1,11 +1,19 @@
 import { MetadataRoute } from 'next'
 import { getBlogPostSummaries } from '@/lib/blog'
+import { getHelpArticles } from '@/lib/help-centre'
 
-export const revalidate = 86_400
+export const revalidate = 60
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = 'https://www.axismeter.com'
-  const blogPosts = await getBlogPostSummaries()
+  const [blogPosts, helpArticles] = await Promise.all([
+    getBlogPostSummaries(),
+    getHelpArticles().catch(() => {
+      // Keep static and blog URLs available during a Help Centre CMS outage.
+      console.warn('Help articles unavailable while generating the sitemap')
+      return []
+    }),
+  ])
 
   const staticPages = [
     '', '/about', '/contact', '/how-it-works', '/submetering-company', '/property-owners', '/residents',
@@ -19,7 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     '/utilities/thermal-energy-metering',
     '/markets/residential-rentals', '/markets/condos', '/markets/commercial',
     '/markets/mixed-use', '/markets/student-housing', '/markets/affordable-housing',
-    '/blog', '/privacy-policy', '/terms', '/terms-and-conditions', '/customer-services-agreement',
+    '/blog', '/help', '/privacy-policy', '/terms', '/terms-and-conditions', '/customer-services-agreement',
   ]
 
   const pages: MetadataRoute.Sitemap = staticPages.map((path) => ({
@@ -35,5 +43,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }))
 
-  return [...pages, ...blogPages]
+  const helpPages: MetadataRoute.Sitemap = helpArticles.map((article) => ({
+    url: `${base}/help/${article.slug}`,
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }))
+
+  return [...pages, ...blogPages, ...helpPages]
 }
