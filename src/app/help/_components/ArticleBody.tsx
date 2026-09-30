@@ -3,8 +3,8 @@ import { helpImageSchema, safeHelpLink, type HelpArticle } from '@/lib/help-cont
 
 const components: PortableTextComponents = {
   block: {
-    normal: ({ children }) => <p className="my-4 leading-7 text-gray-600">{children}</p>,
-    h2: ({ children }) => <h2 className="mb-4 mt-10 text-2xl font-semibold">{children}</h2>,
+    normal: ({ children }) => <p className="mt-3 break-words text-[15px] leading-7 text-gray-600 first:mt-0 sm:text-base">{children}</p>,
+    h2: ({ children }) => <h2 className="mb-3 text-lg font-semibold leading-7 tracking-tight text-navy sm:text-xl">{children}</h2>,
     h3: ({ children }) => <h3 className="mb-3 mt-7 text-xl font-semibold">{children}</h3>,
   },
   list: {

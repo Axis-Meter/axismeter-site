@@ -26,6 +26,13 @@ Search matches words across title, summary, category, keywords and body text.
 Category buttons use the categories present in published articles. Rich text uses
 Portable Text and safe links, never raw HTML.
 
+Below the video, level-two headings divide the written guide into numbered
+sections. A desktop contents menu links to those sections; support and account
+links sit alongside them, moving below the instructions on mobile. Introductory
+content, images, lists and subheadings retain their original order. Articles
+without level-two headings still render their full body. Editors continue to
+manage all article text in Sanity without extra fields.
+
 ## Videos and the first guide
 
 The finished 1080p reset recording, cover and English WebVTT captions are in
