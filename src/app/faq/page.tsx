@@ -146,6 +146,13 @@ export default function FaqPage() {
 
       <section className="bg-white py-16 sm:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <aside className="mb-12 rounded-xl border border-gray-200 bg-gray-50 p-6">
+            <h2 className="text-xl font-semibold text-gray-900">Forgot your account password?</h2>
+            <p className="mt-2 text-gray-600">Follow our short video and written steps to get back into your account.</p>
+            <Link href="/help/reset-password" className="mt-3 inline-block font-semibold text-gray-900 underline">
+              Watch the password-reset guide →
+            </Link>
+          </aside>
           {sections.map((section) => (
             <div key={section.title} className="mb-16 last:mb-0">
               <h2 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">

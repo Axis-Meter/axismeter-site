@@ -59,6 +59,9 @@ export default function ResidentsPage() {
               >
                 Access Your Account →
               </a>
+              <Link href="/help/reset-password" className="mt-4 block text-accent hover:underline">
+                Forgot your password? Watch the reset guide →
+              </Link>
             </div>
           </div>
         </div>
