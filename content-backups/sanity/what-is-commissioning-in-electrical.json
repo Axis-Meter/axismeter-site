@@ -1,0 +1,2759 @@
+{
+  "_createdAt": "2026-10-02T07:07:40Z",
+  "_id": "outrank-0db05632-b71c-4542-86df-aca4786446ba",
+  "_rev": "Uf53TPBQM5Yqmdb4Hx6tV8",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-02T07:07:40Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "a5a4342625f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f5c3b84836b",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning is a structured quality-assurance process that verifies installed electrical systems are safe, compliant, and functioning exactly as designed before they're energized. In Canada, modern electrical commissioning practice traces back to "
+        },
+        {
+          "_key": "dece91cf9ed7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1977"
+        },
+        {
+          "_key": "092c53ad4350",
+          "_type": "span",
+          "marks": [],
+          "text": ", with the process later expanded through formal guidance and standards."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e07691a3874d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1116ea0fee09",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager often meets commissioning at an uncomfortable moment. The building has reached handover, tenants are preparing to move in, and someone discovers that a protective relay has the wrong setting, a control signal never reaches the building automation system, or a submeter appears online but sends incomplete data to the billing platform. The equipment may look finished, yet the installation still isn't ready for dependable service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e698890d11a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6dfc433d3714",
+          "_type": "span",
+          "marks": [],
+          "text": "That gap is why commissioning matters. It turns installation quality into documented evidence, giving owners a defensible answer to a practical question: "
+        },
+        {
+          "_key": "df9f19ad9860",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "will this electrical system operate safely and correctly under the conditions it was designed to handle?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b16e028ae7ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c330bacef88e",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "02ae344c507b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb676cdd1ad0",
+          "_type": "span",
+          "marks": [
+            "3ef3eebdae44"
+          ],
+          "text": "Why Electrical Commissioning Matters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3ef3eebdae44",
+          "_type": "link",
+          "href": "#why-electrical-commissioning-matters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "35ec26602348",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42721ffac0e7",
+          "_type": "span",
+          "marks": [
+            "b9999e54d697"
+          ],
+          "text": "The cost of treating handover as the finish line"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b9999e54d697",
+          "_type": "link",
+          "href": "#the-cost-of-treating-handover-as-the-finish-line"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bb37c8d69c9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53e65c71af61",
+          "_type": "span",
+          "marks": [
+            "ff8042d0c079"
+          ],
+          "text": "Defining Electrical Commissioning and Its Goals"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ff8042d0c079",
+          "_type": "link",
+          "href": "#defining-electrical-commissioning-and-its-goals"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "513bb0cc1977",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7689981f5914",
+          "_type": "span",
+          "marks": [
+            "3be51152a2bd"
+          ],
+          "text": "Three questions every commissioning plan should answer"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3be51152a2bd",
+          "_type": "link",
+          "href": "#three-questions-every-commissioning-plan-should-answer"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "92114ae5a826",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4958a58702a0",
+          "_type": "span",
+          "marks": [
+            "b7ec83629af8"
+          ],
+          "text": "Why a startup check isn't enough"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b7ec83629af8",
+          "_type": "link",
+          "href": "#why-a-startup-check-isnt-enough"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "62590997e84f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eac530b19688",
+          "_type": "span",
+          "marks": [
+            "68cced0be586"
+          ],
+          "text": "The Step by Step Commissioning Process"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "68cced0be586",
+          "_type": "link",
+          "href": "#the-step-by-step-commissioning-process"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "25303ac37754",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "576a76ab86ee",
+          "_type": "span",
+          "marks": [
+            "971824d82d06"
+          ],
+          "text": "Plan before installation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "971824d82d06",
+          "_type": "link",
+          "href": "#plan-before-installation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f37fc58ba7da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "166d8c85768d",
+          "_type": "span",
+          "marks": [
+            "daa7d59ccde6"
+          ],
+          "text": "Inspect and test during construction"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "daa7d59ccde6",
+          "_type": "link",
+          "href": "#inspect-and-test-during-construction"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "505b8c352efa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05780f5c81c5",
+          "_type": "span",
+          "marks": [
+            "b31a3b647674"
+          ],
+          "text": "Validate performance and close the record"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b31a3b647674",
+          "_type": "link",
+          "href": "#validate-performance-and-close-the-record"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ec05d8798022",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67176c9df31f",
+          "_type": "span",
+          "marks": [
+            "6b89df8ef4de"
+          ],
+          "text": "Standard Electrical Systems vs Submetering Projects"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6b89df8ef4de",
+          "_type": "link",
+          "href": "#standard-electrical-systems-vs-submetering-projects"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9105e12bb3c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f88a4bac43d9",
+          "_type": "span",
+          "marks": [
+            "992a9024c2d8"
+          ],
+          "text": "Functional accuracy is not billing validity"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "992a9024c2d8",
+          "_type": "link",
+          "href": "#functional-accuracy-is-not-billing-validity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "33f41dffe24f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18b9ab1f47f9",
+          "_type": "span",
+          "marks": [
+            "7fb2bc0a8763"
+          ],
+          "text": "Stakeholders and Regulatory Standards"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7fb2bc0a8763",
+          "_type": "link",
+          "href": "#stakeholders-and-regulatory-standards"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a88c21c16959",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25ffa795d311",
+          "_type": "span",
+          "marks": [
+            "973f19a3f34a"
+          ],
+          "text": "Responsibilities must be assigned early"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "973f19a3f34a",
+          "_type": "link",
+          "href": "#responsibilities-must-be-assigned-early"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "45f44e0c9235",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3fb4c7290145",
+          "_type": "span",
+          "marks": [
+            "9ed0d16820a7"
+          ],
+          "text": "Canadian standards provide the framework"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "9ed0d16820a7",
+          "_type": "link",
+          "href": "#canadian-standards-provide-the-framework"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ee3a1d3e4497",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e508e91bf060",
+          "_type": "span",
+          "marks": [
+            "181b41f1afdb"
+          ],
+          "text": "Common Risks and Implementation Best Practices"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "181b41f1afdb",
+          "_type": "link",
+          "href": "#common-risks-and-implementation-best-practices"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8973b7086144",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4040b5506f3",
+          "_type": "span",
+          "marks": [
+            "f90e347c2b54"
+          ],
+          "text": "The failures that deserve attention"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f90e347c2b54",
+          "_type": "link",
+          "href": "#the-failures-that-deserve-attention"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9cd04411023c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34086e78ef99",
+          "_type": "span",
+          "marks": [
+            "753d9c111c22"
+          ],
+          "text": "A defensible implementation routine"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "753d9c111c22",
+          "_type": "link",
+          "href": "#a-defensible-implementation-routine"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9aca10dda936",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2afbfe375a7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ace3b6d0bbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6430adcc99d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Electrical Commissioning Matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "803983727cd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9760e2e7fbf5",
+          "_type": "span",
+          "marks": [],
+          "text": "A new building can pass a visual walk-through and still contain faults that only appear during operation. A loose termination may remain unnoticed until the equipment carries a realistic load. A protective device may energize successfully while failing to respond correctly to a simulated fault. In a multi-unit property, a meter may display a reading while assigning consumption to the wrong suite."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "763a8a1858e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af9fb571aaab",
+          "_type": "span",
+          "marks": [],
+          "text": "Consider a commercial building after handover. The main switchgear starts, lighting works, and occupants move in. Shortly afterward, a fire alarm interface fails to communicate with the power-control system, an emergency transfer sequence doesn't behave as intended, and tenant utility invoices cannot be issued because several meters aren't reconciling with the master meter. None of these issues necessarily proves that the equipment was installed carelessly. They show that "
+        },
+        {
+          "_key": "9784739af15d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "startup alone doesn't prove system performance"
+        },
+        {
+          "_key": "f89b8f17a5bc",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef5e9257835d",
+      "_type": "externalImage",
+      "alt": "A technician wearing a hard hat inspects electrical switchgear panels with a tablet in an office building.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7966c012-d530-4ab9-ba5a-9cab7dd9ece2/what-is-commissioning-in-electrical-electrical-inspector.jpg"
+    },
+    {
+      "_key": "bae788a152e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdb0e8fee9c4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0cb955c53b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0cf1fc742dbd",
+          "_type": "span",
+          "marks": [],
+          "text": "The cost of treating handover as the finish line"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "46bccf246b9c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14bcb71ca266",
+          "_type": "span",
+          "marks": [],
+          "text": "When teams defer verification, the owner usually pays for the resulting uncertainty through rework, access coordination, tenant disruption, delayed occupancy activities, or disputed charges. Troubleshooting also becomes harder after finishes are complete and several contractors have left the site. A commissioning record created before handover gives the property team a clearer starting point when a problem appears later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d62fef20f98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89159da5a0b1",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian guidance treats commissioning as a "
+        },
+        {
+          "_key": "30b0a524d17b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "quality-management process"
+        },
+        {
+          "_key": "0bca35ce25a7",
+          "_type": "span",
+          "marks": [],
+          "text": ", not a ceremonial inspection. Federal commissioning practice developed from early public-sector work and later incorporated mechanical and electrical systems into organised project procedures. The Canadian building-commissioning standard identifies incoming, main, and branch distribution, along with fire alarm and detection systems, among the electrical systems that may require verification. "
+        },
+        {
+          "_key": "ef40201743b0",
+          "_type": "span",
+          "marks": [
+            "df4970af9ebb"
+          ],
+          "text": "CSA Z320"
+        },
+        {
+          "_key": "551fc9396619",
+          "_type": "span",
+          "marks": [],
+          "text": " provides the relevant Canadian standard reference for building commissioning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "df4970af9ebb",
+          "_type": "link",
+          "href": "https://webstore.ansi.org/standards/csa/csaz3202011"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9ea51818e629",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c77ba3bb0812",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "ff007630dcda",
+          "_type": "span",
+          "marks": [],
+          "text": " If a system affects life safety, power continuity, tenant charges, or the operation of another building system, don't accept “it turns on” as proof that commissioning is complete."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "4fa2b3e4ada6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "adcd73f0f5b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical commissioning is therefore a risk-control activity. It helps the owner confirm that installation matches the approved design, protective functions operate as intended, interfaces work together, and the handover package contains enough evidence for future maintenance and audits."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac78893aa326",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2f17e9995dc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f09a31588f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2bc06ec3b383",
+          "_type": "span",
+          "marks": [],
+          "text": "Defining Electrical Commissioning and Its Goals"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c767e24421af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac991b8e751c",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical commissioning verifies that an installed or upgraded system is "
+        },
+        {
+          "_key": "7927c76ff395",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "correctly installed, safe to energize, aligned with the design, and capable of performing under expected operating conditions"
+        },
+        {
+          "_key": "b631a6204dd6",
+          "_type": "span",
+          "marks": [],
+          "text": ". It includes more than a final startup check because a system can operate in a limited condition while still failing its protection, control, measurement, or communication requirements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9c4677044cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36f0cdcdfeb5",
+          "_type": "span",
+          "marks": [],
+          "text": "The Canadian approach treats commissioning as an integrated quality process. The relevant work may include visual inspection, insulation resistance testing, contact resistance testing, protective-device functional testing, relay testing, and verification of control and protection schemes. "
+        },
+        {
+          "_key": "3d4c6780aff7",
+          "_type": "span",
+          "marks": [
+            "5ec3f5a1b5a1"
+          ],
+          "text": "Independent electrical commissioning guidance"
+        },
+        {
+          "_key": "be6ec0a31885",
+          "_type": "span",
+          "marks": [],
+          "text": " describes these activities as ways to find wiring errors, incorrect relay settings, and degraded insulation before first energization."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5ec3f5a1b5a1",
+          "_type": "link",
+          "href": "https://www.kroon.ca/commission-testing/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c498992422a3",
+      "_type": "externalImage",
+      "alt": "A diagram defining electrical commissioning as the process of verifying that systems perform according to their design.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b0969b2e-ff4d-4dbf-afbc-f6c81f3e1f52/what-is-commissioning-in-electrical-commissioning-process.jpg"
+    },
+    {
+      "_key": "a81f3dd2af8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08d225963884",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcd077accd14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cc088720f7c",
+          "_type": "span",
+          "marks": [],
+          "text": "Three questions every commissioning plan should answer"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "18813989304a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9eb9fa3115bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Is the system safe?"
+        },
+        {
+          "_key": "c0ea3c6f0be1",
+          "_type": "span",
+          "marks": [],
+          "text": " Inspectors verify equipment condition, clearances, connections, insulation, grounding, protection, and interlocks. The precise tests depend on the equipment and specification, but the objective is consistent: establish that people and assets aren't exposed to an avoidable electrical hazard when the system is energized or operated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "403563105737",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23030d93d5e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Does the installation match the design intent?"
+        },
+        {
+          "_key": "2d2d56f8946f",
+          "_type": "span",
+          "marks": [],
+          "text": " The team compares installed equipment, wiring, settings, labels, and controls with the approved drawings and specifications. This comparison allows a project to identify a relay setting that differs from the coordination study, a current transformer installed in the wrong orientation, or a control point omitted from the field installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35734e2fdbab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e34cd92b3be2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Will the system perform as required?"
+        },
+        {
+          "_key": "9dea8be616b8",
+          "_type": "span",
+          "marks": [],
+          "text": " Functional performance testing challenges the installation through expected sequences and operating conditions. The question isn't whether a breaker closes. It's whether the correct device responds, the intended alarm appears, the backup sequence starts, and connected systems exchange the signals they need."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e818eb79eae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "436d0b85fb30",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b343ec8d16f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12a91dc953ec",
+          "_type": "span",
+          "marks": [],
+          "text": "Why a startup check isn't enough"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b5aa06794e98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82a2734dc051",
+          "_type": "span",
+          "marks": [],
+          "text": "Startup usually confirms that equipment can be placed into operation. Commissioning asks whether it operates "
+        },
+        {
+          "_key": "b14ecb8db152",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "correctly, repeatedly, and in coordination with the wider facility"
+        },
+        {
+          "_key": "c745f1207186",
+          "_type": "span",
+          "marks": [],
+          "text": ". That distinction protects asset longevity because early defects can cause nuisance trips, overheating, incorrect load allocation, or premature equipment stress."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46d264bfc0e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "769ba2ffb9e4",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner should expect evidence, not verbal reassurance. A useful commissioning package may contain approved procedures, pre-functional check sheets, test records, settings, deficiency logs, corrective-action records, functional performance results, and updated as-built information. Canadian federal specifications identify dedicated requirements for commissioning plans and forms, reinforcing that documentation is part of the deliverable rather than an administrative afterthought. Canada's National Master Specification commissioning requirements provides a practical reference for this documentation-led approach."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d628850f55b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcda540c5dc4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b85cc7d7eed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6e071a12c81",
+          "_type": "span",
+          "marks": [],
+          "text": "The Step by Step Commissioning Process"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7f1c91fb0520",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e10a19aece2b",
+          "_type": "span",
+          "marks": [],
+          "text": "A well-run project introduces commissioning before equipment arrives on site. The commissioning authority, owner, electrical contractor, controls contractor, testing provider, and design team need a shared definition of success. That definition should identify the systems covered, the required tests, the responsible party for each test, the acceptance criteria, and the records needed at handover."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2d36d0dd009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ace4328229d5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63b0c13a7e3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2259a6855c44",
+          "_type": "span",
+          "marks": [],
+          "text": "Plan before installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "44dbcd5721e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c6e3747eda2",
+          "_type": "span",
+          "marks": [],
+          "text": "The first stage converts design intent into a working plan. Review the single-line diagrams, equipment schedules, protection requirements, control sequences, metering arrangements, and owner operating priorities. Include commissioning activities in the construction schedule so testing isn't squeezed into the final days before occupancy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1c147010ae0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45d33739f5e2",
+          "_type": "span",
+          "marks": [],
+          "text": "The plan should also establish how the team will manage deficiencies. A failed test needs an owner, a corrective action, a retest requirement, and a clear status. Without that structure, unresolved items can disappear into email threads or remain hidden behind a general statement that commissioning is “substantially complete.”"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ae36e8bad1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98b3bd444324",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88befb8427bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9522c8220fdd",
+          "_type": "span",
+          "marks": [],
+          "text": "Inspect and test during construction"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "cea93e8ad389",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06e87a83a8e3",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation review begins before final energization. The team checks equipment condition, conductor identification, terminations, labels, grounding, cable routes, settings, and interfaces. Testing may include insulation resistance, contact resistance, relay operation, protective-device functions, and control-scheme verification, depending on the system and project specification."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3aaa76634b45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "226f9f9ba5bd",
+          "_type": "span",
+          "marks": [],
+          "text": "Testing should occur in a controlled sequence. First inspect and document the installed condition. Then complete pre-functional checks and equipment startup. After that, test the interaction between systems, such as normal and emergency power, fire alarm interfaces, building controls, and load-management functions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0cf30704b95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b5aab1f7a05",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78019383fed1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4715938ee598",
+          "_type": "span",
+          "marks": [],
+          "text": "Validate performance and close the record"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e2716eb85bed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbac090fd9be",
+          "_type": "span",
+          "marks": [],
+          "text": "Functional performance testing challenges the system under realistic sequences rather than isolated component checks. Canadian project specifications describe commissioning as a structured process involving dry runs, startup, control adjustment, troubleshooting, service verification, and reports covering inspected, measured, and tested items. Dalhousie's electrical commissioning specification.pdf) illustrates how a project can require the contractor to rehearse functional performance testing before formal witnessing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd018be67061",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22d3c5798a01",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager should ask for these five checkpoints:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86527f3e1ad0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1987acb90f7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pre-construction planning:"
+        },
+        {
+          "_key": "d63ee5788057",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm scope, schedules, responsibilities, and acceptance criteria."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3194452e7807",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee3f34707c91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation review:"
+        },
+        {
+          "_key": "cc4113d526b2",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare field conditions with drawings, specifications, and equipment data."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3b9a5192da62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "474ffe4e03bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Testing and verification:"
+        },
+        {
+          "_key": "779b1917dd91",
+          "_type": "span",
+          "marks": [],
+          "text": " Complete safety, functional, protection, and interface tests."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d56c062bd939",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c5a0cb22d3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Defect resolution:"
+        },
+        {
+          "_key": "6fdb44f12538",
+          "_type": "span",
+          "marks": [],
+          "text": " Record each issue, correct it, and repeat the affected test."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57f66c59205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd34822dcc9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Handover and documentation:"
+        },
+        {
+          "_key": "e73218072515",
+          "_type": "span",
+          "marks": [],
+          "text": " Deliver reports, settings, as-builts, certificates, and operating information."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1eebc62af480",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6f5a176a6cb",
+          "_type": "span",
+          "marks": [],
+          "text": "The same discipline applies to smaller equipment. For example, a property manager comparing installation requirements for home charging equipment can consult this practical guide to "
+        },
+        {
+          "_key": "dbbd68b5a0fc",
+          "_type": "span",
+          "marks": [
+            "37b9e5ecd74d"
+          ],
+          "text": "compare home EV chargers"
+        },
+        {
+          "_key": "df98d1e57d55",
+          "_type": "span",
+          "marks": [],
+          "text": ", while a building project should address commercial distribution, protection, and control requirements through its commissioning plan."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "37b9e5ecd74d",
+          "_type": "link",
+          "href": "https://evchargers.eu/blogs/news/how-to-install-ev-charger-at-home"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d1aa7cf7486f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e40c0f4e6a35",
+          "_type": "span",
+          "marks": [],
+          "text": "For a related installation perspective, review the "
+        },
+        {
+          "_key": "7858ce377383",
+          "_type": "span",
+          "marks": [
+            "35ec20679995"
+          ],
+          "text": "electricity sub-meter installation guide"
+        },
+        {
+          "_key": "d356c0346ce8",
+          "_type": "span",
+          "marks": [],
+          "text": ". It's useful to distinguish physical installation from the later verification that makes the resulting measurements fit for operational use."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "35ec20679995",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electricity-sub-meter-installation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "596d9f36c64e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12fceadd6b4b",
+          "_type": "span",
+          "marks": [],
+          "text": "The handover isn't complete when the test forms are signed. It's complete when the owner can understand what was tested, what passed, what was corrected, what remains subject to monitoring, and how the system should be operated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74bc6b44a30a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5ca75f041e5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0c99568e19c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50b0fec35d67",
+          "_type": "span",
+          "marks": [],
+          "text": "Standard Electrical Systems vs Submetering Projects"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "19cd66740e64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81e12cf353f0",
+          "_type": "span",
+          "marks": [],
+          "text": "Standard electrical commissioning and revenue submeter commissioning share a foundation, but they don't have the same definition of success. In a distribution system, the central question is whether power can be distributed safely and reliably according to the design. In a submetering system, the question extends into "
+        },
+        {
+          "_key": "e66fdb605af1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "whether measured consumption can support an accurate and legally valid charge"
+        },
+        {
+          "_key": "60721ee58672",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd6c771f8460",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b6b81ab4823",
+          "_type": "span",
+          "marks": [],
+          "text": "That difference matters in multi-unit buildings. A meter can be powered, display consumption, and communicate with a gateway while still producing an invalid billing result. The commissioning team must confirm not only that the hardware works, but also that the device is assigned to the correct suite, measures the correct circuit, transmits complete data, and feeds the billing workflow correctly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da4d81fdf9d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b6aff289395",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning focus"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5aa0b0f42253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d9e0d66057e",
+          "_type": "span",
+          "marks": [],
+          "text": "Standard electrical installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef4194a2c5b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8eef93dddff7",
+          "_type": "span",
+          "marks": [],
+          "text": "Revenue submetering installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c9fd8fb03c5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "775daccaadca",
+          "_type": "span",
+          "marks": [],
+          "text": "Primary outcome"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "884636239a02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1fb8e026383",
+          "_type": "span",
+          "marks": [],
+          "text": "Safe, reliable operation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d82a886ec972",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3853656f3c1f",
+          "_type": "span",
+          "marks": [],
+          "text": "Reliable measurement that can support billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7e243bc7a7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fcae1e4d9c6",
+          "_type": "span",
+          "marks": [],
+          "text": "Field verification"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f540e901fbed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9571bf65b4f",
+          "_type": "span",
+          "marks": [],
+          "text": "Connections, insulation, protection, controls, and interfaces"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "974ee4338735",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f272d848a1da",
+          "_type": "span",
+          "marks": [],
+          "text": "Phasing, CT orientation, meter identity, communications, and load assignment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7be294350eb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d72363faab20",
+          "_type": "span",
+          "marks": [],
+          "text": "Documentation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9418b6bed205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bf5b115b3aad",
+          "_type": "span",
+          "marks": [],
+          "text": "Test records, settings, as-built drawings, and deficiencies"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5d234e3ecce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "673004cd20a9",
+          "_type": "span",
+          "marks": [],
+          "text": "Test records plus approval status, serial-number mapping, data validation, and billing records"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd5f10661a16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "925e172f963f",
+          "_type": "span",
+          "marks": [],
+          "text": "Final check"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3a38aca72d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b90cdc7fa7c",
+          "_type": "span",
+          "marks": [],
+          "text": "Functional performance under expected operating conditions"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c9d574e472c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6de09122e04b",
+          "_type": "span",
+          "marks": [],
+          "text": "Functional performance plus reconciliation from meter to billing platform"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85b1dece9b18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6fe9aac51c2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "158a6220250c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ec071438040",
+          "_type": "span",
+          "marks": [],
+          "text": "Functional accuracy is not billing validity"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "2105e3693040",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e34ac0062dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Functional accuracy asks whether the meter records electrical consumption in response to the connected load. Billing validity asks whether the device is authorised for its intended use and whether the recorded value travels through the complete commercial process without distortion."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9706ad85a30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19aa19a91f5c",
+          "_type": "span",
+          "marks": [],
+          "text": "For a revenue meter, the commissioning file should address approval status, sealing requirements, serial-number-to-suite mapping, and billing-data validation. Canadian submetering guidance explains why the distinction is important: once a device establishes an electricity charge, it falls within trade-measurement requirements. "
+        },
+        {
+          "_key": "fa6defaa7384",
+          "_type": "span",
+          "marks": [
+            "f93738cb4bd9"
+          ],
+          "text": "Multi-unit electricity submetering guidance"
+        },
+        {
+          "_key": "85319ed3c6ac",
+          "_type": "span",
+          "marks": [],
+          "text": " provides context for the regulatory line between monitoring consumption and using a measurement to bill occupants."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f93738cb4bd9",
+          "_type": "link",
+          "href": "https://renoatlas.ca/en/multi-unit-electricity-submetering/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0f2fc041ec14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fda3b6bc7303",
+          "_type": "span",
+          "marks": [],
+          "text": "The testing sequence should follow the data path:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc4cc85dacbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bbe1aa90f97",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "At the panel:"
+        },
+        {
+          "_key": "e4cae134ca76",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the meter is connected to the intended load and that phasing and CT orientation are correct."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a157d8d5132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e26b2cc28b21",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "At the device:"
+        },
+        {
+          "_key": "85f162cb1ea7",
+          "_type": "span",
+          "marks": [],
+          "text": " Verify the meter identity, configuration, seals, display, and recorded values."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a42a51a6a764",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c02284195252",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Across communications:"
+        },
+        {
+          "_key": "333de91481cf",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm that readings reach the collection system without gaps or incorrect device associations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49d2140c395f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c06f9414f83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Against the building:"
+        },
+        {
+          "_key": "640229e1225b",
+          "_type": "span",
+          "marks": [],
+          "text": " Reconcile unit-level readings with the master-meter view and investigate unexplained differences."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fe986fda5b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd3f91a6c1ed",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Inside billing:"
+        },
+        {
+          "_key": "bc55a38fe9b0",
+          "_type": "span",
+          "marks": [],
+          "text": " Check that the platform imports the correct interval data, applies the correct suite mapping, and produces an invoice-ready result."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e468463653b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62f18b2e94a8",
+          "_type": "span",
+          "marks": [],
+          "text": "That work needs coordination between electricians, the metering provider, the controls or communications team, and the billing administrator. Electrical estimating and scope decisions also benefit from clear equipment and testing definitions, which is why a project team may use "
+        },
+        {
+          "_key": "0496d5c2e1b9",
+          "_type": "span",
+          "marks": [
+            "a22ecfa424bd"
+          ],
+          "text": "Exayard electrical estimating software"
+        },
+        {
+          "_key": "f5dbbc615dd4",
+          "_type": "span",
+          "marks": [],
+          "text": " when building a detailed estimate and separating installation work from commissioning deliverables."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a22ecfa424bd",
+          "_type": "link",
+          "href": "https://exayard.com/electrical-estimating-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fb727e782fd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d2ebeb9d897",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "9fc7ec2accd7",
+          "_type": "span",
+          "marks": [
+            "ec303411a4c0"
+          ],
+          "text": "guide to submetering electricity"
+        },
+        {
+          "_key": "4c5519de74dc",
+          "_type": "span",
+          "marks": [],
+          "text": " can help property teams understand the broader operating model. The key management decision is simple: don't approve billing merely because the meter is live. Approve it when the measurement, identity, communications path, reconciliation, and billing output have all been checked."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ec303411a4c0",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-submeter-electricity"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "55693f6b80b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1a713b56262",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "161a2de6c969",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97b508c14a24",
+          "_type": "span",
+          "marks": [],
+          "text": "Stakeholders and Regulatory Standards"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "beb0ade35e49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0399ffe6828e",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning succeeds when each participant owns a defined part of the evidence. The property owner sets the basis of design and acceptance expectations. The design team explains intended performance. The electrical contractor confirms installation quality and corrects deficiencies. The testing authority performs independent or witnessed tests where required. The metering and billing teams validate the measurement path when tenant charges depend on it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46a332d2f76e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af695212f76e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "693db8312a90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa9987e67472",
+          "_type": "span",
+          "marks": [],
+          "text": "Responsibilities must be assigned early"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "dd63c49953f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9ee5193ac91",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners shouldn't leave commissioning responsibility implied. The contract documents should identify who writes the plan, who supplies test instruments and qualified personnel, who witnesses functional tests, who approves deficiencies, and who assembles the final record."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "885d0976e852",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4716d323cf09",
+          "_type": "span",
+          "marks": [],
+          "text": "Contractors also need clear boundaries. An electrical contractor may install and test field equipment, while a controls specialist verifies sequences and a metering provider validates data transmission and billing integration. If no one owns the transition between those scopes, a system can pass separate component tests and still fail as an operating whole."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4bb5b776212c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84b4adece739",
+          "_type": "span",
+          "marks": [],
+          "text": "For a property manager, the most useful questions are practical:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1c822cd5f52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9cf99fdb8b7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who approves the commissioning plan?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc0d4cc95c64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6144715e2f33",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Which tests require independent witnessing?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cad360a357eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "830fdcef0440",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What evidence proves each deficiency was corrected?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f354a288222",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e38892a86ab",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who verifies the final as-built settings and drawings?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abe902c7421c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ba4dea07c9e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who authorises a submeter to enter billing service?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d00bcb2d1848",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e52d8e8f0a9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0af75f66f7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "226b15ba2f4b",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian standards provide the framework"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ecd2a900b1fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e334db0937d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Canada's commissioning practice developed through public-sector guidance and formal standards. The federal record traces early building commissioning work to Public Works Canada, including the creation of a Building Commissioning Section in "
+        },
+        {
+          "_key": "365c728e5d3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1977"
+        },
+        {
+          "_key": "e74d5a46c789",
+          "_type": "span",
+          "marks": [],
+          "text": ", a Building Commissioning Working Group in "
+        },
+        {
+          "_key": "0df0c0d83f89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1987"
+        },
+        {
+          "_key": "ebf69e59e81a",
+          "_type": "span",
+          "marks": [],
+          "text": ", draft documents in "
+        },
+        {
+          "_key": "373bb18a9535",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "February 1989"
+        },
+        {
+          "_key": "8ab972d1ced4",
+          "_type": "span",
+          "marks": [],
+          "text": ", and a consolidated Project Commissioning Manual in "
+        },
+        {
+          "_key": "cfe071d9eccf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1993"
+        },
+        {
+          "_key": "fbe97235524e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those milestones show how commissioning moved from a project technique into a documented quality-management practice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "995be267452d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69858f64edba",
+          "_type": "span",
+          "marks": [],
+          "text": "CSA Z320 applies to new construction and renovations, while Canadian procurement specifications connect commissioning with plans, pre-functional check sheets, startup records, functional performance results, and as-built information. Provincial requirements, utility rules, trade-measurement obligations, and project-specific specifications may add further conditions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9b8c53d61a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "412c40459b5e",
+          "_type": "span",
+          "marks": [],
+          "text": "The same principle applies when a team works across jurisdictions. A California project, for example, may require a different compliance pathway, so a property manager should treat the "
+        },
+        {
+          "_key": "adafdcc1205f",
+          "_type": "span",
+          "marks": [
+            "70ba2469fede"
+          ],
+          "text": "certification process for Title 24"
+        },
+        {
+          "_key": "0877cb8cab94",
+          "_type": "span",
+          "marks": [],
+          "text": " as a jurisdiction-specific reference rather than importing Canadian assumptions into another market."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "70ba2469fede",
+          "_type": "link",
+          "href": "https://accesselectricalandlighting.com/what-is-title-24-compliance/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9dc52f77e168",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "527f4fb170ae",
+          "_type": "span",
+          "marks": [],
+          "text": "For Canadian electricity submetering, approval status matters before billing begins. The team should confirm that the selected devices and intended use align with applicable Measurement Canada requirements. Property managers can review the practical implications through this guide to "
+        },
+        {
+          "_key": "ace432d61896",
+          "_type": "span",
+          "marks": [
+            "f6c82830b725"
+          ],
+          "text": "Measurement Canada approved meters"
+        },
+        {
+          "_key": "ceebb780183d",
+          "_type": "span",
+          "marks": [],
+          "text": ", then require the project team to place the relevant approvals and identifiers in the commissioning record."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f6c82830b725",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/measurement-canada-approved-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4a9bfa1f828c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75ad9bd4a487",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a6af0ca2986",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2b6a01bf967",
+          "_type": "span",
+          "marks": [],
+          "text": "Common Risks and Implementation Best Practices"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "1ef325747e40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ed35a3619bb",
+          "_type": "span",
+          "marks": [],
+          "text": "The most expensive commissioning mistake is postponing it until installation is finished. By then, defects are harder to isolate, access is more disruptive, and the people who understand the design may be focused on other projects. Early involvement lets the team identify missing test points, inaccessible equipment, unclear responsibilities, and incompatible data requirements before they become handover disputes."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2bddf0cd33e4",
+      "_type": "externalImage",
+      "alt": "A comparison chart outlining common risks and best practices for electrical commissioning and project implementation.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9a1485cc-ad91-4305-8020-5d3895e73fee/what-is-commissioning-in-electrical-risks-best-practices.jpg"
+    },
+    {
+      "_key": "c4d5a26c1560",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3121102a2232",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a65db11282b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8076af0e458",
+          "_type": "span",
+          "marks": [],
+          "text": "The failures that deserve attention"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "369008ba3e5e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b72f1d8147e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rushed testing"
+        },
+        {
+          "_key": "90d9173256ed",
+          "_type": "span",
+          "marks": [],
+          "text": " leaves the team with incomplete evidence and little time for corrective work. A dry run and a formal witnessed test serve different purposes, so neither should be treated as optional when the specification requires both."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82662b54d9b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63b147ff032a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Poor documentation"
+        },
+        {
+          "_key": "40511ff48727",
+          "_type": "span",
+          "marks": [],
+          "text": " turns a technical issue into a dispute about responsibility. Keep test results, settings, photographs where useful, deficiency status, retest evidence, and final drawings together in a controlled record."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92d3fbfd3834",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7834577a304a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Untrained handover staff"
+        },
+        {
+          "_key": "f2aecf19e400",
+          "_type": "span",
+          "marks": [],
+          "text": " create operational risk after the commissioning team leaves. The owner's operators need practical information about normal states, alarms, reset procedures, meter communications, and escalation contacts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7ea0f65bcf1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aacc0b3dc143",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering adds a further risk after installation. Canadian guidance emphasises that the team should verify "
+        },
+        {
+          "_key": "21705c98546b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "phasing, CT orientation, communications, master-meter reconciliation, and the full path into the billing platform"
+        },
+        {
+          "_key": "0571f209526f",
+          "_type": "span",
+          "marks": [],
+          "text": ". Interval submetering typically records usage at "
+        },
+        {
+          "_key": "1ea502f64321",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15-minute or hourly intervals"
+        },
+        {
+          "_key": "39ac63915d2c",
+          "_type": "span",
+          "marks": [],
+          "text": ", so read gaps and growing differences can reveal a fault that a simple live-meter check misses. "
+        },
+        {
+          "_key": "3fa12a9f1dd6",
+          "_type": "span",
+          "marks": [
+            "c04f3cd90948"
+          ],
+          "text": "Canadian guidance on electric submeters for landlords"
+        },
+        {
+          "_key": "71abda5b83cc",
+          "_type": "span",
+          "marks": [],
+          "text": " explains why those operational checks need to continue beyond physical installation."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c04f3cd90948",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electric-submeters-for-landlords"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3f3f613fdee6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4cfb40c79431",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9409cda56cf3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bd694b193da",
+          "_type": "span",
+          "marks": [],
+          "text": "A defensible implementation routine"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7e4a1c1b744a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a5eae136737",
+          "_type": "span",
+          "marks": [],
+          "text": "Bring the commissioning authority into design and procurement discussions. Identify every system interface, reserve time for corrective work, and require vendors to provide settings, manuals, test procedures, and required certificates before equipment arrives."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee0011c7dd75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "513d994bc22f",
+          "_type": "span",
+          "marks": [],
+          "text": "Then use a controlled closeout process:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6720a49c051e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e351b4098b0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define acceptance:"
+        },
+        {
+          "_key": "69974175c2b2",
+          "_type": "span",
+          "marks": [],
+          "text": " Write measurable pass criteria for safety, function, communication, and documentation."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c9d9c156e546",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aaba0fb548b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Test in sequence:"
+        },
+        {
+          "_key": "63ae3cf0b05f",
+          "_type": "span",
+          "marks": [],
+          "text": " Move from inspection to component testing, then to integrated functional performance."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bc3bb8aef41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f43be48ec03",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Resolve visibly:"
+        },
+        {
+          "_key": "9094c6ee7e54",
+          "_type": "span",
+          "marks": [],
+          "text": " Assign every deficiency to a named party and record the retest outcome."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c930d2c97629",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81b0eff15eb0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reconcile data:"
+        },
+        {
+          "_key": "be308bbdef1e",
+          "_type": "span",
+          "marks": [],
+          "text": " For revenue metering, compare field readings, communications records, master-meter totals, and billing output."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0e7d4b9d0b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc75bfc0ad6b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Maintain the record:"
+        },
+        {
+          "_key": "eef8a6e8bdd1",
+          "_type": "span",
+          "marks": [],
+          "text": " Store the final package where operators can retrieve it during maintenance, tenant questions, or future alterations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "28f958b61a03",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c79a91899a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning isn't paperwork added to electrical work. It's the evidence that the installation is safe to operate and, where metering supports tenant charges, that the resulting data is fit for its intended commercial use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47806960abf1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "507b840b8b06",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides multi-unit property owners with electricity submetering, installation, commissioning, billing support, and ongoing service, including coordination of approvals and validation before billing begins. Visit "
+        },
+        {
+          "_key": "fed0bfb3a361",
+          "_type": "span",
+          "marks": [
+            "c30fa8a1f3ed"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "4ecdd4389eb8",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a commissioning and submetering approach for your building."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c30fa8a1f3ed",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "Learn what is commissioning in electrical systems, its key processes, and why it matters for safety and performance in 2026.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/387ad6b2-032a-4ec9-9ed4-f11678d70a04/what-is-commissioning-in-electrical-electrical-commissioning.jpg",
+  "noIndex": false,
+  "outrankId": "0db05632-b71c-4542-86df-aca4786446ba",
+  "publishedAt": "2026-10-02T07:07:36.127776+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "what-is-commissioning-in-electrical"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Commissioning is a structured quality-assurance process that verifies installed electrical systems are safe, compliant, and functioning exactly as designed before they&#39;re energized. In Canada, modern electrical commissioning practice traces back to <strong>1977</strong>, with the process later expanded through formal guidance and standards.</p>\n<p>A property manager often meets commissioning at an uncomfortable moment. The building has reached handover, tenants are preparing to move in, and someone discovers that a protective relay has the wrong setting, a control signal never reaches the building automation system, or a submeter appears online but sends incomplete data to the billing platform. The equipment may look finished, yet the installation still isn&#39;t ready for dependable service.</p>\n<p>That gap is why commissioning matters. It turns installation quality into documented evidence, giving owners a defensible answer to a practical question: <strong>will this electrical system operate safely and correctly under the conditions it was designed to handle?</strong></p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-electrical-commissioning-matters\">Why Electrical Commissioning Matters</a><ul>\n<li><a href=\"#the-cost-of-treating-handover-as-the-finish-line\">The cost of treating handover as the finish line</a></li>\n</ul>\n</li>\n<li><a href=\"#defining-electrical-commissioning-and-its-goals\">Defining Electrical Commissioning and Its Goals</a><ul>\n<li><a href=\"#three-questions-every-commissioning-plan-should-answer\">Three questions every commissioning plan should answer</a></li>\n<li><a href=\"#why-a-startup-check-isnt-enough\">Why a startup check isn&#39;t enough</a></li>\n</ul>\n</li>\n<li><a href=\"#the-step-by-step-commissioning-process\">The Step by Step Commissioning Process</a><ul>\n<li><a href=\"#plan-before-installation\">Plan before installation</a></li>\n<li><a href=\"#inspect-and-test-during-construction\">Inspect and test during construction</a></li>\n<li><a href=\"#validate-performance-and-close-the-record\">Validate performance and close the record</a></li>\n</ul>\n</li>\n<li><a href=\"#standard-electrical-systems-vs-submetering-projects\">Standard Electrical Systems vs Submetering Projects</a><ul>\n<li><a href=\"#functional-accuracy-is-not-billing-validity\">Functional accuracy is not billing validity</a></li>\n</ul>\n</li>\n<li><a href=\"#stakeholders-and-regulatory-standards\">Stakeholders and Regulatory Standards</a><ul>\n<li><a href=\"#responsibilities-must-be-assigned-early\">Responsibilities must be assigned early</a></li>\n<li><a href=\"#canadian-standards-provide-the-framework\">Canadian standards provide the framework</a></li>\n</ul>\n</li>\n<li><a href=\"#common-risks-and-implementation-best-practices\">Common Risks and Implementation Best Practices</a><ul>\n<li><a href=\"#the-failures-that-deserve-attention\">The failures that deserve attention</a></li>\n<li><a href=\"#a-defensible-implementation-routine\">A defensible implementation routine</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-electrical-commissioning-matters\"></a></p>\n<h2>Why Electrical Commissioning Matters</h2>\n<p>A new building can pass a visual walk-through and still contain faults that only appear during operation. A loose termination may remain unnoticed until the equipment carries a realistic load. A protective device may energize successfully while failing to respond correctly to a simulated fault. In a multi-unit property, a meter may display a reading while assigning consumption to the wrong suite.</p>\n<p>Consider a commercial building after handover. The main switchgear starts, lighting works, and occupants move in. Shortly afterward, a fire alarm interface fails to communicate with the power-control system, an emergency transfer sequence doesn&#39;t behave as intended, and tenant utility invoices cannot be issued because several meters aren&#39;t reconciling with the master meter. None of these issues necessarily proves that the equipment was installed carelessly. They show that <strong>startup alone doesn&#39;t prove system performance</strong>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7966c012-d530-4ab9-ba5a-9cab7dd9ece2/what-is-commissioning-in-electrical-electrical-inspector.jpg\" alt=\"A technician wearing a hard hat inspects electrical switchgear panels with a tablet in an office building.\"></p>\n<p><a id=\"the-cost-of-treating-handover-as-the-finish-line\"></a></p>\n<h3>The cost of treating handover as the finish line</h3>\n<p>When teams defer verification, the owner usually pays for the resulting uncertainty through rework, access coordination, tenant disruption, delayed occupancy activities, or disputed charges. Troubleshooting also becomes harder after finishes are complete and several contractors have left the site. A commissioning record created before handover gives the property team a clearer starting point when a problem appears later.</p>\n<p>Canadian guidance treats commissioning as a <strong>quality-management process</strong>, not a ceremonial inspection. Federal commissioning practice developed from early public-sector work and later incorporated mechanical and electrical systems into organised project procedures. The Canadian building-commissioning standard identifies incoming, main, and branch distribution, along with fire alarm and detection systems, among the electrical systems that may require verification. <a href=\"https://webstore.ansi.org/standards/csa/csaz3202011\">CSA Z320</a> provides the relevant Canadian standard reference for building commissioning.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If a system affects life safety, power continuity, tenant charges, or the operation of another building system, don&#39;t accept “it turns on” as proof that commissioning is complete.</p>\n</blockquote>\n<p>Electrical commissioning is therefore a risk-control activity. It helps the owner confirm that installation matches the approved design, protective functions operate as intended, interfaces work together, and the handover package contains enough evidence for future maintenance and audits.</p>\n<p><a id=\"defining-electrical-commissioning-and-its-goals\"></a></p>\n<h2>Defining Electrical Commissioning and Its Goals</h2>\n<p>Electrical commissioning verifies that an installed or upgraded system is <strong>correctly installed, safe to energize, aligned with the design, and capable of performing under expected operating conditions</strong>. It includes more than a final startup check because a system can operate in a limited condition while still failing its protection, control, measurement, or communication requirements.</p>\n<p>The Canadian approach treats commissioning as an integrated quality process. The relevant work may include visual inspection, insulation resistance testing, contact resistance testing, protective-device functional testing, relay testing, and verification of control and protection schemes. <a href=\"https://www.kroon.ca/commission-testing/\">Independent electrical commissioning guidance</a> describes these activities as ways to find wiring errors, incorrect relay settings, and degraded insulation before first energization.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/b0969b2e-ff4d-4dbf-afbc-f6c81f3e1f52/what-is-commissioning-in-electrical-commissioning-process.jpg\" alt=\"A diagram defining electrical commissioning as the process of verifying that systems perform according to their design.\"></p>\n<p><a id=\"three-questions-every-commissioning-plan-should-answer\"></a></p>\n<h3>Three questions every commissioning plan should answer</h3>\n<p><strong>Is the system safe?</strong> Inspectors verify equipment condition, clearances, connections, insulation, grounding, protection, and interlocks. The precise tests depend on the equipment and specification, but the objective is consistent: establish that people and assets aren&#39;t exposed to an avoidable electrical hazard when the system is energized or operated.</p>\n<p><strong>Does the installation match the design intent?</strong> The team compares installed equipment, wiring, settings, labels, and controls with the approved drawings and specifications. This comparison allows a project to identify a relay setting that differs from the coordination study, a current transformer installed in the wrong orientation, or a control point omitted from the field installation.</p>\n<p><strong>Will the system perform as required?</strong> Functional performance testing challenges the installation through expected sequences and operating conditions. The question isn&#39;t whether a breaker closes. It&#39;s whether the correct device responds, the intended alarm appears, the backup sequence starts, and connected systems exchange the signals they need.</p>\n<p><a id=\"why-a-startup-check-isnt-enough\"></a></p>\n<h3>Why a startup check isn&#39;t enough</h3>\n<p>Startup usually confirms that equipment can be placed into operation. Commissioning asks whether it operates <strong>correctly, repeatedly, and in coordination with the wider facility</strong>. That distinction protects asset longevity because early defects can cause nuisance trips, overheating, incorrect load allocation, or premature equipment stress.</p>\n<p>The owner should expect evidence, not verbal reassurance. A useful commissioning package may contain approved procedures, pre-functional check sheets, test records, settings, deficiency logs, corrective-action records, functional performance results, and updated as-built information. Canadian federal specifications identify dedicated requirements for commissioning plans and forms, reinforcing that documentation is part of the deliverable rather than an administrative afterthought. Canada&#39;s National Master Specification commissioning requirements provides a practical reference for this documentation-led approach.</p>\n<p><a id=\"the-step-by-step-commissioning-process\"></a></p>\n<h2>The Step by Step Commissioning Process</h2>\n<p>A well-run project introduces commissioning before equipment arrives on site. The commissioning authority, owner, electrical contractor, controls contractor, testing provider, and design team need a shared definition of success. That definition should identify the systems covered, the required tests, the responsible party for each test, the acceptance criteria, and the records needed at handover.</p>\n<p><a id=\"plan-before-installation\"></a></p>\n<h3>Plan before installation</h3>\n<p>The first stage converts design intent into a working plan. Review the single-line diagrams, equipment schedules, protection requirements, control sequences, metering arrangements, and owner operating priorities. Include commissioning activities in the construction schedule so testing isn&#39;t squeezed into the final days before occupancy.</p>\n<p>The plan should also establish how the team will manage deficiencies. A failed test needs an owner, a corrective action, a retest requirement, and a clear status. Without that structure, unresolved items can disappear into email threads or remain hidden behind a general statement that commissioning is “substantially complete.”</p>\n<p><a id=\"inspect-and-test-during-construction\"></a></p>\n<h3>Inspect and test during construction</h3>\n<p>Installation review begins before final energization. The team checks equipment condition, conductor identification, terminations, labels, grounding, cable routes, settings, and interfaces. Testing may include insulation resistance, contact resistance, relay operation, protective-device functions, and control-scheme verification, depending on the system and project specification.</p>\n<p>Testing should occur in a controlled sequence. First inspect and document the installed condition. Then complete pre-functional checks and equipment startup. After that, test the interaction between systems, such as normal and emergency power, fire alarm interfaces, building controls, and load-management functions.</p>\n<p><a id=\"validate-performance-and-close-the-record\"></a></p>\n<h3>Validate performance and close the record</h3>\n<p>Functional performance testing challenges the system under realistic sequences rather than isolated component checks. Canadian project specifications describe commissioning as a structured process involving dry runs, startup, control adjustment, troubleshooting, service verification, and reports covering inspected, measured, and tested items. Dalhousie&#39;s electrical commissioning specification.pdf) illustrates how a project can require the contractor to rehearse functional performance testing before formal witnessing.</p>\n<p>A property manager should ask for these five checkpoints:</p>\n<ol>\n<li><strong>Pre-construction planning:</strong> Confirm scope, schedules, responsibilities, and acceptance criteria.</li>\n<li><strong>Installation review:</strong> Compare field conditions with drawings, specifications, and equipment data.</li>\n<li><strong>Testing and verification:</strong> Complete safety, functional, protection, and interface tests.</li>\n<li><strong>Defect resolution:</strong> Record each issue, correct it, and repeat the affected test.</li>\n<li><strong>Handover and documentation:</strong> Deliver reports, settings, as-builts, certificates, and operating information.</li>\n</ol>\n<p>The same discipline applies to smaller equipment. For example, a property manager comparing installation requirements for home charging equipment can consult this practical guide to <a href=\"https://evchargers.eu/blogs/news/how-to-install-ev-charger-at-home\">compare home EV chargers</a>, while a building project should address commercial distribution, protection, and control requirements through its commissioning plan.</p>\n<p>For a related installation perspective, review the <a href=\"https://www.axismeter.com/blog/electricity-sub-meter-installation\">electricity sub-meter installation guide</a>. It&#39;s useful to distinguish physical installation from the later verification that makes the resulting measurements fit for operational use.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/weozn13Jsjw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>The handover isn&#39;t complete when the test forms are signed. It&#39;s complete when the owner can understand what was tested, what passed, what was corrected, what remains subject to monitoring, and how the system should be operated.</p>\n<p><a id=\"standard-electrical-systems-vs-submetering-projects\"></a></p>\n<h2>Standard Electrical Systems vs Submetering Projects</h2>\n<p>Standard electrical commissioning and revenue submeter commissioning share a foundation, but they don&#39;t have the same definition of success. In a distribution system, the central question is whether power can be distributed safely and reliably according to the design. In a submetering system, the question extends into <strong>whether measured consumption can support an accurate and legally valid charge</strong>.</p>\n<p>That difference matters in multi-unit buildings. A meter can be powered, display consumption, and communicate with a gateway while still producing an invalid billing result. The commissioning team must confirm not only that the hardware works, but also that the device is assigned to the correct suite, measures the correct circuit, transmits complete data, and feeds the billing workflow correctly.</p>\n<table>\n<thead>\n<tr>\n<th>Commissioning focus</th>\n<th>Standard electrical installation</th>\n<th>Revenue submetering installation</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Primary outcome</td>\n<td>Safe, reliable operation</td>\n<td>Reliable measurement that can support billing</td>\n</tr>\n<tr>\n<td>Field verification</td>\n<td>Connections, insulation, protection, controls, and interfaces</td>\n<td>Phasing, CT orientation, meter identity, communications, and load assignment</td>\n</tr>\n<tr>\n<td>Documentation</td>\n<td>Test records, settings, as-built drawings, and deficiencies</td>\n<td>Test records plus approval status, serial-number mapping, data validation, and billing records</td>\n</tr>\n<tr>\n<td>Final check</td>\n<td>Functional performance under expected operating conditions</td>\n<td>Functional performance plus reconciliation from meter to billing platform</td>\n</tr>\n</tbody></table>\n<p><a id=\"functional-accuracy-is-not-billing-validity\"></a></p>\n<h3>Functional accuracy is not billing validity</h3>\n<p>Functional accuracy asks whether the meter records electrical consumption in response to the connected load. Billing validity asks whether the device is authorised for its intended use and whether the recorded value travels through the complete commercial process without distortion.</p>\n<p>For a revenue meter, the commissioning file should address approval status, sealing requirements, serial-number-to-suite mapping, and billing-data validation. Canadian submetering guidance explains why the distinction is important: once a device establishes an electricity charge, it falls within trade-measurement requirements. <a href=\"https://renoatlas.ca/en/multi-unit-electricity-submetering/\">Multi-unit electricity submetering guidance</a> provides context for the regulatory line between monitoring consumption and using a measurement to bill occupants.</p>\n<p>The testing sequence should follow the data path:</p>\n<ul>\n<li><strong>At the panel:</strong> Confirm the meter is connected to the intended load and that phasing and CT orientation are correct.</li>\n<li><strong>At the device:</strong> Verify the meter identity, configuration, seals, display, and recorded values.</li>\n<li><strong>Across communications:</strong> Confirm that readings reach the collection system without gaps or incorrect device associations.</li>\n<li><strong>Against the building:</strong> Reconcile unit-level readings with the master-meter view and investigate unexplained differences.</li>\n<li><strong>Inside billing:</strong> Check that the platform imports the correct interval data, applies the correct suite mapping, and produces an invoice-ready result.</li>\n</ul>\n<p>That work needs coordination between electricians, the metering provider, the controls or communications team, and the billing administrator. Electrical estimating and scope decisions also benefit from clear equipment and testing definitions, which is why a project team may use <a href=\"https://exayard.com/electrical-estimating-software\">Exayard electrical estimating software</a> when building a detailed estimate and separating installation work from commissioning deliverables.</p>\n<p>The <a href=\"https://www.axismeter.com/blog/how-to-submeter-electricity\">guide to submetering electricity</a> can help property teams understand the broader operating model. The key management decision is simple: don&#39;t approve billing merely because the meter is live. Approve it when the measurement, identity, communications path, reconciliation, and billing output have all been checked.</p>\n<p><a id=\"stakeholders-and-regulatory-standards\"></a></p>\n<h2>Stakeholders and Regulatory Standards</h2>\n<p>Commissioning succeeds when each participant owns a defined part of the evidence. The property owner sets the basis of design and acceptance expectations. The design team explains intended performance. The electrical contractor confirms installation quality and corrects deficiencies. The testing authority performs independent or witnessed tests where required. The metering and billing teams validate the measurement path when tenant charges depend on it.</p>\n<p><a id=\"responsibilities-must-be-assigned-early\"></a></p>\n<h3>Responsibilities must be assigned early</h3>\n<p>Owners shouldn&#39;t leave commissioning responsibility implied. The contract documents should identify who writes the plan, who supplies test instruments and qualified personnel, who witnesses functional tests, who approves deficiencies, and who assembles the final record.</p>\n<p>Contractors also need clear boundaries. An electrical contractor may install and test field equipment, while a controls specialist verifies sequences and a metering provider validates data transmission and billing integration. If no one owns the transition between those scopes, a system can pass separate component tests and still fail as an operating whole.</p>\n<p>For a property manager, the most useful questions are practical:</p>\n<ul>\n<li><strong>Who approves the commissioning plan?</strong></li>\n<li><strong>Which tests require independent witnessing?</strong></li>\n<li><strong>What evidence proves each deficiency was corrected?</strong></li>\n<li><strong>Who verifies the final as-built settings and drawings?</strong></li>\n<li><strong>Who authorises a submeter to enter billing service?</strong></li>\n</ul>\n<p><a id=\"canadian-standards-provide-the-framework\"></a></p>\n<h3>Canadian standards provide the framework</h3>\n<p>Canada&#39;s commissioning practice developed through public-sector guidance and formal standards. The federal record traces early building commissioning work to Public Works Canada, including the creation of a Building Commissioning Section in <strong>1977</strong>, a Building Commissioning Working Group in <strong>1987</strong>, draft documents in <strong>February 1989</strong>, and a consolidated Project Commissioning Manual in <strong>1993</strong>. Those milestones show how commissioning moved from a project technique into a documented quality-management practice.</p>\n<p>CSA Z320 applies to new construction and renovations, while Canadian procurement specifications connect commissioning with plans, pre-functional check sheets, startup records, functional performance results, and as-built information. Provincial requirements, utility rules, trade-measurement obligations, and project-specific specifications may add further conditions.</p>\n<p>The same principle applies when a team works across jurisdictions. A California project, for example, may require a different compliance pathway, so a property manager should treat the <a href=\"https://accesselectricalandlighting.com/what-is-title-24-compliance/\">certification process for Title 24</a> as a jurisdiction-specific reference rather than importing Canadian assumptions into another market.</p>\n<p>For Canadian electricity submetering, approval status matters before billing begins. The team should confirm that the selected devices and intended use align with applicable Measurement Canada requirements. Property managers can review the practical implications through this guide to <a href=\"https://www.axismeter.com/blog/measurement-canada-approved-meters\">Measurement Canada approved meters</a>, then require the project team to place the relevant approvals and identifiers in the commissioning record.</p>\n<p><a id=\"common-risks-and-implementation-best-practices\"></a></p>\n<h2>Common Risks and Implementation Best Practices</h2>\n<p>The most expensive commissioning mistake is postponing it until installation is finished. By then, defects are harder to isolate, access is more disruptive, and the people who understand the design may be focused on other projects. Early involvement lets the team identify missing test points, inaccessible equipment, unclear responsibilities, and incompatible data requirements before they become handover disputes.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9a1485cc-ad91-4305-8020-5d3895e73fee/what-is-commissioning-in-electrical-risks-best-practices.jpg\" alt=\"A comparison chart outlining common risks and best practices for electrical commissioning and project implementation.\"></p>\n<p><a id=\"the-failures-that-deserve-attention\"></a></p>\n<h3>The failures that deserve attention</h3>\n<p><strong>Rushed testing</strong> leaves the team with incomplete evidence and little time for corrective work. A dry run and a formal witnessed test serve different purposes, so neither should be treated as optional when the specification requires both.</p>\n<p><strong>Poor documentation</strong> turns a technical issue into a dispute about responsibility. Keep test results, settings, photographs where useful, deficiency status, retest evidence, and final drawings together in a controlled record.</p>\n<p><strong>Untrained handover staff</strong> create operational risk after the commissioning team leaves. The owner&#39;s operators need practical information about normal states, alarms, reset procedures, meter communications, and escalation contacts.</p>\n<p>Submetering adds a further risk after installation. Canadian guidance emphasises that the team should verify <strong>phasing, CT orientation, communications, master-meter reconciliation, and the full path into the billing platform</strong>. Interval submetering typically records usage at <strong>15-minute or hourly intervals</strong>, so read gaps and growing differences can reveal a fault that a simple live-meter check misses. <a href=\"https://www.axismeter.com/blog/electric-submeters-for-landlords\">Canadian guidance on electric submeters for landlords</a> explains why those operational checks need to continue beyond physical installation.</p>\n<p><a id=\"a-defensible-implementation-routine\"></a></p>\n<h3>A defensible implementation routine</h3>\n<p>Bring the commissioning authority into design and procurement discussions. Identify every system interface, reserve time for corrective work, and require vendors to provide settings, manuals, test procedures, and required certificates before equipment arrives.</p>\n<p>Then use a controlled closeout process:</p>\n<ul>\n<li><strong>Define acceptance:</strong> Write measurable pass criteria for safety, function, communication, and documentation.</li>\n<li><strong>Test in sequence:</strong> Move from inspection to component testing, then to integrated functional performance.</li>\n<li><strong>Resolve visibly:</strong> Assign every deficiency to a named party and record the retest outcome.</li>\n<li><strong>Reconcile data:</strong> For revenue metering, compare field readings, communications records, master-meter totals, and billing output.</li>\n<li><strong>Maintain the record:</strong> Store the final package where operators can retrieve it during maintenance, tenant questions, or future alterations.</li>\n</ul>\n<p>Commissioning isn&#39;t paperwork added to electrical work. It&#39;s the evidence that the installation is safe to operate and, where metering supports tenant charges, that the resulting data is fit for its intended commercial use.</p>\n<hr>\n<p>Axis Meter Solutions provides multi-unit property owners with electricity submetering, installation, commissioning, billing support, and ongoing service, including coordination of approvals and validation before billing begins. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a commissioning and submetering approach for your building.</p>",
+  "tags": [
+    "electrical commissioning",
+    "submetering",
+    "commissioning process",
+    "energy efficiency",
+    "property management"
+  ],
+  "title": "What Is Commissioning in Electrical: A 2026 Guide",
+  "updatedAt": "2026-10-02T07:07:40.279Z"
+}
