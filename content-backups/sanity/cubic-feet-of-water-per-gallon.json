@@ -1,0 +1,4377 @@
+{
+  "_createdAt": "2026-10-03T07:26:40Z",
+  "_id": "outrank-c35b4bb0-8c2a-4c2b-94c1-1a9a52942c9b",
+  "_rev": "op79fflKKnOcSGwgxpFMPQ",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-03T07:26:40Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "062761cc57f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6369812b72c",
+          "_type": "span",
+          "marks": [],
+          "text": "1 cubic foot of water equals exactly 7.4805 US gallons, or roughly 7.48 gallons for standard billing. One Imperial gallon equals approximately 0.1605 cubic feet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b56fbb2ac45c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c79fb6561996",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction matters when you're reconciling a municipal water bill, checking a suite submeter, or explaining a charge to a resident. A property manager may see cubic feet on the meter, CCF or HCF on the utility statement, and gallons in a tenant-facing report. The water hasn't changed, but the unit has, and a conversion error can affect both billing accuracy and leak response."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94649e19d596",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "676ee2aeab69",
+          "_type": "span",
+          "marks": [],
+          "text": "For multifamily and mixed-use properties, the practical question isn't only “How many gallons are in a cubic foot of water?” It's also “Which unit does each system use, and where can a conversion mistake create a dispute?” The answer starts with one consistent factor, then extends into billing blocks, common-area allocation, flow monitoring, and automated alerts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35171d3220b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c6adc60ac72",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7cbb8bb17efe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "acf36a7ec531",
+          "_type": "span",
+          "marks": [
+            "66cf0d5c54ab"
+          ],
+          "text": "Core Conversion Metrics for US and Imperial Gallons"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "66cf0d5c54ab",
+          "_type": "link",
+          "href": "#core-conversion-metrics-for-us-and-imperial-gallons"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c4842811547e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "359243735984",
+          "_type": "span",
+          "marks": [
+            "8ff0043be1a6"
+          ],
+          "text": "Why the gallon system can cause confusion"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8ff0043be1a6",
+          "_type": "link",
+          "href": "#why-the-gallon-system-can-cause-confusion"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cbfc7f22903d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "277bac9315e6",
+          "_type": "span",
+          "marks": [
+            "012e71f56788"
+          ],
+          "text": "Why cubic feet remains important"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "012e71f56788",
+          "_type": "link",
+          "href": "#why-cubic-feet-remains-important"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "351d43b379e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18d2fe0033b0",
+          "_type": "span",
+          "marks": [
+            "4822998cf893"
+          ],
+          "text": "Understanding CCF and HCF Billing Units"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4822998cf893",
+          "_type": "link",
+          "href": "#understanding-ccf-and-hcf-billing-units"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bf175252e424",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c8565885f91",
+          "_type": "span",
+          "marks": [
+            "2212c39b58b2"
+          ],
+          "text": "The calculation behind a utility statement"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2212c39b58b2",
+          "_type": "link",
+          "href": "#the-calculation-behind-a-utility-statement"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1f58fabc9a23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3f4c019603b",
+          "_type": "span",
+          "marks": [
+            "86bfb1708680"
+          ],
+          "text": "Auditing bulk consumption against suite data"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "86bfb1708680",
+          "_type": "link",
+          "href": "#auditing-bulk-consumption-against-suite-data"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2eb5310c9cc9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22c92df99d73",
+          "_type": "span",
+          "marks": [
+            "4f2f4297f4bd"
+          ],
+          "text": "Formulas and Worked Examples for Common Volumes"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4f2f4297f4bd",
+          "_type": "link",
+          "href": "#formulas-and-worked-examples-for-common-volumes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ddc1ebec80fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbe6bffbb765",
+          "_type": "span",
+          "marks": [
+            "995258afe976"
+          ],
+          "text": "Three formulas worth standardising"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "995258afe976",
+          "_type": "link",
+          "href": "#three-formulas-worth-standardising"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9985d66f5a14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e05164c9ceb",
+          "_type": "span",
+          "marks": [
+            "142d3c7c5cf0"
+          ],
+          "text": "Standard Water Volume Conversions"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "142d3c7c5cf0",
+          "_type": "link",
+          "href": "#standard-water-volume-conversions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e10def07df5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d18de77f5757",
+          "_type": "span",
+          "marks": [
+            "0dbd411a3529"
+          ],
+          "text": "Scaling a property allocation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0dbd411a3529",
+          "_type": "link",
+          "href": "#scaling-a-property-allocation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6905586acb44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a18dc0d3d7dd",
+          "_type": "span",
+          "marks": [
+            "ced33bf87c9e"
+          ],
+          "text": "Quantifying Leaks and Continuous Water Loss"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ced33bf87c9e",
+          "_type": "link",
+          "href": "#quantifying-leaks-and-continuous-water-loss"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "17be7286f43f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f30de9937067",
+          "_type": "span",
+          "marks": [
+            "48cfb974e8d9"
+          ],
+          "text": "Why the meter view matters"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "48cfb974e8d9",
+          "_type": "link",
+          "href": "#why-the-meter-view-matters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "091798ba16ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c8228f7bfba",
+          "_type": "span",
+          "marks": [
+            "b8986a8381df"
+          ],
+          "text": "Turning flow observations into an alert policy"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b8986a8381df",
+          "_type": "link",
+          "href": "#turning-flow-observations-into-an-alert-policy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f7a3c9a6c245",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b07a19f380a9",
+          "_type": "span",
+          "marks": [
+            "df70214bf120"
+          ],
+          "text": "Aligning Municipal Bulk Meters with Suite Submeters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "df70214bf120",
+          "_type": "link",
+          "href": "#aligning-municipal-bulk-meters-with-suite-submeters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5930ccdbf382",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6c0381596dd",
+          "_type": "span",
+          "marks": [
+            "b0a3aa8a06cf"
+          ],
+          "text": "Compare the measurement boundaries first"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b0a3aa8a06cf",
+          "_type": "link",
+          "href": "#compare-the-measurement-boundaries-first"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "54c3662b4819",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c77450595fb",
+          "_type": "span",
+          "marks": [
+            "c3d35d4330e9"
+          ],
+          "text": "Control rounding before it creates friction"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c3d35d4330e9",
+          "_type": "link",
+          "href": "#control-rounding-before-it-creates-friction"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e571b1a4a9f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "86d35a7c9edb",
+          "_type": "span",
+          "marks": [
+            "20c61e02183e"
+          ],
+          "text": "Allocate common-area use openly"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "20c61e02183e",
+          "_type": "link",
+          "href": "#allocate-common-area-use-openly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "af4f6758f936",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e96abed03a7b",
+          "_type": "span",
+          "marks": [
+            "422aa98b608e"
+          ],
+          "text": "Setting Transparent Billing Rates and Leak Thresholds"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "422aa98b608e",
+          "_type": "link",
+          "href": "#setting-transparent-billing-rates-and-leak-thresholds"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "abf93286b865",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e452c36e2a98",
+          "_type": "span",
+          "marks": [
+            "57a3fc0a23d0"
+          ],
+          "text": "A practical billing setup"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "57a3fc0a23d0",
+          "_type": "link",
+          "href": "#a-practical-billing-setup"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c3fa87474f07",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "600ac0cfc419",
+          "_type": "span",
+          "marks": [
+            "0c647479053c"
+          ],
+          "text": "Set leak thresholds around behaviour"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0c647479053c",
+          "_type": "link",
+          "href": "#set-leak-thresholds-around-behaviour"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b37625b6eb73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a95080bd873",
+          "_type": "span",
+          "marks": [
+            "ba7238b545ac"
+          ],
+          "text": "Quick Reference Guide for Property Water Volumes"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ba7238b545ac",
+          "_type": "link",
+          "href": "#quick-reference-guide-for-property-water-volumes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3ef056bfc2cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f3629aa2584",
+          "_type": "span",
+          "marks": [
+            "8c38f289ce13"
+          ],
+          "text": "A compact lookup table"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8c38f289ce13",
+          "_type": "link",
+          "href": "#a-compact-lookup-table"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "345946063a0a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e11e78f7b4a",
+          "_type": "span",
+          "marks": [
+            "ec9eef408c56"
+          ],
+          "text": "How to investigate a high-usage alert"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ec9eef408c56",
+          "_type": "link",
+          "href": "#how-to-investigate-a-high-usage-alert"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eb0a17ce89e8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11e4f410a84a",
+          "_type": "span",
+          "marks": [
+            "7f32225aaf0c"
+          ],
+          "text": "Automating Conversions with Smart Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7f32225aaf0c",
+          "_type": "link",
+          "href": "#automating-conversions-with-smart-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5d18f3884002",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef6495d389c9",
+          "_type": "span",
+          "marks": [
+            "c1357d3748d3"
+          ],
+          "text": "What automation should handle"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c1357d3748d3",
+          "_type": "link",
+          "href": "#what-automation-should-handle"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fd2fb9397c57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b5f4ec76370",
+          "_type": "span",
+          "marks": [
+            "eff6d058a06c"
+          ],
+          "text": "Manual spreadsheets versus a managed programme"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eff6d058a06c",
+          "_type": "link",
+          "href": "#manual-spreadsheets-versus-a-managed-programme"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c138c34a4d75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99f51af1ac92",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c45fa444779e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4786b08d444",
+          "_type": "span",
+          "marks": [],
+          "text": "Core Conversion Metrics for US and Imperial Gallons"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "73d9f5ca2c47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58ef99176479",
+          "_type": "span",
+          "marks": [],
+          "text": "The standard US conversion is straightforward:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d333c3c08e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3bb673341909",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 cubic foot equals 7.4805 US gallons."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ef40542be17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d90a3860a52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 US gallon equals approximately 0.13368 cubic feet."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0761156eae4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05577cee300d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 cubic feet equals 748.05 US gallons."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23ce2f595f5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff84ac20bac6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 Imperial gallon equals approximately 0.1605 cubic feet."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86a90eab0c3f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b22d2d86584a",
+          "_type": "span",
+          "marks": [],
+          "text": "The US figures are the relevant baseline for California utility billing and for properties using US customary units. The "
+        },
+        {
+          "_key": "217e4ba007ba",
+          "_type": "span",
+          "marks": [
+            "c617e46b4f83"
+          ],
+          "text": "California Water Boards unit conversion guide"
+        },
+        {
+          "_key": "37163c41c1f7",
+          "_type": "span",
+          "marks": [],
+          "text": " identifies "
+        },
+        {
+          "_key": "e48fcf87ab83",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805 gallons per cubic foot"
+        },
+        {
+          "_key": "f66a3af31d57",
+          "_type": "span",
+          "marks": [],
+          "text": " and shows how cubic-foot flow rates scale into gallons per minute, hour, and day."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c617e46b4f83",
+          "_type": "link",
+          "href": "https://www.waterboards.ca.gov/waterrights/water_issues/programs/measurement_regulation/docs/water_measurement/units.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a7136d95e0ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1a61c2019e1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf04d7307f55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5064b000b4c",
+          "_type": "span",
+          "marks": [],
+          "text": "Why the gallon system can cause confusion"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fb16ebecf33d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abf170207c66",
+          "_type": "span",
+          "marks": [],
+          "text": "A US gallon and an Imperial gallon aren't interchangeable. A property manager working with a Canadian or British reference may see gallons used in documentation, but the underlying gallon definition can differ from the US customary gallon used by California utilities and many US billing platforms. If a software configuration doesn't identify the gallon type, an apparently small unit mismatch can carry through every invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ce90a094472",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0352979b5c7f",
+          "_type": "span",
+          "marks": [],
+          "text": "The safest practice is to document the unit at the source:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85d6460a5257",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c2331531e0d",
+          "_type": "span",
+          "marks": [],
+          "text": "Identify whether the meter displays cubic feet, gallons, cubic metres, or a billing block."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "370924eb3392",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf3b1dd7ae7a",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm whether the utility uses US gallons when it provides a gallon equivalent."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e0fcfd2e311",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "751e03c2b946",
+          "_type": "span",
+          "marks": [],
+          "text": "Record the conversion factor in the billing specification."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5e1c59eff50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4c30b4dc6c9",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the same factor in audit spreadsheets, tenant reports, and submetering software."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "335c6c095ace",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "029dd93d26ac",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a3e9fec84a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "971451bcd0fc",
+          "_type": "span",
+          "marks": [],
+          "text": "Why cubic feet remains important"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "017b5efe0e88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1591a37f9498",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic feet is embedded in the way many utilities measure and bill water. It also fits naturally with engineering drawings, plumbing calculations, flow measurements, and municipal records. Gallons are often easier for residents to understand, but a gallon-only report can hide the relationship between the building's meter and the utility's bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b25153a94a1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc3811e5e56a",
+          "_type": "span",
+          "marks": [],
+          "text": "A good resident statement can show both: the measured volume in CCF or HCF, followed by the equivalent gallons. That approach preserves the utility's billing language while making consumption easier to visualise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a55ae5dd654",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7463c755794",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "cb060d97a84d",
+          "_type": "span",
+          "marks": [],
+          "text": " Pick one authoritative conversion factor, record it in the property billing standard, and don't let separate spreadsheets use rounded factors without documentation."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "1b03dc8b5fd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e7aa20a0f47",
+          "_type": "span",
+          "marks": [],
+          "text": "The conversion also works in reverse. To convert US gallons to cubic feet, divide the gallon total by "
+        },
+        {
+          "_key": "7f12b0b2ea53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805"
+        },
+        {
+          "_key": "184a883334be",
+          "_type": "span",
+          "marks": [],
+          "text": ". To convert cubic feet to gallons, multiply by "
+        },
+        {
+          "_key": "209d37e2100d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805"
+        },
+        {
+          "_key": "6e7455cec9dd",
+          "_type": "span",
+          "marks": [],
+          "text": ". Keep the calculation visible when auditing a bill, because a transparent formula is easier to defend than a final number copied from an unexplained report."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "091862ecad5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c881ff2bd2a7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "156180a3854b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e3f6d39c221",
+          "_type": "span",
+          "marks": [],
+          "text": "Understanding CCF and HCF Billing Units"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "77004526709b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f5239b55ecd",
+          "_type": "span",
+          "marks": [],
+          "text": "Water utilities generally don't bill every individual cubic foot as a separate line item. They use a block of "
+        },
+        {
+          "_key": "7520ecbfb4de",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 cubic feet"
+        },
+        {
+          "_key": "05d366ddb52f",
+          "_type": "span",
+          "marks": [],
+          "text": ", commonly called "
+        },
+        {
+          "_key": "7a18b4e52457",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CCF"
+        },
+        {
+          "_key": "ba23a5ebb8de",
+          "_type": "span",
+          "marks": [],
+          "text": ", or “centum cubic feet.” Some utilities call the same block "
+        },
+        {
+          "_key": "ff3c9e066571",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "HCF"
+        },
+        {
+          "_key": "8df7cf28f1bf",
+          "_type": "span",
+          "marks": [],
+          "text": ", meaning hundred cubic feet. The unit name can vary, but the volume relationship remains the same."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "28d2a546b34f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "183e3b5fd551",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 cubic feet equals 748.05 US gallons"
+        },
+        {
+          "_key": "0fd6b24494ca",
+          "_type": "span",
+          "marks": [],
+          "text": ", based on the conversion published in the "
+        },
+        {
+          "_key": "aa27a5daf511",
+          "_type": "span",
+          "marks": [
+            "350ae0084d14"
+          ],
+          "text": "California utility rate guidance"
+        },
+        {
+          "_key": "ccca5cba9264",
+          "_type": "span",
+          "marks": [],
+          "text": ". In practical billing language, that means one CCF or HCF represents roughly "
+        },
+        {
+          "_key": "a8b0b380231b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "748 gallons"
+        },
+        {
+          "_key": "18dd5e10e70e",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "350ae0084d14",
+          "_type": "link",
+          "href": "https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/help_tips/rates.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d9c473f95862",
+      "_type": "externalImage",
+      "alt": "A four-step infographic explaining how utility companies calculate water bills using CCF and HCF billing units.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d60c25c8-3650-425d-a2cb-4157303e2573/cubic-feet-of-water-per-gallon-billing-units.jpg"
+    },
+    {
+      "_key": "cd9f01ed3d23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8214675d34ff",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5659bb750dde",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0283bdab831f",
+          "_type": "span",
+          "marks": [],
+          "text": "The calculation behind a utility statement"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "751b935beaa5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3072e0402d2d",
+          "_type": "span",
+          "marks": [],
+          "text": "Suppose a bulk meter records a reading in cubic feet. The billing workflow typically follows this sequence:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ce2a41d5570",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4f01256e2f6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read the total cubic feet"
+        },
+        {
+          "_key": "197f68d5bea4",
+          "_type": "span",
+          "marks": [],
+          "text": " from the meter or interval data."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1c519e231e15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b60035a5e514",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Divide by 100"
+        },
+        {
+          "_key": "136b3a7d0036",
+          "_type": "span",
+          "marks": [],
+          "text": " to express the volume in CCF or HCF."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2529306d04cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70e160f26359",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Multiply the billable CCF or HCF by the applicable rate."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "477d372d14df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5eaf8590605",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Add any separate service, sewer, or other authorised charges"
+        },
+        {
+          "_key": "9c682f141f5b",
+          "_type": "span",
+          "marks": [],
+          "text": " shown by the utility."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "669b5ef0a3b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b0efac70e2a",
+          "_type": "span",
+          "marks": [],
+          "text": "For a tenant-facing explanation, the useful translation is: “Your allocation was measured in cubic feet, converted into hundred-cubic-foot billing units, and then shown as an equivalent gallon volume.” That language connects the meter reading to the invoice without implying that the utility measured individual gallons."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cfcd341872ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6a166048d39",
+          "_type": "span",
+          "marks": [],
+          "text": "Property managers can also use this relationship to normalise rates across buildings. A rate quoted per CCF can be converted into a rate per gallon for comparison, while the source bill remains in the utility's original unit. This is particularly useful when one property uses CCF and another uses gallons in its internal reports."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ee1b685b5b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34afeb0a84cf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a63729d8244",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1bf229856063",
+          "_type": "span",
+          "marks": [],
+          "text": "Auditing bulk consumption against suite data"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "38d69b6e591c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7db5d8471b24",
+          "_type": "span",
+          "marks": [],
+          "text": "The audit should preserve the distinction between "
+        },
+        {
+          "_key": "18989f11beb5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "measured usage"
+        },
+        {
+          "_key": "72c1083d939c",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "25a4347b71ff",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "allocated usage"
+        },
+        {
+          "_key": "f069be9f6dbc",
+          "_type": "span",
+          "marks": [],
+          "text": ". A municipal bulk meter may include suites, irrigation, mechanical systems, janitorial fixtures, and other common areas. Suite submeters usually cover only the areas assigned to them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8b7cb391968f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31dc17d5209f",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical reconciliation file should show:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0f094e36db1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3acc33092067",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Bulk meter volume"
+        },
+        {
+          "_key": "4072c4c34488",
+          "_type": "span",
+          "marks": [],
+          "text": ", in the utility's native unit."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d176c3cdfff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "daed9cbe79f8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Suite submeter total"
+        },
+        {
+          "_key": "be2e4f631a99",
+          "_type": "span",
+          "marks": [],
+          "text": ", converted using the same factor."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "455fb2c6959d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "323ce37817a3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area allocation"
+        },
+        {
+          "_key": "ac9fd78e5166",
+          "_type": "span",
+          "marks": [],
+          "text": ", identified separately."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55d1f63af3a8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4dff4d99b5e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unallocated difference"
+        },
+        {
+          "_key": "4491d974c819",
+          "_type": "span",
+          "marks": [],
+          "text": ", investigated rather than hidden."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3ed3da58a4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f413cf444d9c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rounding policy"
+        },
+        {
+          "_key": "a1884b24e8f0",
+          "_type": "span",
+          "marks": [],
+          "text": ", applied consistently to the final invoice."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4808fde1431c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40b69961734a",
+          "_type": "span",
+          "marks": [],
+          "text": "For a detailed explanation of meter displays and readings, property staff can use this guide on "
+        },
+        {
+          "_key": "f02f87d36748",
+          "_type": "span",
+          "marks": [
+            "1ea4a4181665"
+          ],
+          "text": "how to read a water meter"
+        },
+        {
+          "_key": "b2f43caa3e6a",
+          "_type": "span",
+          "marks": [],
+          "text": ". The important operational choice is not whether the report displays gallons or CCF. It's whether the conversion is consistent from the first reading through the final charge."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1ea4a4181665",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-read-a-water-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a295441477bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d663cba2a11",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7914ec2f99cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "04a66f6ac2c7",
+          "_type": "span",
+          "marks": [],
+          "text": "Formulas and Worked Examples for Common Volumes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e54970b8878d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c080a44a3f39",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing worksheet should make every unit change traceable. The "
+        },
+        {
+          "_key": "c5b54a46c90d",
+          "_type": "span",
+          "marks": [
+            "7fce5c55bdaf"
+          ],
+          "text": "California water conversion chart"
+        },
+        {
+          "_key": "b2b311ce6f84",
+          "_type": "span",
+          "marks": [],
+          "text": " establishes "
+        },
+        {
+          "_key": "fefc87ae35d5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805 gallons per cubic foot"
+        },
+        {
+          "_key": "62c3e1fbbd1f",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "8b06f460bba7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "325,850 gallons per acre-foot"
+        },
+        {
+          "_key": "672c0c5aecdf",
+          "_type": "span",
+          "marks": [],
+          "text": ". The first factor supports suite and common-area billing, while the second helps scale property records to larger water volumes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7fce5c55bdaf",
+          "_type": "link",
+          "href": "https://ncsd.ca.gov/resources/education/water-conversion-chart/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "02666c98485d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "864c36119a71",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ca141a6971a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "770eb7ec7ac8",
+          "_type": "span",
+          "marks": [],
+          "text": "Three formulas worth standardising"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f9ab09d1f650",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9277a3e6b3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Use these formulas for US customary water volumes:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6649ef71cec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2be6f51c3717",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cubic feet to gallons:"
+        },
+        {
+          "_key": "38814cc4e117",
+          "_type": "span",
+          "marks": [],
+          "text": " cubic feet × 7.4805 = US gallons."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "131faccf0085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ca6cbb1ce66",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gallons to cubic feet:"
+        },
+        {
+          "_key": "11b6711fd4a1",
+          "_type": "span",
+          "marks": [],
+          "text": " US gallons ÷ 7.4805 = cubic feet."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24091e33bc88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "baa90a792a38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cubic feet to CCF:"
+        },
+        {
+          "_key": "6e12ff8d63b4",
+          "_type": "span",
+          "marks": [],
+          "text": " cubic feet ÷ 100 = CCF."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e8ab665767c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb002ded8311",
+          "_type": "span",
+          "marks": [],
+          "text": "If a meter records "
+        },
+        {
+          "_key": "fa7815e3163d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100 cubic feet"
+        },
+        {
+          "_key": "c5e5049d297e",
+          "_type": "span",
+          "marks": [],
+          "text": ", multiply by 7.4805 to get "
+        },
+        {
+          "_key": "790373c7d938",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "748.05 gallons"
+        },
+        {
+          "_key": "9ee570b564ea",
+          "_type": "span",
+          "marks": [],
+          "text": ". That volume equals one CCF. To verify a gallons-based report, divide 748.05 by 7.4805 and confirm that it returns 100 cubic feet."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4245a213009c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48570b7c42b9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e380eca83715",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a8d04010e1e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Standard Water Volume Conversions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "185550c4c205",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f7250e8460e",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic Feet (ft³)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6cba5e6d63c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c904a902deef",
+          "_type": "span",
+          "marks": [],
+          "text": "US Gallons"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "27bf871d6238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0167816747ad",
+          "_type": "span",
+          "marks": [],
+          "text": "CCF Billing Units"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "137eea7d363e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a82000b80f0c",
+          "_type": "span",
+          "marks": [],
+          "text": "1"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "321c2aa8e1d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c3774186b7c",
+          "_type": "span",
+          "marks": [],
+          "text": "7.4805"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "643b4b6e3491",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81c5ade52245",
+          "_type": "span",
+          "marks": [],
+          "text": "0.01"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4a2ffe5d9bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24beced5fccc",
+          "_type": "span",
+          "marks": [],
+          "text": "100"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0bf930db7a4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b47fd427013",
+          "_type": "span",
+          "marks": [],
+          "text": "748.05"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89df14c07b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a610955b8a3",
+          "_type": "span",
+          "marks": [],
+          "text": "1"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6ef4bf62871f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e71f430d60e1",
+          "_type": "span",
+          "marks": [],
+          "text": "1,000"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2bd6b37f16d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "734b7357e69d",
+          "_type": "span",
+          "marks": [],
+          "text": "7,480.5"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e67373f398d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4581079dbb54",
+          "_type": "span",
+          "marks": [],
+          "text": "10"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "165a381cc059",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9091b0c883c4",
+          "_type": "span",
+          "marks": [],
+          "text": "1,000,000"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6070cc718405",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1491680cf83",
+          "_type": "span",
+          "marks": [],
+          "text": "About 7,480,500"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "638f3aa7662a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63320eca5869",
+          "_type": "span",
+          "marks": [],
+          "text": "10,000"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "af4582b3cb19",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f40d74993855",
+          "_type": "span",
+          "marks": [],
+          "text": "The table applies the same conversion factor at every scale. Keep full calculation precision in billing software and round only when displaying results or producing an invoice. Rounding each interval before totaling can create a different charge than summing raw intervals first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0b7a62c44e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4d1235ef047",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e84edb4aa2db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bb8b1dfab3b1",
+          "_type": "span",
+          "marks": [],
+          "text": "Scaling a property allocation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "356530f58ccf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "341495180bd0",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager may receive a monthly allocation in gallons while the utility statement uses cubic feet. Divide the allocation by 7.4805 to convert it to cubic feet, then divide by 100 for CCF. To reverse the process, multiply CCF by 100, then multiply cubic feet by 7.4805 to show gallons."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f13288117fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82ac77fcd9a1",
+          "_type": "span",
+          "marks": [],
+          "text": "The same method applies to suite usage, irrigation, pool filling, and common-area estimates. Consistent units also improve billing audits and leak screening. A property team can compare bulk and suite records in CCF, then flag unexplained differences without confusing a unit mismatch with actual water loss."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54da95476d78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a54740087bb",
+          "_type": "span",
+          "marks": [],
+          "text": "For software testing, create a record with a known cubic-foot value, verify the gallon result, and then verify the CCF result before deployment. Keep the raw value available so later billing reviews can reproduce the calculation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c339079159eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2159325fb25d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7001715c3fec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "970e406e100b",
+          "_type": "span",
+          "marks": [],
+          "text": "Quantifying Leaks and Continuous Water Loss"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "9513f2c06259",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "721b76e84a76",
+          "_type": "span",
+          "marks": [],
+          "text": "A leak should be assessed as a flow rate over time, not as one inconvenient meter increment. A slow loss in a common area may look insignificant during a single inspection, yet become a billing and maintenance problem when it continues between meter reads. For multi-family properties, the same calculation helps distinguish a small suite issue from a building-wide loss that distorts CCF or HCF allocation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8880ad3d1b9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb46613bca1a",
+          "_type": "span",
+          "marks": [],
+          "text": "The California Water Boards conversion guide demonstrates how quickly a flow rate scales from cubic feet per second into gallons per minute, hour, and day. The practical lesson is that continuous flow can produce a substantial annual volume, even when the initial meter movement appears modest. Accurate unit conversion therefore supports both conservation work and defensible leak investigations."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f010cef2cb52",
+      "_type": "externalImage",
+      "alt": "An infographic illustrating water loss from a dripping faucet and a running toilet in residential settings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8dacc1c0-1aa8-4025-a045-de762ec952d6/cubic-feet-of-water-per-gallon-water-loss.jpg"
+    },
+    {
+      "_key": "1d16b2b6a9cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41aa93d1a2ca",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dbb32c2788a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "253e4e7ee60d",
+          "_type": "span",
+          "marks": [],
+          "text": "Why the meter view matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "946b58d0de31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98a72899445c",
+          "_type": "span",
+          "marks": [],
+          "text": "Property teams usually encounter leaks at a much smaller scale than one cubic foot per second. Test the meter during a scheduled low-use period, then compare the opening and closing readings over a defined interval. If the reading continues to advance while suites and common fixtures should be idle, the property has evidence of ongoing consumption that warrants investigation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9f6733294a31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f50d182755bd",
+          "_type": "span",
+          "marks": [],
+          "text": "A display that advances in coarse cubic-foot increments can hide the size of a small loss. Convert the observed change into gallons and, where appropriate, CCF or HCF before judging its significance. This prevents a unit mismatch from being mistaken for a billing variance and gives managers a consistent basis for comparing bulk-meter observations with suite-level records."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c5090081f886",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96da30af1d35",
+          "_type": "span",
+          "marks": [],
+          "text": "For practical household troubleshooting, property teams can review guidance on how to "
+        },
+        {
+          "_key": "167f3f84483e",
+          "_type": "span",
+          "marks": [
+            "d6c3623205fb"
+          ],
+          "text": "spot water leaks before they spread"
+        },
+        {
+          "_key": "09486d03d2ec",
+          "_type": "span",
+          "marks": [],
+          "text": ". A meter test should still be paired with an inspection of toilets, valves, irrigation equipment, mechanical rooms, and exposed piping."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d6c3623205fb",
+          "_type": "link",
+          "href": "https://jaysplumbingandsewer.com/2026/09/how-to-find-water-leak-in-house/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6d3f86929b09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c061931a9642",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f27343822f2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5abe011fe7a1",
+          "_type": "span",
+          "marks": [],
+          "text": "Turning flow observations into an alert policy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "738559fad00a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d945742b6230",
+          "_type": "span",
+          "marks": [],
+          "text": "A leak threshold should reflect the building's normal baseline. Irrigation, cooling equipment, laundry rooms, and other scheduled uses can create legitimate overnight flow, while a quiet residential property may require a much tighter threshold."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "190eb13f57d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1bd6978580ef",
+          "_type": "span",
+          "marks": [],
+          "text": "Useful alert rules include:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcf39416ea26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5698724f28f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Continuous-use alert:"
+        },
+        {
+          "_key": "798682db41a9",
+          "_type": "span",
+          "marks": [],
+          "text": " Notify staff when flow persists during a scheduled low-use period."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cf1c244da40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fc68af0b7e3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Volume alert:"
+        },
+        {
+          "_key": "26e651e8b9a5",
+          "_type": "span",
+          "marks": [],
+          "text": " Flag an unexpected increase in CCF, HCF, or gallons against the property's established pattern."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39d24942d6d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fd97c3ce225",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Duration alert:"
+        },
+        {
+          "_key": "3da8ef3633a6",
+          "_type": "span",
+          "marks": [],
+          "text": " Escalate low flow that continues instead of dismissing it as a brief fixture event."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9439a921db85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c39aa7bd687e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Zone alert:"
+        },
+        {
+          "_key": "b4a65cb907a3",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify whether the change originates in a suite, common area, irrigation branch, or mechanical system."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3e38d0bf997",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38954f82479d",
+          "_type": "span",
+          "marks": [],
+          "text": "The strongest programme combines meter data with a physical response. An alert identifies a pattern, but staff must confirm the source, document the affected zone, and record the repair. Early detection protects the water budget, improves billing accuracy, and reduces the chance that a minor plumbing failure causes wider property damage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02a8d875f382",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71b6cac6ce07",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6dd0043ecde9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f7fc5cd9422",
+          "_type": "span",
+          "marks": [],
+          "text": "Aligning Municipal Bulk Meters with Suite Submeters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "10cde72cfd6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f390f47b85e6",
+          "_type": "span",
+          "marks": [],
+          "text": "A municipal bulk meter and a suite submeter answer different questions. The bulk meter records the water entering the property or service area. Suite meters assign consumption to defined units. The difference between those totals isn't automatically an error, but it must be explained."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "871c52f9aeed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85928ce5db20",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4194c7320843",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c6efe4a282d",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare the measurement boundaries first"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "43710a9a915f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e2f49a56500",
+          "_type": "span",
+          "marks": [],
+          "text": "A bulk meter may include:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d79b88a3fb8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d781a90bedaa",
+          "_type": "span",
+          "marks": [],
+          "text": "Residential suites."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4094136115a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a34b08301dc2",
+          "_type": "span",
+          "marks": [],
+          "text": "Retail or commercial spaces."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e2e59739232c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "058c671570c9",
+          "_type": "span",
+          "marks": [],
+          "text": "Irrigation."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5af87189419e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14dc3487c41c",
+          "_type": "span",
+          "marks": [],
+          "text": "Janitorial rooms."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68a67f931510",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a586b696b740",
+          "_type": "span",
+          "marks": [],
+          "text": "Laundry facilities."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "faae0d55f6be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3e4e0827ba1",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical equipment."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93cada501982",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60e83f6ac009",
+          "_type": "span",
+          "marks": [],
+          "text": "Fire or testing activities where applicable."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e5177804655",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef0b67a898a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Other common-area fixtures."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aae79ecb80e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "871ae5d9214f",
+          "_type": "span",
+          "marks": [],
+          "text": "A suite-meter total excludes anything outside the suites being measured. If a property compares the two totals without separating common areas, the reconciliation will appear incomplete even when every installed meter is working correctly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d87ec03b964",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a20e3e427feb",
+          "_type": "span",
+          "marks": [],
+          "text": "The first control is a "
+        },
+        {
+          "_key": "92cfc4f4cee4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "measurement boundary map"
+        },
+        {
+          "_key": "89f11b8f4fa5",
+          "_type": "span",
+          "marks": [],
+          "text": ". Mark each meter, its served area, its unit, and its reading interval. Then convert every reading to the same standard before comparing totals. Don't compare gallons from one system with raw cubic feet from another."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f3663c27cc8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "942076e3b7ef",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1e0afd8e47e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c164d5c01723",
+          "_type": "span",
+          "marks": [],
+          "text": "Control rounding before it creates friction"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5c0b3b9551c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6f268535675",
+          "_type": "span",
+          "marks": [],
+          "text": "Rounding can enter at several points:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69bda683cde7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d72f42ee166c",
+          "_type": "span",
+          "marks": [],
+          "text": "The meter may record a fine-grained reading while the bill displays a rounded block."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f9d3fbd72c2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3bc45beb711c",
+          "_type": "span",
+          "marks": [],
+          "text": "An interval platform may round each reading before aggregation."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37b0eb000e60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f238bfd1f505",
+          "_type": "span",
+          "marks": [],
+          "text": "A billing file may convert CCF to gallons for display."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "877ef5982638",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "daad8755a85d",
+          "_type": "span",
+          "marks": [],
+          "text": "A final invoice may round the resident's usage again."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b9fd2c04455",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "097f2a62b0e3",
+          "_type": "span",
+          "marks": [],
+          "text": "The cleanest method is to retain raw readings, perform calculations at full available precision, and round only where the billing policy requires it. State the policy in the billing documentation so a resident, auditor, or property owner can reproduce the result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cbb873d1a1fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d86d43a3bde1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A reconciliation is defensible when every difference has an owner, a location, or an investigation status."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "0f5b5b8e3f7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45be9b19b64f",
+          "_type": "span",
+          "marks": [],
+          "text": "Remote data can reduce the manual work involved in collecting readings and help staff compare the bulk meter with suite activity more frequently. Property teams evaluating that workflow can review options for "
+        },
+        {
+          "_key": "7d97ab0cd367",
+          "_type": "span",
+          "marks": [
+            "71f1e4e8967e"
+          ],
+          "text": "water meters with remote reading"
+        },
+        {
+          "_key": "95059a261591",
+          "_type": "span",
+          "marks": [],
+          "text": ". Remote access doesn't replace commissioning or maintenance, but it gives the operator a clearer record of when consumption changed."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "71f1e4e8967e",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-meters-with-remote-reading"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "19fbddfe15cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06a6b86a4886",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8aa8a0ad46eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "314ac920cdcd",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocate common-area use openly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "175f8cb29f73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03e55df74672",
+          "_type": "span",
+          "marks": [],
+          "text": "A common-area allocation should follow the property's governing documents, utility rules, and applicable local requirements. Possible approaches include a separate common-area charge, an owner-paid cost, or an approved allocation method. The choice is a policy decision, not a conversion decision."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d90387fd9834",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69772ed8f07c",
+          "_type": "span",
+          "marks": [],
+          "text": "The conversion must still be exact. Once the allocation method is selected, show residents how the source volume was measured, which areas were excluded from suite use, and how the final bill was calculated. That explanation prevents a legitimate common-area charge from appearing to be a hidden discrepancy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "945d9033da79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "173a809bbe9f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b8246bbbc62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5755c3f38320",
+          "_type": "span",
+          "marks": [],
+          "text": "Setting Transparent Billing Rates and Leak Thresholds"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "31397299d430",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "481791cfe1ab",
+          "_type": "span",
+          "marks": [],
+          "text": "A tenant invoice should answer three questions without requiring a property manager to reconstruct the calculation. How much water was assigned to the unit? Which billing unit was used? How did that volume produce the charge?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3876f411a11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e43a92d46358",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the municipal statement, then build a billing specification that separates "
+        },
+        {
+          "_key": "78b1721902d1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "water consumption"
+        },
+        {
+          "_key": "51741baf7262",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "382591583854",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "sewer or wastewater charges"
+        },
+        {
+          "_key": "3eed0774aff2",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "07f5b6f56d36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "service charges"
+        },
+        {
+          "_key": "6a477adc562d",
+          "_type": "span",
+          "marks": [],
+          "text": ", and any approved property allocation. Don't blend every component into an unexplained per-gallon figure if the underlying utility bill uses CCF or HCF."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe442f8e029c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7d270e45e90",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb7dc37a3e0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06fefa95e48b",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical billing setup"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "19af1288f8be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5627e4a235a5",
+          "_type": "span",
+          "marks": [],
+          "text": "A clear implementation can follow this sequence:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3533879e3bb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25d625ca94f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define the source unit."
+        },
+        {
+          "_key": "7c3a8bc65c30",
+          "_type": "span",
+          "marks": [],
+          "text": " Record whether the bulk bill and suite meters use cubic feet, CCF, HCF, or gallons."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "626947f2e877",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5cee722c2de",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Set the conversion rule."
+        },
+        {
+          "_key": "42a3191e43bc",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the documented US conversion when converting cubic feet to gallons."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85c0bc3179a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e30ee8a80b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define the rate basis."
+        },
+        {
+          "_key": "2733fd8e0b64",
+          "_type": "span",
+          "marks": [],
+          "text": " State whether the rate is per CCF, per gallon, or calculated from a broader utility charge."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b4011808b7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58a4cb0ef05b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Separate shared usage."
+        },
+        {
+          "_key": "5db61750fb07",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify common-area consumption rather than distributing it invisibly."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "723aaeec579b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19150809de7a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Publish the explanation."
+        },
+        {
+          "_key": "251029c1b40f",
+          "_type": "span",
+          "marks": [],
+          "text": " Give residents the meter period, measured volume, conversion, rate basis, and final charge."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d0518dc4a35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a76520d52982",
+          "_type": "span",
+          "marks": [],
+          "text": "The resident doesn't need a plumbing lecture, but they do need enough information to verify the invoice. A short explanation can say that one CCF represents 100 cubic feet and approximately 748 gallons, then show the unit's measured allocation in the same terms as the bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ceb4d7dce59b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50c869cf2376",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8b04acdfdaf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02c762bec688",
+          "_type": "span",
+          "marks": [],
+          "text": "Set leak thresholds around behaviour"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "543322cc1cef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "729c1db2be4b",
+          "_type": "span",
+          "marks": [],
+          "text": "A leak threshold should distinguish an unusual continuous pattern from ordinary occupancy. The "
+        },
+        {
+          "_key": "2c7e6e33f33d",
+          "_type": "span",
+          "marks": [
+            "6e11fd21c68f"
+          ],
+          "text": "Mountain View meter-reading guidance"
+        },
+        {
+          "_key": "5b740dc8cd86",
+          "_type": "span",
+          "marks": [],
+          "text": " notes that meters may advance in 10-cubic-foot or 100-cubic-foot increments and that cities use HCF or CCF for billing and leak checks. A leak adding only a few CCF over a month can therefore represent hundreds or thousands of gallons of unbudgeted loss."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6e11fd21c68f",
+          "_type": "link",
+          "href": "https://www.mountainview.gov/our-city/departments/public-works/water-and-sewer-services/water-conservation/residential/how-to-read-your-meter?locale=es"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9b7c32f683aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9723b32778a",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't present the threshold as a fine or an automatic charge. Present it as an operational alert. The notification should tell the resident or maintenance team what was observed, when it occurred, which meter was involved, and what to check first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24258f0dde0a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b5f4fa057f6d",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful notice avoids blame: “Your meter recorded continuous activity during a period that normally shows little or no use. Please check toilets, taps, appliances, and visible piping, then contact management if the meter continues to advance.” That wording encourages a response while leaving room for legitimate usage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70c2d0cd809e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5d748458fd3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ef45d6f7e2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d71901f28b8",
+          "_type": "span",
+          "marks": [],
+          "text": "Quick Reference Guide for Property Water Volumes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c228942cf867",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f415b3f4ad1e",
+          "_type": "span",
+          "marks": [],
+          "text": "Property staff need a lookup method that works during a phone call, a maintenance inspection, or a bill review. The most reliable reference starts with the meter's native reading and converts only when a different audience needs another unit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a2607164c7b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "57e1eeff6a23",
+          "_type": "span",
+          "marks": [],
+          "text": "For US customary measurements, multiply cubic feet by "
+        },
+        {
+          "_key": "bde59fd9b36e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805"
+        },
+        {
+          "_key": "8aeb0ae898a8",
+          "_type": "span",
+          "marks": [],
+          "text": " to obtain gallons. Divide gallons by "
+        },
+        {
+          "_key": "cba393335e75",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7.4805"
+        },
+        {
+          "_key": "8b79ce5b558f",
+          "_type": "span",
+          "marks": [],
+          "text": " to return to cubic feet. For CCF or HCF, divide cubic feet by "
+        },
+        {
+          "_key": "996fbf986318",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "100"
+        },
+        {
+          "_key": "1d9bb8655f9e",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "164f3ea653ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2bd15a48f22",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93315feea2c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4a3fd649f478",
+          "_type": "span",
+          "marks": [],
+          "text": "A compact lookup table"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "53fafc62b9a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f836a049c62",
+          "_type": "span",
+          "marks": [],
+          "text": "If the record shows"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8acc76725ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58f93dc099a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Convert it by"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "caefd29ccf53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d60a0a6a5470",
+          "_type": "span",
+          "marks": [],
+          "text": "The result means"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "692551734c25",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44a633cc62a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic feet"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8062d5d9ce2b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e657d8074901",
+          "_type": "span",
+          "marks": [],
+          "text": "Multiply by 7.4805"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "26103564177e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf9599815890",
+          "_type": "span",
+          "marks": [],
+          "text": "US gallons"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f9669a68ee6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6bde4df9d6c6",
+          "_type": "span",
+          "marks": [],
+          "text": "US gallons"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94cb794a9cd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41d5e89be6eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Divide by 7.4805"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd2ef4e6670e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82507d7806b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic feet"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cb685c74271",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efe7e67a1801",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic feet"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ffa744099def",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a0714dfce2e",
+          "_type": "span",
+          "marks": [],
+          "text": "Divide by 100"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "98d23cbd4443",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c37c2113967",
+          "_type": "span",
+          "marks": [],
+          "text": "CCF or HCF"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47f831f8cef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3635685cabf",
+          "_type": "span",
+          "marks": [],
+          "text": "CCF or HCF"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40b68ceb1c7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62bad45eadb3",
+          "_type": "span",
+          "marks": [],
+          "text": "Multiply by 100"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76c89e22ebb6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a8d4db5cada",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic feet"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a71a829c917b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bec3554676fd",
+          "_type": "span",
+          "marks": [],
+          "text": "CCF or HCF"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "839697d950c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92429c3e2b4f",
+          "_type": "span",
+          "marks": [],
+          "text": "Multiply by the applicable gallon factor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "689880dc66f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bcc3242ec3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Gallon equivalent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2cee61c509e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eb6ee77a9b7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the table as a translation aid, not as a substitute for the utility's rate rules. A gallon equivalent can explain volume, but it doesn't determine whether sewer, service, or tiered charges apply."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3793f5bddad2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4be0284a8434",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "156d326d3102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08cd36bdec63",
+          "_type": "span",
+          "marks": [],
+          "text": "How to investigate a high-usage alert"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "581444fac3e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f250aeb5831c",
+          "_type": "span",
+          "marks": [],
+          "text": "Begin with the time pattern. A single increase may reflect irrigation, a cleaning activity, a maintenance flush, or another authorised event. Continuous advancement during a low-use period deserves a different response."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "defe33a8ef27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef6a82a16c9c",
+          "_type": "span",
+          "marks": [],
+          "text": "Then check the likely sources in a deliberate order:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c722f9129f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "127fe5307b05",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Suite fixtures:"
+        },
+        {
+          "_key": "4168faf606fb",
+          "_type": "span",
+          "marks": [],
+          "text": " Toilets, taps, showers, dishwashers, and washing-machine connections."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c61e5a963a0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aed2581d803e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common facilities:"
+        },
+        {
+          "_key": "07da78fabbb6",
+          "_type": "span",
+          "marks": [],
+          "text": " Janitorial sinks, laundry rooms, wash-down areas, and amenity spaces."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e32318ed1b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ef02f3aa6d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Irrigation:"
+        },
+        {
+          "_key": "8ddc908c8527",
+          "_type": "span",
+          "marks": [],
+          "text": " Controllers, valves, broken heads, and underground lines."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d07b0a78156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3f4c644f453",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Mechanical rooms:"
+        },
+        {
+          "_key": "36ff8aa56b6d",
+          "_type": "span",
+          "marks": [],
+          "text": " Make-up water, relief discharge, cooling equipment, and treatment systems."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1066e0347457",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b3cb1c2c9be",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Meter condition:"
+        },
+        {
+          "_key": "8d20364d592c",
+          "_type": "span",
+          "marks": [],
+          "text": " Wiring, communications, register operation, and reading continuity."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1446fa7f712",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d98da04da6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Avoid inventing property-wide “normal” volumes from generic benchmarks. Occupancy, fixture condition, irrigation schedules, commercial activity, and mechanical design all change the baseline. The property's own historical meter record is usually more useful than an unsupported comparison."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d719685dd42b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96e84a4da4b5",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical reference sheet should include the meter identifier, served area, native unit, conversion factor, reading date, and escalation contact. That document helps maintenance staff communicate with billers and lets resident support answer questions without performing ad hoc arithmetic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ad33768e96f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0fe52784fa3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "656fe79a5b38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42d4998bf613",
+          "_type": "span",
+          "marks": [],
+          "text": "Automating Conversions with Smart Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f9a469cc1ff6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "767856c62a4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Manual conversion is valuable during an audit, but it becomes fragile when staff repeat it across every suite, billing period, common area, and leak review. A reliable submetering platform should retain the source reading, apply the documented factor, calculate the allocation, and preserve an audit trail for the invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1678355e9e0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0dbe07a14e4d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f52078ec7ba8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "343b29a8f22d",
+          "_type": "span",
+          "marks": [],
+          "text": "What automation should handle"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "293dbf35cfbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d11922efe452",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful system connects several tasks that are often separated in spreadsheets:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d31d82825332",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc12ce9e8aed",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reading collection:"
+        },
+        {
+          "_key": "f0e275a30798",
+          "_type": "span",
+          "marks": [],
+          "text": " Capture meter data in the unit supplied by the device."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4b9f81d2d3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ea2b0ae8243",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unit normalisation:"
+        },
+        {
+          "_key": "6ba543799b2d",
+          "_type": "span",
+          "marks": [],
+          "text": " Convert cubic feet, CCF, HCF, or gallons according to the property configuration."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "af07f1f3dcea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "500dc3f14ad9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Allocation:"
+        },
+        {
+          "_key": "e63b248e6d2d",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate suite, commercial, irrigation, and common-area consumption."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1316d9e1b538",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32e9864a81ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing:"
+        },
+        {
+          "_key": "9da188505e10",
+          "_type": "span",
+          "marks": [],
+          "text": " Apply the approved rate structure and show the calculation clearly."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "517fa91bd0ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f182ec4137e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Leak detection:"
+        },
+        {
+          "_key": "54b52ea08a6c",
+          "_type": "span",
+          "marks": [],
+          "text": " Identify unusual continuous use or changes from the established baseline."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "96a57730b563",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c8d3b81fa35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reporting:"
+        },
+        {
+          "_key": "43be9ff69616",
+          "_type": "span",
+          "marks": [],
+          "text": " Give owners, managers, and maintenance teams access to the same underlying record."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1bdb117c74a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88c2cd66eebd",
+          "_type": "span",
+          "marks": [],
+          "text": "Remote reading is particularly helpful when staff need to compare bulk and suite activity without relying on occasional manual visits. It also supports quicker investigation when a meter pattern changes between billing cycles."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49577a930070",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82d1a47a31b1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02b1837edb63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2cb38ed0b7b",
+          "_type": "span",
+          "marks": [],
+          "text": "Manual spreadsheets versus a managed programme"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6e8add9f1fe5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a861ddbed42",
+          "_type": "span",
+          "marks": [],
+          "text": "A spreadsheet can work for a small site with stable readings and a disciplined review process. It becomes less dependable when several people edit formulas, meters use different display units, or common-area allocations change. The failure usually isn't the multiplication itself. It's an undocumented assumption, a copied formula, a missing reading, or an inconsistent rounding rule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f77f31dac44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e25b96c5813",
+          "_type": "span",
+          "marks": [],
+          "text": "A managed programme can include equipment, installation, commissioning, tenant billing, reporting, maintenance, and leak or flood detection. "
+        },
+        {
+          "_key": "0a01c981cbe2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "c4b4512292b4",
+          "_type": "span",
+          "marks": [],
+          "text": " is one provider that offers turnkey utility submetering for multifamily, condominium, mixed-use, and commercial properties across Canada and the United States, with water submetering, suite and common-area measurement, billing workflows, and ongoing service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "404adea18dcd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ba6abeb318a",
+          "_type": "span",
+          "marks": [],
+          "text": "Property teams can also review guidance on a "
+        },
+        {
+          "_key": "1d3cad3bfb5b",
+          "_type": "span",
+          "marks": [
+            "0cfb41c58035"
+          ],
+          "text": "digital water meter"
+        },
+        {
+          "_key": "70d2681d1972",
+          "_type": "span",
+          "marks": [],
+          "text": " before selecting equipment. The device matters, but the surrounding process matters just as much. Confirm the meter's unit, verify commissioning, define the billing rule, document common-area treatment, and test the leak alert before residents receive charges."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0cfb41c58035",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/digital-water-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b2c1c10bb459",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1722d83a6101",
+          "_type": "span",
+          "marks": [],
+          "text": "Accurate cubic-feet-to-gallon conversion is therefore more than a reference calculation. It is a control point linking municipal billing, suite allocations, resident communications, and maintenance response. When the system handles that control consistently, property managers spend less time resolving avoidable discrepancies and more time acting on genuine water-use problems."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "297005881ce9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d27b5d7e5361",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey water submetering, suite and common-area allocation, tenant billing, and leak and flood detection for multifamily, condominium, mixed-use, and commercial properties. Visit "
+        },
+        {
+          "_key": "c512ab387adf",
+          "_type": "span",
+          "marks": [
+            "9eaacdb4a21a"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "37b357a6f555",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a conversion and submetering programme that fits your property's meters, billing units, and operational requirements."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9eaacdb4a21a",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Master the cubic feet of water per gallon conversion for US and Imperial units. Essential formulas, billing examples, and leak detection insights",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/af7708bd-8095-4a0e-8462-efa9952e4192/cubic-feet-of-water-per-gallon-water-conversion.jpg",
+  "noIndex": false,
+  "outrankId": "c35b4bb0-8c2a-4c2b-94c1-1a9a52942c9b",
+  "publishedAt": "2026-10-03T07:26:35.43826+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "cubic-feet-of-water-per-gallon"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>1 cubic foot of water equals exactly 7.4805 US gallons, or roughly 7.48 gallons for standard billing. One Imperial gallon equals approximately 0.1605 cubic feet.</p>\n<p>That distinction matters when you&#39;re reconciling a municipal water bill, checking a suite submeter, or explaining a charge to a resident. A property manager may see cubic feet on the meter, CCF or HCF on the utility statement, and gallons in a tenant-facing report. The water hasn&#39;t changed, but the unit has, and a conversion error can affect both billing accuracy and leak response.</p>\n<p>For multifamily and mixed-use properties, the practical question isn&#39;t only “How many gallons are in a cubic foot of water?” It&#39;s also “Which unit does each system use, and where can a conversion mistake create a dispute?” The answer starts with one consistent factor, then extends into billing blocks, common-area allocation, flow monitoring, and automated alerts.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#core-conversion-metrics-for-us-and-imperial-gallons\">Core Conversion Metrics for US and Imperial Gallons</a><ul>\n<li><a href=\"#why-the-gallon-system-can-cause-confusion\">Why the gallon system can cause confusion</a></li>\n<li><a href=\"#why-cubic-feet-remains-important\">Why cubic feet remains important</a></li>\n</ul>\n</li>\n<li><a href=\"#understanding-ccf-and-hcf-billing-units\">Understanding CCF and HCF Billing Units</a><ul>\n<li><a href=\"#the-calculation-behind-a-utility-statement\">The calculation behind a utility statement</a></li>\n<li><a href=\"#auditing-bulk-consumption-against-suite-data\">Auditing bulk consumption against suite data</a></li>\n</ul>\n</li>\n<li><a href=\"#formulas-and-worked-examples-for-common-volumes\">Formulas and Worked Examples for Common Volumes</a><ul>\n<li><a href=\"#three-formulas-worth-standardising\">Three formulas worth standardising</a></li>\n<li><a href=\"#standard-water-volume-conversions\">Standard Water Volume Conversions</a></li>\n<li><a href=\"#scaling-a-property-allocation\">Scaling a property allocation</a></li>\n</ul>\n</li>\n<li><a href=\"#quantifying-leaks-and-continuous-water-loss\">Quantifying Leaks and Continuous Water Loss</a><ul>\n<li><a href=\"#why-the-meter-view-matters\">Why the meter view matters</a></li>\n<li><a href=\"#turning-flow-observations-into-an-alert-policy\">Turning flow observations into an alert policy</a></li>\n</ul>\n</li>\n<li><a href=\"#aligning-municipal-bulk-meters-with-suite-submeters\">Aligning Municipal Bulk Meters with Suite Submeters</a><ul>\n<li><a href=\"#compare-the-measurement-boundaries-first\">Compare the measurement boundaries first</a></li>\n<li><a href=\"#control-rounding-before-it-creates-friction\">Control rounding before it creates friction</a></li>\n<li><a href=\"#allocate-common-area-use-openly\">Allocate common-area use openly</a></li>\n</ul>\n</li>\n<li><a href=\"#setting-transparent-billing-rates-and-leak-thresholds\">Setting Transparent Billing Rates and Leak Thresholds</a><ul>\n<li><a href=\"#a-practical-billing-setup\">A practical billing setup</a></li>\n<li><a href=\"#set-leak-thresholds-around-behaviour\">Set leak thresholds around behaviour</a></li>\n</ul>\n</li>\n<li><a href=\"#quick-reference-guide-for-property-water-volumes\">Quick Reference Guide for Property Water Volumes</a><ul>\n<li><a href=\"#a-compact-lookup-table\">A compact lookup table</a></li>\n<li><a href=\"#how-to-investigate-a-high-usage-alert\">How to investigate a high-usage alert</a></li>\n</ul>\n</li>\n<li><a href=\"#automating-conversions-with-smart-submetering\">Automating Conversions with Smart Submetering</a><ul>\n<li><a href=\"#what-automation-should-handle\">What automation should handle</a></li>\n<li><a href=\"#manual-spreadsheets-versus-a-managed-programme\">Manual spreadsheets versus a managed programme</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"core-conversion-metrics-for-us-and-imperial-gallons\"></a></p>\n<h2>Core Conversion Metrics for US and Imperial Gallons</h2>\n<p>The standard US conversion is straightforward:</p>\n<ul>\n<li><strong>1 cubic foot equals 7.4805 US gallons.</strong></li>\n<li><strong>1 US gallon equals approximately 0.13368 cubic feet.</strong></li>\n<li><strong>100 cubic feet equals 748.05 US gallons.</strong></li>\n<li><strong>1 Imperial gallon equals approximately 0.1605 cubic feet.</strong></li>\n</ul>\n<p>The US figures are the relevant baseline for California utility billing and for properties using US customary units. The <a href=\"https://www.waterboards.ca.gov/waterrights/water_issues/programs/measurement_regulation/docs/water_measurement/units.pdf\">California Water Boards unit conversion guide</a> identifies <strong>7.4805 gallons per cubic foot</strong> and shows how cubic-foot flow rates scale into gallons per minute, hour, and day.</p>\n<p><a id=\"why-the-gallon-system-can-cause-confusion\"></a></p>\n<h3>Why the gallon system can cause confusion</h3>\n<p>A US gallon and an Imperial gallon aren&#39;t interchangeable. A property manager working with a Canadian or British reference may see gallons used in documentation, but the underlying gallon definition can differ from the US customary gallon used by California utilities and many US billing platforms. If a software configuration doesn&#39;t identify the gallon type, an apparently small unit mismatch can carry through every invoice.</p>\n<p>The safest practice is to document the unit at the source:</p>\n<ol>\n<li>Identify whether the meter displays cubic feet, gallons, cubic metres, or a billing block.</li>\n<li>Confirm whether the utility uses US gallons when it provides a gallon equivalent.</li>\n<li>Record the conversion factor in the billing specification.</li>\n<li>Use the same factor in audit spreadsheets, tenant reports, and submetering software.</li>\n</ol>\n<p><a id=\"why-cubic-feet-remains-important\"></a></p>\n<h3>Why cubic feet remains important</h3>\n<p>Cubic feet is embedded in the way many utilities measure and bill water. It also fits naturally with engineering drawings, plumbing calculations, flow measurements, and municipal records. Gallons are often easier for residents to understand, but a gallon-only report can hide the relationship between the building&#39;s meter and the utility&#39;s bill.</p>\n<p>A good resident statement can show both: the measured volume in CCF or HCF, followed by the equivalent gallons. That approach preserves the utility&#39;s billing language while making consumption easier to visualise.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Pick one authoritative conversion factor, record it in the property billing standard, and don&#39;t let separate spreadsheets use rounded factors without documentation.</p>\n</blockquote>\n<p>The conversion also works in reverse. To convert US gallons to cubic feet, divide the gallon total by <strong>7.4805</strong>. To convert cubic feet to gallons, multiply by <strong>7.4805</strong>. Keep the calculation visible when auditing a bill, because a transparent formula is easier to defend than a final number copied from an unexplained report.</p>\n<p><a id=\"understanding-ccf-and-hcf-billing-units\"></a></p>\n<h2>Understanding CCF and HCF Billing Units</h2>\n<p>Water utilities generally don&#39;t bill every individual cubic foot as a separate line item. They use a block of <strong>100 cubic feet</strong>, commonly called <strong>CCF</strong>, or “centum cubic feet.” Some utilities call the same block <strong>HCF</strong>, meaning hundred cubic feet. The unit name can vary, but the volume relationship remains the same.</p>\n<p><strong>100 cubic feet equals 748.05 US gallons</strong>, based on the conversion published in the <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/help_tips/rates.html\">California utility rate guidance</a>. In practical billing language, that means one CCF or HCF represents roughly <strong>748 gallons</strong>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d60c25c8-3650-425d-a2cb-4157303e2573/cubic-feet-of-water-per-gallon-billing-units.jpg\" alt=\"A four-step infographic explaining how utility companies calculate water bills using CCF and HCF billing units.\"></p>\n<p><a id=\"the-calculation-behind-a-utility-statement\"></a></p>\n<h3>The calculation behind a utility statement</h3>\n<p>Suppose a bulk meter records a reading in cubic feet. The billing workflow typically follows this sequence:</p>\n<ol>\n<li><strong>Read the total cubic feet</strong> from the meter or interval data.</li>\n<li><strong>Divide by 100</strong> to express the volume in CCF or HCF.</li>\n<li><strong>Multiply the billable CCF or HCF by the applicable rate.</strong></li>\n<li><strong>Add any separate service, sewer, or other authorised charges</strong> shown by the utility.</li>\n</ol>\n<p>For a tenant-facing explanation, the useful translation is: “Your allocation was measured in cubic feet, converted into hundred-cubic-foot billing units, and then shown as an equivalent gallon volume.” That language connects the meter reading to the invoice without implying that the utility measured individual gallons.</p>\n<p>Property managers can also use this relationship to normalise rates across buildings. A rate quoted per CCF can be converted into a rate per gallon for comparison, while the source bill remains in the utility&#39;s original unit. This is particularly useful when one property uses CCF and another uses gallons in its internal reports.</p>\n<p><a id=\"auditing-bulk-consumption-against-suite-data\"></a></p>\n<h3>Auditing bulk consumption against suite data</h3>\n<p>The audit should preserve the distinction between <strong>measured usage</strong> and <strong>allocated usage</strong>. A municipal bulk meter may include suites, irrigation, mechanical systems, janitorial fixtures, and other common areas. Suite submeters usually cover only the areas assigned to them.</p>\n<p>A practical reconciliation file should show:</p>\n<ul>\n<li><strong>Bulk meter volume</strong>, in the utility&#39;s native unit.</li>\n<li><strong>Suite submeter total</strong>, converted using the same factor.</li>\n<li><strong>Common-area allocation</strong>, identified separately.</li>\n<li><strong>Unallocated difference</strong>, investigated rather than hidden.</li>\n<li><strong>Rounding policy</strong>, applied consistently to the final invoice.</li>\n</ul>\n<p>For a detailed explanation of meter displays and readings, property staff can use this guide on <a href=\"https://www.axismeter.com/blog/how-to-read-a-water-meter\">how to read a water meter</a>. The important operational choice is not whether the report displays gallons or CCF. It&#39;s whether the conversion is consistent from the first reading through the final charge.</p>\n<p><a id=\"formulas-and-worked-examples-for-common-volumes\"></a></p>\n<h2>Formulas and Worked Examples for Common Volumes</h2>\n<p>A billing worksheet should make every unit change traceable. The <a href=\"https://ncsd.ca.gov/resources/education/water-conversion-chart/\">California water conversion chart</a> establishes <strong>7.4805 gallons per cubic foot</strong> and <strong>325,850 gallons per acre-foot</strong>. The first factor supports suite and common-area billing, while the second helps scale property records to larger water volumes.</p>\n<p><a id=\"three-formulas-worth-standardising\"></a></p>\n<h3>Three formulas worth standardising</h3>\n<p>Use these formulas for US customary water volumes:</p>\n<ul>\n<li><strong>Cubic feet to gallons:</strong> cubic feet × 7.4805 = US gallons.</li>\n<li><strong>Gallons to cubic feet:</strong> US gallons ÷ 7.4805 = cubic feet.</li>\n<li><strong>Cubic feet to CCF:</strong> cubic feet ÷ 100 = CCF.</li>\n</ul>\n<p>If a meter records <strong>100 cubic feet</strong>, multiply by 7.4805 to get <strong>748.05 gallons</strong>. That volume equals one CCF. To verify a gallons-based report, divide 748.05 by 7.4805 and confirm that it returns 100 cubic feet.</p>\n<p><a id=\"standard-water-volume-conversions\"></a></p>\n<h3>Standard Water Volume Conversions</h3>\n<table>\n<thead>\n<tr>\n<th align=\"right\">Cubic Feet (ft³)</th>\n<th align=\"right\">US Gallons</th>\n<th align=\"right\">CCF Billing Units</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"right\">1</td>\n<td align=\"right\">7.4805</td>\n<td align=\"right\">0.01</td>\n</tr>\n<tr>\n<td align=\"right\">100</td>\n<td align=\"right\">748.05</td>\n<td align=\"right\">1</td>\n</tr>\n<tr>\n<td align=\"right\">1,000</td>\n<td align=\"right\">7,480.5</td>\n<td align=\"right\">10</td>\n</tr>\n<tr>\n<td align=\"right\">1,000,000</td>\n<td align=\"right\">About 7,480,500</td>\n<td align=\"right\">10,000</td>\n</tr>\n</tbody></table>\n<p>The table applies the same conversion factor at every scale. Keep full calculation precision in billing software and round only when displaying results or producing an invoice. Rounding each interval before totaling can create a different charge than summing raw intervals first.</p>\n<p><a id=\"scaling-a-property-allocation\"></a></p>\n<h3>Scaling a property allocation</h3>\n<p>A property manager may receive a monthly allocation in gallons while the utility statement uses cubic feet. Divide the allocation by 7.4805 to convert it to cubic feet, then divide by 100 for CCF. To reverse the process, multiply CCF by 100, then multiply cubic feet by 7.4805 to show gallons.</p>\n<p>The same method applies to suite usage, irrigation, pool filling, and common-area estimates. Consistent units also improve billing audits and leak screening. A property team can compare bulk and suite records in CCF, then flag unexplained differences without confusing a unit mismatch with actual water loss.</p>\n<p>For software testing, create a record with a known cubic-foot value, verify the gallon result, and then verify the CCF result before deployment. Keep the raw value available so later billing reviews can reproduce the calculation.</p>\n<p><a id=\"quantifying-leaks-and-continuous-water-loss\"></a></p>\n<h2>Quantifying Leaks and Continuous Water Loss</h2>\n<p>A leak should be assessed as a flow rate over time, not as one inconvenient meter increment. A slow loss in a common area may look insignificant during a single inspection, yet become a billing and maintenance problem when it continues between meter reads. For multi-family properties, the same calculation helps distinguish a small suite issue from a building-wide loss that distorts CCF or HCF allocation.</p>\n<p>The California Water Boards conversion guide demonstrates how quickly a flow rate scales from cubic feet per second into gallons per minute, hour, and day. The practical lesson is that continuous flow can produce a substantial annual volume, even when the initial meter movement appears modest. Accurate unit conversion therefore supports both conservation work and defensible leak investigations.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8dacc1c0-1aa8-4025-a045-de762ec952d6/cubic-feet-of-water-per-gallon-water-loss.jpg\" alt=\"An infographic illustrating water loss from a dripping faucet and a running toilet in residential settings.\"></p>\n<p><a id=\"why-the-meter-view-matters\"></a></p>\n<h3>Why the meter view matters</h3>\n<p>Property teams usually encounter leaks at a much smaller scale than one cubic foot per second. Test the meter during a scheduled low-use period, then compare the opening and closing readings over a defined interval. If the reading continues to advance while suites and common fixtures should be idle, the property has evidence of ongoing consumption that warrants investigation.</p>\n<p>A display that advances in coarse cubic-foot increments can hide the size of a small loss. Convert the observed change into gallons and, where appropriate, CCF or HCF before judging its significance. This prevents a unit mismatch from being mistaken for a billing variance and gives managers a consistent basis for comparing bulk-meter observations with suite-level records.</p>\n<p>For practical household troubleshooting, property teams can review guidance on how to <a href=\"https://jaysplumbingandsewer.com/2026/09/how-to-find-water-leak-in-house/\">spot water leaks before they spread</a>. A meter test should still be paired with an inspection of toilets, valves, irrigation equipment, mechanical rooms, and exposed piping.</p>\n<p><a id=\"turning-flow-observations-into-an-alert-policy\"></a></p>\n<h3>Turning flow observations into an alert policy</h3>\n<p>A leak threshold should reflect the building&#39;s normal baseline. Irrigation, cooling equipment, laundry rooms, and other scheduled uses can create legitimate overnight flow, while a quiet residential property may require a much tighter threshold.</p>\n<p>Useful alert rules include:</p>\n<ul>\n<li><strong>Continuous-use alert:</strong> Notify staff when flow persists during a scheduled low-use period.</li>\n<li><strong>Volume alert:</strong> Flag an unexpected increase in CCF, HCF, or gallons against the property&#39;s established pattern.</li>\n<li><strong>Duration alert:</strong> Escalate low flow that continues instead of dismissing it as a brief fixture event.</li>\n<li><strong>Zone alert:</strong> Identify whether the change originates in a suite, common area, irrigation branch, or mechanical system.</li>\n</ul>\n<p>The strongest programme combines meter data with a physical response. An alert identifies a pattern, but staff must confirm the source, document the affected zone, and record the repair. Early detection protects the water budget, improves billing accuracy, and reduces the chance that a minor plumbing failure causes wider property damage.</p>\n<p><a id=\"aligning-municipal-bulk-meters-with-suite-submeters\"></a></p>\n<h2>Aligning Municipal Bulk Meters with Suite Submeters</h2>\n<p>A municipal bulk meter and a suite submeter answer different questions. The bulk meter records the water entering the property or service area. Suite meters assign consumption to defined units. The difference between those totals isn&#39;t automatically an error, but it must be explained.</p>\n<p><a id=\"compare-the-measurement-boundaries-first\"></a></p>\n<h3>Compare the measurement boundaries first</h3>\n<p>A bulk meter may include:</p>\n<ul>\n<li>Residential suites.</li>\n<li>Retail or commercial spaces.</li>\n<li>Irrigation.</li>\n<li>Janitorial rooms.</li>\n<li>Laundry facilities.</li>\n<li>Mechanical equipment.</li>\n<li>Fire or testing activities where applicable.</li>\n<li>Other common-area fixtures.</li>\n</ul>\n<p>A suite-meter total excludes anything outside the suites being measured. If a property compares the two totals without separating common areas, the reconciliation will appear incomplete even when every installed meter is working correctly.</p>\n<p>The first control is a <strong>measurement boundary map</strong>. Mark each meter, its served area, its unit, and its reading interval. Then convert every reading to the same standard before comparing totals. Don&#39;t compare gallons from one system with raw cubic feet from another.</p>\n<p><a id=\"control-rounding-before-it-creates-friction\"></a></p>\n<h3>Control rounding before it creates friction</h3>\n<p>Rounding can enter at several points:</p>\n<ol>\n<li>The meter may record a fine-grained reading while the bill displays a rounded block.</li>\n<li>An interval platform may round each reading before aggregation.</li>\n<li>A billing file may convert CCF to gallons for display.</li>\n<li>A final invoice may round the resident&#39;s usage again.</li>\n</ol>\n<p>The cleanest method is to retain raw readings, perform calculations at full available precision, and round only where the billing policy requires it. State the policy in the billing documentation so a resident, auditor, or property owner can reproduce the result.</p>\n<blockquote>\n<p><strong>A reconciliation is defensible when every difference has an owner, a location, or an investigation status.</strong></p>\n</blockquote>\n<p>Remote data can reduce the manual work involved in collecting readings and help staff compare the bulk meter with suite activity more frequently. Property teams evaluating that workflow can review options for <a href=\"https://www.axismeter.com/blog/water-meters-with-remote-reading\">water meters with remote reading</a>. Remote access doesn&#39;t replace commissioning or maintenance, but it gives the operator a clearer record of when consumption changed.</p>\n<p><a id=\"allocate-common-area-use-openly\"></a></p>\n<h3>Allocate common-area use openly</h3>\n<p>A common-area allocation should follow the property&#39;s governing documents, utility rules, and applicable local requirements. Possible approaches include a separate common-area charge, an owner-paid cost, or an approved allocation method. The choice is a policy decision, not a conversion decision.</p>\n<p>The conversion must still be exact. Once the allocation method is selected, show residents how the source volume was measured, which areas were excluded from suite use, and how the final bill was calculated. That explanation prevents a legitimate common-area charge from appearing to be a hidden discrepancy.</p>\n<p><a id=\"setting-transparent-billing-rates-and-leak-thresholds\"></a></p>\n<h2>Setting Transparent Billing Rates and Leak Thresholds</h2>\n<p>A tenant invoice should answer three questions without requiring a property manager to reconstruct the calculation. How much water was assigned to the unit? Which billing unit was used? How did that volume produce the charge?</p>\n<p>Start with the municipal statement, then build a billing specification that separates <strong>water consumption</strong>, <strong>sewer or wastewater charges</strong>, <strong>service charges</strong>, and any approved property allocation. Don&#39;t blend every component into an unexplained per-gallon figure if the underlying utility bill uses CCF or HCF.</p>\n<p><a id=\"a-practical-billing-setup\"></a></p>\n<h3>A practical billing setup</h3>\n<p>A clear implementation can follow this sequence:</p>\n<ol>\n<li><strong>Define the source unit.</strong> Record whether the bulk bill and suite meters use cubic feet, CCF, HCF, or gallons.</li>\n<li><strong>Set the conversion rule.</strong> Use the documented US conversion when converting cubic feet to gallons.</li>\n<li><strong>Define the rate basis.</strong> State whether the rate is per CCF, per gallon, or calculated from a broader utility charge.</li>\n<li><strong>Separate shared usage.</strong> Identify common-area consumption rather than distributing it invisibly.</li>\n<li><strong>Publish the explanation.</strong> Give residents the meter period, measured volume, conversion, rate basis, and final charge.</li>\n</ol>\n<p>The resident doesn&#39;t need a plumbing lecture, but they do need enough information to verify the invoice. A short explanation can say that one CCF represents 100 cubic feet and approximately 748 gallons, then show the unit&#39;s measured allocation in the same terms as the bill.</p>\n<p><a id=\"set-leak-thresholds-around-behaviour\"></a></p>\n<h3>Set leak thresholds around behaviour</h3>\n<p>A leak threshold should distinguish an unusual continuous pattern from ordinary occupancy. The <a href=\"https://www.mountainview.gov/our-city/departments/public-works/water-and-sewer-services/water-conservation/residential/how-to-read-your-meter?locale=es\">Mountain View meter-reading guidance</a> notes that meters may advance in 10-cubic-foot or 100-cubic-foot increments and that cities use HCF or CCF for billing and leak checks. A leak adding only a few CCF over a month can therefore represent hundreds or thousands of gallons of unbudgeted loss.</p>\n<p>Don&#39;t present the threshold as a fine or an automatic charge. Present it as an operational alert. The notification should tell the resident or maintenance team what was observed, when it occurred, which meter was involved, and what to check first.</p>\n<p>A useful notice avoids blame: “Your meter recorded continuous activity during a period that normally shows little or no use. Please check toilets, taps, appliances, and visible piping, then contact management if the meter continues to advance.” That wording encourages a response while leaving room for legitimate usage.</p>\n<p><a id=\"quick-reference-guide-for-property-water-volumes\"></a></p>\n<h2>Quick Reference Guide for Property Water Volumes</h2>\n<p>Property staff need a lookup method that works during a phone call, a maintenance inspection, or a bill review. The most reliable reference starts with the meter&#39;s native reading and converts only when a different audience needs another unit.</p>\n<p>For US customary measurements, multiply cubic feet by <strong>7.4805</strong> to obtain gallons. Divide gallons by <strong>7.4805</strong> to return to cubic feet. For CCF or HCF, divide cubic feet by <strong>100</strong>.</p>\n<p><a id=\"a-compact-lookup-table\"></a></p>\n<h3>A compact lookup table</h3>\n<table>\n<thead>\n<tr>\n<th>If the record shows</th>\n<th>Convert it by</th>\n<th>The result means</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Cubic feet</td>\n<td>Multiply by 7.4805</td>\n<td>US gallons</td>\n</tr>\n<tr>\n<td>US gallons</td>\n<td>Divide by 7.4805</td>\n<td>Cubic feet</td>\n</tr>\n<tr>\n<td>Cubic feet</td>\n<td>Divide by 100</td>\n<td>CCF or HCF</td>\n</tr>\n<tr>\n<td>CCF or HCF</td>\n<td>Multiply by 100</td>\n<td>Cubic feet</td>\n</tr>\n<tr>\n<td>CCF or HCF</td>\n<td>Multiply by the applicable gallon factor</td>\n<td>Gallon equivalent</td>\n</tr>\n</tbody></table>\n<p>Use the table as a translation aid, not as a substitute for the utility&#39;s rate rules. A gallon equivalent can explain volume, but it doesn&#39;t determine whether sewer, service, or tiered charges apply.</p>\n<p><a id=\"how-to-investigate-a-high-usage-alert\"></a></p>\n<h3>How to investigate a high-usage alert</h3>\n<p>Begin with the time pattern. A single increase may reflect irrigation, a cleaning activity, a maintenance flush, or another authorised event. Continuous advancement during a low-use period deserves a different response.</p>\n<p>Then check the likely sources in a deliberate order:</p>\n<ul>\n<li><strong>Suite fixtures:</strong> Toilets, taps, showers, dishwashers, and washing-machine connections.</li>\n<li><strong>Common facilities:</strong> Janitorial sinks, laundry rooms, wash-down areas, and amenity spaces.</li>\n<li><strong>Irrigation:</strong> Controllers, valves, broken heads, and underground lines.</li>\n<li><strong>Mechanical rooms:</strong> Make-up water, relief discharge, cooling equipment, and treatment systems.</li>\n<li><strong>Meter condition:</strong> Wiring, communications, register operation, and reading continuity.</li>\n</ul>\n<p>Avoid inventing property-wide “normal” volumes from generic benchmarks. Occupancy, fixture condition, irrigation schedules, commercial activity, and mechanical design all change the baseline. The property&#39;s own historical meter record is usually more useful than an unsupported comparison.</p>\n<p>A practical reference sheet should include the meter identifier, served area, native unit, conversion factor, reading date, and escalation contact. That document helps maintenance staff communicate with billers and lets resident support answer questions without performing ad hoc arithmetic.</p>\n<p><a id=\"automating-conversions-with-smart-submetering\"></a></p>\n<h2>Automating Conversions with Smart Submetering</h2>\n<p>Manual conversion is valuable during an audit, but it becomes fragile when staff repeat it across every suite, billing period, common area, and leak review. A reliable submetering platform should retain the source reading, apply the documented factor, calculate the allocation, and preserve an audit trail for the invoice.</p>\n<p><a id=\"what-automation-should-handle\"></a></p>\n<h3>What automation should handle</h3>\n<p>A useful system connects several tasks that are often separated in spreadsheets:</p>\n<ul>\n<li><strong>Reading collection:</strong> Capture meter data in the unit supplied by the device.</li>\n<li><strong>Unit normalisation:</strong> Convert cubic feet, CCF, HCF, or gallons according to the property configuration.</li>\n<li><strong>Allocation:</strong> Separate suite, commercial, irrigation, and common-area consumption.</li>\n<li><strong>Billing:</strong> Apply the approved rate structure and show the calculation clearly.</li>\n<li><strong>Leak detection:</strong> Identify unusual continuous use or changes from the established baseline.</li>\n<li><strong>Reporting:</strong> Give owners, managers, and maintenance teams access to the same underlying record.</li>\n</ul>\n<p>Remote reading is particularly helpful when staff need to compare bulk and suite activity without relying on occasional manual visits. It also supports quicker investigation when a meter pattern changes between billing cycles.</p>\n<p><a id=\"manual-spreadsheets-versus-a-managed-programme\"></a></p>\n<h3>Manual spreadsheets versus a managed programme</h3>\n<p>A spreadsheet can work for a small site with stable readings and a disciplined review process. It becomes less dependable when several people edit formulas, meters use different display units, or common-area allocations change. The failure usually isn&#39;t the multiplication itself. It&#39;s an undocumented assumption, a copied formula, a missing reading, or an inconsistent rounding rule.</p>\n<p>A managed programme can include equipment, installation, commissioning, tenant billing, reporting, maintenance, and leak or flood detection. <strong>Axis Meter Solutions</strong> is one provider that offers turnkey utility submetering for multifamily, condominium, mixed-use, and commercial properties across Canada and the United States, with water submetering, suite and common-area measurement, billing workflows, and ongoing service.</p>\n<p>Property teams can also review guidance on a <a href=\"https://www.axismeter.com/blog/digital-water-meter\">digital water meter</a> before selecting equipment. The device matters, but the surrounding process matters just as much. Confirm the meter&#39;s unit, verify commissioning, define the billing rule, document common-area treatment, and test the leak alert before residents receive charges.</p>\n<p>Accurate cubic-feet-to-gallon conversion is therefore more than a reference calculation. It is a control point linking municipal billing, suite allocations, resident communications, and maintenance response. When the system handles that control consistently, property managers spend less time resolving avoidable discrepancies and more time acting on genuine water-use problems.</p>\n<hr>\n<p>Axis Meter Solutions provides turnkey water submetering, suite and common-area allocation, tenant billing, and leak and flood detection for multifamily, condominium, mixed-use, and commercial properties. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a conversion and submetering programme that fits your property&#39;s meters, billing units, and operational requirements.</p>",
+  "tags": [
+    "cubic feet of water per gallon",
+    "water conversion chart",
+    "submetering billing",
+    "water leak detection",
+    "utility billing units"
+  ],
+  "title": "Cubic Feet of Water Per Gallon Conversion",
+  "updatedAt": "2026-10-03T07:26:39.374Z"
+}
