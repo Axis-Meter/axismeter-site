@@ -1,0 +1,3239 @@
+{
+  "_createdAt": "2026-10-05T07:16:07Z",
+  "_id": "outrank-2bce36b1-dd30-4f1c-aba4-dd10d97dc7f9",
+  "_rev": "op79fflKKnOcSGwgy5pVyR",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-05T07:16:07Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "29e5957b2d9f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cfaa5bb3678",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical sub metering can reduce electricity use by "
+        },
+        {
+          "_key": "b8127c05ef10",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139 kWh per unit each month in the first year, a reported 40% reduction"
+        },
+        {
+          "_key": "ebb14f257d0f",
+          "_type": "span",
+          "marks": [],
+          "text": ", while a typical 150-unit condominium could save approximately "
+        },
+        {
+          "_key": "0f266a5ed39c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$93,600 annually"
+        },
+        {
+          "_key": "7c687967ed98",
+          "_type": "span",
+          "marks": [],
+          "text": ". The important point is that sub metering isn't only a billing mechanism. It can also turn utility consumption into a managed operating system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e07f6425dc69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31e660be4177",
+          "_type": "span",
+          "marks": [],
+          "text": "For a property owner, that distinction changes the business case. A master meter shows what the building consumed, but it doesn't show which suite, system, or operating decision created the cost. Unit-level electrical sub metering adds that missing layer of visibility, then connects measured usage to billing, maintenance, compliance, and long-term asset planning."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1edaae2554e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bef9e35c8ebc",
+          "_type": "span",
+          "marks": [],
+          "text": "The technology is straightforward in principle. A meter records electricity used by a defined space, a communications system transfers the reading, and billing software applies the approved calculation. The difficult work sits around that basic flow: choosing compliant equipment, separating tenant and common-area loads, managing permits, protecting customer rights, and maintaining trustworthy data over time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a37aae3a2f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d7c1b7926d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3b38206edf5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c816d6624ef8",
+          "_type": "span",
+          "marks": [
+            "4624fff87625"
+          ],
+          "text": "The Hidden Costs of Bulk Metering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4624fff87625",
+          "_type": "link",
+          "href": "#the-hidden-costs-of-bulk-metering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "89289ae3cf4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d978de1d1d1",
+          "_type": "span",
+          "marks": [
+            "05446a8ae23f"
+          ],
+          "text": "Why the master meter compresses operating performance"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "05446a8ae23f",
+          "_type": "link",
+          "href": "#why-the-master-meter-compresses-operating-performance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "330e34b0a418",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd39ea31d5b6",
+          "_type": "span",
+          "marks": [
+            "d22b0319adde"
+          ],
+          "text": "The efficiency signal matters"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d22b0319adde",
+          "_type": "link",
+          "href": "#the-efficiency-signal-matters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "173e29088256",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6106edf27746",
+          "_type": "span",
+          "marks": [
+            "b6438f7fd306"
+          ],
+          "text": "How Electrical Sub Metering Works"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b6438f7fd306",
+          "_type": "link",
+          "href": "#how-electrical-sub-metering-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f22988cf7037",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be62072a5f81",
+          "_type": "span",
+          "marks": [
+            "c91c44db05d2"
+          ],
+          "text": "From panel measurement to a bill"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c91c44db05d2",
+          "_type": "link",
+          "href": "#from-panel-measurement-to-a-bill"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1da1371fd065",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f113aa56ba76",
+          "_type": "span",
+          "marks": [
+            "1e7f186ab7e7"
+          ],
+          "text": "More than a suite electricity meter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1e7f186ab7e7",
+          "_type": "link",
+          "href": "#more-than-a-suite-electricity-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d8be1d6b1dbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "652b98c76105",
+          "_type": "span",
+          "marks": [
+            "3a4622c742b3"
+          ],
+          "text": "Navigating Regulatory Compliance and Standards"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3a4622c742b3",
+          "_type": "link",
+          "href": "#navigating-regulatory-compliance-and-standards"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9bbb3b2f7c94",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eff7ac798310",
+          "_type": "span",
+          "marks": [
+            "00fea254f769"
+          ],
+          "text": "Ontario places duties on the provider"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "00fea254f769",
+          "_type": "link",
+          "href": "#ontario-places-duties-on-the-provider"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8e821e543ca7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c030a644996",
+          "_type": "span",
+          "marks": [
+            "1156e129df16"
+          ],
+          "text": "California requires technical separation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1156e129df16",
+          "_type": "link",
+          "href": "#california-requires-technical-separation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "745a4363643f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a836e16e9c47",
+          "_type": "span",
+          "marks": [
+            "8cf5a2d69e0b"
+          ],
+          "text": "Implementation Timelines and Project Management"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8cf5a2d69e0b",
+          "_type": "link",
+          "href": "#implementation-timelines-and-project-management"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e664e99a5f35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ffaf25ebf85",
+          "_type": "span",
+          "marks": [
+            "1715d5ac8647"
+          ],
+          "text": "Financial Impact and Return on Investment"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1715d5ac8647",
+          "_type": "link",
+          "href": "#financial-impact-and-return-on-investment"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eef15770a616",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd116f4ffaad",
+          "_type": "span",
+          "marks": [
+            "631522514a6c"
+          ],
+          "text": "Start with the owner's records"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "631522514a6c",
+          "_type": "link",
+          "href": "#start-with-the-owners-records"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b64e96d26ae9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3448b3d4527",
+          "_type": "span",
+          "marks": [
+            "c3382e5bbaea"
+          ],
+          "text": "Service Models and Vendor Selection"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c3382e5bbaea",
+          "_type": "link",
+          "href": "#service-models-and-vendor-selection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3674a8e10835",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13b72766483e",
+          "_type": "span",
+          "marks": [
+            "10c326e89640"
+          ],
+          "text": "Compare responsibilities, not just price"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "10c326e89640",
+          "_type": "link",
+          "href": "#compare-responsibilities-not-just-price"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "014f03f27ed2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5007e6efb0f",
+          "_type": "span",
+          "marks": [
+            "84dc5b14af07"
+          ],
+          "text": "A practical vendor review"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "84dc5b14af07",
+          "_type": "link",
+          "href": "#a-practical-vendor-review"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f3172ad72795",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5fddf98e60bb",
+          "_type": "span",
+          "marks": [
+            "d1b3ce8236da"
+          ],
+          "text": "Future-Proofing Your Property Portfolio"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d1b3ce8236da",
+          "_type": "link",
+          "href": "#future-proofing-your-property-portfolio"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "22a0ca23b98d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47ea17a49b89",
+          "_type": "span",
+          "marks": [
+            "5acf3e5811fd"
+          ],
+          "text": "Make the data useful beyond billing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5acf3e5811fd",
+          "_type": "link",
+          "href": "#make-the-data-useful-beyond-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eb2c7c009574",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b1013e90b1a",
+          "_type": "span",
+          "marks": [
+            "33464bb7e715"
+          ],
+          "text": "A disciplined next step"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "33464bb7e715",
+          "_type": "link",
+          "href": "#a-disciplined-next-step"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "732502c7f00d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc9551a21d6e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "394bb73018fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36fbf8c702f0",
+          "_type": "span",
+          "marks": [],
+          "text": "The Hidden Costs of Bulk Metering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f7272b2e79cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4dc34a139500",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "26% of Ontario residents live in multi-unit buildings"
+        },
+        {
+          "_key": "200bc6e1e0ce",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "114ba53873ab",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "75% to 90% of those buildings use bulk metering"
+        },
+        {
+          "_key": "5acc11fba9fc",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to a "
+        },
+        {
+          "_key": "3933f0c07b40",
+          "_type": "span",
+          "marks": [
+            "d7272f9cc544"
+          ],
+          "text": "University of Toronto working paper summary on Ontario sub metering"
+        },
+        {
+          "_key": "939e5b0d7387",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same source estimated that approximately "
+        },
+        {
+          "_key": "5efac9c6b72e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one-fifth of Ontario's residential electricity costs"
+        },
+        {
+          "_key": "c9d59684bc3b",
+          "_type": "span",
+          "marks": [],
+          "text": " are determined by shares of total building usage. These figures place bulk metering in its proper context. It is not a minor accounting inconvenience. It is a structural feature of the housing market that affects billing, operating decisions, and long-term asset planning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d7272f9cc544",
+          "_type": "link",
+          "href": "https://www.linkedin.com/pulse/sub-metering-ontario-how-legal-framework-actually-gc4jc"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1a03aaee23d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0a4cac97809",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk metering is easy to describe. One master meter records the electricity entering a building, and the owner or condominium corporation receives the utility bill. That single figure may represent dozens or hundreds of suites, common areas, mechanical systems, and different tenant behaviours."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6feb9c9c6c1e",
+      "_type": "externalImage",
+      "alt": "An infographic showing the hidden costs of bulk metering including water loss, uncollected revenue, and billing disputes.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9e246f5b-94f5-458e-a4a5-5c3156c77716/electrical-sub-metering-bulk-metering.jpg"
+    },
+    {
+      "_key": "c6e5aa133432",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90ddb9da29ae",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83b4c1d95270",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aed7f828fbe1",
+          "_type": "span",
+          "marks": [],
+          "text": "Why the master meter compresses operating performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "eb8281236fbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf4ac2f82c26",
+          "_type": "span",
+          "marks": [],
+          "text": "A master meter shows the building's total demand, much like a single household utility bill would show a family's total spending without identifying who used each service. Weather, occupancy, thermostat settings, appliance use, and equipment condition all affect the bill, yet the owner sees the combined result only after it has reached the property's cash flow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57c0425fdf6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d208be8a3b3",
+          "_type": "span",
+          "marks": [],
+          "text": "That arrangement blends several different responsibilities:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40f7a633cdeb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29f697f442b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Tenant consumption:"
+        },
+        {
+          "_key": "f224d82910f6",
+          "_type": "span",
+          "marks": [],
+          "text": " Electricity used inside a suite becomes part of a shared building cost."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d67c4405a111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3a8195afd63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Common-area demand:"
+        },
+        {
+          "_key": "f2be6a81214a",
+          "_type": "span",
+          "marks": [],
+          "text": " Elevators, lighting, ventilation, and mechanical equipment remain inside the same total."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5216745e52d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b199ad5c30b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "System inefficiency:"
+        },
+        {
+          "_key": "5362941dc325",
+          "_type": "span",
+          "marks": [],
+          "text": " A deteriorating HVAC component can increase consumption without identifying the affected area."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a33d5cb614ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0887035be07e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing uncertainty:"
+        },
+        {
+          "_key": "6a8e391c6918",
+          "_type": "span",
+          "marks": [],
+          "text": " Managers may face questions about allocations, estimates, and unusual charges when precise readings are unavailable."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d2cabd1fbfb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abb71d40dd9a",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering does not automatically reduce every expense. It gives the owner a defensible method for separating costs, recovering eligible tenant usage, and investigating abnormal patterns. "
+        },
+        {
+          "_key": "d92893526eec",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cost recovery and conservation are related, but they aren't the same financial event."
+        },
+        {
+          "_key": "ca2a582ba5e1",
+          "_type": "span",
+          "marks": [],
+          "text": " Recovery changes who pays for measured consumption. Conservation changes how much electricity the property uses."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2109df424d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a3c48c78c34",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "031320ddc3aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6337f64c1c1c",
+          "_type": "span",
+          "marks": [],
+          "text": "The efficiency signal matters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "b9f2ac1d5e09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5abdbe806f4c",
+          "_type": "span",
+          "marks": [],
+          "text": "The Navigant Consulting Ontario case study reported an average first-year reduction of "
+        },
+        {
+          "_key": "bcf8110ff306",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "139 kWh per unit per month"
+        },
+        {
+          "_key": "a02dba91545f",
+          "_type": "span",
+          "marks": [],
+          "text": ", described as a "
+        },
+        {
+          "_key": "7eee53389135",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40% reduction"
+        },
+        {
+          "_key": "d9a3ff49b8e6",
+          "_type": "span",
+          "marks": [],
+          "text": ", after a property switched to sub metering. For a typical "
+        },
+        {
+          "_key": "23fd3e397a1e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "150-unit condominium"
+        },
+        {
+          "_key": "5ae6f0fc212a",
+          "_type": "span",
+          "marks": [],
+          "text": ", the case study projected approximately "
+        },
+        {
+          "_key": "fed24fb3c01e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$93,600 in annual savings"
+        },
+        {
+          "_key": "bcb61a40d565",
+          "_type": "span",
+          "marks": [],
+          "text": ", along with annual electricity savings of "
+        },
+        {
+          "_key": "43785886d062",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "230,300 kWh"
+        },
+        {
+          "_key": "dffe510f30d9",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b13ec32abeba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07c7a1aa7a42",
+          "_type": "span",
+          "marks": [],
+          "text": "The practical mechanism is straightforward. A measured bill makes electricity visible to residents instead of leaving it inside a shared building total. Property staff can also separate suite consumption from common-area loads, then investigate unusual patterns rather than treating the master bill as an unexplained result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68c6df3599e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6cfd7e6dc389",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "4255030a7434",
+          "_type": "span",
+          "marks": [],
+          "text": " Treat the master meter as a building-level financial signal, not as an explanation of what caused the expense."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "7f914d629131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea34dead5f4b",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction makes submetering an asset-management tool, not only a billing arrangement. Reliable unit-level data can clarify utility exposure, point staff toward systems that need attention, and support capital decisions with observed consumption rather than broad averages. It also exposes the operational work behind the promise: readings must remain accurate, allocations must be defensible, and the data must continue to support decisions after installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "62152095ef14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f53e307743c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19f08b785c46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "060dcb3e7c24",
+          "_type": "span",
+          "marks": [],
+          "text": "How Electrical Sub Metering Works"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5c4d160bdd14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2a67e77e36d",
+          "_type": "span",
+          "marks": [],
+          "text": "The system is a chain with three jobs: the "
+        },
+        {
+          "_key": "b022b2921128",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "meter measures"
+        },
+        {
+          "_key": "94fad72090e4",
+          "_type": "span",
+          "marks": [],
+          "text": ", the communications layer "
+        },
+        {
+          "_key": "95d682a33c88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "moves the data"
+        },
+        {
+          "_key": "4429902e787c",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the billing platform "
+        },
+        {
+          "_key": "7294555df5cc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "turns approved readings into customer statements"
+        },
+        {
+          "_key": "3e448306f1ce",
+          "_type": "span",
+          "marks": [],
+          "text": ". A weakness in any link can make the final invoice difficult to defend, even when the meter is working correctly. For an owner, the system is therefore both a measurement network and an operating process that requires oversight."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5a56e1cf7f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3a6ff64b2ef",
+          "_type": "span",
+          "marks": [],
+          "text": "At the electrical panel, a unit meter records electricity assigned to a suite, commercial space, or defined load. Current transformers, commonly called CTs, sense the current flowing through conductors without treating the entire building as one undifferentiated load. The meter combines current readings with voltage and time data to calculate energy consumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0be0162f5913",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how electrical sub-metering works from the main breaker through a sub-meter to a cloud dashboard.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cbf437d1-c978-4099-a3d0-6cfa5207a969/electrical-sub-metering-process-diagram.jpg"
+    },
+    {
+      "_key": "7f7ac7d03236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c816458e4ea",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2f9a027789b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f20e8fc1a62",
+          "_type": "span",
+          "marks": [],
+          "text": "From panel measurement to a bill"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "56a8738f9142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8fed3cc15cc",
+          "_type": "span",
+          "marks": [],
+          "text": "Power enters through the building service and travels through panels, feeders, and branch circuits. At a defined measurement point, a submeter records the load assigned to a suite, tenant area, common area, or selected end use. A gateway or communications network then gathers readings from the installed meters."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "82bf6046ef01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae5ce6c25626",
+          "_type": "span",
+          "marks": [],
+          "text": "The software checks those readings, stores the history, and flags missing or abnormal data. The billing platform applies the relevant rate structure and account rules before the operator or licensed provider issues statements, answers customer questions, and manages required corrections. Each stage creates work that must be assigned, monitored, and documented."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca956f368527",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "076053c2c468",
+          "_type": "span",
+          "marks": [],
+          "text": "The master meter still records the building's total utility supply. Submeters provide a more detailed map beneath that total. The two levels should reconcile within the system's limits, with common areas and other shared loads assigned deliberately instead of being left as an unexplained remainder. That reconciliation gives property staff a practical control for spotting gaps, investigating unusual results, and supporting an allocation that customers can understand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bce061f3d987",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56ab02b3986a",
+          "_type": "span",
+          "marks": [],
+          "text": "Equipment selection depends on the jurisdiction and the intended use. A meter installed for internal energy analysis may have different requirements from equipment used to bill a tenant. Owners reviewing technical options can consult this resource on "
+        },
+        {
+          "_key": "a677dfbc3ac0",
+          "_type": "span",
+          "marks": [
+            "fcfe6b337bbd"
+          ],
+          "text": "industrial metering for plant engineers"
+        },
+        {
+          "_key": "35464b7b2782",
+          "_type": "span",
+          "marks": [],
+          "text": ", particularly where a commercial property has complex distribution equipment."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "fcfe6b337bbd",
+          "_type": "link",
+          "href": "https://eandisales.com/tag/industrial-metering/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "64854e04405d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3a2f32b6e99",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d547e5c62b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "837d1a46bbec",
+          "_type": "span",
+          "marks": [],
+          "text": "More than a suite electricity meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1f6cedfb1f53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3301c4551c79",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical sub metering can operate at several levels. Whole-panel measurement may support straightforward unit billing, while feeder or branch-level measurement can isolate HVAC, EV charging, or other tenant equipment. In California, this separation matters for certain new or renovated buildings because the electrical distribution system must support downstream load disaggregation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4c83d4bf1a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e919d9a01f6",
+          "_type": "span",
+          "marks": [],
+          "text": "The same data architecture can also support water, gas, thermal energy, common-area electricity, and leak detection. Each application requires its own measurement decision and operating checks. An electricity meter does not make another utility automatically accurate."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "056c799a31f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ba86bdece55",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering creates asset-management value when the property knows what each device measures, who owns the associated load, and how staff will act on the reading. Accuracy, communications uptime, data review, and billing corrections all remain part of the service after installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "262ece02f5ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f520527f55b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8fc6b1a8cbe8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1c7fde4bf0a",
+          "_type": "span",
+          "marks": [],
+          "text": "Navigating Regulatory Compliance and Standards"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a0daf54ba52c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e19f94d61f42",
+          "_type": "span",
+          "marks": [],
+          "text": "Compliance begins before equipment reaches the electrical room. An owner needs a design that fits the jurisdiction, a billing model that respects customer protections, and records showing how the system was installed, tested, maintained, and operated. Treat the system like a managed property asset, not just a collection of meters. Its value depends on accurate readings and on the processes that follow each reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb069d926290",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d73af6b7154c",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's framework was formally established in "
+        },
+        {
+          "_key": "3405233fa3cc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2007"
+        },
+        {
+          "_key": "1246ae53a6c2",
+          "_type": "span",
+          "marks": [],
+          "text": ". Regulation 442/07 was filed in October and came into force on December 31. It required individual suite-level electricity metering in new condominium buildings constructed on or after August 1, 2007. The "
+        },
+        {
+          "_key": "9664df6d8da5",
+          "_type": "span",
+          "marks": [
+            "7d3b5ad0baef"
+          ],
+          "text": "Ontario Regulation 442/07 text"
+        },
+        {
+          "_key": "0ef9dd822a6e",
+          "_type": "span",
+          "marks": [],
+          "text": " provides the primary legal reference for that history. It also explains why Ontario owners should approach electrical sub metering as a regulated utility service rather than an informal internal allocation exercise."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7d3b5ad0baef",
+          "_type": "link",
+          "href": "https://www.ontario.ca/laws/regulation/070442"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e9c0f177eeb3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88ff61e649d9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e377b2fa7b5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db2905517029",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario places duties on the provider"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f1b6553e0b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77c5d55c4735",
+          "_type": "span",
+          "marks": [],
+          "text": "The Ontario Energy Board's "
+        },
+        {
+          "_key": "771b05b45400",
+          "_type": "span",
+          "marks": [
+            "9b8097da01d7"
+          ],
+          "text": "Unit Sub-Metering Code"
+        },
+        {
+          "_key": "4a09ec2cd7f9",
+          "_type": "span",
+          "marks": [],
+          "text": " sets an active regulatory framework. Licensed unit sub-meter providers must meet minimum standards, follow the applicable licence process, pay the required annual fee, and observe consumer-protection obligations."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9b8097da01d7",
+          "_type": "link",
+          "href": "https://www.oeb.ca/regulatory-rules-and-documents/rules-codes-and-requirements/unit-sub-metering-code"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bf3769d5c930",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "050c61a5f2b6",
+          "_type": "span",
+          "marks": [],
+          "text": "Those duties continue after commissioning. The provider must support bills that customers can understand, retain suitable records, respond to concerns, and follow the applicable rules for service and payment issues. Installation marks the start of the operating responsibility. Owners should therefore assess who will review exceptions, correct readings, answer customer questions, and preserve documentation over the life of the property."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "469fe362ea20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "214546e758d5",
+          "_type": "span",
+          "marks": [],
+          "text": "For an Ontario project, an owner should confirm:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ffa78a618ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e35f1901fd3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Provider status:"
+        },
+        {
+          "_key": "71460cb48211",
+          "_type": "span",
+          "marks": [],
+          "text": " Verify that the service provider holds the required licence for the proposed activity."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0869c0e116ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d3f239486ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Meter suitability:"
+        },
+        {
+          "_key": "8e2e5de51260",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm that the equipment is appropriate for tenant billing and the property's electrical configuration. Where regulated billing applies, review "
+        },
+        {
+          "_key": "dfeeffcb6171",
+          "_type": "span",
+          "marks": [
+            "94be3f49cb80"
+          ],
+          "text": "Measurement Canada approved meters"
+        },
+        {
+          "_key": "d091d1c9e2fe",
+          "_type": "span",
+          "marks": [],
+          "text": " before finalising the specification."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "94be3f49cb80",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/measurement-canada-approved-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9bac1897c57d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd602ea1be82",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Load boundaries:"
+        },
+        {
+          "_key": "01d62f1306cc",
+          "_type": "span",
+          "marks": [],
+          "text": " Document what belongs to each suite and what remains a common-area or owner responsibility."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87ab064d1112",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "acc88e7efe0a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Customer process:"
+        },
+        {
+          "_key": "94b27b100803",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish how statements, questions, corrections, arrears, and assistance requests will be handled."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61af0f28fe5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67fc31c9e823",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Audit trail:"
+        },
+        {
+          "_key": "61d9045c11ee",
+          "_type": "span",
+          "marks": [],
+          "text": " Retain design, commissioning, reading, maintenance, and billing records in an organised form."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0c3ba509523",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "965bca4bb33c",
+          "_type": "span",
+          "marks": [],
+          "text": "These checks connect regulation with asset management. A meter may be technically accurate, yet still create operational problems if its assigned load is unclear, its data is not reviewed, or staff cannot explain a correction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e57bf08b2329",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "149aae043d02",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "84c120035161",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11262ffe555b",
+          "_type": "span",
+          "marks": [],
+          "text": "California requires technical separation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "83f3293be7f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba4c0845c39d",
+          "_type": "span",
+          "marks": [],
+          "text": "California places strong emphasis on downstream load disaggregation. A compliant design may need to measure total energy use while separating end uses, affecting panel layouts, feeder design, data collection, and billing-software integration. "
+        },
+        {
+          "_key": "ee629efa7110",
+          "_type": "span",
+          "marks": [
+            "918cca072fa3"
+          ],
+          "text": "California Public Utilities Commission guidance on plug-in EV submetering"
+        },
+        {
+          "_key": "776a37c86de1",
+          "_type": "span",
+          "marks": [],
+          "text": " describes a model in which EV charging is measured separately from the customer's main meter without installing a second utility service meter."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "918cca072fa3",
+          "_type": "link",
+          "href": "https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/infrastructure/transportation-electrification/electricity-rates-and-cost-of-fueling/plug-in-electric-vehicle-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "07f8ea21f57d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d790f9b43e23",
+          "_type": "span",
+          "marks": [],
+          "text": "California projects also carry precision and tariff requirements. Guidance tied to state rules requires meters to accurately measure loads at or above "
+        },
+        {
+          "_key": "f1388f41fc04",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5% of the tenant's electric service capacity"
+        },
+        {
+          "_key": "1536a2e56432",
+          "_type": "span",
+          "marks": [],
+          "text": ". Necessary permits must be obtained before commercial use, and submetered tenants must be billed under the rate structure they would have received directly from the utility. The master-meter customer remains responsible for maintenance and repair beyond the master meter, as outlined in "
+        },
+        {
+          "_key": "e8993b45e728",
+          "_type": "span",
+          "marks": [
+            "644d3e211083"
+          ],
+          "text": "Pacific Gas and Electric submetered tenant guidance"
+        },
+        {
+          "_key": "9ef3f690fd6d",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "644d3e211083",
+          "_type": "link",
+          "href": "https://www.pge.com/en/account/billing-and-assistance/understand-your-bill/sub-metered-tenant-and-landlord.html"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b9c63346234f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9dc2ee3e3aec",
+          "_type": "span",
+          "marks": [],
+          "text": "Poor CT sizing, weak service-capacity assumptions, or incorrect rate logic can create disputes even when the hardware appears to function. "
+        },
+        {
+          "_key": "01226cb3c4f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Calibrated metrology, documented permits, and tariff-aligned billing belong in the original project plan, not in a later repair programme."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a05aebde2ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34e6a59c95b3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ec6ed7f0b39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dca2fe62420b",
+          "_type": "span",
+          "marks": [],
+          "text": "Implementation Timelines and Project Management"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7d70c4c80606",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "79980ff2cc76",
+          "_type": "span",
+          "marks": [],
+          "text": "An electrical sub metering installation is a small building programme, not a one-device replacement. Design, access, resident communication, permits, procurement, software configuration, commissioning, and billing activation must fit together. A delay in one area can leave equipment installed but unusable for accurate customer statements."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "281ce33f7790",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f631853aa80",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with a site audit before selecting equipment. The team should inspect the service entrance, distribution panels, suite feeds, common areas, communications pathways, proposed meter locations, and available drawings. This review establishes the measurement boundaries and identifies panel limitations, access needs, shutdown requirements, and missing records while there is still time to address them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b9420c95e8c",
+      "_type": "externalImage",
+      "alt": "A four-week project management timeline showing the steps for electrical sub metering implementation and system deployment.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0f5d7600-1b92-4b59-b8c1-aad5ad71fd89/electrical-sub-metering-project-timeline.jpg"
+    },
+    {
+      "_key": "aab4c7b57a49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f1c9a74a46b",
+          "_type": "span",
+          "marks": [],
+          "text": "Responsibility should be assigned before work begins. The "
+        },
+        {
+          "_key": "ff177017b1f9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "property manager"
+        },
+        {
+          "_key": "788a1828e6fd",
+          "_type": "span",
+          "marks": [],
+          "text": " coordinates access, notices, resident questions, and building operations. The "
+        },
+        {
+          "_key": "d435dd494f50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "engineer or electrical designer"
+        },
+        {
+          "_key": "e15f75f8cedc",
+          "_type": "span",
+          "marks": [],
+          "text": " confirms the measurement architecture and load boundaries. The "
+        },
+        {
+          "_key": "b7f9177e0180",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "licensed electrician"
+        },
+        {
+          "_key": "eaa0b77c0b1f",
+          "_type": "span",
+          "marks": [],
+          "text": " installs meters, CTs, wiring, panels, and communications equipment. The "
+        },
+        {
+          "_key": "48545cbe3218",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "provider"
+        },
+        {
+          "_key": "35a75792ad6b",
+          "_type": "span",
+          "marks": [],
+          "text": " coordinates permits, procurement, commissioning, data configuration, and billing setup. The "
+        },
+        {
+          "_key": "a69ef1a52d2f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "owner or board"
+        },
+        {
+          "_key": "efed09270023",
+          "_type": "span",
+          "marks": [],
+          "text": " approves the commercial model, customer terms, and go-live criteria."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de47d2221ed5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a16278255cca",
+          "_type": "span",
+          "marks": [],
+          "text": "These roles are practical controls, not administrative decoration. For example, a provider may configure billing correctly, but only the property team can confirm whether a panel serves one suite or several areas. A project schedule should make that decision visible and assign someone to approve it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "600098949567",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b0bd06eb58d",
+          "_type": "span",
+          "marks": [],
+          "text": "Access planning must follow the actual equipment and panel locations. The site audit may show that broad entry into occupied suites is unnecessary, or it may identify work that requires notice and a planned interruption. Resident communications should state what crews will do, whether service interruptions are expected, and where questions should go. Owners coordinating several workstreams can use "
+        },
+        {
+          "_key": "78685635df89",
+          "_type": "span",
+          "marks": [
+            "751cf129f912"
+          ],
+          "text": "realistic ITAD project phases"
+        },
+        {
+          "_key": "7a54a7035bf5",
+          "_type": "span",
+          "marks": [],
+          "text": " as a general reference for discovery, preparation, deployment, validation, and handover."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "751cf129f912",
+          "_type": "link",
+          "href": "https://www.reworxrecycling.org/implementation-timelines/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "721884e5093a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca1d8ad15f23",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning is the point where installation becomes an operating system. Verify meter identity, panel association, phase configuration, communications, readings, time settings, rate inputs, and the links between tenant and common-area accounts. Document exceptions and resolve them before billing begins."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f751fabc3c4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d57d0701848d",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "562d7d4b8c00",
+          "_type": "span",
+          "marks": [
+            "62e9ee56e72f"
+          ],
+          "text": "electrical sub-meter installation guide"
+        },
+        {
+          "_key": "1c9fb76cd0e0",
+          "_type": "span",
+          "marks": [],
+          "text": " explains the physical work, but every property still needs site-specific design. The handover package should include equipment records, test results, account mapping, customer communications, escalation contacts, and a process for correcting data."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "62e9ee56e72f",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electricity-sub-meter-installation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a4533bf918d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9b987696d8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commissioning standard:"
+        },
+        {
+          "_key": "0d01aaa92bf7",
+          "_type": "span",
+          "marks": [],
+          "text": " Don't ask only whether the meter works. Ask whether the complete path from conductor to customer statement has been tested."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "22e4876d7566",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "351a4193651b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61f7294d8832",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1b916335145",
+          "_type": "span",
+          "marks": [],
+          "text": "Financial Impact and Return on Investment"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "95157904a86b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7738dc118887",
+          "_type": "span",
+          "marks": [],
+          "text": "A single Ontario case study projected "
+        },
+        {
+          "_key": "cc2ea0f63c54",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$33,800 in annual savings"
+        },
+        {
+          "_key": "fc510c0267b3",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "3b823afce1d7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "92,300 kWh in annual electricity savings"
+        },
+        {
+          "_key": "819ffd5f26ad",
+          "_type": "span",
+          "marks": [],
+          "text": " for a 150-unit rental building. Those figures show why electrical sub metering deserves examination as an asset management decision, not merely a billing change. The return can come from cost recovery, lower consumption, better operating information, or a combination of all three."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "decd51544332",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c31352d74c9",
+          "_type": "span",
+          "marks": [],
+          "text": "Recovery and efficiency are separate financial effects. "
+        },
+        {
+          "_key": "0d2c470a3e5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Recovery"
+        },
+        {
+          "_key": "0fb4422b7bfc",
+          "_type": "span",
+          "marks": [],
+          "text": " changes who pays for measured utility use, subject to the rules governing the property and jurisdiction. "
+        },
+        {
+          "_key": "4034198660f9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Efficiency"
+        },
+        {
+          "_key": "ccdc8db0c7d7",
+          "_type": "span",
+          "marks": [],
+          "text": " reduces the electricity the property needs. Treating them as one benefit can make the investment case look stronger than it is. A useful analogy is a household budget: moving a bill to the correct account improves cost allocation, while using less electricity reduces the bill itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72d65716c8b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d10b601c330d",
+          "_type": "span",
+          "marks": [],
+          "text": "The same Ontario analysis estimated that sub metering across eligible multi-residential buildings could avoid "
+        },
+        {
+          "_key": "4067bd3235d6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$1.2 billion"
+        },
+        {
+          "_key": "47dcfb6be633",
+          "_type": "span",
+          "marks": [],
+          "text": " in generation, transmission, and delivery costs over "
+        },
+        {
+          "_key": "560ce591e381",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20 years"
+        },
+        {
+          "_key": "a9959360218e",
+          "_type": "span",
+          "marks": [],
+          "text": ", reduce electricity consumption by "
+        },
+        {
+          "_key": "9dc19e07efb4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 TWh per year after five years"
+        },
+        {
+          "_key": "1c4c580c150f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and cut "
+        },
+        {
+          "_key": "c1c06a183932",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7,000 kilotonnes of greenhouse gas emissions over 20 years"
+        },
+        {
+          "_key": "98dac02137f9",
+          "_type": "span",
+          "marks": [],
+          "text": ". These are projections from the case study, not promises for every property. Owners should use them as context, then build the investment case from their own records. (Ontario sub metering case study and projections)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "069d4821e884",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd071046893d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "04c87323ff0e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a4df71c76f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the owner's records"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ee12ce6c4d4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ce6a7a46f63",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical model should draw on master-meter bills, the current allocation method, electrical drawings, panel access, and equipment condition. It should separate suite loads from common-area loads and identify the portion that may be recoverable under applicable rules. The review also needs implementation costs, billing and data requirements, maintenance obligations, and the expected operational benefit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a47d7ec9eb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7cf8e2a77ec",
+          "_type": "span",
+          "marks": [],
+          "text": "The return should include more than installation payback. Consider exposure to changing utility costs, manual billing effort, clearer resident statements, abnormal-load detection, and better evidence for future equipment decisions. These benefits may strengthen NOI stability even when the direct savings are modest."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bcfbb6e4e451",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21720db2a6fa",
+          "_type": "span",
+          "marks": [],
+          "text": "Vacancy, disputed readings, meter replacement, rate changes, and common-area allocation can all change the return the owner achieves. For example, a building may have technically accurate meters but still face weak financial results if billing responsibilities are unclear or vacant suites carry costs that the model did not assign correctly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e98c7b24e47a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f08bcae62ce",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Financial discipline:"
+        },
+        {
+          "_key": "57c86c30fa5c",
+          "_type": "span",
+          "marks": [],
+          "text": " Build the model from measured building data, then show recoverable revenue, avoided consumption, and administrative savings as separate lines."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "170a08d7974f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9babd9b7630",
+          "_type": "span",
+          "marks": [],
+          "text": "That separation gives a condominium board, lender, asset manager, or operating partner a clearer view of what the project pays back and which benefits depend on consistent daily administration."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b94a765235f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0bb1a83effd5",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f1ede537abf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ef0d17eb2ec",
+          "_type": "span",
+          "marks": [],
+          "text": "Service Models and Vendor Selection"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "32e8e10d2ae2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1148fe84debb",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical sub metering is an asset management decision as much as a billing decision. The service model determines who funds the installation, owns the meters, maintains communications, answers resident questions, and handles operational problems when a reading is missing. Those responsibilities affect the building's records, service quality, and future equipment decisions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4036e3817d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e16cc9d1a0bf",
+          "_type": "span",
+          "marks": [],
+          "text": "An owner-funded model provides direct control over the installed assets. It also assigns the owner responsibility for procurement, installation coordination, software, replacements, certification, billing operations, and maintenance. This approach can suit an organisation with internal utility expertise, but the budget must cover the full equipment lifecycle rather than the initial hardware alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50d4fdaa872c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85fd57125592",
+          "_type": "span",
+          "marks": [],
+          "text": "A provider-owned model transfers more of that work into a long-term agreement. The provider may supply and maintain the equipment and operate the billing service, reducing the owner's upfront capital requirement. The agreement then becomes the operating framework, so its service obligations, limits, and exit terms require careful review."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5172d9145f77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2443147569f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "be0a1b387626",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ebe20741652",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare responsibilities, not just price"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "bda5a2dde69f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e04f27f78e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Decision area"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "687d60584859",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1cdc0783e6c",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner-funded model"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0bc63e75699",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "246c6a2d59e8",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider-owned service model"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30982f1db16e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61a439084543",
+          "_type": "span",
+          "marks": [],
+          "text": "Initial equipment cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20ba11e95042",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5606d58251eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Paid through the property capital budget"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4d3287c0b941",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb120be7bbe7",
+          "_type": "span",
+          "marks": [],
+          "text": "Included in the commercial service arrangement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1e2fa6efe2dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5aa09bd270c9",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "05f8377ccec3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec79958b25fb",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner or appointed contractor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0ca631904a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e332552d4a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Assigned to the provider under the agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bb67f11c6bc2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d5a9787d4ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing operation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fa5e700af3d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f53c754a631c",
+          "_type": "span",
+          "marks": [],
+          "text": "Managed internally or outsourced separately"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76724ff320f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9562db8d403",
+          "_type": "span",
+          "marks": [],
+          "text": "Integrated into the provider's service scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec398cc73def",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef9cb3a7b341",
+          "_type": "span",
+          "marks": [],
+          "text": "Compliance coordination"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8436c961d4ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2549b1b9615",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner must manage or commission it"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd9d0a668988",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b29b4832cd40",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider coordinates it where included"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1333b8748d3b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d32201fef52",
+          "_type": "span",
+          "marks": [],
+          "text": "Long-term control"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9485d1e0eac2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b5f2ed04ef77",
+          "_type": "span",
+          "marks": [],
+          "text": "Direct ownership of installed assets"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a8e4e2f37132",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "401e14f2e3be",
+          "_type": "span",
+          "marks": [],
+          "text": "Governed by agreement terms and service obligations"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ad80219484f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94c0c4e9ce03",
+          "_type": "span",
+          "marks": [],
+          "text": "A lower quotation can still create a higher operating cost. Ask how the provider handles meter failures, data gaps, resident complaints, rate changes, move-ins, move-outs, arrears, permits, insurance, and equipment at the end of the term. Require service-level commitments in writing, including response times, correction procedures, reporting, and the party responsible for each cost."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f8a10826d22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36410925c0c1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5b942ec7cc8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "367ddbe09b73",
+          "_type": "span",
+          "marks": [],
+          "text": "A practical vendor review"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d4b7601c603c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f7cee96cfd6",
+          "_type": "span",
+          "marks": [],
+          "text": "Review the proposal as an operating plan, not only as an equipment purchase. The owner should verify:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa75ef27a614",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "643b7109a8fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Licence and jurisdiction:"
+        },
+        {
+          "_key": "8d7a2f3ca1a1",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the provider's authority to perform regulated unit sub-metering in the relevant province or state."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c859c8d6e191",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75171383efa3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Technical capability:"
+        },
+        {
+          "_key": "571cbbc8f1a7",
+          "_type": "span",
+          "marks": [],
+          "text": " Request the proposed meter type, measurement boundaries, commissioning process, and data architecture."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d910ff858da9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdffa238b1a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing governance:"
+        },
+        {
+          "_key": "23c08fe3f936",
+          "_type": "span",
+          "marks": [],
+          "text": " Review rate logic, statement presentation, corrections, dispute handling, and customer support."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8c0819da55e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3b2e804ba1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Contract exposure:"
+        },
+        {
+          "_key": "47d5723a998f",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the term, termination rights, equipment ownership, renewal terms, and responsibilities after the agreement ends."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74339349091d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af269247639f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Risk protection:"
+        },
+        {
+          "_key": "e3536f4a4651",
+          "_type": "span",
+          "marks": [],
+          "text": " Check insurance, bonding, permits, certifications, and maintenance obligations."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1a38beca728",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dce324cbec2a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operational scope:"
+        },
+        {
+          "_key": "158b6c2c9235",
+          "_type": "span",
+          "marks": [],
+          "text": " Establish whether common-area metering, reporting, abnormal-use detection, and resident communications are included or separately priced."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "67c70b44ae34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16d69146b70f",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions is one example of a provider-owned model. Its stated scope includes equipment, installation, commissioning, tenant billing, ongoing service, and jurisdiction-specific compliance coordination for multi-family, condominium, mixed-use, and commercial properties. Compare those inclusions with competing proposals, then assess who will carry the daily workload throughout the agreement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6da68945cf6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98627bf1df70",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd6dd9726a4b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b85572235833",
+          "_type": "span",
+          "marks": [],
+          "text": "Future-Proofing Your Property Portfolio"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2a34c6eed564",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bcad74fa8fcd",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical sub metering becomes a long-term asset when its records support more than monthly cost recovery. Consumption history for suites, common areas, and building systems can guide maintenance planning, capital discussions, conservation programmes, and sustainability reporting. It also gives owners and boards a shared record for explaining utility decisions to residents."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5bffbe1ae5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6526117648e9",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful analogy is a building logbook. A single bulk meter records the property's total, while sub meters add separate entries for the areas and systems using electricity. That record becomes more valuable when the owner can connect consumption changes with equipment, occupancy, maintenance, or a new building load."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c23b2f76053",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28e8fc2bad5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's Unit Sub-Metering Code remains a living framework, and the Ontario Energy Board publishes annual complaint data for unit sub-meter provider customers. The OEB also states that many utility customer-service rules apply to unit sub-meter providers. Customer care, arrears processes, payment assistance, and complaint handling therefore belong in the operating plan, alongside measurement and billing. See the "
+        },
+        {
+          "_key": "546096d3a4b2",
+          "_type": "span",
+          "marks": [
+            "6017ad9027ec"
+          ],
+          "text": "OEB consumer information on electricity unit sub-metering"
+        },
+        {
+          "_key": "084c88b6f055",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6017ad9027ec",
+          "_type": "link",
+          "href": "https://www.oeb.ca/consumer-information-and-protection/oebs-consumer-protection-role/understanding-electricity-unit"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "84718652c50c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "188d68fc0c3f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b38e768ed506",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30e4b2badc88",
+          "_type": "span",
+          "marks": [],
+          "text": "Make the data useful beyond billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4e681b6b805d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2143ab249839",
+          "_type": "span",
+          "marks": [],
+          "text": "Before approving a system, the owner should be able to answer these questions:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b82952935351",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "05700dc4c592",
+          "_type": "span",
+          "marks": [],
+          "text": "Which loads serve tenants, common areas, and building systems?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a9f2c4389a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cf8c2d0c2a0",
+          "_type": "span",
+          "marks": [],
+          "text": "Can the property identify an unusual consumption pattern before it creates a larger bill?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f423689328c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e707d0eaa649",
+          "_type": "span",
+          "marks": [],
+          "text": "Can the provider explain a statement without relying on estimates?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ead0c28e87f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ac99d282c34",
+          "_type": "span",
+          "marks": [],
+          "text": "Can the system support EV charging, end-use separation, or new communications requirements?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f32d83f6b3b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70bd81f3cefd",
+          "_type": "span",
+          "marks": [],
+          "text": "Can the owner export records for budgeting, maintenance, and sustainability work?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1dd281e98e4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c15c722aac9",
+          "_type": "span",
+          "marks": [],
+          "text": "Who will update billing logic when an approved rate structure changes?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fa05ca74e4fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a793ae36286a",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "c10494ca8b77",
+          "_type": "span",
+          "marks": [
+            "af6c8b2de123"
+          ],
+          "text": "future of utility metering"
+        },
+        {
+          "_key": "9286065326ed",
+          "_type": "span",
+          "marks": [],
+          "text": " points toward systems that can accommodate better data, new loads, and changing operating requirements. That does not mean every property needs the most elaborate platform. It means the initial design should leave practical room for change."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "af6c8b2de123",
+          "_type": "link",
+          "href": "https://atekdistribution.com/the-future-of-utilities-ateks-advanced-metering-infrastructure-ami-solutions/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8393720c82a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b2249dee562",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68c85a836ca5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b57a442b8265",
+          "_type": "span",
+          "marks": [],
+          "text": "A disciplined next step"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "46fe75403a47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7794832c18aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with a utility exposure review rather than a product demonstration. Gather master-meter bills, electrical drawings, the suite count, common-area loads, the current allocation method, the tenant communication process, and known billing complaints. Ask licensed providers to explain the measurement boundary, compliance path, commissioning tests, data ownership, maintenance duties, and customer-service workflow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "712088975e6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75a524146d5f",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "c4f862df14d3",
+          "_type": "span",
+          "marks": [
+            "457acb951a75"
+          ],
+          "text": "advanced metering infrastructure overview"
+        },
+        {
+          "_key": "63513d460df0",
+          "_type": "span",
+          "marks": [],
+          "text": " explains how communications and data systems fit into the wider design. Judge the proposal against the property's panels, occupancy, jurisdiction, service model, and long-term asset plan. Also account for the daily work of exceptions, resident questions, corrections, records, and system changes."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "457acb951a75",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/advanced-metering-infrastructure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cfdb1badb490",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f66dcb04d1b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey electrical sub metering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, and ongoing service. Owners can visit "
+        },
+        {
+          "_key": "fbfee32df336",
+          "_type": "span",
+          "marks": [
+            "12df70992a78"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "5e8c0722dd7b",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a property-specific metering programme. The system will not correct an undocumented distribution network or an unclear customer agreement. It can give the owner a durable foundation for measured cost recovery, utility visibility, defensible billing, and deliberate building management."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "12df70992a78",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "Master electrical sub metering for your property. Learn benefits, compliance rules, implementation timelines, and ROI strategies from industry experts.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cd4351b3-4a2a-4690-9b70-f6f5cc995ac7/electrical-sub-metering-metering-guide.jpg",
+  "noIndex": false,
+  "outrankId": "2bce36b1-dd30-4f1c-aba4-dd10d97dc7f9",
+  "publishedAt": "2026-10-05T07:16:03.717131+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "electrical-sub-metering"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Electrical sub metering can reduce electricity use by <strong>139 kWh per unit each month in the first year, a reported 40% reduction</strong>, while a typical 150-unit condominium could save approximately <strong>$93,600 annually</strong>. The important point is that sub metering isn&#39;t only a billing mechanism. It can also turn utility consumption into a managed operating system.</p>\n<p>For a property owner, that distinction changes the business case. A master meter shows what the building consumed, but it doesn&#39;t show which suite, system, or operating decision created the cost. Unit-level electrical sub metering adds that missing layer of visibility, then connects measured usage to billing, maintenance, compliance, and long-term asset planning.</p>\n<p>The technology is straightforward in principle. A meter records electricity used by a defined space, a communications system transfers the reading, and billing software applies the approved calculation. The difficult work sits around that basic flow: choosing compliant equipment, separating tenant and common-area loads, managing permits, protecting customer rights, and maintaining trustworthy data over time.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#the-hidden-costs-of-bulk-metering\">The Hidden Costs of Bulk Metering</a><ul>\n<li><a href=\"#why-the-master-meter-compresses-operating-performance\">Why the master meter compresses operating performance</a></li>\n<li><a href=\"#the-efficiency-signal-matters\">The efficiency signal matters</a></li>\n</ul>\n</li>\n<li><a href=\"#how-electrical-sub-metering-works\">How Electrical Sub Metering Works</a><ul>\n<li><a href=\"#from-panel-measurement-to-a-bill\">From panel measurement to a bill</a></li>\n<li><a href=\"#more-than-a-suite-electricity-meter\">More than a suite electricity meter</a></li>\n</ul>\n</li>\n<li><a href=\"#navigating-regulatory-compliance-and-standards\">Navigating Regulatory Compliance and Standards</a><ul>\n<li><a href=\"#ontario-places-duties-on-the-provider\">Ontario places duties on the provider</a></li>\n<li><a href=\"#california-requires-technical-separation\">California requires technical separation</a></li>\n</ul>\n</li>\n<li><a href=\"#implementation-timelines-and-project-management\">Implementation Timelines and Project Management</a></li>\n<li><a href=\"#financial-impact-and-return-on-investment\">Financial Impact and Return on Investment</a><ul>\n<li><a href=\"#start-with-the-owners-records\">Start with the owner&#39;s records</a></li>\n</ul>\n</li>\n<li><a href=\"#service-models-and-vendor-selection\">Service Models and Vendor Selection</a><ul>\n<li><a href=\"#compare-responsibilities-not-just-price\">Compare responsibilities, not just price</a></li>\n<li><a href=\"#a-practical-vendor-review\">A practical vendor review</a></li>\n</ul>\n</li>\n<li><a href=\"#future-proofing-your-property-portfolio\">Future-Proofing Your Property Portfolio</a><ul>\n<li><a href=\"#make-the-data-useful-beyond-billing\">Make the data useful beyond billing</a></li>\n<li><a href=\"#a-disciplined-next-step\">A disciplined next step</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"the-hidden-costs-of-bulk-metering\"></a></p>\n<h2>The Hidden Costs of Bulk Metering</h2>\n<p><strong>26% of Ontario residents live in multi-unit buildings</strong>, and <strong>75% to 90% of those buildings use bulk metering</strong>, according to a <a href=\"https://www.linkedin.com/pulse/sub-metering-ontario-how-legal-framework-actually-gc4jc\">University of Toronto working paper summary on Ontario sub metering</a>. The same source estimated that approximately <strong>one-fifth of Ontario&#39;s residential electricity costs</strong> are determined by shares of total building usage. These figures place bulk metering in its proper context. It is not a minor accounting inconvenience. It is a structural feature of the housing market that affects billing, operating decisions, and long-term asset planning.</p>\n<p>Bulk metering is easy to describe. One master meter records the electricity entering a building, and the owner or condominium corporation receives the utility bill. That single figure may represent dozens or hundreds of suites, common areas, mechanical systems, and different tenant behaviours.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/9e246f5b-94f5-458e-a4a5-5c3156c77716/electrical-sub-metering-bulk-metering.jpg\" alt=\"An infographic showing the hidden costs of bulk metering including water loss, uncollected revenue, and billing disputes.\"></p>\n<p><a id=\"why-the-master-meter-compresses-operating-performance\"></a></p>\n<h3>Why the master meter compresses operating performance</h3>\n<p>A master meter shows the building&#39;s total demand, much like a single household utility bill would show a family&#39;s total spending without identifying who used each service. Weather, occupancy, thermostat settings, appliance use, and equipment condition all affect the bill, yet the owner sees the combined result only after it has reached the property&#39;s cash flow.</p>\n<p>That arrangement blends several different responsibilities:</p>\n<ul>\n<li><strong>Tenant consumption:</strong> Electricity used inside a suite becomes part of a shared building cost.</li>\n<li><strong>Common-area demand:</strong> Elevators, lighting, ventilation, and mechanical equipment remain inside the same total.</li>\n<li><strong>System inefficiency:</strong> A deteriorating HVAC component can increase consumption without identifying the affected area.</li>\n<li><strong>Billing uncertainty:</strong> Managers may face questions about allocations, estimates, and unusual charges when precise readings are unavailable.</li>\n</ul>\n<p>Submetering does not automatically reduce every expense. It gives the owner a defensible method for separating costs, recovering eligible tenant usage, and investigating abnormal patterns. <strong>Cost recovery and conservation are related, but they aren&#39;t the same financial event.</strong> Recovery changes who pays for measured consumption. Conservation changes how much electricity the property uses.</p>\n<p><a id=\"the-efficiency-signal-matters\"></a></p>\n<h3>The efficiency signal matters</h3>\n<p>The Navigant Consulting Ontario case study reported an average first-year reduction of <strong>139 kWh per unit per month</strong>, described as a <strong>40% reduction</strong>, after a property switched to sub metering. For a typical <strong>150-unit condominium</strong>, the case study projected approximately <strong>$93,600 in annual savings</strong>, along with annual electricity savings of <strong>230,300 kWh</strong>.</p>\n<p>The practical mechanism is straightforward. A measured bill makes electricity visible to residents instead of leaving it inside a shared building total. Property staff can also separate suite consumption from common-area loads, then investigate unusual patterns rather than treating the master bill as an unexplained result.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> Treat the master meter as a building-level financial signal, not as an explanation of what caused the expense.</p>\n</blockquote>\n<p>That distinction makes submetering an asset-management tool, not only a billing arrangement. Reliable unit-level data can clarify utility exposure, point staff toward systems that need attention, and support capital decisions with observed consumption rather than broad averages. It also exposes the operational work behind the promise: readings must remain accurate, allocations must be defensible, and the data must continue to support decisions after installation.</p>\n<p><a id=\"how-electrical-sub-metering-works\"></a></p>\n<h2>How Electrical Sub Metering Works</h2>\n<p>The system is a chain with three jobs: the <strong>meter measures</strong>, the communications layer <strong>moves the data</strong>, and the billing platform <strong>turns approved readings into customer statements</strong>. A weakness in any link can make the final invoice difficult to defend, even when the meter is working correctly. For an owner, the system is therefore both a measurement network and an operating process that requires oversight.</p>\n<p>At the electrical panel, a unit meter records electricity assigned to a suite, commercial space, or defined load. Current transformers, commonly called CTs, sense the current flowing through conductors without treating the entire building as one undifferentiated load. The meter combines current readings with voltage and time data to calculate energy consumption.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cbf437d1-c978-4099-a3d0-6cfa5207a969/electrical-sub-metering-process-diagram.jpg\" alt=\"A diagram illustrating how electrical sub-metering works from the main breaker through a sub-meter to a cloud dashboard.\"></p>\n<p><a id=\"from-panel-measurement-to-a-bill\"></a></p>\n<h3>From panel measurement to a bill</h3>\n<p>Power enters through the building service and travels through panels, feeders, and branch circuits. At a defined measurement point, a submeter records the load assigned to a suite, tenant area, common area, or selected end use. A gateway or communications network then gathers readings from the installed meters.</p>\n<p>The software checks those readings, stores the history, and flags missing or abnormal data. The billing platform applies the relevant rate structure and account rules before the operator or licensed provider issues statements, answers customer questions, and manages required corrections. Each stage creates work that must be assigned, monitored, and documented.</p>\n<p>The master meter still records the building&#39;s total utility supply. Submeters provide a more detailed map beneath that total. The two levels should reconcile within the system&#39;s limits, with common areas and other shared loads assigned deliberately instead of being left as an unexplained remainder. That reconciliation gives property staff a practical control for spotting gaps, investigating unusual results, and supporting an allocation that customers can understand.</p>\n<p>Equipment selection depends on the jurisdiction and the intended use. A meter installed for internal energy analysis may have different requirements from equipment used to bill a tenant. Owners reviewing technical options can consult this resource on <a href=\"https://eandisales.com/tag/industrial-metering/\">industrial metering for plant engineers</a>, particularly where a commercial property has complex distribution equipment.</p>\n<p><a id=\"more-than-a-suite-electricity-meter\"></a></p>\n<h3>More than a suite electricity meter</h3>\n<p>Electrical sub metering can operate at several levels. Whole-panel measurement may support straightforward unit billing, while feeder or branch-level measurement can isolate HVAC, EV charging, or other tenant equipment. In California, this separation matters for certain new or renovated buildings because the electrical distribution system must support downstream load disaggregation.</p>\n<p>The same data architecture can also support water, gas, thermal energy, common-area electricity, and leak detection. Each application requires its own measurement decision and operating checks. An electricity meter does not make another utility automatically accurate.</p>\n<p>Submetering creates asset-management value when the property knows what each device measures, who owns the associated load, and how staff will act on the reading. Accuracy, communications uptime, data review, and billing corrections all remain part of the service after installation.</p>\n<p><a id=\"navigating-regulatory-compliance-and-standards\"></a></p>\n<h2>Navigating Regulatory Compliance and Standards</h2>\n<p>Compliance begins before equipment reaches the electrical room. An owner needs a design that fits the jurisdiction, a billing model that respects customer protections, and records showing how the system was installed, tested, maintained, and operated. Treat the system like a managed property asset, not just a collection of meters. Its value depends on accurate readings and on the processes that follow each reading.</p>\n<p>Ontario&#39;s framework was formally established in <strong>2007</strong>. Regulation 442/07 was filed in October and came into force on December 31. It required individual suite-level electricity metering in new condominium buildings constructed on or after August 1, 2007. The <a href=\"https://www.ontario.ca/laws/regulation/070442\">Ontario Regulation 442/07 text</a> provides the primary legal reference for that history. It also explains why Ontario owners should approach electrical sub metering as a regulated utility service rather than an informal internal allocation exercise.</p>\n<p><a id=\"ontario-places-duties-on-the-provider\"></a></p>\n<h3>Ontario places duties on the provider</h3>\n<p>The Ontario Energy Board&#39;s <a href=\"https://www.oeb.ca/regulatory-rules-and-documents/rules-codes-and-requirements/unit-sub-metering-code\">Unit Sub-Metering Code</a> sets an active regulatory framework. Licensed unit sub-meter providers must meet minimum standards, follow the applicable licence process, pay the required annual fee, and observe consumer-protection obligations.</p>\n<p>Those duties continue after commissioning. The provider must support bills that customers can understand, retain suitable records, respond to concerns, and follow the applicable rules for service and payment issues. Installation marks the start of the operating responsibility. Owners should therefore assess who will review exceptions, correct readings, answer customer questions, and preserve documentation over the life of the property.</p>\n<p>For an Ontario project, an owner should confirm:</p>\n<ul>\n<li><strong>Provider status:</strong> Verify that the service provider holds the required licence for the proposed activity.</li>\n<li><strong>Meter suitability:</strong> Confirm that the equipment is appropriate for tenant billing and the property&#39;s electrical configuration. Where regulated billing applies, review <a href=\"https://www.axismeter.com/blog/measurement-canada-approved-meters\">Measurement Canada approved meters</a> before finalising the specification.</li>\n<li><strong>Load boundaries:</strong> Document what belongs to each suite and what remains a common-area or owner responsibility.</li>\n<li><strong>Customer process:</strong> Establish how statements, questions, corrections, arrears, and assistance requests will be handled.</li>\n<li><strong>Audit trail:</strong> Retain design, commissioning, reading, maintenance, and billing records in an organised form.</li>\n</ul>\n<p>These checks connect regulation with asset management. A meter may be technically accurate, yet still create operational problems if its assigned load is unclear, its data is not reviewed, or staff cannot explain a correction.</p>\n<p><a id=\"california-requires-technical-separation\"></a></p>\n<h3>California requires technical separation</h3>\n<p>California places strong emphasis on downstream load disaggregation. A compliant design may need to measure total energy use while separating end uses, affecting panel layouts, feeder design, data collection, and billing-software integration. <a href=\"https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/infrastructure/transportation-electrification/electricity-rates-and-cost-of-fueling/plug-in-electric-vehicle-submetering\">California Public Utilities Commission guidance on plug-in EV submetering</a> describes a model in which EV charging is measured separately from the customer&#39;s main meter without installing a second utility service meter.</p>\n<p>California projects also carry precision and tariff requirements. Guidance tied to state rules requires meters to accurately measure loads at or above <strong>5% of the tenant&#39;s electric service capacity</strong>. Necessary permits must be obtained before commercial use, and submetered tenants must be billed under the rate structure they would have received directly from the utility. The master-meter customer remains responsible for maintenance and repair beyond the master meter, as outlined in <a href=\"https://www.pge.com/en/account/billing-and-assistance/understand-your-bill/sub-metered-tenant-and-landlord.html\">Pacific Gas and Electric submetered tenant guidance</a>.</p>\n<p>Poor CT sizing, weak service-capacity assumptions, or incorrect rate logic can create disputes even when the hardware appears to function. <strong>Calibrated metrology, documented permits, and tariff-aligned billing belong in the original project plan, not in a later repair programme.</strong></p>\n<p><a id=\"implementation-timelines-and-project-management\"></a></p>\n<h2>Implementation Timelines and Project Management</h2>\n<p>An electrical sub metering installation is a small building programme, not a one-device replacement. Design, access, resident communication, permits, procurement, software configuration, commissioning, and billing activation must fit together. A delay in one area can leave equipment installed but unusable for accurate customer statements.</p>\n<p>Start with a site audit before selecting equipment. The team should inspect the service entrance, distribution panels, suite feeds, common areas, communications pathways, proposed meter locations, and available drawings. This review establishes the measurement boundaries and identifies panel limitations, access needs, shutdown requirements, and missing records while there is still time to address them.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/0f5d7600-1b92-4b59-b8c1-aad5ad71fd89/electrical-sub-metering-project-timeline.jpg\" alt=\"A four-week project management timeline showing the steps for electrical sub metering implementation and system deployment.\"></p>\n<p>Responsibility should be assigned before work begins. The <strong>property manager</strong> coordinates access, notices, resident questions, and building operations. The <strong>engineer or electrical designer</strong> confirms the measurement architecture and load boundaries. The <strong>licensed electrician</strong> installs meters, CTs, wiring, panels, and communications equipment. The <strong>provider</strong> coordinates permits, procurement, commissioning, data configuration, and billing setup. The <strong>owner or board</strong> approves the commercial model, customer terms, and go-live criteria.</p>\n<p>These roles are practical controls, not administrative decoration. For example, a provider may configure billing correctly, but only the property team can confirm whether a panel serves one suite or several areas. A project schedule should make that decision visible and assign someone to approve it.</p>\n<p>Access planning must follow the actual equipment and panel locations. The site audit may show that broad entry into occupied suites is unnecessary, or it may identify work that requires notice and a planned interruption. Resident communications should state what crews will do, whether service interruptions are expected, and where questions should go. Owners coordinating several workstreams can use <a href=\"https://www.reworxrecycling.org/implementation-timelines/\">realistic ITAD project phases</a> as a general reference for discovery, preparation, deployment, validation, and handover.</p>\n<p>Commissioning is the point where installation becomes an operating system. Verify meter identity, panel association, phase configuration, communications, readings, time settings, rate inputs, and the links between tenant and common-area accounts. Document exceptions and resolve them before billing begins.</p>\n<p>An <a href=\"https://www.axismeter.com/blog/electricity-sub-meter-installation\">electrical sub-meter installation guide</a> explains the physical work, but every property still needs site-specific design. The handover package should include equipment records, test results, account mapping, customer communications, escalation contacts, and a process for correcting data.</p>\n<blockquote>\n<p><strong>Commissioning standard:</strong> Don&#39;t ask only whether the meter works. Ask whether the complete path from conductor to customer statement has been tested.</p>\n</blockquote>\n<p><a id=\"financial-impact-and-return-on-investment\"></a></p>\n<h2>Financial Impact and Return on Investment</h2>\n<p>A single Ontario case study projected <strong>$33,800 in annual savings</strong> and <strong>92,300 kWh in annual electricity savings</strong> for a 150-unit rental building. Those figures show why electrical sub metering deserves examination as an asset management decision, not merely a billing change. The return can come from cost recovery, lower consumption, better operating information, or a combination of all three.</p>\n<p>Recovery and efficiency are separate financial effects. <strong>Recovery</strong> changes who pays for measured utility use, subject to the rules governing the property and jurisdiction. <strong>Efficiency</strong> reduces the electricity the property needs. Treating them as one benefit can make the investment case look stronger than it is. A useful analogy is a household budget: moving a bill to the correct account improves cost allocation, while using less electricity reduces the bill itself.</p>\n<p>The same Ontario analysis estimated that sub metering across eligible multi-residential buildings could avoid <strong>$1.2 billion</strong> in generation, transmission, and delivery costs over <strong>20 years</strong>, reduce electricity consumption by <strong>1 TWh per year after five years</strong>, and cut <strong>7,000 kilotonnes of greenhouse gas emissions over 20 years</strong>. These are projections from the case study, not promises for every property. Owners should use them as context, then build the investment case from their own records. (Ontario sub metering case study and projections)</p>\n<p><a id=\"start-with-the-owners-records\"></a></p>\n<h3>Start with the owner&#39;s records</h3>\n<p>A practical model should draw on master-meter bills, the current allocation method, electrical drawings, panel access, and equipment condition. It should separate suite loads from common-area loads and identify the portion that may be recoverable under applicable rules. The review also needs implementation costs, billing and data requirements, maintenance obligations, and the expected operational benefit.</p>\n<p>The return should include more than installation payback. Consider exposure to changing utility costs, manual billing effort, clearer resident statements, abnormal-load detection, and better evidence for future equipment decisions. These benefits may strengthen NOI stability even when the direct savings are modest.</p>\n<p>Vacancy, disputed readings, meter replacement, rate changes, and common-area allocation can all change the return the owner achieves. For example, a building may have technically accurate meters but still face weak financial results if billing responsibilities are unclear or vacant suites carry costs that the model did not assign correctly.</p>\n<blockquote>\n<p><strong>Financial discipline:</strong> Build the model from measured building data, then show recoverable revenue, avoided consumption, and administrative savings as separate lines.</p>\n</blockquote>\n<p>That separation gives a condominium board, lender, asset manager, or operating partner a clearer view of what the project pays back and which benefits depend on consistent daily administration.</p>\n<p><a id=\"service-models-and-vendor-selection\"></a></p>\n<h2>Service Models and Vendor Selection</h2>\n<p>Electrical sub metering is an asset management decision as much as a billing decision. The service model determines who funds the installation, owns the meters, maintains communications, answers resident questions, and handles operational problems when a reading is missing. Those responsibilities affect the building&#39;s records, service quality, and future equipment decisions.</p>\n<p>An owner-funded model provides direct control over the installed assets. It also assigns the owner responsibility for procurement, installation coordination, software, replacements, certification, billing operations, and maintenance. This approach can suit an organisation with internal utility expertise, but the budget must cover the full equipment lifecycle rather than the initial hardware alone.</p>\n<p>A provider-owned model transfers more of that work into a long-term agreement. The provider may supply and maintain the equipment and operate the billing service, reducing the owner&#39;s upfront capital requirement. The agreement then becomes the operating framework, so its service obligations, limits, and exit terms require careful review.</p>\n<p><a id=\"compare-responsibilities-not-just-price\"></a></p>\n<h3>Compare responsibilities, not just price</h3>\n<table>\n<thead>\n<tr>\n<th>Decision area</th>\n<th>Owner-funded model</th>\n<th>Provider-owned service model</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Initial equipment cost</td>\n<td>Paid through the property capital budget</td>\n<td>Included in the commercial service arrangement</td>\n</tr>\n<tr>\n<td>Meter maintenance</td>\n<td>Owner or appointed contractor</td>\n<td>Assigned to the provider under the agreement</td>\n</tr>\n<tr>\n<td>Billing operation</td>\n<td>Managed internally or outsourced separately</td>\n<td>Integrated into the provider&#39;s service scope</td>\n</tr>\n<tr>\n<td>Compliance coordination</td>\n<td>Owner must manage or commission it</td>\n<td>Provider coordinates it where included</td>\n</tr>\n<tr>\n<td>Long-term control</td>\n<td>Direct ownership of installed assets</td>\n<td>Governed by agreement terms and service obligations</td>\n</tr>\n</tbody></table>\n<p>A lower quotation can still create a higher operating cost. Ask how the provider handles meter failures, data gaps, resident complaints, rate changes, move-ins, move-outs, arrears, permits, insurance, and equipment at the end of the term. Require service-level commitments in writing, including response times, correction procedures, reporting, and the party responsible for each cost.</p>\n<p><a id=\"a-practical-vendor-review\"></a></p>\n<h3>A practical vendor review</h3>\n<p>Review the proposal as an operating plan, not only as an equipment purchase. The owner should verify:</p>\n<ul>\n<li><strong>Licence and jurisdiction:</strong> Confirm the provider&#39;s authority to perform regulated unit sub-metering in the relevant province or state.</li>\n<li><strong>Technical capability:</strong> Request the proposed meter type, measurement boundaries, commissioning process, and data architecture.</li>\n<li><strong>Billing governance:</strong> Review rate logic, statement presentation, corrections, dispute handling, and customer support.</li>\n<li><strong>Contract exposure:</strong> Confirm the term, termination rights, equipment ownership, renewal terms, and responsibilities after the agreement ends.</li>\n<li><strong>Risk protection:</strong> Check insurance, bonding, permits, certifications, and maintenance obligations.</li>\n<li><strong>Operational scope:</strong> Establish whether common-area metering, reporting, abnormal-use detection, and resident communications are included or separately priced.</li>\n</ul>\n<p>Axis Meter Solutions is one example of a provider-owned model. Its stated scope includes equipment, installation, commissioning, tenant billing, ongoing service, and jurisdiction-specific compliance coordination for multi-family, condominium, mixed-use, and commercial properties. Compare those inclusions with competing proposals, then assess who will carry the daily workload throughout the agreement.</p>\n<p><a id=\"future-proofing-your-property-portfolio\"></a></p>\n<h2>Future-Proofing Your Property Portfolio</h2>\n<p>Electrical sub metering becomes a long-term asset when its records support more than monthly cost recovery. Consumption history for suites, common areas, and building systems can guide maintenance planning, capital discussions, conservation programmes, and sustainability reporting. It also gives owners and boards a shared record for explaining utility decisions to residents.</p>\n<p>A useful analogy is a building logbook. A single bulk meter records the property&#39;s total, while sub meters add separate entries for the areas and systems using electricity. That record becomes more valuable when the owner can connect consumption changes with equipment, occupancy, maintenance, or a new building load.</p>\n<p>Ontario&#39;s Unit Sub-Metering Code remains a living framework, and the Ontario Energy Board publishes annual complaint data for unit sub-meter provider customers. The OEB also states that many utility customer-service rules apply to unit sub-meter providers. Customer care, arrears processes, payment assistance, and complaint handling therefore belong in the operating plan, alongside measurement and billing. See the <a href=\"https://www.oeb.ca/consumer-information-and-protection/oebs-consumer-protection-role/understanding-electricity-unit\">OEB consumer information on electricity unit sub-metering</a>.</p>\n<p><a id=\"make-the-data-useful-beyond-billing\"></a></p>\n<h3>Make the data useful beyond billing</h3>\n<p>Before approving a system, the owner should be able to answer these questions:</p>\n<ul>\n<li>Which loads serve tenants, common areas, and building systems?</li>\n<li>Can the property identify an unusual consumption pattern before it creates a larger bill?</li>\n<li>Can the provider explain a statement without relying on estimates?</li>\n<li>Can the system support EV charging, end-use separation, or new communications requirements?</li>\n<li>Can the owner export records for budgeting, maintenance, and sustainability work?</li>\n<li>Who will update billing logic when an approved rate structure changes?</li>\n</ul>\n<p>The <a href=\"https://atekdistribution.com/the-future-of-utilities-ateks-advanced-metering-infrastructure-ami-solutions/\">future of utility metering</a> points toward systems that can accommodate better data, new loads, and changing operating requirements. That does not mean every property needs the most elaborate platform. It means the initial design should leave practical room for change.</p>\n<p><a id=\"a-disciplined-next-step\"></a></p>\n<h3>A disciplined next step</h3>\n<p>Start with a utility exposure review rather than a product demonstration. Gather master-meter bills, electrical drawings, the suite count, common-area loads, the current allocation method, the tenant communication process, and known billing complaints. Ask licensed providers to explain the measurement boundary, compliance path, commissioning tests, data ownership, maintenance duties, and customer-service workflow.</p>\n<p>The <a href=\"https://www.axismeter.com/blog/advanced-metering-infrastructure\">advanced metering infrastructure overview</a> explains how communications and data systems fit into the wider design. Judge the proposal against the property&#39;s panels, occupancy, jurisdiction, service model, and long-term asset plan. Also account for the daily work of exceptions, resident questions, corrections, records, and system changes.</p>\n<p>Axis Meter Solutions provides turnkey electrical sub metering for multi-family, condominium, mixed-use, and commercial properties, including equipment, installation, commissioning, tenant billing, and ongoing service. Owners can visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a property-specific metering programme. The system will not correct an undocumented distribution network or an unclear customer agreement. It can give the owner a durable foundation for measured cost recovery, utility visibility, defensible billing, and deliberate building management.</p>",
+  "tags": [
+    "electrical sub metering",
+    "submetering guide",
+    "property management",
+    "utility billing",
+    "OEB regulations"
+  ],
+  "title": "Electrical Sub Metering: The Owner's Field Guide",
+  "updatedAt": "2026-10-05T07:16:07.296Z"
+}
