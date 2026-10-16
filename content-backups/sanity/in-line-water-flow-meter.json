@@ -1,0 +1,2641 @@
+{
+  "_createdAt": "2026-10-16T07:11:44Z",
+  "_id": "outrank-525d33e6-5c8a-4dd1-b2b3-141dc720c43f",
+  "_rev": "EyJBMwBei0Sqmu0d39vau5",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-16T07:11:44Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "f779b19919ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d5a605c92fe",
+          "_type": "span",
+          "marks": [],
+          "text": "A quarterly water bill lands on your desk, the building is full, occupancy hasn't moved, and yet the number keeps climbing. That's the moment most owners realise they don't have a water problem, they have an evidence problem. Without unit-level data, you're guessing whether the issue is a riser leak, a tenant habit pattern, a common-area load, or a billing method that hides the driver."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "be1034d87cc3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1de52340ac0",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "2cc60dd40c2d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "in-line water flow meter"
+        },
+        {
+          "_key": "074b7151bff5",
+          "_type": "span",
+          "marks": [],
+          "text": " is the first piece of evidence that changes that conversation. It gives you a measurement point where the water moves, so you can allocate cost, investigate loss, and defend the bill when someone challenges it. If you're about to sign a long-term submetering agreement, treat the meter as infrastructure, not an accessory."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8963cdaee919",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6612b7279b72",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "09a3b0ae3049",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9fc016ecfdb",
+          "_type": "span",
+          "marks": [
+            "55ac33aeb94a"
+          ],
+          "text": "Why In-Line Water Flow Meters Matter in Multi-Family Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "55ac33aeb94a",
+          "_type": "link",
+          "href": "#why-in-line-water-flow-meters-matter-in-multi-family-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "604d8939b037",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3447e281269",
+          "_type": "span",
+          "marks": [
+            "4db7213db1ed"
+          ],
+          "text": "The business case is not abstract"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4db7213db1ed",
+          "_type": "link",
+          "href": "#the-business-case-is-not-abstract"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e4eafb5ea188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f0cf5de26f5",
+          "_type": "span",
+          "marks": [
+            "e84c46d1dbfe"
+          ],
+          "text": "What An In-Line Water Flow Meter Actually Is"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e84c46d1dbfe",
+          "_type": "link",
+          "href": "#what-an-in-line-water-flow-meter-actually-is"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "88bdf7907e9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5397cd31f226",
+          "_type": "span",
+          "marks": [
+            "db0f234c1d7e"
+          ],
+          "text": "How it differs from other meter styles"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "db0f234c1d7e",
+          "_type": "link",
+          "href": "#how-it-differs-from-other-meter-styles"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2b5d6e83a299",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0156fbacfe47",
+          "_type": "span",
+          "marks": [
+            "b026bfe8f744"
+          ],
+          "text": "Comparing the Main Metering Technologies"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b026bfe8f744",
+          "_type": "link",
+          "href": "#comparing-the-main-metering-technologies"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "da45c7f15236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4629c9144f26",
+          "_type": "span",
+          "marks": [
+            "cd193c5def58"
+          ],
+          "text": "What owners should take from that table"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cd193c5def58",
+          "_type": "link",
+          "href": "#what-owners-should-take-from-that-table"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bc2bfb1f9c17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9dae64d023b",
+          "_type": "span",
+          "marks": [
+            "cb1d8fba04e2"
+          ],
+          "text": "Selection Criteria Owners Should Pressure-Test"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cb1d8fba04e2",
+          "_type": "link",
+          "href": "#selection-criteria-owners-should-pressure-test"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ca057603e3ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43d4996b68da",
+          "_type": "span",
+          "marks": [
+            "d920d92d6d2b"
+          ],
+          "text": "The checklist that should go into the RFP"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d920d92d6d2b",
+          "_type": "link",
+          "href": "#the-checklist-that-should-go-into-the-rfp"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "de18982e8b82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1824cda215c3",
+          "_type": "span",
+          "marks": [
+            "5eaa2e62715a"
+          ],
+          "text": "Don't buy a meter in isolation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5eaa2e62715a",
+          "_type": "link",
+          "href": "#dont-buy-a-meter-in-isolation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "94105fe4e5f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e8d217df004",
+          "_type": "span",
+          "marks": [
+            "03d0f344a062"
+          ],
+          "text": "Installation and Commissioning That Protect Accuracy"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "03d0f344a062",
+          "_type": "link",
+          "href": "#installation-and-commissioning-that-protect-accuracy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b533fb3509e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7d0e8c1781a",
+          "_type": "span",
+          "marks": [
+            "706486883382"
+          ],
+          "text": "Install details to require in writing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "706486883382",
+          "_type": "link",
+          "href": "#install-details-to-require-in-writing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c10782ca5e3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2c52053e3d1",
+          "_type": "span",
+          "marks": [
+            "b565034ef973"
+          ],
+          "text": "From Volume Measurement to Leak and Flood Detection"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b565034ef973",
+          "_type": "link",
+          "href": "#from-volume-measurement-to-leak-and-flood-detection"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6d36eb9c68c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8093aaf65935",
+          "_type": "span",
+          "marks": [
+            "745dd2a40fa2"
+          ],
+          "text": "Leak detection needs response authority"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "745dd2a40fa2",
+          "_type": "link",
+          "href": "#leak-detection-needs-response-authority"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7c7aa0039f13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c21750275ec0",
+          "_type": "span",
+          "marks": [
+            "295b030f0bfd"
+          ],
+          "text": "Compliance, Maintenance, and a Vendor Selection Checklist"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "295b030f0bfd",
+          "_type": "link",
+          "href": "#compliance-maintenance-and-a-vendor-selection-checklist"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a2c29ce16dec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38bbc35ac080",
+          "_type": "span",
+          "marks": [
+            "bf18e0c139ac"
+          ],
+          "text": "The weekly checklist before you sign"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "bf18e0c139ac",
+          "_type": "link",
+          "href": "#the-weekly-checklist-before-you-sign"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4041cff1122e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41ec91a1fa79",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0657a7da6989",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58a60816d63a",
+          "_type": "span",
+          "marks": [],
+          "text": "Why In-Line Water Flow Meters Matter in Multi-Family Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0fd42ffbf0ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dcbff2dfa093",
+          "_type": "span",
+          "marks": [],
+          "text": "A quarterly water bill arrives, the building is full, occupancy has not changed, and the charge still climbs. That is the point where owners usually discover they do not have a water problem, they have an evidence problem. Without unit-level measurement, every explanation is a guess, whether the cause is a riser leak, a common-area load, a tenant habit pattern, or a billing method that hides the underlying driver."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1c699a87f1cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e718e80efb80",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "99b16fb81114",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "in-line water flow meter"
+        },
+        {
+          "_key": "bf01ac0f87d3",
+          "_type": "span",
+          "marks": [],
+          "text": " changes that. It gives you a measurement point at the pipe itself, so the conversation shifts from a vague building total to a specific suite, branch, or common load at a specific time and under specific conditions. Canada's federal survey found residential metering rose from "
+        },
+        {
+          "_key": "a81f366136f8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "63.1% of customers in 2006 to 72.1% in 2009"
+        },
+        {
+          "_key": "891f58113212",
+          "_type": "span",
+          "marks": [],
+          "text": ", while commercial metering rose from "
+        },
+        {
+          "_key": "eac6f6956336",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "80.1% to 86.7%"
+        },
+        {
+          "_key": "3b548a4885eb",
+          "_type": "span",
+          "marks": [],
+          "text": " in the same period, and it also reported residential use at "
+        },
+        {
+          "_key": "6b735a750129",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "238 litres per capita per day"
+        },
+        {
+          "_key": "ef2a0a807cc1",
+          "_type": "span",
+          "marks": [],
+          "text": " on systems using volumetric rates versus "
+        },
+        {
+          "_key": "c0a55aaea7e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "361 litres"
+        },
+        {
+          "_key": "8ff575bb010e",
+          "_type": "span",
+          "marks": [],
+          "text": " on flat rates, a "
+        },
+        {
+          "_key": "22c0a06a76ff",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "52% difference"
+        },
+        {
+          "_key": "e842b1b3951d",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "e47cf35a82df",
+          "_type": "span",
+          "marks": [
+            "c01184d62b50"
+          ],
+          "text": "federal Municipal Water and Wastewater Survey"
+        },
+        {
+          "_key": "fcf1b4ab7f72",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c01184d62b50",
+          "_type": "link",
+          "href": "https://publications.gc.ca/collections/collection_2012/ec/En11-3-2011-eng.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1e434dc2aaa8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "875216837d1c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4608ec2d5ed0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7190623cd18",
+          "_type": "span",
+          "marks": [],
+          "text": "The business case is not abstract"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "773109e4d5dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5edaa9fc1e3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners do not buy submetering to win a theory debate. They buy it to recover cost fairly, protect net operating income, and catch abnormal consumption before it turns into a repair bill. The same federal survey found fully metered customers used "
+        },
+        {
+          "_key": "760d97ffc47b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "229 litres per person per day"
+        },
+        {
+          "_key": "033078b4c138",
+          "_type": "span",
+          "marks": [],
+          "text": ", versus "
+        },
+        {
+          "_key": "91d814fd6c00",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "376 litres"
+        },
+        {
+          "_key": "a654a25f02d2",
+          "_type": "span",
+          "marks": [],
+          "text": " where no customers were metered, which is roughly "
+        },
+        {
+          "_key": "59460b25002e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "65% higher without metering"
+        },
+        {
+          "_key": "2598ab37c6a3",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "8ee63650f44a",
+          "_type": "span",
+          "marks": [
+            "694d27f1ae80"
+          ],
+          "text": "the same federal Municipal Water and Wastewater Survey findings on fully metered customers"
+        },
+        {
+          "_key": "00a475a4803f",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "694d27f1ae80",
+          "_type": "link",
+          "href": "https://publications.gc.ca/collections/collection_2012/ec/En11-3-2011-eng.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a1d3fbd650b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cea307dde42d",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter also gives the billing chain structure. The reading has to be tied to the right unit or load, the installation has to be documented, and the data has to be handled with clear rules for missing reads, estimates, exception flags, and edits. That is the difference between a number you can use internally and a bill you can defend when a tenant challenges it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "996fc19278bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52e1399ca0f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "f0eef2d5e244",
+          "_type": "span",
+          "marks": [],
+          "text": " if a water bill cannot be tied back to a suite, branch, or defined common load, the owner carries the risk and the tenant carries the incentive gap."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "9deee8c2b031",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9193d4e37eb",
+          "_type": "span",
+          "marks": [],
+          "text": "For a useful overview of how owners structure that programme, see "
+        },
+        {
+          "_key": "437c3c44a550",
+          "_type": "span",
+          "marks": [
+            "ac184a5ec07f"
+          ],
+          "text": "Axis Meter Solutions' apartment submetering overview"
+        },
+        {
+          "_key": "c9b7299477bd",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ac184a5ec07f",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/submetering-water-apartments"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "41ecd4730fee",
+      "_type": "externalImage",
+      "alt": "A professional looking at a quarterly water bill while questioning unit-level consumption and potential leaks in buildings.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d2ac2cc4-3a69-494b-a6d1-6b907e38c275/in-line-water-flow-meter-water-management.jpg"
+    },
+    {
+      "_key": "7e1397af6702",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6d6aefa11a8",
+          "_type": "span",
+          "marks": [],
+          "text": "The owner who waits for a leak claim before acting has already lost the advantage. A meter will not fix bad plumbing, but it gives you the proof to separate tenant demand from building waste and make the repair decision on facts, not suspicion."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14e5ed5affde",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e978000607fd",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fafc5f3809bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56e2dd5203a7",
+          "_type": "span",
+          "marks": [],
+          "text": "What An In-Line Water Flow Meter Actually Is"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "6f1b8a300382",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f664d06d856",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "e43656d9d4d0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "in-line water flow meter"
+        },
+        {
+          "_key": "24d800d7e9e5",
+          "_type": "span",
+          "marks": [],
+          "text": " sits directly in the pipe, so every drop passing through that section goes through the measuring element. In a suite feed, a branch, or the main service entry, it becomes part of the water path rather than a device reading across it. That's what makes it different from a temporary test instrument or a gadget bolted on after the fact."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7aa6bd0a0a56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f7e5409c0e5",
+          "_type": "span",
+          "marks": [],
+          "text": "The physical location matters. If the billing model is per suite, the meter belongs where suite demand passes cleanly through one pipe. If you're separating a common branch from tenant usage, the meter belongs at the point where those loads divide. If you're watching a main service, it belongs where the whole building load can be measured without ambiguity."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4c822aef2cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10a6ea5eb485",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "017ccd64047b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02a64bfd1639",
+          "_type": "span",
+          "marks": [],
+          "text": "How it differs from other meter styles"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7b781d20751d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15649fb019e7",
+          "_type": "span",
+          "marks": [],
+          "text": "Clamp-on ultrasonic meters and insertion meters can be useful in the right job, but they don't mean the same thing operationally. Clamp-on devices read through the pipe wall, which is handy for temporary checks and some retrofit situations, while insertion meters tap into the flow stream without fully replacing the pipe section. An in-line meter is more intrusive, but that's the trade-off you accept when you want a permanent measurement point that can support billing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8977da22aac6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a44f93b436b",
+          "_type": "span",
+          "marks": [],
+          "text": "The value of the device doesn't stop at the sensor. Once the measurement exists, the provider still has to decide how missing reads, estimates, exception flags, and edits are handled before that number reaches a tenant invoice. For a plain-language explainer on liquid flow measurement concepts, the most useful companion reading is "
+        },
+        {
+          "_key": "577a54a4acd0",
+          "_type": "span",
+          "marks": [
+            "9d1d39bce1f7"
+          ],
+          "text": "Axis Meter Solutions' flow meter guide"
+        },
+        {
+          "_key": "d1d175ed628b",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9d1d39bce1f7",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/flow-meter-liquid"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "df16f081dfb5",
+      "_type": "externalImage",
+      "alt": "An illustration explaining how an in-line water flow meter works to measure water usage in pipes.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6a6b6a21-cc1d-46ee-91f2-533fe653295a/in-line-water-flow-meter-diagram.jpg"
+    },
+    {
+      "_key": "55afdc21dbf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "feb14fb25356",
+          "_type": "span",
+          "marks": [],
+          "text": "Put simply, the pipe decides where the meter lives, and the billing model decides why it's there."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ed4301ddf858",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ac572fc96d5",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're buying one for a long-term programme, don't ask only what it measures. Ask where it lives in the piping, what part of the load it isolates, and who owns the data rules after installation. That's the difference between a device and a billing system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "39ebe7d75238",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b486a4dabe86",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55d24c872477",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "489d109a265f",
+          "_type": "span",
+          "marks": [],
+          "text": "Comparing the Main Metering Technologies"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "23da06f6e224",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46e42a0646f6",
+          "_type": "span",
+          "marks": [],
+          "text": "There isn't one universal winner here. The right choice depends on water quality, space, maintenance access, and how much billing risk you're willing to carry if a device drifts, clogs, or under-reads at the bottom of its range. You need a shortlist, not a slogan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "904384dc57f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f6e8419df6a",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical meters are the familiar workhorses. They usually have moving parts, which keeps the entry price down, but those parts wear and debris can become a problem. Electromagnetic meters are a strong option on conductive potable water because they avoid obstruction in the flow path, but they need power and are not a casual choice for every line. Ultrasonic meters bring a clean-measurement profile and avoid pressure loss, but they're sensitive to installation conditions and trapped air. Turbine and piston styles still have a role on larger or cleaner service lines where the operating conditions match the meter's design."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "905f56c87131",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1bde058ab064",
+          "_type": "span",
+          "marks": [],
+          "text": "For a deeper technical description of non-mechanical options, "
+        },
+        {
+          "_key": "f67ff8a5c9c4",
+          "_type": "span",
+          "marks": [
+            "22f46776c374"
+          ],
+          "text": "Axis Meter Solutions' ultrasonic flow meter overview"
+        },
+        {
+          "_key": "e5e92cff63f9",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful companion."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "22f46776c374",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ultrasonic-flow-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "61003b10ee61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "934c36e4dbf8",
+          "_type": "span",
+          "marks": [],
+          "text": "Technology"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "90edb2ece47a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3b16825576c",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical Accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85b39d6a6925",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03909d64470c",
+          "_type": "span",
+          "marks": [],
+          "text": "Pressure Drop"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e6e1bead656",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c4ffa7f3137e",
+          "_type": "span",
+          "marks": [],
+          "text": "Best Fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "96f9535874b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "462e138ad7af",
+          "_type": "span",
+          "marks": [],
+          "text": "Key Limitation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "884d215095ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb4cff20883f",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d9ffc94842d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd5f1293d1bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Varies by model and condition"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc56319805d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1fc303563ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually present to some degree"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f28a24f3b962",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51d182cfed3b",
+          "_type": "span",
+          "marks": [],
+          "text": "Straightforward retrofits and simpler billing jobs"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aff1cd73db6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb42e2f262b8",
+          "_type": "span",
+          "marks": [],
+          "text": "Moving parts wear over time"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4a2ad6d21b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9f0068f2b7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88b202ee6dc6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8588666a363",
+          "_type": "span",
+          "marks": [],
+          "text": "Strong on conductive potable water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba1994cf714b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d548673bd20d",
+          "_type": "span",
+          "marks": [],
+          "text": "Very low"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76641632e9e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31e85033bf10",
+          "_type": "span",
+          "marks": [],
+          "text": "Clean water where power and electronics are acceptable"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fcd0c7b5e273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c91b285f5c2",
+          "_type": "span",
+          "marks": [],
+          "text": "Needs conductive liquid and electrical supply"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "005f8a7142e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d662caaca882",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6aca8e30892e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cecda36c2166",
+          "_type": "span",
+          "marks": [],
+          "text": "Strong when installed correctly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ffd4ff67dcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d0937453dab8",
+          "_type": "span",
+          "marks": [],
+          "text": "Very low"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5cb936d19bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84ea8212af8f",
+          "_type": "span",
+          "marks": [],
+          "text": "Projects that value low obstruction and good reading quality"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "575cbea94337",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "202f696f4e83",
+          "_type": "span",
+          "marks": [],
+          "text": "Sensitive to air, straight run, and installation quality"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a460a91ad1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9c1981056a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine or piston"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb85e6865d14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97000fcd498f",
+          "_type": "span",
+          "marks": [],
+          "text": "Good for the right service line"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78701e04325a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e763432c9fc",
+          "_type": "span",
+          "marks": [],
+          "text": "Depends on design"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b4c26b1830b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65866719a657",
+          "_type": "span",
+          "marks": [],
+          "text": "Larger commercial lines with suitable water conditions"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "513cc3734449",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95b0ef1129d9",
+          "_type": "span",
+          "marks": [],
+          "text": "More dependent on cleanliness and flow profile"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b523f562a66b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6cfa517a67e6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "65d51f401e47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77881f5d4a83",
+          "_type": "span",
+          "marks": [],
+          "text": "What owners should take from that table"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4a6641ca054f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88ea01a71586",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't let a vendor push you into one technology because it sounds modern. The right question is whether the meter fits the line you have, the room you have, and the billing consequence you're carrying. If the water is clean and the installation is stable, electronic options can be attractive. If the site is rough, cramped, or dirty, simplicity often wins."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "36a3ee9f076f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b29e4e31b25",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Owner rule:"
+        },
+        {
+          "_key": "4be3efb25ec8",
+          "_type": "span",
+          "marks": [],
+          "text": " choose the meter that survives your mechanical room, not the one that wins a brochure comparison."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "d8dd7e23b164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f16a2c20f5b2",
+          "_type": "span",
+          "marks": [],
+          "text": "The technology matters, but it's only one part of the purchase. If the installation is bad or the data chain is weak, a premium meter can still produce a weak bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d2e6b7d6070",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30986798cc77",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae95a82fa422",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "34e06fd69fea",
+          "_type": "span",
+          "marks": [],
+          "text": "Selection Criteria Owners Should Pressure-Test"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4004f346adec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "468342204c2f",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the reading range, not the sales pitch. A meter that looks good at nominal flow but behaves badly at low demand will shift cost around the building. That matters because Canadian domestic water use varies sharply by region, with Statistics Canada reporting roughly "
+        },
+        {
+          "_key": "87278cd3dbf6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "300 litres per person per day"
+        },
+        {
+          "_key": "37d2a6eb8331",
+          "_type": "span",
+          "marks": [],
+          "text": " across urban areas in 2004, provincial values ranging from "
+        },
+        {
+          "_key": "0823b0de6cc4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "219 litres in Manitoba to 501 litres in Newfoundland and Labrador"
+        },
+        {
+          "_key": "02a46d3c0374",
+          "_type": "span",
+          "marks": [],
+          "text": ", and an estimated move from low metering to some metering associated with a reduction of roughly "
+        },
+        {
+          "_key": "6a22d7285ac2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "70 litres per person per day"
+        },
+        {
+          "_key": "b43ba1c65ca1",
+          "_type": "span",
+          "marks": [],
+          "text": " ("
+        },
+        {
+          "_key": "6410407d635c",
+          "_type": "span",
+          "marks": [
+            "cff02379541a"
+          ],
+          "text": "Statistics Canada analysis"
+        },
+        {
+          "_key": "17ddd60c7c91",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "cff02379541a",
+          "_type": "link",
+          "href": "https://publications.gc.ca/collections/Collection/En1-19-2001-1E.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e376932946c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71ac8ed1d439",
+          "_type": "span",
+          "marks": [],
+          "text": "That variation is exactly why owners should ask for evidence across the full operating range. A low-flow under-registering meter doesn't create a dramatic alarm. It just accumulates billing error in the owner's favour or the tenant's favour, depending on how the system is set up."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e16441bd2ae0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b44612c25e3b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88ea62e61b79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a5dc78071e4",
+          "_type": "span",
+          "marks": [],
+          "text": "The checklist that should go into the RFP"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "da75716ff1cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "515e9fb42a50",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Accuracy across the range:"
+        },
+        {
+          "_key": "0b99f00cee11",
+          "_type": "span",
+          "marks": [],
+          "text": " require the vendor to state how the meter performs at low, normal, and peak flow, not just at one comfortable test point."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9997e66ea2b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41f10693e3e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pipe size and available space:"
+        },
+        {
+          "_key": "7062f19fb7ea",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm the meter body fits the actual mechanical room layout and the service size you're dealing with."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7d990c8abe9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98bcd4cb0323",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pressure drop and service impact:"
+        },
+        {
+          "_key": "7b32da5733b2",
+          "_type": "span",
+          "marks": [],
+          "text": " ask how the device affects the line when demand peaks."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0bd09d4f715c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfab34805a5b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Approvals for potable use:"
+        },
+        {
+          "_key": "7629900e032b",
+          "_type": "span",
+          "marks": [],
+          "text": " for Canadian work, verify the selected model and installation satisfy the applicable utility and code requirements, and for California projects, the CPUC expects customer water meters to meet the applicable "
+        },
+        {
+          "_key": "b459167bf4fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "AWWA M6"
+        },
+        {
+          "_key": "f664bba6e1b9",
+          "_type": "span",
+          "marks": [],
+          "text": " standard or successor before service ("
+        },
+        {
+          "_key": "1d7c1867996c",
+          "_type": "span",
+          "marks": [
+            "84a3eedb88c5"
+          ],
+          "text": "California Public Utilities Commission decision"
+        },
+        {
+          "_key": "0fa5e2c9c0a3",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "84a3eedb88c5",
+          "_type": "link",
+          "href": "https://docs.cpuc.ca.gov/published/FINAL_DECISION/106867-03.htm"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "95f36d2b7fcf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f389bec1f601",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Lifecycle cost:"
+        },
+        {
+          "_key": "70e48e2a5e15",
+          "_type": "span",
+          "marks": [],
+          "text": " ask who pays for batteries, recalibration, replacements, and end-of-term swap-out."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9527616ab385",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d5576ab681a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1bb2798c5055",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e078b8722c40",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't buy a meter in isolation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4e39aaf7cbe6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5df52cca94a0",
+          "_type": "span",
+          "marks": [],
+          "text": "A vendor can sell a good meter and still give you a weak programme if the communications layer, estimate rules, and exception handling are sloppy. That's why the selection process has to include billing logic, not just hardware. If the building relies on BMS, AMR, or AMI integrations, insist on seeing the exact data path and who validates failed reads."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "99c3010b7907",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9faa9dde9758",
+          "_type": "span",
+          "marks": [],
+          "text": "The California utility guidance is useful here because it points to the right habit, test the meter across the operating range, not just on the nameplate. The same logic belongs in Canadian submetering even where local approvals differ."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dd8b1e40b18b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b5a75f512a2e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1b76b519e34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ed8b0c53a11",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation and Commissioning That Protect Accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "300fa4b1b4ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ff81f44410f",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter can look fine on paper and still send bad numbers to the billing system if the pipework is sloppy. Peterborough Utilities Commission requires meters larger than "
+        },
+        {
+          "_key": "d4c5cdd7368d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "25 mm"
+        },
+        {
+          "_key": "7425f7a4a819",
+          "_type": "span",
+          "marks": [],
+          "text": " to have at least "
+        },
+        {
+          "_key": "45734569cd7a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "five pipe diameters of straight run upstream and two diameters downstream"
+        },
+        {
+          "_key": "ac77cdd49850",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the meter must be independently supported so its removal does not compromise the service piping ("
+        },
+        {
+          "_key": "d324eaab9ab2",
+          "_type": "span",
+          "marks": [
+            "a43360adc74f"
+          ],
+          "text": "Peterborough Utilities requirements"
+        },
+        {
+          "_key": "36eecd0b2024",
+          "_type": "span",
+          "marks": [],
+          "text": ")."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a43360adc74f",
+          "_type": "link",
+          "href": "https://www.peterborough.ca/media/g2ddxhg2/puc-water-subdivision-development-requirements-2024-final.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d7a918ba1388",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f1824e3a23a",
+          "_type": "span",
+          "marks": [],
+          "text": "That straight run is not a nice-to-have. Elbows, valves, reducers, and tees disturb the flow profile, and the meter then reads a condition that does not match the line. The result shows up where owners get challenged most, at low flow and near the upper edge of the meter's range. If you want a bill that can survive a tenant dispute, the installation record matters as much as the meter itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56e84db74179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62c7f38f21e6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae14343904d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af02204fc991",
+          "_type": "span",
+          "marks": [],
+          "text": "Install details to require in writing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ed22f6976965",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed71c3994a2b",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the installation conditions explicit. Meter placement, support, and access should be written into the job, not left to installer judgment. In the same Peterborough document, the meter must be installed horizontally, with the register accessible, in a clean, dry, heated location, and with shutoff valves and service clearance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a6de5a2b4b5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63f0eda0f2bf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm support:"
+        },
+        {
+          "_key": "a1b74d8a4552",
+          "_type": "span",
+          "marks": [],
+          "text": " the pipe carries the load, not the meter body."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5fc4eba22602",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "747b29f7c378",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check orientation:"
+        },
+        {
+          "_key": "e8c7162917ba",
+          "_type": "span",
+          "marks": [],
+          "text": " horizontal placement and an accessible register make service work possible."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55d434b10c58",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "277bb3694521",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Protect the line:"
+        },
+        {
+          "_key": "7f49bcfbfde5",
+          "_type": "span",
+          "marks": [],
+          "text": " isolation valves and freeze protection belong in the install scope."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c57b7f5b5d56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24901a933733",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify materials:"
+        },
+        {
+          "_key": "f40da29719e5",
+          "_type": "span",
+          "marks": [],
+          "text": " local plumbing and code requirements still govern the job."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d3b39e89794",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f53a4e3e6acd",
+          "_type": "span",
+          "marks": [],
+          "text": "If the installer waves off straight-run and support requirements, stop the work."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "666b1f0e3a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3dc214f60621",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning should be documented with the same discipline. Record the serial number, exact location, measured error at low, normal, and peak flow, and the final communication address or pulse output setting. Keep the test certificate with the project file. That file is what you use when the bill is challenged months later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3ec351180636",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b873795cdd8a",
+          "_type": "span",
+          "marks": [],
+          "text": "The same approach applies around penetrations and repairs near the service work. If your crew needs a practical reference for sealing and patching details, this guide on how to "
+        },
+        {
+          "_key": "446e1c2d6e19",
+          "_type": "span",
+          "marks": [
+            "1f98a048837b"
+          ],
+          "text": "apply cement crack filler correctly"
+        },
+        {
+          "_key": "b07346c6e817",
+          "_type": "span",
+          "marks": [],
+          "text": " is a useful field reminder."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1f98a048837b",
+          "_type": "link",
+          "href": "https://homeprobadge.com/blog/cement-crack-filler"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7880127c95b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "386d21ef07dd",
+          "_type": "span",
+          "marks": [],
+          "text": "The cheapest accuracy gain is still a proper installation. A clean commissioning record usually carries more weight in a dispute than a sales sheet full of claims."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8306cbb23747",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c0465baabaa",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f0f81af93960",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a676fce26c2",
+          "_type": "span",
+          "marks": [],
+          "text": "From Volume Measurement to Leak and Flood Detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8949e37d333a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f483c1ae02b",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter only tells you how much water moved. It does not tell you whether one suite has a failing line, or whether a toilet has been running all night. Owners get into trouble when they treat those as the same problem."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a1b2d04ddf6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64b77d0762fe",
+          "_type": "span",
+          "marks": [],
+          "text": "The Region of Waterloo uses short-duration smart flow-sensor audits on a building water meter, then follows up with inspections of selected units for leaks and inefficiencies ("
+        },
+        {
+          "_key": "3fd14078b5a8",
+          "_type": "span",
+          "marks": [
+            "49ec4cf83836"
+          ],
+          "text": "Region of Waterloo multi-residential properties resource"
+        },
+        {
+          "_key": "cb386e9678ae",
+          "_type": "span",
+          "marks": [],
+          "text": "). That is the right approach. The reading only becomes useful when staff turn it into a baseline, a continuous-flow rule, a night-use alert, or an abnormal-duration trigger."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "49ec4cf83836",
+          "_type": "link",
+          "href": "https://www.regionofwaterloo.ca/programs-and-services/water-and-wastewater/conserving-water/multi-residential-properties/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f605099a8996",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fdd639bcf541",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e0d21f32dc2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2fcb1a7855e",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak detection needs response authority"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4f725a74beb6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d65440403bd",
+          "_type": "span",
+          "marks": [],
+          "text": "A good programme does not just flag flow, it assigns action. Guelph's 2024 leak-detection work identified "
+        },
+        {
+          "_key": "ccf3be0b35e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "38 possible distribution-system leaks"
+        },
+        {
+          "_key": "de1a35664454",
+          "_type": "span",
+          "marks": [],
+          "text": " and reported about "
+        },
+        {
+          "_key": "1c8267ec4a2b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "119.36 cubic metres per day of average servicing capacity reclaimed"
+        },
+        {
+          "_key": "d5bd3128448f",
+          "_type": "span",
+          "marks": [],
+          "text": " after locating and repairing leaks. That is the model owners should insist on, detect, verify, repair, confirm."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0261dca403b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "962037c75379",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "d52532f18b99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "in-line water flow meter"
+        },
+        {
+          "_key": "bf480301c6cf",
+          "_type": "span",
+          "marks": [],
+          "text": " by itself will not stop flood damage. It can show unusual flow, but it cannot identify the failed room, the broken fixture, or who has access to the shutoff. For that, you need point-of-use sensors and a clear response procedure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2d81253261b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cfd95d9a8b4",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak detection is a programme, not a product."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "3879d8229969",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c7dd86ae970",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who want flood protection need to set thresholds, test false alarms, and assign responsibility before the event happens. If no one is on call to shut off the water, the alert is just another notification. The strongest programmes combine total-volume measurement with local sensors and a response chain short enough to matter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ddfd208eb41b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ef5357acc5e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d88184681de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "761484713153",
+          "_type": "span",
+          "marks": [],
+          "text": "Compliance, Maintenance, and a Vendor Selection Checklist"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f0c985bb05f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "001a508f1e43",
+          "_type": "span",
+          "marks": [],
+          "text": "Buying the meter is the easy part. Running a defensible programme for the life of a long contract is harder. Measurement Canada compliance matters because it addresses meter performance, but the invoice still depends on what happens after the reading leaves the device. Canada's Weights and Measures Regulations require volumetric liquid meters to stay within acceptance and in-service error limits across the rated range, and Ontario's Unit Sub-Metering Code expects billing data to go through validating, estimating, and editing before it reaches the tenant."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "042567823a80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc470c5c1330",
+          "_type": "span",
+          "marks": [],
+          "text": "That standard is the one owners should care about. If the meter is accurate but the data chain is sloppy, the bill is still vulnerable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ae44eb1f93d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f4cc2362728",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8235026cf0a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "856ab356fc7c",
+          "_type": "span",
+          "marks": [],
+          "text": "The weekly checklist before you sign"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1b8c19735bac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1170abe26e90",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Match the technology to the water:"
+        },
+        {
+          "_key": "32b7be5fb1c7",
+          "_type": "span",
+          "marks": [],
+          "text": " don't force a meter type onto a line that doesn't suit it."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bee44959ed84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22a1dd39c431",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Demand commissioning proof:"
+        },
+        {
+          "_key": "10f34ea8a0e5",
+          "_type": "span",
+          "marks": [],
+          "text": " require test results at low, normal, and peak flow."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f30f08cb7b3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83109a3aefa1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ask for written VEE procedures:"
+        },
+        {
+          "_key": "4dc69b430eb2",
+          "_type": "span",
+          "marks": [],
+          "text": " the provider should document how validating, estimating, and editing work."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dbf7e23956c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b369c661343c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Separate leak rules from billing rules:"
+        },
+        {
+          "_key": "7ddcbd04292d",
+          "_type": "span",
+          "marks": [],
+          "text": " a leak alert is not the same thing as a tenant invoice."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe9d3fc15eee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e09633e2193b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify approvals in writing:"
+        },
+        {
+          "_key": "2c6f4a72ee87",
+          "_type": "span",
+          "marks": [],
+          "text": " confirm the selected meter and installation satisfy the jurisdiction you're operating in."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3292f32d53da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd5b17989d80",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides full-service utility submetering for water, electricity, gas, and thermal energy, including equipment, installation, commissioning, tenant billing, and ongoing service under long-term agreements. If you're comparing proposals, that's the kind of scope to benchmark, because the contract should cover both the meter and the data governance around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce05304c61dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f94bb19fa8e",
+          "_type": "span",
+          "marks": [],
+          "text": "A long-term agreement should be judged on how it handles disputes, missing reads, and maintenance years after the signature date. If those answers are vague, the proposal isn't ready."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "11bca8fc13a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94e5088eb638",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're evaluating a submetering programme now, ask Axis Meter Solutions to walk you through the full measurement-to-billing chain, not just the hardware list. Visit "
+        },
+        {
+          "_key": "34397b5eb5c8",
+          "_type": "span",
+          "marks": [
+            "725999dae5e9"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "27adabf20f4d",
+          "_type": "span",
+          "marks": [],
+          "text": " and compare your current proposal against a setup built for installation evidence, billing governance, and long-term service."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "725999dae5e9",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Choose the right in-line water flow meter for your building. Compare technologies, selection criteria, installation requirements, and submetering integration.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/e843e34c-6dcd-4fa2-98a5-49630932f3e2/in-line-water-flow-meter-water-meter.jpg",
+  "noIndex": false,
+  "outrankId": "525d33e6-5c8a-4dd1-b2b3-141dc720c43f",
+  "publishedAt": "2026-10-16T07:11:40.490369+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "in-line-water-flow-meter"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A quarterly water bill lands on your desk, the building is full, occupancy hasn&#39;t moved, and yet the number keeps climbing. That&#39;s the moment most owners realise they don&#39;t have a water problem, they have an evidence problem. Without unit-level data, you&#39;re guessing whether the issue is a riser leak, a tenant habit pattern, a common-area load, or a billing method that hides the driver.</p>\n<p>An <strong>in-line water flow meter</strong> is the first piece of evidence that changes that conversation. It gives you a measurement point where the water moves, so you can allocate cost, investigate loss, and defend the bill when someone challenges it. If you&#39;re about to sign a long-term submetering agreement, treat the meter as infrastructure, not an accessory.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-in-line-water-flow-meters-matter-in-multi-family-buildings\">Why In-Line Water Flow Meters Matter in Multi-Family Buildings</a><ul>\n<li><a href=\"#the-business-case-is-not-abstract\">The business case is not abstract</a></li>\n</ul>\n</li>\n<li><a href=\"#what-an-in-line-water-flow-meter-actually-is\">What An In-Line Water Flow Meter Actually Is</a><ul>\n<li><a href=\"#how-it-differs-from-other-meter-styles\">How it differs from other meter styles</a></li>\n</ul>\n</li>\n<li><a href=\"#comparing-the-main-metering-technologies\">Comparing the Main Metering Technologies</a><ul>\n<li><a href=\"#what-owners-should-take-from-that-table\">What owners should take from that table</a></li>\n</ul>\n</li>\n<li><a href=\"#selection-criteria-owners-should-pressure-test\">Selection Criteria Owners Should Pressure-Test</a><ul>\n<li><a href=\"#the-checklist-that-should-go-into-the-rfp\">The checklist that should go into the RFP</a></li>\n<li><a href=\"#dont-buy-a-meter-in-isolation\">Don&#39;t buy a meter in isolation</a></li>\n</ul>\n</li>\n<li><a href=\"#installation-and-commissioning-that-protect-accuracy\">Installation and Commissioning That Protect Accuracy</a><ul>\n<li><a href=\"#install-details-to-require-in-writing\">Install details to require in writing</a></li>\n</ul>\n</li>\n<li><a href=\"#from-volume-measurement-to-leak-and-flood-detection\">From Volume Measurement to Leak and Flood Detection</a><ul>\n<li><a href=\"#leak-detection-needs-response-authority\">Leak detection needs response authority</a></li>\n</ul>\n</li>\n<li><a href=\"#compliance-maintenance-and-a-vendor-selection-checklist\">Compliance, Maintenance, and a Vendor Selection Checklist</a><ul>\n<li><a href=\"#the-weekly-checklist-before-you-sign\">The weekly checklist before you sign</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-in-line-water-flow-meters-matter-in-multi-family-buildings\"></a></p>\n<h2>Why In-Line Water Flow Meters Matter in Multi-Family Buildings</h2>\n<p>A quarterly water bill arrives, the building is full, occupancy has not changed, and the charge still climbs. That is the point where owners usually discover they do not have a water problem, they have an evidence problem. Without unit-level measurement, every explanation is a guess, whether the cause is a riser leak, a common-area load, a tenant habit pattern, or a billing method that hides the underlying driver.</p>\n<p>An <strong>in-line water flow meter</strong> changes that. It gives you a measurement point at the pipe itself, so the conversation shifts from a vague building total to a specific suite, branch, or common load at a specific time and under specific conditions. Canada&#39;s federal survey found residential metering rose from <strong>63.1% of customers in 2006 to 72.1% in 2009</strong>, while commercial metering rose from <strong>80.1% to 86.7%</strong> in the same period, and it also reported residential use at <strong>238 litres per capita per day</strong> on systems using volumetric rates versus <strong>361 litres</strong> on flat rates, a <strong>52% difference</strong> (<a href=\"https://publications.gc.ca/collections/collection_2012/ec/En11-3-2011-eng.pdf\">federal Municipal Water and Wastewater Survey</a>).</p>\n<p><a id=\"the-business-case-is-not-abstract\"></a></p>\n<h3>The business case is not abstract</h3>\n<p>Owners do not buy submetering to win a theory debate. They buy it to recover cost fairly, protect net operating income, and catch abnormal consumption before it turns into a repair bill. The same federal survey found fully metered customers used <strong>229 litres per person per day</strong>, versus <strong>376 litres</strong> where no customers were metered, which is roughly <strong>65% higher without metering</strong> (<a href=\"https://publications.gc.ca/collections/collection_2012/ec/En11-3-2011-eng.pdf\">the same federal Municipal Water and Wastewater Survey findings on fully metered customers</a>).</p>\n<p>A meter also gives the billing chain structure. The reading has to be tied to the right unit or load, the installation has to be documented, and the data has to be handled with clear rules for missing reads, estimates, exception flags, and edits. That is the difference between a number you can use internally and a bill you can defend when a tenant challenges it.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> if a water bill cannot be tied back to a suite, branch, or defined common load, the owner carries the risk and the tenant carries the incentive gap.</p>\n</blockquote>\n<p>For a useful overview of how owners structure that programme, see <a href=\"https://www.axismeter.com/blog/submetering-water-apartments\">Axis Meter Solutions&#39; apartment submetering overview</a>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d2ac2cc4-3a69-494b-a6d1-6b907e38c275/in-line-water-flow-meter-water-management.jpg\" alt=\"A professional looking at a quarterly water bill while questioning unit-level consumption and potential leaks in buildings.\"></p>\n<p>The owner who waits for a leak claim before acting has already lost the advantage. A meter will not fix bad plumbing, but it gives you the proof to separate tenant demand from building waste and make the repair decision on facts, not suspicion.</p>\n<p><a id=\"what-an-in-line-water-flow-meter-actually-is\"></a></p>\n<h2>What An In-Line Water Flow Meter Actually Is</h2>\n<p>An <strong>in-line water flow meter</strong> sits directly in the pipe, so every drop passing through that section goes through the measuring element. In a suite feed, a branch, or the main service entry, it becomes part of the water path rather than a device reading across it. That&#39;s what makes it different from a temporary test instrument or a gadget bolted on after the fact.</p>\n<p>The physical location matters. If the billing model is per suite, the meter belongs where suite demand passes cleanly through one pipe. If you&#39;re separating a common branch from tenant usage, the meter belongs at the point where those loads divide. If you&#39;re watching a main service, it belongs where the whole building load can be measured without ambiguity.</p>\n<p><a id=\"how-it-differs-from-other-meter-styles\"></a></p>\n<h3>How it differs from other meter styles</h3>\n<p>Clamp-on ultrasonic meters and insertion meters can be useful in the right job, but they don&#39;t mean the same thing operationally. Clamp-on devices read through the pipe wall, which is handy for temporary checks and some retrofit situations, while insertion meters tap into the flow stream without fully replacing the pipe section. An in-line meter is more intrusive, but that&#39;s the trade-off you accept when you want a permanent measurement point that can support billing.</p>\n<p>The value of the device doesn&#39;t stop at the sensor. Once the measurement exists, the provider still has to decide how missing reads, estimates, exception flags, and edits are handled before that number reaches a tenant invoice. For a plain-language explainer on liquid flow measurement concepts, the most useful companion reading is <a href=\"https://www.axismeter.com/blog/flow-meter-liquid\">Axis Meter Solutions&#39; flow meter guide</a>.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6a6b6a21-cc1d-46ee-91f2-533fe653295a/in-line-water-flow-meter-diagram.jpg\" alt=\"An illustration explaining how an in-line water flow meter works to measure water usage in pipes.\"></p>\n<blockquote>\n<p>Put simply, the pipe decides where the meter lives, and the billing model decides why it&#39;s there.</p>\n</blockquote>\n<p>If you&#39;re buying one for a long-term programme, don&#39;t ask only what it measures. Ask where it lives in the piping, what part of the load it isolates, and who owns the data rules after installation. That&#39;s the difference between a device and a billing system.</p>\n<p><a id=\"comparing-the-main-metering-technologies\"></a></p>\n<h2>Comparing the Main Metering Technologies</h2>\n<p>There isn&#39;t one universal winner here. The right choice depends on water quality, space, maintenance access, and how much billing risk you&#39;re willing to carry if a device drifts, clogs, or under-reads at the bottom of its range. You need a shortlist, not a slogan.</p>\n<p>Mechanical meters are the familiar workhorses. They usually have moving parts, which keeps the entry price down, but those parts wear and debris can become a problem. Electromagnetic meters are a strong option on conductive potable water because they avoid obstruction in the flow path, but they need power and are not a casual choice for every line. Ultrasonic meters bring a clean-measurement profile and avoid pressure loss, but they&#39;re sensitive to installation conditions and trapped air. Turbine and piston styles still have a role on larger or cleaner service lines where the operating conditions match the meter&#39;s design.</p>\n<p>For a deeper technical description of non-mechanical options, <a href=\"https://www.axismeter.com/blog/ultrasonic-flow-meters\">Axis Meter Solutions&#39; ultrasonic flow meter overview</a> is a useful companion.</p>\n<table>\n<thead>\n<tr>\n<th>Technology</th>\n<th>Typical Accuracy</th>\n<th>Pressure Drop</th>\n<th>Best Fit</th>\n<th>Key Limitation</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Mechanical</td>\n<td>Varies by model and condition</td>\n<td>Usually present to some degree</td>\n<td>Straightforward retrofits and simpler billing jobs</td>\n<td>Moving parts wear over time</td>\n</tr>\n<tr>\n<td>Electromagnetic</td>\n<td>Strong on conductive potable water</td>\n<td>Very low</td>\n<td>Clean water where power and electronics are acceptable</td>\n<td>Needs conductive liquid and electrical supply</td>\n</tr>\n<tr>\n<td>Ultrasonic</td>\n<td>Strong when installed correctly</td>\n<td>Very low</td>\n<td>Projects that value low obstruction and good reading quality</td>\n<td>Sensitive to air, straight run, and installation quality</td>\n</tr>\n<tr>\n<td>Turbine or piston</td>\n<td>Good for the right service line</td>\n<td>Depends on design</td>\n<td>Larger commercial lines with suitable water conditions</td>\n<td>More dependent on cleanliness and flow profile</td>\n</tr>\n</tbody></table>\n<p><a id=\"what-owners-should-take-from-that-table\"></a></p>\n<h3>What owners should take from that table</h3>\n<p>Don&#39;t let a vendor push you into one technology because it sounds modern. The right question is whether the meter fits the line you have, the room you have, and the billing consequence you&#39;re carrying. If the water is clean and the installation is stable, electronic options can be attractive. If the site is rough, cramped, or dirty, simplicity often wins.</p>\n<blockquote>\n<p><strong>Owner rule:</strong> choose the meter that survives your mechanical room, not the one that wins a brochure comparison.</p>\n</blockquote>\n<p>The technology matters, but it&#39;s only one part of the purchase. If the installation is bad or the data chain is weak, a premium meter can still produce a weak bill.</p>\n<p><a id=\"selection-criteria-owners-should-pressure-test\"></a></p>\n<h2>Selection Criteria Owners Should Pressure-Test</h2>\n<p>Start with the reading range, not the sales pitch. A meter that looks good at nominal flow but behaves badly at low demand will shift cost around the building. That matters because Canadian domestic water use varies sharply by region, with Statistics Canada reporting roughly <strong>300 litres per person per day</strong> across urban areas in 2004, provincial values ranging from <strong>219 litres in Manitoba to 501 litres in Newfoundland and Labrador</strong>, and an estimated move from low metering to some metering associated with a reduction of roughly <strong>70 litres per person per day</strong> (<a href=\"https://publications.gc.ca/collections/Collection/En1-19-2001-1E.pdf\">Statistics Canada analysis</a>).</p>\n<p>That variation is exactly why owners should ask for evidence across the full operating range. A low-flow under-registering meter doesn&#39;t create a dramatic alarm. It just accumulates billing error in the owner&#39;s favour or the tenant&#39;s favour, depending on how the system is set up.</p>\n<p><a id=\"the-checklist-that-should-go-into-the-rfp\"></a></p>\n<h3>The checklist that should go into the RFP</h3>\n<ul>\n<li><strong>Accuracy across the range:</strong> require the vendor to state how the meter performs at low, normal, and peak flow, not just at one comfortable test point.</li>\n<li><strong>Pipe size and available space:</strong> confirm the meter body fits the actual mechanical room layout and the service size you&#39;re dealing with.</li>\n<li><strong>Pressure drop and service impact:</strong> ask how the device affects the line when demand peaks.</li>\n<li><strong>Approvals for potable use:</strong> for Canadian work, verify the selected model and installation satisfy the applicable utility and code requirements, and for California projects, the CPUC expects customer water meters to meet the applicable <strong>AWWA M6</strong> standard or successor before service (<a href=\"https://docs.cpuc.ca.gov/published/FINAL_DECISION/106867-03.htm\">California Public Utilities Commission decision</a>).</li>\n<li><strong>Lifecycle cost:</strong> ask who pays for batteries, recalibration, replacements, and end-of-term swap-out.</li>\n</ul>\n<p><a id=\"dont-buy-a-meter-in-isolation\"></a></p>\n<h3>Don&#39;t buy a meter in isolation</h3>\n<p>A vendor can sell a good meter and still give you a weak programme if the communications layer, estimate rules, and exception handling are sloppy. That&#39;s why the selection process has to include billing logic, not just hardware. If the building relies on BMS, AMR, or AMI integrations, insist on seeing the exact data path and who validates failed reads.</p>\n<p>The California utility guidance is useful here because it points to the right habit, test the meter across the operating range, not just on the nameplate. The same logic belongs in Canadian submetering even where local approvals differ.</p>\n<p><a id=\"installation-and-commissioning-that-protect-accuracy\"></a></p>\n<h2>Installation and Commissioning That Protect Accuracy</h2>\n<p>A meter can look fine on paper and still send bad numbers to the billing system if the pipework is sloppy. Peterborough Utilities Commission requires meters larger than <strong>25 mm</strong> to have at least <strong>five pipe diameters of straight run upstream and two diameters downstream</strong>, and the meter must be independently supported so its removal does not compromise the service piping (<a href=\"https://www.peterborough.ca/media/g2ddxhg2/puc-water-subdivision-development-requirements-2024-final.pdf\">Peterborough Utilities requirements</a>).</p>\n<p>That straight run is not a nice-to-have. Elbows, valves, reducers, and tees disturb the flow profile, and the meter then reads a condition that does not match the line. The result shows up where owners get challenged most, at low flow and near the upper edge of the meter&#39;s range. If you want a bill that can survive a tenant dispute, the installation record matters as much as the meter itself.</p>\n<p><a id=\"install-details-to-require-in-writing\"></a></p>\n<h3>Install details to require in writing</h3>\n<p>Keep the installation conditions explicit. Meter placement, support, and access should be written into the job, not left to installer judgment. In the same Peterborough document, the meter must be installed horizontally, with the register accessible, in a clean, dry, heated location, and with shutoff valves and service clearance.</p>\n<ul>\n<li><strong>Confirm support:</strong> the pipe carries the load, not the meter body.</li>\n<li><strong>Check orientation:</strong> horizontal placement and an accessible register make service work possible.</li>\n<li><strong>Protect the line:</strong> isolation valves and freeze protection belong in the install scope.</li>\n<li><strong>Verify materials:</strong> local plumbing and code requirements still govern the job.</li>\n</ul>\n<blockquote>\n<p>If the installer waves off straight-run and support requirements, stop the work.</p>\n</blockquote>\n<p>Commissioning should be documented with the same discipline. Record the serial number, exact location, measured error at low, normal, and peak flow, and the final communication address or pulse output setting. Keep the test certificate with the project file. That file is what you use when the bill is challenged months later.</p>\n<p>The same approach applies around penetrations and repairs near the service work. If your crew needs a practical reference for sealing and patching details, this guide on how to <a href=\"https://homeprobadge.com/blog/cement-crack-filler\">apply cement crack filler correctly</a> is a useful field reminder.</p>\n<p>The cheapest accuracy gain is still a proper installation. A clean commissioning record usually carries more weight in a dispute than a sales sheet full of claims.</p>\n<p><a id=\"from-volume-measurement-to-leak-and-flood-detection\"></a></p>\n<h2>From Volume Measurement to Leak and Flood Detection</h2>\n<p>A meter only tells you how much water moved. It does not tell you whether one suite has a failing line, or whether a toilet has been running all night. Owners get into trouble when they treat those as the same problem.</p>\n<p>The Region of Waterloo uses short-duration smart flow-sensor audits on a building water meter, then follows up with inspections of selected units for leaks and inefficiencies (<a href=\"https://www.regionofwaterloo.ca/programs-and-services/water-and-wastewater/conserving-water/multi-residential-properties/\">Region of Waterloo multi-residential properties resource</a>). That is the right approach. The reading only becomes useful when staff turn it into a baseline, a continuous-flow rule, a night-use alert, or an abnormal-duration trigger.</p>\n<p><a id=\"leak-detection-needs-response-authority\"></a></p>\n<h3>Leak detection needs response authority</h3>\n<p>A good programme does not just flag flow, it assigns action. Guelph&#39;s 2024 leak-detection work identified <strong>38 possible distribution-system leaks</strong> and reported about <strong>119.36 cubic metres per day of average servicing capacity reclaimed</strong> after locating and repairing leaks. That is the model owners should insist on, detect, verify, repair, confirm.</p>\n<p>An <strong>in-line water flow meter</strong> by itself will not stop flood damage. It can show unusual flow, but it cannot identify the failed room, the broken fixture, or who has access to the shutoff. For that, you need point-of-use sensors and a clear response procedure.</p>\n<blockquote>\n<p>Leak detection is a programme, not a product.</p>\n</blockquote>\n<p>Owners who want flood protection need to set thresholds, test false alarms, and assign responsibility before the event happens. If no one is on call to shut off the water, the alert is just another notification. The strongest programmes combine total-volume measurement with local sensors and a response chain short enough to matter.</p>\n<p><a id=\"compliance-maintenance-and-a-vendor-selection-checklist\"></a></p>\n<h2>Compliance, Maintenance, and a Vendor Selection Checklist</h2>\n<p>Buying the meter is the easy part. Running a defensible programme for the life of a long contract is harder. Measurement Canada compliance matters because it addresses meter performance, but the invoice still depends on what happens after the reading leaves the device. Canada&#39;s Weights and Measures Regulations require volumetric liquid meters to stay within acceptance and in-service error limits across the rated range, and Ontario&#39;s Unit Sub-Metering Code expects billing data to go through validating, estimating, and editing before it reaches the tenant.</p>\n<p>That standard is the one owners should care about. If the meter is accurate but the data chain is sloppy, the bill is still vulnerable.</p>\n<p><a id=\"the-weekly-checklist-before-you-sign\"></a></p>\n<h3>The weekly checklist before you sign</h3>\n<ul>\n<li><strong>Match the technology to the water:</strong> don&#39;t force a meter type onto a line that doesn&#39;t suit it.</li>\n<li><strong>Demand commissioning proof:</strong> require test results at low, normal, and peak flow.</li>\n<li><strong>Ask for written VEE procedures:</strong> the provider should document how validating, estimating, and editing work.</li>\n<li><strong>Separate leak rules from billing rules:</strong> a leak alert is not the same thing as a tenant invoice.</li>\n<li><strong>Verify approvals in writing:</strong> confirm the selected meter and installation satisfy the jurisdiction you&#39;re operating in.</li>\n</ul>\n<p>Axis Meter Solutions provides full-service utility submetering for water, electricity, gas, and thermal energy, including equipment, installation, commissioning, tenant billing, and ongoing service under long-term agreements. If you&#39;re comparing proposals, that&#39;s the kind of scope to benchmark, because the contract should cover both the meter and the data governance around it.</p>\n<p>A long-term agreement should be judged on how it handles disputes, missing reads, and maintenance years after the signature date. If those answers are vague, the proposal isn&#39;t ready.</p>\n<hr>\n<p>If you&#39;re evaluating a submetering programme now, ask Axis Meter Solutions to walk you through the full measurement-to-billing chain, not just the hardware list. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> and compare your current proposal against a setup built for installation evidence, billing governance, and long-term service.</p>",
+  "tags": [
+    "in-line water flow meter",
+    "water submetering",
+    "multi-family metering",
+    "flow meter technology",
+    "property utility management"
+  ],
+  "title": "In-Line Water Flow Meter Guide for Property Owners",
+  "updatedAt": "2026-10-16T07:11:44.321Z"
+}
