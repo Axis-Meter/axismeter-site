@@ -1,0 +1,2949 @@
+{
+  "_createdAt": "2026-10-18T10:11:12Z",
+  "_id": "outrank-309781c7-baef-4104-9ecb-e3b4f4bd4b5a",
+  "_rev": "IBPwZvUPO6KEP1Jc8oJnTD",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-18T10:11:12Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "64bc9826e1b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30cb7ed3127d",
+          "_type": "span",
+          "marks": [],
+          "text": "It's 2 a.m., a leak sensor has tripped in a utility room, and your building system has just told a valve to close. That moment is when you find out whether somebody specified a "
+        },
+        {
+          "_key": "7bbb462e5100",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ball valve with actuator"
+        },
+        {
+          "_key": "710ba6fab783",
+          "_type": "span",
+          "marks": [],
+          "text": " for the actual building, or just matched a pipe size in a catalogue. The difference matters in Canadian towers, student residences, and mixed-use properties where a stalled actuator, the wrong fail position, or missing feedback can turn a containable leak into a flooded floor and a service outage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cbc4486adeb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41f0fab4f070",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "6610d9d9dcc5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6a0174aa91d",
+          "_type": "span",
+          "marks": [
+            "48005df6ddc0"
+          ],
+          "text": "Why an Actuated Ball Valve Is a Decision, Not Just a Component"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "48005df6ddc0",
+          "_type": "link",
+          "href": "#why-an-actuated-ball-valve-is-a-decision-not-just-a-component"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3beaea95e987",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60f6e6f2f4db",
+          "_type": "span",
+          "marks": [
+            "6e5654430b93"
+          ],
+          "text": "Start With Consequence, Not Catalogue Size"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6e5654430b93",
+          "_type": "link",
+          "href": "#start-with-consequence-not-catalogue-size"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c60a612a23e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b35b1fff2dc8",
+          "_type": "span",
+          "marks": [
+            "4456fa11268e"
+          ],
+          "text": "What a Ball Valve With Actuator Actually Does"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4456fa11268e",
+          "_type": "link",
+          "href": "#what-a-ball-valve-with-actuator-actually-does"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "012e5c2e24ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad9dcaf33d41",
+          "_type": "span",
+          "marks": [
+            "54d923b455d0"
+          ],
+          "text": "Isolation Is Not the Same Job as Modulation"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "54d923b455d0",
+          "_type": "link",
+          "href": "#isolation-is-not-the-same-job-as-modulation"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0532ab4a31d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70003c461205",
+          "_type": "span",
+          "marks": [
+            "afeddda35f87"
+          ],
+          "text": "Electric vs Pneumatic Actuators in Real Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "afeddda35f87",
+          "_type": "link",
+          "href": "#electric-vs-pneumatic-actuators-in-real-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4a00afbca10f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "525f5e90a747",
+          "_type": "span",
+          "marks": [
+            "6f95305330de"
+          ],
+          "text": "Sizing by Torque and Service, Not Just Pipe Diameter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "6f95305330de",
+          "_type": "link",
+          "href": "#sizing-by-torque-and-service-not-just-pipe-diameter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e628ab8f6202",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77459d8db2ba",
+          "_type": "span",
+          "marks": [
+            "b9a419c5c455"
+          ],
+          "text": "The Inputs That Actually Determine Actuator Output"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b9a419c5c455",
+          "_type": "link",
+          "href": "#the-inputs-that-actually-determine-actuator-output"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ea544b3ecea0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d50164ce3c4b",
+          "_type": "span",
+          "marks": [
+            "176f8d013826"
+          ],
+          "text": "Selection Criteria That Survive a Canadian Winter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "176f8d013826",
+          "_type": "link",
+          "href": "#selection-criteria-that-survive-a-canadian-winter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac411fd89582",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c35d5024f71",
+          "_type": "span",
+          "marks": [
+            "8da3b066b36d"
+          ],
+          "text": "A Procurement Checklist With Operational Reasons"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8da3b066b36d",
+          "_type": "link",
+          "href": "#a-procurement-checklist-with-operational-reasons"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e7b978efdd34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a200cd498e5",
+          "_type": "span",
+          "marks": [
+            "ee4a751ed09f"
+          ],
+          "text": "Installation, Commissioning, and Compliance Basics"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ee4a751ed09f",
+          "_type": "link",
+          "href": "#installation-commissioning-and-compliance-basics"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "31dbbd045581",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0ebaf0b53e87",
+          "_type": "span",
+          "marks": [
+            "300738086510"
+          ],
+          "text": "Verify the Complete Assembly, Not Separate Claims"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "300738086510",
+          "_type": "link",
+          "href": "#verify-the-complete-assembly-not-separate-claims"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0d3aac69c5b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7665d16b4741",
+          "_type": "span",
+          "marks": [
+            "b592bc841220"
+          ],
+          "text": "Wiring the Valve Into BMS, Leak Detection, and Submetering"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b592bc841220",
+          "_type": "link",
+          "href": "#wiring-the-valve-into-bms-leak-detection-and-submetering"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "68b34fd74833",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ff6d1439593",
+          "_type": "span",
+          "marks": [
+            "20e3eddfa6f1"
+          ],
+          "text": "Where Metering Changes the Valve Decision"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "20e3eddfa6f1",
+          "_type": "link",
+          "href": "#where-metering-changes-the-valve-decision"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7e13a154a594",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4bfa97f7a8b1",
+          "_type": "span",
+          "marks": [
+            "f371350ae88c"
+          ],
+          "text": "Operator Handover, Cycling, and Long-Term Reliability"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f371350ae88c",
+          "_type": "link",
+          "href": "#operator-handover-cycling-and-long-term-reliability"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2fecad37f33a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53153183cb0b",
+          "_type": "span",
+          "marks": [
+            "1a2619b814e8"
+          ],
+          "text": "What the Register Should Let Staff Answer Quickly"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1a2619b814e8",
+          "_type": "link",
+          "href": "#what-the-register-should-let-staff-answer-quickly"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0f45f488a13c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f16d9026c78e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "10a4b3300dd5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c539ae30944",
+          "_type": "span",
+          "marks": [],
+          "text": "Why an Actuated Ball Valve Is a Decision, Not Just a Component"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "097c7cf62481",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b459ceed60a7",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager gets the alarm first. Security confirms water on the floor, maintenance is driving in, and the building management system shows a close command sent to the isolation valve. If the actuator stalls, the command means nothing. Staff are now hunting for a manual valve, possibly behind finished walls, while water keeps moving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "db527048f9a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9cb9e1d5521f",
+          "_type": "span",
+          "marks": [],
+          "text": "I've seen the opposite failure too. A valve closes on power loss because nobody questioned its fail position, and an occupied building loses domestic water during an outage that had nothing to do with plumbing. Both outcomes come from the same mistake. The team bought a component instead of deciding what the building needed when conditions went wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2bcaa7b3b549",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "247620dbb19d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b216accc1873",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95e23789a251",
+          "_type": "span",
+          "marks": [],
+          "text": "Start With Consequence, Not Catalogue Size"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "981c7c8d2f49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c28a27999f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask what happens if this valve doesn't move. A flood-isolation valve that stays open can allow damage to spread. A suite or riser valve that closes unnecessarily can interrupt service and generate complaints, access problems, and emergency calls. A heating valve that fails in the wrong state can create overheating or freeze risk elsewhere in the system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7d9520a03b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e1485cdff4f",
+          "_type": "span",
+          "marks": [],
+          "text": "That consequence should drive "
+        },
+        {
+          "_key": "4403e96f5a4e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "normal position"
+        },
+        {
+          "_key": "37c343d17dc4",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "aa6d028cfc53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "fail position"
+        },
+        {
+          "_key": "c643c5d64bdb",
+          "_type": "span",
+          "marks": [],
+          "text": ", torque margin, manual override, and feedback. Pipe diameter only tells you what connects. It doesn't tell you whether the actuator can break the ball free after months sitting open, whether staff can operate it without power, or whether the BMS can prove it reached the commanded position."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "924e619a38f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d92613908fa1",
+          "_type": "span",
+          "marks": [],
+          "text": "A valve that has only been proven on a submittal hasn't been proven in your building."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "9bd1b543e908",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfa73c6ca1d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Scale isn't the issue either. Canada's metal-valve manufacturing industry recorded "
+        },
+        {
+          "_key": "947fed9650f5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "approximately $1.2 billion in shipments"
+        },
+        {
+          "_key": "49991eab3766",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "6760829aad48",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$569.6 million in value added"
+        },
+        {
+          "_key": "267f16651527",
+          "_type": "span",
+          "marks": [],
+          "text": " in 2023, according to "
+        },
+        {
+          "_key": "b75772a2b2fe",
+          "_type": "span",
+          "marks": [
+            "6e3028b3c2ca"
+          ],
+          "text": "Government of Canada industry statistics for metal valve manufacturing"
+        },
+        {
+          "_key": "acbfc9273099",
+          "_type": "span",
+          "marks": [],
+          "text": ". Good hardware is available. Failures usually start when selection ignores service, winter conditions, and the control sequence."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "6e3028b3c2ca",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/app/ixb/cis/summary-sommaire/33291"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6d33c92f9425",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a4306772f4b",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat the purchase as a risk decision. Define when it must close, when it must stay open, who intervenes if power is lost, and what evidence confirms movement. Everything else follows from those answers."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8357c1495e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83b8e93f3f26",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9510190a88d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc87c1451108",
+          "_type": "span",
+          "marks": [],
+          "text": "What a Ball Valve With Actuator Actually Does"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "367fdca028d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98a1eac30e09",
+          "_type": "span",
+          "marks": [],
+          "text": "The simplest way to explain the assembly is this. The "
+        },
+        {
+          "_key": "09c6d1cfdac4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "valve body is the muscle"
+        },
+        {
+          "_key": "e896dbb463b1",
+          "_type": "span",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_key": "33412f219f91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "actuator is the nerve"
+        },
+        {
+          "_key": "75f70cd0afbb",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the BMS or local controller is the brain. Inside the body, a drilled ball sits between seats. Rotate the ball so the bore aligns with the pipe and flow passes. Rotate it a quarter turn and the solid side blocks the path."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "21856ea84be9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b57786530835",
+          "_type": "span",
+          "marks": [],
+          "text": "The actuator performs that quarter-turn movement when it receives a signal. An electric version uses a motor and gearing. A pneumatic version uses compressed air. Either way, the control system isn't moving water directly. It's commanding mechanical rotation, and the valve either delivers enough torque to complete it or it doesn't."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7b4b1bcf06c",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating the working principle of a ball valve with an integrated electric actuator device.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/23a68d37-22af-4cd3-b6c4-a6cbfd027eb5/ball-valve-with-actuator-valve-mechanics.jpg"
+    },
+    {
+      "_key": "a3ad4a906c57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "afc42bdbb124",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5e94aeb9444c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "556d203619ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Isolation Is Not the Same Job as Modulation"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9b924fc2d4f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ddc63185dfac",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "ac45f06bcfbd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "isolation valve"
+        },
+        {
+          "_key": "80705c54d63f",
+          "_type": "span",
+          "marks": [],
+          "text": " is expected to be fully open or fully closed. A "
+        },
+        {
+          "_key": "54419c3da6ee",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "modulating valve"
+        },
+        {
+          "_key": "c0f97087427c",
+          "_type": "span",
+          "marks": [],
+          "text": " is positioned between those ends to regulate flow. Confusing those jobs produces poor control and unnecessary seat wear, especially if a standard on/off ball is asked to throttle continuously."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc6f45bfe311",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06ad6bf27327",
+          "_type": "span",
+          "marks": [],
+          "text": "Application"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0f4d717a9ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "299a01c7ad45",
+          "_type": "span",
+          "marks": [],
+          "text": "Control Intent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b2d59b7a559",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59392e73b87a",
+          "_type": "span",
+          "marks": [],
+          "text": "Valve Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cbde69c36a98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5893b880f870",
+          "_type": "span",
+          "marks": [],
+          "text": "Actuator Behaviour"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e2b219732f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5803397aa2f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Leak or riser shutoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8b5ed4c0caa6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f7b07498350",
+          "_type": "span",
+          "marks": [],
+          "text": "Stop flow completely"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "794c1c1456a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6b088afbac3",
+          "_type": "span",
+          "marks": [],
+          "text": "Full-port isolation ball valve"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc9a17eb1b50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2860f1495042",
+          "_type": "span",
+          "marks": [],
+          "text": "Drives fully closed and reports end position"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c852359c3a75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "66b82648c760",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23a3382d668d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c032320e8f7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Isolate equipment for service"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d62dff38414",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e313552cb31f",
+          "_type": "span",
+          "marks": [],
+          "text": "Full-port isolation ball valve"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52d8baba6edd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f31a98a3c1d",
+          "_type": "span",
+          "marks": [],
+          "text": "Opens or closes on local or remote command"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f6b761e3749",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28756c9716d3",
+          "_type": "span",
+          "marks": [],
+          "text": "Coil flow regulation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3eeea0b8b4fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef09c2adec1a",
+          "_type": "span",
+          "marks": [],
+          "text": "Vary heating or cooling output"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac8f8aaf743f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "253b44955b02",
+          "_type": "span",
+          "marks": [],
+          "text": "Properly characterised control valve"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c16bf6b0f4d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e47514914379",
+          "_type": "span",
+          "marks": [],
+          "text": "Moves to intermediate positions from an analogue signal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a98a8a7bce8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e02150b12fe5",
+          "_type": "span",
+          "marks": [],
+          "text": "Heat exchanger protection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8eb47ca0c60b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "287076a7ad29",
+          "_type": "span",
+          "marks": [],
+          "text": "Limit unsafe heating on failure"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2db64330be35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bbfd1ce85b3e",
+          "_type": "span",
+          "marks": [],
+          "text": "Control valve selected for the sequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "139dd2467f57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "508568ec94db",
+          "_type": "span",
+          "marks": [],
+          "text": "Returns to its specified fail position"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e5c09efc6ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b8e1dcd07b7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Feedback matters because a command isn't proof. End switches or position feedback tell the BMS whether the valve reached open, closed, or an intermediate position. Without that confirmation, operators are trusting a graphic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "071dfc75627c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e8f4e4b06b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Normally open and normally closed describe the unpowered or normal state defined for the application, not a universal quality ranking. For background on the broader shutoff role in plumbing systems, this "
+        },
+        {
+          "_key": "0bc9c439e176",
+          "_type": "span",
+          "marks": [
+            "7da6c774aa4f"
+          ],
+          "text": "shut off valve guide"
+        },
+        {
+          "_key": "dd2bd4e9d098",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful context. On a project submittal, look for service, signal, fail action, and feedback before you look at the photograph."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7da6c774aa4f",
+          "_type": "link",
+          "href": "https://ringhotwater.com.au/2026/03/18/shut-off-valve/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5a1fef04ebd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "690901d6abe6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6cde6f4e84f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d14a2a836416",
+          "_type": "span",
+          "marks": [],
+          "text": "Electric vs Pneumatic Actuators in Real Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "166de0f3af37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2b1a29784b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Most occupied Canadian buildings lean electric because power and controls wiring are already present, operation is quiet, and there's no instrument-air system to maintain. That doesn't make pneumatic actuation obsolete. In a larger plant with reliable compressed air, pneumatic actuators can move quickly and handle frequent cycling well. The right choice depends on infrastructure you already own and are prepared to maintain."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b43b84b09a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b65ba33eabb",
+          "_type": "span",
+          "marks": [],
+          "text": "The comparison below gives the practical trade-offs before we get into building fit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d83108fa93d1",
+      "_type": "externalImage",
+      "alt": "A comparison chart outlining the key differences between electric and pneumatic actuators, including power, speed, cost, and maintenance.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/49f5f0ea-9701-41f6-837e-2c5ebe9802a8/ball-valve-with-actuator-actuator-comparison.jpg"
+    },
+    {
+      "_key": "773415f90520",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1fb1f2cd4aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Electric actuators simplify integration with relays, leak panels, submetering controls, and BMS outputs. Their weaknesses show up when the specified fail action needs stored energy, when duty is too frequent for the motor, or when power quality and enclosure protection were treated casually. Pneumatic actuators avoid some electrical concerns at the valve, but they move the burden upstream to compressors, dryers, filters, tubing, and air quality."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ad77e996403",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f868759ee596",
+          "_type": "span",
+          "marks": [],
+          "text": "Criterion"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c3dbcc799ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc6edf3323fd",
+          "_type": "span",
+          "marks": [],
+          "text": "Electric Actuator"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b55b74149d0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f601b3698e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Pneumatic Actuator"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02c8475786d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35ba512e85a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Power source"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4d8cf62dc3ec",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "404320f51d35",
+          "_type": "span",
+          "marks": [],
+          "text": "Building electrical supply and control wiring"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "303d954e8cef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2bd683559bf",
+          "_type": "span",
+          "marks": [],
+          "text": "Compressed air plus an electrical pilot signal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f02e9e74527d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c02457dfa253",
+          "_type": "span",
+          "marks": [],
+          "text": "Speed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "736fe1530153",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b728bb4ad06",
+          "_type": "span",
+          "marks": [],
+          "text": "Generally slower and controlled"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a33eba6060bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ba17d9f0da0",
+          "_type": "span",
+          "marks": [],
+          "text": "Generally faster"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b8e514001f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b32b499271e",
+          "_type": "span",
+          "marks": [],
+          "text": "Control precision"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f529cf7fafc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2dfbc922b8f",
+          "_type": "span",
+          "marks": [],
+          "text": "Well suited to analogue positioning"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6e0b3029d61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "70b1d9a763a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Modulation needs suitable positioning equipment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "664797d4a491",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e220ef4634f",
+          "_type": "span",
+          "marks": [],
+          "text": "Fail position"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b0d96980e422",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c4de28f03d27",
+          "_type": "span",
+          "marks": [],
+          "text": "Needs spring, battery, or another defined method"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc7ba8ecf3f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ec73485dd3b",
+          "_type": "span",
+          "marks": [],
+          "text": "Spring-return designs are common, double-acting types can fail in place"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41a9a767c8b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "994faff271ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1934728b83f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebf076cbd621",
+          "_type": "span",
+          "marks": [],
+          "text": "Motor, gearing, switches, wiring"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7075a03e78ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6af5abd903e",
+          "_type": "span",
+          "marks": [],
+          "text": "Air preparation, seals, tubing, pilot valves"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70ad5259b6c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a07593d23f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Occupied-building fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70955282e64b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee5e61e2333c",
+          "_type": "span",
+          "marks": [],
+          "text": "Quiet and familiar to controls trades"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35b3135b73da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85a65a2c106d",
+          "_type": "span",
+          "marks": [],
+          "text": "Better where plant air already exists"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ec1794ba8b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b5fed0f1547d",
+          "_type": "span",
+          "marks": [],
+          "text": "A short demonstration helps non-technical stakeholders see why actuator travel time and feedback shouldn't be assumed from a product photo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3434e012854b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "594c00d19e2c",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't choose pneumatic equipment just because the actuator itself looks simpler. If the building has no dependable air supply, you've bought another system to commission and maintain. Don't choose electric equipment just because wiring looks easy either. Confirm available power, control signal, duty expectations, manual operation, and what happens when that power disappears."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5209310ab9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3881f578b8e",
+          "_type": "span",
+          "marks": [],
+          "text": "For suites, small mechanical rooms, leak response, and most hydronic controls, electric actuation is usually the cleaner fit. For industrial rooms with established air infrastructure and a need for rapid movement, pneumatic equipment deserves consideration. Either family fails when it's selected without the site around it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aaf9c80c27ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00aafc00e7cf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9169537b2f26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bdd3a4ac032",
+          "_type": "span",
+          "marks": [],
+          "text": "Sizing by Torque and Service, Not Just Pipe Diameter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "031bbd7effbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c969ee880bc",
+          "_type": "span",
+          "marks": [],
+          "text": "A quote that lists only nominal size and voltage hasn't sized anything. The actuator has to overcome "
+        },
+        {
+          "_key": "50dac5b24d84",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "breakaway torque"
+        },
+        {
+          "_key": "c43306d9dbeb",
+          "_type": "span",
+          "marks": [],
+          "text": " after the ball has been sitting against its seats, then keep moving through running torque and seat the ball again at the end of travel. Differential pressure, temperature, media, deposits, and time since the last cycle all change that requirement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3dc8d18db922",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca5ad19d7183",
+          "_type": "span",
+          "marks": [],
+          "text": "Catalogue optimism gets expensive. A valve may stroke freely on a bench with no pressure and clean water. Installed across a pressurised riser, or in a hydronic loop carrying glycol, it can demand materially more force. Published control-valve applications include solutions of "
+        },
+        {
+          "_key": "cc164d29990e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "up to 50% glycol"
+        },
+        {
+          "_key": "0c754bdb110a",
+          "_type": "span",
+          "marks": [],
+          "text": " alongside hot and chilled water, as described in "
+        },
+        {
+          "_key": "e978ebae33f3",
+          "_type": "span",
+          "marks": [
+            "eff01abb6743"
+          ],
+          "text": "technical guidance on electric ball valve selection and torque"
+        },
+        {
+          "_key": "883c2b6cff4d",
+          "_type": "span",
+          "marks": [],
+          "text": ". That service detail belongs in the torque calculation, not in a footnote."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "eff01abb6743",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electric-ball-valve"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5e421e52e33d",
+      "_type": "externalImage",
+      "alt": "A technician using a digital torque wrench to tighten a valve on an industrial pipeline setup.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/49af558f-64a4-4cbd-8559-fc1d8415a2f0/ball-valve-with-actuator-torque-wrench.jpg"
+    },
+    {
+      "_key": "10c2f9c38b4f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3f05d2f0a12",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "96bf082b0a24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "389a8773da41",
+          "_type": "span",
+          "marks": [],
+          "text": "The Inputs That Actually Determine Actuator Output"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4d10b316af7a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6bc615ad0187",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Breakaway torque:"
+        },
+        {
+          "_key": "1a08be42361c",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm the valve manufacturer's requirement at the worst expected differential pressure, not only at a convenient test condition."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "750d1b57607f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be151a3e4c5c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fluid and temperature:"
+        },
+        {
+          "_key": "ec43c40b034b",
+          "_type": "span",
+          "marks": [],
+          "text": " Document water quality, glycol concentration where applicable, and the full operating temperature range."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1dd6231b5c37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "189f61905e59",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Valve bore and seat design:"
+        },
+        {
+          "_key": "35abe8ffce37",
+          "_type": "span",
+          "marks": [],
+          "text": " Full-port and reduced-port bodies don't behave identically, and seat material affects friction."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6774f3bb798e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d61bdded76cb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Cycling pattern:"
+        },
+        {
+          "_key": "c90270ffc429",
+          "_type": "span",
+          "marks": [],
+          "text": " A valve exercised rarely can stick. A valve cycled constantly needs an actuator duty rating that matches that work."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9750703906f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4df9f9c9184",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fail mechanism:"
+        },
+        {
+          "_key": "1e638ed8733c",
+          "_type": "span",
+          "marks": [],
+          "text": " Springs or stored-energy systems consume output. The actuator must move the valve and manage the fail device."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18e898b88610",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8cd9a05f4793",
+          "_type": "span",
+          "marks": [],
+          "text": "Undersizing causes stalled travel, incomplete shutoff, overheated motors, and alarms that arrive only during an incident. Oversizing isn't automatically safer. Excess force can stress stems, seats, couplings, and mounting hardware, and it can mask a valve that's deteriorating until something breaks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f0e9bf3fa78b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67d4b5209433",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commissioning question:"
+        },
+        {
+          "_key": "fe8a004f3a35",
+          "_type": "span",
+          "marks": [],
+          "text": " What evidence proves this installed valve will move under its worst-case conditions, not its catalogue conditions?"
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "e2126ad6e88b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "acb2a13eb4ed",
+          "_type": "span",
+          "marks": [],
+          "text": "Challenge the supplier to show the calculation. Require valve torque, actuator output at the actual supply condition, the engineering margin used, and any derating for temperature or fail-safe accessories. When the valve sits around measurement equipment, coordinate pressure loss and service access too, as discussed in this guide to an "
+        },
+        {
+          "_key": "e2ca876adbcb",
+          "_type": "span",
+          "marks": [
+            "df24b6195354"
+          ],
+          "text": "in-line water flow meter and its installation considerations"
+        },
+        {
+          "_key": "7d2232c9e581",
+          "_type": "span",
+          "marks": [],
+          "text": ". Size is one line in the specification. Torque under service is the specification."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "df24b6195354",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/in-line-water-flow-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "edfc5926df5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "263ed5af0d93",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc2f10f8fa3a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1fc8ce4e484",
+          "_type": "span",
+          "marks": [],
+          "text": "Selection Criteria That Survive a Canadian Winter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "27d7ca5a5cc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0aef9a7bdba2",
+          "_type": "span",
+          "marks": [],
+          "text": "Winter exposes vague specifications. An actuator installed near an exterior wall, loading area, parkade, or poorly heated utility space may face cold air, condensation, and a power outage at the same time. Canadian guidance for ball valves emphasises protecting exposed valves and actuator wiring from freezing, using insulation or heat tracing where appropriate, draining inactive systems, and confirming low-temperature ratings, as set out in this "
+        },
+        {
+          "_key": "c6ae7c753c3b",
+          "_type": "span",
+          "marks": [
+            "0ddd41f49825"
+          ],
+          "text": "Canadian guide to ball valve freeze protection"
+        },
+        {
+          "_key": "adf5f7e0b23e",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0ddd41f49825",
+          "_type": "link",
+          "href": "https://enerfest.com/guide-to-ball-valves-in-canada/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b4bca0418b1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6176d447a396",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the failure state. "
+        },
+        {
+          "_key": "1f03956dde7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fail closed"
+        },
+        {
+          "_key": "4f1fda3a2d15",
+          "_type": "span",
+          "marks": [],
+          "text": " may suit a valve intended to contain flooding or stop heating flow. "
+        },
+        {
+          "_key": "5a990e9c9181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fail open"
+        },
+        {
+          "_key": "7413c65d4a3c",
+          "_type": "span",
+          "marks": [],
+          "text": " may be necessary where preserving water service or freeze-protection flow matters more. "
+        },
+        {
+          "_key": "2110f488e996",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fail in place"
+        },
+        {
+          "_key": "187cd260268a",
+          "_type": "span",
+          "marks": [],
+          "text": " can be acceptable only when the team has decided that holding the last position is the lowest-risk outcome. None of these is a default you should inherit from a product code."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88676dccbed5",
+      "_type": "externalImage",
+      "alt": "A procurement checklist for selecting valve actuators for Canadian winter industrial applications.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/485b908c-0762-486a-9edf-e312c83e9276/ball-valve-with-actuator-procurement-checklist.jpg"
+    },
+    {
+      "_key": "8187088d65f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1c7850b37163",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "370c67c0e271",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55cf57118e64",
+          "_type": "span",
+          "marks": [],
+          "text": "A Procurement Checklist With Operational Reasons"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5bb042feb2c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ad37ccdf38f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fail position and recovery:"
+        },
+        {
+          "_key": "5568aea21b58",
+          "_type": "span",
+          "marks": [],
+          "text": " State the required position on power or signal loss, plus how staff restore normal operation afterward."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "47763975898c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd7ab08f71d5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Manual override:"
+        },
+        {
+          "_key": "631878bee635",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm staff can move the valve safely during an outage or controls failure, and that access isn't blocked by insulation or other equipment."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe35bdb56867",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c91134eedcb6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Low-temperature envelope:"
+        },
+        {
+          "_key": "356753911d93",
+          "_type": "span",
+          "marks": [],
+          "text": " Match the actuator, seals, wiring, and any battery system to the site's design conditions."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92bfda204ed8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bff06e97bca4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Enclosure protection:"
+        },
+        {
+          "_key": "edf408649984",
+          "_type": "span",
+          "marks": [],
+          "text": " Utility rooms get wet during the exact incidents these valves are meant to control. Specify protection for moisture exposure."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1fe8ff9ec8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abfbd1cd4d9e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Signal and feedback:"
+        },
+        {
+          "_key": "9505ba3a9c70",
+          "_type": "span",
+          "marks": [],
+          "text": " Define command type, end switches or position feedback, and the alarm generated on a mismatch."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ad677c1ed0f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2dde9b4b25e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian hydronic practice gives a useful reference point. Dalhousie University's design guidance specifies "
+        },
+        {
+          "_key": "6857eadc9402",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "full-port ball valves for isolation"
+        },
+        {
+          "_key": "15defeffda73",
+          "_type": "span",
+          "marks": [],
+          "text": " on hot-water, chilled-water, and glycol or water systems up to "
+        },
+        {
+          "_key": "c6ac2494b0a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NPS 2"
+        },
+        {
+          "_key": "6792af11810f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and its controls guidance specifies "
+        },
+        {
+          "_key": "437ffb978ddf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "24-V valve actuators"
+        },
+        {
+          "_key": "0e4933ddb55e",
+          "_type": "span",
+          "marks": [],
+          "text": " with "
+        },
+        {
+          "_key": "9a54955dc596",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0–10 VDC analogue control"
+        },
+        {
+          "_key": "a527656ce1ba",
+          "_type": "span",
+          "marks": [],
+          "text": " where modulation is required, according to Dalhousie University HVAC design guidelines%20-%20HVAC%20Design%20Guidelines%202025%2006%2002%20(6).pdf). That distinction matters around meters, where full-port isolation limits added pressure loss, while throttling needs a valve and actuator selected for control."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "564a5171743b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "598de4537a51",
+          "_type": "span",
+          "marks": [],
+          "text": "Material choice also needs service proof, including temperature and chemical compatibility, which is why a comparison such as "
+        },
+        {
+          "_key": "4e299623ea59",
+          "_type": "span",
+          "marks": [
+            "31ccb4a443b2"
+          ],
+          "text": "plastic ball valves and their application limits"
+        },
+        {
+          "_key": "6cbdc1464464",
+          "_type": "span",
+          "marks": [],
+          "text": " should be read against your actual media rather than price alone. Every line on the submittal should answer a winter, outage, or service question."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "31ccb4a443b2",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/ball-valves-plastic"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fbf475b8c78f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f26ceeb22137",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ab4177570e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76cc02a42e0c",
+          "_type": "span",
+          "marks": [],
+          "text": "Installation, Commissioning, and Compliance Basics"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "aaac9e07e1e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e5736905396",
+          "_type": "span",
+          "marks": [],
+          "text": "Good commissioning begins before the actuator is wired. The installer needs straight, supported piping, enough clearance for the actuator and override, and isolation arrangements that let staff service the assembly without draining more of the building than necessary. Around meter assemblies, leave access for reading, replacement, and verification. A compact installation that can't be serviced isn't efficient."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61936b9c3647",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4620c2ccfbeb",
+          "_type": "span",
+          "marks": [],
+          "text": "Mechanical fit also matters. Confirm stem adaptor alignment, mounting hardware, rotation direction, and travel stops. Forcing a misaligned coupling into place creates side load that shows up later as noisy travel, premature wear, or a stalled valve. Stroke the assembly before insulation hides it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d67c573eb90b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "afedbaaa2b29",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f85092ce54b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77f8f495c616",
+          "_type": "span",
+          "marks": [],
+          "text": "Verify the Complete Assembly, Not Separate Claims"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1780be539061",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad779fb391f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian compliance checks must cover the complete valve and actuator in its actual fluid service. The Standards Council of Canada describes CSA requirements for electrically operated valves controlling water, gases, oils, refrigerants, steam, and other fluids, covering equipment rated up to "
+        },
+        {
+          "_key": "4adee01732fd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "600 V"
+        },
+        {
+          "_key": "68c25dd3f7b4",
+          "_type": "span",
+          "marks": [],
+          "text": " and including electrical and mechanical safety requirements, in its "
+        },
+        {
+          "_key": "e1a9e53ef496",
+          "_type": "span",
+          "marks": [
+            "c9211d68977e"
+          ],
+          "text": "notice for electrically operated valve standards"
+        },
+        {
+          "_key": "afebd663b263",
+          "_type": "span",
+          "marks": [],
+          "text": ". That scope doesn't replace project-specific pressure-piping or plumbing review."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c9211d68977e",
+          "_type": "link",
+          "href": "https://scc-ccn.ca/standards/notices-of-intent/csa-group/electrically-operated-valves"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "125b70d6793f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cea00309f5c7",
+          "_type": "span",
+          "marks": [],
+          "text": "Pressure figures aren't interchangeable. A Canadian plumbing-product notice identifies a minimum rated working pressure of "
+        },
+        {
+          "_key": "0a7df196fbdc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "860 kPa (125 psi) at 23 °C"
+        },
+        {
+          "_key": "7b606e524d88",
+          "_type": "span",
+          "marks": [],
+          "text": " and requires marking at both "
+        },
+        {
+          "_key": "0d56ee725199",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "23 °C"
+        },
+        {
+          "_key": "d38aa28394ac",
+          "_type": "span",
+          "marks": [],
+          "text": " and the manufacturer's maximum operating temperature, based on the same compliance context above. Temperature derating, connection type, and fluid compatibility can change whether a catalogue rating applies to your room."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "181f38b6dd0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c451374418a5",
+          "_type": "span",
+          "marks": [],
+          "text": "Electrical commissioning should prove supply voltage, command polarity or signal range, end-switch state, BMS indication, and fail action. Pull the power or signal in a controlled test and watch the valve. Don't accept a point-to-point checkout that only proves a relay changed state."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6f5a13d9518",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "891722d75a33",
+          "_type": "span",
+          "marks": [],
+          "text": "For teams coordinating valve work with wider mechanical upgrades, this "
+        },
+        {
+          "_key": "12d0f7145658",
+          "_type": "span",
+          "marks": [
+            "1380784064dc"
+          ],
+          "text": "Dublin central heating installation guide"
+        },
+        {
+          "_key": "b6f36e2f5750",
+          "_type": "span",
+          "marks": [],
+          "text": " offers a useful reminder that controls, pipework, and commissioning need to be planned as one job. At handover, file the "
+        },
+        {
+          "_key": "29fe8778d661",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "normal position, fail position, torque basis, signal type, feedback points, override method, and test record"
+        },
+        {
+          "_key": "5718765e3344",
+          "_type": "span",
+          "marks": [],
+          "text": ". If those details live only in the controls contractor's memory, the building hasn't really received the system."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1380784064dc",
+          "_type": "link",
+          "href": "https://premierbuilders.ie/central-heating-installation/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1c707704e6c8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c4b9c0a1fff",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac12a740a2b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "976013c0593d",
+          "_type": "span",
+          "marks": [],
+          "text": "Wiring the Valve Into BMS, Leak Detection, and Submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c4eb32878bd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8641f05ca235",
+          "_type": "span",
+          "marks": [],
+          "text": "An actuated valve earns its keep inside a sequence. A leak sensor detects water, a panel or BMS point commands closure, feedback confirms the closed position, and an alarm tells the property team what happened. If feedback doesn't arrive within the expected travel time, that mismatch should become its own alarm. Silence isn't a successful shutoff."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1d06b65da98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "edfca2532268",
+          "_type": "span",
+          "marks": [],
+          "text": "Write the sequence in plain language before programming starts. Name the initiating device, the valve it controls, any delays, the confirmation point, the alarm recipient, and the reset method. Automatic reopening after a leak event is rarely something to enable casually. A person should inspect the cause, confirm the area is dry, and deliberately restore service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a06303a3d8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e5830ba88e7c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d7fa2fe9186",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93e5b632ce36",
+          "_type": "span",
+          "marks": [],
+          "text": "Where Metering Changes the Valve Decision"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "586866312b81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e002df92026",
+          "_type": "span",
+          "marks": [],
+          "text": "Around water and thermal-energy meters, isolation valves support maintenance without disrupting an entire riser or plant section. They also need clear identification so staff can find the right assembly during a tenant issue. Full-port isolation can limit unnecessary pressure loss around the meter, but it shouldn't be confused with a balancing or throttling device."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "decdcd417969",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4bf55b2c6a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering data adds another diagnostic layer. Unexpected overnight flow, a suite with continuous consumption, or a thermal loop behaving differently from its peers can point operators toward a leak or a valve that isn't seating. For readers who need the metering side explained clearly, this "
+        },
+        {
+          "_key": "790fc59f8e59",
+          "_type": "span",
+          "marks": [
+            "ba6396351d2d"
+          ],
+          "text": "guide to analogue digital and smart meters"
+        },
+        {
+          "_key": "b37e4b76e78f",
+          "_type": "span",
+          "marks": [],
+          "text": " covers how different meter types present consumption information. The operating principle is the same across utilities. Measurement is useful only when someone can act on it."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ba6396351d2d",
+          "_type": "link",
+          "href": "https://advoltageelectrical.com.au/blog/how-to-read-an-electricity-meter/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c8ffa23aafbf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d874e6f15b5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Coordinate valve points with sensor placement and alarm routing from the start, using resources such as this overview of "
+        },
+        {
+          "_key": "6e9d7b038084",
+          "_type": "span",
+          "marks": [
+            "698ac2bc0ad3"
+          ],
+          "text": "water leak detection equipment and shutoff integration"
+        },
+        {
+          "_key": "90eabe9687c5",
+          "_type": "span",
+          "marks": [],
+          "text": ". Test the whole chain with water at the sensor where the manufacturer permits it, or with an approved simulation method. Then trend command, feedback, and alarm together. That record is what lets an operator distinguish a real closure from a hopeful graphic at 2 a.m."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "698ac2bc0ad3",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-leak-detection-equipment"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "77db6051725f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90e0c39606cf",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70909c8e3eaa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88c9f445d308",
+          "_type": "span",
+          "marks": [],
+          "text": "Operator Handover, Cycling, and Long-Term Reliability"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "956e189f6e21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1eb120b6ab32",
+          "_type": "span",
+          "marks": [],
+          "text": "The controls contractor leaves. The valve stays, often untouched, until the day it must work first time. That's why handover needs more than a binder and a set of passwords. Give building staff a one-page valve register they can use under pressure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e5471c422bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e8b4c0d2ae7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "152e02cf33b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5eb14c8bd65e",
+          "_type": "span",
+          "marks": [],
+          "text": "What the Register Should Let Staff Answer Quickly"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9f65946619cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98fe62496c8a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Location and service:"
+        },
+        {
+          "_key": "9c32874a396e",
+          "_type": "span",
+          "marks": [],
+          "text": " Which room, riser, suite group, or equipment does this valve isolate?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0013a0c0f05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "023147c45342",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Normal and fail positions:"
+        },
+        {
+          "_key": "54db4eba52a5",
+          "_type": "span",
+          "marks": [],
+          "text": " What should staff expect during normal operation and after power loss?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "45d399355d68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e50c99cf833",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Manual method:"
+        },
+        {
+          "_key": "854a5e9f60d6",
+          "_type": "span",
+          "marks": [],
+          "text": " Where's the override, what tool is needed, and who is authorised to use it?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "deb75da66e39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6b8a86c2f7c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirmation:"
+        },
+        {
+          "_key": "f3dbee1f49b9",
+          "_type": "span",
+          "marks": [],
+          "text": " Which BMS point or local indicator proves open and closed?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c330e8091d0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15b4ab26f0c3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Escalation:"
+        },
+        {
+          "_key": "cb87cbc34d3c",
+          "_type": "span",
+          "marks": [],
+          "text": " Who gets called if command and feedback disagree?"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e39504a1906c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1e1dfecfe2a",
+          "_type": "span",
+          "marks": [],
+          "text": "Cycle infrequently used valves on a planned rhythm that's appropriate to the service and manufacturer instructions. Partial or full exercise helps reveal sticking, deposits, weak actuators, and failed switches before an emergency. Record travel completion and investigate valves that become slower, noisier, or inconsistent. Don't cycle a critical domestic-water or heating valve without notifying affected occupants and planning the interruption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cd3e9256f05d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ae3af676587",
+          "_type": "span",
+          "marks": [],
+          "text": "Seasonal checks matter in Canada. Before winter, inspect insulation, heat tracing where installed, exposed wiring, enclosure seals, and any inactive piping that should be drained. After a prolonged outage or freeze event, don't assume the actuator survived because power returned. Stroke it under supervision, confirm feedback, inspect for leaks, and document the result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "be383e72a355",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "336dfcc5bbed",
+          "_type": "span",
+          "marks": [],
+          "text": "If the night operator can't find it, override it, and prove its position, the automation isn't finished."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "d3de2c1dab98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b66bf535c2ba",
+          "_type": "span",
+          "marks": [],
+          "text": "Reliability is mostly disciplined housekeeping. Keep access clear, labels legible, sequences current, and test records attached to the asset. When a valve is replaced, update torque, signal, and fail-position records rather than copying the old submittal. The next incident will be handled by whoever is on site, not by whoever designed the system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74e3a58b439b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6af9cb887d9",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're specifying actuated isolation for a multifamily, condominium, mixed-use, or commercial property, "
+        },
+        {
+          "_key": "ba39818f4787",
+          "_type": "span",
+          "marks": [
+            "0a86b382546b"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "9dc72e7ba8d3",
+          "_type": "span",
+          "marks": [],
+          "text": " can connect the valve decision to water, thermal, gas, and electricity submetering, leak detection, commissioning, and tenant billing. Visit the team to discuss a turnkey programme that documents fail positions, feedback, and maintenance responsibilities before the equipment is installed."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0a86b382546b",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "Choose and size a ball valve with actuator for automated building systems. Compare electric vs pneumatic options, sizing criteria, and compliance essentials.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/89c8b713-8890-45e3-9768-71fe1e65e9bd/ball-valve-with-actuator-valve-actuator.jpg",
+  "noIndex": false,
+  "outrankId": "309781c7-baef-4104-9ecb-e3b4f4bd4b5a",
+  "publishedAt": "2026-10-18T10:11:08.121351+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "ball-valve-with-actuator"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>It&#39;s 2 a.m., a leak sensor has tripped in a utility room, and your building system has just told a valve to close. That moment is when you find out whether somebody specified a <strong>ball valve with actuator</strong> for the actual building, or just matched a pipe size in a catalogue. The difference matters in Canadian towers, student residences, and mixed-use properties where a stalled actuator, the wrong fail position, or missing feedback can turn a containable leak into a flooded floor and a service outage.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-an-actuated-ball-valve-is-a-decision-not-just-a-component\">Why an Actuated Ball Valve Is a Decision, Not Just a Component</a><ul>\n<li><a href=\"#start-with-consequence-not-catalogue-size\">Start With Consequence, Not Catalogue Size</a></li>\n</ul>\n</li>\n<li><a href=\"#what-a-ball-valve-with-actuator-actually-does\">What a Ball Valve With Actuator Actually Does</a><ul>\n<li><a href=\"#isolation-is-not-the-same-job-as-modulation\">Isolation Is Not the Same Job as Modulation</a></li>\n</ul>\n</li>\n<li><a href=\"#electric-vs-pneumatic-actuators-in-real-buildings\">Electric vs Pneumatic Actuators in Real Buildings</a></li>\n<li><a href=\"#sizing-by-torque-and-service-not-just-pipe-diameter\">Sizing by Torque and Service, Not Just Pipe Diameter</a><ul>\n<li><a href=\"#the-inputs-that-actually-determine-actuator-output\">The Inputs That Actually Determine Actuator Output</a></li>\n</ul>\n</li>\n<li><a href=\"#selection-criteria-that-survive-a-canadian-winter\">Selection Criteria That Survive a Canadian Winter</a><ul>\n<li><a href=\"#a-procurement-checklist-with-operational-reasons\">A Procurement Checklist With Operational Reasons</a></li>\n</ul>\n</li>\n<li><a href=\"#installation-commissioning-and-compliance-basics\">Installation, Commissioning, and Compliance Basics</a><ul>\n<li><a href=\"#verify-the-complete-assembly-not-separate-claims\">Verify the Complete Assembly, Not Separate Claims</a></li>\n</ul>\n</li>\n<li><a href=\"#wiring-the-valve-into-bms-leak-detection-and-submetering\">Wiring the Valve Into BMS, Leak Detection, and Submetering</a><ul>\n<li><a href=\"#where-metering-changes-the-valve-decision\">Where Metering Changes the Valve Decision</a></li>\n</ul>\n</li>\n<li><a href=\"#operator-handover-cycling-and-long-term-reliability\">Operator Handover, Cycling, and Long-Term Reliability</a><ul>\n<li><a href=\"#what-the-register-should-let-staff-answer-quickly\">What the Register Should Let Staff Answer Quickly</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"why-an-actuated-ball-valve-is-a-decision-not-just-a-component\"></a></p>\n<h2>Why an Actuated Ball Valve Is a Decision, Not Just a Component</h2>\n<p>A property manager gets the alarm first. Security confirms water on the floor, maintenance is driving in, and the building management system shows a close command sent to the isolation valve. If the actuator stalls, the command means nothing. Staff are now hunting for a manual valve, possibly behind finished walls, while water keeps moving.</p>\n<p>I&#39;ve seen the opposite failure too. A valve closes on power loss because nobody questioned its fail position, and an occupied building loses domestic water during an outage that had nothing to do with plumbing. Both outcomes come from the same mistake. The team bought a component instead of deciding what the building needed when conditions went wrong.</p>\n<p><a id=\"start-with-consequence-not-catalogue-size\"></a></p>\n<h3>Start With Consequence, Not Catalogue Size</h3>\n<p>Ask what happens if this valve doesn&#39;t move. A flood-isolation valve that stays open can allow damage to spread. A suite or riser valve that closes unnecessarily can interrupt service and generate complaints, access problems, and emergency calls. A heating valve that fails in the wrong state can create overheating or freeze risk elsewhere in the system.</p>\n<p>That consequence should drive <strong>normal position</strong>, <strong>fail position</strong>, torque margin, manual override, and feedback. Pipe diameter only tells you what connects. It doesn&#39;t tell you whether the actuator can break the ball free after months sitting open, whether staff can operate it without power, or whether the BMS can prove it reached the commanded position.</p>\n<blockquote>\n<p>A valve that has only been proven on a submittal hasn&#39;t been proven in your building.</p>\n</blockquote>\n<p>Scale isn&#39;t the issue either. Canada&#39;s metal-valve manufacturing industry recorded <strong>approximately $1.2 billion in shipments</strong> and <strong>$569.6 million in value added</strong> in 2023, according to <a href=\"https://ised-isde.canada.ca/app/ixb/cis/summary-sommaire/33291\">Government of Canada industry statistics for metal valve manufacturing</a>. Good hardware is available. Failures usually start when selection ignores service, winter conditions, and the control sequence.</p>\n<p>Treat the purchase as a risk decision. Define when it must close, when it must stay open, who intervenes if power is lost, and what evidence confirms movement. Everything else follows from those answers.</p>\n<p><a id=\"what-a-ball-valve-with-actuator-actually-does\"></a></p>\n<h2>What a Ball Valve With Actuator Actually Does</h2>\n<p>The simplest way to explain the assembly is this. The <strong>valve body is the muscle</strong>, the <strong>actuator is the nerve</strong>, and the BMS or local controller is the brain. Inside the body, a drilled ball sits between seats. Rotate the ball so the bore aligns with the pipe and flow passes. Rotate it a quarter turn and the solid side blocks the path.</p>\n<p>The actuator performs that quarter-turn movement when it receives a signal. An electric version uses a motor and gearing. A pneumatic version uses compressed air. Either way, the control system isn&#39;t moving water directly. It&#39;s commanding mechanical rotation, and the valve either delivers enough torque to complete it or it doesn&#39;t.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/23a68d37-22af-4cd3-b6c4-a6cbfd027eb5/ball-valve-with-actuator-valve-mechanics.jpg\" alt=\"A diagram illustrating the working principle of a ball valve with an integrated electric actuator device.\"></p>\n<p><a id=\"isolation-is-not-the-same-job-as-modulation\"></a></p>\n<h3>Isolation Is Not the Same Job as Modulation</h3>\n<p>An <strong>isolation valve</strong> is expected to be fully open or fully closed. A <strong>modulating valve</strong> is positioned between those ends to regulate flow. Confusing those jobs produces poor control and unnecessary seat wear, especially if a standard on/off ball is asked to throttle continuously.</p>\n<table>\n<thead>\n<tr>\n<th>Application</th>\n<th>Control Intent</th>\n<th>Valve Type</th>\n<th>Actuator Behaviour</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Leak or riser shutoff</td>\n<td>Stop flow completely</td>\n<td>Full-port isolation ball valve</td>\n<td>Drives fully closed and reports end position</td>\n</tr>\n<tr>\n<td>Meter maintenance</td>\n<td>Isolate equipment for service</td>\n<td>Full-port isolation ball valve</td>\n<td>Opens or closes on local or remote command</td>\n</tr>\n<tr>\n<td>Coil flow regulation</td>\n<td>Vary heating or cooling output</td>\n<td>Properly characterised control valve</td>\n<td>Moves to intermediate positions from an analogue signal</td>\n</tr>\n<tr>\n<td>Heat exchanger protection</td>\n<td>Limit unsafe heating on failure</td>\n<td>Control valve selected for the sequence</td>\n<td>Returns to its specified fail position</td>\n</tr>\n</tbody></table>\n<p>Feedback matters because a command isn&#39;t proof. End switches or position feedback tell the BMS whether the valve reached open, closed, or an intermediate position. Without that confirmation, operators are trusting a graphic.</p>\n<p>Normally open and normally closed describe the unpowered or normal state defined for the application, not a universal quality ranking. For background on the broader shutoff role in plumbing systems, this <a href=\"https://ringhotwater.com.au/2026/03/18/shut-off-valve/\">shut off valve guide</a> is useful context. On a project submittal, look for service, signal, fail action, and feedback before you look at the photograph.</p>\n<p><a id=\"electric-vs-pneumatic-actuators-in-real-buildings\"></a></p>\n<h2>Electric vs Pneumatic Actuators in Real Buildings</h2>\n<p>Most occupied Canadian buildings lean electric because power and controls wiring are already present, operation is quiet, and there&#39;s no instrument-air system to maintain. That doesn&#39;t make pneumatic actuation obsolete. In a larger plant with reliable compressed air, pneumatic actuators can move quickly and handle frequent cycling well. The right choice depends on infrastructure you already own and are prepared to maintain.</p>\n<p>The comparison below gives the practical trade-offs before we get into building fit.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/49f5f0ea-9701-41f6-837e-2c5ebe9802a8/ball-valve-with-actuator-actuator-comparison.jpg\" alt=\"A comparison chart outlining the key differences between electric and pneumatic actuators, including power, speed, cost, and maintenance.\"></p>\n<p>Electric actuators simplify integration with relays, leak panels, submetering controls, and BMS outputs. Their weaknesses show up when the specified fail action needs stored energy, when duty is too frequent for the motor, or when power quality and enclosure protection were treated casually. Pneumatic actuators avoid some electrical concerns at the valve, but they move the burden upstream to compressors, dryers, filters, tubing, and air quality.</p>\n<table>\n<thead>\n<tr>\n<th>Criterion</th>\n<th>Electric Actuator</th>\n<th>Pneumatic Actuator</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Power source</td>\n<td>Building electrical supply and control wiring</td>\n<td>Compressed air plus an electrical pilot signal</td>\n</tr>\n<tr>\n<td>Speed</td>\n<td>Generally slower and controlled</td>\n<td>Generally faster</td>\n</tr>\n<tr>\n<td>Control precision</td>\n<td>Well suited to analogue positioning</td>\n<td>Modulation needs suitable positioning equipment</td>\n</tr>\n<tr>\n<td>Fail position</td>\n<td>Needs spring, battery, or another defined method</td>\n<td>Spring-return designs are common, double-acting types can fail in place</td>\n</tr>\n<tr>\n<td>Maintenance</td>\n<td>Motor, gearing, switches, wiring</td>\n<td>Air preparation, seals, tubing, pilot valves</td>\n</tr>\n<tr>\n<td>Occupied-building fit</td>\n<td>Quiet and familiar to controls trades</td>\n<td>Better where plant air already exists</td>\n</tr>\n</tbody></table>\n<p>A short demonstration helps non-technical stakeholders see why actuator travel time and feedback shouldn&#39;t be assumed from a product photo.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/LMhNOrgGiyM\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>Don&#39;t choose pneumatic equipment just because the actuator itself looks simpler. If the building has no dependable air supply, you&#39;ve bought another system to commission and maintain. Don&#39;t choose electric equipment just because wiring looks easy either. Confirm available power, control signal, duty expectations, manual operation, and what happens when that power disappears.</p>\n<p>For suites, small mechanical rooms, leak response, and most hydronic controls, electric actuation is usually the cleaner fit. For industrial rooms with established air infrastructure and a need for rapid movement, pneumatic equipment deserves consideration. Either family fails when it&#39;s selected without the site around it.</p>\n<p><a id=\"sizing-by-torque-and-service-not-just-pipe-diameter\"></a></p>\n<h2>Sizing by Torque and Service, Not Just Pipe Diameter</h2>\n<p>A quote that lists only nominal size and voltage hasn&#39;t sized anything. The actuator has to overcome <strong>breakaway torque</strong> after the ball has been sitting against its seats, then keep moving through running torque and seat the ball again at the end of travel. Differential pressure, temperature, media, deposits, and time since the last cycle all change that requirement.</p>\n<p>Catalogue optimism gets expensive. A valve may stroke freely on a bench with no pressure and clean water. Installed across a pressurised riser, or in a hydronic loop carrying glycol, it can demand materially more force. Published control-valve applications include solutions of <strong>up to 50% glycol</strong> alongside hot and chilled water, as described in <a href=\"https://www.axismeter.com/blog/electric-ball-valve\">technical guidance on electric ball valve selection and torque</a>. That service detail belongs in the torque calculation, not in a footnote.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/49af558f-64a4-4cbd-8559-fc1d8415a2f0/ball-valve-with-actuator-torque-wrench.jpg\" alt=\"A technician using a digital torque wrench to tighten a valve on an industrial pipeline setup.\"></p>\n<p><a id=\"the-inputs-that-actually-determine-actuator-output\"></a></p>\n<h3>The Inputs That Actually Determine Actuator Output</h3>\n<ul>\n<li><strong>Breakaway torque:</strong> Confirm the valve manufacturer&#39;s requirement at the worst expected differential pressure, not only at a convenient test condition.</li>\n<li><strong>Fluid and temperature:</strong> Document water quality, glycol concentration where applicable, and the full operating temperature range.</li>\n<li><strong>Valve bore and seat design:</strong> Full-port and reduced-port bodies don&#39;t behave identically, and seat material affects friction.</li>\n<li><strong>Cycling pattern:</strong> A valve exercised rarely can stick. A valve cycled constantly needs an actuator duty rating that matches that work.</li>\n<li><strong>Fail mechanism:</strong> Springs or stored-energy systems consume output. The actuator must move the valve and manage the fail device.</li>\n</ul>\n<p>Undersizing causes stalled travel, incomplete shutoff, overheated motors, and alarms that arrive only during an incident. Oversizing isn&#39;t automatically safer. Excess force can stress stems, seats, couplings, and mounting hardware, and it can mask a valve that&#39;s deteriorating until something breaks.</p>\n<blockquote>\n<p><strong>Commissioning question:</strong> What evidence proves this installed valve will move under its worst-case conditions, not its catalogue conditions?</p>\n</blockquote>\n<p>Challenge the supplier to show the calculation. Require valve torque, actuator output at the actual supply condition, the engineering margin used, and any derating for temperature or fail-safe accessories. When the valve sits around measurement equipment, coordinate pressure loss and service access too, as discussed in this guide to an <a href=\"https://www.axismeter.com/blog/in-line-water-flow-meter\">in-line water flow meter and its installation considerations</a>. Size is one line in the specification. Torque under service is the specification.</p>\n<p><a id=\"selection-criteria-that-survive-a-canadian-winter\"></a></p>\n<h2>Selection Criteria That Survive a Canadian Winter</h2>\n<p>Winter exposes vague specifications. An actuator installed near an exterior wall, loading area, parkade, or poorly heated utility space may face cold air, condensation, and a power outage at the same time. Canadian guidance for ball valves emphasises protecting exposed valves and actuator wiring from freezing, using insulation or heat tracing where appropriate, draining inactive systems, and confirming low-temperature ratings, as set out in this <a href=\"https://enerfest.com/guide-to-ball-valves-in-canada/\">Canadian guide to ball valve freeze protection</a>.</p>\n<p>Start with the failure state. <strong>Fail closed</strong> may suit a valve intended to contain flooding or stop heating flow. <strong>Fail open</strong> may be necessary where preserving water service or freeze-protection flow matters more. <strong>Fail in place</strong> can be acceptable only when the team has decided that holding the last position is the lowest-risk outcome. None of these is a default you should inherit from a product code.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/485b908c-0762-486a-9edf-e312c83e9276/ball-valve-with-actuator-procurement-checklist.jpg\" alt=\"A procurement checklist for selecting valve actuators for Canadian winter industrial applications.\"></p>\n<p><a id=\"a-procurement-checklist-with-operational-reasons\"></a></p>\n<h3>A Procurement Checklist With Operational Reasons</h3>\n<ul>\n<li><strong>Fail position and recovery:</strong> State the required position on power or signal loss, plus how staff restore normal operation afterward.</li>\n<li><strong>Manual override:</strong> Confirm staff can move the valve safely during an outage or controls failure, and that access isn&#39;t blocked by insulation or other equipment.</li>\n<li><strong>Low-temperature envelope:</strong> Match the actuator, seals, wiring, and any battery system to the site&#39;s design conditions.</li>\n<li><strong>Enclosure protection:</strong> Utility rooms get wet during the exact incidents these valves are meant to control. Specify protection for moisture exposure.</li>\n<li><strong>Signal and feedback:</strong> Define command type, end switches or position feedback, and the alarm generated on a mismatch.</li>\n</ul>\n<p>Canadian hydronic practice gives a useful reference point. Dalhousie University&#39;s design guidance specifies <strong>full-port ball valves for isolation</strong> on hot-water, chilled-water, and glycol or water systems up to <strong>NPS 2</strong>, and its controls guidance specifies <strong>24-V valve actuators</strong> with <strong>0–10 VDC analogue control</strong> where modulation is required, according to Dalhousie University HVAC design guidelines%20-%20HVAC%20Design%20Guidelines%202025%2006%2002%20(6).pdf). That distinction matters around meters, where full-port isolation limits added pressure loss, while throttling needs a valve and actuator selected for control.</p>\n<p>Material choice also needs service proof, including temperature and chemical compatibility, which is why a comparison such as <a href=\"https://www.axismeter.com/blog/ball-valves-plastic\">plastic ball valves and their application limits</a> should be read against your actual media rather than price alone. Every line on the submittal should answer a winter, outage, or service question.</p>\n<p><a id=\"installation-commissioning-and-compliance-basics\"></a></p>\n<h2>Installation, Commissioning, and Compliance Basics</h2>\n<p>Good commissioning begins before the actuator is wired. The installer needs straight, supported piping, enough clearance for the actuator and override, and isolation arrangements that let staff service the assembly without draining more of the building than necessary. Around meter assemblies, leave access for reading, replacement, and verification. A compact installation that can&#39;t be serviced isn&#39;t efficient.</p>\n<p>Mechanical fit also matters. Confirm stem adaptor alignment, mounting hardware, rotation direction, and travel stops. Forcing a misaligned coupling into place creates side load that shows up later as noisy travel, premature wear, or a stalled valve. Stroke the assembly before insulation hides it.</p>\n<p><a id=\"verify-the-complete-assembly-not-separate-claims\"></a></p>\n<h3>Verify the Complete Assembly, Not Separate Claims</h3>\n<p>Canadian compliance checks must cover the complete valve and actuator in its actual fluid service. The Standards Council of Canada describes CSA requirements for electrically operated valves controlling water, gases, oils, refrigerants, steam, and other fluids, covering equipment rated up to <strong>600 V</strong> and including electrical and mechanical safety requirements, in its <a href=\"https://scc-ccn.ca/standards/notices-of-intent/csa-group/electrically-operated-valves\">notice for electrically operated valve standards</a>. That scope doesn&#39;t replace project-specific pressure-piping or plumbing review.</p>\n<p>Pressure figures aren&#39;t interchangeable. A Canadian plumbing-product notice identifies a minimum rated working pressure of <strong>860 kPa (125 psi) at 23 °C</strong> and requires marking at both <strong>23 °C</strong> and the manufacturer&#39;s maximum operating temperature, based on the same compliance context above. Temperature derating, connection type, and fluid compatibility can change whether a catalogue rating applies to your room.</p>\n<p>Electrical commissioning should prove supply voltage, command polarity or signal range, end-switch state, BMS indication, and fail action. Pull the power or signal in a controlled test and watch the valve. Don&#39;t accept a point-to-point checkout that only proves a relay changed state.</p>\n<p>For teams coordinating valve work with wider mechanical upgrades, this <a href=\"https://premierbuilders.ie/central-heating-installation/\">Dublin central heating installation guide</a> offers a useful reminder that controls, pipework, and commissioning need to be planned as one job. At handover, file the <strong>normal position, fail position, torque basis, signal type, feedback points, override method, and test record</strong>. If those details live only in the controls contractor&#39;s memory, the building hasn&#39;t really received the system.</p>\n<p><a id=\"wiring-the-valve-into-bms-leak-detection-and-submetering\"></a></p>\n<h2>Wiring the Valve Into BMS, Leak Detection, and Submetering</h2>\n<p>An actuated valve earns its keep inside a sequence. A leak sensor detects water, a panel or BMS point commands closure, feedback confirms the closed position, and an alarm tells the property team what happened. If feedback doesn&#39;t arrive within the expected travel time, that mismatch should become its own alarm. Silence isn&#39;t a successful shutoff.</p>\n<p>Write the sequence in plain language before programming starts. Name the initiating device, the valve it controls, any delays, the confirmation point, the alarm recipient, and the reset method. Automatic reopening after a leak event is rarely something to enable casually. A person should inspect the cause, confirm the area is dry, and deliberately restore service.</p>\n<p><a id=\"where-metering-changes-the-valve-decision\"></a></p>\n<h3>Where Metering Changes the Valve Decision</h3>\n<p>Around water and thermal-energy meters, isolation valves support maintenance without disrupting an entire riser or plant section. They also need clear identification so staff can find the right assembly during a tenant issue. Full-port isolation can limit unnecessary pressure loss around the meter, but it shouldn&#39;t be confused with a balancing or throttling device.</p>\n<p>Submetering data adds another diagnostic layer. Unexpected overnight flow, a suite with continuous consumption, or a thermal loop behaving differently from its peers can point operators toward a leak or a valve that isn&#39;t seating. For readers who need the metering side explained clearly, this <a href=\"https://advoltageelectrical.com.au/blog/how-to-read-an-electricity-meter/\">guide to analogue digital and smart meters</a> covers how different meter types present consumption information. The operating principle is the same across utilities. Measurement is useful only when someone can act on it.</p>\n<p>Coordinate valve points with sensor placement and alarm routing from the start, using resources such as this overview of <a href=\"https://www.axismeter.com/blog/water-leak-detection-equipment\">water leak detection equipment and shutoff integration</a>. Test the whole chain with water at the sensor where the manufacturer permits it, or with an approved simulation method. Then trend command, feedback, and alarm together. That record is what lets an operator distinguish a real closure from a hopeful graphic at 2 a.m.</p>\n<p><a id=\"operator-handover-cycling-and-long-term-reliability\"></a></p>\n<h2>Operator Handover, Cycling, and Long-Term Reliability</h2>\n<p>The controls contractor leaves. The valve stays, often untouched, until the day it must work first time. That&#39;s why handover needs more than a binder and a set of passwords. Give building staff a one-page valve register they can use under pressure.</p>\n<p><a id=\"what-the-register-should-let-staff-answer-quickly\"></a></p>\n<h3>What the Register Should Let Staff Answer Quickly</h3>\n<ul>\n<li><strong>Location and service:</strong> Which room, riser, suite group, or equipment does this valve isolate?</li>\n<li><strong>Normal and fail positions:</strong> What should staff expect during normal operation and after power loss?</li>\n<li><strong>Manual method:</strong> Where&#39;s the override, what tool is needed, and who is authorised to use it?</li>\n<li><strong>Confirmation:</strong> Which BMS point or local indicator proves open and closed?</li>\n<li><strong>Escalation:</strong> Who gets called if command and feedback disagree?</li>\n</ul>\n<p>Cycle infrequently used valves on a planned rhythm that&#39;s appropriate to the service and manufacturer instructions. Partial or full exercise helps reveal sticking, deposits, weak actuators, and failed switches before an emergency. Record travel completion and investigate valves that become slower, noisier, or inconsistent. Don&#39;t cycle a critical domestic-water or heating valve without notifying affected occupants and planning the interruption.</p>\n<p>Seasonal checks matter in Canada. Before winter, inspect insulation, heat tracing where installed, exposed wiring, enclosure seals, and any inactive piping that should be drained. After a prolonged outage or freeze event, don&#39;t assume the actuator survived because power returned. Stroke it under supervision, confirm feedback, inspect for leaks, and document the result.</p>\n<blockquote>\n<p>If the night operator can&#39;t find it, override it, and prove its position, the automation isn&#39;t finished.</p>\n</blockquote>\n<p>Reliability is mostly disciplined housekeeping. Keep access clear, labels legible, sequences current, and test records attached to the asset. When a valve is replaced, update torque, signal, and fail-position records rather than copying the old submittal. The next incident will be handled by whoever is on site, not by whoever designed the system.</p>\n<hr>\n<p>If you&#39;re specifying actuated isolation for a multifamily, condominium, mixed-use, or commercial property, <a href=\"https://axismeter.com\">Axis Meter Solutions</a> can connect the valve decision to water, thermal, gas, and electricity submetering, leak detection, commissioning, and tenant billing. Visit the team to discuss a turnkey programme that documents fail positions, feedback, and maintenance responsibilities before the equipment is installed.</p>",
+  "tags": [
+    "ball valve with actuator",
+    "actuated ball valve",
+    "electric actuator",
+    "pneumatic actuator",
+    "BMS integration"
+  ],
+  "title": "Ball Valve with Actuator: Selection and Sizing Guide",
+  "updatedAt": "2026-10-18T10:11:12.112Z"
+}
