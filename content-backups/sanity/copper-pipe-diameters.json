@@ -1,0 +1,4125 @@
+{
+  "_createdAt": "2026-10-22T10:20:27Z",
+  "_id": "outrank-85fb8fb1-79a3-4221-b7cd-96d7086fc561",
+  "_rev": "CNSJ5f4UoAa2CdDoq6CPxU",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-22T10:20:27Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "01ee021554be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6c285927be9",
+          "_type": "span",
+          "marks": [],
+          "text": "You're standing in a service corridor with a caliper, a submittal sheet, and a suite shutoff that won't match either one. The drawing says "
+        },
+        {
+          "_key": "56cefe177afe",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch"
+        },
+        {
+          "_key": "4f70a9630aae",
+          "_type": "span",
+          "marks": [],
+          "text": ", the tube in the wall measures larger than that, and the meter on the cart looks right until you try the fitting. That mismatch is normal in Canadian copper work, and it's exactly why "
+        },
+        {
+          "_key": "274241a49756",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Copper Pipe Diameters"
+        },
+        {
+          "_key": "0489d02c4b1d",
+          "_type": "span",
+          "marks": [],
+          "text": " need more than a quick lookup chart."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "664a6923b4e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc634a390aa5",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e195c6cda54b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "caa37fc45bbe",
+          "_type": "span",
+          "marks": [
+            "561481179d82"
+          ],
+          "text": "Why Copper Pipe Diameters Are Harder Than They Look"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "561481179d82",
+          "_type": "link",
+          "href": "#why-copper-pipe-diameters-are-harder-than-they-look"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9824f142c20d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0e286c04160",
+          "_type": "span",
+          "marks": [
+            "b5eae5202743"
+          ],
+          "text": "Three Variables Hidden in One Label"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b5eae5202743",
+          "_type": "link",
+          "href": "#three-variables-hidden-in-one-label"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8ddf526a2b64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7d966715787",
+          "_type": "span",
+          "marks": [
+            "0d41141e8e03"
+          ],
+          "text": "What a Complete Specification Looks Like"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0d41141e8e03",
+          "_type": "link",
+          "href": "#what-a-complete-specification-looks-like"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "01609eaf9887",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f96edff4ff7f",
+          "_type": "span",
+          "marks": [
+            "3f89861ff70d"
+          ],
+          "text": "Nominal vs Actual Diameter in North American Copper"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3f89861ff70d",
+          "_type": "link",
+          "href": "#nominal-vs-actual-diameter-in-north-american-copper"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f471df6ae5a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "616a356b326e",
+          "_type": "span",
+          "marks": [
+            "e168e4c3124f"
+          ],
+          "text": "Why Your Measurement Looks Wrong"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e168e4c3124f",
+          "_type": "link",
+          "href": "#why-your-measurement-looks-wrong"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1c80eebd91ba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bd1836a2840",
+          "_type": "span",
+          "marks": [
+            "998f4acbb0f3"
+          ],
+          "text": "Tube Is Not Pipe, and Water Tube Is Not DWV"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "998f4acbb0f3",
+          "_type": "link",
+          "href": "#tube-is-not-pipe-and-water-tube-is-not-dwv"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "af10d468df1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21341bd25fc5",
+          "_type": "span",
+          "marks": [
+            "31935cf32f6d"
+          ],
+          "text": "Type K, L, and M Compared by Wall and Use"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "31935cf32f6d",
+          "_type": "link",
+          "href": "#type-k-l-and-m-compared-by-wall-and-use"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3edb5a80b560",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a72d81823105",
+          "_type": "span",
+          "marks": [
+            "37fac32d11df"
+          ],
+          "text": "Where Each Type Earns Its Place"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "37fac32d11df",
+          "_type": "link",
+          "href": "#where-each-type-earns-its-place"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "18ada8570a36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92848f0d3c5a",
+          "_type": "span",
+          "marks": [
+            "ab1ac0dc438f"
+          ],
+          "text": "DN, NPS, and Millimetre Conversions for Copper"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ab1ac0dc438f",
+          "_type": "link",
+          "href": "#dn-nps-and-millimetre-conversions-for-copper"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ecdf44a8b6ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c87edffef9b",
+          "_type": "span",
+          "marks": [
+            "2221639be445"
+          ],
+          "text": "The Conversions That Cause Trouble"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2221639be445",
+          "_type": "link",
+          "href": "#the-conversions-that-cause-trouble"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56852036a069",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6243a9194c34",
+          "_type": "span",
+          "marks": [
+            "5b676d26d10f"
+          ],
+          "text": "Sizing Copper for Branches and Suite Connections"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5b676d26d10f",
+          "_type": "link",
+          "href": "#sizing-copper-for-branches-and-suite-connections"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "852b8b1b9f80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d97cf9db68d4",
+          "_type": "span",
+          "marks": [
+            "47ad53dcb56f"
+          ],
+          "text": "Work the Inputs in Order"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "47ad53dcb56f",
+          "_type": "link",
+          "href": "#work-the-inputs-in-order"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3f7342c0468b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63774c88182e",
+          "_type": "span",
+          "marks": [
+            "2436df72c40b"
+          ],
+          "text": "Why Bigger Is Not Always Safer in Copper"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2436df72c40b",
+          "_type": "link",
+          "href": "#why-bigger-is-not-always-safer-in-copper"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6c6176032848",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9005c15ee61f",
+          "_type": "span",
+          "marks": [
+            "a7d0bda141b4"
+          ],
+          "text": "Velocity Is a Temperature Question"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a7d0bda141b4",
+          "_type": "link",
+          "href": "#velocity-is-a-temperature-question"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "140ae720b3af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9322c228145b",
+          "_type": "span",
+          "marks": [
+            "a49c3766f7cc"
+          ],
+          "text": "Corrosion Starts on the Drawing"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a49c3766f7cc",
+          "_type": "link",
+          "href": "#corrosion-starts-on-the-drawing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "efbe0903a460",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c722ed902f18",
+          "_type": "span",
+          "marks": [
+            "003e12116c37"
+          ],
+          "text": "Matching Copper to a Water Meter Body"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "003e12116c37",
+          "_type": "link",
+          "href": "#matching-copper-to-a-water-meter-body"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d368239fb8cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "48c610fd3ffb",
+          "_type": "span",
+          "marks": [
+            "fa070ef50c00"
+          ],
+          "text": "Build a Pressure Loss Budget"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fa070ef50c00",
+          "_type": "link",
+          "href": "#build-a-pressure-loss-budget"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "765f1448c056",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "463d3e47774a",
+          "_type": "span",
+          "marks": [
+            "2d1dcd565686"
+          ],
+          "text": "Orientation, Temperature, and Service Access"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2d1dcd565686",
+          "_type": "link",
+          "href": "#orientation-temperature-and-service-access"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "43e48feda251",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6022d1f27a50",
+          "_type": "span",
+          "marks": [
+            "95395e82c93f"
+          ],
+          "text": "Quick Reference and Selection Workflow"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "95395e82c93f",
+          "_type": "link",
+          "href": "#quick-reference-and-selection-workflow"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bd159e8308e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7f340cbadfb",
+          "_type": "span",
+          "marks": [
+            "37def6b8081f"
+          ],
+          "text": "Cross-Reference Questions Readers Still Ask"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "37def6b8081f",
+          "_type": "link",
+          "href": "#cross-reference-questions-readers-still-ask"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f869198d1415",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00879e8adcb2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d59ce98c2bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4226488a8723",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Copper Pipe Diameters Are Harder Than They Look"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "100860b1ba18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7526ffa223ad",
+          "_type": "span",
+          "marks": [],
+          "text": "A property manager in a 60 suite building points at a riser and asks a fair question. Will the new submeter fit that "
+        },
+        {
+          "_key": "0b679636d9d8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch"
+        },
+        {
+          "_key": "cf4bbcc92ab8",
+          "_type": "span",
+          "marks": [],
+          "text": " copper? One installer says yes because the nominal sizes match. Another hesitates because he doesn't know the tube type, the adapter thread, or whether there's enough straight, supported length for the meter body."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32323d17d9fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c41ddba9586b",
+          "_type": "span",
+          "marks": [],
+          "text": "Both reactions make sense. The nominal label only names the product family. It doesn't tell you the "
+        },
+        {
+          "_key": "c3437d516512",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "outside diameter"
+        },
+        {
+          "_key": "9af5f1dac6a3",
+          "_type": "span",
+          "marks": [],
+          "text": ", the "
+        },
+        {
+          "_key": "3245259253b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "inside diameter"
+        },
+        {
+          "_key": "0959a5cb419c",
+          "_type": "span",
+          "marks": [],
+          "text": ", or the "
+        },
+        {
+          "_key": "6384dc3ac6f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "wall thickness"
+        },
+        {
+          "_key": "f2665329a49c",
+          "_type": "span",
+          "marks": [],
+          "text": " that determines flow area and durability."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df3021035548",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "98f10356f776",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6084954ce82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42370cd8723e",
+          "_type": "span",
+          "marks": [],
+          "text": "Three Variables Hidden in One Label"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0fc0808dae86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c887423cc43",
+          "_type": "span",
+          "marks": [],
+          "text": "Fittings care about outside diameter. Flow and velocity care about inside diameter. Pressure capability, corrosion allowance, and service life care about the wall between them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4772444075e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e6aba5f771c",
+          "_type": "span",
+          "marks": [],
+          "text": "Get the first wrong and the joint won't assemble cleanly. Get the second wrong and your velocity calculation is fiction. Get the third wrong and you've specified a tube that looks correct on the rack but behaves differently in the system."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7107c6e743fd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c9377444f4e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "On site rule:"
+        },
+        {
+          "_key": "51aadd6f326c",
+          "_type": "span",
+          "marks": [],
+          "text": " Never approve a meter, valve, or repair coupling from the nominal number alone. Confirm the tube standard and type stamped on the existing run first."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "4ee3f1524ddd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6d0fd6cfcca0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6dbd3d0c2a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "059cc418a366",
+          "_type": "span",
+          "marks": [],
+          "text": "What a Complete Specification Looks Like"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "9c432d1840d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "301ef68b89fc",
+          "_type": "span",
+          "marks": [],
+          "text": "A defensible copper specification isn't \"copper pipe.\" It's a four part string that a supplier, installer, and inspector can all read the same way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "672df02a4820",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b694b6886ca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Nominal size:"
+        },
+        {
+          "_key": "8fb727e61436",
+          "_type": "span",
+          "marks": [],
+          "text": " The familiar label, such as "
+        },
+        {
+          "_key": "a8994ad73d4a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 inch"
+        },
+        {
+          "_key": "979f6f61aa57",
+          "_type": "span",
+          "marks": [],
+          "text": " or "
+        },
+        {
+          "_key": "c1109371535f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "462b7f364250",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7eb9eb6b7b42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Tube type:"
+        },
+        {
+          "_key": "f88357d5c66e",
+          "_type": "span",
+          "marks": [],
+          "text": " "
+        },
+        {
+          "_key": "15462eb6b8bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "K, L, or M"
+        },
+        {
+          "_key": "1e14df3484bb",
+          "_type": "span",
+          "marks": [],
+          "text": " for water tube, or a different product for DWV, refrigeration, or medical gas"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37ccb7ca5ad6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "635235c6f74b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Temper and form:"
+        },
+        {
+          "_key": "939de185b503",
+          "_type": "span",
+          "marks": [],
+          "text": " Hard drawn straight lengths or soft coil, where that choice applies"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d586c498f5e9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47dc56e894e5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Applicable standard and joining method:"
+        },
+        {
+          "_key": "795a593c4e2e",
+          "_type": "span",
+          "marks": [],
+          "text": " The ASTM designation plus solder, press, or another approved joint"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "44e8e6c011d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5b8034419f3",
+          "_type": "span",
+          "marks": [],
+          "text": "That string prevents the most common rework I see on metering retrofits. Crews order by nominal size, discover the existing tube is a different type than assumed, then lose a shutdown window to adapters that should've been in the original material list."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f763a531642",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65dcccfd008d",
+          "_type": "span",
+          "marks": [],
+          "text": "It also protects billing accuracy. A meter forced into a run with poor alignment, nearby turbulence, or an operating range that doesn't suit the branch won't give the property a trustworthy reading, even if the joint doesn't leak."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3f90393b0e1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49c47dd7f865",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the logic in order as you work. Identify the standard, confirm actual dimensions, compare wall types, convert the designation correctly, then size for demand and velocity before you select a meter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6df04a5132f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "112bc21664dc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b3affbe5f45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be430249a526",
+          "_type": "span",
+          "marks": [],
+          "text": "Nominal vs Actual Diameter in North American Copper"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a56713cd42de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e13ebe17db6",
+          "_type": "span",
+          "marks": [],
+          "text": "North American copper water tube uses the "
+        },
+        {
+          "_key": "89cc8e2d8232",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Copper Tube Size"
+        },
+        {
+          "_key": "8e4739e6b6a3",
+          "_type": "span",
+          "marks": [],
+          "text": ", or "
+        },
+        {
+          "_key": "929852199348",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "CTS"
+        },
+        {
+          "_key": "f4c93f190c5b",
+          "_type": "span",
+          "marks": [],
+          "text": ", convention. The nominal label is a historical name, not a live measurement of the tube you're holding. That's why your tape and the printed size disagree without either one being wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8529806f954",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03f056dfeb39",
+          "_type": "span",
+          "marks": [],
+          "text": "For CTS water tube, actual outside diameter is the stable dimension across Types K, L, and M at a given nominal size. Inside diameter changes because wall thickness changes. A thicker wall leaves a smaller bore inside the same outside envelope."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8926af255790",
+      "_type": "externalImage",
+      "alt": "A diagram comparing nominal and actual copper pipe diameters with a ruler and digital caliper.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8de79038-a02e-4f8d-8997-73448ba14343/copper-pipe-diameters-pipe-measurement.jpg"
+    },
+    {
+      "_key": "f961f262d038",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc4acfaf0b0d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "398eab18d089",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "01175eeb46e2",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Your Measurement Looks Wrong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "92d27cc7d1fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b6d8acb8f91",
+          "_type": "span",
+          "marks": [],
+          "text": "Measure the outside of a nominal "
+        },
+        {
+          "_key": "cf2e028323a7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 inch"
+        },
+        {
+          "_key": "f2ceb2d094c7",
+          "_type": "span",
+          "marks": [],
+          "text": " CTS tube and you'll get a larger number than the label. Measure a nominal "
+        },
+        {
+          "_key": "c29a56a67b42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch"
+        },
+        {
+          "_key": "20b95249e532",
+          "_type": "span",
+          "marks": [],
+          "text": " tube and the same pattern holds. The fitting socket is built for that actual outside diameter, while the box still carries the nominal name."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7864b88097eb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e96d761efe5c",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't order a fitting by the socket measurement. Fittings are named for the nominal tube they join. If you measure the socket and order that dimension as though it were nominal, you'll bring back a fitting one size too large."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a1019ce26500",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2649bb87bec",
+          "_type": "span",
+          "marks": [],
+          "text": "Threaded ends add another trap. A copper fitting can have a CTS socket on one side and a threaded connection on the other, and those ends don't follow the same naming logic. Read each end on the submittal separately."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cb04b17d0b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e89e1ee6271d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f55dcc21ef76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b7a26c05472",
+          "_type": "span",
+          "marks": [],
+          "text": "Tube Is Not Pipe, and Water Tube Is Not DWV"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "976044c8b166",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af980074e987",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian product identification is clearer when you name the standard. The "
+        },
+        {
+          "_key": "0e377c5d5cfc",
+          "_type": "span",
+          "marks": [
+            "7b5f8a187ea3"
+          ],
+          "text": "Canadian reference for ASTM copper tube standards"
+        },
+        {
+          "_key": "c4738303f7ee",
+          "_type": "span",
+          "marks": [],
+          "text": " identifies "
+        },
+        {
+          "_key": "b08855e3bfd9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ASTM B88 for Types K, L, and M water tube"
+        },
+        {
+          "_key": "6a08cdb86ef7",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "e097e985e4c0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ASTM B306 for DWV tube"
+        },
+        {
+          "_key": "4db7b629dcff",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "f0e8650da216",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ASTM B280 and B68 for refrigeration and air-conditioning tube"
+        },
+        {
+          "_key": "94deded17b4f",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "8b4956ba321b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ASTM B819 for medical-gas tube"
+        },
+        {
+          "_key": "144f7b51fc37",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those standards set outside diameter, inside diameter, wall thickness, and tolerances for their products."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7b5f8a187ea3",
+          "_type": "link",
+          "href": "https://publications-cnrc.canada.ca/eng/view/ft/?id=6e7cabf5-d83e-4efd-9a1c-6515fc7cdc71&dsl=en"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a970282b8056",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d88802eb1211",
+          "_type": "span",
+          "marks": [],
+          "text": "That distinction matters because true copper pipe under ASTM B42 doesn't share the CTS water tube dimensions, and DWV tube is a drainage product, not a pressure distribution substitute. Refrigeration tube follows its own sizing practice as well, so a water tube chart is the wrong tool for it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e651f41bfcf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15796a1921ae",
+          "_type": "span",
+          "marks": [],
+          "text": "The Canadian reference also covers an outside diameter range of approximately "
+        },
+        {
+          "_key": "c4a8d1d18106",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.2 to 4.25 inches"
+        },
+        {
+          "_key": "c750f30bc4d8",
+          "_type": "span",
+          "marks": [],
+          "text": " for the defined copper tube products in the same source. Across a range that wide, \"copper\" by itself tells a buyer almost nothing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1a03281e543",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74bb1a4b8edd",
+          "_type": "span",
+          "marks": [],
+          "text": "Treat nominal as an index into a standard, not as a dimension. Once you've found the right row in the right standard, the outside diameter, bore, and wall stop being guesswork."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a70ca5e3a2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cbf495516759",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94d521d567ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7484b5aeff60",
+          "_type": "span",
+          "marks": [],
+          "text": "Type K, L, and M Compared by Wall and Use"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "97308ab5aeff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee36173fb3aa",
+          "_type": "span",
+          "marks": [],
+          "text": "At the same nominal size, Types K, L, and M share the same outside diameter. They don't share the same wall, bore, or service expectation. Type K has the thickest wall and smallest inside diameter. Type M has the thinnest wall and largest bore. Type L sits between them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89223ad7ba98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c71abda9e457",
+          "_type": "span",
+          "marks": [],
+          "text": "That sounds like a minor manufacturing detail until you price a riser replacement or try to hold velocity in a hot water recirculation branch. The bore you have, not the label on the bundle, sets flow area."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "61da98a4df2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b63b95b337ab",
+          "_type": "span",
+          "marks": [],
+          "text": "Nominal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fef5517d36b0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c1cf78b7b21",
+          "_type": "span",
+          "marks": [],
+          "text": "OD (in)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "041a5de9c311",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ca462515f98",
+          "_type": "span",
+          "marks": [],
+          "text": "Type K ID (in)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5efa56be0ef9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c63f860938ba",
+          "_type": "span",
+          "marks": [],
+          "text": "Type L ID (in)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50da57a1e2b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e0e28c50361",
+          "_type": "span",
+          "marks": [],
+          "text": "Type M ID (in)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b57982e9a774",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e72a550a76d8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "924043bbe85f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e4b1450a609",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.625"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab17c2c873fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "005c29ee745b",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3e1193b4a9f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2757db4c1cef",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bc8fd1a64529",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71d8b5c02eca",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c9238799572",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07508c3ac2bc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ced2b4c977dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6410b39822e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "0.875"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "db4d53af4863",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4397ae9657c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30edca071eca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2bee3672f52",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d94b48fcac24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8061dc697f0f",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5ac9bb4f549",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab404d0cb09d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a04d472ce71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10a3e7a347c3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.125"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "211c19384308",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b82b78f25701",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8583b24bba16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af2c2fca2641",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d69f06b18f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a48926ff4b99",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7cc0ba5ec23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e663d1aa84e3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/4 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca5e51cfd429",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15343867990e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.375"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a31f7083d4fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f05ffb2f4870",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9f58a2163f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "187927bf6e44",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5866fd2aa90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7735c97988a3",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "053453071649",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36c7cfba6ef2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/2 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aaa575c593cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12a3b50c7d4a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.625"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "611999ad7a62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e440d216bc9e",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dac2a18786ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ead9f51e59cd",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8fc33514dff8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5846b064cce",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a37e846499e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ffc59191ed99",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe5b3c6b5087",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae5d25ee7f08",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2.125"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b8e2d805449",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0aad3ecfcb43",
+          "_type": "span",
+          "marks": [],
+          "text": "Smallest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43c865d94565",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b85ec6f35ba",
+          "_type": "span",
+          "marks": [],
+          "text": "Mid bore"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32868e130b10",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c9574c826a5",
+          "_type": "span",
+          "marks": [],
+          "text": "Largest of the three"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c98a07bb5054",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a13cd5e2d2e",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the manufacturer's ASTM B88 dimensional table for the exact bore on a priced job. The pattern that matters at the estimating desk is consistent. Stepping from M to K at the same nominal size buys wall, and it gives up internal area to get it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b493e4ee15d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02983c52a893",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec7ebca80f9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfa52e2b3293",
+          "_type": "span",
+          "marks": [],
+          "text": "Where Each Type Earns Its Place"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "aef2ae7d3bbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b7a828842e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Specifiers reach for "
+        },
+        {
+          "_key": "94e061afb801",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Type K"
+        },
+        {
+          "_key": "ce3ba16a9317",
+          "_type": "span",
+          "marks": [],
+          "text": " where mechanical exposure, burial, aggressive conditions, or a long service expectation justify the heavier wall. That extra material also provides more corrosion allowance, which is why K shows up in demanding service and vulnerable systems. The trade-off is cost, weight, and a reduced bore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ca7f222adeab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e20141628c9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Type L"
+        },
+        {
+          "_key": "c4385c85569e",
+          "_type": "span",
+          "marks": [],
+          "text": " is the workhorse for interior distribution, risers, and most metering tie-ins. For suite level water work, it's commonly treated as the standard default because it balances durability with a usable bore. If an existing building has no record drawings, L is often what the crew hopes to find, but hope isn't identification. Read the print line on the tube."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "239c8d29b318",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ec13f170cfc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Type M"
+        },
+        {
+          "_key": "d4029517dc9d",
+          "_type": "span",
+          "marks": [],
+          "text": " is lighter and less costly, and it can be appropriate where the governing plumbing code, pressure, corrosion environment, and authority having jurisdiction permit it. Don't extend that permission by habit from one jurisdiction or application to another. A repair that casually substitutes M into an L system may fit the same fitting while reducing the wall the original designer counted on."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30ee3dcb70e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e489af65054",
+          "_type": "span",
+          "marks": [],
+          "text": "Older Canadian buildings can hold more than one piping era in the same shaft, including plastic systems that raise separate replacement questions. If a survey turns up grey plastic supply piping alongside copper, "
+        },
+        {
+          "_key": "cdc6d906a2a1",
+          "_type": "span",
+          "marks": [
+            "c0952e64917f"
+          ],
+          "text": "find poly B pipe information"
+        },
+        {
+          "_key": "223d208ecaa8",
+          "_type": "span",
+          "marks": [],
+          "text": " before you assume the whole branch should be treated as a like for like copper repair."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c0952e64917f",
+          "_type": "link",
+          "href": "https://www.encanovan.com/blog/poly-b-pipes-bc/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c164f4134c6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a290816c101c",
+          "_type": "span",
+          "marks": [],
+          "text": "On a repair, match the existing type first. Same nominal, wrong type is still the wrong specification."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc8d0ce2a734",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5efc5ae574a8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c191c5046cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85f8c159abd2",
+          "_type": "span",
+          "marks": [],
+          "text": "DN, NPS, and Millimetre Conversions for Copper"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "42c4ee1876fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fac07537d114",
+          "_type": "span",
+          "marks": [],
+          "text": "Submittal packages rarely speak one language. A Canadian drawing may show NPS, a valve sheet may show DN, and a European fitting catalogue may lead with millimetres. Those labels overlap, but they don't convert by simple arithmetic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa7cf5a8ad7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b08c9e24ff38",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NPS"
+        },
+        {
+          "_key": "51d4a9ce6966",
+          "_type": "span",
+          "marks": [],
+          "text": " is the nominal pipe size designation in inches. "
+        },
+        {
+          "_key": "20d8cad0fdfa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN"
+        },
+        {
+          "_key": "6bab8f67115d",
+          "_type": "span",
+          "marks": [],
+          "text": " is a nominal diameter designation in millimetres. Neither one is a promise that you'll measure that exact number on the outside of a CTS copper tube."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b11970d15f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4144fcf8cf4a",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "b8cf4a286b8f",
+          "_type": "span",
+          "marks": [
+            "1066780dde01"
+          ],
+          "text": "National Plumbing Code of Canada NPS to DN conversion framework"
+        },
+        {
+          "_key": "db3eb26c0db2",
+          "_type": "span",
+          "marks": [],
+          "text": " lists "
+        },
+        {
+          "_key": "7ff66c17204c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 inch as DN 15"
+        },
+        {
+          "_key": "4ca5fddbb880",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "bb149deae6df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch as DN 20"
+        },
+        {
+          "_key": "15c9fea2f32f",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "dfc3c231cce9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 inch as DN 25"
+        },
+        {
+          "_key": "b77f0591094b",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "be106079e434",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/4 inch as DN 32"
+        },
+        {
+          "_key": "879719eec0b6",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "cbebcd123c8d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/2 inch as DN 38"
+        },
+        {
+          "_key": "c725a2712531",
+          "_type": "span",
+          "marks": [],
+          "text": ". Keep those pairings together on drawings and purchase orders so a reviewer doesn't have to infer them."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1066780dde01",
+          "_type": "link",
+          "href": "https://nrc-publications.canada.ca/eng/view/ft/?id=be2fb281-123d-43f9-a310-ec4a70afa6f5"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a41d6db6c31c",
+      "_type": "externalImage",
+      "alt": "A chart showing copper pipe size conversions between nominal inches, NPS equivalents, and DN measurements in millimeters.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7ad2c99f-f652-45d1-b087-10d0b48c8959/copper-pipe-diameters-conversion-chart.jpg"
+    },
+    {
+      "_key": "96e4077e2615",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f100b9bde6cb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dbcf68f50949",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad4380dc71c5",
+          "_type": "span",
+          "marks": [],
+          "text": "The Conversions That Cause Trouble"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "cc250996fed1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e34acf93ed20",
+          "_type": "span",
+          "marks": [],
+          "text": "Nominal copper"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f35e82df3646",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cfd87a5cc70",
+          "_type": "span",
+          "marks": [],
+          "text": "NPS"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59f98a2c87bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eea143ce845d",
+          "_type": "span",
+          "marks": [],
+          "text": "DN"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a36839c0c78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7aede1175291",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5acf0e550508",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea2858008d8f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7218413d96c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24ee1c316e52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 15"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c6b260935f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3aed2b45c4f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1be99d735540",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba654b261ac1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92047c8b1ad5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3831474b1901",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 20"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "808d049eb5a8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93bd3f94f765",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1052b400697",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d54214d907d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e36398c1ed5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e078bfaad0f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 25"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6e6b2c26a4a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef92689f55e3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/4 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab051dfaae95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52c46c229564",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/4"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5869162b2ece",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b6e40a86322",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 32"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "53e4b08f7efa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abd80b2530da",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/2 in"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d337b0967f80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7a6388fc3905",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/2"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6876084bbe85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f46a52bb0ba6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 38"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e18e99382e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e63da329fc0",
+          "_type": "span",
+          "marks": [],
+          "text": "The last row deserves attention. Many people expect "
+        },
+        {
+          "_key": "5e7a0060b142",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1-1/2 inch"
+        },
+        {
+          "_key": "0e4a86ec82d4",
+          "_type": "span",
+          "marks": [],
+          "text": " to pair with DN 40 because the arithmetic looks tidy. The Canadian code framework uses "
+        },
+        {
+          "_key": "a382772c7181",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "DN 38"
+        },
+        {
+          "_key": "3ca8e5acc9c0",
+          "_type": "span",
+          "marks": [],
+          "text": ", so a submittal review should flag the difference instead of \"correcting\" it to the rounder number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "148c44d5ec38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "732f67a245e1",
+          "_type": "span",
+          "marks": [],
+          "text": "Millimetre outside diameter is a separate column again. If a supplier quotes a true metric tube by measured OD, don't assume its DN label makes it interchangeable with a CTS tube of a similar nominal name. The fitting system has to match the actual tube OD and standard."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d944a3f60d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad4cc07effc4",
+          "_type": "span",
+          "marks": [],
+          "text": "A DN label helps two documents refer to the same nominal product. It doesn't guarantee that two tubes from different sizing systems will enter the same fitting."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f0ccf7944341",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df4eb46ac6f1",
+          "_type": "span",
+          "marks": [],
+          "text": "For multi-unit work, put three fields on every order. State the nominal inch size, the DN designation used by the adopted code, and the tube standard with type. When a meter or valve arrives with threaded ends, add the thread designation as a fourth field."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c6c5d125800",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "52fd393a77f5",
+          "_type": "span",
+          "marks": [],
+          "text": "That discipline sounds administrative until a shutdown is booked and residents have notices on their doors. Then a missing CTS to thread adapter becomes the whole day's problem."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "601dc789007f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3f0c0d0e5d8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0bcf013165d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfdcb474652f",
+          "_type": "span",
+          "marks": [],
+          "text": "Sizing Copper for Branches and Suite Connections"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "5b3c533b1dda",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf22a66a1c83",
+          "_type": "span",
+          "marks": [],
+          "text": "A branch isn't sized because it looks like the one beside it. It's sized from "
+        },
+        {
+          "_key": "1a365f5fa73d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "expected peak demand"
+        },
+        {
+          "_key": "e4448b61f289",
+          "_type": "span",
+          "marks": [],
+          "text": ", available pressure, developed length, fitting losses, elevation, and an acceptable velocity under the code edition adopted where the building sits. Nominal diameter is the output of that work, not the starting assumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23315497d50d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c24a4e19e9b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's approach shows why a single diameter can't carry a single fixture count. Under the "
+        },
+        {
+          "_key": "0f36150710e8",
+          "_type": "span",
+          "marks": [
+            "e93e4683b6f7"
+          ],
+          "text": "Ontario 2024 plumbing tables for copper fixture units and velocity"
+        },
+        {
+          "_key": "0e2ba24d62a0",
+          "_type": "span",
+          "marks": [],
+          "text": ", a "
+        },
+        {
+          "_key": "c830984aaf37",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1/2 inch copper pipe supports 4, 7, or 8 fixture units"
+        },
+        {
+          "_key": "cbc39dc171ea",
+          "_type": "span",
+          "marks": [],
+          "text": " depending on whether design velocity is limited to "
+        },
+        {
+          "_key": "ceadb2ab8440",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.5, 2.4, or 3.0 m/s"
+        },
+        {
+          "_key": "f3d84287146a",
+          "_type": "span",
+          "marks": [],
+          "text": ", a "
+        },
+        {
+          "_key": "3d832fb301f0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch pipe supports 9, 16, or 21 fixture units"
+        },
+        {
+          "_key": "28d91c11ffc8",
+          "_type": "span",
+          "marks": [],
+          "text": ", and a "
+        },
+        {
+          "_key": "bdd6af2c5445",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1 inch pipe supports 18, 31, or 43 fixture units"
+        },
+        {
+          "_key": "954d89748d63",
+          "_type": "span",
+          "marks": [],
+          "text": ". The same table logic also requires water service pipes to be sized for peak demand and generally not smaller than "
+        },
+        {
+          "_key": "0761280cd62f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "NPS 3/4"
+        },
+        {
+          "_key": "e6b1cd33a8cb",
+          "_type": "span",
+          "marks": [],
+          "text": ", in that source."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e93e4683b6f7",
+          "_type": "link",
+          "href": "https://northumberland.ca/wp-content/uploads/2025/07/2024-Ontario-Building-Code-Changes-Part-7-Accessible-Format-Final.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "42b0e8ae7f30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ff96c4dbdb4",
+          "_type": "span",
+          "marks": [],
+          "text": "Read that carefully. The diameter didn't change across each row. The permitted velocity did, and the allowable fixture load moved with it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb14401473cf",
+      "_type": "externalImage",
+      "alt": "A bar chart illustrating the fixture-unit capacity for half-inch copper pipes in bathroom, kitchen, and laundry applications.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cb9411d9-2c63-4951-a8fc-7d07deedeae8/copper-pipe-diameters-fixture-units.jpg"
+    },
+    {
+      "_key": "eeeced90f70a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1cbe0d24407",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e739d632ca1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03b390672f1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Work the Inputs in Order"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "bc3f0504e815",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f5405bf3422",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the fixtures served and their fixture unit values under the adopted code. Apply the code's diversity method for simultaneous demand rather than adding every fixture as though all of them will run at once. A suite branch, a stacked riser, and a main serving several floors don't peak in the same way."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57cbedd7e03a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "091db1d0c5ab",
+          "_type": "span",
+          "marks": [],
+          "text": "Next, establish pressure at the take-off point and work through the run. Developed length is only part of the loss. Elbows, tees, valves, strainers, backflow components, and the meter itself add equivalent length or a manufacturer stated pressure drop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a68cbac4937",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99a615b99628",
+          "_type": "span",
+          "marks": [],
+          "text": "Then account for elevation and temperature. A top floor branch has less pressure to spend than a lower floor branch fed from the same riser. Hot water brings a stricter velocity conversation than cold water, which the next sizing decision can't ignore."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "95e280a741d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc1c11ef62aa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Fixture load:"
+        },
+        {
+          "_key": "700dc633ae02",
+          "_type": "span",
+          "marks": [],
+          "text": " Count what's connected, using the adopted provincial or territorial method"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30a587b9320a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f69629477375",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Peak demand:"
+        },
+        {
+          "_key": "344a9eed505b",
+          "_type": "span",
+          "marks": [],
+          "text": " Size for the code's simultaneous demand estimate, not average daily use"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "981b7a729d47",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "996a5928569a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Residual pressure:"
+        },
+        {
+          "_key": "43ff13853a69",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm enough pressure remains at the fixture after every loss in the branch"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae2ec618bf04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cbfad9f817f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Velocity:"
+        },
+        {
+          "_key": "f15005ecc1dc",
+          "_type": "span",
+          "marks": [],
+          "text": " Check the chosen bore against the applicable hot or cold water limit"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "079c6740f182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ff748e4881d",
+          "_type": "span",
+          "marks": [],
+          "text": "That final check is where a metering retrofit can turn marginal. A "
+        },
+        {
+          "_key": "08584fd51f1f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch Type L"
+        },
+        {
+          "_key": "198a9c0c74bf",
+          "_type": "span",
+          "marks": [],
+          "text": " branch that performed acceptably with a straight run and one shutoff may not perform the same way after a meter, strainer, and two isolation valves are inserted. The tube didn't get smaller, but the pressure budget did."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dfa82e850e0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "857c946bf23b",
+          "_type": "span",
+          "marks": [],
+          "text": "This is also where meter selection and pipe sizing stop being separate purchases. The background in "
+        },
+        {
+          "_key": "21d3106c8f60",
+          "_type": "span",
+          "marks": [
+            "548d2403c542"
+          ],
+          "text": "residential water meters and suite level selection"
+        },
+        {
+          "_key": "417a0f01769c",
+          "_type": "span",
+          "marks": [],
+          "text": " is useful because the meter's approved operating range has to suit the branch's real demand, not just its nominal connection size."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "548d2403c542",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/residential-water-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2296e6b4e8a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "caf11d44cfc6",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't copy an existing diameter during a retrofit without asking what has changed. Added fixtures, altered recirculation, lower supply pressure, and new in-line components can all invalidate a size that once worked."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a6c67c61111a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "771becdedadd",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3fdb5d83cfac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f486ddb758f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Why Bigger Is Not Always Safer in Copper"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "17f5e1d1cd33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bbde1429ebd2",
+          "_type": "span",
+          "marks": [],
+          "text": "Oversizing feels conservative. In copper water distribution, it often isn't. A larger bore lowers velocity at a given flow, which can increase water residence time in branches that already see intermittent use. Long residence time supports stagnation, and stagnant sections are harder to keep in good condition than branches that turn over regularly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "45835ab40b65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "199dc833c00c",
+          "_type": "span",
+          "marks": [],
+          "text": "Undersizing creates the opposite problem. Push the same demand through a smaller bore and velocity rises. Residents may hear noise, pressure fluctuates more sharply, and sustained high velocity can contribute to "
+        },
+        {
+          "_key": "59697a262281",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "erosion corrosion"
+        },
+        {
+          "_key": "f44d2056742f",
+          "_type": "span",
+          "marks": [],
+          "text": ", especially where direction changes and fittings disturb the flow."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34220a23bbd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "907381730134",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de0b429aeb24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "475a80b36f88",
+          "_type": "span",
+          "marks": [],
+          "text": "Velocity Is a Temperature Question"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7ea8cd8ae4cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2d6f9a955847",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian guidance doesn't give one magic velocity for every copper run. Ontario's table uses "
+        },
+        {
+          "_key": "75308ea22568",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.5, 2.4, and 3.0 m/s"
+        },
+        {
+          "_key": "8165f5671d51",
+          "_type": "span",
+          "marks": [],
+          "text": " design columns for copper, as cited in the section above. British Columbia Housing cites Canadian Copper and Brass Development Association recommendations of "
+        },
+        {
+          "_key": "ad2b90224341",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.5 m/s for domestic cold water"
+        },
+        {
+          "_key": "be7079265e34",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "4c4d1648fe0a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.2 m/s for domestic hot water up to 60°C"
+        },
+        {
+          "_key": "29c32cff2045",
+          "_type": "span",
+          "marks": [],
+          "text": ", in the guidance summarized by the "
+        },
+        {
+          "_key": "f2c6c3b53613",
+          "_type": "span",
+          "marks": [
+            "642596ab59e7"
+          ],
+          "text": "National Plumbing Code of Canada 2025 corrosion and velocity reference"
+        },
+        {
+          "_key": "c71c3eee9a8e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Watts likewise notes approximately "
+        },
+        {
+          "_key": "f529d1da24da",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 ft/s for cold water"
+        },
+        {
+          "_key": "d9005c0f948f",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "6ef5ca3bf5e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5 ft/s for hot water at 140°F"
+        },
+        {
+          "_key": "3eff62cd7340",
+          "_type": "span",
+          "marks": [],
+          "text": ", with recommended velocity falling to "
+        },
+        {
+          "_key": "3ee8ab0bf3d2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2 to 3 ft/s"
+        },
+        {
+          "_key": "3ffafcd673e7",
+          "_type": "span",
+          "marks": [],
+          "text": " above that temperature, in the same summary."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "642596ab59e7",
+          "_type": "link",
+          "href": "https://nrc-publications.canada.ca/eng/view/ft/?id=c97ac796-01fc-4383-9c68-b271db2802cf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "934e0310acf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b88d91c00d99",
+          "_type": "span",
+          "marks": [],
+          "text": "Those numbers aren't interchangeable design permissions. They come from different tables, applications, and temperature assumptions. The lesson is that \"copper can handle it\" is too vague to defend a diameter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0cf67276a85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e813d9217fea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Sizing principle:"
+        },
+        {
+          "_key": "670c49c6a9e3",
+          "_type": "span",
+          "marks": [],
+          "text": " Choose the smallest diameter that meets peak demand, residual pressure, and the applicable velocity limit. Don't choose the largest tube that fits in the wall."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f54a577793b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a162270e06ec",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00a9cb7ea199",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a0ddcc49681",
+          "_type": "span",
+          "marks": [],
+          "text": "Corrosion Starts on the Drawing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "15935fb34b23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bd9e328d64c",
+          "_type": "span",
+          "marks": [],
+          "text": "The 2025 national code discussion makes a point many diameter charts skip. Corrosion can result from poor system design or installation, including "
+        },
+        {
+          "_key": "46f8e3698b24",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "erosion corrosion, galvanic corrosion, and fatigue cracking"
+        },
+        {
+          "_key": "2a34afbb0dee",
+          "_type": "span",
+          "marks": [],
+          "text": ", not from water chemistry alone. British Columbia Housing further reports that corrosive conditions can cause premature copper failures and identifies thicker "
+        },
+        {
+          "_key": "06ab12579d89",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Type K"
+        },
+        {
+          "_key": "be5b85f4291c",
+          "_type": "span",
+          "marks": [],
+          "text": " as more durable than Type L in vulnerable systems, as summarized in the source above."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbe7ebb043e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6471296a35b",
+          "_type": "span",
+          "marks": [],
+          "text": "That changes the remedy. If a hot water branch is failing at elbows, upsizing the whole run without checking velocity, temperature, recirculation balance, and dissimilar metal transitions may treat the symptom badly. A heavier wall may buy time, but it won't correct a layout that keeps attacking the tube."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "35634bcaf0e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0e554fad55b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Metering work adds local turbulence and new material interfaces at adapters, strainers, and valves. Keep those transitions deliberate, supported, and compatible. Bigger copper can't compensate for a poorly arranged assembly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fb8c6507116",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "411c5f4f641c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9adc568dac67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19ce9faadaf4",
+          "_type": "span",
+          "marks": [],
+          "text": "Matching Copper to a Water Meter Body"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8015a4664d2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "edb8b6c7bbcf",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter body is selected by "
+        },
+        {
+          "_key": "dfe78b2d4318",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "nominal connection size and flow range"
+        },
+        {
+          "_key": "bad7d90bbfde",
+          "_type": "span",
+          "marks": [],
+          "text": ", not by sliding a caliper into its bore. A nominal "
+        },
+        {
+          "_key": "75f363e3beb2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3/4 inch"
+        },
+        {
+          "_key": "30ce13f05bd1",
+          "_type": "span",
+          "marks": [],
+          "text": " meter may connect through a copper tube end, a union, or a threaded adapter, depending on the manufacturer. The copper run and the meter ends have to be specified as one assembly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1444a669cf7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c36a287d17cf",
+          "_type": "span",
+          "marks": [],
+          "text": "Start by confirming what is already in the wall. Identify the ASTM standard, tube type, nominal size, orientation, and available straight length before you commit to a lay length. A meter that fits between two fittings on paper still needs room for unions, isolation, drainage, reading access, and future replacement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "49dba0d1cd7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9fa551b3451",
+          "_type": "span",
+          "marks": [],
+          "text": "The screenshot below shows how a submetering scope is typically presented before those field details are tied to a specific branch."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b6054eaa2f5",
+      "_type": "externalImage",
+      "alt": "Screenshot from https://axismeter.com",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/f33e92e9-b1b8-4eeb-98fa-fd039157d81b/copper-pipe-diameters-utility-submetering.jpg"
+    },
+    {
+      "_key": "c23ba124961c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81cdea3255a9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a20b482bd69e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7b6f1379127f",
+          "_type": "span",
+          "marks": [],
+          "text": "Build a Pressure Loss Budget"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f2cb509921f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1dfff06fb73",
+          "_type": "span",
+          "marks": [],
+          "text": "Every component in the metering assembly spends pressure. The meter has a loss across its operating range, and a strainer adds more as it collects debris. Isolation valves, checks or backflow components where required, reducers, and nearby elbows also belong in the calculation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f11c7163786e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4fd7092dac7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Check that total against the branch's residual pressure requirement at peak demand. If the margin disappears, options include selecting a meter with a suitable range and lower loss at expected flows, upsizing the local assembly where the design permits it, or revisiting the branch size. Don't solve it by removing a required strainer or valve and calling the assembly efficient."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c45f288c4dd2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "039a538be7d6",
+          "_type": "span",
+          "marks": [],
+          "text": "Reducer placement matters too. Locate and support reducers in accordance with the meter manufacturer's installation instructions, with the required straight pipe or flow conditioning for that meter technology. A reducer jammed against the inlet can disturb the profile the meter expects, and a heavy assembly hanging from copper without support invites fatigue at the joints."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c546a329e02",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e7c9e755a6f",
+          "_type": "span",
+          "marks": [],
+          "text": "The selection principles in "
+        },
+        {
+          "_key": "99e6d24d2a7c",
+          "_type": "span",
+          "marks": [
+            "c532d51fee51"
+          ],
+          "text": "in-line water flow meter sizing and placement"
+        },
+        {
+          "_key": "ace128a88dbd",
+          "_type": "span",
+          "marks": [],
+          "text": " are relevant here because nominal connection size alone doesn't establish accuracy. Low flows at night, peak morning demand, and pressure loss all have to sit inside the meter's approved range."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "c532d51fee51",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/in-line-water-flow-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e98f9aafc906",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26f0552d746e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb5e5aad6411",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d511d9258cdf",
+          "_type": "span",
+          "marks": [],
+          "text": "Orientation, Temperature, and Service Access"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "aee2bd8f8dca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6261c7e52c84",
+          "_type": "span",
+          "marks": [],
+          "text": "Follow the flow arrow, then verify orientation against the manufacturer's permitted positions. Some assemblies tolerate vertical installation and others have restrictions that affect registration or servicing. A run that looks horizontal in a crowded ceiling may be pitched, trapped, or impossible to drain without wetting the suite below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dace1f2341ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2905eea5c97",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate cold and hot water requirements early. A hot water meter needs a body, seals, and electronics or register arrangement rated for that service, and the copper velocity check is stricter on the hot side. Don't let a single bulk order blur the two applications."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8791b4f61caf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35d74bbd8a3b",
+          "_type": "span",
+          "marks": [],
+          "text": "The short video below is a useful visual pause before finalizing an assembly, because lay length and access problems are easier to spot in three dimensions than in a parts list."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d0a6c6b6568",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61d251b60de6",
+          "_type": "span",
+          "marks": [],
+          "text": "Support the finished assembly so valve operation doesn't twist the copper. Leave the strainer serviceable, the register readable, and isolation on both sides where the design calls for it. Most tenant side complaints after a retrofit trace back to pressure, noise, or a meter that never matched the branch, not to the nominal label."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "719e07019974",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "695611bac2f0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c2383904d60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27631cc02666",
+          "_type": "span",
+          "marks": [],
+          "text": "Quick Reference and Selection Workflow"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e2beab39c682",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ff374ca62ac9",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the same sequence on every suite, even when the building looks uniform from the corridor. Stacks get repaired over decades, and one altered branch can break a building wide assumption."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ba2c870acc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc03e752c578",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read the print line:"
+        },
+        {
+          "_key": "29950f5aff66",
+          "_type": "span",
+          "marks": [],
+          "text": " Record the ASTM standard, type, nominal size, and temper where visible"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bbb87725b261",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90a7dcef9a5c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measure outside diameter:"
+        },
+        {
+          "_key": "ef3fa6901766",
+          "_type": "span",
+          "marks": [],
+          "text": " Use a caliper to confirm the CTS nominal size instead of relying on an old tag"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c42ebfc8feef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "082ed64b1f27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Match the wall type:"
+        },
+        {
+          "_key": "54b6ea64c0b1",
+          "_type": "span",
+          "marks": [],
+          "text": " Specify K, L, or M deliberately, with the adopted code and service conditions in view"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8843a97b07fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c5f70b95765",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Convert the designation:"
+        },
+        {
+          "_key": "c650d62e308f",
+          "_type": "span",
+          "marks": [],
+          "text": " Add the correct DN pairing and identify every threaded end separately"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e34bce2ca3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "643a81b28cf2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Size the branch:"
+        },
+        {
+          "_key": "e0f0a118047b",
+          "_type": "span",
+          "marks": [],
+          "text": " Check fixture units, peak demand, pressure loss, elevation, and velocity"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ba5901cb0b71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebf1778bb07d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Select the meter assembly:"
+        },
+        {
+          "_key": "1b9f639a56fd",
+          "_type": "span",
+          "marks": [],
+          "text": " Match connection, flow range, lay length, orientation, temperature rating, and support"
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "afb792020145",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e200e8998a5a",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm the provincial or territorial code edition and any municipal requirements with the "
+        },
+        {
+          "_key": "f8fd66dd52a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "authority having jurisdiction"
+        },
+        {
+          "_key": "bf100dd43f36",
+          "_type": "span",
+          "marks": [],
+          "text": " before material is released. Fire suppression, medical gas, and boiler side work sit outside a general suite metering workflow and need their own design authority."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52b016a84447",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed3ec5c8d028",
+          "_type": "span",
+          "marks": [],
+          "text": "For Ontario projects, the jurisdictional context in "
+        },
+        {
+          "_key": "368ddf4ee84b",
+          "_type": "span",
+          "marks": [
+            "5e60b3170bee"
+          ],
+          "text": "water meter requirements in Ontario"
+        },
+        {
+          "_key": "f699752ebabd",
+          "_type": "span",
+          "marks": [],
+          "text": " helps separate plumbing approval from the metering program around it. Keep the engineer of record in the decision where riser capacity, recirculation, or pressure is already marginal."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5e60b3170bee",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/water-meter-ontario"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "11eea3400f9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd732a878fce",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "18f902a1fa72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8831064c3ec5",
+          "_type": "span",
+          "marks": [],
+          "text": "Cross-Reference Questions Readers Still Ask"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0e886676028c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1a8a2c555b9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Does the joining method change inside diameter?"
+        },
+        {
+          "_key": "ca7eafca772b",
+          "_type": "span",
+          "marks": [],
+          "text": " Solder, press, and push fit joints don't change the tube's own bore, but the fitting's internal geometry and any inserted component can affect local loss and turbulence. Check the assembly, not just the straight tube."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "42898a4d18ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a649c299fd0d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Can DWV copper replace water tube at the same nominal size?"
+        },
+        {
+          "_key": "f68fbeb8bcf1",
+          "_type": "span",
+          "marks": [],
+          "text": " No. DWV tube under ASTM B306 is a drainage product, while pressure water distribution uses the applicable water tube standard and type. Same label, different job."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "641ecd6cd800",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f09af90ce8f4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Why do refrigeration and medical gas tubes look similar?"
+        },
+        {
+          "_key": "5f8570da9855",
+          "_type": "span",
+          "marks": [],
+          "text": " They're separate products with their own standards, cleanliness, certification, and sizing practices. Don't borrow a water tube chart for either one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "160b0dde6172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8ea7e0d6ce8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "When is a reducer at a meter acceptable?"
+        },
+        {
+          "_key": "15c14767c45e",
+          "_type": "span",
+          "marks": [],
+          "text": " When the engineer and meter manufacturer accept its location, the flow range still suits the branch, and the total pressure budget works. If velocity, accuracy, or residual pressure fails, the assembly or branch needs a fuller redesign."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f422b4cf400",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99c62f5154ff",
+          "_type": "span",
+          "marks": [],
+          "text": "If you're adding suite level water meters to a Canadian multi-unit building and the existing copper doesn't match the drawings, Axis Meter Solutions can survey the runs, align meter bodies to the actual tube type and branch demand, and deliver installation, commissioning, and tenant billing as one coordinated program. Visit "
+        },
+        {
+          "_key": "9aa24576356e",
+          "_type": "span",
+          "marks": [
+            "2e4578e0fa5e"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "83a7d5f4fe5b",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss your building before the next shutdown window is booked."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2e4578e0fa5e",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Insights",
+  "excerpt": "Learn copper pipe diameters, nominal vs actual sizes, Type K L M standards, DN conversions, and how to pick the right tube for plumbing and metering.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/32d8bb5b-21ca-4b49-9544-7260b5d8d7a3/copper-pipe-diameters-plumbing-fittings.jpg",
+  "noIndex": false,
+  "outrankId": "85fb8fb1-79a3-4221-b7cd-96d7086fc561",
+  "publishedAt": "2026-10-22T10:20:23.385089+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "copper-pipe-diameters"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re standing in a service corridor with a caliper, a submittal sheet, and a suite shutoff that won&#39;t match either one. The drawing says <strong>3/4 inch</strong>, the tube in the wall measures larger than that, and the meter on the cart looks right until you try the fitting. That mismatch is normal in Canadian copper work, and it&#39;s exactly why <strong>Copper Pipe Diameters</strong> need more than a quick lookup chart.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#why-copper-pipe-diameters-are-harder-than-they-look\">Why Copper Pipe Diameters Are Harder Than They Look</a><ul>\n<li><a href=\"#three-variables-hidden-in-one-label\">Three Variables Hidden in One Label</a></li>\n<li><a href=\"#what-a-complete-specification-looks-like\">What a Complete Specification Looks Like</a></li>\n</ul>\n</li>\n<li><a href=\"#nominal-vs-actual-diameter-in-north-american-copper\">Nominal vs Actual Diameter in North American Copper</a><ul>\n<li><a href=\"#why-your-measurement-looks-wrong\">Why Your Measurement Looks Wrong</a></li>\n<li><a href=\"#tube-is-not-pipe-and-water-tube-is-not-dwv\">Tube Is Not Pipe, and Water Tube Is Not DWV</a></li>\n</ul>\n</li>\n<li><a href=\"#type-k-l-and-m-compared-by-wall-and-use\">Type K, L, and M Compared by Wall and Use</a><ul>\n<li><a href=\"#where-each-type-earns-its-place\">Where Each Type Earns Its Place</a></li>\n</ul>\n</li>\n<li><a href=\"#dn-nps-and-millimetre-conversions-for-copper\">DN, NPS, and Millimetre Conversions for Copper</a><ul>\n<li><a href=\"#the-conversions-that-cause-trouble\">The Conversions That Cause Trouble</a></li>\n</ul>\n</li>\n<li><a href=\"#sizing-copper-for-branches-and-suite-connections\">Sizing Copper for Branches and Suite Connections</a><ul>\n<li><a href=\"#work-the-inputs-in-order\">Work the Inputs in Order</a></li>\n</ul>\n</li>\n<li><a href=\"#why-bigger-is-not-always-safer-in-copper\">Why Bigger Is Not Always Safer in Copper</a><ul>\n<li><a href=\"#velocity-is-a-temperature-question\">Velocity Is a Temperature Question</a></li>\n<li><a href=\"#corrosion-starts-on-the-drawing\">Corrosion Starts on the Drawing</a></li>\n</ul>\n</li>\n<li><a href=\"#matching-copper-to-a-water-meter-body\">Matching Copper to a Water Meter Body</a><ul>\n<li><a href=\"#build-a-pressure-loss-budget\">Build a Pressure Loss Budget</a></li>\n<li><a href=\"#orientation-temperature-and-service-access\">Orientation, Temperature, and Service Access</a></li>\n</ul>\n</li>\n<li><a href=\"#quick-reference-and-selection-workflow\">Quick Reference and Selection Workflow</a></li>\n<li><a href=\"#cross-reference-questions-readers-still-ask\">Cross-Reference Questions Readers Still Ask</a></li>\n</ul>\n<p><a id=\"why-copper-pipe-diameters-are-harder-than-they-look\"></a></p>\n<h2>Why Copper Pipe Diameters Are Harder Than They Look</h2>\n<p>A property manager in a 60 suite building points at a riser and asks a fair question. Will the new submeter fit that <strong>3/4 inch</strong> copper? One installer says yes because the nominal sizes match. Another hesitates because he doesn&#39;t know the tube type, the adapter thread, or whether there&#39;s enough straight, supported length for the meter body.</p>\n<p>Both reactions make sense. The nominal label only names the product family. It doesn&#39;t tell you the <strong>outside diameter</strong>, the <strong>inside diameter</strong>, or the <strong>wall thickness</strong> that determines flow area and durability.</p>\n<p><a id=\"three-variables-hidden-in-one-label\"></a></p>\n<h3>Three Variables Hidden in One Label</h3>\n<p>Fittings care about outside diameter. Flow and velocity care about inside diameter. Pressure capability, corrosion allowance, and service life care about the wall between them.</p>\n<p>Get the first wrong and the joint won&#39;t assemble cleanly. Get the second wrong and your velocity calculation is fiction. Get the third wrong and you&#39;ve specified a tube that looks correct on the rack but behaves differently in the system.</p>\n<blockquote>\n<p><strong>On site rule:</strong> Never approve a meter, valve, or repair coupling from the nominal number alone. Confirm the tube standard and type stamped on the existing run first.</p>\n</blockquote>\n<p><a id=\"what-a-complete-specification-looks-like\"></a></p>\n<h3>What a Complete Specification Looks Like</h3>\n<p>A defensible copper specification isn&#39;t &quot;copper pipe.&quot; It&#39;s a four part string that a supplier, installer, and inspector can all read the same way.</p>\n<ul>\n<li><strong>Nominal size:</strong> The familiar label, such as <strong>1/2 inch</strong> or <strong>3/4 inch</strong></li>\n<li><strong>Tube type:</strong> <strong>K, L, or M</strong> for water tube, or a different product for DWV, refrigeration, or medical gas</li>\n<li><strong>Temper and form:</strong> Hard drawn straight lengths or soft coil, where that choice applies</li>\n<li><strong>Applicable standard and joining method:</strong> The ASTM designation plus solder, press, or another approved joint</li>\n</ul>\n<p>That string prevents the most common rework I see on metering retrofits. Crews order by nominal size, discover the existing tube is a different type than assumed, then lose a shutdown window to adapters that should&#39;ve been in the original material list.</p>\n<p>It also protects billing accuracy. A meter forced into a run with poor alignment, nearby turbulence, or an operating range that doesn&#39;t suit the branch won&#39;t give the property a trustworthy reading, even if the joint doesn&#39;t leak.</p>\n<p>Keep the logic in order as you work. Identify the standard, confirm actual dimensions, compare wall types, convert the designation correctly, then size for demand and velocity before you select a meter.</p>\n<p><a id=\"nominal-vs-actual-diameter-in-north-american-copper\"></a></p>\n<h2>Nominal vs Actual Diameter in North American Copper</h2>\n<p>North American copper water tube uses the <strong>Copper Tube Size</strong>, or <strong>CTS</strong>, convention. The nominal label is a historical name, not a live measurement of the tube you&#39;re holding. That&#39;s why your tape and the printed size disagree without either one being wrong.</p>\n<p>For CTS water tube, actual outside diameter is the stable dimension across Types K, L, and M at a given nominal size. Inside diameter changes because wall thickness changes. A thicker wall leaves a smaller bore inside the same outside envelope.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8de79038-a02e-4f8d-8997-73448ba14343/copper-pipe-diameters-pipe-measurement.jpg\" alt=\"A diagram comparing nominal and actual copper pipe diameters with a ruler and digital caliper.\"></p>\n<p><a id=\"why-your-measurement-looks-wrong\"></a></p>\n<h3>Why Your Measurement Looks Wrong</h3>\n<p>Measure the outside of a nominal <strong>1/2 inch</strong> CTS tube and you&#39;ll get a larger number than the label. Measure a nominal <strong>3/4 inch</strong> tube and the same pattern holds. The fitting socket is built for that actual outside diameter, while the box still carries the nominal name.</p>\n<p>Don&#39;t order a fitting by the socket measurement. Fittings are named for the nominal tube they join. If you measure the socket and order that dimension as though it were nominal, you&#39;ll bring back a fitting one size too large.</p>\n<p>Threaded ends add another trap. A copper fitting can have a CTS socket on one side and a threaded connection on the other, and those ends don&#39;t follow the same naming logic. Read each end on the submittal separately.</p>\n<p><a id=\"tube-is-not-pipe-and-water-tube-is-not-dwv\"></a></p>\n<h3>Tube Is Not Pipe, and Water Tube Is Not DWV</h3>\n<p>Canadian product identification is clearer when you name the standard. The <a href=\"https://publications-cnrc.canada.ca/eng/view/ft/?id=6e7cabf5-d83e-4efd-9a1c-6515fc7cdc71&dsl=en\">Canadian reference for ASTM copper tube standards</a> identifies <strong>ASTM B88 for Types K, L, and M water tube</strong>, <strong>ASTM B306 for DWV tube</strong>, <strong>ASTM B280 and B68 for refrigeration and air-conditioning tube</strong>, and <strong>ASTM B819 for medical-gas tube</strong>. Those standards set outside diameter, inside diameter, wall thickness, and tolerances for their products.</p>\n<p>That distinction matters because true copper pipe under ASTM B42 doesn&#39;t share the CTS water tube dimensions, and DWV tube is a drainage product, not a pressure distribution substitute. Refrigeration tube follows its own sizing practice as well, so a water tube chart is the wrong tool for it.</p>\n<p>The Canadian reference also covers an outside diameter range of approximately <strong>0.2 to 4.25 inches</strong> for the defined copper tube products in the same source. Across a range that wide, &quot;copper&quot; by itself tells a buyer almost nothing.</p>\n<p>Treat nominal as an index into a standard, not as a dimension. Once you&#39;ve found the right row in the right standard, the outside diameter, bore, and wall stop being guesswork.</p>\n<p><a id=\"type-k-l-and-m-compared-by-wall-and-use\"></a></p>\n<h2>Type K, L, and M Compared by Wall and Use</h2>\n<p>At the same nominal size, Types K, L, and M share the same outside diameter. They don&#39;t share the same wall, bore, or service expectation. Type K has the thickest wall and smallest inside diameter. Type M has the thinnest wall and largest bore. Type L sits between them.</p>\n<p>That sounds like a minor manufacturing detail until you price a riser replacement or try to hold velocity in a hot water recirculation branch. The bore you have, not the label on the bundle, sets flow area.</p>\n<table>\n<thead>\n<tr>\n<th>Nominal</th>\n<th>OD (in)</th>\n<th>Type K ID (in)</th>\n<th>Type L ID (in)</th>\n<th>Type M ID (in)</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>1/2 in</strong></td>\n<td><strong>0.625</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n<tr>\n<td><strong>3/4 in</strong></td>\n<td><strong>0.875</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n<tr>\n<td><strong>1 in</strong></td>\n<td><strong>1.125</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n<tr>\n<td><strong>1-1/4 in</strong></td>\n<td><strong>1.375</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n<tr>\n<td><strong>1-1/2 in</strong></td>\n<td><strong>1.625</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n<tr>\n<td><strong>2 in</strong></td>\n<td><strong>2.125</strong></td>\n<td>Smallest of the three</td>\n<td>Mid bore</td>\n<td>Largest of the three</td>\n</tr>\n</tbody></table>\n<p>Use the manufacturer&#39;s ASTM B88 dimensional table for the exact bore on a priced job. The pattern that matters at the estimating desk is consistent. Stepping from M to K at the same nominal size buys wall, and it gives up internal area to get it.</p>\n<p><a id=\"where-each-type-earns-its-place\"></a></p>\n<h3>Where Each Type Earns Its Place</h3>\n<p>Specifiers reach for <strong>Type K</strong> where mechanical exposure, burial, aggressive conditions, or a long service expectation justify the heavier wall. That extra material also provides more corrosion allowance, which is why K shows up in demanding service and vulnerable systems. The trade-off is cost, weight, and a reduced bore.</p>\n<p><strong>Type L</strong> is the workhorse for interior distribution, risers, and most metering tie-ins. For suite level water work, it&#39;s commonly treated as the standard default because it balances durability with a usable bore. If an existing building has no record drawings, L is often what the crew hopes to find, but hope isn&#39;t identification. Read the print line on the tube.</p>\n<p><strong>Type M</strong> is lighter and less costly, and it can be appropriate where the governing plumbing code, pressure, corrosion environment, and authority having jurisdiction permit it. Don&#39;t extend that permission by habit from one jurisdiction or application to another. A repair that casually substitutes M into an L system may fit the same fitting while reducing the wall the original designer counted on.</p>\n<p>Older Canadian buildings can hold more than one piping era in the same shaft, including plastic systems that raise separate replacement questions. If a survey turns up grey plastic supply piping alongside copper, <a href=\"https://www.encanovan.com/blog/poly-b-pipes-bc/\">find poly B pipe information</a> before you assume the whole branch should be treated as a like for like copper repair.</p>\n<p>On a repair, match the existing type first. Same nominal, wrong type is still the wrong specification.</p>\n<p><a id=\"dn-nps-and-millimetre-conversions-for-copper\"></a></p>\n<h2>DN, NPS, and Millimetre Conversions for Copper</h2>\n<p>Submittal packages rarely speak one language. A Canadian drawing may show NPS, a valve sheet may show DN, and a European fitting catalogue may lead with millimetres. Those labels overlap, but they don&#39;t convert by simple arithmetic.</p>\n<p><strong>NPS</strong> is the nominal pipe size designation in inches. <strong>DN</strong> is a nominal diameter designation in millimetres. Neither one is a promise that you&#39;ll measure that exact number on the outside of a CTS copper tube.</p>\n<p>The <a href=\"https://nrc-publications.canada.ca/eng/view/ft/?id=be2fb281-123d-43f9-a310-ec4a70afa6f5\">National Plumbing Code of Canada NPS to DN conversion framework</a> lists <strong>1/2 inch as DN 15</strong>, <strong>3/4 inch as DN 20</strong>, <strong>1 inch as DN 25</strong>, <strong>1-1/4 inch as DN 32</strong>, and <strong>1-1/2 inch as DN 38</strong>. Keep those pairings together on drawings and purchase orders so a reviewer doesn&#39;t have to infer them.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7ad2c99f-f652-45d1-b087-10d0b48c8959/copper-pipe-diameters-conversion-chart.jpg\" alt=\"A chart showing copper pipe size conversions between nominal inches, NPS equivalents, and DN measurements in millimeters.\"></p>\n<p><a id=\"the-conversions-that-cause-trouble\"></a></p>\n<h3>The Conversions That Cause Trouble</h3>\n<table>\n<thead>\n<tr>\n<th>Nominal copper</th>\n<th>NPS</th>\n<th>DN</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>1/2 in</strong></td>\n<td><strong>1/2</strong></td>\n<td><strong>DN 15</strong></td>\n</tr>\n<tr>\n<td><strong>3/4 in</strong></td>\n<td><strong>3/4</strong></td>\n<td><strong>DN 20</strong></td>\n</tr>\n<tr>\n<td><strong>1 in</strong></td>\n<td><strong>1</strong></td>\n<td><strong>DN 25</strong></td>\n</tr>\n<tr>\n<td><strong>1-1/4 in</strong></td>\n<td><strong>1-1/4</strong></td>\n<td><strong>DN 32</strong></td>\n</tr>\n<tr>\n<td><strong>1-1/2 in</strong></td>\n<td><strong>1-1/2</strong></td>\n<td><strong>DN 38</strong></td>\n</tr>\n</tbody></table>\n<p>The last row deserves attention. Many people expect <strong>1-1/2 inch</strong> to pair with DN 40 because the arithmetic looks tidy. The Canadian code framework uses <strong>DN 38</strong>, so a submittal review should flag the difference instead of &quot;correcting&quot; it to the rounder number.</p>\n<p>Millimetre outside diameter is a separate column again. If a supplier quotes a true metric tube by measured OD, don&#39;t assume its DN label makes it interchangeable with a CTS tube of a similar nominal name. The fitting system has to match the actual tube OD and standard.</p>\n<blockquote>\n<p>A DN label helps two documents refer to the same nominal product. It doesn&#39;t guarantee that two tubes from different sizing systems will enter the same fitting.</p>\n</blockquote>\n<p>For multi-unit work, put three fields on every order. State the nominal inch size, the DN designation used by the adopted code, and the tube standard with type. When a meter or valve arrives with threaded ends, add the thread designation as a fourth field.</p>\n<p>That discipline sounds administrative until a shutdown is booked and residents have notices on their doors. Then a missing CTS to thread adapter becomes the whole day&#39;s problem.</p>\n<p><a id=\"sizing-copper-for-branches-and-suite-connections\"></a></p>\n<h2>Sizing Copper for Branches and Suite Connections</h2>\n<p>A branch isn&#39;t sized because it looks like the one beside it. It&#39;s sized from <strong>expected peak demand</strong>, available pressure, developed length, fitting losses, elevation, and an acceptable velocity under the code edition adopted where the building sits. Nominal diameter is the output of that work, not the starting assumption.</p>\n<p>Ontario&#39;s approach shows why a single diameter can&#39;t carry a single fixture count. Under the <a href=\"https://northumberland.ca/wp-content/uploads/2025/07/2024-Ontario-Building-Code-Changes-Part-7-Accessible-Format-Final.pdf\">Ontario 2024 plumbing tables for copper fixture units and velocity</a>, a <strong>1/2 inch copper pipe supports 4, 7, or 8 fixture units</strong> depending on whether design velocity is limited to <strong>1.5, 2.4, or 3.0 m/s</strong>, a <strong>3/4 inch pipe supports 9, 16, or 21 fixture units</strong>, and a <strong>1 inch pipe supports 18, 31, or 43 fixture units</strong>. The same table logic also requires water service pipes to be sized for peak demand and generally not smaller than <strong>NPS 3/4</strong>, in that source.</p>\n<p>Read that carefully. The diameter didn&#39;t change across each row. The permitted velocity did, and the allowable fixture load moved with it.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/cb9411d9-2c63-4951-a8fc-7d07deedeae8/copper-pipe-diameters-fixture-units.jpg\" alt=\"A bar chart illustrating the fixture-unit capacity for half-inch copper pipes in bathroom, kitchen, and laundry applications.\"></p>\n<p><a id=\"work-the-inputs-in-order\"></a></p>\n<h3>Work the Inputs in Order</h3>\n<p>Start with the fixtures served and their fixture unit values under the adopted code. Apply the code&#39;s diversity method for simultaneous demand rather than adding every fixture as though all of them will run at once. A suite branch, a stacked riser, and a main serving several floors don&#39;t peak in the same way.</p>\n<p>Next, establish pressure at the take-off point and work through the run. Developed length is only part of the loss. Elbows, tees, valves, strainers, backflow components, and the meter itself add equivalent length or a manufacturer stated pressure drop.</p>\n<p>Then account for elevation and temperature. A top floor branch has less pressure to spend than a lower floor branch fed from the same riser. Hot water brings a stricter velocity conversation than cold water, which the next sizing decision can&#39;t ignore.</p>\n<ul>\n<li><strong>Fixture load:</strong> Count what&#39;s connected, using the adopted provincial or territorial method</li>\n<li><strong>Peak demand:</strong> Size for the code&#39;s simultaneous demand estimate, not average daily use</li>\n<li><strong>Residual pressure:</strong> Confirm enough pressure remains at the fixture after every loss in the branch</li>\n<li><strong>Velocity:</strong> Check the chosen bore against the applicable hot or cold water limit</li>\n</ul>\n<p>That final check is where a metering retrofit can turn marginal. A <strong>3/4 inch Type L</strong> branch that performed acceptably with a straight run and one shutoff may not perform the same way after a meter, strainer, and two isolation valves are inserted. The tube didn&#39;t get smaller, but the pressure budget did.</p>\n<p>This is also where meter selection and pipe sizing stop being separate purchases. The background in <a href=\"https://www.axismeter.com/blog/residential-water-meters\">residential water meters and suite level selection</a> is useful because the meter&#39;s approved operating range has to suit the branch&#39;s real demand, not just its nominal connection size.</p>\n<p>Don&#39;t copy an existing diameter during a retrofit without asking what has changed. Added fixtures, altered recirculation, lower supply pressure, and new in-line components can all invalidate a size that once worked.</p>\n<p><a id=\"why-bigger-is-not-always-safer-in-copper\"></a></p>\n<h2>Why Bigger Is Not Always Safer in Copper</h2>\n<p>Oversizing feels conservative. In copper water distribution, it often isn&#39;t. A larger bore lowers velocity at a given flow, which can increase water residence time in branches that already see intermittent use. Long residence time supports stagnation, and stagnant sections are harder to keep in good condition than branches that turn over regularly.</p>\n<p>Undersizing creates the opposite problem. Push the same demand through a smaller bore and velocity rises. Residents may hear noise, pressure fluctuates more sharply, and sustained high velocity can contribute to <strong>erosion corrosion</strong>, especially where direction changes and fittings disturb the flow.</p>\n<p><a id=\"velocity-is-a-temperature-question\"></a></p>\n<h3>Velocity Is a Temperature Question</h3>\n<p>Canadian guidance doesn&#39;t give one magic velocity for every copper run. Ontario&#39;s table uses <strong>1.5, 2.4, and 3.0 m/s</strong> design columns for copper, as cited in the section above. British Columbia Housing cites Canadian Copper and Brass Development Association recommendations of <strong>1.5 m/s for domestic cold water</strong> and <strong>1.2 m/s for domestic hot water up to 60°C</strong>, in the guidance summarized by the <a href=\"https://nrc-publications.canada.ca/eng/view/ft/?id=c97ac796-01fc-4383-9c68-b271db2802cf\">National Plumbing Code of Canada 2025 corrosion and velocity reference</a>. Watts likewise notes approximately <strong>8 ft/s for cold water</strong> and <strong>5 ft/s for hot water at 140°F</strong>, with recommended velocity falling to <strong>2 to 3 ft/s</strong> above that temperature, in the same summary.</p>\n<p>Those numbers aren&#39;t interchangeable design permissions. They come from different tables, applications, and temperature assumptions. The lesson is that &quot;copper can handle it&quot; is too vague to defend a diameter.</p>\n<blockquote>\n<p><strong>Sizing principle:</strong> Choose the smallest diameter that meets peak demand, residual pressure, and the applicable velocity limit. Don&#39;t choose the largest tube that fits in the wall.</p>\n</blockquote>\n<p><a id=\"corrosion-starts-on-the-drawing\"></a></p>\n<h3>Corrosion Starts on the Drawing</h3>\n<p>The 2025 national code discussion makes a point many diameter charts skip. Corrosion can result from poor system design or installation, including <strong>erosion corrosion, galvanic corrosion, and fatigue cracking</strong>, not from water chemistry alone. British Columbia Housing further reports that corrosive conditions can cause premature copper failures and identifies thicker <strong>Type K</strong> as more durable than Type L in vulnerable systems, as summarized in the source above.</p>\n<p>That changes the remedy. If a hot water branch is failing at elbows, upsizing the whole run without checking velocity, temperature, recirculation balance, and dissimilar metal transitions may treat the symptom badly. A heavier wall may buy time, but it won&#39;t correct a layout that keeps attacking the tube.</p>\n<p>Metering work adds local turbulence and new material interfaces at adapters, strainers, and valves. Keep those transitions deliberate, supported, and compatible. Bigger copper can&#39;t compensate for a poorly arranged assembly.</p>\n<p><a id=\"matching-copper-to-a-water-meter-body\"></a></p>\n<h2>Matching Copper to a Water Meter Body</h2>\n<p>A meter body is selected by <strong>nominal connection size and flow range</strong>, not by sliding a caliper into its bore. A nominal <strong>3/4 inch</strong> meter may connect through a copper tube end, a union, or a threaded adapter, depending on the manufacturer. The copper run and the meter ends have to be specified as one assembly.</p>\n<p>Start by confirming what is already in the wall. Identify the ASTM standard, tube type, nominal size, orientation, and available straight length before you commit to a lay length. A meter that fits between two fittings on paper still needs room for unions, isolation, drainage, reading access, and future replacement.</p>\n<p>The screenshot below shows how a submetering scope is typically presented before those field details are tied to a specific branch.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/screenshots/f33e92e9-b1b8-4eeb-98fa-fd039157d81b/copper-pipe-diameters-utility-submetering.jpg\" alt=\"Screenshot from https://axismeter.com\"></p>\n<p><a id=\"build-a-pressure-loss-budget\"></a></p>\n<h3>Build a Pressure Loss Budget</h3>\n<p>Every component in the metering assembly spends pressure. The meter has a loss across its operating range, and a strainer adds more as it collects debris. Isolation valves, checks or backflow components where required, reducers, and nearby elbows also belong in the calculation.</p>\n<p>Check that total against the branch&#39;s residual pressure requirement at peak demand. If the margin disappears, options include selecting a meter with a suitable range and lower loss at expected flows, upsizing the local assembly where the design permits it, or revisiting the branch size. Don&#39;t solve it by removing a required strainer or valve and calling the assembly efficient.</p>\n<p>Reducer placement matters too. Locate and support reducers in accordance with the meter manufacturer&#39;s installation instructions, with the required straight pipe or flow conditioning for that meter technology. A reducer jammed against the inlet can disturb the profile the meter expects, and a heavy assembly hanging from copper without support invites fatigue at the joints.</p>\n<p>The selection principles in <a href=\"https://www.axismeter.com/blog/in-line-water-flow-meter\">in-line water flow meter sizing and placement</a> are relevant here because nominal connection size alone doesn&#39;t establish accuracy. Low flows at night, peak morning demand, and pressure loss all have to sit inside the meter&#39;s approved range.</p>\n<p><a id=\"orientation-temperature-and-service-access\"></a></p>\n<h3>Orientation, Temperature, and Service Access</h3>\n<p>Follow the flow arrow, then verify orientation against the manufacturer&#39;s permitted positions. Some assemblies tolerate vertical installation and others have restrictions that affect registration or servicing. A run that looks horizontal in a crowded ceiling may be pitched, trapped, or impossible to drain without wetting the suite below.</p>\n<p>Separate cold and hot water requirements early. A hot water meter needs a body, seals, and electronics or register arrangement rated for that service, and the copper velocity check is stricter on the hot side. Don&#39;t let a single bulk order blur the two applications.</p>\n<p>The short video below is a useful visual pause before finalizing an assembly, because lay length and access problems are easier to spot in three dimensions than in a parts list.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/uvuF4qt3toc\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>Support the finished assembly so valve operation doesn&#39;t twist the copper. Leave the strainer serviceable, the register readable, and isolation on both sides where the design calls for it. Most tenant side complaints after a retrofit trace back to pressure, noise, or a meter that never matched the branch, not to the nominal label.</p>\n<p><a id=\"quick-reference-and-selection-workflow\"></a></p>\n<h2>Quick Reference and Selection Workflow</h2>\n<p>Use the same sequence on every suite, even when the building looks uniform from the corridor. Stacks get repaired over decades, and one altered branch can break a building wide assumption.</p>\n<ol>\n<li><strong>Read the print line:</strong> Record the ASTM standard, type, nominal size, and temper where visible</li>\n<li><strong>Measure outside diameter:</strong> Use a caliper to confirm the CTS nominal size instead of relying on an old tag</li>\n<li><strong>Match the wall type:</strong> Specify K, L, or M deliberately, with the adopted code and service conditions in view</li>\n<li><strong>Convert the designation:</strong> Add the correct DN pairing and identify every threaded end separately</li>\n<li><strong>Size the branch:</strong> Check fixture units, peak demand, pressure loss, elevation, and velocity</li>\n<li><strong>Select the meter assembly:</strong> Match connection, flow range, lay length, orientation, temperature rating, and support</li>\n</ol>\n<p>Confirm the provincial or territorial code edition and any municipal requirements with the <strong>authority having jurisdiction</strong> before material is released. Fire suppression, medical gas, and boiler side work sit outside a general suite metering workflow and need their own design authority.</p>\n<p>For Ontario projects, the jurisdictional context in <a href=\"https://www.axismeter.com/blog/water-meter-ontario\">water meter requirements in Ontario</a> helps separate plumbing approval from the metering program around it. Keep the engineer of record in the decision where riser capacity, recirculation, or pressure is already marginal.</p>\n<p><a id=\"cross-reference-questions-readers-still-ask\"></a></p>\n<h2>Cross-Reference Questions Readers Still Ask</h2>\n<p><strong>Does the joining method change inside diameter?</strong> Solder, press, and push fit joints don&#39;t change the tube&#39;s own bore, but the fitting&#39;s internal geometry and any inserted component can affect local loss and turbulence. Check the assembly, not just the straight tube.</p>\n<p><strong>Can DWV copper replace water tube at the same nominal size?</strong> No. DWV tube under ASTM B306 is a drainage product, while pressure water distribution uses the applicable water tube standard and type. Same label, different job.</p>\n<p><strong>Why do refrigeration and medical gas tubes look similar?</strong> They&#39;re separate products with their own standards, cleanliness, certification, and sizing practices. Don&#39;t borrow a water tube chart for either one.</p>\n<p><strong>When is a reducer at a meter acceptable?</strong> When the engineer and meter manufacturer accept its location, the flow range still suits the branch, and the total pressure budget works. If velocity, accuracy, or residual pressure fails, the assembly or branch needs a fuller redesign.</p>\n<hr>\n<p>If you&#39;re adding suite level water meters to a Canadian multi-unit building and the existing copper doesn&#39;t match the drawings, Axis Meter Solutions can survey the runs, align meter bodies to the actual tube type and branch demand, and deliver installation, commissioning, and tenant billing as one coordinated program. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss your building before the next shutdown window is booked.</p>",
+  "tags": [
+    "copper pipe diameters",
+    "copper tube sizes",
+    "Type K L M",
+    "DN conversion",
+    "plumbing reference"
+  ],
+  "title": "Copper Pipe Diameters Explained for Canadian Plumbing",
+  "updatedAt": "2026-10-22T10:20:26.558Z"
+}
