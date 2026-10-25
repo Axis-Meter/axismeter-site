@@ -1,0 +1,3787 @@
+{
+  "_createdAt": "2026-10-25T09:41:03Z",
+  "_id": "outrank-08085af4-d5dc-4574-bce5-a9faf016305f",
+  "_rev": "7fdbr8tOKzCjSuW3Jhqxf6",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-25T09:41:03Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "b18630da67c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a3aa2d2e245",
+          "_type": "span",
+          "marks": [],
+          "text": "An inline water meter can meet its headline accuracy rating and still miss the flows that matter in a building. That rating often reflects intermediate demand, while leaks and running toilets may produce only a small, steady draw. Check whether the meter registers fixture demand and the night baseline before choosing by pipe diameter or accuracy alone. Its readings can reveal abnormal use, but they cannot establish the cause or assign liability. Judge the operating range first to avoid a common specification error in Canadian multi-unit buildings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4880df97251",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d51dc9badc5",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "fc4f897537d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8632c50f3b6",
+          "_type": "span",
+          "marks": [
+            "7df3a8ce65fb"
+          ],
+          "text": "Start With the Job the Meter Must Do"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7df3a8ce65fb",
+          "_type": "link",
+          "href": "#start-with-the-job-the-meter-must-do"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2a02de4dfa04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db86fbdc4086",
+          "_type": "span",
+          "marks": [
+            "f93cacc34fe1"
+          ],
+          "text": "Three Jobs, Three Flow Ranges"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f93cacc34fe1",
+          "_type": "link",
+          "href": "#three-jobs-three-flow-ranges"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2f3a59673e67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27b38e5c0266",
+          "_type": "span",
+          "marks": [
+            "8999799378a4"
+          ],
+          "text": "Five Inline Flow Meter Types Compared Side by Side"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8999799378a4",
+          "_type": "link",
+          "href": "#five-inline-flow-meter-types-compared-side-by-side"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "628e858c0498",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38e9e65cf649",
+          "_type": "span",
+          "marks": [
+            "88166fc709fa"
+          ],
+          "text": "What Each Column Hides"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "88166fc709fa",
+          "_type": "link",
+          "href": "#what-each-column-hides"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e246db8b857b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8ca0a0bd2fc0",
+          "_type": "span",
+          "marks": [
+            "3779d6999901"
+          ],
+          "text": "Sizing by Flow Range Rather Than Pipe Diameter"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3779d6999901",
+          "_type": "link",
+          "href": "#sizing-by-flow-range-rather-than-pipe-diameter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4fdd8bc6c2c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "154e16677311",
+          "_type": "span",
+          "marks": [
+            "848be12790fa"
+          ],
+          "text": "A Four-Step Sizing Method"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "848be12790fa",
+          "_type": "link",
+          "href": "#a-four-step-sizing-method"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a5ef2b9f272d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12fab1e30921",
+          "_type": "span",
+          "marks": [
+            "2970bd981552"
+          ],
+          "text": "Matching Each Meter Type to Real Use Cases"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2970bd981552",
+          "_type": "link",
+          "href": "#matching-each-meter-type-to-real-use-cases"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3db706ec318b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d0889c82f24",
+          "_type": "span",
+          "marks": [
+            "fe7033fc2fad"
+          ],
+          "text": "Where Each Match Fails"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fe7033fc2fad",
+          "_type": "link",
+          "href": "#where-each-match-fails"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c788f79318c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2269cf84d629",
+          "_type": "span",
+          "marks": [
+            "96b8d308897e"
+          ],
+          "text": "How Installation Changes Meter Performance"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "96b8d308897e",
+          "_type": "link",
+          "href": "#how-installation-changes-meter-performance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2b82189a4e75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27426d19ac30",
+          "_type": "span",
+          "marks": [
+            "e512717ca3ee"
+          ],
+          "text": "Disturbances, Air, and Hydraulics"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e512717ca3ee",
+          "_type": "link",
+          "href": "#disturbances-air-and-hydraulics"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "128440d4b677",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "105e42939ed9",
+          "_type": "span",
+          "marks": [
+            "fc61076ab657"
+          ],
+          "text": "Commissioning as the Final Gate"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "fc61076ab657",
+          "_type": "link",
+          "href": "#commissioning-as-the-final-gate"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "284d1c3f3390",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "339aa4524163",
+          "_type": "span",
+          "marks": [
+            "0372065c171c"
+          ],
+          "text": "Verifying Accuracy Over the Meter's Service Life"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0372065c171c",
+          "_type": "link",
+          "href": "#verifying-accuracy-over-the-meters-service-life"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "715480a34091",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "087ffafce3dc",
+          "_type": "span",
+          "marks": [
+            "dc99eee2e0e4"
+          ],
+          "text": "How Formal Testing Works"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dc99eee2e0e4",
+          "_type": "link",
+          "href": "#how-formal-testing-works"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bf40967f4c29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ffac7dfd6bf",
+          "_type": "span",
+          "marks": [
+            "a5f39bff02b3"
+          ],
+          "text": "Wear Profiles Differ by Technology"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "a5f39bff02b3",
+          "_type": "link",
+          "href": "#wear-profiles-differ-by-technology"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1eb332af6698",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "456ff9f923f8",
+          "_type": "span",
+          "marks": [
+            "54bb9baec30f"
+          ],
+          "text": "When to Verify"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "54bb9baec30f",
+          "_type": "link",
+          "href": "#when-to-verify"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7805273d5732",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d69b2c953638",
+          "_type": "span",
+          "marks": [
+            "71f5869a2aa9"
+          ],
+          "text": "Confirm the Specification Before You Buy"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "71f5869a2aa9",
+          "_type": "link",
+          "href": "#confirm-the-specification-before-you-buy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "e1933633a483",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "61c629edcea1",
+          "_type": "span",
+          "marks": [
+            "c4ddff54d7af"
+          ],
+          "text": "What Meter Data Can and Cannot Prove"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c4ddff54d7af",
+          "_type": "link",
+          "href": "#what-meter-data-can-and-cannot-prove"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b2801009852b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67582d3de676",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09e4c2991988",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4d097446122",
+          "_type": "span",
+          "marks": [],
+          "text": "Start With the Job the Meter Must Do"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "433a5f44fa97",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f441336eee9",
+          "_type": "span",
+          "marks": [],
+          "text": "Define what the meter must measure before choosing a technology. Billing allocation, conservation, and abnormal-use monitoring place different demands on an installation, especially at the low end of its operating range."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "119a4ec7d862",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b4ee0ed1efd",
+          "_type": "span",
+          "marks": [],
+          "text": "For allocation, the meter needs to record water used by each suite or common area so charges can reflect consumption. Conservation programs need occupants to see their use, and Canadian evidence links volume-based pricing with lower residential water use. Check local bylaws and tenant expectations before setting the meter's role. "
+        },
+        {
+          "_key": "c78a00ad936f",
+          "_type": "span",
+          "marks": [
+            "34c017e029fb"
+          ],
+          "text": "Environment and Climate Change Canada's residential water use data"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "34c017e029fb",
+          "_type": "link",
+          "href": "https://www.canada.ca/content/dam/eccc/migration/main/indicateurs-indicators/d43360e1-44bd-4f59-9e4b-ae4932a47752/residentialwateruse_en.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "601de26c99d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c29cb218d7dd",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b24c8e796f6d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2d6c0fea087",
+          "_type": "span",
+          "marks": [],
+          "text": "Three Jobs, Three Flow Ranges"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "87dae368cd85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b105854f5291",
+          "_type": "span",
+          "marks": [],
+          "text": "Abnormal-use monitoring calls for a useful trend line, not just a total. The meter should capture the building's "
+        },
+        {
+          "_key": "f2714c549196",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "night baseline"
+        },
+        {
+          "_key": "e85532c5b232",
+          "_type": "span",
+          "marks": [],
+          "text": " and show sustained increases that may indicate a leak or other unusual demand. That reading is evidence of a change in water use, not proof of its cause or who is responsible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1f02b3496f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62ccc58410aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Set the required "
+        },
+        {
+          "_key": "43b928cec402",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "minimum flow"
+        },
+        {
+          "_key": "2f2b305145df",
+          "_type": "span",
+          "marks": [],
+          "text": " from the job. If the meter serves allocation alone, the key requirement is recording the flows that affect billing. If it must also support conservation and leak monitoring, it needs to register smaller, continuous draws. A meter that performs well at typical fixture demand but misses the night baseline may produce reliable totals while overlooking early warning signs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e5485f373c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "171447f6dcf0",
+          "_type": "span",
+          "marks": [],
+          "text": "Once the job is clear, specify the flow range the meter must cover, then assess suitable technology and installation requirements. Confirm how readings will be checked over time so the data remains useful for building decisions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20d329049a24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6142c8ae4afc",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f5cd59020edc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0509ac4cb8b",
+          "_type": "span",
+          "marks": [],
+          "text": "Five Inline Flow Meter Types Compared Side by Side"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "54843f2d33b6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfc91ffb4f7d",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the comparison below, then confirm every value against the manufacturer's datasheet for the exact model you're specifying."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "40099f413179",
+      "_type": "externalImage",
+      "alt": "A comparison table outlining key specifications for five common types of inline flow meters for industrial pipes.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b55e821-9754-418e-bb0f-c23db149215d/inline-flow-meter-for-water-flow-meter-comparison.jpg"
+    },
+    {
+      "_key": "1697d59e77dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a580a2535f2a",
+          "_type": "span",
+          "marks": [],
+          "text": "Technology"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f393055662f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45cb9f0691eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical pipe size"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d01e718ede05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "54a5c462b7bb",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1157821a815d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5829e5b7be2c",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-flow behaviour"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "215672c78e28",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "546e0b53a245",
+          "_type": "span",
+          "marks": [],
+          "text": "Moving parts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43a405ee0bfb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "edb322e0607d",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic (inline transit-time)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "363dcc033009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72c46db502e0",
+          "_type": "span",
+          "marks": [],
+          "text": "DN15–DN2000"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e60f3d564d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e948b460e8d8",
+          "_type": "span",
+          "marks": [],
+          "text": "±1–2% of reading"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50056a3c7a00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9970993f1214",
+          "_type": "span",
+          "marks": [],
+          "text": "Good turndown; reads small flows if the range is set correctly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eeee198289da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed5c6bc51dc5",
+          "_type": "span",
+          "marks": [],
+          "text": "None"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b2718565ba01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2bce4cc413dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5d693dbddd34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3e5d8575c7a",
+          "_type": "span",
+          "marks": [],
+          "text": "Small branches to large mains"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8fff7a365e5e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "073cdffaa8f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Tight when correctly sized"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fadaff5cd0db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f629e7c15431",
+          "_type": "span",
+          "marks": [],
+          "text": "Good at low flow; requires conductive water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc2b50fde872",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72fe01e8c9d2",
+          "_type": "span",
+          "marks": [],
+          "text": "None"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "55afb2932307",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25285e825a20",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8631b1b1dba2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5105d52d3bc2",
+          "_type": "span",
+          "marks": [],
+          "text": "DN15–DN300"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "730081d23cbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ebe6a6a37c22",
+          "_type": "span",
+          "marks": [],
+          "text": "±1–2% within range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23ceb6cfca7f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2847c0444937",
+          "_type": "span",
+          "marks": [],
+          "text": "Registers only above a cut-in flow; slips at very low flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43b5fbb770a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5cd510a36bd1",
+          "_type": "span",
+          "marks": [],
+          "text": "Rotor and bearings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88a5d0664c6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f441f4eb45d",
+          "_type": "span",
+          "marks": [],
+          "text": "Paddlewheel"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d3e0a124ccd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9277d6361866",
+          "_type": "span",
+          "marks": [],
+          "text": "Small to medium branches"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a150e01f1f23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "65b24021d0a7",
+          "_type": "span",
+          "marks": [],
+          "text": "±2–5% of reading"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8110d138c930",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80de96f82aa0",
+          "_type": "span",
+          "marks": [],
+          "text": "High cut-in flow; weak at low flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ed9a2631685",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d1cb7c8cdd4",
+          "_type": "span",
+          "marks": [],
+          "text": "Paddlewheel and bearings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47a43847164",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d7fbf65798aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Vortex"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe02ad2d8976",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "039ea87e04f2",
+          "_type": "span",
+          "marks": [],
+          "text": "DN15–DN300"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5df28a52ea69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c12a99500c1d",
+          "_type": "span",
+          "marks": [],
+          "text": "Moderate within range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "252302f76cbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6473b0f75196",
+          "_type": "span",
+          "marks": [],
+          "text": "Cannot read below minimum velocity (about 0.3 m/s)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66e9809d546d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f83424a41847",
+          "_type": "span",
+          "marks": [],
+          "text": "None; sensor can foul"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7448d14b6c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfc095e07552",
+          "_type": "span",
+          "marks": [
+            "em"
+          ],
+          "text": "Typical reference values. Confirm against manufacturer data before specifying."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4c35620c3bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8089cabde8a3",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "526f64589968",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f68e19bf16af",
+          "_type": "span",
+          "marks": [],
+          "text": "What Each Column Hides"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0763d54be61f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "800ec56548f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Accuracy"
+        },
+        {
+          "_key": "190d4b480e81",
+          "_type": "span",
+          "marks": [],
+          "text": " is normally stated as a percentage of reading, so a tight figure only helps if low-flow behaviour is also good. "
+        },
+        {
+          "_key": "d5b0f39f628e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Nominal pipe size"
+        },
+        {
+          "_key": "8409f13802c4",
+          "_type": "span",
+          "marks": [],
+          "text": " sets the ceiling of the usable range, not the floor. A large meter on a lightly used branch may register almost nothing useful at night. "
+        },
+        {
+          "_key": "86d71d324f88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Moving parts"
+        },
+        {
+          "_key": "d3661e9f8f4b",
+          "_type": "span",
+          "marks": [],
+          "text": " create wear and periodic service, which matters most for turbine and paddlewheel designs. If you're weighing a paddlewheel for a low-cost branch, "
+        },
+        {
+          "_key": "11d629bdf43a",
+          "_type": "span",
+          "marks": [
+            "a37477d0129a"
+          ],
+          "text": "this guide to paddle flow meters"
+        },
+        {
+          "_key": "fbc02d34ab34",
+          "_type": "span",
+          "marks": [],
+          "text": " covers where that trade-off is acceptable."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a37477d0129a",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/paddle-flow-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "04916f8bb138",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "600816add3e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine and vortex meters also have a "
+        },
+        {
+          "_key": "20b8210ec493",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cut-in problem"
+        },
+        {
+          "_key": "e71b56747a3a",
+          "_type": "span",
+          "marks": [],
+          "text": ". They register only above a minimum flow or velocity, so a leak below that threshold stays invisible no matter how good the headline accuracy looks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e7c909d8192",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2b3e29a8b9e",
+          "_type": "span",
+          "marks": [],
+          "text": "The most accurate meter on paper is the wrong meter if its low-flow range misses the leaks you're trying to catch."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f2e74facda45",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9538c35ce4ce",
+          "_type": "span",
+          "marks": [],
+          "text": "That puts the specification burden on you. Measurement Canada's 2022 consultation reported that water meters used for customer consumption were, at that time, "
+        },
+        {
+          "_key": "c55ac2e39c30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "exempt from mandatory approval and initial inspection before use"
+        },
+        {
+          "_key": "102c3073abac",
+          "_type": "span",
+          "marks": [],
+          "text": ", as documented in "
+        },
+        {
+          "_key": "45ca03c919d0",
+          "_type": "span",
+          "marks": [
+            "05f03e9c4a0f"
+          ],
+          "text": "Measurement Canada's water meter consultation report"
+        },
+        {
+          "_key": "7a1e11db75f5",
+          "_type": "span",
+          "marks": [],
+          "text": ". Request accuracy curves and low-flow data in writing. Don't assume a regulator has already checked them."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "05f03e9c4a0f",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/en/consultations/water-meter-consultation-introduction/what-we-heard-report-consultation-water-meter-use-canadian-marketplace"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1795b90eb495",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4353aac37ab0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7dcb9a85b0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99a42128f037",
+          "_type": "span",
+          "marks": [],
+          "text": "Sizing by Flow Range Rather Than Pipe Diameter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "64be0a7b1c2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e47f9c1b28fb",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter's low-flow performance often matters more than its headline accuracy. Choose by the flows the branch sees in practice: fixture demand during use and the smallest continuous flow that should register overnight. Pipe diameter alone can lead to a meter that misses small leaks or struggles to measure ordinary use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff48821fb555",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d6373149610",
+          "_type": "span",
+          "marks": [],
+          "text": "A suite branch illustrates why the lower end of the range deserves attention."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "013f008a5bb3",
+      "_type": "externalImage",
+      "alt": "A digital water meter installed on copper pipes connected to a brass faucet leaking water drops.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7738f4cd-315c-47e1-8dbe-f0967a595f87/inline-flow-meter-for-water-water-meter.jpg"
+    },
+    {
+      "_key": "b647196b3c61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8490a72b952f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d56ba9925e09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fcf004d532f",
+          "_type": "span",
+          "marks": [],
+          "text": "A Four-Step Sizing Method"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "92814d8fd179",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b938e57860a8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "List fixture demand:"
+        },
+        {
+          "_key": "0c0726a65e61",
+          "_type": "span",
+          "marks": [],
+          "text": " Estimate the combined flow from toilet fills, showers, faucets, and appliances on the branch. Use realistic simultaneous demand, not the pipe's theoretical capacity."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6bbe2c20f3f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17e60190017b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Find the night baseline:"
+        },
+        {
+          "_key": "b800e2718d72",
+          "_type": "span",
+          "marks": [],
+          "text": " Measure or estimate the smallest overnight flow that needs to register. Set any leak alert threshold above normal background use."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b657133bf26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30d9845ced77",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check the meter's range:"
+        },
+        {
+          "_key": "5f5db828a3cf",
+          "_type": "span",
+          "marks": [],
+          "text": " Compare the candidate's minimum and maximum flow limits with both the night baseline and expected peak. "
+        },
+        {
+          "_key": "ceb83c9f136b",
+          "_type": "span",
+          "marks": [
+            "0258c2aa4abc"
+          ],
+          "text": "This overview of copper pipe diameters"
+        },
+        {
+          "_key": "8ff951e99378",
+          "_type": "span",
+          "marks": [],
+          "text": " can help distinguish nominal pipe size from the meter's usable range."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [
+        {
+          "_key": "0258c2aa4abc",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/copper-pipe-diameters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9cd454a23d6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4336a76f36f1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Keep normal demand in range:"
+        },
+        {
+          "_key": "22d945d92d1f",
+          "_type": "span",
+          "marks": [],
+          "text": " Select a meter that measures routine use within its effective range and can still register the flow relevant to leak detection."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "988532a16a72",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c51b725bf4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Size hot and cold services separately. Their demand patterns can differ, and a meter that suits a cold-water branch may operate too high or too low in the range on a hot-water branch. Pressure conditions also affect the flow delivered by fixtures, so account for the actual installation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b9630b82c33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0e1850ba427",
+          "_type": "span",
+          "marks": [],
+          "text": "OIML R 49 distinguishes between lower- and higher-flow zones. Its lower-flow zone permits up to "
+        },
+        {
+          "_key": "41d5d589b4ea",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "±5% maximum permissible error"
+        },
+        {
+          "_key": "0bf5a5b45417",
+          "_type": "span",
+          "marks": [],
+          "text": ", with tighter limits at higher flows, as summarized in the OIML R 49 metering requirements summary. That figure is a maximum permissible error, or MPE, under the standard. Municipal test or acceptance windows use a different convention: they state the range of measured results that qualify for acceptance. Those windows are not directly comparable to an MPE limit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58f96b1fb52f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f1d866d3cd4",
+          "_type": "span",
+          "marks": [],
+          "text": "Source and convention"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1e6c50f77e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec6b127111e4",
+          "_type": "span",
+          "marks": [],
+          "text": "Flow zone"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ae8aa8eb28f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9b1f1e94827",
+          "_type": "span",
+          "marks": [],
+          "text": "Specified limit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "910093cba3d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca3f665a2021",
+          "_type": "span",
+          "marks": [],
+          "text": "OIML R 49, MPE"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f0df7dc0827",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f152fdc691c",
+          "_type": "span",
+          "marks": [],
+          "text": "Lower-flow zone"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d13e50885432",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bdb7a445520c",
+          "_type": "span",
+          "marks": [],
+          "text": "Up to ±5% maximum permissible error"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f50a09193e0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "211fd066b3b1",
+          "_type": "span",
+          "marks": [],
+          "text": "OIML R 49, MPE"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff37809ad787",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea671f2531f4",
+          "_type": "span",
+          "marks": [],
+          "text": "Higher flows"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "137ba1dac3d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae6116713e50",
+          "_type": "span",
+          "marks": [],
+          "text": "Tighter limits than the lower zone"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3f4f7583ffb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c83d753e04e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Winnipeg specification, acceptance window, 5/8-inch meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7e55e0e9a6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d61639c9e141",
+          "_type": "span",
+          "marks": [],
+          "text": "Minimum flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0229b36b35f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6dcfc09993ce",
+          "_type": "span",
+          "marks": [],
+          "text": "95–101%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a5b3bc308dde",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d40c344552c1",
+          "_type": "span",
+          "marks": [],
+          "text": "Winnipeg specification, acceptance window, 5/8-inch meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f6f1e4fbec2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "311e9989e42c",
+          "_type": "span",
+          "marks": [],
+          "text": "Intermediate and maximum flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6c7630a6783a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "475db35bd407",
+          "_type": "span",
+          "marks": [],
+          "text": "98.5–101.5%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5d6d6bdcec2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76e2f8f12dd0",
+          "_type": "span",
+          "marks": [],
+          "text": "Hamilton test procedure, acceptance window, 15–16 mm meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fd651dabb06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "438a6139c70c",
+          "_type": "span",
+          "marks": [],
+          "text": "Low flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59596d4078f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25cd34ad124c",
+          "_type": "span",
+          "marks": [],
+          "text": "90.0–102.0%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "888e985eb94a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "060bb8cbdc11",
+          "_type": "span",
+          "marks": [],
+          "text": "Hamilton test procedure, acceptance window, 15–16 mm meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "252867c5119a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9c084805bbf",
+          "_type": "span",
+          "marks": [],
+          "text": "Intermediate and high flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75a8a2cca11c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7da9788fff67",
+          "_type": "span",
+          "marks": [],
+          "text": "96.0–102.0%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "812dc10db948",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0199cf495fed",
+          "_type": "span",
+          "marks": [],
+          "text": "The video is embedded below."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bdc09c36232d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16fcd3f50a82",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-flow error has practical consequences. A meter that under-reads small flows can distort "
+        },
+        {
+          "_key": "ee0b0ac03714",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "tenant allocation"
+        },
+        {
+          "_key": "7f50e57462b4",
+          "_type": "span",
+          "marks": [],
+          "text": ", leave unexplained differences in "
+        },
+        {
+          "_key": "e096c0f9d284",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "common-area reconciliation"
+        },
+        {
+          "_key": "2c86461b3478",
+          "_type": "span",
+          "marks": [],
+          "text": ", and delay an alert when a leak remains below its registration threshold. Meter data can indicate abnormal use, but it does not establish the cause or assign liability. Compare overnight readings with the branch's expected baseline, then investigate unusual consumption before drawing conclusions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc28b9e034a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b11e44d3da4b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "890d1470fdb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ef3212aba41",
+          "_type": "span",
+          "marks": [],
+          "text": "Matching Each Meter Type to Real Use Cases"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0cb1ef796d79",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22cba6b41f74",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the table as a matching guide, not a verdict. Each row pairs a building situation with the technology that usually fits and the trade-off you still need to check."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59509f03c73f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "639941a594b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Situation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0f97a1f4b0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1678ad4b689c",
+          "_type": "span",
+          "marks": [],
+          "text": "Usual fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0ac8669b66a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "742c4caad789",
+          "_type": "span",
+          "marks": [],
+          "text": "Why it fits"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92598901db22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88461474a2cf",
+          "_type": "span",
+          "marks": [],
+          "text": "Trade-off to check"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8dddcd96b9c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b23f6f649411",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite-level submetering in a riser-fed condominium"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72554311dbaa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36dbc7e7de4a",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae2b81093954",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02478da4151f",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-flow resolution and no moving parts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1bac3baf5ad9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "599e74fb28f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm minimum flow catches toilet leaks"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de14ab5870d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed79f867a07e",
+          "_type": "span",
+          "marks": [],
+          "text": "Irrigation or landscape branch"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1bddc0453008",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ccbe8a5a8d4",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a440c546af69",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b47e1bfd6a81",
+          "_type": "span",
+          "marks": [],
+          "text": "Tolerates debris; no moving parts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4cc371bf6e98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "368ddbdf823b",
+          "_type": "span",
+          "marks": [],
+          "text": "Water must be conductive; straight run needed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "239e675205ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2cb6ab1d802e",
+          "_type": "span",
+          "marks": [],
+          "text": "Commercial makeup or process line, DN100 and up"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7acb48542d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f60ed6f9c243",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0cff6536bbdd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "07e6f7ca1bff",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy holds at large sizes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2827cb34232c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36445fdc9064",
+          "_type": "span",
+          "marks": [],
+          "text": "Power, grounding and liner cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "580ff6770221",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9dee5f723ee",
+          "_type": "span",
+          "marks": [],
+          "text": "Hot-water recirculation loop"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c48cf683e05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "daba92a27f7e",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30483cd6b247",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e4ba63b0c8e",
+          "_type": "span",
+          "marks": [],
+          "text": "Works at hot-water temperatures with suitable sensors"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "884bcc25ce33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4d25440346d",
+          "_type": "span",
+          "marks": [],
+          "text": "Check the temperature rating"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b0040a554f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab807effb978",
+          "_type": "span",
+          "marks": [],
+          "text": "Steady building supply, DN50 to DN200"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "772ea4174d5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a5af19794d1",
+          "_type": "span",
+          "marks": [],
+          "text": "Vortex"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6bb3217c9ab3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6867216b92c0",
+          "_type": "span",
+          "marks": [],
+          "text": "No moving parts; good accuracy at steady flow"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "277dbe1c47d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60b26560f6fd",
+          "_type": "span",
+          "marks": [],
+          "text": "15D upstream run; minimum velocity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3927f591b624",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b1cd67cef4f",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-cost branch with wide error tolerance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1a56e9181bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "335eb29985e2",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine or paddlewheel"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "303af515a775",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a02563658588",
+          "_type": "span",
+          "marks": [],
+          "text": "Lowest upfront cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd1d47484679",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59eee5209075",
+          "_type": "span",
+          "marks": [],
+          "text": "Unsuitable for leak detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81aa6331c69f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ea5717fa1d2",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter banks like these reward consistent matching across branches."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "593f6c95b701",
+      "_type": "externalImage",
+      "alt": "A hand turns a valve on a series of industrial water flow meters mounted on a stainless pipe.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c525483c-43c0-4db4-a940-4a7dc1024e8d/inline-flow-meter-for-water-water-meters.jpg"
+    },
+    {
+      "_key": "aa27697e6cf1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4473cf0470ed",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e7b74968210f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77fa7fa0aaf4",
+          "_type": "span",
+          "marks": [],
+          "text": "Where Each Match Fails"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c63802ce9547",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "588963f85df1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Suite-level submetering"
+        },
+        {
+          "_key": "b94b172c80ac",
+          "_type": "span",
+          "marks": [],
+          "text": " fails when the ultrasonic meter's minimum flow sits above a toilet leak. You've paid for resolution you didn't get. Confirm the threshold against the leak you care about, not against a catalogue turndown ratio."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58e3db7ddf83",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49810c423a53",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Irrigation branches"
+        },
+        {
+          "_key": "4eb9fe2a7ef9",
+          "_type": "span",
+          "marks": [],
+          "text": " suit electromagnetic meters because there's no rotor for debris to jam. The failure mode is different. If the water isn't sufficiently conductive, or grounding is poor, readings drift or drop out entirely."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d73386a5d56d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "362f5130b1e6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Large commercial makeup lines"
+        },
+        {
+          "_key": "4be51d3616ef",
+          "_type": "span",
+          "marks": [],
+          "text": " also favour electromagnetic designs, since accuracy holds as size grows. Budget for power, grounding rings, and liner selection. Those costs surprise owners who priced only the flow tube."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09e7e6be039a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a84168947981",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Hot-water recirculation loops"
+        },
+        {
+          "_key": "f5e2e5480ee1",
+          "_type": "span",
+          "marks": [],
+          "text": " need ultrasonic sensors rated for sustained hot service. A meter specified for cold water and installed on a recirculation loop can fail early, even if its flow range looks right."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "feef31419135",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "345f2d592da6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Steady building supplies"
+        },
+        {
+          "_key": "78134e19371b",
+          "_type": "span",
+          "marks": [],
+          "text": " can suit vortex meters, provided flow stays above minimum velocity and you have the straight run. Put a vortex meter on a low-demand branch and it reads nothing below that velocity. It isn't broken. It's out of range."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0325af7802f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e9f1fb9cf95",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Low-cost branches"
+        },
+        {
+          "_key": "1f1c760e6444",
+          "_type": "span",
+          "marks": [],
+          "text": " are the honest home for turbine or paddlewheel meters. Use them where error tolerance is wide and nobody expects leak detection. A paddlewheel on a suite branch will miss toilet leaks by design, so don't assign it that job."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f0abff05c95",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19dead35eebd",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0567d28bc611",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60f0c2809740",
+          "_type": "span",
+          "marks": [],
+          "text": "How Installation Changes Meter Performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "f9ba617b7d06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55979a48abbb",
+          "_type": "span",
+          "marks": [],
+          "text": "Straight-run requirements exist because meters infer flow from a velocity profile, and that profile needs distance to settle after a disturbance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2071912e5a08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f5f1ebd579b",
+          "_type": "span",
+          "marks": [],
+          "text": "Technology"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d068880cdfe5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db3b0fc30013",
+          "_type": "span",
+          "marks": [],
+          "text": "Upstream straight run"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0797bb7d7a17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35baabef94f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Downstream straight run"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8092a684a25e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee8e34dc7e7d",
+          "_type": "span",
+          "marks": [],
+          "text": "Mounting note"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d42a53630497",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68df1a88ade0",
+          "_type": "span",
+          "marks": [],
+          "text": "Ultrasonic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a09f87cf145c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b02f130eea0",
+          "_type": "span",
+          "marks": [],
+          "text": "10D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1de534b08c53",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "944203e6a27d",
+          "_type": "span",
+          "marks": [],
+          "text": "5D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56274f60ecf5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ddbf8280f035",
+          "_type": "span",
+          "marks": [],
+          "text": "Full pipe; keep clear of air and deposits"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3eae9e9324a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b72b2bb9c84",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d6c20521cf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a09e238c45d",
+          "_type": "span",
+          "marks": [],
+          "text": "5D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e3bd189a272",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d71d6fc0fd7",
+          "_type": "span",
+          "marks": [],
+          "text": "3D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b1bb6287c253",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06e4f7b6d084",
+          "_type": "span",
+          "marks": [],
+          "text": "Full pipe; grounding and conductive water required"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e839f6fb6f80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30e4656bdda2",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe4351388b91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5cdf8c03b3f",
+          "_type": "span",
+          "marks": [],
+          "text": "10D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "005c6304f541",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "136cec95f3fd",
+          "_type": "span",
+          "marks": [],
+          "text": "5D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4392d389a75a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9056633a68c1",
+          "_type": "span",
+          "marks": [],
+          "text": "Mount per model orientation; filter upstream"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0efab367579f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "614fddcd533f",
+          "_type": "span",
+          "marks": [],
+          "text": "Paddlewheel"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df8934365abd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca2ef9fd3a10",
+          "_type": "span",
+          "marks": [],
+          "text": "10D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58fcf7007c80",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dd2ac631c9df",
+          "_type": "span",
+          "marks": [],
+          "text": "5D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b38879de8413",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f89f1cecf875",
+          "_type": "span",
+          "marks": [],
+          "text": "Full pipe; avoid air trapped at the paddle"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6dd7f3978a3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "397f29f40530",
+          "_type": "span",
+          "marks": [],
+          "text": "Vortex"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70d8fc2ef380",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "726167d50059",
+          "_type": "span",
+          "marks": [],
+          "text": "15D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe924c5fca5c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "372c89000db5",
+          "_type": "span",
+          "marks": [],
+          "text": "5D"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bcd5a7e00651",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7849ae15c6a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Full pipe; vibration and pulsation reduce stability"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2aa11a3921ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c78b00f0cf6c",
+          "_type": "span",
+          "marks": [
+            "em"
+          ],
+          "text": "Typical values in pipe diameters (D). The manufacturer's installation manual overrides this table."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f97d37edcf1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cfa960c0a16",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7ab94235b26d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f02b7e69cc0",
+          "_type": "span",
+          "marks": [],
+          "text": "Disturbances, Air, and Hydraulics"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1dd7b27f366c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2d81151e76a",
+          "_type": "span",
+          "marks": [],
+          "text": "Upstream elbows, pumps, and partly open valves create "
+        },
+        {
+          "_key": "11c63266f862",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "swirl and uneven velocity profiles"
+        },
+        {
+          "_key": "ec680476bbec",
+          "_type": "span",
+          "marks": [],
+          "text": " that bias ultrasonic and vortex readings. The meter reports a number confidently. It just isn't the right number. Air pockets and partly full pipe cause similar trouble for electromagnetic and ultrasonic meters, so mount them where the pipe stays full and air can escape elsewhere."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "885755762652",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a3ae6c86dce",
+          "_type": "span",
+          "marks": [],
+          "text": "Hydraulics vary inside one building. Suites on the same riser see different pressures and flows depending on elevation and simultaneous demand, so one common specification can fail in some branches while working in others. Check the worst branch, not the average one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "819ca947578f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5748961d8127",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "d03829dd6c31",
+          "_type": "span",
+          "marks": [],
+          "text": " If you can't isolate and remove a meter without shutting down the building, you don't have a maintenance plan. You have a future outage."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "069618db8541",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71f28907c062",
+          "_type": "span",
+          "marks": [],
+          "text": "Install "
+        },
+        {
+          "_key": "3aa9e2567979",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "isolation valves and bypass provisions"
+        },
+        {
+          "_key": "9723a08c46dd",
+          "_type": "span",
+          "marks": [],
+          "text": " where permitted, and plan power and grounding for electromagnetic meters before the ceiling closes. Retrofitting those details costs far more than drawing them."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a369729b1f4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "275a4648360b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "609fdb4876c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f7ee2cb37186",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning as the Final Gate"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "858bf19944ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1a4b066dea0",
+          "_type": "span",
+          "marks": [],
+          "text": "Require approved minimum and maximum flows, accuracy curves, and pressure-loss data with the submittal. Then test the installed meter at "
+        },
+        {
+          "_key": "bc6c8955b054",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "low, intermediate, and high flows"
+        },
+        {
+          "_key": "dcefb9a54bd6",
+          "_type": "span",
+          "marks": [],
+          "text": " that represent your building, not only at nominal pipe size. Record the results with the meter's location and serial number. A commissioning test left unrecorded makes later billing disputes hard to resolve, because nobody can prove the meter was right on day one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4be05300bd9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5e4de88f6d0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57f620974261",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fac2fe70ff4",
+          "_type": "span",
+          "marks": [],
+          "text": "Verifying Accuracy Over the Meter's Service Life"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a247ad2ea824",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e3c23f3ea0c",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter can keep registering flow while its low-flow readings drift enough to miss a continuous leak or distort small allocations. Don't assume accuracy from normal operation or the meter's age alone. Establish a baseline when the meter is commissioned, then verify it when the building's demand pattern, water quality, or recorded consumption raises concern."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee6cfa82e933",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e97e5864b5f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9cf3917d083c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c33b861d1dbc",
+          "_type": "span",
+          "marks": [],
+          "text": "How Formal Testing Works"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4647608c314c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44e6113249bd",
+          "_type": "span",
+          "marks": [],
+          "text": "Measurement Canada's "
+        },
+        {
+          "_key": "faeba8593de7",
+          "_type": "span",
+          "marks": [
+            "4a4d9e357751"
+          ],
+          "text": "field inspection procedure for volumetric meters"
+        },
+        {
+          "_key": "6dc5fbfb80b6",
+          "_type": "span",
+          "marks": [],
+          "text": " describes accuracy testing within a meter's approved flow range. For a service-life check, test at low, intermediate, and high flows inside that range. Confirm test limits and methods against the agency's current procedure and the manufacturer's documentation. A test outside the approved range does not establish how the meter performs across its intended operating envelope."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4a4d9e357751",
+          "_type": "link",
+          "href": "https://ised-isde.canada.ca/site/measurement-canada/sites/default/files/attachments/2022/FIM-VMD_Part4Section21.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3b70d0b63304",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "381fb16ee9cd",
+          "_type": "span",
+          "marks": [],
+          "text": "Set the low-flow point to examine the demand that matters: fixture use, small continuous draws, or the building's night baseline. Include intermediate and higher flows that occur in service. An intermediate result alone can look acceptable while the meter misses the small flows needed to identify abnormal overnight use. The goal is to assess the operating range that matters, not to merely confirm a headline accuracy figure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7cbd2c350efa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e1247764b1d",
+          "_type": "span",
+          "marks": [],
+          "text": "For each test point, compare the volume recorded by the meter with a known volume, using a method suited to the meter and approved procedure. Record the flow conditions, result, meter identification, and test date. Use the manufacturer's and agency's documents to confirm the exact setup and acceptance criteria. Meter data can show an unusual pattern; it cannot, by itself, establish the cause or assign liability."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c9a80fd4d4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1b06a43e2ea1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2cb4273f2c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef5209f3352f",
+          "_type": "span",
+          "marks": [],
+          "text": "Wear Profiles Differ by Technology"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "fab91dc61f00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "44ac2f1d2ea9",
+          "_type": "span",
+          "marks": [],
+          "text": "Turbine and paddlewheel meters have moving parts. Rotor and bearing wear, along with scale buildup, can affect how freely the rotor turns and reduce performance at low flow. That matters when the monitoring job is to detect a small, sustained draw rather than just measure peak demand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7c9bed58d38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2473699145eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Electromagnetic and ultrasonic meters avoid rotor wear, but still need inspection. Deposits on electrodes or transducer faces, problems with electronics, or a dirty bore can affect readings or signal quality. Their maintenance focus differs from that of mechanical meters, but neither type should be treated as maintenance-free."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "30b1324ca477",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef7bece6fc8a",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose verification and maintenance tasks for the meter's technology and water conditions. Mechanical meters may need inspection for wear and eventual repair or replacement. Electronic meters call for bore inspection and signal checks, with attention to water quality. Follow the manufacturer's maintenance guidance rather than assuming that an electronic design needs no service."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ef4b3707a271",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "268063bbaa35",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2df2c970d804",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ee91674725e",
+          "_type": "span",
+          "marks": [],
+          "text": "When to Verify"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4e598d62e3c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43c674835ca3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing disputes:"
+        },
+        {
+          "_key": "7cdea1fb091e",
+          "_type": "span",
+          "marks": [],
+          "text": " Test and document the result before changing an allocation. A result can inform the investigation, but does not prove why a discrepancy occurred."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9a5301b930b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63377da7dac6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Water-quality changes:"
+        },
+        {
+          "_key": "c5f0e4bf3b80",
+          "_type": "span",
+          "marks": [],
+          "text": " After sediment or hardness changes, check for fouling once conditions have stabilised."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fa4d290299d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94746e2fc797",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Widening reconciliation gap:"
+        },
+        {
+          "_key": "676ed1d48593",
+          "_type": "span",
+          "marks": [],
+          "text": " If bulk and submeter totals diverge, verify the meters before concluding that the difference reflects a leak or unauthorised use."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee1c40839d49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d5b7e75d76b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Changing service conditions:"
+        },
+        {
+          "_key": "0e91d77fff39",
+          "_type": "span",
+          "marks": [],
+          "text": " Recheck when demand patterns change enough to put important fixture flows or the night baseline outside the range previously assessed."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bcb45b9ab8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a8fc0b37c36",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep a record of the original commissioning result and later checks. Compare results at relevant flows over time, especially near the low end that governs leak detection and small allocations. A shift can point to a meter, installation, or system issue that warrants investigation. Treat the reading as evidence of abnormal use, not proof of its cause or of who is responsible."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75e9373c1aa3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a94b12f895c8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "578782b1b3d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "061db27efdfb",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm the Specification Before You Buy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "94c75d495415",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60981f1de1d4",
+          "_type": "span",
+          "marks": [],
+          "text": "A meter earns its place by recording the flows that matter in the building. Settle the operating requirements before issuing a purchase order, then document the decision."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e1693378608a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c806e8dadc86",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Define the job:"
+        },
+        {
+          "_key": "b5b936b47baa",
+          "_type": "span",
+          "marks": [],
+          "text": " Suite allocation, leak detection, billing reconciliation, or benchmarking each calls for a different minimum measurable flow."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a02541575f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1eb57180182f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Set the minimum flow:"
+        },
+        {
+          "_key": "4e3a894715d0",
+          "_type": "span",
+          "marks": [],
+          "text": " Use the leak threshold and night baseline, not the pipe diameter or catalogue range. Low-flow performance matters more than headline accuracy if small, continuous use must be detected."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5df5024b3f73",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1489e87f77ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Shortlist technologies:"
+        },
+        {
+          "_key": "a27b6acbda89",
+          "_type": "span",
+          "marks": [],
+          "text": " Keep only one or two meter types that suit the pipe, operating range, and application."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1dcfeb519bbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "041701c993e2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Request complete datasheets:"
+        },
+        {
+          "_key": "13de2f811846",
+          "_type": "span",
+          "marks": [],
+          "text": " Get approved minimum and maximum flows, accuracy curves, and pressure-loss data in writing. Check local approval requirements, and use "
+        },
+        {
+          "_key": "969b53564647",
+          "_type": "span",
+          "marks": [
+            "b0be7320511b"
+          ],
+          "text": "this overview of Measurement Canada approved meters"
+        },
+        {
+          "_key": "672af33aa86a",
+          "_type": "span",
+          "marks": [],
+          "text": " as a starting point."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [
+        {
+          "_key": "b0be7320511b",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/measurement-canada-approved-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "81d1219108c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8463965ec0df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm installation requirements:"
+        },
+        {
+          "_key": "31732b88e89a",
+          "_type": "span",
+          "marks": [],
+          "text": " Resolve straight-run lengths, isolation, bypass, power, and grounding before the design is fixed."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14cf50c92313",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe86490cec5a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Plan commissioning:"
+        },
+        {
+          "_key": "5e6bbd3070ad",
+          "_type": "span",
+          "marks": [],
+          "text": " Test at representative flows and file the results so they are available if a billing or performance dispute arises."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f1c04d7cbb2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce16b4d5d993",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "91108816eba9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf1141f6cc66",
+          "_type": "span",
+          "marks": [],
+          "text": "What Meter Data Can and Cannot Prove"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4b28ce2e8db5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "393af1330117",
+          "_type": "span",
+          "marks": [],
+          "text": "Use "
+        },
+        {
+          "_key": "2ddf2d2041f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "layered monitoring"
+        },
+        {
+          "_key": "f7c4f4ff9645",
+          "_type": "span",
+          "marks": [],
+          "text": ". An inline meter records volume and trends; point leak sensors can help locate water. Keep an escalation record so staff can document what they investigated and decided."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "841e56360fea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f11f4b1fbc1",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter data is evidence of abnormal use, not proof of its cause or responsibility. A rise in the night baseline may justify an inspection, but the reading alone cannot distinguish a toilet leak from irrigation, recirculation, or a stuck valve. Set the alert threshold and the minimum duration that makes an alert actionable with the operator before go-live."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0f9cce031bc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9567b5a7c86e",
+          "_type": "span",
+          "marks": [],
+          "text": "Municipal rules also vary. Check local requirements for meter approval, testing, and billing adjustments rather than assuming one city's process applies elsewhere. For example, "
+        },
+        {
+          "_key": "1dbe1e4f0020",
+          "_type": "span",
+          "marks": [
+            "58753760d0d6"
+          ],
+          "text": "Hamilton's water meter test request procedure"
+        },
+        {
+          "_key": "ec0b72aaf9eb",
+          "_type": "span",
+          "marks": [],
+          "text": " distinguishes remedies for under-registration and over-registration, showing why test results and billing corrections should be treated as separate questions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "58753760d0d6",
+          "_type": "link",
+          "href": "https://www.hamilton.ca/sites/default/files/2022-07/water-meter-test-request-formREV8.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "9b6665ae4a8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78793c35d6a2",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners can manage specification and commissioning in-house or work with a turnkey submetering provider such as Axis Meter Solutions. In either case, retain the datasheet, test results, and commissioning record."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "41672d44b5e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8822f3d75428",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including meter selection, installation, commissioning, tenant billing, and leak detection under long-term agreements with no upfront capital cost. Owners seeking one program for specification, sizing, and verification can contact "
+        },
+        {
+          "_key": "2a45158c2f9b",
+          "_type": "span",
+          "marks": [
+            "b7fa6f7580ef"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "079a99320ea4",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b7fa6f7580ef",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Water",
+  "excerpt": "Compare inline flow meter for water types (ultrasonic, electromagnetic, turbine, paddlewheel, vortex) on accuracy, pipe size, low-flow range and upkeep.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/182328d7-3154-4f7a-ad59-9c6a28e6ce7f/inline-flow-meter-for-water-flow-meter.jpg",
+  "noIndex": false,
+  "outrankId": "08085af4-d5dc-4574-bce5-a9faf016305f",
+  "publishedAt": "2026-10-25T09:40:59.543496+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "inline-flow-meter-for-water"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>An inline water meter can meet its headline accuracy rating and still miss the flows that matter in a building. That rating often reflects intermediate demand, while leaks and running toilets may produce only a small, steady draw. Check whether the meter registers fixture demand and the night baseline before choosing by pipe diameter or accuracy alone. Its readings can reveal abnormal use, but they cannot establish the cause or assign liability. Judge the operating range first to avoid a common specification error in Canadian multi-unit buildings.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#start-with-the-job-the-meter-must-do\">Start With the Job the Meter Must Do</a><ul>\n<li><a href=\"#three-jobs-three-flow-ranges\">Three Jobs, Three Flow Ranges</a></li>\n</ul>\n</li>\n<li><a href=\"#five-inline-flow-meter-types-compared-side-by-side\">Five Inline Flow Meter Types Compared Side by Side</a><ul>\n<li><a href=\"#what-each-column-hides\">What Each Column Hides</a></li>\n</ul>\n</li>\n<li><a href=\"#sizing-by-flow-range-rather-than-pipe-diameter\">Sizing by Flow Range Rather Than Pipe Diameter</a><ul>\n<li><a href=\"#a-four-step-sizing-method\">A Four-Step Sizing Method</a></li>\n</ul>\n</li>\n<li><a href=\"#matching-each-meter-type-to-real-use-cases\">Matching Each Meter Type to Real Use Cases</a><ul>\n<li><a href=\"#where-each-match-fails\">Where Each Match Fails</a></li>\n</ul>\n</li>\n<li><a href=\"#how-installation-changes-meter-performance\">How Installation Changes Meter Performance</a><ul>\n<li><a href=\"#disturbances-air-and-hydraulics\">Disturbances, Air, and Hydraulics</a></li>\n<li><a href=\"#commissioning-as-the-final-gate\">Commissioning as the Final Gate</a></li>\n</ul>\n</li>\n<li><a href=\"#verifying-accuracy-over-the-meters-service-life\">Verifying Accuracy Over the Meter&#39;s Service Life</a><ul>\n<li><a href=\"#how-formal-testing-works\">How Formal Testing Works</a></li>\n<li><a href=\"#wear-profiles-differ-by-technology\">Wear Profiles Differ by Technology</a></li>\n<li><a href=\"#when-to-verify\">When to Verify</a></li>\n</ul>\n</li>\n<li><a href=\"#confirm-the-specification-before-you-buy\">Confirm the Specification Before You Buy</a><ul>\n<li><a href=\"#what-meter-data-can-and-cannot-prove\">What Meter Data Can and Cannot Prove</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"start-with-the-job-the-meter-must-do\"></a></p>\n<h2>Start With the Job the Meter Must Do</h2>\n<p>Define what the meter must measure before choosing a technology. Billing allocation, conservation, and abnormal-use monitoring place different demands on an installation, especially at the low end of its operating range.</p>\n<p>For allocation, the meter needs to record water used by each suite or common area so charges can reflect consumption. Conservation programs need occupants to see their use, and Canadian evidence links volume-based pricing with lower residential water use. Check local bylaws and tenant expectations before setting the meter&#39;s role. <a href=\"https://www.canada.ca/content/dam/eccc/migration/main/indicateurs-indicators/d43360e1-44bd-4f59-9e4b-ae4932a47752/residentialwateruse_en.pdf\">Environment and Climate Change Canada&#39;s residential water use data</a></p>\n<p><a id=\"three-jobs-three-flow-ranges\"></a></p>\n<h3>Three Jobs, Three Flow Ranges</h3>\n<p>Abnormal-use monitoring calls for a useful trend line, not just a total. The meter should capture the building&#39;s <strong>night baseline</strong> and show sustained increases that may indicate a leak or other unusual demand. That reading is evidence of a change in water use, not proof of its cause or who is responsible.</p>\n<p>Set the required <strong>minimum flow</strong> from the job. If the meter serves allocation alone, the key requirement is recording the flows that affect billing. If it must also support conservation and leak monitoring, it needs to register smaller, continuous draws. A meter that performs well at typical fixture demand but misses the night baseline may produce reliable totals while overlooking early warning signs.</p>\n<p>Once the job is clear, specify the flow range the meter must cover, then assess suitable technology and installation requirements. Confirm how readings will be checked over time so the data remains useful for building decisions.</p>\n<p><a id=\"five-inline-flow-meter-types-compared-side-by-side\"></a></p>\n<h2>Five Inline Flow Meter Types Compared Side by Side</h2>\n<p>Start with the comparison below, then confirm every value against the manufacturer&#39;s datasheet for the exact model you&#39;re specifying.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/6b55e821-9754-418e-bb0f-c23db149215d/inline-flow-meter-for-water-flow-meter-comparison.jpg\" alt=\"A comparison table outlining key specifications for five common types of inline flow meters for industrial pipes.\"></p>\n<table>\n<thead>\n<tr>\n<th>Technology</th>\n<th>Typical pipe size</th>\n<th>Typical accuracy</th>\n<th>Low-flow behaviour</th>\n<th>Moving parts</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Ultrasonic (inline transit-time)</td>\n<td>DN15–DN2000</td>\n<td>±1–2% of reading</td>\n<td>Good turndown; reads small flows if the range is set correctly</td>\n<td>None</td>\n</tr>\n<tr>\n<td>Electromagnetic</td>\n<td>Small branches to large mains</td>\n<td>Tight when correctly sized</td>\n<td>Good at low flow; requires conductive water</td>\n<td>None</td>\n</tr>\n<tr>\n<td>Turbine</td>\n<td>DN15–DN300</td>\n<td>±1–2% within range</td>\n<td>Registers only above a cut-in flow; slips at very low flow</td>\n<td>Rotor and bearings</td>\n</tr>\n<tr>\n<td>Paddlewheel</td>\n<td>Small to medium branches</td>\n<td>±2–5% of reading</td>\n<td>High cut-in flow; weak at low flow</td>\n<td>Paddlewheel and bearings</td>\n</tr>\n<tr>\n<td>Vortex</td>\n<td>DN15–DN300</td>\n<td>Moderate within range</td>\n<td>Cannot read below minimum velocity (about 0.3 m/s)</td>\n<td>None; sensor can foul</td>\n</tr>\n</tbody></table>\n<p><em>Typical reference values. Confirm against manufacturer data before specifying.</em></p>\n<p><a id=\"what-each-column-hides\"></a></p>\n<h3>What Each Column Hides</h3>\n<p><strong>Accuracy</strong> is normally stated as a percentage of reading, so a tight figure only helps if low-flow behaviour is also good. <strong>Nominal pipe size</strong> sets the ceiling of the usable range, not the floor. A large meter on a lightly used branch may register almost nothing useful at night. <strong>Moving parts</strong> create wear and periodic service, which matters most for turbine and paddlewheel designs. If you&#39;re weighing a paddlewheel for a low-cost branch, <a href=\"https://www.axismeter.com/blog/paddle-flow-meter\">this guide to paddle flow meters</a> covers where that trade-off is acceptable.</p>\n<p>Turbine and vortex meters also have a <strong>cut-in problem</strong>. They register only above a minimum flow or velocity, so a leak below that threshold stays invisible no matter how good the headline accuracy looks.</p>\n<blockquote>\n<p>The most accurate meter on paper is the wrong meter if its low-flow range misses the leaks you&#39;re trying to catch.</p>\n</blockquote>\n<p>That puts the specification burden on you. Measurement Canada&#39;s 2022 consultation reported that water meters used for customer consumption were, at that time, <strong>exempt from mandatory approval and initial inspection before use</strong>, as documented in <a href=\"https://ised-isde.canada.ca/site/measurement-canada/en/consultations/water-meter-consultation-introduction/what-we-heard-report-consultation-water-meter-use-canadian-marketplace\">Measurement Canada&#39;s water meter consultation report</a>. Request accuracy curves and low-flow data in writing. Don&#39;t assume a regulator has already checked them.</p>\n<p><a id=\"sizing-by-flow-range-rather-than-pipe-diameter\"></a></p>\n<h2>Sizing by Flow Range Rather Than Pipe Diameter</h2>\n<p>A meter&#39;s low-flow performance often matters more than its headline accuracy. Choose by the flows the branch sees in practice: fixture demand during use and the smallest continuous flow that should register overnight. Pipe diameter alone can lead to a meter that misses small leaks or struggles to measure ordinary use.</p>\n<p>A suite branch illustrates why the lower end of the range deserves attention.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/7738f4cd-315c-47e1-8dbe-f0967a595f87/inline-flow-meter-for-water-water-meter.jpg\" alt=\"A digital water meter installed on copper pipes connected to a brass faucet leaking water drops.\"></p>\n<p><a id=\"a-four-step-sizing-method\"></a></p>\n<h3>A Four-Step Sizing Method</h3>\n<ol>\n<li><strong>List fixture demand:</strong> Estimate the combined flow from toilet fills, showers, faucets, and appliances on the branch. Use realistic simultaneous demand, not the pipe&#39;s theoretical capacity.</li>\n<li><strong>Find the night baseline:</strong> Measure or estimate the smallest overnight flow that needs to register. Set any leak alert threshold above normal background use.</li>\n<li><strong>Check the meter&#39;s range:</strong> Compare the candidate&#39;s minimum and maximum flow limits with both the night baseline and expected peak. <a href=\"https://www.axismeter.com/blog/copper-pipe-diameters\">This overview of copper pipe diameters</a> can help distinguish nominal pipe size from the meter&#39;s usable range.</li>\n<li><strong>Keep normal demand in range:</strong> Select a meter that measures routine use within its effective range and can still register the flow relevant to leak detection.</li>\n</ol>\n<p>Size hot and cold services separately. Their demand patterns can differ, and a meter that suits a cold-water branch may operate too high or too low in the range on a hot-water branch. Pressure conditions also affect the flow delivered by fixtures, so account for the actual installation.</p>\n<p>OIML R 49 distinguishes between lower- and higher-flow zones. Its lower-flow zone permits up to <strong>±5% maximum permissible error</strong>, with tighter limits at higher flows, as summarized in the OIML R 49 metering requirements summary. That figure is a maximum permissible error, or MPE, under the standard. Municipal test or acceptance windows use a different convention: they state the range of measured results that qualify for acceptance. Those windows are not directly comparable to an MPE limit.</p>\n<table>\n<thead>\n<tr>\n<th>Source and convention</th>\n<th>Flow zone</th>\n<th>Specified limit</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>OIML R 49, MPE</td>\n<td>Lower-flow zone</td>\n<td>Up to ±5% maximum permissible error</td>\n</tr>\n<tr>\n<td>OIML R 49, MPE</td>\n<td>Higher flows</td>\n<td>Tighter limits than the lower zone</td>\n</tr>\n<tr>\n<td>Winnipeg specification, acceptance window, 5/8-inch meter</td>\n<td>Minimum flow</td>\n<td>95–101%</td>\n</tr>\n<tr>\n<td>Winnipeg specification, acceptance window, 5/8-inch meter</td>\n<td>Intermediate and maximum flow</td>\n<td>98.5–101.5%</td>\n</tr>\n<tr>\n<td>Hamilton test procedure, acceptance window, 15–16 mm meter</td>\n<td>Low flow</td>\n<td>90.0–102.0%</td>\n</tr>\n<tr>\n<td>Hamilton test procedure, acceptance window, 15–16 mm meter</td>\n<td>Intermediate and high flow</td>\n<td>96.0–102.0%</td>\n</tr>\n</tbody></table>\n<p>The video is embedded below.</p>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/embed/r3uhC_83ysw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>Low-flow error has practical consequences. A meter that under-reads small flows can distort <strong>tenant allocation</strong>, leave unexplained differences in <strong>common-area reconciliation</strong>, and delay an alert when a leak remains below its registration threshold. Meter data can indicate abnormal use, but it does not establish the cause or assign liability. Compare overnight readings with the branch&#39;s expected baseline, then investigate unusual consumption before drawing conclusions.</p>\n<p><a id=\"matching-each-meter-type-to-real-use-cases\"></a></p>\n<h2>Matching Each Meter Type to Real Use Cases</h2>\n<p>Use the table as a matching guide, not a verdict. Each row pairs a building situation with the technology that usually fits and the trade-off you still need to check.</p>\n<table>\n<thead>\n<tr>\n<th>Situation</th>\n<th>Usual fit</th>\n<th>Why it fits</th>\n<th>Trade-off to check</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Suite-level submetering in a riser-fed condominium</td>\n<td>Ultrasonic</td>\n<td>Low-flow resolution and no moving parts</td>\n<td>Confirm minimum flow catches toilet leaks</td>\n</tr>\n<tr>\n<td>Irrigation or landscape branch</td>\n<td>Electromagnetic</td>\n<td>Tolerates debris; no moving parts</td>\n<td>Water must be conductive; straight run needed</td>\n</tr>\n<tr>\n<td>Commercial makeup or process line, DN100 and up</td>\n<td>Electromagnetic</td>\n<td>Accuracy holds at large sizes</td>\n<td>Power, grounding and liner cost</td>\n</tr>\n<tr>\n<td>Hot-water recirculation loop</td>\n<td>Ultrasonic</td>\n<td>Works at hot-water temperatures with suitable sensors</td>\n<td>Check the temperature rating</td>\n</tr>\n<tr>\n<td>Steady building supply, DN50 to DN200</td>\n<td>Vortex</td>\n<td>No moving parts; good accuracy at steady flow</td>\n<td>15D upstream run; minimum velocity</td>\n</tr>\n<tr>\n<td>Low-cost branch with wide error tolerance</td>\n<td>Turbine or paddlewheel</td>\n<td>Lowest upfront cost</td>\n<td>Unsuitable for leak detection</td>\n</tr>\n</tbody></table>\n<p>Meter banks like these reward consistent matching across branches.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/c525483c-43c0-4db4-a940-4a7dc1024e8d/inline-flow-meter-for-water-water-meters.jpg\" alt=\"A hand turns a valve on a series of industrial water flow meters mounted on a stainless pipe.\"></p>\n<p><a id=\"where-each-match-fails\"></a></p>\n<h3>Where Each Match Fails</h3>\n<p><strong>Suite-level submetering</strong> fails when the ultrasonic meter&#39;s minimum flow sits above a toilet leak. You&#39;ve paid for resolution you didn&#39;t get. Confirm the threshold against the leak you care about, not against a catalogue turndown ratio.</p>\n<p><strong>Irrigation branches</strong> suit electromagnetic meters because there&#39;s no rotor for debris to jam. The failure mode is different. If the water isn&#39;t sufficiently conductive, or grounding is poor, readings drift or drop out entirely.</p>\n<p><strong>Large commercial makeup lines</strong> also favour electromagnetic designs, since accuracy holds as size grows. Budget for power, grounding rings, and liner selection. Those costs surprise owners who priced only the flow tube.</p>\n<p><strong>Hot-water recirculation loops</strong> need ultrasonic sensors rated for sustained hot service. A meter specified for cold water and installed on a recirculation loop can fail early, even if its flow range looks right.</p>\n<p><strong>Steady building supplies</strong> can suit vortex meters, provided flow stays above minimum velocity and you have the straight run. Put a vortex meter on a low-demand branch and it reads nothing below that velocity. It isn&#39;t broken. It&#39;s out of range.</p>\n<p><strong>Low-cost branches</strong> are the honest home for turbine or paddlewheel meters. Use them where error tolerance is wide and nobody expects leak detection. A paddlewheel on a suite branch will miss toilet leaks by design, so don&#39;t assign it that job.</p>\n<p><a id=\"how-installation-changes-meter-performance\"></a></p>\n<h2>How Installation Changes Meter Performance</h2>\n<p>Straight-run requirements exist because meters infer flow from a velocity profile, and that profile needs distance to settle after a disturbance.</p>\n<table>\n<thead>\n<tr>\n<th>Technology</th>\n<th>Upstream straight run</th>\n<th>Downstream straight run</th>\n<th>Mounting note</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Ultrasonic</td>\n<td>10D</td>\n<td>5D</td>\n<td>Full pipe; keep clear of air and deposits</td>\n</tr>\n<tr>\n<td>Electromagnetic</td>\n<td>5D</td>\n<td>3D</td>\n<td>Full pipe; grounding and conductive water required</td>\n</tr>\n<tr>\n<td>Turbine</td>\n<td>10D</td>\n<td>5D</td>\n<td>Mount per model orientation; filter upstream</td>\n</tr>\n<tr>\n<td>Paddlewheel</td>\n<td>10D</td>\n<td>5D</td>\n<td>Full pipe; avoid air trapped at the paddle</td>\n</tr>\n<tr>\n<td>Vortex</td>\n<td>15D</td>\n<td>5D</td>\n<td>Full pipe; vibration and pulsation reduce stability</td>\n</tr>\n</tbody></table>\n<p><em>Typical values in pipe diameters (D). The manufacturer&#39;s installation manual overrides this table.</em></p>\n<p><a id=\"disturbances-air-and-hydraulics\"></a></p>\n<h3>Disturbances, Air, and Hydraulics</h3>\n<p>Upstream elbows, pumps, and partly open valves create <strong>swirl and uneven velocity profiles</strong> that bias ultrasonic and vortex readings. The meter reports a number confidently. It just isn&#39;t the right number. Air pockets and partly full pipe cause similar trouble for electromagnetic and ultrasonic meters, so mount them where the pipe stays full and air can escape elsewhere.</p>\n<p>Hydraulics vary inside one building. Suites on the same riser see different pressures and flows depending on elevation and simultaneous demand, so one common specification can fail in some branches while working in others. Check the worst branch, not the average one.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If you can&#39;t isolate and remove a meter without shutting down the building, you don&#39;t have a maintenance plan. You have a future outage.</p>\n</blockquote>\n<p>Install <strong>isolation valves and bypass provisions</strong> where permitted, and plan power and grounding for electromagnetic meters before the ceiling closes. Retrofitting those details costs far more than drawing them.</p>\n<p><a id=\"commissioning-as-the-final-gate\"></a></p>\n<h3>Commissioning as the Final Gate</h3>\n<p>Require approved minimum and maximum flows, accuracy curves, and pressure-loss data with the submittal. Then test the installed meter at <strong>low, intermediate, and high flows</strong> that represent your building, not only at nominal pipe size. Record the results with the meter&#39;s location and serial number. A commissioning test left unrecorded makes later billing disputes hard to resolve, because nobody can prove the meter was right on day one.</p>\n<p><a id=\"verifying-accuracy-over-the-meters-service-life\"></a></p>\n<h2>Verifying Accuracy Over the Meter&#39;s Service Life</h2>\n<p>A meter can keep registering flow while its low-flow readings drift enough to miss a continuous leak or distort small allocations. Don&#39;t assume accuracy from normal operation or the meter&#39;s age alone. Establish a baseline when the meter is commissioned, then verify it when the building&#39;s demand pattern, water quality, or recorded consumption raises concern.</p>\n<p><a id=\"how-formal-testing-works\"></a></p>\n<h3>How Formal Testing Works</h3>\n<p>Measurement Canada&#39;s <a href=\"https://ised-isde.canada.ca/site/measurement-canada/sites/default/files/attachments/2022/FIM-VMD_Part4Section21.pdf\">field inspection procedure for volumetric meters</a> describes accuracy testing within a meter&#39;s approved flow range. For a service-life check, test at low, intermediate, and high flows inside that range. Confirm test limits and methods against the agency&#39;s current procedure and the manufacturer&#39;s documentation. A test outside the approved range does not establish how the meter performs across its intended operating envelope.</p>\n<p>Set the low-flow point to examine the demand that matters: fixture use, small continuous draws, or the building&#39;s night baseline. Include intermediate and higher flows that occur in service. An intermediate result alone can look acceptable while the meter misses the small flows needed to identify abnormal overnight use. The goal is to assess the operating range that matters, not to merely confirm a headline accuracy figure.</p>\n<p>For each test point, compare the volume recorded by the meter with a known volume, using a method suited to the meter and approved procedure. Record the flow conditions, result, meter identification, and test date. Use the manufacturer&#39;s and agency&#39;s documents to confirm the exact setup and acceptance criteria. Meter data can show an unusual pattern; it cannot, by itself, establish the cause or assign liability.</p>\n<p><a id=\"wear-profiles-differ-by-technology\"></a></p>\n<h3>Wear Profiles Differ by Technology</h3>\n<p>Turbine and paddlewheel meters have moving parts. Rotor and bearing wear, along with scale buildup, can affect how freely the rotor turns and reduce performance at low flow. That matters when the monitoring job is to detect a small, sustained draw rather than just measure peak demand.</p>\n<p>Electromagnetic and ultrasonic meters avoid rotor wear, but still need inspection. Deposits on electrodes or transducer faces, problems with electronics, or a dirty bore can affect readings or signal quality. Their maintenance focus differs from that of mechanical meters, but neither type should be treated as maintenance-free.</p>\n<p>Choose verification and maintenance tasks for the meter&#39;s technology and water conditions. Mechanical meters may need inspection for wear and eventual repair or replacement. Electronic meters call for bore inspection and signal checks, with attention to water quality. Follow the manufacturer&#39;s maintenance guidance rather than assuming that an electronic design needs no service.</p>\n<p><a id=\"when-to-verify\"></a></p>\n<h3>When to Verify</h3>\n<ul>\n<li><strong>Billing disputes:</strong> Test and document the result before changing an allocation. A result can inform the investigation, but does not prove why a discrepancy occurred.</li>\n<li><strong>Water-quality changes:</strong> After sediment or hardness changes, check for fouling once conditions have stabilised.</li>\n<li><strong>Widening reconciliation gap:</strong> If bulk and submeter totals diverge, verify the meters before concluding that the difference reflects a leak or unauthorised use.</li>\n<li><strong>Changing service conditions:</strong> Recheck when demand patterns change enough to put important fixture flows or the night baseline outside the range previously assessed.</li>\n</ul>\n<p>Keep a record of the original commissioning result and later checks. Compare results at relevant flows over time, especially near the low end that governs leak detection and small allocations. A shift can point to a meter, installation, or system issue that warrants investigation. Treat the reading as evidence of abnormal use, not proof of its cause or of who is responsible.</p>\n<p><a id=\"confirm-the-specification-before-you-buy\"></a></p>\n<h2>Confirm the Specification Before You Buy</h2>\n<p>A meter earns its place by recording the flows that matter in the building. Settle the operating requirements before issuing a purchase order, then document the decision.</p>\n<ol>\n<li><strong>Define the job:</strong> Suite allocation, leak detection, billing reconciliation, or benchmarking each calls for a different minimum measurable flow.</li>\n<li><strong>Set the minimum flow:</strong> Use the leak threshold and night baseline, not the pipe diameter or catalogue range. Low-flow performance matters more than headline accuracy if small, continuous use must be detected.</li>\n<li><strong>Shortlist technologies:</strong> Keep only one or two meter types that suit the pipe, operating range, and application.</li>\n<li><strong>Request complete datasheets:</strong> Get approved minimum and maximum flows, accuracy curves, and pressure-loss data in writing. Check local approval requirements, and use <a href=\"https://www.axismeter.com/blog/measurement-canada-approved-meters\">this overview of Measurement Canada approved meters</a> as a starting point.</li>\n<li><strong>Confirm installation requirements:</strong> Resolve straight-run lengths, isolation, bypass, power, and grounding before the design is fixed.</li>\n<li><strong>Plan commissioning:</strong> Test at representative flows and file the results so they are available if a billing or performance dispute arises.</li>\n</ol>\n<p><a id=\"what-meter-data-can-and-cannot-prove\"></a></p>\n<h3>What Meter Data Can and Cannot Prove</h3>\n<p>Use <strong>layered monitoring</strong>. An inline meter records volume and trends; point leak sensors can help locate water. Keep an escalation record so staff can document what they investigated and decided.</p>\n<p>Meter data is evidence of abnormal use, not proof of its cause or responsibility. A rise in the night baseline may justify an inspection, but the reading alone cannot distinguish a toilet leak from irrigation, recirculation, or a stuck valve. Set the alert threshold and the minimum duration that makes an alert actionable with the operator before go-live.</p>\n<p>Municipal rules also vary. Check local requirements for meter approval, testing, and billing adjustments rather than assuming one city&#39;s process applies elsewhere. For example, <a href=\"https://www.hamilton.ca/sites/default/files/2022-07/water-meter-test-request-formREV8.pdf\">Hamilton&#39;s water meter test request procedure</a> distinguishes remedies for under-registration and over-registration, showing why test results and billing corrections should be treated as separate questions.</p>\n<p>Owners can manage specification and commissioning in-house or work with a turnkey submetering provider such as Axis Meter Solutions. In either case, retain the datasheet, test results, and commissioning record.</p>\n<hr>\n<p>Axis Meter Solutions provides turnkey water submetering for multi-family, condominium, mixed-use, and commercial properties, including meter selection, installation, commissioning, tenant billing, and leak detection under long-term agreements with no upfront capital cost. Owners seeking one program for specification, sizing, and verification can contact <a href=\"https://axismeter.com\">Axis Meter Solutions</a>.</p>",
+  "tags": [
+    "inline flow meter for water",
+    "water flow meter types",
+    "ultrasonic water meter",
+    "water meter sizing",
+    "water submetering"
+  ],
+  "title": "Inline Flow Meter for Water: Types and How to Choose",
+  "updatedAt": "2026-10-25T09:41:02.535Z"
+}
