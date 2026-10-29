@@ -1,0 +1,3525 @@
+{
+  "_createdAt": "2026-10-29T06:59:22Z",
+  "_id": "outrank-6ea6efee-26c0-493e-8a25-faf1db42a2ac",
+  "_rev": "nMJTMD6pYgec3cpPGamzcz",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-29T06:59:22Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "293dc2f06cdf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c912fff5023d",
+          "_type": "span",
+          "marks": [],
+          "text": "You have a stack of utility invoices, a capital plan that keeps slipping, and a board that wants lower operating costs without a large cheque this year. One bidder has offered an energy service company contract that is supposed to pay for itself from the savings. Another has offered unit metering with no money up front and a bill for each suite. Both get called energy services. They are not the same decision."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d1b62a79e5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc11d3a5397e",
+          "_type": "span",
+          "marks": [],
+          "text": "The contract is really a choice about who carries savings risk, capital risk, and billing risk. Turnkey submetering sits beside that choice. It doesn't replace it. The equipment list is the easy part. The hard part is who pays if the bills don't fall, who owns the meters, and who answers when a resident disputes a charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f257fda5368",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "592603566d72",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "e6ae457daad0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4444a8b3f530",
+          "_type": "span",
+          "marks": [
+            "b64270cf323e"
+          ],
+          "text": "Energy Service Companies at a Glance"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b64270cf323e",
+          "_type": "link",
+          "href": "#energy-service-companies-at-a-glance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "067adf9c5125",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2651c7b660c8",
+          "_type": "span",
+          "marks": [
+            "7fb047bfd618"
+          ],
+          "text": "Measuring Savings Against a Baseline"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7fb047bfd618",
+          "_type": "link",
+          "href": "#measuring-savings-against-a-baseline"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "07e38558976f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8da038de31e",
+          "_type": "span",
+          "marks": [
+            "1f66275e82c2"
+          ],
+          "text": "Build the baseline before anyone commissions controls"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1f66275e82c2",
+          "_type": "link",
+          "href": "#build-the-baseline-before-anyone-commissions-controls"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a6d01f459207",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8e4e92322de",
+          "_type": "span",
+          "marks": [
+            "7ba429527847"
+          ],
+          "text": "Which measurement option fits the job"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7ba429527847",
+          "_type": "link",
+          "href": "#which-measurement-option-fits-the-job"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1230a794427f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b69488dfbc63",
+          "_type": "span",
+          "marks": [
+            "7fcba998f0e6"
+          ],
+          "text": "How an ESCO Engagement Unfolds"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7fcba998f0e6",
+          "_type": "link",
+          "href": "#how-an-esco-engagement-unfolds"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a6ec420c4575",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "26ad4f3a728d",
+          "_type": "span",
+          "marks": [
+            "599b4e0cd6fd"
+          ],
+          "text": "Where these jobs usually stall"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "599b4e0cd6fd",
+          "_type": "link",
+          "href": "#where-these-jobs-usually-stall"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "700cbd852f81",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5b7aedc4ad8",
+          "_type": "span",
+          "marks": [
+            "f0512500c6e4"
+          ],
+          "text": "Contracting and Guarantee Structures Compared"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f0512500c6e4",
+          "_type": "link",
+          "href": "#contracting-and-guarantee-structures-compared"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "23464a6e8c75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "149b991c5abb",
+          "_type": "span",
+          "marks": [
+            "c8724126b978"
+          ],
+          "text": "Clauses worth arguing before the term feels long"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c8724126b978",
+          "_type": "link",
+          "href": "#clauses-worth-arguing-before-the-term-feels-long"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6ca8200ca5ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5728e725a1e6",
+          "_type": "span",
+          "marks": [
+            "94961871a7f6"
+          ],
+          "text": "Who Carries the Risk in Each Model"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "94961871a7f6",
+          "_type": "link",
+          "href": "#who-carries-the-risk-in-each-model"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b7d906901cf8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a70fc88531d",
+          "_type": "span",
+          "marks": [
+            "910584bb1aa6"
+          ],
+          "text": "Two Projects Under Each Model"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "910584bb1aa6",
+          "_type": "link",
+          "href": "#two-projects-under-each-model"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c9a93ee52421",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19e6fd3fd80c",
+          "_type": "span",
+          "marks": [
+            "61b9d2ee9cce"
+          ],
+          "text": "Confirm the Right Model Before You Sign"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "61b9d2ee9cce",
+          "_type": "link",
+          "href": "#confirm-the-right-model-before-you-sign"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "92798632eca3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60528debfc96",
+          "_type": "span",
+          "marks": [
+            "643ab09a61c8"
+          ],
+          "text": "When a savings contract fits"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "643ab09a61c8",
+          "_type": "link",
+          "href": "#when-a-savings-contract-fits"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dfe8fdf06efa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e4a38304643a",
+          "_type": "span",
+          "marks": [
+            "0a848bbd9917"
+          ],
+          "text": "When turnkey submetering fits"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0a848bbd9917",
+          "_type": "link",
+          "href": "#when-turnkey-submetering-fits"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4e6cfe23eb6e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe14930bfa9d",
+          "_type": "span",
+          "marks": [
+            "08e31797ea7d"
+          ],
+          "text": "Before you decide"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "08e31797ea7d",
+          "_type": "link",
+          "href": "#before-you-decide"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "36daeec72ff3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fde0028d0403",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eede4db89df9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b95423e7909",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy Service Companies at a Glance"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "733436b6ca51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "068b0c716e40",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "03b06101035e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy service company"
+        },
+        {
+          "_key": "295828be88da",
+          "_type": "span",
+          "marks": [],
+          "text": " works like a contractor who bets its fee on the outcome. It audits the property, designs upgrades such as HVAC optimisation, controls, lighting and envelope work, arranges or provides financing, and takes technical and performance risk. If the bills do not fall, the shortfall lands on the ESCO's side of the table. That is what separates it from a conventional renovation bid, where the contractor is paid whether or not your costs drop."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "992f7589d414",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62a39133de46",
+          "_type": "span",
+          "marks": [],
+          "text": "The loads these projects target are concentrated. In 2023, space and water heating accounted for "
+        },
+        {
+          "_key": "11cd68ea3062",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60%"
+        },
+        {
+          "_key": "2cae8bb583d2",
+          "_type": "span",
+          "marks": [],
+          "text": " of the energy consumed in Canada's commercial and institutional sector, according to "
+        },
+        {
+          "_key": "0bd09f442455",
+          "_type": "span",
+          "marks": [
+            "fb25b6e0753d"
+          ],
+          "text": "Natural Resources Canada"
+        },
+        {
+          "_key": "8f01581e596f",
+          "_type": "span",
+          "marks": [],
+          "text": ". That is why plant work, controls and envelope measures dominate most proposals: they are priced against the loads that drive the bill."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "fb25b6e0753d",
+          "_type": "link",
+          "href": "https://energy-information.canada.ca/en/energy-facts/energy-efficiency"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dfac0d07cefe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b03b9abbf18c",
+          "_type": "span",
+          "marks": [],
+          "text": "Paying for a managed outcome rather than owning and running the equipment yourself is the wider pattern behind offers such as "
+        },
+        {
+          "_key": "6ea1142875d3",
+          "_type": "span",
+          "marks": [
+            "26f6217206ba"
+          ],
+          "text": "a service-based approach to commercial energy"
+        },
+        {
+          "_key": "c9432730e6ed",
+          "_type": "span",
+          "marks": [],
+          "text": ". Turnkey submetering fits that same service logic, which is why owners keep meeting both models in one procurement round. The table lines them up on the terms that matter."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "26f6217206ba",
+          "_type": "link",
+          "href": "https://www.connectvpp.com.au/eaas-for-business/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "56bccf8b75d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14a7e3798654",
+          "_type": "span",
+          "marks": [],
+          "text": "Attribute"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a3a9af8cb6ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0a83ce9e6d0",
+          "_type": "span",
+          "marks": [],
+          "text": "ESCO energy performance contract"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c92428670c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b16e2f59d21",
+          "_type": "span",
+          "marks": [],
+          "text": "Turnkey submetering program"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "086b6536bb0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7fe8db1157a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Core job"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32d74cb93543",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c42983965fc2",
+          "_type": "span",
+          "marks": [],
+          "text": "Designs, builds and guarantees efficiency upgrades"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4fe2e7debf62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b177f8014f5a",
+          "_type": "span",
+          "marks": [],
+          "text": "Measures, bills and maintains unit-level utility use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e245bd9f04d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "725998e3fe68",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical client"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97a59ade281a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62a9dfc0a228",
+          "_type": "span",
+          "marks": [],
+          "text": "Commercial, institutional and multifamily owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69d582eb3e82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "559a1d528fea",
+          "_type": "span",
+          "marks": [],
+          "text": "Multifamily, condominium, strata and mixed-use owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8778f4a20742",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bafd629a1ed8",
+          "_type": "span",
+          "marks": [],
+          "text": "Who funds capital"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d8dbd010b1f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1d351101b13",
+          "_type": "span",
+          "marks": [],
+          "text": "ESCO or its financing partner, repaid from savings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0d0fb6cc322a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "024d88b65d3a",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider owns the meters and recovers costs through service fees"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "90eef8c745f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac71bbb3fcd5",
+          "_type": "span",
+          "marks": [],
+          "text": "Source of return"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a88ea2d7b6f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0cb5090f69ee",
+          "_type": "span",
+          "marks": [],
+          "text": "Measured reduction in utility consumption and operating cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6adc3ec2206e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62251aa439ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Recovered utility costs billed to tenants or units"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae7e3c657f7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3dda1a92708d",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical term"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5808ac952190",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "31ab33f5e0c1",
+          "_type": "span",
+          "marks": [],
+          "text": "Long-term, matched to the financing repayment period"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac2c78cc5e12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a19e1513826a",
+          "_type": "span",
+          "marks": [],
+          "text": "Long-term service agreements"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df552cde2dbb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f7a0b0ea8f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Savings guarantee"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dcbae1646033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "24e0c8f6970d",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually included and tied to a verified baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19d22b3eba0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "28681b224306",
+          "_type": "span",
+          "marks": [],
+          "text": "Not a savings guarantee; billing accuracy and service levels are the commitment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "979a32c48d30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aedb2de1d741",
+          "_type": "span",
+          "marks": [],
+          "text": "Main owner risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b885cf171c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4071e3a4d326",
+          "_type": "span",
+          "marks": [],
+          "text": "Savings shortfall or a weak baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0e274aca5b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "323937a8764c",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing disputes and tenant friction"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b95ab4b5a6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a40e553dd830",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical scope"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a0c710789cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fa56369aee4",
+          "_type": "span",
+          "marks": [],
+          "text": "HVAC, controls, lighting, envelope and plant upgrades"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a83e4cbd00e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "75d91e235572",
+          "_type": "span",
+          "marks": [],
+          "text": "Meters, installation, commissioning, billing and leak detection"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "385b266c5fbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "841dce96ae58",
+          "_type": "span",
+          "marks": [],
+          "text": "Read the table by risk, not by equipment. An ESCO carries savings risk: it has promised a result. A submetering provider carries billing risk: it has promised accurate measurement and clean invoicing at each suite. Capital risk shifts in both models, but toward different parties for different reasons. The rows that settle your choice are "
+        },
+        {
+          "_key": "3a73227a9595",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "who funds capital"
+        },
+        {
+          "_key": "9f40ebaf1e8f",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "3597daf2c987",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "source of return"
+        },
+        {
+          "_key": "d25152cfde69",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "d2ed291e0a9e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "savings guarantee"
+        },
+        {
+          "_key": "3e71c5c41250",
+          "_type": "span",
+          "marks": [],
+          "text": " and "
+        },
+        {
+          "_key": "aa1597210d3d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "main owner risk"
+        },
+        {
+          "_key": "5846ba698868",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8222119ee37e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ce8c6ebcef9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "5215798568c0",
+          "_type": "span",
+          "marks": [],
+          "text": " If the paper in front of you doesn't name a baseline and a shortfall, it isn't a savings contract, even if the cover says energy services."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "d75477ca1aa0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17630361d7c2",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2aa0588f1c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76d6238d6ab4",
+          "_type": "span",
+          "marks": [],
+          "text": "Measuring Savings Against a Baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "fa3af9f50535",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8e206fa2878",
+          "_type": "span",
+          "marks": [],
+          "text": "Every savings guarantee stands or falls on a "
+        },
+        {
+          "_key": "19e14997e3f5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "baseline"
+        },
+        {
+          "_key": "050670785490",
+          "_type": "span",
+          "marks": [],
+          "text": ". That is the modelled or measured energy use before the project, adjusted so it matches the weather, occupancy, and hours that occur afterwards. Without that adjustment, a mild winter looks like a brilliant retrofit, and a busy year looks like a failure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6443f9df56e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b6daa9710b62",
+          "_type": "span",
+          "marks": [
+            "a0efa285a430"
+          ],
+          "text": "Natural Resources Canada"
+        },
+        {
+          "_key": "cd14d4fca42a",
+          "_type": "span",
+          "marks": [],
+          "text": " describes benchmarking as comparing a building's energy use, and potentially greenhouse-gas emissions and water use, with peer buildings, its own history, or a reference target. Its Canadian ENERGY STAR Portfolio Manager adaptation supports those comparisons with actual Canadian data. Track "
+        },
+        {
+          "_key": "ce4a98757877",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy use intensity"
+        },
+        {
+          "_key": "b93a56af7ffa",
+          "_type": "span",
+          "marks": [],
+          "text": " in units such as GJ/m² or ekWh/ft², and normalise for weather and site factors, including operating hours. That ranking is what lets an energy service company pick measures by reduction potential rather than by how old the boiler looks. The same record also supports emerging Canadian benchmarking, disclosure, and building-performance standards."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a0efa285a430",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/energy-efficiency-existing-buildings/benchmarking-building-performance-standards"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ba51feb0af65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8558c6788454",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fb14df877056",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb410c560e7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Build the baseline before anyone commissions controls"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "7e5596c24b7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3337fd30c63e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pull at least 12 months of data."
+        },
+        {
+          "_key": "e92de1548ffc",
+          "_type": "span",
+          "marks": [],
+          "text": " Interval reads are better. Monthly bills still work if the gaps are explained."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5dbf8c82fd68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "30244483f96d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reconcile every figure to invoices and occupancy."
+        },
+        {
+          "_key": "7c5667b1fa7f",
+          "_type": "span",
+          "marks": [],
+          "text": " A vacant floor or a new tenant changes the story the meter is telling."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c93ce1955fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53898fb3a399",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Separate tenant loads from common-area loads where you can."
+        },
+        {
+          "_key": "1037a09a7fe8",
+          "_type": "span",
+          "marks": [],
+          "text": " Master-meter totals hide who is driving the bill. Cleaner unit data is also how you "
+        },
+        {
+          "_key": "09ee5b79700c",
+          "_type": "span",
+          "marks": [
+            "a38258ec64a8"
+          ],
+          "text": "track electricity consumption reduction"
+        },
+        {
+          "_key": "82639162fdca",
+          "_type": "span",
+          "marks": [],
+          "text": " you can defend, rather than arguing from one building total."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [
+        {
+          "_key": "a38258ec64a8",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electricity-consumption-reduction"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c26df3f384a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c70f7ee1df7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Lock the baseline before controls or conservation measures are commissioned."
+        },
+        {
+          "_key": "ca501fe6288f",
+          "_type": "span",
+          "marks": [],
+          "text": " Once the new sequence is running, you no longer have a clean \"before.\""
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7528133f0887",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16fa76b250cb",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners weighing glass as one envelope measure can "
+        },
+        {
+          "_key": "1128bc379742",
+          "_type": "span",
+          "marks": [
+            "4e6369440009"
+          ],
+          "text": "compare window replacement returns in Texas"
+        },
+        {
+          "_key": "3eea2e67d1d9",
+          "_type": "span",
+          "marks": [],
+          "text": " to see how a single component's payback gets argued. Put that logic into the whole-building model. A window quote is not the guarantee."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4e6369440009",
+          "_type": "link",
+          "href": "https://breakingglassco.com/window-replacement-return-on-investment/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a2ee2199ab87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6027c3b62212",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bca5022e9e0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40a945b7ff04",
+          "_type": "span",
+          "marks": [],
+          "text": "Which measurement option fits the job"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f6698dd476c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c5d8ff28c9e",
+          "_type": "span",
+          "marks": [],
+          "text": "The International Performance Measurement and Verification Protocol (IPMVP) is the menu most contracts use. Pick the option that matches how many measures you are installing and how clean your meters already are."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eacf3e373e17",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df4382c0b1be",
+          "_type": "span",
+          "marks": [],
+          "text": "IPMVP option"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "10f547609cfa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b123f141ad1",
+          "_type": "span",
+          "marks": [],
+          "text": "What is measured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "954f9b2db56b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dac4dd946cd0",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0603f23ea051",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77aba767d4e2",
+          "_type": "span",
+          "marks": [],
+          "text": "Relative effort"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56a88dea9853",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bd675b1852b",
+          "_type": "span",
+          "marks": [],
+          "text": "Option A: retrofit isolation, key parameter only"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "43638510baae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c1673565a29",
+          "_type": "span",
+          "marks": [],
+          "text": "One key parameter measured, others estimated"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9dcef00ecdb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b38977b9a0a",
+          "_type": "span",
+          "marks": [],
+          "text": "Simple retrofits such as lighting or a single motor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c5fed90b396",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f9925ccdc3ac",
+          "_type": "span",
+          "marks": [],
+          "text": "Low"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8ccf6df542c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de7bf3d80170",
+          "_type": "span",
+          "marks": [],
+          "text": "Option B: retrofit isolation, all parameters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c44b6e00f0a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00b888ceb2f5",
+          "_type": "span",
+          "marks": [],
+          "text": "All parameters for the retrofitted equipment measured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8efbd990b87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1d36675b9531",
+          "_type": "span",
+          "marks": [],
+          "text": "Single systems with measurable loads, such as chillers or pumps"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c35cb8d8eb7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fa976ac321e8",
+          "_type": "span",
+          "marks": [],
+          "text": "Medium"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "084c8adfb766",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9cab46efab78",
+          "_type": "span",
+          "marks": [],
+          "text": "Option C: whole facility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf8ba2aeb0fb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88bab629206a",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility meter data before and after the project"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "58133d18128d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21cfae979c20",
+          "_type": "span",
+          "marks": [],
+          "text": "Multi-measure retrofits across a whole building"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5af563cb66e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02e29e019e0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Low to medium"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d0abb9f3b79b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "47313c8b3492",
+          "_type": "span",
+          "marks": [],
+          "text": "Option D: calibrated simulation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00cc048431c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1475ef67a94",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy model calibrated to measured data"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f9915e4e3de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7dd8e4176735",
+          "_type": "span",
+          "marks": [],
+          "text": "Projects without a reliable baseline or with complex interactions"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "57d0ea740d5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16509ad85aea",
+          "_type": "span",
+          "marks": [],
+          "text": "High"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0576e0054446",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "efee3d9bd59d",
+          "_type": "span",
+          "marks": [],
+          "text": "A lighting-only job with steady hours can live on Option A. A chiller with its own meter usually wants Option B. Most multi-measure office and multifamily retrofits land on Option C, because the savings show up on the utility meter, not on one piece of gear. Option D is the expensive path, and it is the right one when you don't have a defensible year of history or the measures interact."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cc79b565918",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a42f39ae62c8",
+          "_type": "span",
+          "marks": [],
+          "text": "Automated data exchange cuts transcription errors and lets you check savings more often than once a year. If someone is still keying bills into a spreadsheet, the guarantee is only as good as the last missed invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e84dcd608cfc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e6bf7f7a4f8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63357d5fc397",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6def47820966",
+          "_type": "span",
+          "marks": [],
+          "text": "How an ESCO Engagement Unfolds"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "31c7acb44597",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91bdb9efa6ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Take an illustrative "
+        },
+        {
+          "_key": "fe8945b9c7bf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "60,000-square-foot"
+        },
+        {
+          "_key": "10da6519e96e",
+          "_type": "span",
+          "marks": [],
+          "text": " office. Nothing below is a quote. It is the sequence an owner should expect, and what lands on the desk at each stage."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "495d13ab6097",
+      "_type": "externalImage",
+      "alt": "A five-step infographic showing the process of engaging an energy service company for building efficiency upgrades.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8f714403-fa5c-42cb-a2ab-ed5b6824784d/energy-service-company-esco-process.jpg"
+    },
+    {
+      "_key": "084e808734ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4fe31bd386b5",
+          "_type": "span",
+          "marks": [],
+          "text": "The five boxes above compress the path. The contract itself usually has seven handoffs, and you should know what you receive at each one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0da159975e82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a716595b3610",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Screening."
+        },
+        {
+          "_key": "79c256bb4b90",
+          "_type": "span",
+          "marks": [],
+          "text": " You hand over 12 to 24 months of utility bills, and the energy service company flags candidate measures. You receive a short list, not a price."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "331cda70289e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d20c97055c30",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Investment-grade audit."
+        },
+        {
+          "_key": "87480faf7499",
+          "_type": "span",
+          "marks": [],
+          "text": " The firm models the building, tests equipment, and estimates savings with a stated confidence range. You receive the model, not a brochure."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9bb957c7b386",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3a40dfa724c0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Proposal."
+        },
+        {
+          "_key": "7393095d1acb",
+          "_type": "span",
+          "marks": [],
+          "text": " The firm prices the work and offers a savings guarantee tied to the verified baseline. You receive a number you can compare with your capital plan."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48e73197ed44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e29b335eb1e8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Financing and design."
+        },
+        {
+          "_key": "3fa35cbe001e",
+          "_type": "span",
+          "marks": [],
+          "text": " Capital is arranged, often repaid from savings, and the engineering is finalised. You receive drawings and a repayment shape before anyone opens a ceiling."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d5fb50aab55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76679a9b9a39",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Installation and commissioning."
+        },
+        {
+          "_key": "d94fbbece718",
+          "_type": "span",
+          "marks": [],
+          "text": " Trades install the measures, then controls are tuned and tested. You receive commissioning records, not just a completion photo."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3dc11347d6d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b48a7298158",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Measurement and verification."
+        },
+        {
+          "_key": "f0a4f82df4bb",
+          "_type": "span",
+          "marks": [],
+          "text": " Post-project use is set against the baseline under the option you agreed. You receive a savings statement with the adjustments shown."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "78f3081a5a0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5fc8c24d6052",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Annual reporting and payment."
+        },
+        {
+          "_key": "f6c1d0957214",
+          "_type": "span",
+          "marks": [],
+          "text": " You get the yearly report, and payments settle against verified results. A year that misses the guarantee should change the cheque, not just the narrative."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2eab61939f70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27dad32f0c18",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56388430cc1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbd2035b2c13",
+          "_type": "span",
+          "marks": [],
+          "text": "Where these jobs usually stall"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "993518b65ce8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0109e3956dde",
+          "_type": "span",
+          "marks": [],
+          "text": "Three problems show up more often than bad equipment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2256ab7d09ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d3f1be1aa31",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Scope changes during construction."
+        },
+        {
+          "_key": "36e7fe2442a6",
+          "_type": "span",
+          "marks": [],
+          "text": " A ceiling that won't take the new diffuser drops a measure, and the guarantee still assumes it is there."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b9def74e7c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3176460033f6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Late or missing utility data."
+        },
+        {
+          "_key": "246c3ba9d5e6",
+          "_type": "span",
+          "marks": [],
+          "text": " If bills arrive months late, the annual true-up slips, and nobody can tell a shortfall from a paperwork gap."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e0f87b4fde8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "448f1f551f1e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Occupancy shifts."
+        },
+        {
+          "_key": "09cfc49f4a5a",
+          "_type": "span",
+          "marks": [],
+          "text": " A tenant who leaves, or a floor that goes to longer hours, moves the baseline. The contract has to say how that shift is treated, or the argument starts in year two."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2fb1bddbe2df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5701583510a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Hold three documents before you sign the proposal: the investment-grade audit with its savings model and confidence range, the proposal with the agreed baseline and measurement protocol, and the signed guarantee and payment schedule that ties money to verified results."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "72d1b5194e9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8bead760047d",
+          "_type": "span",
+          "marks": [],
+          "text": "If any of those three is \"to follow,\" you don't have a deal yet. You have a construction estimate wearing a savings costume."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0dbf76624f03",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "37e13508d7f4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "803bb003edc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e02d4c6cbf15",
+          "_type": "span",
+          "marks": [],
+          "text": "Contracting and Guarantee Structures Compared"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "489e94ddf1c2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c1507e059dd1",
+          "_type": "span",
+          "marks": [],
+          "text": "Five structures show up on most desks. Payment, risk, term, and fit are different even when the equipment list looks identical."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "66c580a539e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c976f95c4531",
+          "_type": "span",
+          "marks": [],
+          "text": "Structure"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "db07b92f510c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "06a43dbcc18a",
+          "_type": "span",
+          "marks": [],
+          "text": "How the ESCO is paid"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e18a4aeb87c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "779c2a463f64",
+          "_type": "span",
+          "marks": [],
+          "text": "Who carries performance risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c181666ec3bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59df89b84720",
+          "_type": "span",
+          "marks": [],
+          "text": "Typical term"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f59f8b0bda90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84ef5e21e695",
+          "_type": "span",
+          "marks": [],
+          "text": "Best fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "095af055a064",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1dacd42c1d0",
+          "_type": "span",
+          "marks": [],
+          "text": "Shared savings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3596617124b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "344253326e01",
+          "_type": "span",
+          "marks": [],
+          "text": "Share of measured savings over the contract"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b43b6100a07c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "928900012dfb",
+          "_type": "span",
+          "marks": [],
+          "text": "Mostly the ESCO"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "221cb26d5e18",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "76dcf836b031",
+          "_type": "span",
+          "marks": [],
+          "text": "Often 5 to 10 years"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abdf0e44254d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6a8e7eba246",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners with little capital and stable operations"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a3e377e6094",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eee9d56665ae",
+          "_type": "span",
+          "marks": [],
+          "text": "Guaranteed savings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6cebca2b939c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63e4962c64f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Payments tied to savings, with a minimum savings guarantee"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "df7a60a44a5a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9185315d353d",
+          "_type": "span",
+          "marks": [],
+          "text": "Shared, with the ESCO covering any shortfall"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "406ba2660123",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f3f1491a27aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Often 10 to 20 years"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "917f41dba829",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f2e38bc24c3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who want a guaranteed outcome and keep the asset"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76002966f1bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e91e7a81658d",
+          "_type": "span",
+          "marks": [],
+          "text": "Turnkey energy performance contract"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87500abbb858",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "792b966b7351",
+          "_type": "span",
+          "marks": [],
+          "text": "Project financed and repaid from guaranteed savings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c8ac34cff1c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3d13d4a073d",
+          "_type": "span",
+          "marks": [],
+          "text": "ESCO designs, builds and guarantees the result"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e1c062e9c16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a81dc89f36e1",
+          "_type": "span",
+          "marks": [],
+          "text": "Often 10 to 20 years"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a044aca60108",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72c988d292d6",
+          "_type": "span",
+          "marks": [],
+          "text": "Large retrofits where capital is the barrier"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ea1d703b8bba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a075da50822d",
+          "_type": "span",
+          "marks": [],
+          "text": "Heat as a service"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d42270b299c1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fad183acf11",
+          "_type": "span",
+          "marks": [],
+          "text": "Fixed periodic fee for delivered heating or cooling"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50320a3fef21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ca1fe8f694a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider owns the asset and its performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4af44c2cd6bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df0b20efc700",
+          "_type": "span",
+          "marks": [],
+          "text": "Often 10 to 20 years"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c57822a4a5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df37c1d8cdf9",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who want to avoid equipment ownership"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34a2e2e77c4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a754374c15dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Turnkey submetering agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "590e6b366675",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c54907528d31",
+          "_type": "span",
+          "marks": [],
+          "text": "Service fees for metering, billing and maintenance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "51f89013d392",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a63b4a3cfdc2",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider manages equipment and billing accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76281a1a41d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72de39309d9c",
+          "_type": "span",
+          "marks": [],
+          "text": "Often around 20 years"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf3051580c8d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfd28c9a7efe",
+          "_type": "span",
+          "marks": [],
+          "text": "Multifamily and condominium owners recovering utility costs"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c5764fd6921",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55f2caa4fa2f",
+          "_type": "span",
+          "marks": [],
+          "text": "Shared savings splits the measured reduction. You put little capital in, and the firm earns only if the meters cooperate. Operations need to stay steady, because a chaotic building makes the split impossible to audit."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fe1d526f934c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "882219fdba9a",
+          "_type": "span",
+          "marks": [],
+          "text": "Guaranteed savings keeps the asset in your name. You pay on a schedule, and the firm covers a shortfall against a minimum. You still live with a long term, and you still need a baseline nobody can rewrite after a bad year."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "27f24b7ce67f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eaa5da50a3e9",
+          "_type": "span",
+          "marks": [],
+          "text": "In Canada, an energy service company can deliver an "
+        },
+        {
+          "_key": "72b78d43a2bb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy performance contract"
+        },
+        {
+          "_key": "006e91da57d7",
+          "_type": "span",
+          "marks": [],
+          "text": " as a turnkey project: it designs and builds the measures, arranges financing, and accepts technical and performance risk, so capital-heavy work is judged against forecast operating-cost cuts rather than an upfront cheque. "
+        },
+        {
+          "_key": "2e0c19d8074a",
+          "_type": "span",
+          "marks": [
+            "7222158422eb"
+          ],
+          "text": "Natural Resources Canada"
+        },
+        {
+          "_key": "97166e194c63",
+          "_type": "span",
+          "marks": [],
+          "text": " evaluates bidders for the technical and financial capability to execute those contracts, and qualified firms may bid on federal projects. "
+        },
+        {
+          "_key": "75ca69c2e0e3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Tier 2"
+        },
+        {
+          "_key": "db79555f40d5",
+          "_type": "span",
+          "marks": [],
+          "text": " qualification includes contracts up to "
+        },
+        {
+          "_key": "a91f8e6dc3df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$5 million"
+        },
+        {
+          "_key": "d5f03c93ded4",
+          "_type": "span",
+          "marks": [],
+          "text": ". That is a capability screen, not a promise that your building will save that much."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "7222158422eb",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/qualified-bidders-list-details"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bab308e990a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e948d7ad5985",
+          "_type": "span",
+          "marks": [],
+          "text": "Heat as a service is a different product again. You pay a periodic fee for delivered heat or cooling. The provider owns the plant and its performance. You stop carrying the boiler, and you also stop owning it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1543311686e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e33ab65e601d",
+          "_type": "span",
+          "marks": [],
+          "text": "A turnkey submetering agreement is paid through service fees for meters, billing, and upkeep. The commitment is billing accuracy and service levels, not a kilowatt-hour guarantee. Owners comparing that paperwork with a full utility program can look at how "
+        },
+        {
+          "_key": "decb4b663c8a",
+          "_type": "span",
+          "marks": [
+            "a622bd7f5581"
+          ],
+          "text": "total meter services"
+        },
+        {
+          "_key": "f0dc23b74179",
+          "_type": "span",
+          "marks": [],
+          "text": " are scoped before they assume a metering fee is a savings fee."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "a622bd7f5581",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/total-meter-services"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "edb37e129ce7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3eaf211f7d2f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e03c961ba9a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5f754eba560f",
+          "_type": "span",
+          "marks": [],
+          "text": "Clauses worth arguing before the term feels long"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "dc33febe166f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e22e66e9d02",
+          "_type": "span",
+          "marks": [],
+          "text": "A long term is only as safe as the clause that defines a shortfall. The financial result is the gap between verified use and a defensible baseline, not the nameplate on the new chiller."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7340599c56e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "419b5673a545",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Shortfall."
+        },
+        {
+          "_key": "d1830b09a10e",
+          "_type": "span",
+          "marks": [],
+          "text": " Who writes the cheque, in what month, and whether a miss can be averaged across years."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9da68e847374",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d21886e4deef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Maintenance."
+        },
+        {
+          "_key": "7beb2dcbfed1",
+          "_type": "span",
+          "marks": [],
+          "text": " Who services the equipment, and what happens if skipped maintenance voids the guarantee."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dfb37fc7f62c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89d36ecd9f08",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Utility prices."
+        },
+        {
+          "_key": "1663ba6142ab",
+          "_type": "span",
+          "marks": [],
+          "text": " Whether a rate spike counts as \"savings\" or stays outside the guarantee."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ff9f8d89dc7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "56e219cca56d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Occupancy and hours."
+        },
+        {
+          "_key": "9b52589dbe56",
+          "_type": "span",
+          "marks": [],
+          "text": " How a new tenant, longer retail hours, or a vacant floor resets the model."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a76221de5793",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2a257e00ed3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Buyout."
+        },
+        {
+          "_key": "7d82ef1e49ec",
+          "_type": "span",
+          "marks": [],
+          "text": " The early-termination number, and whether it includes remaining finance as well as lost fees."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5691a9216324",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87979d3f8504",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "728a19dd278a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a47d5dc3c574",
+          "_type": "span",
+          "marks": [],
+          "text": "Who Carries the Risk in Each Model"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "dabccec361df",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96794b6d7014",
+          "_type": "span",
+          "marks": [],
+          "text": "Four risks decide the match: "
+        },
+        {
+          "_key": "267f7d857b87",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "capital"
+        },
+        {
+          "_key": "0878605a3965",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "a8de2fcc0467",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "performance"
+        },
+        {
+          "_key": "c57183a2cb90",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "c21fe942c946",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "maintenance"
+        },
+        {
+          "_key": "9e04652e1c46",
+          "_type": "span",
+          "marks": [],
+          "text": ", and "
+        },
+        {
+          "_key": "ae331779bc1e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "billing"
+        },
+        {
+          "_key": "6d420dd8431d",
+          "_type": "span",
+          "marks": [],
+          "text": ". Everything else in the brochure is a subset of those four."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "671ef6ea214e",
+      "_type": "externalImage",
+      "alt": "A table comparing risk distribution between Energy Service Company engagements and traditional ownership models across four categories.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/803aa8a5-ec0a-4736-abed-a14b48986eb4/energy-service-company-risk-allocation.jpg"
+    },
+    {
+      "_key": "c7bc9c0f566e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7015a74670b6",
+          "_type": "span",
+          "marks": [],
+          "text": "In an energy service company engagement, the contractor usually carries performance risk and often the financing. You still keep operating decisions, and you keep any utility-price exposure the contract does not move. If rates jump and the clause says prices sit with you, a real drop in kilowatt-hours can still leave a disappointing dollar result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eb073c3284ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "74cad491b6c1",
+          "_type": "span",
+          "marks": [],
+          "text": "In a turnkey submetering program, the provider carries the equipment and the accuracy of the bills. You keep tenant relations and the decision to recover costs at all. Axis Meter offers one provider and one invoice for all utilities, with "
+        },
+        {
+          "_key": "6f4b1457bdb0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0"
+        },
+        {
+          "_key": "53402a0dbdef",
+          "_type": "span",
+          "marks": [],
+          "text": " upfront. We own and maintain the leak detection equipment, and sensor batteries, replacements, and system updates are included in the fee. That moves capital and a slice of maintenance. It doesn't move the conversation with a resident who thinks the suite bill is wrong."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "48f44d8207e2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a010602aa1a1",
+          "_type": "span",
+          "marks": [],
+          "text": "An ESCO contract buys a guaranteed outcome at the cost of a long commitment and possible measurement disputes. Submetering buys predictable billing and maintenance at the cost of tenant friction, and it does not guarantee savings."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "25a521cdee0b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95f6cb0a4ba2",
+          "_type": "span",
+          "marks": [],
+          "text": "The question that decides the match is simple. Which risk do you most want off your own balance sheet: capital, performance, maintenance, or billing? If the answer is performance, you are in a savings contract. If the answer is billing, you are in a metering agreement. Signing both and hoping they cancel each other out is how owners end up paying two fees for one unclear result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4301ce2735b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e31a9a549d4e",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d73296420da7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "781bed4056dc",
+          "_type": "span",
+          "marks": [],
+          "text": "Two Projects Under Each Model"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "98d094c2035b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e9f9700db52",
+          "_type": "span",
+          "marks": [],
+          "text": "The figures in both stories are hypothetical. They show the shape of each deal, not numbers to paste into a pro forma."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4fe1e8bf0527",
+      "_type": "externalImage",
+      "alt": "Two infographic panels illustrating building retrofits and energy-as-a-service solutions for commercial properties in Ontario.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3158d885-2f68-4fbc-8b5a-e01066ee644b/energy-service-company-building-retrofit.jpg"
+    },
+    {
+      "_key": "3471df6912d4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71b69a0587a2",
+          "_type": "span",
+          "marks": [],
+          "text": "A 12-storey office tower in Ontario signs a "
+        },
+        {
+          "_key": "a854292d349b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$1.2 million"
+        },
+        {
+          "_key": "4332018aa03b",
+          "_type": "span",
+          "marks": [],
+          "text": " guaranteed-savings retrofit covering controls, HVAC optimisation, and lighting. Annual verified savings come in at "
+        },
+        {
+          "_key": "fa4f163f6225",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$140,000"
+        },
+        {
+          "_key": "f978aee09cd3",
+          "_type": "span",
+          "marks": [],
+          "text": ", a simple payback of about "
+        },
+        {
+          "_key": "100a54f2e64b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8.6 years"
+        },
+        {
+          "_key": "e484a380ea31",
+          "_type": "span",
+          "marks": [],
+          "text": ". The energy service company guarantees the minimum, so any shortfall lands on the contractor. A weather-normalised baseline works like a referee here: when a mild winter cuts heating load, the model filters that out. The owner never books a weather windfall as contractor skill, and the contractor never absorbs blame for weather the baseline already expected. What the tower keeps is the administration: clean utility data every year, occupancy adjustments, a long payment schedule, and the asset itself once the term ends."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7995951fcbb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d775b46e7d3d",
+          "_type": "span",
+          "marks": [],
+          "text": "Now take a 96-unit condominium corporation that adopts a turnkey submetering program and writes no capital cheque. Each suite gets measured directly, residents receive one monthly invoice, and billing disputes ease because the charge traces to a meter in the unit rather than a split of the master meter. Leak sensors go in at selected points. Electricity submetering is associated with consumption reductions of "
+        },
+        {
+          "_key": "8c4e248bd2dd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30 to 40 percent"
+        },
+        {
+          "_key": "b3caeac5753e",
+          "_type": "span",
+          "marks": [],
+          "text": ", yet that figure describes an observed pattern across buildings. No contract owes it to this one. The corporation still explains the change to owners, still decides how common-area costs are shared, and still carries every leak the sensors do not cover."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b047244cf7c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "732a7d354916",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's commercial and institutional buildings occupied "
+        },
+        {
+          "_key": "bee6009534ca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "316.5 million square metres"
+        },
+        {
+          "_key": "6bac633b651b",
+          "_type": "span",
+          "marks": [],
+          "text": " and consumed "
+        },
+        {
+          "_key": "31a39ffc8a91",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "269.3 million gigajoules"
+        },
+        {
+          "_key": "adbb68ec313a",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to "
+        },
+        {
+          "_key": "4ad81838391f",
+          "_type": "span",
+          "marks": [
+            "0e34143dc55e"
+          ],
+          "text": "Statistics Canada"
+        },
+        {
+          "_key": "1922a3bcdfed",
+          "_type": "span",
+          "marks": [],
+          "text": ". Both deals sit inside that stock. The office moved performance risk and capital to the contractor and kept everything the guarantee never touched. The condominium moved billing and equipment maintenance to the provider and kept the resident conversation. Same province, different risk moved."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "0e34143dc55e",
+          "_type": "link",
+          "href": "https://www150.statcan.gc.ca/n1/daily-quotidien/260813/t001a-eng.htm"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3f2b96d5c88a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "493757d3f63f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a2dfe3de4b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e11145c50b1e",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm the Right Model Before You Sign"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "0e100216bd9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fae6720fd577",
+          "_type": "span",
+          "marks": [],
+          "text": "Match the contract to the problem you have, not to the vendor who called first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "abb20ba166b1",
+      "_type": "externalImage",
+      "alt": "A checklist infographic titled Confirm the Right Model Before You Sign for building energy performance contracts.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a7fa0af6-4c53-4007-9c0a-7a8faf98931c/energy-service-company-checklist-infographic.jpg"
+    },
+    {
+      "_key": "c4a2c12b04b7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "32fff4e42046",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "116134f01de5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "40bcc406b781",
+          "_type": "span",
+          "marks": [],
+          "text": "When a savings contract fits"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5726cecc07b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d27bf0994cce",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who need a large capital retrofit and want a guaranteed result usually suit an energy performance contract. Deferred plant, tired controls, and a board that will not write a lump-sum cheque are the usual signs. You should leave that meeting with a baseline, a shortfall clause, and a measurement option, not with a fixture schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d05a6b38259",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b4fb1967c10",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "13113f55cfed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "202e0c404199",
+          "_type": "span",
+          "marks": [],
+          "text": "When turnkey submetering fits"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6417a60e38a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df0e560ac9f2",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners whose equipment is stable, but who struggle with utility cost recovery, billing disputes, or leak losses, usually suit a turnkey submetering program. Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity under licence "
+        },
+        {
+          "_key": "91b173711aa8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ES-2022-0268"
+        },
+        {
+          "_key": "e5ebbd8ef720",
+          "_type": "span",
+          "marks": [],
+          "text": ". That licence is Ontario electricity only. Water, gas, and projects outside Ontario are reviewed separately for each jurisdiction. You can verify our Ontario licence on the Ontario Energy Board register."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f102e7280ee3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68d6e55ea544",
+          "_type": "span",
+          "marks": [],
+          "text": "If you confirm the scope with us in writing, it covers property and existing-system assessment, meter selection and system design coordination, installation, commissioning and data validation, recurring resident or tenant utility billing, move-in and move-out support, and resident inquiries, reporting, maintenance, and monitoring. That is a billing and measurement scope. It is not a guarantee that your energy use will drop. Owners who want the data side of that picture in more detail can read how "
+        },
+        {
+          "_key": "e5c622e80e44",
+          "_type": "span",
+          "marks": [
+            "dbe542af9b3b"
+          ],
+          "text": "smart metering solutions"
+        },
+        {
+          "_key": "8c8491cc51dd",
+          "_type": "span",
+          "marks": [],
+          "text": " support unit-level reads before they treat a meter proposal as a retrofit."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "dbe542af9b3b",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/smart-metering-solutions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "740f9ad1aba2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ea3976dcdca",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1a056d280633",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e2f67718676",
+          "_type": "span",
+          "marks": [],
+          "text": "Before you decide"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "f381e317958a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53cc649a1163",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm the baseline."
+        },
+        {
+          "_key": "fe3dc33fb63d",
+          "_type": "span",
+          "marks": [],
+          "text": " Twelve clean months, weather treatment, and tenant versus common-area loads, in writing."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "77a3b8755de6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20a177cf6f52",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read the shortfall clause."
+        },
+        {
+          "_key": "484d7cf7182f",
+          "_type": "span",
+          "marks": [],
+          "text": " Who pays, when, and whether later years can paper over an early miss."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "247a49859f08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ad5caeace42",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify qualification, references, and licence."
+        },
+        {
+          "_key": "60875acec9c1",
+          "_type": "span",
+          "marks": [],
+          "text": " For a federal-style performance contract, ask which qualification tier the firm holds. For Ontario electricity submetering, ask for the unit sub-meter licence and check the register."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8d7e09c2129a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55d3c2538fad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Get the billing rules in writing."
+        },
+        {
+          "_key": "bda60fe864f0",
+          "_type": "span",
+          "marks": [],
+          "text": " Rate treatment, estimated reads, vacant units, and how a dispute is handled."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6751091d513c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0bf28f720a0",
+          "_type": "span",
+          "marks": [],
+          "text": "Request the written baseline and the written billing rules before you sign."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d15d2e7ca7ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69079497d067",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey utility submetering for multifamily, condominium, mixed-use, and commercial buildings, from meters and installation through tenant billing and ongoing maintenance, with no upfront capital cost on the metering agreement. If your decision is cost recovery and billing risk rather than a guaranteed retrofit, start with the scope and the licence, not with an equipment list. Visit "
+        },
+        {
+          "_key": "fe61ede98f0a",
+          "_type": "span",
+          "marks": [
+            "1079a386603d"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "07c85b77d476",
+          "_type": "span",
+          "marks": [],
+          "text": " to review how a unit-level program is structured before you commit."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1079a386603d",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Cost Savings",
+  "excerpt": "Learn what an energy service company does, how ESCO contracts and savings guarantees work, and how they differ from turnkey submetering programs.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/018afd89-204b-4c56-9411-c044c4c8c1c4/energy-service-company-electric-meter.jpg",
+  "noIndex": false,
+  "outrankId": "6ea6efee-26c0-493e-8a25-faf1db42a2ac",
+  "publishedAt": "2026-10-29T06:59:17.59398+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "energy-service-company"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You have a stack of utility invoices, a capital plan that keeps slipping, and a board that wants lower operating costs without a large cheque this year. One bidder has offered an energy service company contract that is supposed to pay for itself from the savings. Another has offered unit metering with no money up front and a bill for each suite. Both get called energy services. They are not the same decision.</p>\n<p>The contract is really a choice about who carries savings risk, capital risk, and billing risk. Turnkey submetering sits beside that choice. It doesn&#39;t replace it. The equipment list is the easy part. The hard part is who pays if the bills don&#39;t fall, who owns the meters, and who answers when a resident disputes a charge.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#energy-service-companies-at-a-glance\">Energy Service Companies at a Glance</a></li>\n<li><a href=\"#measuring-savings-against-a-baseline\">Measuring Savings Against a Baseline</a><ul>\n<li><a href=\"#build-the-baseline-before-anyone-commissions-controls\">Build the baseline before anyone commissions controls</a></li>\n<li><a href=\"#which-measurement-option-fits-the-job\">Which measurement option fits the job</a></li>\n</ul>\n</li>\n<li><a href=\"#how-an-esco-engagement-unfolds\">How an ESCO Engagement Unfolds</a><ul>\n<li><a href=\"#where-these-jobs-usually-stall\">Where these jobs usually stall</a></li>\n</ul>\n</li>\n<li><a href=\"#contracting-and-guarantee-structures-compared\">Contracting and Guarantee Structures Compared</a><ul>\n<li><a href=\"#clauses-worth-arguing-before-the-term-feels-long\">Clauses worth arguing before the term feels long</a></li>\n</ul>\n</li>\n<li><a href=\"#who-carries-the-risk-in-each-model\">Who Carries the Risk in Each Model</a></li>\n<li><a href=\"#two-projects-under-each-model\">Two Projects Under Each Model</a></li>\n<li><a href=\"#confirm-the-right-model-before-you-sign\">Confirm the Right Model Before You Sign</a><ul>\n<li><a href=\"#when-a-savings-contract-fits\">When a savings contract fits</a></li>\n<li><a href=\"#when-turnkey-submetering-fits\">When turnkey submetering fits</a></li>\n<li><a href=\"#before-you-decide\">Before you decide</a></li>\n</ul>\n</li>\n</ul>\n<p><a id=\"energy-service-companies-at-a-glance\"></a></p>\n<h2>Energy Service Companies at a Glance</h2>\n<p>An <strong>energy service company</strong> works like a contractor who bets its fee on the outcome. It audits the property, designs upgrades such as HVAC optimisation, controls, lighting and envelope work, arranges or provides financing, and takes technical and performance risk. If the bills do not fall, the shortfall lands on the ESCO&#39;s side of the table. That is what separates it from a conventional renovation bid, where the contractor is paid whether or not your costs drop.</p>\n<p>The loads these projects target are concentrated. In 2023, space and water heating accounted for <strong>60%</strong> of the energy consumed in Canada&#39;s commercial and institutional sector, according to <a href=\"https://energy-information.canada.ca/en/energy-facts/energy-efficiency\">Natural Resources Canada</a>. That is why plant work, controls and envelope measures dominate most proposals: they are priced against the loads that drive the bill.</p>\n<p>Paying for a managed outcome rather than owning and running the equipment yourself is the wider pattern behind offers such as <a href=\"https://www.connectvpp.com.au/eaas-for-business/\">a service-based approach to commercial energy</a>. Turnkey submetering fits that same service logic, which is why owners keep meeting both models in one procurement round. The table lines them up on the terms that matter.</p>\n<table>\n<thead>\n<tr>\n<th>Attribute</th>\n<th>ESCO energy performance contract</th>\n<th>Turnkey submetering program</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Core job</td>\n<td>Designs, builds and guarantees efficiency upgrades</td>\n<td>Measures, bills and maintains unit-level utility use</td>\n</tr>\n<tr>\n<td>Typical client</td>\n<td>Commercial, institutional and multifamily owners</td>\n<td>Multifamily, condominium, strata and mixed-use owners</td>\n</tr>\n<tr>\n<td>Who funds capital</td>\n<td>ESCO or its financing partner, repaid from savings</td>\n<td>Provider owns the meters and recovers costs through service fees</td>\n</tr>\n<tr>\n<td>Source of return</td>\n<td>Measured reduction in utility consumption and operating cost</td>\n<td>Recovered utility costs billed to tenants or units</td>\n</tr>\n<tr>\n<td>Typical term</td>\n<td>Long-term, matched to the financing repayment period</td>\n<td>Long-term service agreements</td>\n</tr>\n<tr>\n<td>Savings guarantee</td>\n<td>Usually included and tied to a verified baseline</td>\n<td>Not a savings guarantee; billing accuracy and service levels are the commitment</td>\n</tr>\n<tr>\n<td>Main owner risk</td>\n<td>Savings shortfall or a weak baseline</td>\n<td>Billing disputes and tenant friction</td>\n</tr>\n<tr>\n<td>Typical scope</td>\n<td>HVAC, controls, lighting, envelope and plant upgrades</td>\n<td>Meters, installation, commissioning, billing and leak detection</td>\n</tr>\n</tbody></table>\n<p>Read the table by risk, not by equipment. An ESCO carries savings risk: it has promised a result. A submetering provider carries billing risk: it has promised accurate measurement and clean invoicing at each suite. Capital risk shifts in both models, but toward different parties for different reasons. The rows that settle your choice are <strong>who funds capital</strong>, <strong>source of return</strong>, <strong>savings guarantee</strong> and <strong>main owner risk</strong>.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If the paper in front of you doesn&#39;t name a baseline and a shortfall, it isn&#39;t a savings contract, even if the cover says energy services.</p>\n</blockquote>\n<p><a id=\"measuring-savings-against-a-baseline\"></a></p>\n<h2>Measuring Savings Against a Baseline</h2>\n<p>Every savings guarantee stands or falls on a <strong>baseline</strong>. That is the modelled or measured energy use before the project, adjusted so it matches the weather, occupancy, and hours that occur afterwards. Without that adjustment, a mild winter looks like a brilliant retrofit, and a busy year looks like a failure.</p>\n<p><a href=\"https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/energy-efficiency-existing-buildings/benchmarking-building-performance-standards\">Natural Resources Canada</a> describes benchmarking as comparing a building&#39;s energy use, and potentially greenhouse-gas emissions and water use, with peer buildings, its own history, or a reference target. Its Canadian ENERGY STAR Portfolio Manager adaptation supports those comparisons with actual Canadian data. Track <strong>energy use intensity</strong> in units such as GJ/m² or ekWh/ft², and normalise for weather and site factors, including operating hours. That ranking is what lets an energy service company pick measures by reduction potential rather than by how old the boiler looks. The same record also supports emerging Canadian benchmarking, disclosure, and building-performance standards.</p>\n<p><a id=\"build-the-baseline-before-anyone-commissions-controls\"></a></p>\n<h3>Build the baseline before anyone commissions controls</h3>\n<ol>\n<li><strong>Pull at least 12 months of data.</strong> Interval reads are better. Monthly bills still work if the gaps are explained.</li>\n<li><strong>Reconcile every figure to invoices and occupancy.</strong> A vacant floor or a new tenant changes the story the meter is telling.</li>\n<li><strong>Separate tenant loads from common-area loads where you can.</strong> Master-meter totals hide who is driving the bill. Cleaner unit data is also how you <a href=\"https://www.axismeter.com/blog/electricity-consumption-reduction\">track electricity consumption reduction</a> you can defend, rather than arguing from one building total.</li>\n<li><strong>Lock the baseline before controls or conservation measures are commissioned.</strong> Once the new sequence is running, you no longer have a clean &quot;before.&quot;</li>\n</ol>\n<p>Owners weighing glass as one envelope measure can <a href=\"https://breakingglassco.com/window-replacement-return-on-investment/\">compare window replacement returns in Texas</a> to see how a single component&#39;s payback gets argued. Put that logic into the whole-building model. A window quote is not the guarantee.</p>\n<p><a id=\"which-measurement-option-fits-the-job\"></a></p>\n<h3>Which measurement option fits the job</h3>\n<p>The International Performance Measurement and Verification Protocol (IPMVP) is the menu most contracts use. Pick the option that matches how many measures you are installing and how clean your meters already are.</p>\n<table>\n<thead>\n<tr>\n<th>IPMVP option</th>\n<th>What is measured</th>\n<th>Typical use</th>\n<th>Relative effort</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Option A: retrofit isolation, key parameter only</td>\n<td>One key parameter measured, others estimated</td>\n<td>Simple retrofits such as lighting or a single motor</td>\n<td>Low</td>\n</tr>\n<tr>\n<td>Option B: retrofit isolation, all parameters</td>\n<td>All parameters for the retrofitted equipment measured</td>\n<td>Single systems with measurable loads, such as chillers or pumps</td>\n<td>Medium</td>\n</tr>\n<tr>\n<td>Option C: whole facility</td>\n<td>Utility meter data before and after the project</td>\n<td>Multi-measure retrofits across a whole building</td>\n<td>Low to medium</td>\n</tr>\n<tr>\n<td>Option D: calibrated simulation</td>\n<td>Energy model calibrated to measured data</td>\n<td>Projects without a reliable baseline or with complex interactions</td>\n<td>High</td>\n</tr>\n</tbody></table>\n<p>A lighting-only job with steady hours can live on Option A. A chiller with its own meter usually wants Option B. Most multi-measure office and multifamily retrofits land on Option C, because the savings show up on the utility meter, not on one piece of gear. Option D is the expensive path, and it is the right one when you don&#39;t have a defensible year of history or the measures interact.</p>\n<p>Automated data exchange cuts transcription errors and lets you check savings more often than once a year. If someone is still keying bills into a spreadsheet, the guarantee is only as good as the last missed invoice.</p>\n<p><a id=\"how-an-esco-engagement-unfolds\"></a></p>\n<h2>How an ESCO Engagement Unfolds</h2>\n<p>Take an illustrative <strong>60,000-square-foot</strong> office. Nothing below is a quote. It is the sequence an owner should expect, and what lands on the desk at each stage.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/8f714403-fa5c-42cb-a2ab-ed5b6824784d/energy-service-company-esco-process.jpg\" alt=\"A five-step infographic showing the process of engaging an energy service company for building efficiency upgrades.\"></p>\n<p>The five boxes above compress the path. The contract itself usually has seven handoffs, and you should know what you receive at each one.</p>\n<ol>\n<li><strong>Screening.</strong> You hand over 12 to 24 months of utility bills, and the energy service company flags candidate measures. You receive a short list, not a price.</li>\n<li><strong>Investment-grade audit.</strong> The firm models the building, tests equipment, and estimates savings with a stated confidence range. You receive the model, not a brochure.</li>\n<li><strong>Proposal.</strong> The firm prices the work and offers a savings guarantee tied to the verified baseline. You receive a number you can compare with your capital plan.</li>\n<li><strong>Financing and design.</strong> Capital is arranged, often repaid from savings, and the engineering is finalised. You receive drawings and a repayment shape before anyone opens a ceiling.</li>\n<li><strong>Installation and commissioning.</strong> Trades install the measures, then controls are tuned and tested. You receive commissioning records, not just a completion photo.</li>\n<li><strong>Measurement and verification.</strong> Post-project use is set against the baseline under the option you agreed. You receive a savings statement with the adjustments shown.</li>\n<li><strong>Annual reporting and payment.</strong> You get the yearly report, and payments settle against verified results. A year that misses the guarantee should change the cheque, not just the narrative.</li>\n</ol>\n<p><a id=\"where-these-jobs-usually-stall\"></a></p>\n<h3>Where these jobs usually stall</h3>\n<p>Three problems show up more often than bad equipment.</p>\n<ul>\n<li><strong>Scope changes during construction.</strong> A ceiling that won&#39;t take the new diffuser drops a measure, and the guarantee still assumes it is there.</li>\n<li><strong>Late or missing utility data.</strong> If bills arrive months late, the annual true-up slips, and nobody can tell a shortfall from a paperwork gap.</li>\n<li><strong>Occupancy shifts.</strong> A tenant who leaves, or a floor that goes to longer hours, moves the baseline. The contract has to say how that shift is treated, or the argument starts in year two.</li>\n</ul>\n<blockquote>\n<p>Hold three documents before you sign the proposal: the investment-grade audit with its savings model and confidence range, the proposal with the agreed baseline and measurement protocol, and the signed guarantee and payment schedule that ties money to verified results.</p>\n</blockquote>\n<p>If any of those three is &quot;to follow,&quot; you don&#39;t have a deal yet. You have a construction estimate wearing a savings costume.</p>\n<p><a id=\"contracting-and-guarantee-structures-compared\"></a></p>\n<h2>Contracting and Guarantee Structures Compared</h2>\n<p>Five structures show up on most desks. Payment, risk, term, and fit are different even when the equipment list looks identical.</p>\n<table>\n<thead>\n<tr>\n<th>Structure</th>\n<th>How the ESCO is paid</th>\n<th>Who carries performance risk</th>\n<th>Typical term</th>\n<th>Best fit</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Shared savings</td>\n<td>Share of measured savings over the contract</td>\n<td>Mostly the ESCO</td>\n<td>Often 5 to 10 years</td>\n<td>Owners with little capital and stable operations</td>\n</tr>\n<tr>\n<td>Guaranteed savings</td>\n<td>Payments tied to savings, with a minimum savings guarantee</td>\n<td>Shared, with the ESCO covering any shortfall</td>\n<td>Often 10 to 20 years</td>\n<td>Owners who want a guaranteed outcome and keep the asset</td>\n</tr>\n<tr>\n<td>Turnkey energy performance contract</td>\n<td>Project financed and repaid from guaranteed savings</td>\n<td>ESCO designs, builds and guarantees the result</td>\n<td>Often 10 to 20 years</td>\n<td>Large retrofits where capital is the barrier</td>\n</tr>\n<tr>\n<td>Heat as a service</td>\n<td>Fixed periodic fee for delivered heating or cooling</td>\n<td>Provider owns the asset and its performance</td>\n<td>Often 10 to 20 years</td>\n<td>Owners who want to avoid equipment ownership</td>\n</tr>\n<tr>\n<td>Turnkey submetering agreement</td>\n<td>Service fees for metering, billing and maintenance</td>\n<td>Provider manages equipment and billing accuracy</td>\n<td>Often around 20 years</td>\n<td>Multifamily and condominium owners recovering utility costs</td>\n</tr>\n</tbody></table>\n<p>Shared savings splits the measured reduction. You put little capital in, and the firm earns only if the meters cooperate. Operations need to stay steady, because a chaotic building makes the split impossible to audit.</p>\n<p>Guaranteed savings keeps the asset in your name. You pay on a schedule, and the firm covers a shortfall against a minimum. You still live with a long term, and you still need a baseline nobody can rewrite after a bad year.</p>\n<p>In Canada, an energy service company can deliver an <strong>energy performance contract</strong> as a turnkey project: it designs and builds the measures, arranges financing, and accepts technical and performance risk, so capital-heavy work is judged against forecast operating-cost cuts rather than an upfront cheque. <a href=\"https://natural-resources.canada.ca/energy-efficiency/qualified-bidders-list-details\">Natural Resources Canada</a> evaluates bidders for the technical and financial capability to execute those contracts, and qualified firms may bid on federal projects. <strong>Tier 2</strong> qualification includes contracts up to <strong>$5 million</strong>. That is a capability screen, not a promise that your building will save that much.</p>\n<p>Heat as a service is a different product again. You pay a periodic fee for delivered heat or cooling. The provider owns the plant and its performance. You stop carrying the boiler, and you also stop owning it.</p>\n<p>A turnkey submetering agreement is paid through service fees for meters, billing, and upkeep. The commitment is billing accuracy and service levels, not a kilowatt-hour guarantee. Owners comparing that paperwork with a full utility program can look at how <a href=\"https://www.axismeter.com/blog/total-meter-services\">total meter services</a> are scoped before they assume a metering fee is a savings fee.</p>\n<p><a id=\"clauses-worth-arguing-before-the-term-feels-long\"></a></p>\n<h3>Clauses worth arguing before the term feels long</h3>\n<p>A long term is only as safe as the clause that defines a shortfall. The financial result is the gap between verified use and a defensible baseline, not the nameplate on the new chiller.</p>\n<ul>\n<li><strong>Shortfall.</strong> Who writes the cheque, in what month, and whether a miss can be averaged across years.</li>\n<li><strong>Maintenance.</strong> Who services the equipment, and what happens if skipped maintenance voids the guarantee.</li>\n<li><strong>Utility prices.</strong> Whether a rate spike counts as &quot;savings&quot; or stays outside the guarantee.</li>\n<li><strong>Occupancy and hours.</strong> How a new tenant, longer retail hours, or a vacant floor resets the model.</li>\n<li><strong>Buyout.</strong> The early-termination number, and whether it includes remaining finance as well as lost fees.</li>\n</ul>\n<p><a id=\"who-carries-the-risk-in-each-model\"></a></p>\n<h2>Who Carries the Risk in Each Model</h2>\n<p>Four risks decide the match: <strong>capital</strong>, <strong>performance</strong>, <strong>maintenance</strong>, and <strong>billing</strong>. Everything else in the brochure is a subset of those four.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/803aa8a5-ec0a-4736-abed-a14b48986eb4/energy-service-company-risk-allocation.jpg\" alt=\"A table comparing risk distribution between Energy Service Company engagements and traditional ownership models across four categories.\"></p>\n<p>In an energy service company engagement, the contractor usually carries performance risk and often the financing. You still keep operating decisions, and you keep any utility-price exposure the contract does not move. If rates jump and the clause says prices sit with you, a real drop in kilowatt-hours can still leave a disappointing dollar result.</p>\n<p>In a turnkey submetering program, the provider carries the equipment and the accuracy of the bills. You keep tenant relations and the decision to recover costs at all. Axis Meter offers one provider and one invoice for all utilities, with <strong>$0</strong> upfront. We own and maintain the leak detection equipment, and sensor batteries, replacements, and system updates are included in the fee. That moves capital and a slice of maintenance. It doesn&#39;t move the conversation with a resident who thinks the suite bill is wrong.</p>\n<blockquote>\n<p>An ESCO contract buys a guaranteed outcome at the cost of a long commitment and possible measurement disputes. Submetering buys predictable billing and maintenance at the cost of tenant friction, and it does not guarantee savings.</p>\n</blockquote>\n<p>The question that decides the match is simple. Which risk do you most want off your own balance sheet: capital, performance, maintenance, or billing? If the answer is performance, you are in a savings contract. If the answer is billing, you are in a metering agreement. Signing both and hoping they cancel each other out is how owners end up paying two fees for one unclear result.</p>\n<p><a id=\"two-projects-under-each-model\"></a></p>\n<h2>Two Projects Under Each Model</h2>\n<p>The figures in both stories are hypothetical. They show the shape of each deal, not numbers to paste into a pro forma.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3158d885-2f68-4fbc-8b5a-e01066ee644b/energy-service-company-building-retrofit.jpg\" alt=\"Two infographic panels illustrating building retrofits and energy-as-a-service solutions for commercial properties in Ontario.\"></p>\n<p>A 12-storey office tower in Ontario signs a <strong>$1.2 million</strong> guaranteed-savings retrofit covering controls, HVAC optimisation, and lighting. Annual verified savings come in at <strong>$140,000</strong>, a simple payback of about <strong>8.6 years</strong>. The energy service company guarantees the minimum, so any shortfall lands on the contractor. A weather-normalised baseline works like a referee here: when a mild winter cuts heating load, the model filters that out. The owner never books a weather windfall as contractor skill, and the contractor never absorbs blame for weather the baseline already expected. What the tower keeps is the administration: clean utility data every year, occupancy adjustments, a long payment schedule, and the asset itself once the term ends.</p>\n<p>Now take a 96-unit condominium corporation that adopts a turnkey submetering program and writes no capital cheque. Each suite gets measured directly, residents receive one monthly invoice, and billing disputes ease because the charge traces to a meter in the unit rather than a split of the master meter. Leak sensors go in at selected points. Electricity submetering is associated with consumption reductions of <strong>30 to 40 percent</strong>, yet that figure describes an observed pattern across buildings. No contract owes it to this one. The corporation still explains the change to owners, still decides how common-area costs are shared, and still carries every leak the sensors do not cover.</p>\n<p>Ontario&#39;s commercial and institutional buildings occupied <strong>316.5 million square metres</strong> and consumed <strong>269.3 million gigajoules</strong>, according to <a href=\"https://www150.statcan.gc.ca/n1/daily-quotidien/260813/t001a-eng.htm\">Statistics Canada</a>. Both deals sit inside that stock. The office moved performance risk and capital to the contractor and kept everything the guarantee never touched. The condominium moved billing and equipment maintenance to the provider and kept the resident conversation. Same province, different risk moved.</p>\n<p><a id=\"confirm-the-right-model-before-you-sign\"></a></p>\n<h2>Confirm the Right Model Before You Sign</h2>\n<p>Match the contract to the problem you have, not to the vendor who called first.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a7fa0af6-4c53-4007-9c0a-7a8faf98931c/energy-service-company-checklist-infographic.jpg\" alt=\"A checklist infographic titled Confirm the Right Model Before You Sign for building energy performance contracts.\"></p>\n<p><a id=\"when-a-savings-contract-fits\"></a></p>\n<h3>When a savings contract fits</h3>\n<p>Owners who need a large capital retrofit and want a guaranteed result usually suit an energy performance contract. Deferred plant, tired controls, and a board that will not write a lump-sum cheque are the usual signs. You should leave that meeting with a baseline, a shortfall clause, and a measurement option, not with a fixture schedule.</p>\n<p><a id=\"when-turnkey-submetering-fits\"></a></p>\n<h3>When turnkey submetering fits</h3>\n<p>Owners whose equipment is stable, but who struggle with utility cost recovery, billing disputes, or leak losses, usually suit a turnkey submetering program. Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity under licence <strong>ES-2022-0268</strong>. That licence is Ontario electricity only. Water, gas, and projects outside Ontario are reviewed separately for each jurisdiction. You can verify our Ontario licence on the Ontario Energy Board register.</p>\n<p>If you confirm the scope with us in writing, it covers property and existing-system assessment, meter selection and system design coordination, installation, commissioning and data validation, recurring resident or tenant utility billing, move-in and move-out support, and resident inquiries, reporting, maintenance, and monitoring. That is a billing and measurement scope. It is not a guarantee that your energy use will drop. Owners who want the data side of that picture in more detail can read how <a href=\"https://www.axismeter.com/blog/smart-metering-solutions\">smart metering solutions</a> support unit-level reads before they treat a meter proposal as a retrofit.</p>\n<p><a id=\"before-you-decide\"></a></p>\n<h3>Before you decide</h3>\n<ul>\n<li><strong>Confirm the baseline.</strong> Twelve clean months, weather treatment, and tenant versus common-area loads, in writing.</li>\n<li><strong>Read the shortfall clause.</strong> Who pays, when, and whether later years can paper over an early miss.</li>\n<li><strong>Verify qualification, references, and licence.</strong> For a federal-style performance contract, ask which qualification tier the firm holds. For Ontario electricity submetering, ask for the unit sub-meter licence and check the register.</li>\n<li><strong>Get the billing rules in writing.</strong> Rate treatment, estimated reads, vacant units, and how a dispute is handled.</li>\n</ul>\n<p>Request the written baseline and the written billing rules before you sign.</p>\n<hr>\n<p>Axis Meter Solutions provides turnkey utility submetering for multifamily, condominium, mixed-use, and commercial buildings, from meters and installation through tenant billing and ongoing maintenance, with no upfront capital cost on the metering agreement. If your decision is cost recovery and billing risk rather than a guaranteed retrofit, start with the scope and the licence, not with an equipment list. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to review how a unit-level program is structured before you commit.</p>",
+  "tags": [
+    "energy service company",
+    "ESCO contracts",
+    "energy performance contract",
+    "savings guarantee",
+    "turnkey submetering"
+  ],
+  "title": "Energy Service Company Guide: Contracts and Submetering",
+  "updatedAt": "2026-10-29T06:59:21.492Z"
+}
