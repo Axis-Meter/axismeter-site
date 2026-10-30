@@ -1,0 +1,3297 @@
+{
+  "_createdAt": "2026-10-30T07:06:16Z",
+  "_id": "outrank-6e37fe4f-9c4a-49e1-a655-8f4e5de49dd3",
+  "_rev": "ZFHmzavTNdeozbdYSOzlu5",
+  "_type": "blogPost",
+  "_updatedAt": "2026-10-30T07:06:16Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "88ec01881284",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92aa879b9dd0",
+          "_type": "span",
+          "marks": [],
+          "text": "A January gas bill arrives higher than expected at a mixed-use building, yet residents are still reporting cold bedrooms. The property manager can see the total cost, but not whether the cause is weather, a faulty control, a vacant suite, a meter gap or heat escaping through the building envelope. That's the kind of problem an "
+        },
+        {
+          "_key": "e39e709403d4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy management system"
+        },
+        {
+          "_key": "12107314672b",
+          "_type": "span",
+          "marks": [],
+          "text": " should help solve."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f49ff4bcbca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "833b2c61b7fd",
+          "_type": "span",
+          "marks": [],
+          "text": "For a multifamily property, the job isn't just to display kilowatt-hours. It's to build trustworthy whole-building records, connect energy use to building operations, and check that any savings preserve comfort."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a337ca304ef9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95f20e89dfd5",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4f3607312167",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5914d4ab8000",
+          "_type": "span",
+          "marks": [
+            "868f13dbdd50"
+          ],
+          "text": "What an Energy Management System Does in a Building"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "868f13dbdd50",
+          "_type": "link",
+          "href": "#what-an-energy-management-system-does-in-a-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "2c6410635c67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c6e2026cadd",
+          "_type": "span",
+          "marks": [
+            "962625dda167"
+          ],
+          "text": "Heating is the practical test"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "962625dda167",
+          "_type": "link",
+          "href": "#heating-is-the-practical-test"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a3320d3866be",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7efe6027381",
+          "_type": "span",
+          "marks": [
+            "80927521bc44"
+          ],
+          "text": "Connect Submeters to Trustworthy Building Data"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "80927521bc44",
+          "_type": "link",
+          "href": "#connect-submeters-to-trustworthy-building-data"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4a5f9efe2d35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20bc8e0f97ac",
+          "_type": "span",
+          "marks": [
+            "1f19d40740c7"
+          ],
+          "text": "Build the meter hierarchy"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1f19d40740c7",
+          "_type": "link",
+          "href": "#build-the-meter-hierarchy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b01e0cc1995d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b83538e7632b",
+          "_type": "span",
+          "marks": [
+            "1fb02fef3947"
+          ],
+          "text": "Set rules for interpreting changes"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1fb02fef3947",
+          "_type": "link",
+          "href": "#set-rules-for-interpreting-changes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "647a443f3ed5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3426412af17",
+          "_type": "span",
+          "marks": [
+            "ac3b69ea562e"
+          ],
+          "text": "KPIs for a Multifamily Energy Management System"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "ac3b69ea562e",
+          "_type": "link",
+          "href": "#kpis-for-a-multifamily-energy-management-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8c2bbf32c712",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8200552ce444",
+          "_type": "span",
+          "marks": [
+            "cca8f5f4c00a"
+          ],
+          "text": "Read a high result as a question"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cca8f5f4c00a",
+          "_type": "link",
+          "href": "#read-a-high-result-as-a-question"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "4ec830e02a60",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "039c6b84d846",
+          "_type": "span",
+          "marks": [
+            "58ed87447062"
+          ],
+          "text": "How to Plan and Implement the System"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "58ed87447062",
+          "_type": "link",
+          "href": "#how-to-plan-and-implement-the-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f53e1611a8bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "313823d113f5",
+          "_type": "span",
+          "marks": [
+            "908f163b8cab"
+          ],
+          "text": "Follow the sequence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "908f163b8cab",
+          "_type": "link",
+          "href": "#follow-the-sequence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1d893a2c7cd2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b95374d5416",
+          "_type": "span",
+          "marks": [
+            "e28288714c19"
+          ],
+          "text": "Use a 90-day starter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e28288714c19",
+          "_type": "link",
+          "href": "#use-a-90-day-starter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cd033ef92b1c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c10cea10840",
+          "_type": "span",
+          "marks": [
+            "62c3fe6988a7"
+          ],
+          "text": "Measure Comfort Alongside Every Savings Claim"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "62c3fe6988a7",
+          "_type": "link",
+          "href": "#measure-comfort-alongside-every-savings-claim"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5589b2891f1d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ce5e7d618ed5",
+          "_type": "span",
+          "marks": [
+            "e398dffcb39f"
+          ],
+          "text": "Track the energy carrier that changes"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e398dffcb39f",
+          "_type": "link",
+          "href": "#track-the-energy-carrier-that-changes"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7704782d1abb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27982fd45543",
+          "_type": "span",
+          "marks": [
+            "51dfc1c43156"
+          ],
+          "text": "Prove Savings Without Cutting Comfort"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "51dfc1c43156",
+          "_type": "link",
+          "href": "#prove-savings-without-cutting-comfort"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "02db8d3921ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f77813696df8",
+          "_type": "span",
+          "marks": [
+            "d0bae9bdffb5"
+          ],
+          "text": "Set expectations with evidence"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d0bae9bdffb5",
+          "_type": "link",
+          "href": "#set-expectations-with-evidence"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7b62b51866a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d30a4b57516c",
+          "_type": "span",
+          "marks": [
+            "4f476f6c8a3b"
+          ],
+          "text": "Book a Building Assessment Before You Specify Software"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4f476f6c8a3b",
+          "_type": "link",
+          "href": "#book-a-building-assessment-before-you-specify-software"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "872b5fb9f182",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08b832e9ba64",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75acb4a658f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1725565b82f3",
+          "_type": "span",
+          "marks": [],
+          "text": "What an Energy Management System Does in a Building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ec044c2c8c88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fae92df6013d",
+          "_type": "span",
+          "marks": [],
+          "text": "At a 120-suite mixed-use building, the January gas bill jumps while some residents say their bedrooms are cold. A monthly bill shows that the building used more gas, but it can't tell the property manager whether the heating schedule changed, a control failed, or some suites are not getting enough heat."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b79e4e177b63",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "adf30e205ee0",
+          "_type": "span",
+          "marks": [],
+          "text": "An "
+        },
+        {
+          "_key": "04bf75a115dc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy management system"
+        },
+        {
+          "_key": "994583a2d35a",
+          "_type": "span",
+          "marks": [],
+          "text": " is a repeating cycle of inventory, measurement, analysis, action and review. It combines utility records, meter readings, building conditions and operating decisions, then checks whether the changes improved performance. "
+        },
+        {
+          "_key": "35b9f2cd51bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "It isn't a software screen by itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc50cf5f3a92",
+      "_type": "externalImage",
+      "alt": "An infographic showing the five steps of a building energy management system: inventory, measurement, analysis, action, and review.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/52a8d5a9-9b81-4413-a3f5-9ce17dddc0a2/energy-management-system-cycle.jpg"
+    },
+    {
+      "_key": "d34011f07594",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5d68a5ee180d",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17c68279529c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "134d6c694855",
+          "_type": "span",
+          "marks": [],
+          "text": "Heating is the practical test"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c7b9f1aee5cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d55f0c4fb8f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Heating is where a Canadian building's energy management work often meets its hardest trade-off: reduce avoidable use without leaving people cold. Natural Resources Canada's "
+        },
+        {
+          "_key": "6486ced73e91",
+          "_type": "span",
+          "marks": [
+            "59dad4af3909"
+          ],
+          "text": "2025–2026 Energy Fact Book"
+        },
+        {
+          "_key": "a62c07aa49c3",
+          "_type": "span",
+          "marks": [],
+          "text": " reports that space heating accounted for "
+        },
+        {
+          "_key": "8ca17d25be3f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "56%"
+        },
+        {
+          "_key": "b0c0215300a4",
+          "_type": "span",
+          "marks": [],
+          "text": " of commercial and institutional building energy use in 2022, with water heating adding "
+        },
+        {
+          "_key": "623614c56261",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "6%"
+        },
+        {
+          "_key": "6c75286fea83",
+          "_type": "span",
+          "marks": [],
+          "text": ". It also notes that fossil-fuel equipment used for space and water heating produced more than "
+        },
+        {
+          "_key": "494d76d183b9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "96%"
+        },
+        {
+          "_key": "480c5e1fa7fa",
+          "_type": "span",
+          "marks": [],
+          "text": " of building operating emissions."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "59dad4af3909",
+          "_type": "link",
+          "href": "https://energy-information.canada.ca/sites/default/files/2025-11/energy-fact-book-2025-2026-section-4.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c9b8b4a8eb5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea1210672d7f",
+          "_type": "span",
+          "marks": [],
+          "text": "That makes a lower energy chart an incomplete result. In the Canadian government research cited in the fact book, data-driven supervisory controls reduced heating energy costs by "
+        },
+        {
+          "_key": "2005d807a32b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "22%"
+        },
+        {
+          "_key": "91d0b3e7fe9c",
+          "_type": "span",
+          "marks": [],
+          "text": " and greenhouse-gas emissions by "
+        },
+        {
+          "_key": "c1a446c86a04",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "73%"
+        },
+        {
+          "_key": "b47426b0e2bc",
+          "_type": "span",
+          "marks": [],
+          "text": " without compromising thermal comfort. Cooling-system controls reduced electricity consumption by "
+        },
+        {
+          "_key": "af0434e51905",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "19%"
+        },
+        {
+          "_key": "1798098cedcc",
+          "_type": "span",
+          "marks": [],
+          "text": ". The lesson for a property manager is to evaluate both the energy carrier and the conditions residents experience, rather than treating any drop in consumption as success."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d77371b9ccad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "100c38bbfe15",
+          "_type": "span",
+          "marks": [],
+          "text": "A gas-heated building will show heating changes mainly on the gas meter. An electrically heated building, including one with heat pumps, may show them on the electricity meter instead. The same control strategy can therefore affect different readings, and the right measurement depends on the equipment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "410f4dd4591b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "536052b3a7e7",
+          "_type": "span",
+          "marks": [],
+          "text": "A sound system starts with a meter hierarchy, then uses a scorecard, a practical implementation sequence and a comfort check. It also needs safeguards against false savings. If the building needs envelope improvements as well as better controls, this guide to "
+        },
+        {
+          "_key": "ce04bee92712",
+          "_type": "span",
+          "marks": [
+            "9505ba3bb710"
+          ],
+          "text": "exterior upgrades that help save energy"
+        },
+        {
+          "_key": "56c1fada5ba1",
+          "_type": "span",
+          "marks": [],
+          "text": " can help owners consider measures that reduce heat loss at the building boundary."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "9505ba3bb710",
+          "_type": "link",
+          "href": "https://superiorpro.com/how-can-i-reduce-my-energy-bill-in-an-older-home"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "101a0d8c276a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8916abbc41b9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20c6cbbd7956",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bed68794df6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Connect Submeters to Trustworthy Building Data"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "dc78c52de07b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9899075e19d",
+          "_type": "span",
+          "marks": [],
+          "text": "Benchmarking and savings claims stall when the owner can't assemble one consistent record for the whole building. The Canada Green Building Council identifies standardized whole-building energy data as a foundational gap for benchmarking, emissions verification and sustainable-finance assessments. Before choosing controls or reporting a saving, establish how each meter relates to the utility account and to the loads inside the property."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bebb2d77842d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb4375104c9c",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "a37cff17b522",
+          "_type": "span",
+          "marks": [
+            "409838dcb72b"
+          ],
+          "text": "Natural Resources Canada energy management guidelines"
+        },
+        {
+          "_key": "8407f5722883",
+          "_type": "span",
+          "marks": [],
+          "text": " recommend documenting bills and meter readings, accounting for purchased and on-site energy sources, and building a baseline from at least two years of data. The same discipline helps a property team distinguish tenant allocation from whole-building performance."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "409838dcb72b",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/sites/nrcan/files/energy/pdf/EM%20Guidelines%20Eng%20Mar_27_2019.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "c95d22d04ff1",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating how submeters and a bulk utility meter connect to generate trustworthy building energy data.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/1b331f33-f3d3-4d3d-b1a4-dc361aac4ebe/energy-management-system-energy-metering.jpg"
+    },
+    {
+      "_key": "ab3541fee94c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "02bc07cc10c9",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4bc259caebd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a636d854776c",
+          "_type": "span",
+          "marks": [],
+          "text": "Build the meter hierarchy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "47eeb7130433",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "33f45dff5f9d",
+          "_type": "span",
+          "marks": [],
+          "text": "Level"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a2747087e5a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3f42d76367e4",
+          "_type": "span",
+          "marks": [],
+          "text": "What it measures"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0741ff272a14",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3934c9859d01",
+          "_type": "span",
+          "marks": [],
+          "text": "Read type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c3e4a7ee5a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "391a3b0a15f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Data owner"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "24dd190cde71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "af03e62ab991",
+          "_type": "span",
+          "marks": [],
+          "text": "Interval"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70dde7c9bb70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0555f3d788c2",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk utility meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "630f48294943",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78df9bbcefed",
+          "_type": "span",
+          "marks": [],
+          "text": "Whole-site electricity, gas, steam or water on the invoice"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5e379266501",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e204c6768d0d",
+          "_type": "span",
+          "marks": [],
+          "text": "Measured by utility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "400c490750fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfed890b7172",
+          "_type": "span",
+          "marks": [],
+          "text": "Account holder"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "31c7ffa667a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36b6e42655de",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly bill, interval where offered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf08430af8dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b7a888e7f68",
+          "_type": "span",
+          "marks": [],
+          "text": "Common-area meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e7205a7dafb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "899503686bc6",
+          "_type": "span",
+          "marks": [],
+          "text": "Lobbies, corridors, parking and amenities"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46b2a7d3dc51",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ed77472daed",
+          "_type": "span",
+          "marks": [],
+          "text": "Measured or estimated"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "404b2db24ccb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3c11033a6ddd",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4df730a9fe7c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13e2adf2590a",
+          "_type": "span",
+          "marks": [],
+          "text": "Interval where installed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1c6b541d684",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e715e53cce6",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1ead06e09e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "032af590d3b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Each suite's electricity or heat"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c368d551ed1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2bbf75ec2073",
+          "_type": "span",
+          "marks": [],
+          "text": "Measured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1c9db7d84046",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1f548e97e87",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner or billing agent"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63ed56887f12",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e2ba979dfe8",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly or interval"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e51240ca7e3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c4c69262993",
+          "_type": "span",
+          "marks": [],
+          "text": "Branch meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "164fe45585c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ac4b098cc02",
+          "_type": "span",
+          "marks": [],
+          "text": "Domestic water or thermal loops for fan coils, hydronic heat or VRF"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3539029a1e65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de032ec10e7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Measured or estimated"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8c26982c2c21",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "914b0e3377fc",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner or mechanical contractor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5911e494b22a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b9a4383686a",
+          "_type": "span",
+          "marks": [],
+          "text": "Interval where installed"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e234ee26e66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ab208222515",
+          "_type": "span",
+          "marks": [],
+          "text": "For every level, record whether reads are measured or estimated, who maintains the data, and how frequently readings are available. Then reconcile the suite totals and common-area load against the utility invoice each month. If the totals don't align, treat the difference as a data-quality issue to investigate before it becomes a billing dispute."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3d7e81c6aeb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9762f2ea4a8f",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the hierarchy to describe what each meter can prove. Suite readings can support billing and help identify unusual use, but they aren't a public ranking of residents. Common-area readings show the shared loads separately, which makes it easier to tell whether a change came from a suite or from lobbies, parking or amenities. For an overview of how connected meter networks collect and communicate readings, see this explanation of "
+        },
+        {
+          "_key": "6ccaa0ee5a0c",
+          "_type": "span",
+          "marks": [
+            "3f103ebefe64"
+          ],
+          "text": "advanced metering infrastructure"
+        },
+        {
+          "_key": "cfb112d135a4",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3f103ebefe64",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/advanced-metering-infrastructure"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aec3292a4fdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9175a8f3b6a7",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a426cdfc308c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ea3ed512c75b",
+          "_type": "span",
+          "marks": [],
+          "text": "Set rules for interpreting changes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "466db9ee6d0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93e4ab067d3e",
+          "_type": "span",
+          "marks": [],
+          "text": "Number the following checks and assign an owner for each:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c8f5d6fc22d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6799be1868c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "List every energy source."
+        },
+        {
+          "_key": "bdea7a19adbb",
+          "_type": "span",
+          "marks": [],
+          "text": " Record electricity, gas, steam, water and thermal energy in physical and cost units so no carrier disappears from the picture. The usual slip is an electricity-only inventory."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a99581951e52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "82cafcbe5dd1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Gather a usable history."
+        },
+        {
+          "_key": "ee0520714ad2",
+          "_type": "span",
+          "marks": [],
+          "text": " Collect monthly records covering at least 24 months, and use interval data when it's available. One unusually mild or cold season can distort a comparison."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cdbcb2501504",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b94123750ae8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Create a normalized baseline."
+        },
+        {
+          "_key": "7219a4180cf1",
+          "_type": "span",
+          "marks": [],
+          "text": " Adjust the reference for weather and operating conditions so a change in use isn't mistaken for better performance. An unadjusted utility bill doesn't make a fair baseline."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0ec3c6ade40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c74f3da3e745",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Identify significant energy uses."
+        },
+        {
+          "_key": "72761a645258",
+          "_type": "span",
+          "marks": [],
+          "text": " Separate suites, common areas, domestic hot water, HVAC and central plant loads. The common slip is treating tenant allocation as proof of building-wide improvement."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b3709961b22",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c61a3bf1efc9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assign owners and controls."
+        },
+        {
+          "_key": "0dcbe51e03d3",
+          "_type": "span",
+          "marks": [],
+          "text": " Give each significant use a responsible person, operating controls, a target and an action plan. A target without an owner is easy to ignore."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "761a4c81fa55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a6c8d7d1b39",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Review performance regularly."
+        },
+        {
+          "_key": "0803441761bf",
+          "_type": "span",
+          "marks": [],
+          "text": " Use dashboards and management reviews to spot deviations and correct them. Waiting until the season ends can leave an operating problem in place for months."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74ccf11e5309",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5dea9c47dae7",
+          "_type": "span",
+          "marks": [],
+          "text": "A useful test this month is simple: check whether suite and common-area readings reconcile with the bulk invoice. If a retrofit, vacancy change or fuel switch alters the building, revisit the baseline. Otherwise, an old reference can hide a real improvement or make a normal change look like a saving."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "868bc4508740",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43a5acbfdfaa",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "846efb79e69e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6e386f4db5c",
+          "_type": "span",
+          "marks": [],
+          "text": "KPIs for a Multifamily Energy Management System"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "aff4cf5c055b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "671f324b019c",
+          "_type": "span",
+          "marks": [],
+          "text": "KPI"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "586cc01df384",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa2907c73c9f",
+          "_type": "span",
+          "marks": [],
+          "text": "What to record"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b796cc8ca6e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4aaf0624a57a",
+          "_type": "span",
+          "marks": [],
+          "text": "Canadian reference"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bcf94598c4f5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c01fc78ba422",
+          "_type": "span",
+          "marks": [],
+          "text": "Review"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83f68e32420f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5916011056b5",
+          "_type": "span",
+          "marks": [],
+          "text": "Site energy use intensity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1cc26bace475",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d401efefbc39",
+          "_type": "span",
+          "marks": [],
+          "text": "Gigajoules per square metre of floor area"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "de9a013eec23",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cc790407ac64",
+          "_type": "span",
+          "marks": [],
+          "text": "Median "
+        },
+        {
+          "_key": "82c6f187d629",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.1 GJ/m²"
+        },
+        {
+          "_key": "e30b5efb72e3",
+          "_type": "span",
+          "marks": [],
+          "text": " across 30,500 benchmarked buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e66d19f49dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3026ebc7f9b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly and annual"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "53280bb54424",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d5ac1f68bc92",
+          "_type": "span",
+          "marks": [],
+          "text": "Source energy use intensity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9e69326fb0ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cbd3613af72",
+          "_type": "span",
+          "marks": [],
+          "text": "Upstream energy per square metre"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6afc348ce281",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb7c439eae9a",
+          "_type": "span",
+          "marks": [],
+          "text": "Median "
+        },
+        {
+          "_key": "170290ac1602",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.3 GJ/m²"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3d4477cafbc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee34fe1f7a86",
+          "_type": "span",
+          "marks": [],
+          "text": "Annual"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "009a7b0abaf3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bdfec9a1d720",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity share"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0bc9e7174591",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0973ef0ea6d",
+          "_type": "span",
+          "marks": [],
+          "text": "Percent of reported energy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ac35318121a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "60589c935a11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "51%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4073d930cf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "defc71f25770",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68e4f9ae0e9e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "017545805ab4",
+          "_type": "span",
+          "marks": [],
+          "text": "Natural gas share"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b9ee9e03b2c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3c032649731",
+          "_type": "span",
+          "marks": [],
+          "text": "Percent of reported energy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1b002c773396",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c9292d2cd78a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40%"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50b0f83dd584",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d24c0d9da61",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6cbf0747895",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cfd8e8e0f679",
+          "_type": "span",
+          "marks": [],
+          "text": "Carrier coverage"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae450bf98e46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ba78be361ea",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity, gas and any steam, water or thermal in one inventory"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8f9c83770a52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e7017148072f",
+          "_type": "span",
+          "marks": [],
+          "text": "Multi-carrier, not electricity alone"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "077c742fdccf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "053aa1402e18",
+          "_type": "span",
+          "marks": [],
+          "text": "At setup"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e703ec7b8e24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11ce6229f95d",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite versus common split"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ccd39b20fd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "101c51aec178",
+          "_type": "span",
+          "marks": [],
+          "text": "Percent of metered load in suites versus lobbies, corridors, parking and amenities"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a536d2bf87d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be47243841f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Building-specific, no national median"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fdf0fdaca851",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb3b05a4894e",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "755fc6cbeb77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "499004158ad3",
+          "_type": "span",
+          "marks": [],
+          "text": "Comfort check"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cda17a52a299",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ff40723f7f2",
+          "_type": "span",
+          "marks": [],
+          "text": "Indoor temperature band plus heating or cooling complaint count"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "974c97e651f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f3e534dd4b0",
+          "_type": "span",
+          "marks": [],
+          "text": "Hold comfort while energy falls"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "08ee35a8e150",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6418ef46eb8f",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly in heating season"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46bef35912c6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9bc07ffb97f",
+          "_type": "span",
+          "marks": [],
+          "text": "The benchmarks above come from Natural Resources Canada's "
+        },
+        {
+          "_key": "cd594fe5b72b",
+          "_type": "span",
+          "marks": [
+            "14055f9f3c49"
+          ],
+          "text": "existing-buildings energy efficiency information"
+        },
+        {
+          "_key": "5977f2e58734",
+          "_type": "span",
+          "marks": [],
+          "text": ". Its national benchmarking population covers "
+        },
+        {
+          "_key": "1cb4fae8b6f3",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30,500 buildings"
+        },
+        {
+          "_key": "e1d49a1dc1a1",
+          "_type": "span",
+          "marks": [],
+          "text": " representing "
+        },
+        {
+          "_key": "af338c78f4c1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "380 million square metres"
+        },
+        {
+          "_key": "12208e480bf7",
+          "_type": "span",
+          "marks": [],
+          "text": " of floor area. The national medians offer a reference point, not a pass-or-fail grade for an individual apartment building."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "14055f9f3c49",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/existing-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "882191b97d4d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e5cdc7c5207",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "974fe59e2721",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8e66c9cc3760",
+          "_type": "span",
+          "marks": [],
+          "text": "Read a high result as a question"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "0e46edc2131f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "294a36602a5a",
+          "_type": "span",
+          "marks": [],
+          "text": "If a property's weather-adjusted site intensity sits well above "
+        },
+        {
+          "_key": "8862be8c0c85",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.1 GJ/m²"
+        },
+        {
+          "_key": "ac1daa72e3ae",
+          "_type": "span",
+          "marks": [],
+          "text": ", investigate heating and shared areas before blaming residents. Check whether the floor area is recorded correctly, whether all energy carriers are included and whether a central plant serves spaces beyond the residential suites. A high figure is a prompt to investigate, not a verdict about tenant behaviour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a886f22ca35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15e9635fad05",
+          "_type": "span",
+          "marks": [],
+          "text": "Site and source intensity answer different questions. Site intensity measures the energy delivered to the building. Source intensity accounts for energy used upstream to supply it. Their difference is a reminder that a property's electricity and gas use can't be treated as interchangeable units when comparing performance."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4d13f225276a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1fc691492b61",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity and natural gas are separate scorecard rows for a reason. Electricity accounted for "
+        },
+        {
+          "_key": "39b5c0204e27",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "51%"
+        },
+        {
+          "_key": "11aa5cf69bad",
+          "_type": "span",
+          "marks": [],
+          "text": " of reported consumption in the benchmark, and natural gas for "
+        },
+        {
+          "_key": "442cae1ff558",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40%"
+        },
+        {
+          "_key": "36d740276577",
+          "_type": "span",
+          "marks": [],
+          "text": ". Track steam, water and thermal energy too when they're part of the property's energy picture. For owners considering how building loads respond to grid events, this overview of "
+        },
+        {
+          "_key": "8dd849853acf",
+          "_type": "span",
+          "marks": [
+            "3171ff2c0ae1"
+          ],
+          "text": "demand response programmes"
+        },
+        {
+          "_key": "715be9554905",
+          "_type": "span",
+          "marks": [],
+          "text": " provides useful context."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "3171ff2c0ae1",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/demand-response-programs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d98439d85d70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2e0e121ea6a8",
+          "_type": "span",
+          "marks": [],
+          "text": "The national figures don't tell you how much energy goes to suites versus shared spaces. Build that split from the building's own meter records, and review it alongside the comfort pair: a defined indoor temperature band and a count of heating or cooling complaints. Neither metric is enough on its own; together, they help show whether consumption changed while conditions remained acceptable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "427010d41287",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a148ee2a775b",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with three first-year KPIs: "
+        },
+        {
+          "_key": "99455d799121",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "one intensity measure, one suite-versus-common split and one comfort measure"
+        },
+        {
+          "_key": "d29396f2b18c",
+          "_type": "span",
+          "marks": [],
+          "text": ". Keep the definitions stable so monthly reviews compare like with like."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d68921aaa44b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "600ddf9e3d7a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dc3d6a99b5d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9ca708c05b4",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Plan and Implement the System"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "13ccd1feb9f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6b87e0e4116",
+          "_type": "span",
+          "marks": [],
+          "text": "A building can have complete utility bills and still lack a clear picture of where energy goes. Suite meters, common-area loads and central systems may sit in separate records, like pieces of a map that do not line up. The Canada Green Building Council has identified consistent, standardized whole-building energy data as a barrier to benchmarking, emissions verification and credible financing assessments. A "
+        },
+        {
+          "_key": "96d32f2d78ef",
+          "_type": "span",
+          "marks": [
+            "58ce9d444b07"
+          ],
+          "text": "CAGBC discussion of the data gap and building performance"
+        },
+        {
+          "_key": "873979759732",
+          "_type": "span",
+          "marks": [],
+          "text": " underscores why intensity alone cannot establish operating savings."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "58ce9d444b07",
+          "_type": "link",
+          "href": "https://www.cagbc.org/news-resources/cagbc-news/budget-2025-progress-and-gaps/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "45ffd709a45c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "443955def90b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72ce41123102",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "434334900ac8",
+          "_type": "span",
+          "marks": [],
+          "text": "Follow the sequence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "a771f6efddcd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "29507673e6f1",
+          "_type": "span",
+          "marks": [],
+          "text": "Use the earlier checklist to set consistent rules for interpreting changes. Then turn those rules into a practical implementation sequence:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c80c20e82cf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ac815f2d9a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Map the meter hierarchy."
+        },
+        {
+          "_key": "2eb9284e1643",
+          "_type": "span",
+          "marks": [],
+          "text": " Connect each available reading to a suite, common area, central plant or utility account. Mark gaps and unclear unit assignments so the team knows which parts of the building the records represent."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "713c8d4aafbe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e1604211c644",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reconcile the records before selecting software."
+        },
+        {
+          "_key": "0d5cd4ce32d8",
+          "_type": "span",
+          "marks": [],
+          "text": " Bring bills and meter data into one working record, and identify readings that are measured, estimated or missing. A platform can organize the information, but it cannot resolve an unclear meter map on its own."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9dd1b2b2b52",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9f4330f697fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Choose the first operational question."
+        },
+        {
+          "_key": "7827cf9890c9",
+          "_type": "span",
+          "marks": [],
+          "text": " For example, decide whether the immediate need is to understand suite and common-area use, review a central system, or allocate utility costs. That choice helps the property team define which readings need to be connected first."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "578630b1f046",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f63e7be84a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assign responsibility for maintaining the record."
+        },
+        {
+          "_key": "49b49649fe93",
+          "_type": "span",
+          "marks": [],
+          "text": " Name who updates unit assignments, checks incoming data and follows up on gaps. Without a clear owner, changes in occupancy or meter configuration can make comparisons harder to interpret."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2fdc33671f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a9193c341d2",
+          "_type": "span",
+          "marks": [],
+          "text": "For homes, energy management often focuses on individual household use and practical operating choices. That differs from a multifamily building, where the records must also bring shared systems and tenant information together. An overview of "
+        },
+        {
+          "_key": "4789e87b809e",
+          "_type": "span",
+          "marks": [
+            "30ee9a061b55"
+          ],
+          "text": "home energy management for Queensland households"
+        },
+        {
+          "_key": "b5958dfd54aa",
+          "_type": "span",
+          "marks": [],
+          "text": " offers a household-level comparison."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "30ee9a061b55",
+          "_type": "link",
+          "href": "https://www.highflowenergy.com.au/smart-home-energy-management-system-project/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "25d59383d273",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cd695bd9fc76",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a3551974730b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a04b73793f0",
+          "_type": "span",
+          "marks": [],
+          "text": "Use a 90-day starter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "361de48584ef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aeb9e0bdee24",
+          "_type": "span",
+          "marks": [],
+          "text": "In the first phase, gather the available bills and meter records, then map them to suites, common areas and mechanical systems. Next, mark which readings are measured, estimated or missing, and assign an owner to each record. Finish by agreeing how often the property team will review the information and what question it needs to answer first."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5530caba9d01",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "195929a3d707",
+          "_type": "span",
+          "marks": [],
+          "text": "Keep the sequence intact. A software platform can make records easier to display, but the first useful outcome is a building map that shows what each reading represents."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e83c07945fb8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3423468da9de",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5221a6172a5b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c73b75ed779",
+          "_type": "span",
+          "marks": [],
+          "text": "Measure Comfort Alongside Every Savings Claim"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "664496b89089",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42ce99960dd0",
+          "_type": "span",
+          "marks": [],
+          "text": "A heating control can lower use by delivering less heat. That isn't an acceptable saving if bedrooms become uncomfortable. The property team needs a comfort record alongside the energy record before it changes schedules, resets controls or reports results."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6a3bcea41357",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3ea791a35652",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose representative suites across the building's exposures, including corner units, and place temperature loggers where they capture occupied-room conditions. Agree on an acceptable indoor temperature band with the owner, then record heating complaints by suite and week. Pair those readings with outdoor temperature and heating degree days, so a colder spell isn't mistaken for a control failure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9b882c093c86",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68a10a1cc75c",
+          "_type": "span",
+          "marks": [],
+          "text": "Compare conditions before and after a control change across similar weather. If the building has different orientations or heating zones, don't assume one logger represents every suite. A few consistently chosen locations, clearly documented, make a more useful comparison than ad hoc readings taken only after a complaint."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4b641e446085",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c909ca7b6e95",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "13669fdde688",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ebdf2240ce6",
+          "_type": "span",
+          "marks": [],
+          "text": "Track the energy carrier that changes"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e718d7a0fd6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2511157b9d7",
+          "_type": "span",
+          "marks": [],
+          "text": "For a gas-heated building, check the gas meter when evaluating heating changes. For an electrically heated building or one using heat pumps, track electricity use and winter peak demand as well as monthly kilowatt-hours. A control can shift when electricity is drawn without producing a clear change in the monthly total."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "436d74c54724",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc0b1bf7eedb",
+          "_type": "span",
+          "marks": [],
+          "text": "Judge supervisory controls that adjust temperatures using predicted occupancy by three results together: energy use, comfort conditions and peak load. If consumption falls but complaints increase, the team hasn't demonstrated a comfort-preserving improvement. If comfort holds while use declines, document the meter, weather conditions and operating changes that support the result."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf030ddb15d1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3057fad3179",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Comfort rule:"
+        },
+        {
+          "_key": "248cb609b71a",
+          "_type": "span",
+          "marks": [],
+          "text": " A savings claim should include the temperature record and complaint count, not just the bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "b3a35ff1b7d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "744d0c4bda00",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a50d9dc1dde2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0a61a052e25",
+          "_type": "span",
+          "marks": [],
+          "text": "Prove Savings Without Cutting Comfort"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "74ef7812e537",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b28733a8eff",
+          "_type": "span",
+          "marks": [],
+          "text": "A warm winter can make a gas bill look better even when the building's operation hasn't changed. Before celebrating, compare heating use under similar weather conditions and check whether residents remained comfortable. The table shows common signs that a reported saving may have another explanation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f997eac48818",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3273d9c1b0f",
+          "_type": "span",
+          "marks": [],
+          "text": "What you see"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a7962794d76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e3915ffc8c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Likely cause"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac44f250e6f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a3b8c6e9223",
+          "_type": "span",
+          "marks": [],
+          "text": "Check before reporting"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ee9ad374e571",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d90df176448",
+          "_type": "span",
+          "marks": [],
+          "text": "Gas use down after a mild winter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ab39a1b545c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da9c859cee8a",
+          "_type": "span",
+          "marks": [],
+          "text": "Weather, not operations"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ac565679415",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ae7628c52de",
+          "_type": "span",
+          "marks": [],
+          "text": "Normalize with heating degree days"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e4bbd772984",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "93c1b4cbd6cd",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy down and heating complaints up"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4bd6a9a2188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1130a4854340",
+          "_type": "span",
+          "marks": [],
+          "text": "Comfort was cut"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69201aae813a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6efa4e68ded",
+          "_type": "span",
+          "marks": [],
+          "text": "Restore the temperature band and recount complaints"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1958381fc2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f06da9004e0",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite total down, house meter flat"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6addc4a424e1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "90f28fb3b8b0",
+          "_type": "span",
+          "marks": [],
+          "text": "Cost was reallocated"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e830c71ddbef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a7aecf772e85",
+          "_type": "span",
+          "marks": [],
+          "text": "Report suite and common area separately"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b0458cb3091",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42a57ce004b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility bill and submeters do not match"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c21b62c0c448",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "394c2bbb459d",
+          "_type": "span",
+          "marks": [],
+          "text": "Estimated read or data gap"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b2a297f7e56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91d67e1a7d96",
+          "_type": "span",
+          "marks": [],
+          "text": "Reconcile and fill the interval before any claim"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69d42bbe2485",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96cb7cabd256",
+          "_type": "span",
+          "marks": [],
+          "text": "Intensity jumps after a retrofit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "02df24fb4cd0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "132fea2bdee8",
+          "_type": "span",
+          "marks": [],
+          "text": "Old baseline still in use"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d8200b6c7e61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "579a0a41b815",
+          "_type": "span",
+          "marks": [],
+          "text": "Document the change and rebuild the baseline"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "941bdf58a156",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "372bcc7cc086",
+          "_type": "span",
+          "marks": [],
+          "text": "If gas use falls, normalize for heating degree days before attributing the change to operations. If energy falls while complaints rise, the result may reflect reduced comfort; restore the agreed temperature band and check the readings again. If suite totals fall while the house meter stays flat, the building may have shifted where costs are allocated rather than used less energy."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d026232a59a0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f2b30b79c7d",
+          "_type": "span",
+          "marks": [],
+          "text": "Stop a claim when the utility invoice and submeters don't agree. Find estimated or missing reads and reconcile the records first. After a retrofit, review whether the baseline still represents the building's systems and operation, then document and rebuild it if the change makes the old reference unreliable."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b13512a645dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4877879b8fa4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cbb785dbbf6a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ccf1aa7cf40",
+          "_type": "span",
+          "marks": [],
+          "text": "Set expectations with evidence"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5520cffa3a0c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a25d91d88184",
+          "_type": "span",
+          "marks": [],
+          "text": "Natural Resources Canada's guidance on the "
+        },
+        {
+          "_key": "e0ecafa4b1ca",
+          "_type": "span",
+          "marks": [
+            "2d5a68aaefa1"
+          ],
+          "text": "ISO 50001 energy management standard"
+        },
+        {
+          "_key": "a01ce1ada1c9",
+          "_type": "span",
+          "marks": [],
+          "text": " reports that Canadian companies implementing ISO 50001 achieved an average cumulative energy-performance improvement of "
+        },
+        {
+          "_key": "a7e9c10350bb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "nearly 10% within the first two years"
+        },
+        {
+          "_key": "e609de67b104",
+          "_type": "span",
+          "marks": [],
+          "text": ". For large Canadian companies, those improvements translated into energy-cost savings of up to "
+        },
+        {
+          "_key": "9d537ecd0b63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$2 million annually"
+        },
+        {
+          "_key": "9566e0ff1148",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those results show the value of measured, accountable management, but they aren't a forecast for a particular multifamily property."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "2d5a68aaefa1",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/industry-energy-efficiency/energy-management-industry/iso-50001-energy-management-systems-standard"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a5101367df2d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2753ceefc556",
+          "_type": "span",
+          "marks": [],
+          "text": "The same guidance cites Clean Energy Ministerial estimates that energy management systems can save up to "
+        },
+        {
+          "_key": "1fc31f2e48fb",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30% of total energy use in industry"
+        },
+        {
+          "_key": "e1c83c30b006",
+          "_type": "span",
+          "marks": [],
+          "text": " and up to "
+        },
+        {
+          "_key": "ee1941452d20",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "40% in commercial buildings"
+        },
+        {
+          "_key": "917545107b01",
+          "_type": "span",
+          "marks": [],
+          "text": ". Those are upper-potential estimates, not guaranteed outcomes for a rental building. For another perspective on estimating household costs, this "
+        },
+        {
+          "_key": "58793dcb7bf9",
+          "_type": "span",
+          "marks": [
+            "4dd26c9aa15a"
+          ],
+          "text": "Phoenix home energy cost estimator"
+        },
+        {
+          "_key": "02ca122ec129",
+          "_type": "span",
+          "marks": [],
+          "text": " can help readers think about how assumptions shape an estimate; it doesn't replace a building-specific baseline."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "4dd26c9aa15a",
+          "_type": "link",
+          "href": "https://sapperhvac.com/energy-savings-calculator"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1fb93462affd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ac1e54533c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who want to reduce electricity use can also review this practical overview of "
+        },
+        {
+          "_key": "683d10ce3664",
+          "_type": "span",
+          "marks": [
+            "31c4ce8fa7fc"
+          ],
+          "text": "electricity consumption reduction"
+        },
+        {
+          "_key": "8b15037b2cca",
+          "_type": "span",
+          "marks": [],
+          "text": ". Whatever the project, report the result only after checking weather, occupancy, comfort, meter completeness and baseline suitability."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "31c4ce8fa7fc",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/electricity-consumption-reduction"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "207c9a7f358d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67f4a4f10d95",
+          "_type": "span",
+          "marks": [],
+          "text": "No savings number goes to ownership until weather, occupancy and comfort sit on the same page as the meter."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "36fc0e725a30",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c9f6fcd821c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "52dc8405cafc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ba128c04f0c",
+          "_type": "span",
+          "marks": [],
+          "text": "Book a Building Assessment Before You Specify Software"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "6b70463b0f50",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f6b547d26858",
+          "_type": "span",
+          "marks": [],
+          "text": "Choose the next step based on the quality of the building's records. "
+        },
+        {
+          "_key": "d583db702c23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "If bulk bills can't be split into suites, common areas, water and thermal use, prioritise measurement."
+        },
+        {
+          "_key": "e54d16c23fad",
+          "_type": "span",
+          "marks": [],
+          "text": " If the split reconciles to the invoice and heating is the significant load, focus the next investment on controls that maintain comfort. If the baseline is too short or a retrofit has just changed the building, wait until you can rebuild a usable comparison."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2ea8671fed00",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2088879ddf9a",
+          "_type": "span",
+          "marks": [],
+          "text": "If staff don't have the capacity to manage meter design, installation, resident billing and ongoing validation, a turnkey submetering partner can provide the measurement path. Axis Meter Solutions provides submetering for multi-family, commercial and mixed-use properties, including equipment, installation, billing, maintenance and project-specific compliance planning. Its work can include property and existing-system assessment, meter selection and system-design coordination, commissioning and data validation, recurring resident or tenant billing, move-in and move-out support, and ongoing monitoring."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7c8e869ab92d",
+      "_type": "externalImage",
+      "alt": "A male energy consultant and female building manager reviewing architectural floor plans and energy management software together.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/04a82a37-d0a1-4c01-8507-8fb2ca76ea2f/energy-management-system-building-assessment.jpg"
+    },
+    {
+      "_key": "677f92b9cb88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f122d426f03",
+          "_type": "span",
+          "marks": [],
+          "text": "For thermal systems, the building's HVAC layout matters. Axis assesses the existing configuration and designs a thermal metering solution for applications such as hydronic systems, fan coils and variable refrigerant flow. Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under licence ES-2022-0268; confirm applicable provincial requirements before engaging a provider."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "db42233721b2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3cf74664e644",
+          "_type": "span",
+          "marks": [],
+          "text": "Bring "
+        },
+        {
+          "_key": "203e0f831e00",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "24 months of utility bills"
+        },
+        {
+          "_key": "d732fb17e365",
+          "_type": "span",
+          "marks": [],
+          "text": " and one practical question to an assessment: how much of the building's load sits in suites versus common areas? That answer helps determine whether the next step is better measurement, a control change or a more reliable baseline."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93cb8d5b62a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "296f79308555",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides turnkey submetering for multifamily, commercial and mixed-use buildings, from meter assessment and installation through data validation, tenant billing and ongoing support. If your building's bulk bills don't show how suites and shared spaces use energy, visit "
+        },
+        {
+          "_key": "cc88e66c4a0a",
+          "_type": "span",
+          "marks": [
+            "fa4cecef7d3a"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "ee3a2a01665e",
+          "_type": "span",
+          "marks": [],
+          "text": " to discuss a building-specific assessment."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "fa4cecef7d3a",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Learn how to plan, implement and measure an energy management system in multifamily or mixed-use buildings, with KPIs, phases and submeters.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/71099d00-7c0f-4d4a-bcad-77af0738e31e/energy-management-system-apartment-complex.jpg",
+  "noIndex": false,
+  "outrankId": "6e37fe4f-9c4a-49e1-a655-8f4e5de49dd3",
+  "publishedAt": "2026-10-30T07:06:12.090606+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "energy-management-system"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A January gas bill arrives higher than expected at a mixed-use building, yet residents are still reporting cold bedrooms. The property manager can see the total cost, but not whether the cause is weather, a faulty control, a vacant suite, a meter gap or heat escaping through the building envelope. That&#39;s the kind of problem an <strong>energy management system</strong> should help solve.</p>\n<p>For a multifamily property, the job isn&#39;t just to display kilowatt-hours. It&#39;s to build trustworthy whole-building records, connect energy use to building operations, and check that any savings preserve comfort.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-an-energy-management-system-does-in-a-building\">What an Energy Management System Does in a Building</a><ul>\n<li><a href=\"#heating-is-the-practical-test\">Heating is the practical test</a></li>\n</ul>\n</li>\n<li><a href=\"#connect-submeters-to-trustworthy-building-data\">Connect Submeters to Trustworthy Building Data</a><ul>\n<li><a href=\"#build-the-meter-hierarchy\">Build the meter hierarchy</a></li>\n<li><a href=\"#set-rules-for-interpreting-changes\">Set rules for interpreting changes</a></li>\n</ul>\n</li>\n<li><a href=\"#kpis-for-a-multifamily-energy-management-system\">KPIs for a Multifamily Energy Management System</a><ul>\n<li><a href=\"#read-a-high-result-as-a-question\">Read a high result as a question</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-plan-and-implement-the-system\">How to Plan and Implement the System</a><ul>\n<li><a href=\"#follow-the-sequence\">Follow the sequence</a></li>\n<li><a href=\"#use-a-90-day-starter\">Use a 90-day starter</a></li>\n</ul>\n</li>\n<li><a href=\"#measure-comfort-alongside-every-savings-claim\">Measure Comfort Alongside Every Savings Claim</a><ul>\n<li><a href=\"#track-the-energy-carrier-that-changes\">Track the energy carrier that changes</a></li>\n</ul>\n</li>\n<li><a href=\"#prove-savings-without-cutting-comfort\">Prove Savings Without Cutting Comfort</a><ul>\n<li><a href=\"#set-expectations-with-evidence\">Set expectations with evidence</a></li>\n</ul>\n</li>\n<li><a href=\"#book-a-building-assessment-before-you-specify-software\">Book a Building Assessment Before You Specify Software</a></li>\n</ul>\n<p><a id=\"what-an-energy-management-system-does-in-a-building\"></a></p>\n<h2>What an Energy Management System Does in a Building</h2>\n<p>At a 120-suite mixed-use building, the January gas bill jumps while some residents say their bedrooms are cold. A monthly bill shows that the building used more gas, but it can&#39;t tell the property manager whether the heating schedule changed, a control failed, or some suites are not getting enough heat.</p>\n<p>An <strong>energy management system</strong> is a repeating cycle of inventory, measurement, analysis, action and review. It combines utility records, meter readings, building conditions and operating decisions, then checks whether the changes improved performance. <strong>It isn&#39;t a software screen by itself.</strong></p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/52a8d5a9-9b81-4413-a3f5-9ce17dddc0a2/energy-management-system-cycle.jpg\" alt=\"An infographic showing the five steps of a building energy management system: inventory, measurement, analysis, action, and review.\"></p>\n<p><a id=\"heating-is-the-practical-test\"></a></p>\n<h3>Heating is the practical test</h3>\n<p>Heating is where a Canadian building&#39;s energy management work often meets its hardest trade-off: reduce avoidable use without leaving people cold. Natural Resources Canada&#39;s <a href=\"https://energy-information.canada.ca/sites/default/files/2025-11/energy-fact-book-2025-2026-section-4.pdf\">2025–2026 Energy Fact Book</a> reports that space heating accounted for <strong>56%</strong> of commercial and institutional building energy use in 2022, with water heating adding <strong>6%</strong>. It also notes that fossil-fuel equipment used for space and water heating produced more than <strong>96%</strong> of building operating emissions.</p>\n<p>That makes a lower energy chart an incomplete result. In the Canadian government research cited in the fact book, data-driven supervisory controls reduced heating energy costs by <strong>22%</strong> and greenhouse-gas emissions by <strong>73%</strong> without compromising thermal comfort. Cooling-system controls reduced electricity consumption by <strong>19%</strong>. The lesson for a property manager is to evaluate both the energy carrier and the conditions residents experience, rather than treating any drop in consumption as success.</p>\n<p>A gas-heated building will show heating changes mainly on the gas meter. An electrically heated building, including one with heat pumps, may show them on the electricity meter instead. The same control strategy can therefore affect different readings, and the right measurement depends on the equipment.</p>\n<p>A sound system starts with a meter hierarchy, then uses a scorecard, a practical implementation sequence and a comfort check. It also needs safeguards against false savings. If the building needs envelope improvements as well as better controls, this guide to <a href=\"https://superiorpro.com/how-can-i-reduce-my-energy-bill-in-an-older-home\">exterior upgrades that help save energy</a> can help owners consider measures that reduce heat loss at the building boundary.</p>\n<p><a id=\"connect-submeters-to-trustworthy-building-data\"></a></p>\n<h2>Connect Submeters to Trustworthy Building Data</h2>\n<p>Benchmarking and savings claims stall when the owner can&#39;t assemble one consistent record for the whole building. The Canada Green Building Council identifies standardized whole-building energy data as a foundational gap for benchmarking, emissions verification and sustainable-finance assessments. Before choosing controls or reporting a saving, establish how each meter relates to the utility account and to the loads inside the property.</p>\n<p>The <a href=\"https://natural-resources.canada.ca/sites/nrcan/files/energy/pdf/EM%20Guidelines%20Eng%20Mar_27_2019.pdf\">Natural Resources Canada energy management guidelines</a> recommend documenting bills and meter readings, accounting for purchased and on-site energy sources, and building a baseline from at least two years of data. The same discipline helps a property team distinguish tenant allocation from whole-building performance.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/1b331f33-f3d3-4d3d-b1a4-dc361aac4ebe/energy-management-system-energy-metering.jpg\" alt=\"A diagram illustrating how submeters and a bulk utility meter connect to generate trustworthy building energy data.\"></p>\n<p><a id=\"build-the-meter-hierarchy\"></a></p>\n<h3>Build the meter hierarchy</h3>\n<table>\n<thead>\n<tr>\n<th>Level</th>\n<th>What it measures</th>\n<th>Read type</th>\n<th>Data owner</th>\n<th>Interval</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Bulk utility meter</td>\n<td>Whole-site electricity, gas, steam or water on the invoice</td>\n<td>Measured by utility</td>\n<td>Account holder</td>\n<td>Monthly bill, interval where offered</td>\n</tr>\n<tr>\n<td>Common-area meter</td>\n<td>Lobbies, corridors, parking and amenities</td>\n<td>Measured or estimated</td>\n<td>Owner</td>\n<td>Interval where installed</td>\n</tr>\n<tr>\n<td>Suite meters</td>\n<td>Each suite&#39;s electricity or heat</td>\n<td>Measured</td>\n<td>Owner or billing agent</td>\n<td>Monthly or interval</td>\n</tr>\n<tr>\n<td>Branch meters</td>\n<td>Domestic water or thermal loops for fan coils, hydronic heat or VRF</td>\n<td>Measured or estimated</td>\n<td>Owner or mechanical contractor</td>\n<td>Interval where installed</td>\n</tr>\n</tbody></table>\n<p>For every level, record whether reads are measured or estimated, who maintains the data, and how frequently readings are available. Then reconcile the suite totals and common-area load against the utility invoice each month. If the totals don&#39;t align, treat the difference as a data-quality issue to investigate before it becomes a billing dispute.</p>\n<p>Use the hierarchy to describe what each meter can prove. Suite readings can support billing and help identify unusual use, but they aren&#39;t a public ranking of residents. Common-area readings show the shared loads separately, which makes it easier to tell whether a change came from a suite or from lobbies, parking or amenities. For an overview of how connected meter networks collect and communicate readings, see this explanation of <a href=\"https://www.axismeter.com/blog/advanced-metering-infrastructure\">advanced metering infrastructure</a>.</p>\n<p><a id=\"set-rules-for-interpreting-changes\"></a></p>\n<h3>Set rules for interpreting changes</h3>\n<p>Number the following checks and assign an owner for each:</p>\n<ol>\n<li><strong>List every energy source.</strong> Record electricity, gas, steam, water and thermal energy in physical and cost units so no carrier disappears from the picture. The usual slip is an electricity-only inventory.</li>\n<li><strong>Gather a usable history.</strong> Collect monthly records covering at least 24 months, and use interval data when it&#39;s available. One unusually mild or cold season can distort a comparison.</li>\n<li><strong>Create a normalized baseline.</strong> Adjust the reference for weather and operating conditions so a change in use isn&#39;t mistaken for better performance. An unadjusted utility bill doesn&#39;t make a fair baseline.</li>\n<li><strong>Identify significant energy uses.</strong> Separate suites, common areas, domestic hot water, HVAC and central plant loads. The common slip is treating tenant allocation as proof of building-wide improvement.</li>\n<li><strong>Assign owners and controls.</strong> Give each significant use a responsible person, operating controls, a target and an action plan. A target without an owner is easy to ignore.</li>\n<li><strong>Review performance regularly.</strong> Use dashboards and management reviews to spot deviations and correct them. Waiting until the season ends can leave an operating problem in place for months.</li>\n</ol>\n<p>A useful test this month is simple: check whether suite and common-area readings reconcile with the bulk invoice. If a retrofit, vacancy change or fuel switch alters the building, revisit the baseline. Otherwise, an old reference can hide a real improvement or make a normal change look like a saving.</p>\n<p><a id=\"kpis-for-a-multifamily-energy-management-system\"></a></p>\n<h2>KPIs for a Multifamily Energy Management System</h2>\n<table>\n<thead>\n<tr>\n<th>KPI</th>\n<th>What to record</th>\n<th>Canadian reference</th>\n<th>Review</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Site energy use intensity</td>\n<td>Gigajoules per square metre of floor area</td>\n<td>Median <strong>1.1 GJ/m²</strong> across 30,500 benchmarked buildings</td>\n<td>Monthly and annual</td>\n</tr>\n<tr>\n<td>Source energy use intensity</td>\n<td>Upstream energy per square metre</td>\n<td>Median <strong>1.3 GJ/m²</strong></td>\n<td>Annual</td>\n</tr>\n<tr>\n<td>Electricity share</td>\n<td>Percent of reported energy</td>\n<td><strong>51%</strong></td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Natural gas share</td>\n<td>Percent of reported energy</td>\n<td><strong>40%</strong></td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Carrier coverage</td>\n<td>Electricity, gas and any steam, water or thermal in one inventory</td>\n<td>Multi-carrier, not electricity alone</td>\n<td>At setup</td>\n</tr>\n<tr>\n<td>Suite versus common split</td>\n<td>Percent of metered load in suites versus lobbies, corridors, parking and amenities</td>\n<td>Building-specific, no national median</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Comfort check</td>\n<td>Indoor temperature band plus heating or cooling complaint count</td>\n<td>Hold comfort while energy falls</td>\n<td>Monthly in heating season</td>\n</tr>\n</tbody></table>\n<p>The benchmarks above come from Natural Resources Canada&#39;s <a href=\"https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/existing-buildings\">existing-buildings energy efficiency information</a>. Its national benchmarking population covers <strong>30,500 buildings</strong> representing <strong>380 million square metres</strong> of floor area. The national medians offer a reference point, not a pass-or-fail grade for an individual apartment building.</p>\n<p><a id=\"read-a-high-result-as-a-question\"></a></p>\n<h3>Read a high result as a question</h3>\n<p>If a property&#39;s weather-adjusted site intensity sits well above <strong>1.1 GJ/m²</strong>, investigate heating and shared areas before blaming residents. Check whether the floor area is recorded correctly, whether all energy carriers are included and whether a central plant serves spaces beyond the residential suites. A high figure is a prompt to investigate, not a verdict about tenant behaviour.</p>\n<p>Site and source intensity answer different questions. Site intensity measures the energy delivered to the building. Source intensity accounts for energy used upstream to supply it. Their difference is a reminder that a property&#39;s electricity and gas use can&#39;t be treated as interchangeable units when comparing performance.</p>\n<p>Electricity and natural gas are separate scorecard rows for a reason. Electricity accounted for <strong>51%</strong> of reported consumption in the benchmark, and natural gas for <strong>40%</strong>. Track steam, water and thermal energy too when they&#39;re part of the property&#39;s energy picture. For owners considering how building loads respond to grid events, this overview of <a href=\"https://www.axismeter.com/blog/demand-response-programs\">demand response programmes</a> provides useful context.</p>\n<p>The national figures don&#39;t tell you how much energy goes to suites versus shared spaces. Build that split from the building&#39;s own meter records, and review it alongside the comfort pair: a defined indoor temperature band and a count of heating or cooling complaints. Neither metric is enough on its own; together, they help show whether consumption changed while conditions remained acceptable.</p>\n<p>Start with three first-year KPIs: <strong>one intensity measure, one suite-versus-common split and one comfort measure</strong>. Keep the definitions stable so monthly reviews compare like with like.</p>\n<p><a id=\"how-to-plan-and-implement-the-system\"></a></p>\n<h2>How to Plan and Implement the System</h2>\n<p>A building can have complete utility bills and still lack a clear picture of where energy goes. Suite meters, common-area loads and central systems may sit in separate records, like pieces of a map that do not line up. The Canada Green Building Council has identified consistent, standardized whole-building energy data as a barrier to benchmarking, emissions verification and credible financing assessments. A <a href=\"https://www.cagbc.org/news-resources/cagbc-news/budget-2025-progress-and-gaps/\">CAGBC discussion of the data gap and building performance</a> underscores why intensity alone cannot establish operating savings.</p>\n<p><a id=\"follow-the-sequence\"></a></p>\n<h3>Follow the sequence</h3>\n<p>Use the earlier checklist to set consistent rules for interpreting changes. Then turn those rules into a practical implementation sequence:</p>\n<ol>\n<li><p><strong>Map the meter hierarchy.</strong> Connect each available reading to a suite, common area, central plant or utility account. Mark gaps and unclear unit assignments so the team knows which parts of the building the records represent.</p>\n</li>\n<li><p><strong>Reconcile the records before selecting software.</strong> Bring bills and meter data into one working record, and identify readings that are measured, estimated or missing. A platform can organize the information, but it cannot resolve an unclear meter map on its own.</p>\n</li>\n<li><p><strong>Choose the first operational question.</strong> For example, decide whether the immediate need is to understand suite and common-area use, review a central system, or allocate utility costs. That choice helps the property team define which readings need to be connected first.</p>\n</li>\n<li><p><strong>Assign responsibility for maintaining the record.</strong> Name who updates unit assignments, checks incoming data and follows up on gaps. Without a clear owner, changes in occupancy or meter configuration can make comparisons harder to interpret.</p>\n</li>\n</ol>\n<p>For homes, energy management often focuses on individual household use and practical operating choices. That differs from a multifamily building, where the records must also bring shared systems and tenant information together. An overview of <a href=\"https://www.highflowenergy.com.au/smart-home-energy-management-system-project/\">home energy management for Queensland households</a> offers a household-level comparison.</p>\n<p><a id=\"use-a-90-day-starter\"></a></p>\n<h3>Use a 90-day starter</h3>\n<p>In the first phase, gather the available bills and meter records, then map them to suites, common areas and mechanical systems. Next, mark which readings are measured, estimated or missing, and assign an owner to each record. Finish by agreeing how often the property team will review the information and what question it needs to answer first.</p>\n<p>Keep the sequence intact. A software platform can make records easier to display, but the first useful outcome is a building map that shows what each reading represents.</p>\n<p><a id=\"measure-comfort-alongside-every-savings-claim\"></a></p>\n<h2>Measure Comfort Alongside Every Savings Claim</h2>\n<p>A heating control can lower use by delivering less heat. That isn&#39;t an acceptable saving if bedrooms become uncomfortable. The property team needs a comfort record alongside the energy record before it changes schedules, resets controls or reports results.</p>\n<p>Choose representative suites across the building&#39;s exposures, including corner units, and place temperature loggers where they capture occupied-room conditions. Agree on an acceptable indoor temperature band with the owner, then record heating complaints by suite and week. Pair those readings with outdoor temperature and heating degree days, so a colder spell isn&#39;t mistaken for a control failure.</p>\n<p>Compare conditions before and after a control change across similar weather. If the building has different orientations or heating zones, don&#39;t assume one logger represents every suite. A few consistently chosen locations, clearly documented, make a more useful comparison than ad hoc readings taken only after a complaint.</p>\n<p><a id=\"track-the-energy-carrier-that-changes\"></a></p>\n<h3>Track the energy carrier that changes</h3>\n<p>For a gas-heated building, check the gas meter when evaluating heating changes. For an electrically heated building or one using heat pumps, track electricity use and winter peak demand as well as monthly kilowatt-hours. A control can shift when electricity is drawn without producing a clear change in the monthly total.</p>\n<p>Judge supervisory controls that adjust temperatures using predicted occupancy by three results together: energy use, comfort conditions and peak load. If consumption falls but complaints increase, the team hasn&#39;t demonstrated a comfort-preserving improvement. If comfort holds while use declines, document the meter, weather conditions and operating changes that support the result.</p>\n<blockquote>\n<p><strong>Comfort rule:</strong> A savings claim should include the temperature record and complaint count, not just the bill.</p>\n</blockquote>\n<p><a id=\"prove-savings-without-cutting-comfort\"></a></p>\n<h2>Prove Savings Without Cutting Comfort</h2>\n<p>A warm winter can make a gas bill look better even when the building&#39;s operation hasn&#39;t changed. Before celebrating, compare heating use under similar weather conditions and check whether residents remained comfortable. The table shows common signs that a reported saving may have another explanation.</p>\n<table>\n<thead>\n<tr>\n<th>What you see</th>\n<th>Likely cause</th>\n<th>Check before reporting</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Gas use down after a mild winter</td>\n<td>Weather, not operations</td>\n<td>Normalize with heating degree days</td>\n</tr>\n<tr>\n<td>Energy down and heating complaints up</td>\n<td>Comfort was cut</td>\n<td>Restore the temperature band and recount complaints</td>\n</tr>\n<tr>\n<td>Suite total down, house meter flat</td>\n<td>Cost was reallocated</td>\n<td>Report suite and common area separately</td>\n</tr>\n<tr>\n<td>Utility bill and submeters do not match</td>\n<td>Estimated read or data gap</td>\n<td>Reconcile and fill the interval before any claim</td>\n</tr>\n<tr>\n<td>Intensity jumps after a retrofit</td>\n<td>Old baseline still in use</td>\n<td>Document the change and rebuild the baseline</td>\n</tr>\n</tbody></table>\n<p>If gas use falls, normalize for heating degree days before attributing the change to operations. If energy falls while complaints rise, the result may reflect reduced comfort; restore the agreed temperature band and check the readings again. If suite totals fall while the house meter stays flat, the building may have shifted where costs are allocated rather than used less energy.</p>\n<p>Stop a claim when the utility invoice and submeters don&#39;t agree. Find estimated or missing reads and reconcile the records first. After a retrofit, review whether the baseline still represents the building&#39;s systems and operation, then document and rebuild it if the change makes the old reference unreliable.</p>\n<p><a id=\"set-expectations-with-evidence\"></a></p>\n<h3>Set expectations with evidence</h3>\n<p>Natural Resources Canada&#39;s guidance on the <a href=\"https://natural-resources.canada.ca/energy-efficiency/industry-energy-efficiency/energy-management-industry/iso-50001-energy-management-systems-standard\">ISO 50001 energy management standard</a> reports that Canadian companies implementing ISO 50001 achieved an average cumulative energy-performance improvement of <strong>nearly 10% within the first two years</strong>. For large Canadian companies, those improvements translated into energy-cost savings of up to <strong>$2 million annually</strong>. Those results show the value of measured, accountable management, but they aren&#39;t a forecast for a particular multifamily property.</p>\n<p>The same guidance cites Clean Energy Ministerial estimates that energy management systems can save up to <strong>30% of total energy use in industry</strong> and up to <strong>40% in commercial buildings</strong>. Those are upper-potential estimates, not guaranteed outcomes for a rental building. For another perspective on estimating household costs, this <a href=\"https://sapperhvac.com/energy-savings-calculator\">Phoenix home energy cost estimator</a> can help readers think about how assumptions shape an estimate; it doesn&#39;t replace a building-specific baseline.</p>\n<p>Owners who want to reduce electricity use can also review this practical overview of <a href=\"https://www.axismeter.com/blog/electricity-consumption-reduction\">electricity consumption reduction</a>. Whatever the project, report the result only after checking weather, occupancy, comfort, meter completeness and baseline suitability.</p>\n<blockquote>\n<p>No savings number goes to ownership until weather, occupancy and comfort sit on the same page as the meter.</p>\n</blockquote>\n<p><a id=\"book-a-building-assessment-before-you-specify-software\"></a></p>\n<h2>Book a Building Assessment Before You Specify Software</h2>\n<p>Choose the next step based on the quality of the building&#39;s records. <strong>If bulk bills can&#39;t be split into suites, common areas, water and thermal use, prioritise measurement.</strong> If the split reconciles to the invoice and heating is the significant load, focus the next investment on controls that maintain comfort. If the baseline is too short or a retrofit has just changed the building, wait until you can rebuild a usable comparison.</p>\n<p>If staff don&#39;t have the capacity to manage meter design, installation, resident billing and ongoing validation, a turnkey submetering partner can provide the measurement path. Axis Meter Solutions provides submetering for multi-family, commercial and mixed-use properties, including equipment, installation, billing, maintenance and project-specific compliance planning. Its work can include property and existing-system assessment, meter selection and system-design coordination, commissioning and data validation, recurring resident or tenant billing, move-in and move-out support, and ongoing monitoring.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/04a82a37-d0a1-4c01-8507-8fb2ca76ea2f/energy-management-system-building-assessment.jpg\" alt=\"A male energy consultant and female building manager reviewing architectural floor plans and energy management software together.\"></p>\n<p>For thermal systems, the building&#39;s HVAC layout matters. Axis assesses the existing configuration and designs a thermal metering solution for applications such as hydronic systems, fan coils and variable refrigerant flow. Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under licence ES-2022-0268; confirm applicable provincial requirements before engaging a provider.</p>\n<p>Bring <strong>24 months of utility bills</strong> and one practical question to an assessment: how much of the building&#39;s load sits in suites versus common areas? That answer helps determine whether the next step is better measurement, a control change or a more reliable baseline.</p>\n<hr>\n<p>Axis Meter Solutions provides turnkey submetering for multifamily, commercial and mixed-use buildings, from meter assessment and installation through data validation, tenant billing and ongoing support. If your building&#39;s bulk bills don&#39;t show how suites and shared spaces use energy, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to discuss a building-specific assessment.</p>",
+  "tags": [
+    "energy management system",
+    "multifamily buildings",
+    "submetering",
+    "energy KPIs",
+    "ISO 50001"
+  ],
+  "title": "Energy Management System for Multifamily Sites",
+  "updatedAt": "2026-10-30T07:06:16.233Z"
+}
