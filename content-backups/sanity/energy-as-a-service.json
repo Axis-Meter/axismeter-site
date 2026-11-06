@@ -1,0 +1,3621 @@
+{
+  "_createdAt": "2026-11-06T07:29:12Z",
+  "_id": "outrank-6ee9d14e-805b-4d7e-bab4-16fd363502db",
+  "_rev": "5ZK5R6zYVQosU9BjW8D5hV",
+  "_type": "blogPost",
+  "_updatedAt": "2026-11-06T07:29:12Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "456a340b4e84",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00a088cd7a0c",
+          "_type": "span",
+          "marks": [],
+          "text": "You're opening another bulk utility bill for a building where no tenant sees what they use. The "
+        },
+        {
+          "_key": "f7adc3067881",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "heating, water and electricity costs"
+        },
+        {
+          "_key": "ca8c61109b4a",
+          "_type": "span",
+          "marks": [],
+          "text": " land on your operating statement, waste is invisible, and every attempt to fix it starts with a capital request you don't want to approve. That's the situation "
+        },
+        {
+          "_key": "c9b388b6d6da",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "energy as a service"
+        },
+        {
+          "_key": "d47ebb19470f",
+          "_type": "span",
+          "marks": [],
+          "text": " is built to change."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7c09935ef74",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "863bc5773fc0",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't treat it as a discount programme. Treat it as a transfer of "
+        },
+        {
+          "_key": "b399e7fdc536",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cost, performance risk and tenant friction"
+        },
+        {
+          "_key": "e47951f58c29",
+          "_type": "span",
+          "marks": [],
+          "text": " from you to a provider, for a fee. The model only works if you test that fee against your own baseline bills and against what the tenant will pay. This guide gives you that test, step by step, and tells you where the contract can work against you."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c4550528036b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a281239af67",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "8f46ec23652b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5fb86353ee87",
+          "_type": "span",
+          "marks": [
+            "b5ffa49bbca8"
+          ],
+          "text": "What Energy as a Service Means for Property Owners"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b5ffa49bbca8",
+          "_type": "link",
+          "href": "#what-energy-as-a-service-means-for-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "f83b91965908",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "741e9c6a54b5",
+          "_type": "span",
+          "marks": [
+            "8de52eedf8f7"
+          ],
+          "text": "The Three Parts You Are Buying"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8de52eedf8f7",
+          "_type": "link",
+          "href": "#the-three-parts-you-are-buying"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "eb30a1a1a733",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c94d3b7d197",
+          "_type": "span",
+          "marks": [
+            "7004d8d6cea0"
+          ],
+          "text": "Energy as a Service Compared With Buying Equipment Outright"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7004d8d6cea0",
+          "_type": "link",
+          "href": "#energy-as-a-service-compared-with-buying-equipment-outright"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "fddb5208dbb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dccd67f95d74",
+          "_type": "span",
+          "marks": [
+            "7c667202c38b"
+          ],
+          "text": "How to Read Each Row"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "7c667202c38b",
+          "_type": "link",
+          "href": "#how-to-read-each-row"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "dbf40416a9ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f0e961858896",
+          "_type": "span",
+          "marks": [
+            "bff1ad370620"
+          ],
+          "text": "How the Service Model Works From Assessment to Billing"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "bff1ad370620",
+          "_type": "link",
+          "href": "#how-the-service-model-works-from-assessment-to-billing"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "37f67ee21be3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f28684341d31",
+          "_type": "span",
+          "marks": [
+            "dd1f8cf72119"
+          ],
+          "text": "Timeline and Checks Before Kickoff"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dd1f8cf72119",
+          "_type": "link",
+          "href": "#timeline-and-checks-before-kickoff"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "334dadbd1c4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ddf69f1a3cb9",
+          "_type": "span",
+          "marks": [
+            "d212a0154af8"
+          ],
+          "text": "Financial Benefits and Costs for Property Owners"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d212a0154af8",
+          "_type": "link",
+          "href": "#financial-benefits-and-costs-for-property-owners"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "63222aed1ae8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b140707a1fd7",
+          "_type": "span",
+          "marks": [
+            "b6c0d7bcfd8a"
+          ],
+          "text": "Net the Fees Off, Every Time"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "b6c0d7bcfd8a",
+          "_type": "link",
+          "href": "#net-the-fees-off-every-time"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7c78d6508bdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e7b870fddab",
+          "_type": "span",
+          "marks": [
+            "2fcb67211ed1"
+          ],
+          "text": "Operational Gains From Measuring Every Load"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2fcb67211ed1",
+          "_type": "link",
+          "href": "#operational-gains-from-measuring-every-load"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "8e7f21c7497e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ed18f5f8de6",
+          "_type": "span",
+          "marks": [
+            "3fdd39c81fed"
+          ],
+          "text": "Benchmarking Turns Data Into Decisions"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3fdd39c81fed",
+          "_type": "link",
+          "href": "#benchmarking-turns-data-into-decisions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bbdca8d4cb44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a7c11a9c28d",
+          "_type": "span",
+          "marks": [
+            "1a4be76bd922"
+          ],
+          "text": "Leaks Need More Than a Water Meter"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "1a4be76bd922",
+          "_type": "link",
+          "href": "#leaks-need-more-than-a-water-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "85549ff7e283",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cf4552ec1a79",
+          "_type": "span",
+          "marks": [
+            "8a30e760153f"
+          ],
+          "text": "Tenant Costs and Affordability Protections"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8a30e760153f",
+          "_type": "link",
+          "href": "#tenant-costs-and-affordability-protections"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1d6f5d46d731",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e6bebca35ad3",
+          "_type": "span",
+          "marks": [
+            "850439751aee"
+          ],
+          "text": "Transparency Tenants Can Actually Use"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "850439751aee",
+          "_type": "link",
+          "href": "#transparency-tenants-can-actually-use"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "840707fe4d62",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a45fc3106619",
+          "_type": "span",
+          "marks": [
+            "840549daf5e1"
+          ],
+          "text": "Non-Payment Rules Are Ontario-Specific Here"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "840549daf5e1",
+          "_type": "link",
+          "href": "#non-payment-rules-are-ontario-specific-here"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aad845b4de77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bfc81e03bcec",
+          "_type": "span",
+          "marks": [
+            "0278eb870d8e"
+          ],
+          "text": "Choosing Metering for Two-Way and Demand-Response Buildings"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "0278eb870d8e",
+          "_type": "link",
+          "href": "#choosing-metering-for-two-way-and-demand-response-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "414ddebd4097",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3c1fd918e50",
+          "_type": "span",
+          "marks": [
+            "f12e4a093879"
+          ],
+          "text": "Demand Response Needs Controllable, Measured Loads"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "f12e4a093879",
+          "_type": "link",
+          "href": "#demand-response-needs-controllable-measured-loads"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "37fcadd54ec1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad50fddec710",
+          "_type": "span",
+          "marks": [
+            "29685f0733ad"
+          ],
+          "text": "Contract Issues the Table Cannot Show"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "29685f0733ad",
+          "_type": "link",
+          "href": "#contract-issues-the-table-cannot-show"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "047306ccd636",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "986a1344f84c",
+          "_type": "span",
+          "marks": [
+            "2387fc61b0e3"
+          ],
+          "text": "Confirm the Contract Terms Before You Sign"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "2387fc61b0e3",
+          "_type": "link",
+          "href": "#confirm-the-contract-terms-before-you-sign"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "81ae839b84b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c3a469379ea",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6979ea092ae9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4639ed30b57a",
+          "_type": "span",
+          "marks": [],
+          "text": "What Energy as a Service Means for Property Owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b72299093f66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d574e76da36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Energy as a service is a contract in which a provider supplies, installs, meters, maintains and bills for energy-related equipment, so you buy a defined service rather than assets."
+        },
+        {
+          "_key": "fc20a6efef8d",
+          "_type": "span",
+          "marks": [],
+          "text": " You're not buying meters. You're buying measured, billed and maintained energy infrastructure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "895ba63daa24",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58372b33b3d0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5599f5157dd3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5783959c685c",
+          "_type": "span",
+          "marks": [],
+          "text": "The Three Parts You Are Buying"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d0229877a9c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aafe119421ba",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Equipment and measurement:"
+        },
+        {
+          "_key": "65acbabd4024",
+          "_type": "span",
+          "marks": [],
+          "text": " The provider delivers and installs meters, sensors and related hardware, then tracks use by suite, common area or system."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c970c532b5db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f39b5de50aad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Operations and maintenance:"
+        },
+        {
+          "_key": "5bf05e9c157c",
+          "_type": "span",
+          "marks": [],
+          "text": " The provider monitors performance, handles repairs and replacements, and keeps data flowing."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a8eaf9c5c35",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "672c1a9230fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing and performance reporting:"
+        },
+        {
+          "_key": "2cac709916c2",
+          "_type": "span",
+          "marks": [],
+          "text": " The provider issues charges and reports that show who used what, and whether the building is improving."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cce663cfd8a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "df004ecc065e",
+          "_type": "span",
+          "marks": [],
+          "text": "Think of a managed fleet. You get the vehicle, the upkeep and the reporting. You don't own the parts and you don't carry the repair risk."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "37120e7f907e",
+      "_type": "externalImage",
+      "alt": "An infographic explaining the benefits and process of Energy as a Service for property owners.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/71d8d631-053f-443e-a4f4-e29400583322/energy-as-a-service-business-model.jpg"
+    },
+    {
+      "_key": "e88c1cc73d3c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec58fc156eda",
+          "_type": "span",
+          "marks": [],
+          "text": "Say a mid-sized building pays one bulk bill for electricity, water and heating. You absorb every dollar of waste and tenants see none of the cost, so nobody has a reason to change behaviour. A service model splits that total into measured parts."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "797563d563b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ee61cf7d49b3",
+          "_type": "span",
+          "marks": [],
+          "text": "The market is large enough to support this approach, because "
+        },
+        {
+          "_key": "3d3610e876ce",
+          "_type": "span",
+          "marks": [
+            "d82fb8820812"
+          ],
+          "text": "Natural Resources Canada's existing buildings data"
+        },
+        {
+          "_key": "57ae884130ec",
+          "_type": "span",
+          "marks": [],
+          "text": " shows Canadian businesses and institutions spent "
+        },
+        {
+          "_key": "80e89e137ea8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$31.2 billion on energy in 2019"
+        },
+        {
+          "_key": "0ad4969eaa15",
+          "_type": "span",
+          "marks": [],
+          "text": ". Large recurring spend makes a service contract viable."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d82fb8820812",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/existing-buildings"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7a3f2f77fd56",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55e465ac1476",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't overread that. "
+        },
+        {
+          "_key": "3c2e1c12e00c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Energy as a service isn't a saving by itself."
+        },
+        {
+          "_key": "4b2360199908",
+          "_type": "span",
+          "marks": [],
+          "text": " Your result depends on contract terms, building condition and metering quality. Bad terms on a poorly metered building will still lose money, just more predictably."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01948279e053",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6296d098223",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5e63523d7de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "92d604782fd7",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy as a Service Compared With Buying Equipment Outright"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "355a0adf17c0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5db4b6247ea3",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the route comparison, because the wrong procurement choice locks you in for years."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "870e00424a41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b1919fc58c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Route"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "95b5447aa630",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12cb4fb3f282",
+          "_type": "span",
+          "marks": [],
+          "text": "Upfront cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5616893ad426",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e00fa69f2b2d",
+          "_type": "span",
+          "marks": [],
+          "text": "Who maintains equipment"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "160541d9944e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84765a7dad37",
+          "_type": "span",
+          "marks": [],
+          "text": "Who carries performance risk"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09618aed2f76",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b9a531628804",
+          "_type": "span",
+          "marks": [],
+          "text": "Traditional equipment purchase"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d68ab61741f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13ef5c67ccf0",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner pays full capital cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd82c41fa24a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c2acb15b8fb",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97bac0b76514",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2a60190f973",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f1206d37db89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ace1e277b31f",
+          "_type": "span",
+          "marks": [],
+          "text": "Submetering bought outright"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83463b24055c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "62cb97b8f8fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner pays meters and installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92fd6d06594c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6edbe650a9a4",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner or contractor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7320c7501bb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71e1dfb37dc3",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87d553c15b34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "78d4c9f088ad",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy as a service (provider-owned)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "05071fba4b54",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97919b3c56d8",
+          "_type": "span",
+          "marks": [],
+          "text": "Low or $0 upfront under our model"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "edc87d703850",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "104539c9dbca",
+          "_type": "span",
+          "marks": [],
+          "text": "Provider under the agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e8a35d875ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1d975e2c1f6",
+          "_type": "span",
+          "marks": [],
+          "text": "Defined by contract terms"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e711889545f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "484ed2a11470",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4283e0cb0ead",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "307fffb80c92",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Read Each Row"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e7472dac2c90",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85e97b9fa0e6",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "5cfbec9a9781",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "upfront cost"
+        },
+        {
+          "_key": "25aa867a542e",
+          "_type": "span",
+          "marks": [],
+          "text": " row decides cash flow. If you buy outright, you fund meters, installation, commissioning and any electrical work before you recover a dollar. Owners comparing that capital stack sometimes look at benchmarks such as "
+        },
+        {
+          "_key": "5797c3e92bc7",
+          "_type": "span",
+          "marks": [
+            "5cdb0ef77e4e"
+          ],
+          "text": "costs for upgrading an older home panel"
+        },
+        {
+          "_key": "f8d3874e948c",
+          "_type": "span",
+          "marks": [],
+          "text": " to remind themselves that ancillary electrical work, not just the meter itself, drives the budget."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5cdb0ef77e4e",
+          "_type": "link",
+          "href": "https://www.climateguardcoolingservices.com/post/electrical-panel-upgrade-cost-in-florida-what-to-expect"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "307ae29bcde5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5375d924dab9",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "0e56ceedbd35",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "maintenance"
+        },
+        {
+          "_key": "58f2a9a6ca7c",
+          "_type": "span",
+          "marks": [],
+          "text": " row decides who calls the technician. Under an outright purchase, a failed meter is your work order and your replacement cost. Under a service model, it's ours under the agreement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "431242ba4547",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8723f5502b50",
+          "_type": "span",
+          "marks": [],
+          "text": "The "
+        },
+        {
+          "_key": "6415e1b9f080",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "performance risk"
+        },
+        {
+          "_key": "dcd184d3da7e",
+          "_type": "span",
+          "marks": [],
+          "text": " row decides who pays when savings fall short. This is the row owners skim and later regret. If the contract doesn't define a baseline, a measurement method and a remedy, you still carry the risk even though you don't own the equipment."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f6c987c4d86b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c04b5aaead5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "139dfea43aa6",
+          "_type": "span",
+          "marks": [],
+          "text": " If a provider won't put the baseline and the shortfall remedy in writing, assume you're carrying the performance risk."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "8041ef3057f3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9528ddb5134e",
+          "_type": "span",
+          "marks": [],
+          "text": "Our standard model at Axis Meter Solutions is one concrete example of the third route. We offer "
+        },
+        {
+          "_key": "ce4e1c87844e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0 upfront, provider-owned equipment on a standard 20-year term, and one provider and one invoice for all utilities"
+        },
+        {
+          "_key": "4c48c7d11c32",
+          "_type": "span",
+          "marks": [],
+          "text": ". That structure removes the capital hurdle, but it doesn't remove cost. Provider fees are an ongoing charge and you must model them against recoverable amounts and tenant billing over the full term, not just year one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b523ebf04e8a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4b6d5bef2388",
+          "_type": "span",
+          "marks": [],
+          "text": "Scale changes the answer. In a "
+        },
+        {
+          "_key": "0f326a196d9b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10-unit building"
+        },
+        {
+          "_key": "16a8ae39ce23",
+          "_type": "span",
+          "marks": [],
+          "text": ", outright purchase can be hard to justify because fixed design, billing and support costs are spread over few suites, and one vacancy swings recovery. A service model spreads our operating cost across many buildings, so small properties can still get billing and support."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e91a11cf37de",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b30edbfb315a",
+          "_type": "span",
+          "marks": [],
+          "text": "In a "
+        },
+        {
+          "_key": "92c779da097f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "200-unit portfolio"
+        },
+        {
+          "_key": "47d29d78b679",
+          "_type": "span",
+          "marks": [],
+          "text": ", you have negotiating power. You can credibly threaten to buy outright, employ your own billing staff, and negotiate more firmly on fees and term. Use that position. Don't accept a standard fee schedule without testing it against your in-house alternative."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3039b5c7aa61",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "80a913e234d2",
+          "_type": "span",
+          "marks": [],
+          "text": "For a closer look at the metering technology behind these routes, review our guide to "
+        },
+        {
+          "_key": "9ed8bd4ac990",
+          "_type": "span",
+          "marks": [
+            "e21c454f659c"
+          ],
+          "text": "smart metering solutions"
+        },
+        {
+          "_key": "1cb9d7972a1e",
+          "_type": "span",
+          "marks": [],
+          "text": " before you shortlist providers. The next question is operational: what happens after you sign."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e21c454f659c",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/smart-metering-solutions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "92faca54f02f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a1d5460b16a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6993f254fabd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cb2e3f5b87f",
+          "_type": "span",
+          "marks": [],
+          "text": "How the Service Model Works From Assessment to Billing"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "3d468a00e904",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa5023708e53",
+          "_type": "span",
+          "marks": [],
+          "text": "A good implementation is boring. Every step has one owner, one output, and no surprises at the suite door. The sequence exists to shift cost and risk to the provider's side of the table at each handoff, then prove the result twice: against your own baseline bills, and against the tenant's first invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c7e3a2fa834c",
+      "_type": "externalImage",
+      "alt": "A five-step infographic showing the Energy as a Service business model from property assessment to final billing.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/eb288cc9-7fd6-4ee6-a9e1-6e92f0dafc9b/energy-as-a-service-service-model.jpg"
+    },
+    {
+      "_key": "d1b3b82faac7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9686f918c92a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Assess the property and existing systems."
+        },
+        {
+          "_key": "e23ccbd55d65",
+          "_type": "span",
+          "marks": [],
+          "text": " We review your building, panels, heating and water systems, and past bills. You provide access, drawings where available, and 12 months of utility data. Those twelve months are the part owners skip and later regret. They are the baseline every savings claim gets tested against."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "078ab364d3cc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb21decccea4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Select meters and coordinate system design with engineers and electricians."
+        },
+        {
+          "_key": "1e3401d74fb7",
+          "_type": "span",
+          "marks": [],
+          "text": " We choose metering for electricity, water, gas or thermal loads and plan the integration. You approve the design and the suite access plan. Where panel capacity is the constraint, a plain-language resource on "
+        },
+        {
+          "_key": "3530aa3be50c",
+          "_type": "span",
+          "marks": [
+            "3c5a7f90aa22"
+          ],
+          "text": "NEC demand factors explained"
+        },
+        {
+          "_key": "ec3251fd48de",
+          "_type": "span",
+          "marks": [],
+          "text": " helps you follow the electrician's reasoning instead of taking it on faith."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [
+        {
+          "_key": "3c5a7f90aa22",
+          "_type": "link",
+          "href": "https://www.ampd.life/post/electrical-load-assessment-calculations"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "82b1eb77a290",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f7144062245",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Install, coordinating with on-site trades."
+        },
+        {
+          "_key": "ac375d07d5c4",
+          "_type": "span",
+          "marks": [],
+          "text": " We set up equipment on site and work around your trades so suite access happens in short, scheduled windows. You handle tenant notices and confirm access windows with your property manager. Tenant friction lands here if notices go out late, so treat the notice schedule as part of the project, not an afterthought."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c173592cb3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ad6d99b98471",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Commission the system and validate the data."
+        },
+        {
+          "_key": "20d3002f2c7a",
+          "_type": "span",
+          "marks": [],
+          "text": " We test every meter, reconcile readings to the main supply, and fix gaps before billing starts. Don't approve live billing until the totals reconcile. A system that doesn't match the building total is a dispute generator."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72f59528bfa2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9d092304803c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Start resident billing, with move-in and move-out support."
+        },
+        {
+          "_key": "66a0758f8a87",
+          "_type": "span",
+          "marks": [],
+          "text": " We handle recurring resident or tenant utility billing, account setup, and final reads. Direct leasing staff to send new tenants to us at signing, not after move-in. Retroactive charges are the fastest way to turn a tenant into an opponent."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4c789446b431",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8db220a5fa72",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Monitor, report, and replace meters for the length of the agreement."
+        },
+        {
+          "_key": "0d1885c7d014",
+          "_type": "span",
+          "marks": [],
+          "text": " We handle resident inquiries, reporting, maintenance and monitoring, and replace failed equipment. You review the reports we provide and act on building-level issues we flag. Your job is the building, not the meter."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c625e99c1943",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35886fdd7651",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b6e91f066a6c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8cddeacca3c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Timeline and Checks Before Kickoff"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "267175a0cde4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20d89ca643fd",
+          "_type": "span",
+          "marks": [],
+          "text": "Expect several weeks from agreement to live meters. Equipment lead time drives most of that schedule, and panel condition, permits and suite access can each push the date. Get the lead time confirmed in writing before you sign."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fa4d9920c06a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b9d2fcca6e73",
+          "_type": "span",
+          "marks": [],
+          "text": "Jurisdiction checks happen before kickoff because the rules are not uniform. In Ontario, electricity submetering runs under an Ontario Energy Board unit sub-meter provider licence, and ours is licence ES-2022-0268. Water, gas and projects outside Ontario are reviewed separately for each jurisdiction. Confirm the design and billing practice are permitted where the building sits before any equipment arrives. Installing a system you cannot legally bill on is a write-off, not a delay."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88c9b3a621bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "72d80501a251",
+          "_type": "span",
+          "marks": [],
+          "text": "A correctly commissioned system reconciles to the building total and lets a resident see their own usage without calling your office."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "f06eed7e5d9c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ec367ac2939a",
+          "_type": "span",
+          "marks": [],
+          "text": "That reconciliation is your proof, and it is the same test you apply to any provider. If readings don't match the main supply, or residents can't verify their own use, hold the launch. Billing on bad data costs more than a delay, because every disputed invoice teaches tenants to question the next one."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5060893f2971",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f767161967ec",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d522840a8fae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbc3e40e7c98",
+          "_type": "span",
+          "marks": [],
+          "text": "Financial Benefits and Costs for Property Owners"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "36e37f73c84c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e1cf0106816",
+          "_type": "span",
+          "marks": [],
+          "text": "Bulk utility expenses "
+        },
+        {
+          "_key": "2af148b5dfa1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "compress net operating income"
+        },
+        {
+          "_key": "f06a96a16c1c",
+          "_type": "span",
+          "marks": [],
+          "text": " because you pay for consumption you can't control or recover. Unit-level metering turns part of that shared cost into a recoverable charge tied to actual use."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ccdf9aaa5121",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16a92a3aa9c7",
+          "_type": "span",
+          "marks": [],
+          "text": "Use simple arithmetic. Say your building has a "
+        },
+        {
+          "_key": "907e138edbd6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$50,000 annual shared utility bill"
+        },
+        {
+          "_key": "246d6fa1536a",
+          "_type": "span",
+          "marks": [],
+          "text": " now allocated by floor area, or not allocated at all. With suite metering, you split that same total by measured suite usage, keep common-area load on your account, and recover the suite portion directly. Your benefit isn't the full $50,000. It's the recoverable suite share, minus common load, minus fees, minus bad debt."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88c013919488",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d6df35caa402",
+          "_type": "span",
+          "marks": [],
+          "text": "Budget predictability improves when a defined service fee replaces some exposure to unmanaged consumption. It doesn't eliminate price risk. Our charges are based on rates that "
+        },
+        {
+          "_key": "9e01f14329b2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "may change at any time in accordance with applicable laws"
+        },
+        {
+          "_key": "c6b48719ac2b",
+          "_type": "span",
+          "marks": [],
+          "text": ", so model escalation, don't assume a flat fee for 20 years."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7f1a653f4e4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99fe0f122c7b",
+          "_type": "span",
+          "marks": [],
+          "text": "National results show efficiency can pay without relying solely on owner capital. "
+        },
+        {
+          "_key": "3aae608fd49b",
+          "_type": "span",
+          "marks": [
+            "837383c79a9f"
+          ],
+          "text": "Natural Resources Canada's commercial trends data"
+        },
+        {
+          "_key": "292de1f0ca97",
+          "_type": "span",
+          "marks": [],
+          "text": " reported that commercial and institutional energy-efficiency improvements between 2000 and 2019 reduced energy use by "
+        },
+        {
+          "_key": "d51342074087",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "124.2 PJ"
+        },
+        {
+          "_key": "af816086ca54",
+          "_type": "span",
+          "marks": [],
+          "text": " and saved approximately "
+        },
+        {
+          "_key": "69b3bd2b64e7",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$3.2 billion in 2019 costs alone"
+        },
+        {
+          "_key": "d1e25698ceb6",
+          "_type": "span",
+          "marks": [],
+          "text": ". That's context, not a promise for your building."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "837383c79a9f",
+          "_type": "link",
+          "href": "https://oee.nrcan.gc.ca/publications/statistics/trends/2019/commercial.cfm"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a78ca2897b7d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "325a21e0e8c8",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5ccaf8244a5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1460ca52642d",
+          "_type": "span",
+          "marks": [],
+          "text": "Net the Fees Off, Every Time"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "42b688c51ea6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "569b5edcc98f",
+          "_type": "span",
+          "marks": [],
+          "text": "Our "
+        },
+        {
+          "_key": "00eced9ca7ef",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Service Fees are the administration fee and other charges and fees for the Services"
+        },
+        {
+          "_key": "5a56113c2cb7",
+          "_type": "span",
+          "marks": [],
+          "text": " we provide. Put every fee in your model. We may issue a "
+        },
+        {
+          "_key": "3fe6c2e4ccd0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "single invoice covering the Services"
+        },
+        {
+          "_key": "37f6d332ed0f",
+          "_type": "span",
+          "marks": [],
+          "text": " we provide, and we offer one provider and one invoice for all utilities with $0 upfront. One invoice simplifies accounting and reconciliation, but simplicity isn't savings."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "94d8d1f9bcd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2fb8f45a9ef2",
+          "_type": "span",
+          "marks": [],
+          "text": "Run this four-part test before signing:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "196cad7a0a0d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d15efd67075e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Pull baseline bills"
+        },
+        {
+          "_key": "06a4a0db8969",
+          "_type": "span",
+          "marks": [],
+          "text": " from the last 12 months, by commodity."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8cea6a438fef",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da03f5f34d88",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Estimate the recoverable share"
+        },
+        {
+          "_key": "a34b24465490",
+          "_type": "span",
+          "marks": [],
+          "text": " after removing common-area load."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e76ad23617dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b120771b07b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Total the fee load"
+        },
+        {
+          "_key": "5ad9a2fa2ee5",
+          "_type": "span",
+          "marks": [],
+          "text": ", including administration and per-suite charges."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "967353aa10b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "870a24a8b79a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Calculate the net change to NOI"
+        },
+        {
+          "_key": "3e765f70205f",
+          "_type": "span",
+          "marks": [],
+          "text": " under low, expected and high occupancy."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a165f70f96f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81c0ce3e9f72",
+          "_type": "span",
+          "marks": [],
+          "text": "If the deal only works at full occupancy with no bad debt, renegotiate or walk away."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e0e469d3bbcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2101addba89",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5277c824eea8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bd069eccff94",
+          "_type": "span",
+          "marks": [],
+          "text": "Operational Gains From Measuring Every Load"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "fa54912a2f57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53be34df6cff",
+          "_type": "span",
+          "marks": [],
+          "text": "A whole-building bill shows a total. It doesn't show where the load sits, who caused a spike, or whether last month's fix worked. Unit-level, common-area and water data change daily operations because they assign cost to a place and a time."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "281d6c144536",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ea0e2fb45be",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity submetering is associated with a "
+        },
+        {
+          "_key": "54626e5b4d15",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "30-40% consumption reduction"
+        },
+        {
+          "_key": "0d2bc769c6c7",
+          "_type": "span",
+          "marks": [],
+          "text": ", along with automated billing and real-time data. Treat that as a provider-reported figure that depends on your building and occupant behaviour, not a guaranteed outcome. Residents who never see a bill won't change. Residents who see clear, timely data often do, and owners who teach tenants to "
+        },
+        {
+          "_key": "46045e298498",
+          "_type": "span",
+          "marks": [
+            "8af1e50eb5df"
+          ],
+          "text": "check meter readings to reduce bills"
+        },
+        {
+          "_key": "4a8cc6b006f8",
+          "_type": "span",
+          "marks": [],
+          "text": " get fewer disputes about estimated charges."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "8af1e50eb5df",
+          "_type": "link",
+          "href": "https://heatwavehvac.com/how-to-read-your-electric-meter/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "517f674f2e76",
+      "_type": "externalImage",
+      "alt": "An infographic showing operational gains from measuring building energy and water loads at the unit level.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/21a7ad74-d6eb-49cf-bc71-7d6dcf373f2d/energy-as-a-service-operational-gains.jpg"
+    },
+    {
+      "_key": "8c7b8416e006",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "545e9c8f7d4a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "660fcf87a50a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "858189184003",
+          "_type": "span",
+          "marks": [],
+          "text": "Benchmarking Turns Data Into Decisions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6f5ccfda676d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a2e165620ca8",
+          "_type": "span",
+          "marks": [],
+          "text": "Benchmarking means comparing your building with similar buildings, its own historical use, or reference performance levels. "
+        },
+        {
+          "_key": "68ff015430d4",
+          "_type": "span",
+          "marks": [
+            "1314a8b09b8c"
+          ],
+          "text": "Natural Resources Canada's national building energy benchmarking initiative"
+        },
+        {
+          "_key": "64c5c4e6a873",
+          "_type": "span",
+          "marks": [],
+          "text": " describes ENERGY STAR Portfolio Manager benchmarks covering "
+        },
+        {
+          "_key": "2ead09ec63b8",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "more than 80 building types"
+        },
+        {
+          "_key": "91364718edd2",
+          "_type": "span",
+          "marks": [],
+          "text": " using weather data from "
+        },
+        {
+          "_key": "4be435b19b07",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "over 150 Canadian stations"
+        },
+        {
+          "_key": "ba670606c435",
+          "_type": "span",
+          "marks": [],
+          "text": ". Use that kind of weather-normalised comparison, or you'll chase winter spikes that aren't faults."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1314a8b09b8c",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/energy-efficiency/energy-star/buildings/natural-resources-canada-s-national-building-energy-benchmarking-initiative"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "87dd2e0237db",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "749dc10bea5b",
+          "_type": "span",
+          "marks": [],
+          "text": "The control loop is practical. Submeters feed suite, common-area, water and thermal data to us. We aggregate and normalise it. You compare against history and peers, and anomalies trigger maintenance. Owners and residents can access consumption data, so a dispute starts with a shared record instead of an opinion."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3c77c335c2c5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3d79862dade",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59b5d7bfde68",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49b65cf0fd4f",
+          "_type": "span",
+          "marks": [],
+          "text": "Leaks Need More Than a Water Meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "ba1c2088047e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4c204c2666b",
+          "_type": "span",
+          "marks": [],
+          "text": "We include leak and flood detection, own and maintain all leak detection equipment, and include sensor batteries, replacements and system updates. Don't oversell water metering alone. "
+        },
+        {
+          "_key": "f6c6d4e3d5a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A water submeter alone does not detect every possible leak."
+        },
+        {
+          "_key": "021809502bf8",
+          "_type": "span",
+          "marks": [],
+          "text": " Consumption data reveals unusual usage patterns, dedicated sensors detect water at selected locations, and a combined design provides broader protection than either alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "304b7e846868",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8d7140484083",
+          "_type": "span",
+          "marks": [],
+          "text": "Watch three signals every month:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9448a8dcf6a9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6765f3588bc9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Unusual overnight water use:"
+        },
+        {
+          "_key": "fb2225c7e4d6",
+          "_type": "span",
+          "marks": [],
+          "text": " Points to leaks, running toilets or failed valves."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1e97d7ba65a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d2aa3e2d62bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Creep in common-area load:"
+        },
+        {
+          "_key": "09013bef3ffa",
+          "_type": "span",
+          "marks": [],
+          "text": " Points to stuck equipment, lighting schedules or heating faults."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "25e650418178",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e2c1e0d553a4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Suites far above peers:"
+        },
+        {
+          "_key": "2e0b341034fa",
+          "_type": "span",
+          "marks": [],
+          "text": " Points to behaviour, faulty appliances or a meter problem to verify."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "708306d19826",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8efcd6f38cb7",
+          "_type": "span",
+          "marks": [],
+          "text": "Act on those signals within one billing cycle. Data you ignore has no operational value."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bfc2381e3935",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0529074e9558",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9d2012eac5b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13636c36e01c",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant Costs and Affordability Protections"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7e1bb1411771",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "39c47c27cd2f",
+          "_type": "span",
+          "marks": [],
+          "text": "Move a flat, rent-inclusive utility into a submetered bill and NOI improves in month one. The tenant sees a new charge with no explanation. That is how a cost-control project becomes an arrears file. Energy as a service changes who carries cost, risk and tenant friction, not only how much energy the building uses. Test the model against two documents: your own baseline bills and the tenant's proposed bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4695bc25d515",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21fdc5f1272e",
+          "_type": "span",
+          "marks": [],
+          "text": "Canada's 2025-2026 Energy Fact Book reports households spent an average of "
+        },
+        {
+          "_key": "59c4670bd0fe",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$2,376 on in-home energy in 2023"
+        },
+        {
+          "_key": "e7b16e7d2e9e",
+          "_type": "span",
+          "marks": [],
+          "text": ", equal to "
+        },
+        {
+          "_key": "d5fe0edadb20",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3% of disposable income"
+        },
+        {
+          "_key": "c896bd22a86a",
+          "_type": "span",
+          "marks": [],
+          "text": ", while "
+        },
+        {
+          "_key": "c8fd5be91cfc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5.6% spent at least 10% of income on energy"
+        },
+        {
+          "_key": "dd76972d99ab",
+          "_type": "span",
+          "marks": [],
+          "text": ". That average hides harder cases in low-income, electrically heated, older or poorly insulated suites. A new service fee can push a household into arrears even when total building consumption falls."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a25ad7991ac8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8a0fc1e8a29c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b7c7827360d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d1577830abda",
+          "_type": "span",
+          "marks": [],
+          "text": "Transparency Tenants Can Actually Use"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "e985d4b1e506",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a670320802c4",
+          "_type": "span",
+          "marks": [],
+          "text": "Make this a launch condition: an annual written summary of consumption, charges, commodity costs, fees, and the conditions under which fees can increase. Plain language, before launch, not after the first complaint. Ask any provider for it. If yours cannot produce it, that tells you what tenant support will look like."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8348cd557788",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8488d88540a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Every tenant should get clear answers to three questions. Who keeps the savings when consumption falls? How do escalation clauses change the administration fee over time? Can I verify my own reading against my bill? If your leasing team stumbles on those, the communications are not ready. Neither is the contract."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "839f66e5e248",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85736442f4f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate lower consumption from cost reallocation in your reporting. Billing tenants for what you used to absorb improves NOI, but it is not an energy saving. Report both numbers. Owners who blur them lose the argument the first time a tenant asks why the bill went up while the building \"saved energy.\""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9ccfc15010a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6a633611e65c",
+          "_type": "span",
+          "marks": [],
+          "text": "A single invoice for electricity, gas, water and thermal charges is convenient. It also concentrates payment risk. Under Axis Meter's terms, a partial payment on a single invoice is applied first to electricity submetering services. Axis Meter then decides at its sole discretion how to apply the balance to water, gas or thermal energy services. Know that order before you promise tenants a simple bill."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "33250266b1ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7e06def5b0ef",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "06ae7425fa49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "afda8071a0f3",
+          "_type": "span",
+          "marks": [],
+          "text": "Non-Payment Rules Are Ontario-Specific Here"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d6cd5fc2ebb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5521f5459f64",
+          "_type": "span",
+          "marks": [],
+          "text": "For Ontario electricity, Axis Meter may "
+        },
+        {
+          "_key": "97e9c5e98750",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "disconnect, terminate, or limit electricity delivery"
+        },
+        {
+          "_key": "5a78abfeccd2",
+          "_type": "span",
+          "marks": [],
+          "text": " for unpaid electricity or electricity-related charges after lawful demand and notice, until charges are paid in full. Axis Meter's security deposit policy for electricity submetering services in Ontario is consistent with Ontario Energy Board requirements. Those disconnection, deposit and payment-allocation rules apply to Ontario electricity submetering. Water, gas and projects outside Ontario are reviewed separately for each jurisdiction, so verify local rules before you adopt the same terms."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1bb0ace8d8b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c7c6cb7c8bd",
+          "_type": "span",
+          "marks": [],
+          "text": "Request these protections in writing:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7d017905aa36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b71d6871398e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Plain-language fee schedule:"
+        },
+        {
+          "_key": "8b12254dd91f",
+          "_type": "span",
+          "marks": [],
+          "text": " Every recurring and one-time charge, with escalation terms."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "885c04c570cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a112d0f61ef0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Reading access:"
+        },
+        {
+          "_key": "5787266e455e",
+          "_type": "span",
+          "marks": [],
+          "text": " Resident access to their own consumption data."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b4ed95918cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "43cf36112a32",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Hardship process:"
+        },
+        {
+          "_key": "c546db239b2a",
+          "_type": "span",
+          "marks": [],
+          "text": " Notice steps, payment plan route and dispute contact before disconnection."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d8ae7f92b08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "53fa8c915405",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rent treatment:"
+        },
+        {
+          "_key": "8e2e267194c2",
+          "_type": "span",
+          "marks": [],
+          "text": " How any rent adjustment interacts with new utility charges under local law."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d921d3f3cf9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3afe26cb2af1",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't sign a deal that improves your statement by making the tenant's bill unaffordable. Arrears, turnover and vacancies will take the gain back."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c5feafbc36fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c53aee90305",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "26e098b726f9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab5308ffdb55",
+          "_type": "span",
+          "marks": [],
+          "text": "Choosing Metering for Two-Way and Demand-Response Buildings"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "4ef443e7ef8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1863bedb0311",
+          "_type": "span",
+          "marks": [],
+          "text": "A building with solar, batteries, heat pumps or demand response isn't a standard submetering job. Energy flows both ways, timing matters, and a meter that only totals monthly consumption can't value exports, storage or peak reduction fairly."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f49f893c9ea5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7daa25c34ded",
+          "_type": "span",
+          "marks": [],
+          "text": "Approach"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "98c0786dbe26",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e462bc405c49",
+          "_type": "span",
+          "marks": [],
+          "text": "Best fit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93a6416ea12a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "592627d13e15",
+          "_type": "span",
+          "marks": [],
+          "text": "Data captured"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "01fcf47864bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0389c81bdef",
+          "_type": "span",
+          "marks": [],
+          "text": "Main limitation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e67967d337f2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f0d6ccd2dbe",
+          "_type": "span",
+          "marks": [],
+          "text": "Conventional suite submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70c41e944414",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "307ef0e47966",
+          "_type": "span",
+          "marks": [],
+          "text": "Multi-family buildings billed on consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ce268ef4885",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59a399ae09de",
+          "_type": "span",
+          "marks": [],
+          "text": "Consumption per suite"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d699cc4f7944",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8af42583a62",
+          "_type": "span",
+          "marks": [],
+          "text": "Does not capture generation or storage exports"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bfa33393268e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae0f463f0a1c",
+          "_type": "span",
+          "marks": [],
+          "text": "Whole-building measurement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "84249064f71c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a1a16be5ec70",
+          "_type": "span",
+          "marks": [],
+          "text": "Owners who need building-level performance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d2334bfe4e55",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87c65c473d85",
+          "_type": "span",
+          "marks": [],
+          "text": "Total building load"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b46afa9b9cd6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed1b926b82dc",
+          "_type": "span",
+          "marks": [],
+          "text": "Cannot allocate costs to individual suites alone"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e54878d139f7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "375bf95c848c",
+          "_type": "span",
+          "marks": [],
+          "text": "Bidirectional metering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "79ecc105ef08",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "682cba026e69",
+          "_type": "span",
+          "marks": [],
+          "text": "Buildings with solar or battery storage"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e311cf6008d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f9a8ee692ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Imports and exports with timestamps"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f2526969a20",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03a613562a7c",
+          "_type": "span",
+          "marks": [],
+          "text": "Needs clear rules for crediting and settlement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5080f8d27b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "037412f16c0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Hybrid system"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6509c57c87c3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "15d3b3ea84d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use buildings with solar, heat pumps and submetering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "14b5d0e9ff8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8ed2358aebb",
+          "_type": "span",
+          "marks": [],
+          "text": "Suite, common-area and generation flows"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0739d20894b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f532e68a2ff4",
+          "_type": "span",
+          "marks": [],
+          "text": "Highest data and contract complexity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "38e441d9f4e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aeedf98311f1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "479f80535d13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "14f453993c21",
+          "_type": "span",
+          "marks": [],
+          "text": "Demand Response Needs Controllable, Measured Loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "339ae1ce2e82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2de20c4f159f",
+          "_type": "span",
+          "marks": [],
+          "text": "Demand response works when granular data identifies controllable HVAC, domestic hot-water and pumping loads, then automated controls reduce demand during qualifying events. Program value depends on eligibility, baselines and verification, so preserve interval records and document override and comfort limits in advance. Review the programme structures in our guide to "
+        },
+        {
+          "_key": "82e7583ee888",
+          "_type": "span",
+          "marks": [
+            "76c60822feb7"
+          ],
+          "text": "demand response programs"
+        },
+        {
+          "_key": "5ae3ebeb3c02",
+          "_type": "span",
+          "marks": [],
+          "text": " and confirm eligibility before counting any revenue."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "76c60822feb7",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/demand-response-programs"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "95723ac4a4a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2b45158ed7e2",
+          "_type": "span",
+          "marks": [],
+          "text": "The data architecture is essential. You need interval records of "
+        },
+        {
+          "_key": "ac80671d575f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "imports and exports with timestamps"
+        },
+        {
+          "_key": "a96662e16b07",
+          "_type": "span",
+          "marks": [],
+          "text": ", separated into common-area, suite, storage and generation flows. Without that separation, we could allocate consumption but couldn't fairly credit shared solar generation, battery charging or peak reduction."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf35cddf03ff",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8b1d085cd6db",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario has formalised export data handling. Our overview of "
+        },
+        {
+          "_key": "d9741e81dde0",
+          "_type": "span",
+          "marks": [
+            "048ce8ebc92f"
+          ],
+          "text": "smart meters in Ontario"
+        },
+        {
+          "_key": "33b130f74cbb",
+          "_type": "span",
+          "marks": [],
+          "text": " notes amendments gave the Smart Metering Entity authority to collect and manage behind-the-meter generation and storage export data, with exclusive authority over smart-metering data effective "
+        },
+        {
+          "_key": "ebecb69bfd92",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "January 1, 2025"
+        },
+        {
+          "_key": "0f6de0f54292",
+          "_type": "span",
+          "marks": [],
+          "text": ". Confirm who holds that responsibility in your project."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "048ce8ebc92f",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/smart-meters-ontario"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d835ab3d1869",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99b744a9585b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "890c217dba33",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63ff5fb8c05d",
+          "_type": "span",
+          "marks": [],
+          "text": "Contract Issues the Table Cannot Show"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "d114001ceb85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "335d4a8ab48e",
+          "_type": "span",
+          "marks": [],
+          "text": "Settle these before installation:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c7a158950bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c162b7001f63",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Data ownership:"
+        },
+        {
+          "_key": "00aaed79ef23",
+          "_type": "span",
+          "marks": [],
+          "text": " Who owns interval data and who can export it at term end."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "15c89148df09",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "abaeb7c098fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Settlement and credits:"
+        },
+        {
+          "_key": "4c488c393253",
+          "_type": "span",
+          "marks": [],
+          "text": " How resident bill credits for generation or load reduction are calculated."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1bd0df17689c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2bd5da28c84f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Degradation and backup:"
+        },
+        {
+          "_key": "cd9ff27cce29",
+          "_type": "span",
+          "marks": [],
+          "text": " Who pays as batteries degrade and what loads stay live in an outage."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "521c92210e65",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb879dcaa8dd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Regulatory responsibility:"
+        },
+        {
+          "_key": "851d050435f1",
+          "_type": "span",
+          "marks": [],
+          "text": " Who files, reports and answers the regulator."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23ca16744308",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38dbaadb03ea",
+          "_type": "span",
+          "marks": [],
+          "text": "Our Ontario licence covers electricity submetering in Ontario only, and water, gas and projects outside Ontario are reviewed separately for each jurisdiction. Build that review into your schedule."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a4853c50ab6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c53097c869a6",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "799b656145b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "135be223c036",
+          "_type": "span",
+          "marks": [],
+          "text": "Confirm the Contract Terms Before You Sign"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "81d9495b89a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da98f9027f10",
+          "_type": "span",
+          "marks": [],
+          "text": "Don't sign on a savings estimate. Sign on verified credentials, a complete fee schedule and a baseline you supplied."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "97117fc66572",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "937bdae61d60",
+          "_type": "span",
+          "marks": [],
+          "text": "Use this checklist:"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "85fcb0535ab8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0b32ec3a10c9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Verify the licence:"
+        },
+        {
+          "_key": "7aea23b78978",
+          "_type": "span",
+          "marks": [],
+          "text": " Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under "
+        },
+        {
+          "_key": "1a80bedff7ca",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "licence ES-2022-0268"
+        },
+        {
+          "_key": "8e947a9d015c",
+          "_type": "span",
+          "marks": [],
+          "text": ", which can be verified on the Ontario Energy Board register. That licence covers Ontario electricity only."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8310bdb00ffc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "27196aff4d8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm commodities:"
+        },
+        {
+          "_key": "613ce948b1ff",
+          "_type": "span",
+          "marks": [],
+          "text": " State whether electricity, gas, water and thermal energy are each included."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "50ca040bc188",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "410a65f1df57",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Request the fee schedule:"
+        },
+        {
+          "_key": "9180c81f7607",
+          "_type": "span",
+          "marks": [],
+          "text": " Service Fees are the administration fee and other charges and fees for our Services. Get how each can change."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "089fc6790b5d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "99df7c3863ae",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Check term and exit:"
+        },
+        {
+          "_key": "20e45c3c19d3",
+          "_type": "span",
+          "marks": [],
+          "text": " Confirm term length, buyout, meter replacement and end-of-term data return."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8e171a82ed15",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5ac999969087",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Confirm rate language:"
+        },
+        {
+          "_key": "c12a36b534b5",
+          "_type": "span",
+          "marks": [],
+          "text": " Charges are based on rates that may change at any time in accordance with applicable laws."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fbffe7c27d2a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c6fbc0d2efcc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Test resident handling:"
+        },
+        {
+          "_key": "5d1c68f740d8",
+          "_type": "span",
+          "marks": [],
+          "text": " Ask how billing, move-in, move-out and disputes are handled, and compare the model with an "
+        },
+        {
+          "_key": "d9ff930a2812",
+          "_type": "span",
+          "marks": [
+            "c79e579e15bd"
+          ],
+          "text": "energy service company"
+        },
+        {
+          "_key": "e769c8170a80",
+          "_type": "span",
+          "marks": [],
+          "text": " structure if ownership matters to you."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "c79e579e15bd",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/energy-service-company"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "cb270d50e68e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "20b7e01c9f38",
+          "_type": "span",
+          "marks": [],
+          "text": "Take one concrete step this month. Request a site assessment for one building, then compare the quote against 12 months of baseline bills using the NOI test. If the net result is clear under conservative occupancy, proceed. If it isn't, don't."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "442813dcbed4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4f2b5b812744",
+          "_type": "span",
+          "marks": [],
+          "text": "We provide turnkey energy as a service through provider-owned submetering for electricity, water, gas and thermal loads, including assessment, installation, commissioning, resident billing, leak detection and ongoing monitoring with $0 upfront under our standard model. Request a site assessment for one building, bring 12 months of baseline bills, and we'll model recoverable costs and fees against your current NOI before you commit. Visit "
+        },
+        {
+          "_key": "0c142af34c1e",
+          "_type": "span",
+          "marks": [
+            "92477acde2f0"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "4beec5c8dbb0",
+          "_type": "span",
+          "marks": [],
+          "text": " to start that assessment."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "92477acde2f0",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Submetering",
+  "excerpt": "Energy as a Service explained: how it works, what it costs property owners, and how it compares to submetering and traditional equipment purchase.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/1f784ac5-6877-4d35-99d7-b6b30d05dcff/energy-as-a-service-solar-power.jpg",
+  "noIndex": false,
+  "outrankId": "6ee9d14e-805b-4d7e-bab4-16fd363502db",
+  "publishedAt": "2026-11-06T07:29:08.717969+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "energy-as-a-service"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>You&#39;re opening another bulk utility bill for a building where no tenant sees what they use. The <strong>heating, water and electricity costs</strong> land on your operating statement, waste is invisible, and every attempt to fix it starts with a capital request you don&#39;t want to approve. That&#39;s the situation <strong>energy as a service</strong> is built to change.</p>\n<p>Don&#39;t treat it as a discount programme. Treat it as a transfer of <strong>cost, performance risk and tenant friction</strong> from you to a provider, for a fee. The model only works if you test that fee against your own baseline bills and against what the tenant will pay. This guide gives you that test, step by step, and tells you where the contract can work against you.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-energy-as-a-service-means-for-property-owners\">What Energy as a Service Means for Property Owners</a><ul>\n<li><a href=\"#the-three-parts-you-are-buying\">The Three Parts You Are Buying</a></li>\n</ul>\n</li>\n<li><a href=\"#energy-as-a-service-compared-with-buying-equipment-outright\">Energy as a Service Compared With Buying Equipment Outright</a><ul>\n<li><a href=\"#how-to-read-each-row\">How to Read Each Row</a></li>\n</ul>\n</li>\n<li><a href=\"#how-the-service-model-works-from-assessment-to-billing\">How the Service Model Works From Assessment to Billing</a><ul>\n<li><a href=\"#timeline-and-checks-before-kickoff\">Timeline and Checks Before Kickoff</a></li>\n</ul>\n</li>\n<li><a href=\"#financial-benefits-and-costs-for-property-owners\">Financial Benefits and Costs for Property Owners</a><ul>\n<li><a href=\"#net-the-fees-off-every-time\">Net the Fees Off, Every Time</a></li>\n</ul>\n</li>\n<li><a href=\"#operational-gains-from-measuring-every-load\">Operational Gains From Measuring Every Load</a><ul>\n<li><a href=\"#benchmarking-turns-data-into-decisions\">Benchmarking Turns Data Into Decisions</a></li>\n<li><a href=\"#leaks-need-more-than-a-water-meter\">Leaks Need More Than a Water Meter</a></li>\n</ul>\n</li>\n<li><a href=\"#tenant-costs-and-affordability-protections\">Tenant Costs and Affordability Protections</a><ul>\n<li><a href=\"#transparency-tenants-can-actually-use\">Transparency Tenants Can Actually Use</a></li>\n<li><a href=\"#non-payment-rules-are-ontario-specific-here\">Non-Payment Rules Are Ontario-Specific Here</a></li>\n</ul>\n</li>\n<li><a href=\"#choosing-metering-for-two-way-and-demand-response-buildings\">Choosing Metering for Two-Way and Demand-Response Buildings</a><ul>\n<li><a href=\"#demand-response-needs-controllable-measured-loads\">Demand Response Needs Controllable, Measured Loads</a></li>\n<li><a href=\"#contract-issues-the-table-cannot-show\">Contract Issues the Table Cannot Show</a></li>\n</ul>\n</li>\n<li><a href=\"#confirm-the-contract-terms-before-you-sign\">Confirm the Contract Terms Before You Sign</a></li>\n</ul>\n<p><a id=\"what-energy-as-a-service-means-for-property-owners\"></a></p>\n<h2>What Energy as a Service Means for Property Owners</h2>\n<p><strong>Energy as a service is a contract in which a provider supplies, installs, meters, maintains and bills for energy-related equipment, so you buy a defined service rather than assets.</strong> You&#39;re not buying meters. You&#39;re buying measured, billed and maintained energy infrastructure.</p>\n<p><a id=\"the-three-parts-you-are-buying\"></a></p>\n<h3>The Three Parts You Are Buying</h3>\n<ul>\n<li><strong>Equipment and measurement:</strong> The provider delivers and installs meters, sensors and related hardware, then tracks use by suite, common area or system.</li>\n<li><strong>Operations and maintenance:</strong> The provider monitors performance, handles repairs and replacements, and keeps data flowing.</li>\n<li><strong>Billing and performance reporting:</strong> The provider issues charges and reports that show who used what, and whether the building is improving.</li>\n</ul>\n<p>Think of a managed fleet. You get the vehicle, the upkeep and the reporting. You don&#39;t own the parts and you don&#39;t carry the repair risk.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/71d8d631-053f-443e-a4f4-e29400583322/energy-as-a-service-business-model.jpg\" alt=\"An infographic explaining the benefits and process of Energy as a Service for property owners.\"></p>\n<p>Say a mid-sized building pays one bulk bill for electricity, water and heating. You absorb every dollar of waste and tenants see none of the cost, so nobody has a reason to change behaviour. A service model splits that total into measured parts.</p>\n<p>The market is large enough to support this approach, because <a href=\"https://natural-resources.canada.ca/energy-efficiency/building-energy-efficiency/existing-buildings\">Natural Resources Canada&#39;s existing buildings data</a> shows Canadian businesses and institutions spent <strong>$31.2 billion on energy in 2019</strong>. Large recurring spend makes a service contract viable.</p>\n<p>Don&#39;t overread that. <strong>Energy as a service isn&#39;t a saving by itself.</strong> Your result depends on contract terms, building condition and metering quality. Bad terms on a poorly metered building will still lose money, just more predictably.</p>\n<p><a id=\"energy-as-a-service-compared-with-buying-equipment-outright\"></a></p>\n<h2>Energy as a Service Compared With Buying Equipment Outright</h2>\n<p>Start with the route comparison, because the wrong procurement choice locks you in for years.</p>\n<table>\n<thead>\n<tr>\n<th>Route</th>\n<th>Upfront cost</th>\n<th>Who maintains equipment</th>\n<th>Who carries performance risk</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Traditional equipment purchase</td>\n<td>Owner pays full capital cost</td>\n<td>Owner</td>\n<td>Owner</td>\n</tr>\n<tr>\n<td>Submetering bought outright</td>\n<td>Owner pays meters and installation</td>\n<td>Owner or contractor</td>\n<td>Owner</td>\n</tr>\n<tr>\n<td>Energy as a service (provider-owned)</td>\n<td>Low or $0 upfront under our model</td>\n<td>Provider under the agreement</td>\n<td>Defined by contract terms</td>\n</tr>\n</tbody></table>\n<p><a id=\"how-to-read-each-row\"></a></p>\n<h3>How to Read Each Row</h3>\n<p>The <strong>upfront cost</strong> row decides cash flow. If you buy outright, you fund meters, installation, commissioning and any electrical work before you recover a dollar. Owners comparing that capital stack sometimes look at benchmarks such as <a href=\"https://www.climateguardcoolingservices.com/post/electrical-panel-upgrade-cost-in-florida-what-to-expect\">costs for upgrading an older home panel</a> to remind themselves that ancillary electrical work, not just the meter itself, drives the budget.</p>\n<p>The <strong>maintenance</strong> row decides who calls the technician. Under an outright purchase, a failed meter is your work order and your replacement cost. Under a service model, it&#39;s ours under the agreement.</p>\n<p>The <strong>performance risk</strong> row decides who pays when savings fall short. This is the row owners skim and later regret. If the contract doesn&#39;t define a baseline, a measurement method and a remedy, you still carry the risk even though you don&#39;t own the equipment.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> If a provider won&#39;t put the baseline and the shortfall remedy in writing, assume you&#39;re carrying the performance risk.</p>\n</blockquote>\n<p>Our standard model at Axis Meter Solutions is one concrete example of the third route. We offer <strong>$0 upfront, provider-owned equipment on a standard 20-year term, and one provider and one invoice for all utilities</strong>. That structure removes the capital hurdle, but it doesn&#39;t remove cost. Provider fees are an ongoing charge and you must model them against recoverable amounts and tenant billing over the full term, not just year one.</p>\n<p>Scale changes the answer. In a <strong>10-unit building</strong>, outright purchase can be hard to justify because fixed design, billing and support costs are spread over few suites, and one vacancy swings recovery. A service model spreads our operating cost across many buildings, so small properties can still get billing and support.</p>\n<p>In a <strong>200-unit portfolio</strong>, you have negotiating power. You can credibly threaten to buy outright, employ your own billing staff, and negotiate more firmly on fees and term. Use that position. Don&#39;t accept a standard fee schedule without testing it against your in-house alternative.</p>\n<p>For a closer look at the metering technology behind these routes, review our guide to <a href=\"https://www.axismeter.com/blog/smart-metering-solutions\">smart metering solutions</a> before you shortlist providers. The next question is operational: what happens after you sign.</p>\n<p><a id=\"how-the-service-model-works-from-assessment-to-billing\"></a></p>\n<h2>How the Service Model Works From Assessment to Billing</h2>\n<p>A good implementation is boring. Every step has one owner, one output, and no surprises at the suite door. The sequence exists to shift cost and risk to the provider&#39;s side of the table at each handoff, then prove the result twice: against your own baseline bills, and against the tenant&#39;s first invoice.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/eb288cc9-7fd6-4ee6-a9e1-6e92f0dafc9b/energy-as-a-service-service-model.jpg\" alt=\"A five-step infographic showing the Energy as a Service business model from property assessment to final billing.\"></p>\n<ol>\n<li><strong>Assess the property and existing systems.</strong> We review your building, panels, heating and water systems, and past bills. You provide access, drawings where available, and 12 months of utility data. Those twelve months are the part owners skip and later regret. They are the baseline every savings claim gets tested against.</li>\n<li><strong>Select meters and coordinate system design with engineers and electricians.</strong> We choose metering for electricity, water, gas or thermal loads and plan the integration. You approve the design and the suite access plan. Where panel capacity is the constraint, a plain-language resource on <a href=\"https://www.ampd.life/post/electrical-load-assessment-calculations\">NEC demand factors explained</a> helps you follow the electrician&#39;s reasoning instead of taking it on faith.</li>\n<li><strong>Install, coordinating with on-site trades.</strong> We set up equipment on site and work around your trades so suite access happens in short, scheduled windows. You handle tenant notices and confirm access windows with your property manager. Tenant friction lands here if notices go out late, so treat the notice schedule as part of the project, not an afterthought.</li>\n<li><strong>Commission the system and validate the data.</strong> We test every meter, reconcile readings to the main supply, and fix gaps before billing starts. Don&#39;t approve live billing until the totals reconcile. A system that doesn&#39;t match the building total is a dispute generator.</li>\n<li><strong>Start resident billing, with move-in and move-out support.</strong> We handle recurring resident or tenant utility billing, account setup, and final reads. Direct leasing staff to send new tenants to us at signing, not after move-in. Retroactive charges are the fastest way to turn a tenant into an opponent.</li>\n<li><strong>Monitor, report, and replace meters for the length of the agreement.</strong> We handle resident inquiries, reporting, maintenance and monitoring, and replace failed equipment. You review the reports we provide and act on building-level issues we flag. Your job is the building, not the meter.</li>\n</ol>\n<p><a id=\"timeline-and-checks-before-kickoff\"></a></p>\n<h3>Timeline and Checks Before Kickoff</h3>\n<p>Expect several weeks from agreement to live meters. Equipment lead time drives most of that schedule, and panel condition, permits and suite access can each push the date. Get the lead time confirmed in writing before you sign.</p>\n<p>Jurisdiction checks happen before kickoff because the rules are not uniform. In Ontario, electricity submetering runs under an Ontario Energy Board unit sub-meter provider licence, and ours is licence ES-2022-0268. Water, gas and projects outside Ontario are reviewed separately for each jurisdiction. Confirm the design and billing practice are permitted where the building sits before any equipment arrives. Installing a system you cannot legally bill on is a write-off, not a delay.</p>\n<blockquote>\n<p>A correctly commissioned system reconciles to the building total and lets a resident see their own usage without calling your office.</p>\n</blockquote>\n<p>That reconciliation is your proof, and it is the same test you apply to any provider. If readings don&#39;t match the main supply, or residents can&#39;t verify their own use, hold the launch. Billing on bad data costs more than a delay, because every disputed invoice teaches tenants to question the next one.</p>\n<p><a id=\"financial-benefits-and-costs-for-property-owners\"></a></p>\n<h2>Financial Benefits and Costs for Property Owners</h2>\n<p>Bulk utility expenses <strong>compress net operating income</strong> because you pay for consumption you can&#39;t control or recover. Unit-level metering turns part of that shared cost into a recoverable charge tied to actual use.</p>\n<p>Use simple arithmetic. Say your building has a <strong>$50,000 annual shared utility bill</strong> now allocated by floor area, or not allocated at all. With suite metering, you split that same total by measured suite usage, keep common-area load on your account, and recover the suite portion directly. Your benefit isn&#39;t the full $50,000. It&#39;s the recoverable suite share, minus common load, minus fees, minus bad debt.</p>\n<p>Budget predictability improves when a defined service fee replaces some exposure to unmanaged consumption. It doesn&#39;t eliminate price risk. Our charges are based on rates that <strong>may change at any time in accordance with applicable laws</strong>, so model escalation, don&#39;t assume a flat fee for 20 years.</p>\n<p>National results show efficiency can pay without relying solely on owner capital. <a href=\"https://oee.nrcan.gc.ca/publications/statistics/trends/2019/commercial.cfm\">Natural Resources Canada&#39;s commercial trends data</a> reported that commercial and institutional energy-efficiency improvements between 2000 and 2019 reduced energy use by <strong>124.2 PJ</strong> and saved approximately <strong>$3.2 billion in 2019 costs alone</strong>. That&#39;s context, not a promise for your building.</p>\n<p><a id=\"net-the-fees-off-every-time\"></a></p>\n<h3>Net the Fees Off, Every Time</h3>\n<p>Our <strong>Service Fees are the administration fee and other charges and fees for the Services</strong> we provide. Put every fee in your model. We may issue a <strong>single invoice covering the Services</strong> we provide, and we offer one provider and one invoice for all utilities with $0 upfront. One invoice simplifies accounting and reconciliation, but simplicity isn&#39;t savings.</p>\n<p>Run this four-part test before signing:</p>\n<ol>\n<li><strong>Pull baseline bills</strong> from the last 12 months, by commodity.</li>\n<li><strong>Estimate the recoverable share</strong> after removing common-area load.</li>\n<li><strong>Total the fee load</strong>, including administration and per-suite charges.</li>\n<li><strong>Calculate the net change to NOI</strong> under low, expected and high occupancy.</li>\n</ol>\n<p>If the deal only works at full occupancy with no bad debt, renegotiate or walk away.</p>\n<p><a id=\"operational-gains-from-measuring-every-load\"></a></p>\n<h2>Operational Gains From Measuring Every Load</h2>\n<p>A whole-building bill shows a total. It doesn&#39;t show where the load sits, who caused a spike, or whether last month&#39;s fix worked. Unit-level, common-area and water data change daily operations because they assign cost to a place and a time.</p>\n<p>Electricity submetering is associated with a <strong>30-40% consumption reduction</strong>, along with automated billing and real-time data. Treat that as a provider-reported figure that depends on your building and occupant behaviour, not a guaranteed outcome. Residents who never see a bill won&#39;t change. Residents who see clear, timely data often do, and owners who teach tenants to <a href=\"https://heatwavehvac.com/how-to-read-your-electric-meter/\">check meter readings to reduce bills</a> get fewer disputes about estimated charges.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/21a7ad74-d6eb-49cf-bc71-7d6dcf373f2d/energy-as-a-service-operational-gains.jpg\" alt=\"An infographic showing operational gains from measuring building energy and water loads at the unit level.\"></p>\n<p><a id=\"benchmarking-turns-data-into-decisions\"></a></p>\n<h3>Benchmarking Turns Data Into Decisions</h3>\n<p>Benchmarking means comparing your building with similar buildings, its own historical use, or reference performance levels. <a href=\"https://natural-resources.canada.ca/energy-efficiency/energy-star/buildings/natural-resources-canada-s-national-building-energy-benchmarking-initiative\">Natural Resources Canada&#39;s national building energy benchmarking initiative</a> describes ENERGY STAR Portfolio Manager benchmarks covering <strong>more than 80 building types</strong> using weather data from <strong>over 150 Canadian stations</strong>. Use that kind of weather-normalised comparison, or you&#39;ll chase winter spikes that aren&#39;t faults.</p>\n<p>The control loop is practical. Submeters feed suite, common-area, water and thermal data to us. We aggregate and normalise it. You compare against history and peers, and anomalies trigger maintenance. Owners and residents can access consumption data, so a dispute starts with a shared record instead of an opinion.</p>\n<p><a id=\"leaks-need-more-than-a-water-meter\"></a></p>\n<h3>Leaks Need More Than a Water Meter</h3>\n<p>We include leak and flood detection, own and maintain all leak detection equipment, and include sensor batteries, replacements and system updates. Don&#39;t oversell water metering alone. <strong>A water submeter alone does not detect every possible leak.</strong> Consumption data reveals unusual usage patterns, dedicated sensors detect water at selected locations, and a combined design provides broader protection than either alone.</p>\n<p>Watch three signals every month:</p>\n<ul>\n<li><strong>Unusual overnight water use:</strong> Points to leaks, running toilets or failed valves.</li>\n<li><strong>Creep in common-area load:</strong> Points to stuck equipment, lighting schedules or heating faults.</li>\n<li><strong>Suites far above peers:</strong> Points to behaviour, faulty appliances or a meter problem to verify.</li>\n</ul>\n<p>Act on those signals within one billing cycle. Data you ignore has no operational value.</p>\n<p><a id=\"tenant-costs-and-affordability-protections\"></a></p>\n<h2>Tenant Costs and Affordability Protections</h2>\n<p>Move a flat, rent-inclusive utility into a submetered bill and NOI improves in month one. The tenant sees a new charge with no explanation. That is how a cost-control project becomes an arrears file. Energy as a service changes who carries cost, risk and tenant friction, not only how much energy the building uses. Test the model against two documents: your own baseline bills and the tenant&#39;s proposed bill.</p>\n<p>Canada&#39;s 2025-2026 Energy Fact Book reports households spent an average of <strong>$2,376 on in-home energy in 2023</strong>, equal to <strong>3% of disposable income</strong>, while <strong>5.6% spent at least 10% of income on energy</strong>. That average hides harder cases in low-income, electrically heated, older or poorly insulated suites. A new service fee can push a household into arrears even when total building consumption falls.</p>\n<p><a id=\"transparency-tenants-can-actually-use\"></a></p>\n<h3>Transparency Tenants Can Actually Use</h3>\n<p>Make this a launch condition: an annual written summary of consumption, charges, commodity costs, fees, and the conditions under which fees can increase. Plain language, before launch, not after the first complaint. Ask any provider for it. If yours cannot produce it, that tells you what tenant support will look like.</p>\n<p>Every tenant should get clear answers to three questions. Who keeps the savings when consumption falls? How do escalation clauses change the administration fee over time? Can I verify my own reading against my bill? If your leasing team stumbles on those, the communications are not ready. Neither is the contract.</p>\n<p>Separate lower consumption from cost reallocation in your reporting. Billing tenants for what you used to absorb improves NOI, but it is not an energy saving. Report both numbers. Owners who blur them lose the argument the first time a tenant asks why the bill went up while the building &quot;saved energy.&quot;</p>\n<p>A single invoice for electricity, gas, water and thermal charges is convenient. It also concentrates payment risk. Under Axis Meter&#39;s terms, a partial payment on a single invoice is applied first to electricity submetering services. Axis Meter then decides at its sole discretion how to apply the balance to water, gas or thermal energy services. Know that order before you promise tenants a simple bill.</p>\n<p><a id=\"non-payment-rules-are-ontario-specific-here\"></a></p>\n<h3>Non-Payment Rules Are Ontario-Specific Here</h3>\n<p>For Ontario electricity, Axis Meter may <strong>disconnect, terminate, or limit electricity delivery</strong> for unpaid electricity or electricity-related charges after lawful demand and notice, until charges are paid in full. Axis Meter&#39;s security deposit policy for electricity submetering services in Ontario is consistent with Ontario Energy Board requirements. Those disconnection, deposit and payment-allocation rules apply to Ontario electricity submetering. Water, gas and projects outside Ontario are reviewed separately for each jurisdiction, so verify local rules before you adopt the same terms.</p>\n<p>Request these protections in writing:</p>\n<ul>\n<li><strong>Plain-language fee schedule:</strong> Every recurring and one-time charge, with escalation terms.</li>\n<li><strong>Reading access:</strong> Resident access to their own consumption data.</li>\n<li><strong>Hardship process:</strong> Notice steps, payment plan route and dispute contact before disconnection.</li>\n<li><strong>Rent treatment:</strong> How any rent adjustment interacts with new utility charges under local law.</li>\n</ul>\n<p>Don&#39;t sign a deal that improves your statement by making the tenant&#39;s bill unaffordable. Arrears, turnover and vacancies will take the gain back.</p>\n<p><a id=\"choosing-metering-for-two-way-and-demand-response-buildings\"></a></p>\n<h2>Choosing Metering for Two-Way and Demand-Response Buildings</h2>\n<p>A building with solar, batteries, heat pumps or demand response isn&#39;t a standard submetering job. Energy flows both ways, timing matters, and a meter that only totals monthly consumption can&#39;t value exports, storage or peak reduction fairly.</p>\n<table>\n<thead>\n<tr>\n<th>Approach</th>\n<th>Best fit</th>\n<th>Data captured</th>\n<th>Main limitation</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Conventional suite submetering</td>\n<td>Multi-family buildings billed on consumption</td>\n<td>Consumption per suite</td>\n<td>Does not capture generation or storage exports</td>\n</tr>\n<tr>\n<td>Whole-building measurement</td>\n<td>Owners who need building-level performance</td>\n<td>Total building load</td>\n<td>Cannot allocate costs to individual suites alone</td>\n</tr>\n<tr>\n<td>Bidirectional metering</td>\n<td>Buildings with solar or battery storage</td>\n<td>Imports and exports with timestamps</td>\n<td>Needs clear rules for crediting and settlement</td>\n</tr>\n<tr>\n<td>Hybrid system</td>\n<td>Mixed-use buildings with solar, heat pumps and submetering</td>\n<td>Suite, common-area and generation flows</td>\n<td>Highest data and contract complexity</td>\n</tr>\n</tbody></table>\n<p><a id=\"demand-response-needs-controllable-measured-loads\"></a></p>\n<h3>Demand Response Needs Controllable, Measured Loads</h3>\n<p>Demand response works when granular data identifies controllable HVAC, domestic hot-water and pumping loads, then automated controls reduce demand during qualifying events. Program value depends on eligibility, baselines and verification, so preserve interval records and document override and comfort limits in advance. Review the programme structures in our guide to <a href=\"https://www.axismeter.com/blog/demand-response-programs\">demand response programs</a> and confirm eligibility before counting any revenue.</p>\n<p>The data architecture is essential. You need interval records of <strong>imports and exports with timestamps</strong>, separated into common-area, suite, storage and generation flows. Without that separation, we could allocate consumption but couldn&#39;t fairly credit shared solar generation, battery charging or peak reduction.</p>\n<p>Ontario has formalised export data handling. Our overview of <a href=\"https://www.axismeter.com/blog/smart-meters-ontario\">smart meters in Ontario</a> notes amendments gave the Smart Metering Entity authority to collect and manage behind-the-meter generation and storage export data, with exclusive authority over smart-metering data effective <strong>January 1, 2025</strong>. Confirm who holds that responsibility in your project.</p>\n<p><a id=\"contract-issues-the-table-cannot-show\"></a></p>\n<h3>Contract Issues the Table Cannot Show</h3>\n<p>Settle these before installation:</p>\n<ul>\n<li><strong>Data ownership:</strong> Who owns interval data and who can export it at term end.</li>\n<li><strong>Settlement and credits:</strong> How resident bill credits for generation or load reduction are calculated.</li>\n<li><strong>Degradation and backup:</strong> Who pays as batteries degrade and what loads stay live in an outage.</li>\n<li><strong>Regulatory responsibility:</strong> Who files, reports and answers the regulator.</li>\n</ul>\n<p>Our Ontario licence covers electricity submetering in Ontario only, and water, gas and projects outside Ontario are reviewed separately for each jurisdiction. Build that review into your schedule.</p>\n<p><a id=\"confirm-the-contract-terms-before-you-sign\"></a></p>\n<h2>Confirm the Contract Terms Before You Sign</h2>\n<p>Don&#39;t sign on a savings estimate. Sign on verified credentials, a complete fee schedule and a baseline you supplied.</p>\n<p>Use this checklist:</p>\n<ul>\n<li><strong>Verify the licence:</strong> Axis Meter Solutions Inc. is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under <strong>licence ES-2022-0268</strong>, which can be verified on the Ontario Energy Board register. That licence covers Ontario electricity only.</li>\n<li><strong>Confirm commodities:</strong> State whether electricity, gas, water and thermal energy are each included.</li>\n<li><strong>Request the fee schedule:</strong> Service Fees are the administration fee and other charges and fees for our Services. Get how each can change.</li>\n<li><strong>Check term and exit:</strong> Confirm term length, buyout, meter replacement and end-of-term data return.</li>\n<li><strong>Confirm rate language:</strong> Charges are based on rates that may change at any time in accordance with applicable laws.</li>\n<li><strong>Test resident handling:</strong> Ask how billing, move-in, move-out and disputes are handled, and compare the model with an <a href=\"https://www.axismeter.com/blog/energy-service-company\">energy service company</a> structure if ownership matters to you.</li>\n</ul>\n<p>Take one concrete step this month. Request a site assessment for one building, then compare the quote against 12 months of baseline bills using the NOI test. If the net result is clear under conservative occupancy, proceed. If it isn&#39;t, don&#39;t.</p>\n<hr>\n<p>We provide turnkey energy as a service through provider-owned submetering for electricity, water, gas and thermal loads, including assessment, installation, commissioning, resident billing, leak detection and ongoing monitoring with $0 upfront under our standard model. Request a site assessment for one building, bring 12 months of baseline bills, and we&#39;ll model recoverable costs and fees against your current NOI before you commit. Visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to start that assessment.</p>",
+  "tags": [
+    "energy as a service",
+    "submetering",
+    "property owners",
+    "utility cost recovery",
+    "multi-family"
+  ],
+  "title": "Energy as a Service: How It Works for Property Owners",
+  "updatedAt": "2026-11-06T07:29:12.286Z"
+}
