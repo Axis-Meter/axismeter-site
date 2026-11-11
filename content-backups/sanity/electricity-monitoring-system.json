@@ -1,0 +1,2949 @@
+{
+  "_createdAt": "2026-11-11T09:28:33Z",
+  "_id": "outrank-41751228-56e5-4893-9c00-96aac08ef11e",
+  "_rev": "xcX7vOP8bTh2NdYS6bfhhL",
+  "_type": "blogPost",
+  "_updatedAt": "2026-11-11T09:28:33Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "dfaab983da5f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "de509d54063c",
+          "_type": "span",
+          "marks": [],
+          "text": "A tenant emails a photo of her January bill and asks why it's nearly double December's. You open the consumption report, find three days of missing intervals, and realise the invoice went out anyway. Nothing is wrong with the meter. The process wrapped around it failed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3e0fbc57d050",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46f03cbddba6",
+          "_type": "span",
+          "marks": [],
+          "text": "That gap is what separates an "
+        },
+        {
+          "_key": "ed341040c3f2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "electricity monitoring system"
+        },
+        {
+          "_key": "3eca44a2bc2d",
+          "_type": "span",
+          "marks": [],
+          "text": " that a building can defend from a set of meters that merely produce numbers. The chain runs from current transformers through the meter, the communications path, the headless data store, the monthly reconciliation, the invoice, the dispute desk and the arrears policy. Break any link and the data stops being trustworthy at precisely the moment someone depends on it, usually a resident holding a bill they don't believe."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "681319dec7dd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a30978dbb49",
+          "_type": "span",
+          "marks": [],
+          "text": "The sections below are the decisions I'd make in order: what to meter, who to buy from, how to commission it, how to move data into billing, which numbers prove the system is working, and how to protect residents when a reading is estimated or a payment is late. Most of the failures show up in the last two."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b47954a25de5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b1dc60f602a",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "7f0377f71a89",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "46dd29defcb4",
+          "_type": "span",
+          "marks": [
+            "e15ac07836c0"
+          ],
+          "text": "Match the Monitoring Level to Your Building Type"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e15ac07836c0",
+          "_type": "link",
+          "href": "#match-the-monitoring-level-to-your-building-type"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ecfe41caf6e3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08127fe2693e",
+          "_type": "span",
+          "marks": [
+            "5b64d9b7d959"
+          ],
+          "text": "Select and Verify a Vendor Before You Sign"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5b64d9b7d959",
+          "_type": "link",
+          "href": "#select-and-verify-a-vendor-before-you-sign"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0d2bb91144b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0a1cab9a1de1",
+          "_type": "span",
+          "marks": [
+            "276adc6e853f"
+          ],
+          "text": "Accuracy means field accuracy"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "276adc6e853f",
+          "_type": "link",
+          "href": "#accuracy-means-field-accuracy"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5fbf3a5b46fe",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "263778e861bf",
+          "_type": "span",
+          "marks": [
+            "dada1522a964"
+          ],
+          "text": "How to Deploy and Commission the Metering System"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dada1522a964",
+          "_type": "link",
+          "href": "#how-to-deploy-and-commission-the-metering-system"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "28eeed2e4993",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c975c5dc5fa4",
+          "_type": "span",
+          "marks": [
+            "06dafd41e76a"
+          ],
+          "text": "The sequence that survives an audit"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "06dafd41e76a",
+          "_type": "link",
+          "href": "#the-sequence-that-survives-an-audit"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "504862a82ba1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e5c9a1aae2b",
+          "_type": "span",
+          "marks": [
+            "5a9ad9e32d51"
+          ],
+          "text": "Connecting Meter Data to Billing and Operations"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "5a9ad9e32d51",
+          "_type": "link",
+          "href": "#connecting-meter-data-to-billing-and-operations"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "6723a0d8d1ad",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd95f03f47be",
+          "_type": "span",
+          "marks": [
+            "54c1d684246f"
+          ],
+          "text": "KPIs That Show the System Is Working"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "54c1d684246f",
+          "_type": "link",
+          "href": "#kpis-that-show-the-system-is-working"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0e77e610d0b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c9cf2b7ee6c",
+          "_type": "span",
+          "marks": [
+            "95a8c924851d"
+          ],
+          "text": "Protecting Residents From Billing Errors and Arrears"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "95a8c924851d",
+          "_type": "link",
+          "href": "#protecting-residents-from-billing-errors-and-arrears"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1dfac8858b40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b1d94fefd5b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7cce59be68c4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aaa197cc68f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Match the Monitoring Level to Your Building Type"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "2241b831a043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0cef04cfa0a7",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask three questions of every electrical load in the building before anyone quotes you hardware."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a26a03ea8e98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa99b554740e",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Billing."
+        },
+        {
+          "_key": "7ded4770eeb4",
+          "_type": "span",
+          "marks": [],
+          "text": " Which circuits must appear on a named resident's invoice? "
+        },
+        {
+          "_key": "dffc11a399ad",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Allocation."
+        },
+        {
+          "_key": "d81dbbeec02f",
+          "_type": "span",
+          "marks": [],
+          "text": " Which ones get split between tenant classes or recovered as a shared cost? "
+        },
+        {
+          "_key": "3117597a19df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Diagnostics."
+        },
+        {
+          "_key": "261dcd3c73e5",
+          "_type": "span",
+          "marks": [],
+          "text": " Which ones only need to be understood when something misbehaves?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ebe235acc37",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e9477b4b03dd",
+          "_type": "span",
+          "marks": [],
+          "text": "Pick the lowest monitoring level that answers all three. Everything above that line is capacity you'll maintain and nobody will open."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b098f20ab847",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ac5d49dafc3",
+          "_type": "span",
+          "marks": [],
+          "text": "Take a 30-unit walk-up with a single common-area meter. Unit submeters plus that one common meter cover billing and shared-cost recovery completely. Putting floor-level interval data into the same building adds a communications design to a riser that never needed one, and buys analytics nobody on staff has time to read. Condominiums and strata run the opposite risk: unit submeters are only an option where the bylaws permit them, so where they don't, a building master meter divided by an agreed formula is the honest answer, and extra hardware doesn't change the legal position. Mixed-use buildings need separate meters for residential, commercial and shared loads, because a retail tenant billed on a demand profile shouldn't inherit corridor lighting, and residents shouldn't inherit a kitchen exhaust fan."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "32b030da7863",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1a9933b71ef9",
+          "_type": "span",
+          "marks": [],
+          "text": "Larger rental towers change the economics. Buildings of "
+        },
+        {
+          "_key": "d26afe531967",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "50 units or more"
+        },
+        {
+          "_key": "d8ef4c2ce265",
+          "_type": "span",
+          "marks": [],
+          "text": " earn their keep from "
+        },
+        {
+          "_key": "6c6b7972872c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "15 to 60 minute interval data by floor"
+        },
+        {
+          "_key": "d79fbb28bf1a",
+          "_type": "span",
+          "marks": [],
+          "text": ", the resolution at which a short-cycling rooftop unit or a drifting corridor load becomes visible. EV chargers and amenity loads each want a dedicated circuit meter at 15-minute intervals for load management and clean cost recovery. Student and affordable housing portfolios get more from a resident portal and usage alerts layered on monthly reads than from faster intervals, because a predictable bill prevents more disputes than a better chart resolves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "dde98ab4d874",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7dfd74266465",
+          "_type": "span",
+          "marks": [],
+          "text": "The utility side already operates at that granularity. "
+        },
+        {
+          "_key": "b0a3f5c62b7c",
+          "_type": "span",
+          "marks": [
+            "593a02b21830"
+          ],
+          "text": "Natural Resources Canada's smart grid report"
+        },
+        {
+          "_key": "248f83dca4f8",
+          "_type": "span",
+          "marks": [],
+          "text": " counted approximately "
+        },
+        {
+          "_key": "233349be6ce9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "13.3 million smart meters"
+        },
+        {
+          "_key": "fb4e0b9dcc00",
+          "_type": "span",
+          "marks": [],
+          "text": " deployed nationally, an increase of "
+        },
+        {
+          "_key": "c0402ea616bd",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1.2 million"
+        },
+        {
+          "_key": "95b113cef279",
+          "_type": "span",
+          "marks": [],
+          "text": " from 2018, and those devices record interval usage and transmit readings remotely rather than waiting for a reader to walk the route. Tenants live with that precision at the utility, so a building still reconciling quarterly estimates sits behind the standard the people paying the bills already expect."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "593a02b21830",
+          "_type": "link",
+          "href": "https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/Smart-Grid-in-Canada-2020-2021.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "602d8a33ff48",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "97b786ca413d",
+          "_type": "span",
+          "marks": [],
+          "text": "The table is what I'd hand a property manager in week one, before any vendor gets airtime."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ec7493ab543",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "864a2f4795f5",
+          "_type": "span",
+          "marks": [],
+          "text": "Building type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac8c50a4c8a4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b96c167f3ad6",
+          "_type": "span",
+          "marks": [],
+          "text": "Recommended metering"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "717682f275ce",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81f3ead1c5df",
+          "_type": "span",
+          "marks": [],
+          "text": "Data interval"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d4cdf132d576",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "83dce976b66d",
+          "_type": "span",
+          "marks": [],
+          "text": "Main purpose"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "563d56fb0b78",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e5cba16f472",
+          "_type": "span",
+          "marks": [],
+          "text": "Low-rise multifamily (under 50 units)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0194e938fa07",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f70b90103547",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit-level electricity submeters and a common-area meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "88b7ea4217e0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7faf10d11639",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly reads, optional hourly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "572e4ccade4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f207ea1d010",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant billing and cost recovery"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a09cc3e5cd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "826efc88080f",
+          "_type": "span",
+          "marks": [],
+          "text": "High-rise rental (50+ units)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e22e65ec2eea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f3940d90826",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit submeters on a shared network, plus common-area and amenity meters"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b70b9f891c85",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ecf4355ce876",
+          "_type": "span",
+          "marks": [],
+          "text": "15 to 60 minutes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ae9f0f487404",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "321df3dcfbee",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing and load analysis by floor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c30b02f53fae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c0dacf8aa03f",
+          "_type": "span",
+          "marks": [],
+          "text": "Condominium or strata"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "241048260d1a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cef73e03ba33",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit submeters where bylaws allow, with a building master meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "573fba36c142",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "113969dcdd19",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly for units, hourly for common areas"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6dd22d51840e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10bbe4a5ea7f",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocation of shared costs and reserve planning"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "302e429a03b4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16cb2f921713",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use (residential above retail)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d79751a3f1a8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0fd83c88a6c0",
+          "_type": "span",
+          "marks": [],
+          "text": "Separate meters for residential, commercial and shared loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a4673ed94b16",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c79d2866a247",
+          "_type": "span",
+          "marks": [],
+          "text": "15 minutes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bee2a3192cb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12c5ef77aaeb",
+          "_type": "span",
+          "marks": [],
+          "text": "Allocation between tenant classes and diagnostics"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da44ca482eb0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "38d2dda9df2f",
+          "_type": "span",
+          "marks": [],
+          "text": "Student or affordable housing"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "75022d6eb111",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ba2ee0e0c29",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit or room-level submeters with a resident portal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf436bbf7d9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da5437422ef9",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly reads plus usage alerts"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf225286a5e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "374ccd2cbce7",
+          "_type": "span",
+          "marks": [],
+          "text": "Predictable bills and fewer disputes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f469b7b48a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bdddf69124b0",
+          "_type": "span",
+          "marks": [],
+          "text": "EV charging or amenity loads"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d91547b6c744",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9197a88e52a",
+          "_type": "span",
+          "marks": [],
+          "text": "Dedicated circuit meter on each load"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e6e36e9ca8f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a8573eb0113",
+          "_type": "span",
+          "marks": [],
+          "text": "15 minutes"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ac1192df8325",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b30f60bea7fa",
+          "_type": "span",
+          "marks": [],
+          "text": "Load management and separate cost recovery"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0e63987e56af",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2ca456464c57",
+          "_type": "span",
+          "marks": [],
+          "text": "Whatever row you land on, design the data path once. The same registers and intervals feed the dashboard, the invoice and the "
+        },
+        {
+          "_key": "07fecd24b3ba",
+          "_type": "span",
+          "marks": [
+            "be71594c3627"
+          ],
+          "text": "building management system"
+        },
+        {
+          "_key": "c1f7032e2730",
+          "_type": "span",
+          "marks": [],
+          "text": "; a project that buys those as three separate things ends up with duplicated meters and three versions of the truth. And when intervals vanish, the fault usually sits in the integration layer rather than the meter, which is the same trace-the-request discipline set out in this guide to "
+        },
+        {
+          "_key": "c7e66e0e20c8",
+          "_type": "span",
+          "marks": [
+            "b68755bf3bfe"
+          ],
+          "text": "enterprise application monitoring and debugging"
+        },
+        {
+          "_key": "4e9e2452878c",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "be71594c3627",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/building-management-system"
+        },
+        {
+          "_key": "b68755bf3bfe",
+          "_type": "link",
+          "href": "https://continuumsolutions.com.au/enterprise-application-monitoring-and-debugging/"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "954aa21dafdc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d56391e6161b",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "319682244793",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8f52a26e6cd2",
+          "_type": "span",
+          "marks": [],
+          "text": "Select and Verify a Vendor Before You Sign"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c4f604cb68cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71f2889aa1f3",
+          "_type": "span",
+          "marks": [],
+          "text": "A portal demo can look polished while leaving a practical question unanswered: what happens when a meter stops reporting just before billing closes? Select a vendor for how it handles exceptions and disputes, not just how its dashboard looks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1ccace664c87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9fd397812a2e",
+          "_type": "span",
+          "marks": [],
+          "text": "Score each shortlisted vendor from 1 to 5 on the seven criteria below. If the vendor cannot provide evidence for a criterion, score it zero. Compare three vendors, and agree on what evidence will count as acceptance before signing a portfolio agreement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "580f6f5799ca",
+      "_type": "externalImage",
+      "alt": "A vendor selection checklist for evaluating electricity monitoring system providers with seven key assessment criteria.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a3175788-700f-409e-aa56-620521ceb478/electricity-monitoring-system-vendor-checklist.jpg"
+    },
+    {
+      "_key": "19beeba9d236",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b4c27c4dece1",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc3ae275ecf0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "814317bcff42",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy means field accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1001e84e64d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c26a2d93ae86",
+          "_type": "span",
+          "marks": [],
+          "text": "Ask what accuracy the installed system can maintain in the field, not only the meter's nominal resolution. "
+        },
+        {
+          "_key": "06961f543a88",
+          "_type": "span",
+          "marks": [
+            "5aea38515282"
+          ],
+          "text": "California Public Utilities Commission materials on submetering"
+        },
+        {
+          "_key": "7e7d6bf721df",
+          "_type": "span",
+          "marks": [],
+          "text": " report that available third-party submetering equipment can reach approximately "
+        },
+        {
+          "_key": "ae1fa798c6c0",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1% laboratory accuracy and 2% field accuracy"
+        },
+        {
+          "_key": "b3e083e07073",
+          "_type": "span",
+          "marks": [],
+          "text": ". That leaves roughly "
+        },
+        {
+          "_key": "735e93dec183",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2% measurement uncertainty"
+        },
+        {
+          "_key": "adc9ac96a718",
+          "_type": "span",
+          "marks": [],
+          "text": " before wiring, transformer-ratio, installation or data-processing errors are considered. Resolution describes the smallest increment a meter can display; it does not establish the accuracy of the billed reading."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5aea38515282",
+          "_type": "link",
+          "href": "https://docs.cpuc.ca.gov/PublishedDocs/Efile/G000/M489/K140/489140936.PDF"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1a489017a6a1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "68b90a965044",
+          "_type": "span",
+          "marks": [],
+          "text": "Criterion"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "307dcd824902",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7d1871f54e3f",
+          "_type": "span",
+          "marks": [],
+          "text": "What to ask the vendor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "60d9c7dd70ed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cb9c921ae9e4",
+          "_type": "span",
+          "marks": [],
+          "text": "Red flag"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4f08147218e5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "88209af32ac3",
+          "_type": "span",
+          "marks": [],
+          "text": "Evidence to request"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8ec46b24cd49",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "45057350a431",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "16cc7b31f061",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1df270fafab1",
+          "_type": "span",
+          "marks": [],
+          "text": "What field accuracy applies, beyond laboratory accuracy?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "858c3bea4e46",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3b621ba57ff6",
+          "_type": "span",
+          "marks": [],
+          "text": "The quote lists only meter resolution"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f72cfd5058bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e43c4dcad1a8",
+          "_type": "span",
+          "marks": [],
+          "text": "Stated field tolerance and test report"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d620218e3e64",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69c9bb9fb692",
+          "_type": "span",
+          "marks": [],
+          "text": "Data access"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d52d194e48d8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3c454749398",
+          "_type": "span",
+          "marks": [],
+          "text": "Can interval data be exported in an open format?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a769420dd13a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4f06f29e5b9",
+          "_type": "span",
+          "marks": [],
+          "text": "Data is available only in a vendor portal"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0dc25e023a34",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c73607c75fd6",
+          "_type": "span",
+          "marks": [],
+          "text": "Sample interval export for one unit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "108e834c240c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f479a909d86b",
+          "_type": "span",
+          "marks": [],
+          "text": "Communications"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e9502830673d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "601d4981b87d",
+          "_type": "span",
+          "marks": [],
+          "text": "How will the network reach basements and garages?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e47407f90f1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "434b59e198d7",
+          "_type": "span",
+          "marks": [],
+          "text": "No coverage check is included"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f40a29e23e29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a29f9853f611",
+          "_type": "span",
+          "marks": [],
+          "text": "Site coverage survey before installation"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce2ceae4aaa1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4be6c059ada",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing support"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d47a2896c836",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ea577238b96",
+          "_type": "span",
+          "marks": [],
+          "text": "How are estimates and corrections documented?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9700f1d8a8dc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1f2726fe165a",
+          "_type": "span",
+          "marks": [],
+          "text": "No record of changes or audit trail"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6b869ae6f171",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "958a9cd2d159",
+          "_type": "span",
+          "marks": [],
+          "text": "Sample invoice and correction log"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c96caff2159",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "67208968cf5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Service levels"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7a2e17af96c9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "91139bb587c8",
+          "_type": "span",
+          "marks": [],
+          "text": "What response times apply to faults and battery replacement?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9c9dbcbc6627",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e0cbaf1d2bbf",
+          "_type": "span",
+          "marks": [],
+          "text": "Repair times are not defined"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1f5842b2caf2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d4cd55d44b81",
+          "_type": "span",
+          "marks": [],
+          "text": "Written service levels in the contract"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ddf393aaaef9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a0c296cc162",
+          "_type": "span",
+          "marks": [],
+          "text": "Licensing and insurance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d1bae2438c31",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "35b415ad34e8",
+          "_type": "span",
+          "marks": [],
+          "text": "What licences and insurance cover the work?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5ac321644390",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e8208d4f9236",
+          "_type": "span",
+          "marks": [],
+          "text": "The licence cannot be checked"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c179dcb76d38",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0893fa7ebf59",
+          "_type": "span",
+          "marks": [],
+          "text": "Licence number and certificate of insurance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ba63db234a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ef53a46d85fe",
+          "_type": "span",
+          "marks": [],
+          "text": "Contract terms"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "287870d45e57",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "95e388edd5cb",
+          "_type": "span",
+          "marks": [],
+          "text": "What are the capital cost, term and exit conditions?"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a80f43da0ca8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6e0d09c10dcb",
+          "_type": "span",
+          "marks": [],
+          "text": "Fees or buyout terms are unclear"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "76084b69942b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa98490bd3ce",
+          "_type": "span",
+          "marks": [],
+          "text": "Full fee schedule and buyout terms"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8571b3d89ad3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1350702a486e",
+          "_type": "span",
+          "marks": [],
+          "text": "Check a sample interval export for timestamps, units and a billing-period identifier. The export should be usable outside the vendor's portal; otherwise, owners may have difficulty reviewing billing history or transferring records when a contract ends."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "74a32037004c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c6b1fb39dd3",
+          "_type": "span",
+          "marks": [],
+          "text": "Put communications coverage, service response times and billing corrections in the written scope. Missing readings need a documented treatment before invoices are issued, and a correction should leave a trace that residents and property staff can review. Ask the vendor to explain how an exception is identified, investigated and resolved."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93a8b60d0bf6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3f83e7d43fb",
+          "_type": "span",
+          "marks": [],
+          "text": "A defensible scope should state who coordinates system design, supplies approved metering equipment where required, commissions the system, takes reads and supports billing. Axis Meter Solutions is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under licence ES-2022-0268. During consultation, Axis recommends electricity metering, water metering or both for the building. Require any vendor's recommendation to match the building's needs, with its reasoning set out in writing."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "337052b7374f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6a47a2b29a5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Signing gate:"
+        },
+        {
+          "_key": "5d481e5a243d",
+          "_type": "span",
+          "marks": [],
+          "text": " Do not issue tenant invoices until the property manager and vendor have signed the acceptance sheet and attached the variance test."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "ff039010e172",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "63598ca6e5d7",
+          "_type": "span",
+          "marks": [],
+          "text": "Settle ownership of interval data at contract end, the full fee schedule and the buyout terms before signing. Contract protections count when they are written down, not when they are described in a sales call. For general questions to consider when choosing a service provider, see "
+        },
+        {
+          "_key": "0b47660014ad",
+          "_type": "span",
+          "marks": [
+            "eac08e757830"
+          ],
+          "text": "business IT partner advice from F1Group"
+        },
+        {
+          "_key": "4a631a8f1c1e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Before the purchase order, check the equipment model against the "
+        },
+        {
+          "_key": "e7762b97dbc1",
+          "_type": "span",
+          "marks": [
+            "1e3b54cf0821"
+          ],
+          "text": "Measurement Canada approved meters list"
+        },
+        {
+          "_key": "297490c16646",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "eac08e757830",
+          "_type": "link",
+          "href": "https://www.f1group.com/2026/03/21/managed-it-services-firm/"
+        },
+        {
+          "_key": "1e3b54cf0821",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/measurement-canada-approved-meters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "34e00a3c11ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2cb641cae337",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "851dd493730b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "77e406d4a0ff",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Deploy and Commission the Metering System"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "792c9eb7e4a2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a5472e11559e",
+          "_type": "span",
+          "marks": [],
+          "text": "Commissioning is where good hardware turns into defensible billing data, and it's the stage vendors compress hardest when an installation runs behind. Push back. A meter that's mounted but not verified is a liability with a serial number."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8abac8e1a829",
+      "_type": "externalImage",
+      "alt": "A six-step infographic illustrating the professional process of deploying and commissioning an utility electricity monitoring system.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d09c2734-29d7-4cf5-be06-f96b656f96bd/electricity-monitoring-system-process-guide.jpg"
+    },
+    {
+      "_key": "81baaef8f1d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d443f14d0aa4",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "babfced590ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "be7d42d2fceb",
+          "_type": "span",
+          "marks": [],
+          "text": "The sequence that survives an audit"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "4642e2680dc3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9b03bd4b4832",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "1. Inventory every meter against the floor plan."
+        },
+        {
+          "_key": "e87850fbb1c4",
+          "_type": "span",
+          "marks": [],
+          "text": " List each utility meter, unit, common area and shared load, and reconcile the list to the building footprint. A missed meter becomes an unallocated cost that the owner absorbs for years. The usual slip is a spare meter or a shared-load meter nobody claimed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "80fc5d6b43ca",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7c22011503b1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2. Confirm the equipment against the design."
+        },
+        {
+          "_key": "27155b825bd8",
+          "_type": "span",
+          "marks": [],
+          "text": " Check model numbers, CT or PT ratios and the wiring diagram before anything is mounted, because a ratio error skews every reading that follows for the life of the installation. The slip is copying ratios from the last building because the panel looked similar."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0c80ebb8d3f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "447015faf49a",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "3. Install at accessible heights and label everything."
+        },
+        {
+          "_key": "2d2159b61e02",
+          "_type": "span",
+          "marks": [],
+          "text": " Every meter gets its number and service address on a durable label, readable without a ladder or a torch. A unit mislabelled with the wrong address is worse than no label, because the error flows straight into a resident's invoice."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a03008b08c71",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "64b0eecf1460",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "4. Verify phase association and CT polarity."
+        },
+        {
+          "_key": "310dc3faabe8",
+          "_type": "span",
+          "marks": [],
+          "text": " Reversed polarity is the most common field failure, and it produces plausible-looking data that overstates or understates consumption depending on load balance. Confirm orientation with a load test rather than trusting the arrow printed on the CT."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "29352dd0d10e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "400fb095db11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "5. Synchronise clocks to a common time source."
+        },
+        {
+          "_key": "2a63bd88f619",
+          "_type": "span",
+          "marks": [],
+          "text": " Then confirm interval counts, units and billing-window alignment against the specification. Devices on different time sources misalign billing windows, which shows up later as a demand peak that never happened."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "69147910f7f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "867f9aab767c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "6. Compare submeter totals with the parent meter."
+        },
+        {
+          "_key": "c87f234202e4",
+          "_type": "span",
+          "marks": [],
+          "text": " Record the comparison during a stable load and again at peak, and investigate any interval where the sum of submeters exceeds the parent. Comparing only at low load hides ratio and polarity errors that appear under real demand."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3962c20f293e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c3e0cd3cdc8c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "7. Set acceptance thresholds below the stated field tolerance."
+        },
+        {
+          "_key": "8b9a8bc0574a",
+          "_type": "span",
+          "marks": [],
+          "text": " An escalation level set above the tolerance lets a failing meter pass acceptance, and you'll spend the next year explaining variances. Keep pre- and post-commissioning test records with the serial numbers attached."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2cc29254dcd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "89816c38c496",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8. Sign off before billing starts."
+        },
+        {
+          "_key": "57e117df31c3",
+          "_type": "span",
+          "marks": [],
+          "text": " The property manager and the vendor both countersign a sheet listing every meter, its assigned unit, its interval count and its variance result. That single page is the difference between a billing dispute you can answer in an hour and one you argue about for a quarter."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d43d23479be8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "81e0a7e79165",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Practical rule:"
+        },
+        {
+          "_key": "36366fe892b8",
+          "_type": "span",
+          "marks": [],
+          "text": " if a meter's variance sits inside tolerance but its label, address or assignment is wrong, the meter is still failing."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "7c02d9a8dbd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc94cd7ff252",
+          "_type": "span",
+          "marks": [],
+          "text": "Two administrative habits save trouble later. Photograph every installed meter with its label and CT orientation, and file the images against the meter register. Then hand the property manager a one-page map of what was installed, because the person answering a resident's question in eighteen months won't be the person who stood in the electrical room."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2c270cb4c561",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5c6de5ba2d16",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cc136c9932f6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "252236843275",
+          "_type": "span",
+          "marks": [],
+          "text": "Connecting Meter Data to Billing and Operations"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "99af378514da",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "475905a1d634",
+          "_type": "span",
+          "marks": [],
+          "text": "Trace the path before you trust it: meter, collector or concentrator, head-end system, data store, then billing and reporting tools. Each junction has a characteristic failure. A collector stops reporting and the gap fills with a repeat of the previous day. A head-end export drops a column and the upload imports zeroes. A billing tool applies the wrong rate period because the interval timestamps shifted an hour."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "9a9da8102b05",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6b55f86bfa7b",
+          "_type": "span",
+          "marks": [],
+          "text": "The monthly routine that catches all three is unglamorous. Check every meter for missing intervals, duplicated records and abnormal demand peaks. Sum the submeters and compare the total against the utility statement for the same period. Log every correction with its reason, date and approver, so the audit trail shows a decision rather than a mystery."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d5eb271373d6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2a39c12e7018",
+          "_type": "span",
+          "marks": [],
+          "text": "Monitoring data should not drive tenant allocation, savings claims or operating decisions until that month's completeness check has passed."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "56441c2f465c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a84eccfe1a5d",
+          "_type": "span",
+          "marks": [],
+          "text": "Completeness is an owner obligation, not a vendor promise. The "
+        },
+        {
+          "_key": "c51fda120af3",
+          "_type": "span",
+          "marks": [
+            "d90debd9c2e1"
+          ],
+          "text": "California Energy Commission's building energy benchmarking program"
+        },
+        {
+          "_key": "2bcf5f6f3ad5",
+          "_type": "span",
+          "marks": [],
+          "text": " warns that benchmarking submissions may omit meters associated with the building, notes that utility data can be requested or uploaded into ENERGY STAR Portfolio Manager, and sets reporting for covered commercial and multifamily properties generally due by June 1 for the prior calendar year. State reporting aggregates whole-building use, and no automatic mechanism confirms every associated meter was included. If the completeness check runs only when a report is due, the omission surfaces after the deadline."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "d90debd9c2e1",
+          "_type": "link",
+          "href": "https://www.energy.ca.gov/programs-and-topics/programs/building-energy-benchmarking-program/building-energy-benchmarking"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "5ce5d8ebc095",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae12162324f9",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing runs should freeze on a rule, not on a date. Run the reconciliation first, then freeze the cycle, then hold any unit that fails until its exception clears. Holding one invoice for two days costs less than issuing a correction credit and rebuilding a resident's trust."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1fef7640c36d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4e91b4bb1a3f",
+          "_type": "span",
+          "marks": [],
+          "text": "Mixed-use buildings need separate billing groups for residential, commercial and shared loads so one class never inherits another's errors. Connect the system to property accounting and to the maintenance ticketing queue as well, because a fault or leak alert that only appears on a dashboard nobody watches becomes a work order three weeks late."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b5ff3591befa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0c26bf02df22",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ce3ca467f628",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "59978c9242ee",
+          "_type": "span",
+          "marks": [],
+          "text": "KPIs That Show the System Is Working"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "387c44e726f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "170ef0714177",
+          "_type": "span",
+          "marks": [],
+          "text": "Record consumption and the estimated-read rate for the "
+        },
+        {
+          "_key": "f4f64227c517",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "12 months before go-live"
+        },
+        {
+          "_key": "92999889b990",
+          "_type": "span",
+          "marks": [],
+          "text": ". Without that baseline, every number afterwards is an opinion. Then track a short list, calculate each one from data you already hold, and give each a named owner."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da20de9dc49d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6c3d8abdb1b2",
+          "_type": "span",
+          "marks": [],
+          "text": "KPI"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "526e6cc3213b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "36f83280cc48",
+          "_type": "span",
+          "marks": [],
+          "text": "How to calculate"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ec5efcafa0f4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2c620bf0fd57",
+          "_type": "span",
+          "marks": [],
+          "text": "Target range"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0231a9bd62b9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b1a98a2225b3",
+          "_type": "span",
+          "marks": [],
+          "text": "Review cadence"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f12d19fef40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "db1a22c00f43",
+          "_type": "span",
+          "marks": [],
+          "text": "Data completeness"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a609e79e8aea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f55871c704b2",
+          "_type": "span",
+          "marks": [],
+          "text": "Valid intervals divided by expected intervals"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "09eca32245f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b99fa924048c",
+          "_type": "span",
+          "marks": [],
+          "text": "98% or higher"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "70b23a1810b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "49573831a61a",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5c4ddcfeb06d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c2f2385b2bb1",
+          "_type": "span",
+          "marks": [],
+          "text": "Submeter-to-parent variance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0eafa2c29fc1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ac4c81fb994",
+          "_type": "span",
+          "marks": [],
+          "text": "(Sum of submeters minus parent meter) divided by parent meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3454bc09e8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c8c02037f9f7",
+          "_type": "span",
+          "marks": [],
+          "text": "Within the stated field tolerance"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1a5f5dd5164e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9e77d70e6d5c",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "427f8fafef36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc386f4c3d33",
+          "_type": "span",
+          "marks": [],
+          "text": "Estimated-read share"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "054e3c0eef2e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9438cfe338af",
+          "_type": "span",
+          "marks": [],
+          "text": "Estimated bills divided by total bills"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8a57ab4aaf06",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fe058c232a98",
+          "_type": "span",
+          "marks": [],
+          "text": "Falling each quarter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "045b6fef35e7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3d09dfadab4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3985c098f04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9cfeb5c4fef6",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing dispute rate"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f01c8325e98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "913e72b44672",
+          "_type": "span",
+          "marks": [],
+          "text": "Disputed bills divided by total bills"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "68fff5568f04",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a3d32dab7567",
+          "_type": "span",
+          "marks": [],
+          "text": "Falling each quarter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "ab1f155cb6b1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2accae2b9eac",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5214f042f99",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a701df00bbd1",
+          "_type": "span",
+          "marks": [],
+          "text": "Fault response time"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b4e4b915d064",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "faec26af5672",
+          "_type": "span",
+          "marks": [],
+          "text": "Hours from alert to technician visit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "59e5bf978ab1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0d55594f1c3e",
+          "_type": "span",
+          "marks": [],
+          "text": "As set in the service agreement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6f0620b1434f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d9f97332684a",
+          "_type": "span",
+          "marks": [],
+          "text": "Quarterly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cac2b6f3dc2f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b86e6c21aea5",
+          "_type": "span",
+          "marks": [],
+          "text": "Consumption change after go-live"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c0bd0511da41",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "361ed7373021",
+          "_type": "span",
+          "marks": [],
+          "text": "Post-installation use compared with baseline, adjusted for weather"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "87af3630ab9b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c35788e52245",
+          "_type": "span",
+          "marks": [],
+          "text": "Down against baseline in comparable weather"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b9b0034784a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18cab391d03e",
+          "_type": "span",
+          "marks": [],
+          "text": "Quarterly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "44332c6ef015",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "351f767ae6c5",
+          "_type": "span",
+          "marks": [],
+          "text": "Cost recovery rate"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "aa54634fc5cd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b01197435f05",
+          "_type": "span",
+          "marks": [],
+          "text": "Billed submetered cost divided by utility cost"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e102096d6ee9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "96278682a7ac",
+          "_type": "span",
+          "marks": [],
+          "text": "100% of metered cost recovered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0a751ca695fa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "69b8512d42be",
+          "_type": "span",
+          "marks": [],
+          "text": "Monthly"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6e4336191553",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b46a8cfab5aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Data completeness is the first number to watch because everything else inherits its failures. A meter at 89% completeness still bills, just with estimates filling the gaps, and the resident pays for a guess dressed as a reading. Submeter-to-parent variance tells you whether the equipment is still inside tolerance or has drifted since commissioning, which is a hardware question rather than a billing one. Estimated-read share and dispute rate are the two resident-facing measures, and they move together: a rising estimate share almost always drags disputes up a month or two later."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "eec9900bc7a3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "94d1e1efe238",
+          "_type": "span",
+          "marks": [],
+          "text": "Cost recovery deserves a plain calculation. Compare billed submetered cost against the utility cost for the same period. If the programme recovers less than the utility charges, the shortfall lands on the owner's operating statement, and it usually traces to unallocated common loads rather than to rates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4de94a154ade",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "325c5325e22a",
+          "_type": "span",
+          "marks": [],
+          "text": "Fault response time is the measure that exposes a service agreement in practice. Compare the hours from alert to technician visit against what the contract promised, and review it quarterly with the vendor rather than annually in a renewal meeting."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "303bca605d0f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f1d586c38ff4",
+          "_type": "span",
+          "marks": [],
+          "text": "Consumption change needs patience. Compare post-installation use against the baseline under similar weather, because a single mild month will flatter any programme. Then set the review rhythm: monthly for reconciliation and billing, quarterly for service performance and consumption, annually for vendor performance against the contract."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "718d62ea98f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f91c92b4889c",
+          "_type": "span",
+          "marks": [],
+          "text": "Any KPI outside target for two consecutive months goes to a named owner with a fix date, not onto a slide."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "0ec60de4fdcb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed2c5cda8393",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5864b102a9cb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f8ba54235380",
+          "_type": "span",
+          "marks": [],
+          "text": "Protecting Residents From Billing Errors and Arrears"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "429299711c39",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4c5ad77c0fa3",
+          "_type": "span",
+          "marks": [],
+          "text": "An accurate meter can still lead to an unfair bill if an estimate is presented as a confirmed reading, a dispute has no clear route, or arrears notices omit repayment options. Protecting residents depends on the process around the data as much as the measurement itself."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19adb7e40211",
+      "_type": "externalImage",
+      "alt": "A woman looks at her electricity bill on her smartphone while standing next to a smart meter.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/071cf89a-cc0d-45d6-ab57-fc8c64d96ef5/electricity-monitoring-system-smart-meter.jpg"
+    },
+    {
+      "_key": "df0bf3336d27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5224f5afa564",
+          "_type": "span",
+          "marks": [],
+          "text": "Label estimated reads plainly on the invoice and explain why an estimate was used. When actual data becomes available, adjust the account and show the correction as a separate line. That lets residents distinguish an estimate from a measured consumption figure and follow how the balance changed."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "300491936390",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ac1c2a6e73eb",
+          "_type": "span",
+          "marks": [],
+          "text": "Set up the dispute route before the first billing cycle. Define how residents submit complaints, how quickly the team responds, and how staff check interval data against the audit trail. Test the process with a sample case: an estimated bill is labelled, the resident submits a written dispute, staff review the data, and any error results in a corrected invoice. If a balance remains unpaid, apply the relevant notice and repayment process before considering any service limitation."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "365407de679f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9ea9ed87a2e6",
+          "_type": "span",
+          "marks": [],
+          "text": "Ontario's Unit Sub-Metering Code amendments, effective "
+        },
+        {
+          "_key": "e3d9a18df060",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "August 18, 2025"
+        },
+        {
+          "_key": "7cdd05be78d1",
+          "_type": "span",
+          "marks": [],
+          "text": ", require stronger disclosure of consumer-protection policies, including "
+        },
+        {
+          "_key": "b1b55bc5b48d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "arrears-payment agreements, winter disconnection and reconnection policies, and reconnection charges"
+        },
+        {
+          "_key": "e224e90557f6",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to the "
+        },
+        {
+          "_key": "21bf29e211dd",
+          "_type": "span",
+          "marks": [
+            "5ad6caeef072"
+          ],
+          "text": "Ontario Gazette government notices"
+        },
+        {
+          "_key": "9f7aa5e68698",
+          "_type": "span",
+          "marks": [],
+          "text": ". Billing based on suite-meter consumption must also comply with the Energy Consumer Protection Act, Ontario Energy Board requirements, and applicable codes. Put these policies in resident-facing documents, where residents can find them, rather than leaving them only in a management contract."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "5ad6caeef072",
+          "_type": "link",
+          "href": "https://www.ontario.ca/document/ontario-gazette-volume-158-issue-13-march-29-2025/government-notices-other"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "43f101162670",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8c4f8cc6accf",
+          "_type": "span",
+          "marks": [],
+          "text": "The Ontario requirements apply in Ontario. Elsewhere, confirm local rules before drafting resident documents. Disconnection and repayment conditions vary by jurisdiction, so a template from another market can create compliance risk."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "34317965cb4e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e4eda8305c7",
+          "_type": "span",
+          "marks": [],
+          "text": "A monitoring system earns trust through a defensible exception and dispute process, not through dashboard refresh speed alone."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "73b277a0ff1b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "bc6816f8a125",
+          "_type": "span",
+          "marks": [],
+          "text": "For practical guidance on invoice structure and tenant charges, see "
+        },
+        {
+          "_key": "56af3e18f722",
+          "_type": "span",
+          "marks": [
+            "465a247ff5a9"
+          ],
+          "text": "how to bill tenants for utilities"
+        },
+        {
+          "_key": "10d3809eb39e",
+          "_type": "span",
+          "marks": [],
+          "text": ". Align the dispute and adjustment workflow with the billing process before the first cycle."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "465a247ff5a9",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-bill-tenants-for-utilities"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "3fbb64db8705",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6dad301e703",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions provides electricity submetering as a full-service program, including design coordination, approved metering equipment where required, commissioning, tenant billing, and ongoing service. In Ontario, it is licensed as a unit sub-meter provider under licence ES-2022-0268. Typical projects move from agreement to live meters in "
+        },
+        {
+          "_key": "cb41fa4a2924",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8 to 10 weeks"
+        },
+        {
+          "_key": "473982acaed4",
+          "_type": "span",
+          "marks": [],
+          "text": ", including equipment lead time, with "
+        },
+        {
+          "_key": "79e61adfdf22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "no upfront capital cost"
+        },
+        {
+          "_key": "fc19a363a219",
+          "_type": "span",
+          "marks": [],
+          "text": " to the owner. Review the building's metering needs with "
+        },
+        {
+          "_key": "bc74e7dc7cb2",
+          "_type": "span",
+          "marks": [
+            "ca204c62cd60"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "70d48755ced7",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "ca204c62cd60",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "Learn how to select, deploy and commission an electricity monitoring system in multifamily and mixed-use buildings, with KPIs and vendor criteria.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/26d9c60f-04d3-4d3e-8d4c-70daf97d72de/electricity-monitoring-system-apartment-meter.jpg",
+  "noIndex": false,
+  "outrankId": "41751228-56e5-4893-9c00-96aac08ef11e",
+  "publishedAt": "2026-11-11T09:28:28.745815+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "electricity-monitoring-system"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>A tenant emails a photo of her January bill and asks why it&#39;s nearly double December&#39;s. You open the consumption report, find three days of missing intervals, and realise the invoice went out anyway. Nothing is wrong with the meter. The process wrapped around it failed.</p>\n<p>That gap is what separates an <strong>electricity monitoring system</strong> that a building can defend from a set of meters that merely produce numbers. The chain runs from current transformers through the meter, the communications path, the headless data store, the monthly reconciliation, the invoice, the dispute desk and the arrears policy. Break any link and the data stops being trustworthy at precisely the moment someone depends on it, usually a resident holding a bill they don&#39;t believe.</p>\n<p>The sections below are the decisions I&#39;d make in order: what to meter, who to buy from, how to commission it, how to move data into billing, which numbers prove the system is working, and how to protect residents when a reading is estimated or a payment is late. Most of the failures show up in the last two.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#match-the-monitoring-level-to-your-building-type\">Match the Monitoring Level to Your Building Type</a></li>\n<li><a href=\"#select-and-verify-a-vendor-before-you-sign\">Select and Verify a Vendor Before You Sign</a><ul>\n<li><a href=\"#accuracy-means-field-accuracy\">Accuracy means field accuracy</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-deploy-and-commission-the-metering-system\">How to Deploy and Commission the Metering System</a><ul>\n<li><a href=\"#the-sequence-that-survives-an-audit\">The sequence that survives an audit</a></li>\n</ul>\n</li>\n<li><a href=\"#connecting-meter-data-to-billing-and-operations\">Connecting Meter Data to Billing and Operations</a></li>\n<li><a href=\"#kpis-that-show-the-system-is-working\">KPIs That Show the System Is Working</a></li>\n<li><a href=\"#protecting-residents-from-billing-errors-and-arrears\">Protecting Residents From Billing Errors and Arrears</a></li>\n</ul>\n<p><a id=\"match-the-monitoring-level-to-your-building-type\"></a></p>\n<h2>Match the Monitoring Level to Your Building Type</h2>\n<p>Ask three questions of every electrical load in the building before anyone quotes you hardware.</p>\n<p><strong>Billing.</strong> Which circuits must appear on a named resident&#39;s invoice? <strong>Allocation.</strong> Which ones get split between tenant classes or recovered as a shared cost? <strong>Diagnostics.</strong> Which ones only need to be understood when something misbehaves?</p>\n<p>Pick the lowest monitoring level that answers all three. Everything above that line is capacity you&#39;ll maintain and nobody will open.</p>\n<p>Take a 30-unit walk-up with a single common-area meter. Unit submeters plus that one common meter cover billing and shared-cost recovery completely. Putting floor-level interval data into the same building adds a communications design to a riser that never needed one, and buys analytics nobody on staff has time to read. Condominiums and strata run the opposite risk: unit submeters are only an option where the bylaws permit them, so where they don&#39;t, a building master meter divided by an agreed formula is the honest answer, and extra hardware doesn&#39;t change the legal position. Mixed-use buildings need separate meters for residential, commercial and shared loads, because a retail tenant billed on a demand profile shouldn&#39;t inherit corridor lighting, and residents shouldn&#39;t inherit a kitchen exhaust fan.</p>\n<p>Larger rental towers change the economics. Buildings of <strong>50 units or more</strong> earn their keep from <strong>15 to 60 minute interval data by floor</strong>, the resolution at which a short-cycling rooftop unit or a drifting corridor load becomes visible. EV chargers and amenity loads each want a dedicated circuit meter at 15-minute intervals for load management and clean cost recovery. Student and affordable housing portfolios get more from a resident portal and usage alerts layered on monthly reads than from faster intervals, because a predictable bill prevents more disputes than a better chart resolves.</p>\n<p>The utility side already operates at that granularity. <a href=\"https://natural-resources.canada.ca/sites/nrcan/files/canmetenergy/pdf/Smart-Grid-in-Canada-2020-2021.pdf\">Natural Resources Canada&#39;s smart grid report</a> counted approximately <strong>13.3 million smart meters</strong> deployed nationally, an increase of <strong>1.2 million</strong> from 2018, and those devices record interval usage and transmit readings remotely rather than waiting for a reader to walk the route. Tenants live with that precision at the utility, so a building still reconciling quarterly estimates sits behind the standard the people paying the bills already expect.</p>\n<p>The table is what I&#39;d hand a property manager in week one, before any vendor gets airtime.</p>\n<table>\n<thead>\n<tr>\n<th>Building type</th>\n<th>Recommended metering</th>\n<th>Data interval</th>\n<th>Main purpose</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Low-rise multifamily (under 50 units)</td>\n<td>Unit-level electricity submeters and a common-area meter</td>\n<td>Monthly reads, optional hourly</td>\n<td>Tenant billing and cost recovery</td>\n</tr>\n<tr>\n<td>High-rise rental (50+ units)</td>\n<td>Unit submeters on a shared network, plus common-area and amenity meters</td>\n<td>15 to 60 minutes</td>\n<td>Billing and load analysis by floor</td>\n</tr>\n<tr>\n<td>Condominium or strata</td>\n<td>Unit submeters where bylaws allow, with a building master meter</td>\n<td>Monthly for units, hourly for common areas</td>\n<td>Allocation of shared costs and reserve planning</td>\n</tr>\n<tr>\n<td>Mixed-use (residential above retail)</td>\n<td>Separate meters for residential, commercial and shared loads</td>\n<td>15 minutes</td>\n<td>Allocation between tenant classes and diagnostics</td>\n</tr>\n<tr>\n<td>Student or affordable housing</td>\n<td>Unit or room-level submeters with a resident portal</td>\n<td>Monthly reads plus usage alerts</td>\n<td>Predictable bills and fewer disputes</td>\n</tr>\n<tr>\n<td>EV charging or amenity loads</td>\n<td>Dedicated circuit meter on each load</td>\n<td>15 minutes</td>\n<td>Load management and separate cost recovery</td>\n</tr>\n</tbody></table>\n<p>Whatever row you land on, design the data path once. The same registers and intervals feed the dashboard, the invoice and the <a href=\"https://www.axismeter.com/blog/building-management-system\">building management system</a>; a project that buys those as three separate things ends up with duplicated meters and three versions of the truth. And when intervals vanish, the fault usually sits in the integration layer rather than the meter, which is the same trace-the-request discipline set out in this guide to <a href=\"https://continuumsolutions.com.au/enterprise-application-monitoring-and-debugging/\">enterprise application monitoring and debugging</a>.</p>\n<p><a id=\"select-and-verify-a-vendor-before-you-sign\"></a></p>\n<h2>Select and Verify a Vendor Before You Sign</h2>\n<p>A portal demo can look polished while leaving a practical question unanswered: what happens when a meter stops reporting just before billing closes? Select a vendor for how it handles exceptions and disputes, not just how its dashboard looks.</p>\n<p>Score each shortlisted vendor from 1 to 5 on the seven criteria below. If the vendor cannot provide evidence for a criterion, score it zero. Compare three vendors, and agree on what evidence will count as acceptance before signing a portfolio agreement.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/a3175788-700f-409e-aa56-620521ceb478/electricity-monitoring-system-vendor-checklist.jpg\" alt=\"A vendor selection checklist for evaluating electricity monitoring system providers with seven key assessment criteria.\"></p>\n<p><a id=\"accuracy-means-field-accuracy\"></a></p>\n<h3>Accuracy means field accuracy</h3>\n<p>Ask what accuracy the installed system can maintain in the field, not only the meter&#39;s nominal resolution. <a href=\"https://docs.cpuc.ca.gov/PublishedDocs/Efile/G000/M489/K140/489140936.PDF\">California Public Utilities Commission materials on submetering</a> report that available third-party submetering equipment can reach approximately <strong>1% laboratory accuracy and 2% field accuracy</strong>. That leaves roughly <strong>2% measurement uncertainty</strong> before wiring, transformer-ratio, installation or data-processing errors are considered. Resolution describes the smallest increment a meter can display; it does not establish the accuracy of the billed reading.</p>\n<table>\n<thead>\n<tr>\n<th>Criterion</th>\n<th>What to ask the vendor</th>\n<th>Red flag</th>\n<th>Evidence to request</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Accuracy</td>\n<td>What field accuracy applies, beyond laboratory accuracy?</td>\n<td>The quote lists only meter resolution</td>\n<td>Stated field tolerance and test report</td>\n</tr>\n<tr>\n<td>Data access</td>\n<td>Can interval data be exported in an open format?</td>\n<td>Data is available only in a vendor portal</td>\n<td>Sample interval export for one unit</td>\n</tr>\n<tr>\n<td>Communications</td>\n<td>How will the network reach basements and garages?</td>\n<td>No coverage check is included</td>\n<td>Site coverage survey before installation</td>\n</tr>\n<tr>\n<td>Billing support</td>\n<td>How are estimates and corrections documented?</td>\n<td>No record of changes or audit trail</td>\n<td>Sample invoice and correction log</td>\n</tr>\n<tr>\n<td>Service levels</td>\n<td>What response times apply to faults and battery replacement?</td>\n<td>Repair times are not defined</td>\n<td>Written service levels in the contract</td>\n</tr>\n<tr>\n<td>Licensing and insurance</td>\n<td>What licences and insurance cover the work?</td>\n<td>The licence cannot be checked</td>\n<td>Licence number and certificate of insurance</td>\n</tr>\n<tr>\n<td>Contract terms</td>\n<td>What are the capital cost, term and exit conditions?</td>\n<td>Fees or buyout terms are unclear</td>\n<td>Full fee schedule and buyout terms</td>\n</tr>\n</tbody></table>\n<p>Check a sample interval export for timestamps, units and a billing-period identifier. The export should be usable outside the vendor&#39;s portal; otherwise, owners may have difficulty reviewing billing history or transferring records when a contract ends.</p>\n<p>Put communications coverage, service response times and billing corrections in the written scope. Missing readings need a documented treatment before invoices are issued, and a correction should leave a trace that residents and property staff can review. Ask the vendor to explain how an exception is identified, investigated and resolved.</p>\n<p>A defensible scope should state who coordinates system design, supplies approved metering equipment where required, commissions the system, takes reads and supports billing. Axis Meter Solutions is licensed by the Ontario Energy Board as a unit sub-meter provider for electricity unit sub-metering services in Ontario under licence ES-2022-0268. During consultation, Axis recommends electricity metering, water metering or both for the building. Require any vendor&#39;s recommendation to match the building&#39;s needs, with its reasoning set out in writing.</p>\n<blockquote>\n<p><strong>Signing gate:</strong> Do not issue tenant invoices until the property manager and vendor have signed the acceptance sheet and attached the variance test.</p>\n</blockquote>\n<p>Settle ownership of interval data at contract end, the full fee schedule and the buyout terms before signing. Contract protections count when they are written down, not when they are described in a sales call. For general questions to consider when choosing a service provider, see <a href=\"https://www.f1group.com/2026/03/21/managed-it-services-firm/\">business IT partner advice from F1Group</a>. Before the purchase order, check the equipment model against the <a href=\"https://www.axismeter.com/blog/measurement-canada-approved-meters\">Measurement Canada approved meters list</a>.</p>\n<p><a id=\"how-to-deploy-and-commission-the-metering-system\"></a></p>\n<h2>How to Deploy and Commission the Metering System</h2>\n<p>Commissioning is where good hardware turns into defensible billing data, and it&#39;s the stage vendors compress hardest when an installation runs behind. Push back. A meter that&#39;s mounted but not verified is a liability with a serial number.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d09c2734-29d7-4cf5-be06-f96b656f96bd/electricity-monitoring-system-process-guide.jpg\" alt=\"A six-step infographic illustrating the professional process of deploying and commissioning an utility electricity monitoring system.\"></p>\n<p><a id=\"the-sequence-that-survives-an-audit\"></a></p>\n<h3>The sequence that survives an audit</h3>\n<p><strong>1. Inventory every meter against the floor plan.</strong> List each utility meter, unit, common area and shared load, and reconcile the list to the building footprint. A missed meter becomes an unallocated cost that the owner absorbs for years. The usual slip is a spare meter or a shared-load meter nobody claimed.</p>\n<p><strong>2. Confirm the equipment against the design.</strong> Check model numbers, CT or PT ratios and the wiring diagram before anything is mounted, because a ratio error skews every reading that follows for the life of the installation. The slip is copying ratios from the last building because the panel looked similar.</p>\n<p><strong>3. Install at accessible heights and label everything.</strong> Every meter gets its number and service address on a durable label, readable without a ladder or a torch. A unit mislabelled with the wrong address is worse than no label, because the error flows straight into a resident&#39;s invoice.</p>\n<p><strong>4. Verify phase association and CT polarity.</strong> Reversed polarity is the most common field failure, and it produces plausible-looking data that overstates or understates consumption depending on load balance. Confirm orientation with a load test rather than trusting the arrow printed on the CT.</p>\n<p><strong>5. Synchronise clocks to a common time source.</strong> Then confirm interval counts, units and billing-window alignment against the specification. Devices on different time sources misalign billing windows, which shows up later as a demand peak that never happened.</p>\n<p><strong>6. Compare submeter totals with the parent meter.</strong> Record the comparison during a stable load and again at peak, and investigate any interval where the sum of submeters exceeds the parent. Comparing only at low load hides ratio and polarity errors that appear under real demand.</p>\n<p><strong>7. Set acceptance thresholds below the stated field tolerance.</strong> An escalation level set above the tolerance lets a failing meter pass acceptance, and you&#39;ll spend the next year explaining variances. Keep pre- and post-commissioning test records with the serial numbers attached.</p>\n<p><strong>8. Sign off before billing starts.</strong> The property manager and the vendor both countersign a sheet listing every meter, its assigned unit, its interval count and its variance result. That single page is the difference between a billing dispute you can answer in an hour and one you argue about for a quarter.</p>\n<blockquote>\n<p><strong>Practical rule:</strong> if a meter&#39;s variance sits inside tolerance but its label, address or assignment is wrong, the meter is still failing.</p>\n</blockquote>\n<p>Two administrative habits save trouble later. Photograph every installed meter with its label and CT orientation, and file the images against the meter register. Then hand the property manager a one-page map of what was installed, because the person answering a resident&#39;s question in eighteen months won&#39;t be the person who stood in the electrical room.</p>\n<p><a id=\"connecting-meter-data-to-billing-and-operations\"></a></p>\n<h2>Connecting Meter Data to Billing and Operations</h2>\n<p>Trace the path before you trust it: meter, collector or concentrator, head-end system, data store, then billing and reporting tools. Each junction has a characteristic failure. A collector stops reporting and the gap fills with a repeat of the previous day. A head-end export drops a column and the upload imports zeroes. A billing tool applies the wrong rate period because the interval timestamps shifted an hour.</p>\n<p>The monthly routine that catches all three is unglamorous. Check every meter for missing intervals, duplicated records and abnormal demand peaks. Sum the submeters and compare the total against the utility statement for the same period. Log every correction with its reason, date and approver, so the audit trail shows a decision rather than a mystery.</p>\n<blockquote>\n<p>Monitoring data should not drive tenant allocation, savings claims or operating decisions until that month&#39;s completeness check has passed.</p>\n</blockquote>\n<p>Completeness is an owner obligation, not a vendor promise. The <a href=\"https://www.energy.ca.gov/programs-and-topics/programs/building-energy-benchmarking-program/building-energy-benchmarking\">California Energy Commission&#39;s building energy benchmarking program</a> warns that benchmarking submissions may omit meters associated with the building, notes that utility data can be requested or uploaded into ENERGY STAR Portfolio Manager, and sets reporting for covered commercial and multifamily properties generally due by June 1 for the prior calendar year. State reporting aggregates whole-building use, and no automatic mechanism confirms every associated meter was included. If the completeness check runs only when a report is due, the omission surfaces after the deadline.</p>\n<p>Billing runs should freeze on a rule, not on a date. Run the reconciliation first, then freeze the cycle, then hold any unit that fails until its exception clears. Holding one invoice for two days costs less than issuing a correction credit and rebuilding a resident&#39;s trust.</p>\n<p>Mixed-use buildings need separate billing groups for residential, commercial and shared loads so one class never inherits another&#39;s errors. Connect the system to property accounting and to the maintenance ticketing queue as well, because a fault or leak alert that only appears on a dashboard nobody watches becomes a work order three weeks late.</p>\n<p><a id=\"kpis-that-show-the-system-is-working\"></a></p>\n<h2>KPIs That Show the System Is Working</h2>\n<p>Record consumption and the estimated-read rate for the <strong>12 months before go-live</strong>. Without that baseline, every number afterwards is an opinion. Then track a short list, calculate each one from data you already hold, and give each a named owner.</p>\n<table>\n<thead>\n<tr>\n<th>KPI</th>\n<th>How to calculate</th>\n<th>Target range</th>\n<th>Review cadence</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Data completeness</td>\n<td>Valid intervals divided by expected intervals</td>\n<td>98% or higher</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Submeter-to-parent variance</td>\n<td>(Sum of submeters minus parent meter) divided by parent meter</td>\n<td>Within the stated field tolerance</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Estimated-read share</td>\n<td>Estimated bills divided by total bills</td>\n<td>Falling each quarter</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Billing dispute rate</td>\n<td>Disputed bills divided by total bills</td>\n<td>Falling each quarter</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Fault response time</td>\n<td>Hours from alert to technician visit</td>\n<td>As set in the service agreement</td>\n<td>Quarterly</td>\n</tr>\n<tr>\n<td>Consumption change after go-live</td>\n<td>Post-installation use compared with baseline, adjusted for weather</td>\n<td>Down against baseline in comparable weather</td>\n<td>Quarterly</td>\n</tr>\n<tr>\n<td>Cost recovery rate</td>\n<td>Billed submetered cost divided by utility cost</td>\n<td>100% of metered cost recovered</td>\n<td>Monthly</td>\n</tr>\n</tbody></table>\n<p>Data completeness is the first number to watch because everything else inherits its failures. A meter at 89% completeness still bills, just with estimates filling the gaps, and the resident pays for a guess dressed as a reading. Submeter-to-parent variance tells you whether the equipment is still inside tolerance or has drifted since commissioning, which is a hardware question rather than a billing one. Estimated-read share and dispute rate are the two resident-facing measures, and they move together: a rising estimate share almost always drags disputes up a month or two later.</p>\n<p>Cost recovery deserves a plain calculation. Compare billed submetered cost against the utility cost for the same period. If the programme recovers less than the utility charges, the shortfall lands on the owner&#39;s operating statement, and it usually traces to unallocated common loads rather than to rates.</p>\n<p>Fault response time is the measure that exposes a service agreement in practice. Compare the hours from alert to technician visit against what the contract promised, and review it quarterly with the vendor rather than annually in a renewal meeting.</p>\n<p>Consumption change needs patience. Compare post-installation use against the baseline under similar weather, because a single mild month will flatter any programme. Then set the review rhythm: monthly for reconciliation and billing, quarterly for service performance and consumption, annually for vendor performance against the contract.</p>\n<blockquote>\n<p>Any KPI outside target for two consecutive months goes to a named owner with a fix date, not onto a slide.</p>\n</blockquote>\n<p><a id=\"protecting-residents-from-billing-errors-and-arrears\"></a></p>\n<h2>Protecting Residents From Billing Errors and Arrears</h2>\n<p>An accurate meter can still lead to an unfair bill if an estimate is presented as a confirmed reading, a dispute has no clear route, or arrears notices omit repayment options. Protecting residents depends on the process around the data as much as the measurement itself.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/071cf89a-cc0d-45d6-ab57-fc8c64d96ef5/electricity-monitoring-system-smart-meter.jpg\" alt=\"A woman looks at her electricity bill on her smartphone while standing next to a smart meter.\"></p>\n<p>Label estimated reads plainly on the invoice and explain why an estimate was used. When actual data becomes available, adjust the account and show the correction as a separate line. That lets residents distinguish an estimate from a measured consumption figure and follow how the balance changed.</p>\n<p>Set up the dispute route before the first billing cycle. Define how residents submit complaints, how quickly the team responds, and how staff check interval data against the audit trail. Test the process with a sample case: an estimated bill is labelled, the resident submits a written dispute, staff review the data, and any error results in a corrected invoice. If a balance remains unpaid, apply the relevant notice and repayment process before considering any service limitation.</p>\n<p>Ontario&#39;s Unit Sub-Metering Code amendments, effective <strong>August 18, 2025</strong>, require stronger disclosure of consumer-protection policies, including <strong>arrears-payment agreements, winter disconnection and reconnection policies, and reconnection charges</strong>, according to the <a href=\"https://www.ontario.ca/document/ontario-gazette-volume-158-issue-13-march-29-2025/government-notices-other\">Ontario Gazette government notices</a>. Billing based on suite-meter consumption must also comply with the Energy Consumer Protection Act, Ontario Energy Board requirements, and applicable codes. Put these policies in resident-facing documents, where residents can find them, rather than leaving them only in a management contract.</p>\n<p>The Ontario requirements apply in Ontario. Elsewhere, confirm local rules before drafting resident documents. Disconnection and repayment conditions vary by jurisdiction, so a template from another market can create compliance risk.</p>\n<blockquote>\n<p>A monitoring system earns trust through a defensible exception and dispute process, not through dashboard refresh speed alone.</p>\n</blockquote>\n<p>For practical guidance on invoice structure and tenant charges, see <a href=\"https://www.axismeter.com/blog/how-to-bill-tenants-for-utilities\">how to bill tenants for utilities</a>. Align the dispute and adjustment workflow with the billing process before the first cycle.</p>\n<p>Axis Meter Solutions provides electricity submetering as a full-service program, including design coordination, approved metering equipment where required, commissioning, tenant billing, and ongoing service. In Ontario, it is licensed as a unit sub-meter provider under licence ES-2022-0268. Typical projects move from agreement to live meters in <strong>8 to 10 weeks</strong>, including equipment lead time, with <strong>no upfront capital cost</strong> to the owner. Review the building&#39;s metering needs with <a href=\"https://axismeter.com\">Axis Meter Solutions</a>.</p>",
+  "tags": [
+    "electricity monitoring system",
+    "submetering",
+    "multifamily metering",
+    "smart meter commissioning",
+    "utility KPIs"
+  ],
+  "title": "Electricity Monitoring System Guide for Multifamily Owners",
+  "updatedAt": "2026-11-11T09:28:32.757Z"
+}
