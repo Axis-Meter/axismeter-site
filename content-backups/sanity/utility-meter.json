@@ -1,0 +1,2876 @@
+{
+  "_createdAt": "2026-11-15T09:30:05Z",
+  "_id": "outrank-8f3eb7a6-a5c9-47e7-acc0-e2c84e358031",
+  "_rev": "hlahQPTMTkKNuourWU08HG",
+  "_type": "blogPost",
+  "_updatedAt": "2026-11-15T09:30:05Z",
+  "author": "Axis Meter Solutions",
+  "body": [
+    {
+      "_key": "14b47e8c4ddc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "42d1162ac36f",
+          "_type": "span",
+          "marks": [],
+          "text": "Your building's master meter reads 10,000 kilowatt-hours for the month. Add up the twelve suite submeters and you get 8,000. Nobody stole the missing 2,000, and no meter is necessarily broken. The two numbers are measuring different things at different points on the same system, and until you know which device sits where, the gap looks like either a mystery or a fraud."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0b8393922952",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4ff8dd402945",
+          "_type": "span",
+          "marks": [],
+          "text": "That gap is where most confusion about utility metering begins. Owners assume meters are interchangeable counters. Tenants assume a meter is a billing weapon. Neither is quite right. A meter is a recording device, and what it records depends entirely on where it's installed and what flows through it."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a893e8aed33e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87593c527064",
+          "_type": "span",
+          "marks": [],
+          "text": "Table of Contents"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "cc8ffe6d5dab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "11a52f9ff8af",
+          "_type": "span",
+          "marks": [
+            "03cee37e977f"
+          ],
+          "text": "What a Utility Meter Is and What It Measures"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "03cee37e977f",
+          "_type": "link",
+          "href": "#what-a-utility-meter-is-and-what-it-measures"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "22bc759faea1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e88cab2fe9b2",
+          "_type": "span",
+          "marks": [
+            "82695f362748"
+          ],
+          "text": "Start with the unit, not the number"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "82695f362748",
+          "_type": "link",
+          "href": "#start-with-the-unit-not-the-number"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ac6bab697bf4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a30c29df4096",
+          "_type": "span",
+          "marks": [
+            "e4ac8dc5b30e"
+          ],
+          "text": "How Each Utility Meter Measures Consumption"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "e4ac8dc5b30e",
+          "_type": "link",
+          "href": "#how-each-utility-meter-measures-consumption"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "1923599e7bf2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1cb59bb221f1",
+          "_type": "span",
+          "marks": [
+            "bd8d43c81c8a"
+          ],
+          "text": "Electricity adds up power over time"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "bd8d43c81c8a",
+          "_type": "link",
+          "href": "#electricity-adds-up-power-over-time"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "236103c24a77",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ed213a728400",
+          "_type": "span",
+          "marks": [
+            "dac13436143c"
+          ],
+          "text": "Gas counts volumes, not weight"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "dac13436143c",
+          "_type": "link",
+          "href": "#gas-counts-volumes-not-weight"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d312400214aa",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "51d1d1378ec7",
+          "_type": "span",
+          "marks": [
+            "d02bb4618ac3"
+          ],
+          "text": "Water turns flow into a number"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "d02bb4618ac3",
+          "_type": "link",
+          "href": "#water-turns-flow-into-a-number"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "db95ce96b56b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "671f741f6d8f",
+          "_type": "span",
+          "marks": [
+            "4feb8f26ebcb"
+          ],
+          "text": "Heat needs two temperatures"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "4feb8f26ebcb",
+          "_type": "link",
+          "href": "#heat-needs-two-temperatures"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "801004129704",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d14a0c00d947",
+          "_type": "span",
+          "marks": [
+            "349b3cce7b70"
+          ],
+          "text": "Building Meters Versus Unit Submeters"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "349b3cce7b70",
+          "_type": "link",
+          "href": "#building-meters-versus-unit-submeters"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "b9c1d9fb367d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17f9ace529f0",
+          "_type": "span",
+          "marks": [
+            "cf022c5712ed"
+          ],
+          "text": "How Submeter Readings Turn Into Tenant Bills"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "cf022c5712ed",
+          "_type": "link",
+          "href": "#how-submeter-readings-turn-into-tenant-bills"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "bf7b10bed2d2",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "858c4ea767c6",
+          "_type": "span",
+          "marks": [
+            "3da0b11021fb"
+          ],
+          "text": "Accuracy, Estimates and Common Misconceptions"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "3da0b11021fb",
+          "_type": "link",
+          "href": "#accuracy-estimates-and-common-misconceptions"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d37463efb2e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "10b6f94c1c8f",
+          "_type": "span",
+          "marks": [
+            "384211c3e6c8"
+          ],
+          "text": "Five things people get wrong"
+        }
+      ],
+      "level": 2,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "384211c3e6c8",
+          "_type": "link",
+          "href": "#five-things-people-get-wrong"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "35c434c02315",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "733afaa6429b",
+          "_type": "span",
+          "marks": [
+            "8af64768b8e4"
+          ],
+          "text": "How to Read a Meter and Spot a Problem"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "8af64768b8e4",
+          "_type": "link",
+          "href": "#how-to-read-a-meter-and-spot-a-problem"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "7c77d004a58c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1e677b9ffef6",
+          "_type": "span",
+          "marks": [
+            "eec615f74deb"
+          ],
+          "text": "Decide Whether Submetering Fits Your Building"
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [
+        {
+          "_key": "eec615f74deb",
+          "_type": "link",
+          "href": "#decide-whether-submetering-fits-your-building"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "93d843d60d88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b7003f0e7961",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2a3c647896ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2f2f7b86eccd",
+          "_type": "span",
+          "marks": [],
+          "text": "What a Utility Meter Is and What It Measures"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "a773be7d36f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aec788bfb8ee",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "485c894af499",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "utility meter"
+        },
+        {
+          "_key": "ec92b701ae42",
+          "_type": "span",
+          "marks": [],
+          "text": " is a device that records how much of a service has passed through it. It doesn't reset when the billing period ends. It counts up, hour after hour, and the figure on the face is a running total from the day it was commissioned."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "166d54544787",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e3ebb1dd11a6",
+          "_type": "span",
+          "marks": [],
+          "text": "The comparison that makes this click is the odometer in a car. You don't reset it every Monday. You note the number when you leave and the number when you arrive, and the trip distance is the subtraction. Meters work identically, which is why a bill that shows only a total and never the two readings is telling you half the story."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "991714551b30",
+      "_type": "externalImage",
+      "alt": "A diagram illustrating what a utility meter is and the types of services it measures including electricity, natural gas, and water.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3d3d169b-e40e-46fa-9ff3-764e3d0dc865/utility-meter-diagram.jpg"
+    },
+    {
+      "_key": "297e55673c44",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fd75e78e5818",
+          "_type": "span",
+          "marks": [],
+          "text": "The analogy holds for a second reason. An odometer measures distance whether you crawled through traffic or drove on a highway. A meter measures quantity whether the usage was spread evenly across the month or crammed into one cold week. That's why a bill can jump in a month when nothing changed at home: the register counts everything, including standby loads, a dripping valve and a fridge that runs harder in summer."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cb0847605552",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "893406594800",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3effee7c7e8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a342a046243e",
+          "_type": "span",
+          "marks": [],
+          "text": "Start with the unit, not the number"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "5f3a169ec877",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c5e4c1b48161",
+          "_type": "span",
+          "marks": [],
+          "text": "Every register carries a unit, and that unit is what shows up on the invoice. Match yours to a row below before you do any arithmetic."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f2cd33c6224b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aa18c0af39be",
+          "_type": "span",
+          "marks": [],
+          "text": "Meter type"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e5484618e5ab",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ae94f9d8ac5a",
+          "_type": "span",
+          "marks": [],
+          "text": "What it measures"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e68f46d3b587",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fb630cfb0eee",
+          "_type": "span",
+          "marks": [],
+          "text": "Common unit"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a082da11506e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5e998192c67f",
+          "_type": "span",
+          "marks": [],
+          "text": "Register reading"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c3da1009df7e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22e4f19af99b",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2e1d78b719ee",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ffe6399b16d",
+          "_type": "span",
+          "marks": [],
+          "text": "Energy drawn through the supply"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d0e1e1fca67",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b2e014d7cec9",
+          "_type": "span",
+          "marks": [],
+          "text": "kilowatt-hour (kWh)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5f2b2ef77328",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c969af56b778",
+          "_type": "span",
+          "marks": [],
+          "text": "Digital or dial display in kWh"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3598b6ac6744",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6f2f23d2a244",
+          "_type": "span",
+          "marks": [],
+          "text": "Water"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7290b042a243",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ba023b865577",
+          "_type": "span",
+          "marks": [],
+          "text": "Volume of water passing through the pipe"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63646e896ffb",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e60e7bcc1d73",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic metre (m³) or US gallon"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bebbb8b7624e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a717066c14ff",
+          "_type": "span",
+          "marks": [],
+          "text": "Cumulative odometer-style register"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c1c96a1990ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3c2aa405673",
+          "_type": "span",
+          "marks": [],
+          "text": "Natural gas"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "72346805b219",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "71ebac526d90",
+          "_type": "span",
+          "marks": [],
+          "text": "Volume of gas delivered"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "16c150a0b380",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8136abd556b0",
+          "_type": "span",
+          "marks": [],
+          "text": "Cubic metre (m³), cubic foot (ft³) or therm"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7345f3831c36",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5b2f230f989e",
+          "_type": "span",
+          "marks": [],
+          "text": "Cumulative register, sometimes corrected for temperature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "13d78b9d4903",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c7b9607e0431",
+          "_type": "span",
+          "marks": [],
+          "text": "Thermal (heating or cooling)"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1d335b14baa0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "154094a21d1e",
+          "_type": "span",
+          "marks": [],
+          "text": "Heat carried by the circulating water or glycol"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6fd295624228",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dec52f0d2990",
+          "_type": "span",
+          "marks": [],
+          "text": "kWh, gigajoule (GJ) or BTU"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "98b8f148e3f0",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dc3a2bdb9ef4",
+          "_type": "span",
+          "marks": [],
+          "text": "Cumulative energy register"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d7f46f2b3596",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dfcba2ef325a",
+          "_type": "span",
+          "marks": [],
+          "text": "Two unit traps catch people constantly. A "
+        },
+        {
+          "_key": "f59a4b86196f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "therm"
+        },
+        {
+          "_key": "9e450d1c6d5c",
+          "_type": "span",
+          "marks": [],
+          "text": " and a "
+        },
+        {
+          "_key": "6875b7faeda1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "cubic foot"
+        },
+        {
+          "_key": "5f4b7084dda9",
+          "_type": "span",
+          "marks": [],
+          "text": " of gas are not the same quantity, and a bill quoted in cubic metres can't be compared line for line with one quoted in hundreds of cubic feet (ccf). Check the unit on the register against the unit on the invoice. If they differ, something was converted between the meter and the bill, and that conversion is worth understanding before you dispute a total."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "493c3ec1149e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7cd69367b615",
+          "_type": "span",
+          "marks": [],
+          "text": "Without a meter, a bill can only be an estimate built from floor area, occupancy, or a flat share of a building total. That isn't dishonesty. It's the absence of measurement."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5bc442fb598b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f5c11d02e72f",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Try this on your own bill:"
+        },
+        {
+          "_key": "ecff4e0a60e5",
+          "_type": "span",
+          "marks": [],
+          "text": " find the unit, find the billing period, find the previous reading. If any of the three is missing, ask for it in writing before you accept the total."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "fde615972227",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9beb6dffa6eb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3a6b94d426b3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "797baede2a9a",
+          "_type": "span",
+          "marks": [],
+          "text": "How Each Utility Meter Measures Consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "93fd2d3f91bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c351bc7e5b3d",
+          "_type": "span",
+          "marks": [],
+          "text": "How a meter counts depends on what's flowing through it. The mechanical details differ, but every design ends at the same place: a register that increments in the unit you're billed for."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b17eed68cd98",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "da99ad27a88f",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "1adb899bcb40",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "106cca6ce4ab",
+          "_type": "span",
+          "marks": [],
+          "text": "Electricity adds up power over time"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "c967595c2c3e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "23579d75b79b",
+          "_type": "span",
+          "marks": [],
+          "text": "A watthour meter multiplies voltage by current to get instantaneous power, then accumulates that product. On a large commercial feed the current is far too high to pass through a meter directly, so "
+        },
+        {
+          "_key": "265c94f0f5d1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "current transformers (CTs)"
+        },
+        {
+          "_key": "3485d6d192d5",
+          "_type": "span",
+          "marks": [],
+          "text": " step it down to a safe, measurable level, and the meter scales the reading back up by the CT ratio. Configure that ratio incorrectly and every downstream bill is wrong by the same factor. For a plain-language walk through how phases change the delivery itself, the "
+        },
+        {
+          "_key": "590b218270c5",
+          "_type": "span",
+          "marks": [
+            "b3d810f4fbf9"
+          ],
+          "text": "On Time Home Services comparison of three-phase and single-phase power"
+        },
+        {
+          "_key": "6363349376dc",
+          "_type": "span",
+          "marks": [],
+          "text": " explains the difference in practical terms."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "b3d810f4fbf9",
+          "_type": "link",
+          "href": "https://www.ontimehs.com/post/three-phase-vs-single-phase-power"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "508165cccfe4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "87129b2362b0",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "63a9dafe7adc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c691b4c6c579",
+          "_type": "span",
+          "marks": [],
+          "text": "Gas counts volumes, not weight"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "403655bb8bbd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d3ecee06d09d",
+          "_type": "span",
+          "marks": [],
+          "text": "A residential diaphragm meter has chambers that fill and empty, one cycle at a time, and the register counts cycles. Larger sites use rotary or turbine designs. Because gas expands and contracts with temperature and pressure, some registers are corrected so the billed volume reflects a standard condition. If your building's service feeds suites through a downstream set, this "
+        },
+        {
+          "_key": "d47261ad9dec",
+          "_type": "span",
+          "marks": [
+            "37fd71f83f19"
+          ],
+          "text": "guide to natural gas meter types and readings"
+        },
+        {
+          "_key": "313b7c765b94",
+          "_type": "span",
+          "marks": [],
+          "text": " covers what each register shows."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "37fd71f83f19",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/natural-gas-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "05a8ae685c75",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4be92752a22a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e3af308038d9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e91776ac9831",
+          "_type": "span",
+          "marks": [],
+          "text": "Water turns flow into a number"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "942a7c71215e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e10ab8eb4180",
+          "_type": "span",
+          "marks": [],
+          "text": "Small residential water meters use positive-displacement or multi-jet designs: water turns a small element and the register counts the turns. Bigger pipes use turbine, electromagnetic or ultrasonic meters, which have no moving part in the flow path and handle debris and very low flows differently. In every case the unit is a volume, not a rate. The meter reports how much passed, never how fast it went."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "d6548959f78f",
+      "_type": "externalImage",
+      "alt": "A diagram explaining how electricity, large commercial feeds, natural gas, and water utility meters measure consumption.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/51f7598b-a258-4b65-94c2-645a36601168/utility-meter-measurement-guide.jpg"
+    },
+    {
+      "_key": "94baa0ce9506",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "cdacefe4587c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5219e8c7e5bd",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "fc39847b3f0e",
+          "_type": "span",
+          "marks": [],
+          "text": "Heat needs two temperatures"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "6684e211c0ae",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "267a7fa97ca6",
+          "_type": "span",
+          "marks": [],
+          "text": "A thermal meter is the one people find hardest, and the idea is simple once you see it. Heat carried by water equals the flow multiplied by the temperature difference between supply and return pipes, adjusted for the fluid's specific heat. Picture a measuring jug with a thermometer at each end. Take a cubic metre of water that cools by 10°C on its way around a loop: at roughly 1.16 kWh per cubic metre per degree of cooling, that's about "
+        },
+        {
+          "_key": "8cfa4c3b4d22",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "11.6 kWh of heat"
+        },
+        {
+          "_key": "a9d4dc4ef40c",
+          "_type": "span",
+          "marks": [],
+          "text": " delivered. No temperature difference, no heat, no matter how much water circulates."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4ada81628dd7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9bc1b6646db3",
+          "_type": "span",
+          "marks": [],
+          "text": "Modern meters of all four kinds add a pulse output or a digital port so readings can be collected remotely instead of walked. California shows how far that reaches: by October 2014, more than "
+        },
+        {
+          "_key": "4d7bf2c65a0c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "12 million"
+        },
+        {
+          "_key": "bfc8e1c6cf53",
+          "_type": "span",
+          "marks": [],
+          "text": " electric smart meters had been installed across the PG&E, SCE and SDG&E territories, according to the "
+        },
+        {
+          "_key": "2dc7f4e27132",
+          "_type": "span",
+          "marks": [
+            "97ee3673ea3f"
+          ],
+          "text": "CPUC's 2019 smart grid report"
+        },
+        {
+          "_key": "5506b7405ab3",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "97ee3673ea3f",
+          "_type": "link",
+          "href": "https://www.cpuc.ca.gov/-/media/cpuc-website/files/uploadedfiles/cpucwebsite/content/about_us/organization/divisions/office_of_governmental_affairs/legislation/2020/2019-smart-grid-annual-report.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d2b4297fefc9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab5cb77b9e5a",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "83911f528de4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "658711e60735",
+          "_type": "span",
+          "marks": [],
+          "text": "Building Meters Versus Unit Submeters"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "ab8281c961d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7108e6b88f48",
+          "_type": "span",
+          "marks": [],
+          "text": "The meter the utility reads is almost never the meter a tenant sees. Two devices, two purposes, two audiences."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e6389f9a379a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "21ca31df9c29",
+          "_type": "span",
+          "marks": [],
+          "text": "A "
+        },
+        {
+          "_key": "2357c799ab08",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "building-level meter"
+        },
+        {
+          "_key": "1ea02f630eed",
+          "_type": "span",
+          "marks": [],
+          "text": ", also called a service or master meter, sits where the utility's pipe or cable enters the property. The utility owns or approves it, reads it, and bills the account holder. Everything downstream passes through it. A "
+        },
+        {
+          "_key": "cd4c804352a1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "unit submeter"
+        },
+        {
+          "_key": "a68699adf758",
+          "_type": "span",
+          "marks": [],
+          "text": " is installed by the owner, manager or a submetering provider down the line from the master, and measures one suite, one shared area, or one heating loop. It doesn't replace the master meter. The utility bill still arrives at the building."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "431cd9b71600",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "1ccec05c5a3b",
+          "_type": "span",
+          "marks": [],
+          "text": "Think of the water main entering a house, with a branch line running to a single bathroom and a valve on that branch. The main meter counts every litre the house draws. The branch meter counts only what passes through it. Neither reading is wrong. They answer different questions."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "454d2dbf300a",
+      "_type": "externalImage",
+      "alt": "A professional technician wearing a dark jacket recording readings from multiple electrical utility meters on a wall.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4ba7eb22-08f2-495a-85b4-bf6bcb510f99/utility-meter-technician-inspection.jpg"
+    },
+    {
+      "_key": "f4dead6612d7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e7c42ce687b",
+          "_type": "span",
+          "marks": [],
+          "text": "Feature"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6d918e98f87a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c92eaf75b6aa",
+          "_type": "span",
+          "marks": [],
+          "text": "Building-level meter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2a41c9705949",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03a5cb0d8efb",
+          "_type": "span",
+          "marks": [],
+          "text": "Unit submeter"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f7f34663955d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "dbddfb307b37",
+          "_type": "span",
+          "marks": [],
+          "text": "Placement"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "23a5739c0930",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "2eca6db1e4ac",
+          "_type": "span",
+          "marks": [],
+          "text": "At the utility supply point"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf8a06f770d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e290a99d6b6b",
+          "_type": "span",
+          "marks": [],
+          "text": "Downstream, on a suite, shared area or heating loop"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "86551053bcd4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7f2d9086eb06",
+          "_type": "span",
+          "marks": [],
+          "text": "Installed by"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "03c6b88d8cc5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e586a139b38e",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility or its contractor"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "377d3d67822f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "572e10cac32b",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner, manager or submetering provider"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81f6a7ef7069",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58beb04be14f",
+          "_type": "span",
+          "marks": [],
+          "text": "What it measures"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e98cbddb4e82",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b45e4a022b4e",
+          "_type": "span",
+          "marks": [],
+          "text": "Entire building's supply"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7b339f3aa4f8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6eb568f611e0",
+          "_type": "span",
+          "marks": [],
+          "text": "One suite, common area or loop"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "19f1029a78a6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "357b0e258638",
+          "_type": "span",
+          "marks": [],
+          "text": "Who is billed by it"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "20dab2c1abc7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "13e477b95fa1",
+          "_type": "span",
+          "marks": [],
+          "text": "Owner, by the utility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "a0c8b3b2ea27",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8396f9a126e9",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant or occupant, by the owner or provider"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e57f47cba959",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "983dd2c54aba",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant visibility"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "6e53d57f9a4c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "85a894ddedb6",
+          "_type": "span",
+          "marks": [],
+          "text": "Usually none"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5a7949bf273c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "03bddea85d29",
+          "_type": "span",
+          "marks": [],
+          "text": "Tenant can see their own consumption"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b257f8873e13",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "aed6718012d5",
+          "_type": "span",
+          "marks": [],
+          "text": "Governing rules"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7e6bc72a51d5",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "750b89304ab6",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility tariff and regulator"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2b41a9fbaed1",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "19f9b893bfab",
+          "_type": "span",
+          "marks": [],
+          "text": "Local submetering rules and lease terms"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3640831efc70",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6fe5092f55f5",
+          "_type": "span",
+          "marks": [],
+          "text": "A submeter never reduces the building's bill. It changes who pays which part of it, and gives the person paying a number they can check."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "db0c32fbdc3d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "487b14064c46",
+          "_type": "span",
+          "marks": [],
+          "text": "Consider a 12-storey building with 80 suites, one electricity service, a submeter in each suite panel, and a common area meter covering lobby lighting, corridor fans, pumps and elevators. Add the suite readings to the common area reading and the total should land close to the master. Where it doesn't, the difference is either a loss (a bypassed load, an unbilled riser, a leak) or consumption nobody has allocated."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "da787833619e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "eec6ad5f009b",
+          "_type": "span",
+          "marks": [],
+          "text": "This isn't an edge case. An analysis using California state and utility data found more than "
+        },
+        {
+          "_key": "c41abd6bcaa1",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "219,000"
+        },
+        {
+          "_key": "8444a8895b00",
+          "_type": "span",
+          "marks": [],
+          "text": " urban water connections still unmetered across 39 utilities, and noted that most multifamily properties were served by a single master meter rather than a meter per dwelling, per the "
+        },
+        {
+          "_key": "18ca66ce987c",
+          "_type": "span",
+          "marks": [
+            "656efc1c6a7f"
+          ],
+          "text": "Pacific Institute's metering analysis"
+        },
+        {
+          "_key": "2dd12ffd66f2",
+          "_type": "span",
+          "marks": [],
+          "text": ". One meter for a whole building gives an owner a single number and no view of who used what. Reconcile the sum of the submeters against the master every billing cycle, not once at commissioning."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "656efc1c6a7f",
+          "_type": "link",
+          "href": "https://pacinst.org/wp-content/uploads/2015/04/Metering-in-California.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ad80575b38e6",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b045b94f0874",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c09f7afd9708",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b3610142d6d0",
+          "_type": "span",
+          "marks": [],
+          "text": "How Submeter Readings Turn Into Tenant Bills"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "c2f8f7153a91",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6357d964ba9c",
+          "_type": "span",
+          "marks": [],
+          "text": "Take one month in a building with ten suites on submeters and one common area meter. The building draws "
+        },
+        {
+          "_key": "8d67346443a9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10,000 kWh"
+        },
+        {
+          "_key": "2e5c39bc64f1",
+          "_type": "span",
+          "marks": [],
+          "text": ". Each suite reads 800 kWh, so the suites total "
+        },
+        {
+          "_key": "4b04c1bad874",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "8,000 kWh"
+        },
+        {
+          "_key": "9f84b7b5117c",
+          "_type": "span",
+          "marks": [],
+          "text": ", and the common area meter shows "
+        },
+        {
+          "_key": "7b666f43c0cf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2,000 kWh"
+        },
+        {
+          "_key": "41574a88cf56",
+          "_type": "span",
+          "marks": [],
+          "text": ". At "
+        },
+        {
+          "_key": "f18220fd6623",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$0.15 per kWh"
+        },
+        {
+          "_key": "65cafe208b23",
+          "_type": "span",
+          "marks": [],
+          "text": ", the building's utility bill is "
+        },
+        {
+          "_key": "9fdcc2c8a8c2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "$1,500"
+        },
+        {
+          "_key": "14d8fb42622d",
+          "_type": "span",
+          "marks": [],
+          "text": ". Each suite's measured share is $120, and the shared 2,000 kWh carries $300."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "93a497f643ea",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ee3b3ec4815",
+          "_type": "span",
+          "marks": [],
+          "text": "Now the part that decides whether the program is trusted. A tenant bill should show enough for the occupant to redo the arithmetic themselves."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "7bf77fe1efed",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "e523cc307df2",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Opening reading."
+        },
+        {
+          "_key": "9b2980a0c0c8",
+          "_type": "span",
+          "marks": [],
+          "text": " The register figure at the start of the period."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fd76dfdd887a",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "614f4fcb6d36",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Closing reading."
+        },
+        {
+          "_key": "7abc412b580b",
+          "_type": "span",
+          "marks": [],
+          "text": " The figure at the end, taken on a consistent date."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2627288c90a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a6c6c2910162",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Rate applied."
+        },
+        {
+          "_key": "ffa019f5046a",
+          "_type": "span",
+          "marks": [],
+          "text": " The price per kWh, cubic metre or gigajoule."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "b8bfb778fa11",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f4b8457ca16c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Quantity billed."
+        },
+        {
+          "_key": "fa06603440fb",
+          "_type": "span",
+          "marks": [],
+          "text": " The difference between the two readings, not a formula output."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "e8d6c6dd75fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "ab80c085f5a9",
+          "_type": "span",
+          "marks": [],
+          "text": "If a bill shows a dollar amount and nothing else, a tenant can't tell a price increase from a usage increase, and an owner can't defend the charge."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2bd0d9139697",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "b311274c4c1b",
+          "_type": "span",
+          "marks": [],
+          "text": "Common area consumption can be recovered from tenants, absorbed by the owner, or split by an agreed formula. The lease and local rules decide which, and the method should be written down before the first invoice. Vacant suites are simpler: the owner carries the cost of the empty unit unless the lease says otherwise."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "cf25a09fcc8e",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f1521e406bf",
+          "_type": "span",
+          "marks": [],
+          "text": "California draws a hard line between measuring and dividing. Public Utilities Code §739.5 requires a master-meter customer who submeters residential tenants to charge no more than the applicable utility rate and to provide itemized bills showing opening and closing readings, rates and quantities, as set out in "
+        },
+        {
+          "_key": "b5a266001331",
+          "_type": "span",
+          "marks": [
+            "e7cecc0482d2"
+          ],
+          "text": "California Public Utilities Code §739.5"
+        },
+        {
+          "_key": "4ddf992c56fe",
+          "_type": "span",
+          "marks": [],
+          "text": ". A "
+        },
+        {
+          "_key": "96a86c257c2b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "ratio utility billing system"
+        },
+        {
+          "_key": "f52cdfd8bdae",
+          "_type": "span",
+          "marks": [],
+          "text": ", which divides the master bill by square footage or occupancy instead of measuring, is a different legal animal, and a bill introduced as AB 1248 would restrict those systems for residential tenancies while preserving specified treatment for individually metered utilities and certain water or sewer charges."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e7cecc0482d2",
+          "_type": "link",
+          "href": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PUC&sectionNum=739.5"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "a71801b53a6b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "22be7156873f",
+          "_type": "span",
+          "marks": [],
+          "text": "Billing method and lease wording intersect with tenant remedies quickly. When an occupant withholds payment over a disputed charge, state rules on shutoff and repair-and-deduct responses govern what happens next, and "
+        },
+        {
+          "_key": "39717195f604",
+          "_type": "span",
+          "marks": [
+            "1c798b9c4959"
+          ],
+          "text": "The Law Office of Bryan Fagan's guidance on landlord utility shutoffs in Texas"
+        },
+        {
+          "_key": "e99cfb2c9739",
+          "_type": "span",
+          "marks": [],
+          "text": " shows how specific those rules get. The practical sequence for owners is to document readings, issue itemized invoices, and keep the "
+        },
+        {
+          "_key": "098963e45fe6",
+          "_type": "span",
+          "marks": [
+            "9dfbe6c94119"
+          ],
+          "text": "tenant billing workflow"
+        },
+        {
+          "_key": "bcb63ed674ee",
+          "_type": "span",
+          "marks": [],
+          "text": " consistent from month to month so a dispute is a records question rather than a memory contest. When a reading is missed, an estimate may be issued, and it should be trued up at the next actual reading rather than left to compound."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "1c798b9c4959",
+          "_type": "link",
+          "href": "https://www.texastenantlawyers.com/utility-shutoff-by-landlord-texas-92-008-tenant-remedy/"
+        },
+        {
+          "_key": "9dfbe6c94119",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-bill-tenants-for-utilities"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "aa5eed7535a7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "16f62a7a3329",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "8aa2c0342176",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f238f10eadd8",
+          "_type": "span",
+          "marks": [],
+          "text": "Accuracy, Estimates and Common Misconceptions"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "80e12758e604",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0627058d8ee2",
+          "_type": "span",
+          "marks": [],
+          "text": "Utility meters and submeters are tested against a regulator's standard before they're allowed to bill anyone. In California, multifamily water submeters are regulated by the Division of Measurement Standards and must meet the accuracy requirements in NIST Handbook 44, Section 3.36, as "
+        },
+        {
+          "_key": "70a5facf9d60",
+          "_type": "span",
+          "marks": [
+            "be1e5e51c06c"
+          ],
+          "text": "California Energy Commission materials"
+        },
+        {
+          "_key": "f0928eb56fdb",
+          "_type": "span",
+          "marks": [],
+          "text": " note. Electric watthour meters carry a "
+        },
+        {
+          "_key": "c3a39bfe02c4",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "2% maintenance tolerance"
+        },
+        {
+          "_key": "d33ace53dd2e",
+          "_type": "span",
+          "marks": [],
+          "text": " at both full-load and light-load tests, with light-load testing at no less than "
+        },
+        {
+          "_key": "480d406e4141",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "10%"
+        },
+        {
+          "_key": "4c3d90edd0a7",
+          "_type": "span",
+          "marks": [],
+          "text": " of the meter's marked test amperes and a 0.5 power-factor light-load test at no less than "
+        },
+        {
+          "_key": "ce3a0f95b9c6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "20%"
+        },
+        {
+          "_key": "9da34764e765",
+          "_type": "span",
+          "marks": [],
+          "text": ", according to "
+        },
+        {
+          "_key": "e3fb3851ab8f",
+          "_type": "span",
+          "marks": [
+            "614f17b374d0"
+          ],
+          "text": "California's Division of Measurement Standards meter regulations"
+        },
+        {
+          "_key": "9b0ef1c79a09",
+          "_type": "span",
+          "marks": [],
+          "text": "."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "be1e5e51c06c",
+          "_type": "link",
+          "href": "https://efiling.energy.ca.gov/GetDocument.aspx?tn=70791"
+        },
+        {
+          "_key": "614f17b374d0",
+          "_type": "link",
+          "href": "https://www.cdfa.ca.gov/dms/docs/publications/2023/Chapter_1_Articles_2_2.3.pdf"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "d8e5fae33fba",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "41f29f7e30ea",
+          "_type": "span",
+          "marks": [],
+          "text": "Approval doesn't guarantee a perfect reading at every flow. Low flow is the weak point for water, so a meter sized for large flows can under-register exactly the pattern apartments produce: a dripping tap, a slow toilet leak, a trickle that runs for weeks."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "80192061513b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "55fd21896a5c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "89243f0585b8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18095d1f94da",
+          "_type": "span",
+          "marks": [],
+          "text": "Five things people get wrong"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "1dcc82cb12d3",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "4d00234ef18d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A bigger meter is always more accurate."
+        },
+        {
+          "_key": "30ed54ac0f15",
+          "_type": "span",
+          "marks": [],
+          "text": " Oversizing is one of the most common field errors. A meter built for high flow often misses low flows entirely, and low flows are most of an apartment's water use."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f250460529ac",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "6ffc318ac660",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A spinning dial means a leak."
+        },
+        {
+          "_key": "7b8e1f50fa62",
+          "_type": "span",
+          "marks": [],
+          "text": " One running appliance can explain a moving register. Shut everything off, watch for a few minutes, and you'll know which one it is."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "5b0dbe9f40bf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "956073478f23",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Submeter totals should match the master bill exactly."
+        },
+        {
+          "_key": "b932c6417e57",
+          "_type": "span",
+          "marks": [],
+          "text": " A small difference is normal and healthy. A large one needs tracing, because it usually means an unmetered load rather than a rounding quirk."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "fc95882cb6fc",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7889145a612c",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "An estimated bill is final."
+        },
+        {
+          "_key": "1e7b69de5fa3",
+          "_type": "span",
+          "marks": [],
+          "text": " It isn't. An estimate can and should be corrected against the next actual reading."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "2d297ff419cf",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "25c785e7efbf",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "A smart meter is a different kind of meter."
+        },
+        {
+          "_key": "049eb5bc3e20",
+          "_type": "span",
+          "marks": [],
+          "text": " It's still a utility meter; it just reports remotely. That raises a question worth asking out loud: who can see the data and how long is it kept? California law protects utility customer information, and precise smart-meter data generally can't be disclosed by public utilities without authorization, as the "
+        },
+        {
+          "_key": "0ed8f5644032",
+          "_type": "span",
+          "marks": [
+            "469b37e9f959"
+          ],
+          "text": "Electronic Frontier Foundation's analysis of smart meters and surveillance"
+        },
+        {
+          "_key": "29689167bbad",
+          "_type": "span",
+          "marks": [],
+          "text": " sets out."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [
+        {
+          "_key": "469b37e9f959",
+          "_type": "link",
+          "href": "https://www.eff.org/deeplinks/2025/07/when-your-power-meter-becomes-tool-mass-surveillance"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "0dfb613da9c7",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a9a217c121aa",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What the number can't tell you:"
+        },
+        {
+          "_key": "05dee1122b2f",
+          "_type": "span",
+          "marks": [],
+          "text": " a meter records quantity, not cause. It won't distinguish a faulty fridge from a window left open, and it won't tell you whether the usage was reasonable. That's a conversation, not a reading."
+        }
+      ],
+      "markDefs": [],
+      "style": "blockquote"
+    },
+    {
+      "_key": "e7497fb9b944",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "f976af4b1deb",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4e1d2db6576b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "d8f109efa0b4",
+          "_type": "span",
+          "marks": [],
+          "text": "How to Read a Meter and Spot a Problem"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "b1ee575f8a88",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "08bf7a43ee28",
+          "_type": "span",
+          "marks": [],
+          "text": "A reading you take yourself is the cheapest audit available. It takes five minutes and settles most arguments about whether a bill is right."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "46b42c655a6d",
+      "_type": "externalImage",
+      "alt": "A woman recording electricity usage readings from two utility meters onto a notepad inside a basement.",
+      "url": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d5c528f0-fbc1-48a9-ae4d-f7ce08594f2d/utility-meter-reading-meters.jpg"
+    },
+    {
+      "_key": "1a0ea7e99813",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9c2d3c850749",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Find the meter and identify the register."
+        },
+        {
+          "_key": "14c740de5e2d",
+          "_type": "span",
+          "marks": [],
+          "text": " A dial face is read by alternating direction; a digital display reads left to right. The slip: reading a dial backwards and landing thousands of units out."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "17a3ed102fb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "84c1cbb41ed6",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Read the unit printed on the face."
+        },
+        {
+          "_key": "3e77b6f4b346",
+          "_type": "span",
+          "marks": [],
+          "text": " kWh, m³ or ft³. Match it to the invoice before comparing anything. The slip: comparing a reading in cubic feet against a bill in cubic metres."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bf691e86918f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "18d530a65836",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Take the reading on the same day and time each cycle."
+        },
+        {
+          "_key": "342996979747",
+          "_type": "span",
+          "marks": [],
+          "text": " Comparable periods are the entire point. The slip: reading on the 3rd one month and the 27th the next."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "850821c0d89f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7ac7b27336df",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Ignore the small test or red dial."
+        },
+        {
+          "_key": "6edbd6e34177",
+          "_type": "span",
+          "marks": [],
+          "text": " That element exists for calibration and testing. The slip: including it and inflating the total by a factor of ten."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "44e5099dc916",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "684a4abe3c0b",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Subtract the previous reading from the current one."
+        },
+        {
+          "_key": "d1af8dc7bf22",
+          "_type": "span",
+          "marks": [],
+          "text": " That difference is the consumption for the period."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c78e78851d87",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "c32dfc7da7b5",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Compare the result with the quantity on the bill."
+        },
+        {
+          "_key": "6d45f708e2ed",
+          "_type": "span",
+          "marks": [],
+          "text": " If they diverge, request the actual reading and a copy of the meter records in writing."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "92779bb8352b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7bea67a8df11",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Run an isolation check."
+        },
+        {
+          "_key": "a48af4ea5067",
+          "_type": "span",
+          "marks": [],
+          "text": " With every fixture and appliance off, watch the register for a few minutes. A water meter that keeps moving has flow somewhere."
+        }
+      ],
+      "level": 1,
+      "listItem": "number",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "3641b770a332",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "7beafdfba13d",
+          "_type": "span",
+          "marks": [],
+          "text": "A steady reading looks boring, and that's the point. Standby loads and clocks produce a slow, small drift. A continuous creep at a fixed rate is different, and it usually means water is escaping somewhere between the meter and the fixtures. If the register moves with everything off, the next step is a proper leak hunt, and "
+        },
+        {
+          "_key": "4c7939db5787",
+          "_type": "span",
+          "marks": [
+            "f86390192356"
+          ],
+          "text": "Bear Valley Plumbing & Heating's tips for finding a water leak in a house"
+        },
+        {
+          "_key": "3fb53b2eb6b9",
+          "_type": "span",
+          "marks": [],
+          "text": " walk through the fixtures and shutoff points worth checking first. Our own "
+        },
+        {
+          "_key": "f5385146ead1",
+          "_type": "span",
+          "marks": [
+            "733a92893556"
+          ],
+          "text": "guide to reading a water meter"
+        },
+        {
+          "_key": "601de88fcec8",
+          "_type": "span",
+          "marks": [],
+          "text": " covers the dial patterns and leak tests specific to water registers."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "f86390192356",
+          "_type": "link",
+          "href": "https://584hero.com/blog/plumbing/plumbing-replacement/how-to-find-water-leak-in-house/"
+        },
+        {
+          "_key": "733a92893556",
+          "_type": "link",
+          "href": "https://www.axismeter.com/blog/how-to-read-a-water-meter"
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "ba2bef9bde29",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "12facef5937c",
+          "_type": "span",
+          "marks": [],
+          "text": ""
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "54ba0716bf66",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "5a6eab344b63",
+          "_type": "span",
+          "marks": [],
+          "text": "Decide Whether Submetering Fits Your Building"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "bfcb7167c33c",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "9a7737dbab57",
+          "_type": "span",
+          "marks": [],
+          "text": "Before anyone quotes equipment, answer six questions about the building itself. The answers decide whether unit metering is straightforward, complicated, or the wrong tool for now."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "c6e6d87cb222",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "0f7da2da8517",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who owns and reads the master meter?"
+        },
+        {
+          "_key": "963b595776f9",
+          "_type": "span",
+          "marks": [],
+          "text": " If the utility owns it and bills the owner directly, you have a clean upstream figure to reconcile against each cycle."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "56552c1d0012",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "a0acd207e06d",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "What do local rules allow?"
+        },
+        {
+          "_key": "109ed02b36ff",
+          "_type": "span",
+          "marks": [],
+          "text": " Some jurisdictions cap the charge and require itemized invoices. Confirm this before a design is drawn."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "412998dc34e4",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "17346f28b363",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How many units, and how are they supplied?"
+        },
+        {
+          "_key": "21543eda8670",
+          "_type": "span",
+          "marks": [],
+          "text": " Count suites, common areas and any shared branch. A building where four suites share one riser needs a different layout from one with a panel per suite."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "450797ff7130",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "547071a861e9",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Which services are worth metering?"
+        },
+        {
+          "_key": "a2bf873d1074",
+          "_type": "span",
+          "marks": [],
+          "text": " Electricity and water are the usual starting points. Thermal and gas depend on whether heating and cooking are central or per unit."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "0f158f5be451",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "368f9a01f1fc",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "How much of the bill sits in common areas?"
+        },
+        {
+          "_key": "2ea7a33a9874",
+          "_type": "span",
+          "marks": [],
+          "text": " That figure tells you how much cost stays with the owner once unit charges begin."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "81b6b99c7260",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "797b64a31783",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Who maintains the equipment afterwards?"
+        },
+        {
+          "_key": "087d40728545",
+          "_type": "span",
+          "marks": [],
+          "text": " Seals, calibration records, billing queries and replacements all continue long after commissioning day."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "bd47494d5ea8",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "3e047798ac59",
+          "_type": "span",
+          "marks": [],
+          "text": "Then ask for a site review rather than a quote. Axis Meter Solutions offers a free consultation with a submetering specialist about your property, with no obligation, and the scope runs from equipment selection and installation through tenant billing, maintenance and compliance planning, so you can see which parts your building needs."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "f4b9b7855bb9",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "50ad10f87280",
+          "_type": "span",
+          "marks": [],
+          "text": "Get the layout and the billing terms in writing before committing: which services are metered, who reads them, how common area consumption is allocated, how vacant units are treated, and how a disputed charge is resolved. A design that matches the building beats a design that matches a brochure."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "4a71e989b31f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "58be9d0aa4d3",
+          "_type": "span",
+          "marks": [],
+          "text": "Axis Meter Solutions handles the full chain for multi-family, condominium, mixed-use and commercial properties: metering equipment, installation, commissioning, monthly tenant billing and ongoing maintenance, with no upfront capital cost to the owner. That work is where the gap between a building's master meter and its unit readings gets closed, cycle after cycle. If your submeter totals have never been reconciled against the utility bill, visit "
+        },
+        {
+          "_key": "bff59d54a525",
+          "_type": "span",
+          "marks": [
+            "575b0e3e3cb8"
+          ],
+          "text": "Axis Meter Solutions"
+        },
+        {
+          "_key": "9e53a94b0820",
+          "_type": "span",
+          "marks": [],
+          "text": " to talk through your property."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "575b0e3e3cb8",
+          "_type": "link",
+          "href": "https://axismeter.com"
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": "Electricity",
+  "excerpt": "A plain-English guide to utility meters: how electricity, water, gas and thermal meters measure use, and how submeters differ.",
+  "featuredImageUrl": "https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/f08a8b68-7624-4001-a6b1-0d9df3476ef8/utility-meter-utility-meters.jpg",
+  "noIndex": false,
+  "outrankId": "8f3eb7a6-a5c9-47e7-acc0-e2c84e358031",
+  "publishedAt": "2026-11-15T09:30:00.197521+00:00",
+  "slug": {
+    "_type": "slug",
+    "current": "utility-meter"
+  },
+  "source": "outrank",
+  "sourceHtml": "<p>Your building&#39;s master meter reads 10,000 kilowatt-hours for the month. Add up the twelve suite submeters and you get 8,000. Nobody stole the missing 2,000, and no meter is necessarily broken. The two numbers are measuring different things at different points on the same system, and until you know which device sits where, the gap looks like either a mystery or a fraud.</p>\n<p>That gap is where most confusion about utility metering begins. Owners assume meters are interchangeable counters. Tenants assume a meter is a billing weapon. Neither is quite right. A meter is a recording device, and what it records depends entirely on where it&#39;s installed and what flows through it.</p>\n<h2>Table of Contents</h2>\n<ul>\n<li><a href=\"#what-a-utility-meter-is-and-what-it-measures\">What a Utility Meter Is and What It Measures</a><ul>\n<li><a href=\"#start-with-the-unit-not-the-number\">Start with the unit, not the number</a></li>\n</ul>\n</li>\n<li><a href=\"#how-each-utility-meter-measures-consumption\">How Each Utility Meter Measures Consumption</a><ul>\n<li><a href=\"#electricity-adds-up-power-over-time\">Electricity adds up power over time</a></li>\n<li><a href=\"#gas-counts-volumes-not-weight\">Gas counts volumes, not weight</a></li>\n<li><a href=\"#water-turns-flow-into-a-number\">Water turns flow into a number</a></li>\n<li><a href=\"#heat-needs-two-temperatures\">Heat needs two temperatures</a></li>\n</ul>\n</li>\n<li><a href=\"#building-meters-versus-unit-submeters\">Building Meters Versus Unit Submeters</a></li>\n<li><a href=\"#how-submeter-readings-turn-into-tenant-bills\">How Submeter Readings Turn Into Tenant Bills</a></li>\n<li><a href=\"#accuracy-estimates-and-common-misconceptions\">Accuracy, Estimates and Common Misconceptions</a><ul>\n<li><a href=\"#five-things-people-get-wrong\">Five things people get wrong</a></li>\n</ul>\n</li>\n<li><a href=\"#how-to-read-a-meter-and-spot-a-problem\">How to Read a Meter and Spot a Problem</a></li>\n<li><a href=\"#decide-whether-submetering-fits-your-building\">Decide Whether Submetering Fits Your Building</a></li>\n</ul>\n<p><a id=\"what-a-utility-meter-is-and-what-it-measures\"></a></p>\n<h2>What a Utility Meter Is and What It Measures</h2>\n<p>A <strong>utility meter</strong> is a device that records how much of a service has passed through it. It doesn&#39;t reset when the billing period ends. It counts up, hour after hour, and the figure on the face is a running total from the day it was commissioned.</p>\n<p>The comparison that makes this click is the odometer in a car. You don&#39;t reset it every Monday. You note the number when you leave and the number when you arrive, and the trip distance is the subtraction. Meters work identically, which is why a bill that shows only a total and never the two readings is telling you half the story.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/3d3d169b-e40e-46fa-9ff3-764e3d0dc865/utility-meter-diagram.jpg\" alt=\"A diagram illustrating what a utility meter is and the types of services it measures including electricity, natural gas, and water.\"></p>\n<p>The analogy holds for a second reason. An odometer measures distance whether you crawled through traffic or drove on a highway. A meter measures quantity whether the usage was spread evenly across the month or crammed into one cold week. That&#39;s why a bill can jump in a month when nothing changed at home: the register counts everything, including standby loads, a dripping valve and a fridge that runs harder in summer.</p>\n<p><a id=\"start-with-the-unit-not-the-number\"></a></p>\n<h3>Start with the unit, not the number</h3>\n<p>Every register carries a unit, and that unit is what shows up on the invoice. Match yours to a row below before you do any arithmetic.</p>\n<table>\n<thead>\n<tr>\n<th>Meter type</th>\n<th>What it measures</th>\n<th>Common unit</th>\n<th>Register reading</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Electricity</td>\n<td>Energy drawn through the supply</td>\n<td>kilowatt-hour (kWh)</td>\n<td>Digital or dial display in kWh</td>\n</tr>\n<tr>\n<td>Water</td>\n<td>Volume of water passing through the pipe</td>\n<td>Cubic metre (m³) or US gallon</td>\n<td>Cumulative odometer-style register</td>\n</tr>\n<tr>\n<td>Natural gas</td>\n<td>Volume of gas delivered</td>\n<td>Cubic metre (m³), cubic foot (ft³) or therm</td>\n<td>Cumulative register, sometimes corrected for temperature</td>\n</tr>\n<tr>\n<td>Thermal (heating or cooling)</td>\n<td>Heat carried by the circulating water or glycol</td>\n<td>kWh, gigajoule (GJ) or BTU</td>\n<td>Cumulative energy register</td>\n</tr>\n</tbody></table>\n<p>Two unit traps catch people constantly. A <strong>therm</strong> and a <strong>cubic foot</strong> of gas are not the same quantity, and a bill quoted in cubic metres can&#39;t be compared line for line with one quoted in hundreds of cubic feet (ccf). Check the unit on the register against the unit on the invoice. If they differ, something was converted between the meter and the bill, and that conversion is worth understanding before you dispute a total.</p>\n<p>Without a meter, a bill can only be an estimate built from floor area, occupancy, or a flat share of a building total. That isn&#39;t dishonesty. It&#39;s the absence of measurement.</p>\n<blockquote>\n<p><strong>Try this on your own bill:</strong> find the unit, find the billing period, find the previous reading. If any of the three is missing, ask for it in writing before you accept the total.</p>\n</blockquote>\n<p><a id=\"how-each-utility-meter-measures-consumption\"></a></p>\n<h2>How Each Utility Meter Measures Consumption</h2>\n<p>How a meter counts depends on what&#39;s flowing through it. The mechanical details differ, but every design ends at the same place: a register that increments in the unit you&#39;re billed for.</p>\n<p><a id=\"electricity-adds-up-power-over-time\"></a></p>\n<h3>Electricity adds up power over time</h3>\n<p>A watthour meter multiplies voltage by current to get instantaneous power, then accumulates that product. On a large commercial feed the current is far too high to pass through a meter directly, so <strong>current transformers (CTs)</strong> step it down to a safe, measurable level, and the meter scales the reading back up by the CT ratio. Configure that ratio incorrectly and every downstream bill is wrong by the same factor. For a plain-language walk through how phases change the delivery itself, the <a href=\"https://www.ontimehs.com/post/three-phase-vs-single-phase-power\">On Time Home Services comparison of three-phase and single-phase power</a> explains the difference in practical terms.</p>\n<p><a id=\"gas-counts-volumes-not-weight\"></a></p>\n<h3>Gas counts volumes, not weight</h3>\n<p>A residential diaphragm meter has chambers that fill and empty, one cycle at a time, and the register counts cycles. Larger sites use rotary or turbine designs. Because gas expands and contracts with temperature and pressure, some registers are corrected so the billed volume reflects a standard condition. If your building&#39;s service feeds suites through a downstream set, this <a href=\"https://www.axismeter.com/blog/natural-gas-meter\">guide to natural gas meter types and readings</a> covers what each register shows.</p>\n<p><a id=\"water-turns-flow-into-a-number\"></a></p>\n<h3>Water turns flow into a number</h3>\n<p>Small residential water meters use positive-displacement or multi-jet designs: water turns a small element and the register counts the turns. Bigger pipes use turbine, electromagnetic or ultrasonic meters, which have no moving part in the flow path and handle debris and very low flows differently. In every case the unit is a volume, not a rate. The meter reports how much passed, never how fast it went.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/51f7598b-a258-4b65-94c2-645a36601168/utility-meter-measurement-guide.jpg\" alt=\"A diagram explaining how electricity, large commercial feeds, natural gas, and water utility meters measure consumption.\"></p>\n<p><a id=\"heat-needs-two-temperatures\"></a></p>\n<h3>Heat needs two temperatures</h3>\n<p>A thermal meter is the one people find hardest, and the idea is simple once you see it. Heat carried by water equals the flow multiplied by the temperature difference between supply and return pipes, adjusted for the fluid&#39;s specific heat. Picture a measuring jug with a thermometer at each end. Take a cubic metre of water that cools by 10°C on its way around a loop: at roughly 1.16 kWh per cubic metre per degree of cooling, that&#39;s about <strong>11.6 kWh of heat</strong> delivered. No temperature difference, no heat, no matter how much water circulates.</p>\n<p>Modern meters of all four kinds add a pulse output or a digital port so readings can be collected remotely instead of walked. California shows how far that reaches: by October 2014, more than <strong>12 million</strong> electric smart meters had been installed across the PG&amp;E, SCE and SDG&amp;E territories, according to the <a href=\"https://www.cpuc.ca.gov/-/media/cpuc-website/files/uploadedfiles/cpucwebsite/content/about_us/organization/divisions/office_of_governmental_affairs/legislation/2020/2019-smart-grid-annual-report.pdf\">CPUC&#39;s 2019 smart grid report</a>.</p>\n<p><a id=\"building-meters-versus-unit-submeters\"></a></p>\n<h2>Building Meters Versus Unit Submeters</h2>\n<p>The meter the utility reads is almost never the meter a tenant sees. Two devices, two purposes, two audiences.</p>\n<p>A <strong>building-level meter</strong>, also called a service or master meter, sits where the utility&#39;s pipe or cable enters the property. The utility owns or approves it, reads it, and bills the account holder. Everything downstream passes through it. A <strong>unit submeter</strong> is installed by the owner, manager or a submetering provider down the line from the master, and measures one suite, one shared area, or one heating loop. It doesn&#39;t replace the master meter. The utility bill still arrives at the building.</p>\n<p>Think of the water main entering a house, with a branch line running to a single bathroom and a valve on that branch. The main meter counts every litre the house draws. The branch meter counts only what passes through it. Neither reading is wrong. They answer different questions.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/4ba7eb22-08f2-495a-85b4-bf6bcb510f99/utility-meter-technician-inspection.jpg\" alt=\"A professional technician wearing a dark jacket recording readings from multiple electrical utility meters on a wall.\"></p>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>Building-level meter</th>\n<th>Unit submeter</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Placement</td>\n<td>At the utility supply point</td>\n<td>Downstream, on a suite, shared area or heating loop</td>\n</tr>\n<tr>\n<td>Installed by</td>\n<td>Utility or its contractor</td>\n<td>Owner, manager or submetering provider</td>\n</tr>\n<tr>\n<td>What it measures</td>\n<td>Entire building&#39;s supply</td>\n<td>One suite, common area or loop</td>\n</tr>\n<tr>\n<td>Who is billed by it</td>\n<td>Owner, by the utility</td>\n<td>Tenant or occupant, by the owner or provider</td>\n</tr>\n<tr>\n<td>Tenant visibility</td>\n<td>Usually none</td>\n<td>Tenant can see their own consumption</td>\n</tr>\n<tr>\n<td>Governing rules</td>\n<td>Utility tariff and regulator</td>\n<td>Local submetering rules and lease terms</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>A submeter never reduces the building&#39;s bill. It changes who pays which part of it, and gives the person paying a number they can check.</p>\n</blockquote>\n<p>Consider a 12-storey building with 80 suites, one electricity service, a submeter in each suite panel, and a common area meter covering lobby lighting, corridor fans, pumps and elevators. Add the suite readings to the common area reading and the total should land close to the master. Where it doesn&#39;t, the difference is either a loss (a bypassed load, an unbilled riser, a leak) or consumption nobody has allocated.</p>\n<p>This isn&#39;t an edge case. An analysis using California state and utility data found more than <strong>219,000</strong> urban water connections still unmetered across 39 utilities, and noted that most multifamily properties were served by a single master meter rather than a meter per dwelling, per the <a href=\"https://pacinst.org/wp-content/uploads/2015/04/Metering-in-California.pdf\">Pacific Institute&#39;s metering analysis</a>. One meter for a whole building gives an owner a single number and no view of who used what. Reconcile the sum of the submeters against the master every billing cycle, not once at commissioning.</p>\n<p><a id=\"how-submeter-readings-turn-into-tenant-bills\"></a></p>\n<h2>How Submeter Readings Turn Into Tenant Bills</h2>\n<p>Take one month in a building with ten suites on submeters and one common area meter. The building draws <strong>10,000 kWh</strong>. Each suite reads 800 kWh, so the suites total <strong>8,000 kWh</strong>, and the common area meter shows <strong>2,000 kWh</strong>. At <strong>$0.15 per kWh</strong>, the building&#39;s utility bill is <strong>$1,500</strong>. Each suite&#39;s measured share is $120, and the shared 2,000 kWh carries $300.</p>\n<p>Now the part that decides whether the program is trusted. A tenant bill should show enough for the occupant to redo the arithmetic themselves.</p>\n<ul>\n<li><strong>Opening reading.</strong> The register figure at the start of the period.</li>\n<li><strong>Closing reading.</strong> The figure at the end, taken on a consistent date.</li>\n<li><strong>Rate applied.</strong> The price per kWh, cubic metre or gigajoule.</li>\n<li><strong>Quantity billed.</strong> The difference between the two readings, not a formula output.</li>\n</ul>\n<p>If a bill shows a dollar amount and nothing else, a tenant can&#39;t tell a price increase from a usage increase, and an owner can&#39;t defend the charge.</p>\n<p>Common area consumption can be recovered from tenants, absorbed by the owner, or split by an agreed formula. The lease and local rules decide which, and the method should be written down before the first invoice. Vacant suites are simpler: the owner carries the cost of the empty unit unless the lease says otherwise.</p>\n<p>California draws a hard line between measuring and dividing. Public Utilities Code §739.5 requires a master-meter customer who submeters residential tenants to charge no more than the applicable utility rate and to provide itemized bills showing opening and closing readings, rates and quantities, as set out in <a href=\"https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PUC&sectionNum=739.5\">California Public Utilities Code §739.5</a>. A <strong>ratio utility billing system</strong>, which divides the master bill by square footage or occupancy instead of measuring, is a different legal animal, and a bill introduced as AB 1248 would restrict those systems for residential tenancies while preserving specified treatment for individually metered utilities and certain water or sewer charges.</p>\n<p>Billing method and lease wording intersect with tenant remedies quickly. When an occupant withholds payment over a disputed charge, state rules on shutoff and repair-and-deduct responses govern what happens next, and <a href=\"https://www.texastenantlawyers.com/utility-shutoff-by-landlord-texas-92-008-tenant-remedy/\">The Law Office of Bryan Fagan&#39;s guidance on landlord utility shutoffs in Texas</a> shows how specific those rules get. The practical sequence for owners is to document readings, issue itemized invoices, and keep the <a href=\"https://www.axismeter.com/blog/how-to-bill-tenants-for-utilities\">tenant billing workflow</a> consistent from month to month so a dispute is a records question rather than a memory contest. When a reading is missed, an estimate may be issued, and it should be trued up at the next actual reading rather than left to compound.</p>\n<p><a id=\"accuracy-estimates-and-common-misconceptions\"></a></p>\n<h2>Accuracy, Estimates and Common Misconceptions</h2>\n<p>Utility meters and submeters are tested against a regulator&#39;s standard before they&#39;re allowed to bill anyone. In California, multifamily water submeters are regulated by the Division of Measurement Standards and must meet the accuracy requirements in NIST Handbook 44, Section 3.36, as <a href=\"https://efiling.energy.ca.gov/GetDocument.aspx?tn=70791\">California Energy Commission materials</a> note. Electric watthour meters carry a <strong>2% maintenance tolerance</strong> at both full-load and light-load tests, with light-load testing at no less than <strong>10%</strong> of the meter&#39;s marked test amperes and a 0.5 power-factor light-load test at no less than <strong>20%</strong>, according to <a href=\"https://www.cdfa.ca.gov/dms/docs/publications/2023/Chapter_1_Articles_2_2.3.pdf\">California&#39;s Division of Measurement Standards meter regulations</a>.</p>\n<p>Approval doesn&#39;t guarantee a perfect reading at every flow. Low flow is the weak point for water, so a meter sized for large flows can under-register exactly the pattern apartments produce: a dripping tap, a slow toilet leak, a trickle that runs for weeks.</p>\n<p><a id=\"five-things-people-get-wrong\"></a></p>\n<h3>Five things people get wrong</h3>\n<ol>\n<li><strong>A bigger meter is always more accurate.</strong> Oversizing is one of the most common field errors. A meter built for high flow often misses low flows entirely, and low flows are most of an apartment&#39;s water use.</li>\n<li><strong>A spinning dial means a leak.</strong> One running appliance can explain a moving register. Shut everything off, watch for a few minutes, and you&#39;ll know which one it is.</li>\n<li><strong>Submeter totals should match the master bill exactly.</strong> A small difference is normal and healthy. A large one needs tracing, because it usually means an unmetered load rather than a rounding quirk.</li>\n<li><strong>An estimated bill is final.</strong> It isn&#39;t. An estimate can and should be corrected against the next actual reading.</li>\n<li><strong>A smart meter is a different kind of meter.</strong> It&#39;s still a utility meter; it just reports remotely. That raises a question worth asking out loud: who can see the data and how long is it kept? California law protects utility customer information, and precise smart-meter data generally can&#39;t be disclosed by public utilities without authorization, as the <a href=\"https://www.eff.org/deeplinks/2025/07/when-your-power-meter-becomes-tool-mass-surveillance\">Electronic Frontier Foundation&#39;s analysis of smart meters and surveillance</a> sets out.</li>\n</ol>\n<blockquote>\n<p><strong>What the number can&#39;t tell you:</strong> a meter records quantity, not cause. It won&#39;t distinguish a faulty fridge from a window left open, and it won&#39;t tell you whether the usage was reasonable. That&#39;s a conversation, not a reading.</p>\n</blockquote>\n<p><a id=\"how-to-read-a-meter-and-spot-a-problem\"></a></p>\n<h2>How to Read a Meter and Spot a Problem</h2>\n<p>A reading you take yourself is the cheapest audit available. It takes five minutes and settles most arguments about whether a bill is right.</p>\n<p><img src=\"https://cdnimg.co/8279d253-4c1b-495f-bec8-b311552e2968/d5c528f0-fbc1-48a9-ae4d-f7ce08594f2d/utility-meter-reading-meters.jpg\" alt=\"A woman recording electricity usage readings from two utility meters onto a notepad inside a basement.\"></p>\n<ol>\n<li><strong>Find the meter and identify the register.</strong> A dial face is read by alternating direction; a digital display reads left to right. The slip: reading a dial backwards and landing thousands of units out.</li>\n<li><strong>Read the unit printed on the face.</strong> kWh, m³ or ft³. Match it to the invoice before comparing anything. The slip: comparing a reading in cubic feet against a bill in cubic metres.</li>\n<li><strong>Take the reading on the same day and time each cycle.</strong> Comparable periods are the entire point. The slip: reading on the 3rd one month and the 27th the next.</li>\n<li><strong>Ignore the small test or red dial.</strong> That element exists for calibration and testing. The slip: including it and inflating the total by a factor of ten.</li>\n<li><strong>Subtract the previous reading from the current one.</strong> That difference is the consumption for the period.</li>\n<li><strong>Compare the result with the quantity on the bill.</strong> If they diverge, request the actual reading and a copy of the meter records in writing.</li>\n<li><strong>Run an isolation check.</strong> With every fixture and appliance off, watch the register for a few minutes. A water meter that keeps moving has flow somewhere.</li>\n</ol>\n<iframe width=\"100%\" style=\"aspect-ratio: 16 / 9;\" src=\"https://www.youtube.com/watch?v=I6UPkncvFhw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>\n\n<p>A steady reading looks boring, and that&#39;s the point. Standby loads and clocks produce a slow, small drift. A continuous creep at a fixed rate is different, and it usually means water is escaping somewhere between the meter and the fixtures. If the register moves with everything off, the next step is a proper leak hunt, and <a href=\"https://584hero.com/blog/plumbing/plumbing-replacement/how-to-find-water-leak-in-house/\">Bear Valley Plumbing &amp; Heating&#39;s tips for finding a water leak in a house</a> walk through the fixtures and shutoff points worth checking first. Our own <a href=\"https://www.axismeter.com/blog/how-to-read-a-water-meter\">guide to reading a water meter</a> covers the dial patterns and leak tests specific to water registers.</p>\n<p><a id=\"decide-whether-submetering-fits-your-building\"></a></p>\n<h2>Decide Whether Submetering Fits Your Building</h2>\n<p>Before anyone quotes equipment, answer six questions about the building itself. The answers decide whether unit metering is straightforward, complicated, or the wrong tool for now.</p>\n<ul>\n<li><strong>Who owns and reads the master meter?</strong> If the utility owns it and bills the owner directly, you have a clean upstream figure to reconcile against each cycle.</li>\n<li><strong>What do local rules allow?</strong> Some jurisdictions cap the charge and require itemized invoices. Confirm this before a design is drawn.</li>\n<li><strong>How many units, and how are they supplied?</strong> Count suites, common areas and any shared branch. A building where four suites share one riser needs a different layout from one with a panel per suite.</li>\n<li><strong>Which services are worth metering?</strong> Electricity and water are the usual starting points. Thermal and gas depend on whether heating and cooking are central or per unit.</li>\n<li><strong>How much of the bill sits in common areas?</strong> That figure tells you how much cost stays with the owner once unit charges begin.</li>\n<li><strong>Who maintains the equipment afterwards?</strong> Seals, calibration records, billing queries and replacements all continue long after commissioning day.</li>\n</ul>\n<p>Then ask for a site review rather than a quote. Axis Meter Solutions offers a free consultation with a submetering specialist about your property, with no obligation, and the scope runs from equipment selection and installation through tenant billing, maintenance and compliance planning, so you can see which parts your building needs.</p>\n<p>Get the layout and the billing terms in writing before committing: which services are metered, who reads them, how common area consumption is allocated, how vacant units are treated, and how a disputed charge is resolved. A design that matches the building beats a design that matches a brochure.</p>\n<hr>\n<p>Axis Meter Solutions handles the full chain for multi-family, condominium, mixed-use and commercial properties: metering equipment, installation, commissioning, monthly tenant billing and ongoing maintenance, with no upfront capital cost to the owner. That work is where the gap between a building&#39;s master meter and its unit readings gets closed, cycle after cycle. If your submeter totals have never been reconciled against the utility bill, visit <a href=\"https://axismeter.com\">Axis Meter Solutions</a> to talk through your property.</p>",
+  "tags": [
+    "utility meter",
+    "electricity meter",
+    "water submeter",
+    "submetering",
+    "building meters"
+  ],
+  "title": "Utility Meter Explained: Types, Readings and Submeters",
+  "updatedAt": "2026-11-15T09:30:04.961Z"
+}
